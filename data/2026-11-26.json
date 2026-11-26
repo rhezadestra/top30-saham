@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-26",
+  "window": {
+    "start": "2026-11-25T19:01:00+07:00",
+    "end": "2026-11-26T19:00:00+07:00"
+  },
+  "target": 30,
+  "sample": false,
+  "finalized": "2026-11-26T19:30:00+07:00",
+  "note": "Edisi pertama, disusun dari pencarian berita pada 26 Nov sore. Belum mencakup semua artikel lima media; Investor.id belum terjaring di rentang ini.",
+  "media": [
+    {
+      "name": "Kontan",
+      "abbr": "KON"
+    },
+    {
+      "name": "CNBC Indonesia",
+      "abbr": "CNBC"
+    },
+    {
+      "name": "IDX Channel",
+      "abbr": "IDXC"
+    },
+    {
+      "name": "Bisnis",
+      "abbr": "BIS"
+    },
+    {
+      "name": "Investor.id",
+      "abbr": "INV"
+    }
+  ],
+  "topics": [
+    {
+      "id": "2026-11-26-bris-rights-issue",
+      "title": "BRIS siapkan rights issue 6,8 miliar saham",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "BRIS"
+      ],
+      "summary": "BSI akan menerbitkan hingga 6,8 miliar saham baru (12,85% modal disetor) untuk memperkuat modal pembiayaan, sesuai restu RUPSLB 6 November. HMETD diperdagangkan 18–24 Februari 2027; tanpa pembeli siaga, pemegang saham yang tidak ikut bisa terdilusi hingga 12,85%.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-26T09:48:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261126094836-17-788595/rights-issue-bsi--bris--mau-terbitkan-68-miliar-saham"
+        },
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T12:03:00+07:00",
+          "url": "https://keuangan.kontan.co.id/news/bsi-bris-rights-issue-maksimal-68-miliar-saham-siap-perkuat-modal"
+        },
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-26T12:53:00+07:00",
+          "url": "https://www.idxchannel.com/market-news/bsi-bris-gelar-rights-issue-februari-2027-siapkan-68-miliar-saham-baru"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-bumi-kinerja-q3",
+      "title": "BUMI: laba induk naik 405%, produksi batu bara naik 11%",
+      "category": "Kinerja",
+      "tickers": [
+        "BUMI"
+      ],
+      "summary": "Hingga September 2026 pendapatan Bumi Resources naik 38,85% menjadi US$1,44 miliar dan laba yang diatribusikan ke induk naik 404,9% menjadi US$148,47 juta. Produksi naik 11% menjadi 60,8 juta ton; analis memperkirakan harga batu bara 2027 lebih moderat.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-25T22:32:00+07:00",
+          "url": "https://investasi.kontan.co.id/news/laba-bumi-resources-bumi-melonjak-190-capai-us-17456-juta-hingga-september-2026"
+        },
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-26T15:39:00+07:00",
+          "url": "https://idxchannel.com/market-news/produksi-batu-bara-bumi-naik-11-persen-jadi-549-juta-ton-hingga-kuartal-iii-2026"
+        },
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T16:43:00+07:00",
+          "url": "https://investasi.kontan.co.id/news/laba-bumi-melonjak-hingga-september-2026-bagaimana-prospek-sahamnya-pada-2027"
+        },
+        {
+          "media": "Bisnis",
+          "time": "2026-11-26T12:00:00+07:00",
+          "url": "https://market.bisnis.com/read/20261126/192/2024641/bumi-resources-bumi-kerek-produksi-batu-bara-11-jadi-608-juta-ton",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-anda-ipo",
+      "title": "Jadwal IPO ANDA molor, BEI tunggu konfirmasi",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "ANDA"
+      ],
+      "summary": "Andalan Artha Primanusa menargetkan dana IPO hingga Rp316,76 miliar dari 1,67 miliar saham baru. Masa penawaran 24–27 November belum terlihat berjalan; BEI menyebut jadwal di prospektus awal masih indikatif.",
+      "sources": [
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-26T15:49:00+07:00",
+          "url": "https://idxchannel.com/market-news/anda-bidik-dana-ipo-rp31676-miliar-bei-tunggu-konfirmasi-jadwal"
+        },
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T16:57:00+07:00",
+          "url": "https://investasi.kontan.co.id/news/penjelasan-bursa-soal-jadwal-ipo-andalan-artha-primanusa-yang-molor"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-aadi-dividen-jadwal",
+      "title": "AADI: dividen interim US$500 juta setara Rp9,15 triliun",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "AADI"
+      ],
+      "summary": "Dividen interim 2026 dua kali lipat dari 2025 dan dibayar dalam rupiah dengan kurs tengah BI; recording 7 Desember, pembayaran 11 Desember. Besaran per saham belum diumumkan.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T06:53:00+07:00",
+          "url": "https://investasi.kontan.co.id/news/harga-saham-melesat-40-dividen-interim-2026-emiten-boy-thohir-naik-2x-dari-2025"
+        },
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T09:48:00+07:00",
+          "url": "https://stocksetup.kontan.co.id/news/bagikan-dividen-interim-rp1170-per-saham-intip-profil-aadi-hingga-kinerja-terbaru"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-msci-reformasi",
+      "title": "Prabowo bahas reformasi pasar dengan bos MSCI",
+      "category": "Regulasi",
+      "tickers": [],
+      "summary": "Menurut Rosan Roeslani, pembicaraan dengan Henry Fernandez berfokus pada keterbukaan saham berkonsentrasi tinggi serta penegakan hukum. CNBC juga membandingkan langkah Indonesia, seperti free float minimum 15%, dengan Turki yang sebagian indeksnya dibekukan MSCI.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-26T12:07:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261126115417-17-788655/beda-sikap-indonesia-dan-turki-hadapi-ancaman-msci"
+        },
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-26T12:34:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261126122728-17-788664/terungkap-ini-bocoran-isi-telepon-prabowo-dengan-bos-msci"
+        }
+      ],
+      "tags": [
+        "MSCI"
+      ]
+    },
+    {
+      "id": "2026-11-26-danantara-investasi",
+      "title": "Koreksi pasar tekan hasil investasi Danantara",
+      "category": "Kinerja",
+      "tickers": [],
+      "summary": "Danantara Investment Management menyebar investasi ke berbagai aset dan negara, tetapi koreksi pasar membuat laba 2026 diproyeksi di bawah target. Per 30 Oktober aset investasi publiknya Rp60,6 triliun, hanya 13,3% di Indonesia.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-25T19:26:00+07:00",
+          "url": "https://investasi.kontan.co.id/news/menilik-investasi-danantara-yang-bikin-tak-sentuh-target-laba-pada-2026"
+        },
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T07:41:00+07:00",
+          "url": "https://insight.kontan.co.id/news/koreksi-pasar-ancam-investasi-danantara"
+        }
+      ],
+      "tags": [
+        "Danantara"
+      ]
+    },
+    {
+      "id": "2026-11-26-hsc-27-bank",
+      "title": "27 saham bank masuk daftar HSC",
+      "category": "Regulasi",
+      "tickers": [
+        "BRIS",
+        "BNGA",
+        "BNII",
+        "BDMN",
+        "MEGA",
+        "NISP",
+        "BTPN"
+      ],
+      "summary": "Sebanyak 27 bank termasuk dalam 383 saham berkonsentrasi kepemilikan tinggi (HSC) yang dirilis BEI awal November. Saham HSC dikeluarkan dari perhitungan bobot IHSG.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-26T08:15:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261126072325-17-788557/sahamnya-dikuasai-segelintir-pihak-27-bank-ini-masuk-daftar-hsc"
+        }
+      ],
+      "tags": [
+        "+20 bank"
+      ]
+    },
+    {
+      "id": "2026-11-26-bei-nms",
+      "title": "BEI perketat pengawasan dengan sistem Nasdaq",
+      "category": "Regulasi",
+      "tickers": [],
+      "summary": "BEI memakai Nasdaq Market Surveillance untuk mengenali pola transaksi mencurigakan, termasuk dugaan insider trading. Sistem ini juga menyimpan rekam jejak investor dan anggota bursa.",
+      "sources": [
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-26T18:42:00+07:00",
+          "url": "https://www.idxchannel.com/market-news/bei-perkuat-pengawasan-saham-andalkan-teknologi-nasdaq-dan-transparansi-pemeriksaan"
+        }
+      ],
+      "tags": [
+        "BEI"
+      ]
+    },
+    {
+      "id": "2026-11-26-byan-direksi",
+      "title": "Low Tuck Kwong lepas kursi dirut Bayan",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "BYAN"
+      ],
+      "summary": "RUPSLB 23 November menunjuk Ary Bastari sebagai direktur utama menggantikan Low Tuck Kwong. Low tetap pengendali, dan manajemen menyatakan arah bisnis tidak berubah.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-26T09:25:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261126080338-17-788568/tak-lagi-dirut-bayan-low-tuck-kwong-pegang-peran-penting-ini"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-smsm-dividen-anak",
+      "title": "SMSM terima dividen Rp34 miliar dari anak usaha",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "SMSM"
+      ],
+      "summary": "Selamat Sempurna menerima dividen interim ketiga tahun buku 2026 dari PT Panata Jaya Mandiri. Hingga September penjualan naik 6,74% menjadi Rp4,18 triliun dan laba bersih naik 7,8% menjadi Rp958,34 miliar.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T15:16:00+07:00",
+          "url": "https://investasi.kontan.co.id/news/selamat-sempurna-smsm-terima-dividen-rp-3412-miliar-dari-anak-usaha"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-gpra-buyback",
+      "title": "GPRA siapkan buyback Rp40 miliar",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "GPRA"
+      ],
+      "summary": "Perdana Gapuraprima akan membeli kembali saham dengan dana internal dan merencanakan rights issue untuk menambah hotel dan pusat perbelanjaan.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-25T22:23:00+07:00",
+          "url": "https://investasi.kontan.co.id/news/didukung-fundamental-solid-gpra-siap-buyback-saham-maksimal-rp-40-miliar"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-essa-proyeksi",
+      "title": "Laba ESSA diproyeksi US$64,3 juta",
+      "category": "Kinerja",
+      "tickers": [
+        "ESSA"
+      ],
+      "summary": "Analis memperkirakan laba 2026 naik seiring pulihnya produksi amonia dan perpanjangan kontrak gas 20 tahun. Harga gas baru belum diungkap.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-25T19:05:00+07:00",
+          "url": "https://investasi.kontan.co.id/news/penjualan-amonia-menguat-laba-essa-diproyeksi-tembus-us-643-juta-pada-2026"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-spma-penjualan",
+      "title": "SPMA cetak penjualan Rp2,19 triliun hingga kuartal III",
+      "category": "Kinerja",
+      "tickers": [
+        "SPMA"
+      ],
+      "summary": "Suparma melaporkan penjualan Rp2,19 triliun hingga kuartal III/2026, menurut Bisnis.",
+      "sources": [
+        {
+          "media": "Bisnis",
+          "time": "2026-11-26T12:00:00+07:00",
+          "url": "https://surabaya.bisnis.com/read/20261126/532/2024762/suparma-spma-cetak-penjualan-rp219-triliun-pada-kuartal-iii2026",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-tarif-as-pce",
+      "title": "AS umumkan tarif impor baru, inflasi PCE naik",
+      "category": "Makro",
+      "tickers": [],
+      "summary": "Gedung Putih mengumumkan tarif baru untuk lebih dari belasan mitra dagang, termasuk China dan Uni Eropa. PCE Oktober naik ke 3,8% (yoy), memperkuat ekspektasi The Fed mengetatkan kebijakan.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-26T08:35:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261126074200-17-788563/trump-tebar-tarif-baru-bursa-asia-justru-kompak-menguat"
+        }
+      ],
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "id": "2026-11-26-premi-risiko",
+      "title": "Premi risiko Indonesia naik, rupiah dan The Fed membebani",
+      "category": "Makro",
+      "tickers": [],
+      "summary": "Pelemahan rupiah sepekan terakhir mendorong premi risiko Indonesia naik. Potensi kenaikan bunga The Fed pada Desember dan indeks dolar AS di 104 ikut membebani pasar.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T05:44:00+07:00",
+          "url": "https://insight.kontan.co.id/news/premi-risiko-indonesia-meningkat-berikut-rekomendasi-saham-hari-ini-kamis-2611"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-ina-aum",
+      "title": "Dana kelolaan INA dan mitra capai Rp149,1 triliun",
+      "category": "Makro",
+      "tickers": [],
+      "summary": "Dana kelolaan Indonesia Investment Authority bersama mitra investasinya mencapai Rp149,1 triliun per kuartal III/2026, menurut Bisnis.",
+      "sources": [
+        {
+          "media": "Bisnis",
+          "time": "2026-11-26T12:00:00+07:00",
+          "url": "https://market.bisnis.com/read/20261126/192/2024727/dana-kelolaan-swf-ina-dan-mitra-sentuh-rp1491-triliun-per-kuartal-iii2026",
+          "approx": true
+        }
+      ],
+      "tags": [
+        "INA"
+      ]
+    }
+  ]
+}

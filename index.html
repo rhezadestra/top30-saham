@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141C26" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Top 30 Saham">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<title>Top 30 Berita Saham</title>
+<meta name="description" content="Rangkuman harian topik berita saham dari lima media, tanpa berita pergerakan harga.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: satu kolom untuk dibaca pagi di HP (maks 680px). Bilah atas lengket, kepala edisi dengan meter 30 slot, filter, daftar berperingkat, lalu aturan hitung. */
+:root {
+  --paper: #F3F5F8;
+  --surface: #FFFFFF;
+  --ink: #132030;
+  --ink-2: #4A586A;
+  --ink-3: #758396;
+  --line: #DCE2EA;
+  --accent: #2447C7;
+  --accent-ink: #FFFFFF;
+  --accent-soft: #E5EAFB;
+  --star: #B57A06;
+  --star-soft: #FBF0D8;
+  --aksi: #6A3EC4;    --aksi-bg: #EEE8FB;
+  --kinerja: #1B744A; --kinerja-bg: #E3F2E9;
+  --regulasi: #B13A22; --regulasi-bg: #FBE8E3;
+  --makro: #4A586A;   --makro-bg: #EBEEF2;
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0D131A; --surface: #141C26; --ink: #E6EBF1; --ink-2: #A3B0BF; --ink-3: #7D8B9C; --line: #253140;
+    --accent: #85A1FF; --accent-ink: #0D131A; --accent-soft: #1C2A4D;
+    --star: #F0B743; --star-soft: #3A2E14;
+    --aksi: #BCA6FF; --aksi-bg: #2A2342;
+    --kinerja: #74D2A2; --kinerja-bg: #15322A;
+    --regulasi: #FF9C86; --regulasi-bg: #3A1F1A;
+    --makro: #A3B0BF; --makro-bg: #222C38;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0D131A; --surface: #141C26; --ink: #E6EBF1; --ink-2: #A3B0BF; --ink-3: #7D8B9C; --line: #253140;
+  --accent: #85A1FF; --accent-ink: #0D131A; --accent-soft: #1C2A4D;
+  --star: #F0B743; --star-soft: #3A2E14;
+  --aksi: #BCA6FF; --aksi-bg: #2A2342;
+  --kinerja: #74D2A2; --kinerja-bg: #15322A;
+  --regulasi: #FF9C86; --regulasi-bg: #3A1F1A;
+  --makro: #A3B0BF; --makro-bg: #222C38;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface);
+}
+a { color: var(--accent); }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.gutter {
+  max-width: 680px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+/* Bilah atas */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
+.bar .gutter { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 10px; }
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.brand svg { flex: none; }
+.brand b { font-family: var(--font-display); font-weight: 700; font-size: 16px; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ed-pick { display: flex; align-items: center; gap: 6px; }
+.ed-pick select {
+  appearance: none; -webkit-appearance: none;
+  background: var(--paper); border: 1px solid var(--line); border-radius: 8px;
+  padding: 6px 28px 6px 10px; font-family: var(--font-data); font-size: 13px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--ink-2) 50%), linear-gradient(135deg, var(--ink-2) 50%, transparent 50%);
+  background-position: calc(100% - 14px) 52%, calc(100% - 9px) 52%;
+  background-size: 5px 5px; background-repeat: no-repeat;
+}
+
+/* Kepala edisi */
+.edition { padding-block: 22px 18px; display: grid; gap: 10px; }
+.eyebrow { margin: 0; font-family: var(--font-data); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+.edition h1 { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: clamp(26px, 7vw, 34px); line-height: 1.1; letter-spacing: -0.02em; text-wrap: balance; }
+.window { margin: 0; font-family: var(--font-data); font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.sample { margin: 4px 0 0; padding: 10px 12px; border-radius: 10px; background: var(--star-soft); color: var(--ink); font-size: 13.5px; }
+.sample strong { color: var(--star); }
+.sample.info { background: var(--surface); border: 1px solid var(--line); color: var(--ink-2); }
+.sample.info strong { color: var(--ink); }
+
+/* Tab: Hari ini (sementara) dan Edisi final */
+.tabs { display: flex; gap: 4px; padding: 4px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); width: fit-content; max-width: 100%; }
+.tab { border: 0; background: transparent; color: var(--ink-2); border-radius: 9px; padding: 7px 14px; font-weight: 600; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
+.tab[aria-selected="true"] { background: var(--ink); color: var(--paper); }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--kinerja); flex: none; }
+.tab[aria-selected="true"] .dot { background: var(--kinerja-bg); box-shadow: 0 0 0 2px var(--kinerja); }
+.eyebrow .dot { display: inline-block; margin-right: 6px; vertical-align: 1px; }
+.live-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.live-row .hint { flex: 1 1 220px; }
+.btn.ghost { background: var(--surface); color: var(--ink); border: 1px solid var(--line); padding: 7px 12px; font-size: 13.5px; }
+.move { display: block; margin-top: 6px; font-family: var(--font-data); font-size: 11px; font-weight: 500; text-align: right; font-variant-numeric: tabular-nums; }
+.move.up { color: var(--kinerja); }
+.move.down { color: var(--regulasi); }
+.move.new { color: var(--accent); }
+.badge-new { font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); }
+
+.meter { display: flex; gap: 3px; margin-top: 8px; }
+.meter span { flex: 1; height: 14px; border-radius: 3px; background: var(--line); }
+.meter span.on { background: var(--accent); }
+.meter-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.meter-meta b { color: var(--ink); font-weight: 600; }
+.tally { list-style: none; margin: 2px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.tally li { font-family: var(--font-data); font-size: 12px; padding: 3px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-2); background: var(--surface); font-variant-numeric: tabular-nums; }
+.tally li b { color: var(--ink); font-weight: 500; }
+
+.install { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 4px; }
+.btn { border: 0; border-radius: 10px; padding: 9px 14px; background: var(--accent); color: var(--accent-ink); font-weight: 600; cursor: pointer; }
+.hint { margin: 0; font-size: 13px; color: var(--ink-2); }
+
+/* Filter */
+.controls { position: sticky; top: calc(env(safe-area-inset-top, 0px) + var(--bar-h, 52px)); z-index: 4; background: var(--paper); padding-block: 10px; display: grid; gap: 10px; border-bottom: 1px solid var(--line); }
+.search input {
+  width: 100%; border: 1px solid var(--line); border-radius: 10px; background: var(--surface);
+  padding: 10px 12px; font-size: 15px;
+}
+.search input::placeholder { color: var(--ink-3); }
+.chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+  border-radius: 999px; padding: 6px 12px; font-size: 13.5px; cursor: pointer; white-space: nowrap;
+}
+.chip .n { font-family: var(--font-data); font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.chip[aria-pressed="true"] .n { color: var(--paper); opacity: 0.75; }
+.chip svg { width: 14px; height: 14px; }
+
+/* Daftar topik */
+.topics { list-style: none; margin: 0; padding: 0; }
+.topic { display: grid; grid-template-columns: 2.4ch minmax(0, 1fr); gap: 4px 14px; padding-block: 18px; border-bottom: 1px solid var(--line); }
+.rank { font-family: var(--font-display); font-weight: 700; font-size: 28px; line-height: 1; color: var(--accent); font-variant-numeric: tabular-nums; text-align: right; padding-top: 2px; }
+.t-body { min-width: 0; display: grid; gap: 8px; }
+.t-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.cat { font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 6px; }
+.cat.aksi { color: var(--aksi); background: var(--aksi-bg); }
+.cat.kinerja { color: var(--kinerja); background: var(--kinerja-bg); }
+.cat.regulasi { color: var(--regulasi); background: var(--regulasi-bg); }
+.cat.makro { color: var(--makro); background: var(--makro-bg); }
+.tk { font-family: var(--font-data); font-size: 12.5px; font-weight: 500; color: var(--ink); letter-spacing: 0.02em; }
+.tag { font-size: 12px; color: var(--ink-3); }
+.t-title { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 19px; line-height: 1.25; letter-spacing: -0.01em; text-wrap: balance; }
+.t-sum { margin: 0; color: var(--ink-2); max-width: 62ch; }
+.t-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.cov { display: flex; gap: 3px; }
+.cov span {
+  font-family: var(--font-data); font-size: 10px; font-weight: 500; letter-spacing: 0.02em;
+  padding: 2px 5px; border-radius: 4px; border: 1px solid var(--line); color: var(--ink-3);
+}
+.cov span.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.counts { font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.save {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+  border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer;
+}
+.save svg { width: 15px; height: 15px; }
+.save[aria-pressed="true"] { background: var(--star-soft); border-color: var(--star-soft); color: var(--star); }
+.save[aria-pressed="true"] svg path { fill: currentColor; }
+
+.src summary { cursor: pointer; font-size: 13.5px; color: var(--ink-2); width: fit-content; }
+.src summary::marker { color: var(--ink-3); }
+.src ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+.src a { display: flex; justify-content: space-between; gap: 12px; padding: 8px 10px; border-radius: 8px; background: var(--paper); border: 1px solid var(--line); text-decoration: none; color: var(--ink); font-size: 14px; }
+.src a .when { font-family: var(--font-data); font-size: 12.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.empty { margin: 0; padding-block: 28px; color: var(--ink-2); text-align: center; }
+.state { padding-block: 40px; text-align: center; color: var(--ink-2); display: grid; gap: 12px; justify-items: center; }
+
+/* Edisi berikutnya, aturan, catatan kaki */
+.later { padding-block: 22px 6px; display: grid; gap: 10px; }
+.later h2, .rules summary { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 17px; }
+.later p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+.later ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.later a { display: flex; gap: 10px; align-items: baseline; padding: 9px 12px; border: 1px dashed var(--line); border-radius: 10px; text-decoration: none; color: var(--ink); font-size: 14px; }
+.later a .when { margin-left: auto; font-family: var(--font-data); font-size: 12.5px; color: var(--ink-3); white-space: nowrap; }
+
+.rules { margin-top: 18px; padding: 14px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
+.rules summary { cursor: pointer; }
+.rules dl { margin: 12px 0 0; display: grid; gap: 10px; font-size: 14px; }
+.rules dt { font-weight: 600; }
+.rules dd { margin: 2px 0 0; color: var(--ink-2); }
+footer { padding-block: 20px 36px; font-size: 13px; color: var(--ink-3); display: grid; gap: 4px; }
+footer p { margin: 0; }
+
+@media (min-width: 560px) {
+  .topic { grid-template-columns: 3ch minmax(0, 1fr); gap: 4px 18px; }
+  .rank { font-size: 32px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .meter span.on { animation: fill .5s ease-out both; }
+  @keyframes fill { from { transform: scaleY(.3); } to { transform: none; } }
+  .eyebrow .dot, .tab .dot { animation: pulse 2s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .35; } }
+}
+</style>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)} body{margin:0} [hidden]{display:none!important} img{max-width:100%}</style>
+</head>
+<body>
+<header class="bar">
+  <div class="gutter">
+    <div class="brand">
+      <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
+        <rect width="28" height="28" rx="7" fill="var(--accent)"></rect>
+        <text x="14" y="16.5" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-weight="500" font-size="11" fill="var(--accent-ink)">30</text>
+        <g fill="var(--accent-ink)"><rect x="6" y="20" width="2.6" height="2" rx="1"></rect><rect x="9.6" y="20" width="2.6" height="2" rx="1"></rect><rect x="13.2" y="20" width="2.6" height="2" rx="1"></rect><rect x="16.8" y="20" width="2.6" height="2" rx="1" opacity=".45"></rect><rect x="20.4" y="20" width="2.6" height="2" rx="1" opacity=".45"></rect></g>
+      </svg>
+      <b>Top 30 Berita Saham</b>
+    </div>
+    <label class="ed-pick"><span class="sr-only">Pilih edisi</span>
+      <select id="edition-select" aria-label="Pilih edisi"></select>
+    </label>
+  </div>
+</header>
+
+<main>
+  <section class="gutter edition" aria-labelledby="ed-date">
+    <div class="tabs" id="tabs" role="tablist" aria-label="Tampilan" hidden>
+      <button class="tab" type="button" role="tab" id="tab-live" data-view="live" aria-selected="false"><span class="dot" aria-hidden="true"></span>Hari ini</button>
+      <button class="tab" type="button" role="tab" id="tab-final" data-view="final" aria-selected="true">Edisi final</button>
+    </div>
+    <p class="eyebrow" id="ed-eyebrow">Edisi</p>
+    <h1 id="ed-date">Memuat edisi…</h1>
+    <p class="window" id="ed-window"></p>
+    <div class="live-row" id="live-row" hidden>
+      <p class="hint" id="live-hint"></p>
+      <button class="btn ghost" id="refresh" type="button">Muat ulang</button>
+    </div>
+    <p class="sample" id="ed-sample" hidden></p>
+    <div class="meter" id="meter" role="img" aria-label=""></div>
+    <div class="meter-meta"><span id="meter-label"></span><span id="ed-totals"></span></div>
+    <ul class="tally" id="tally" aria-label="Jumlah artikel per media"></ul>
+    <div class="install" id="install-row" hidden>
+      <button class="btn" id="install-btn" type="button" hidden>Pasang aplikasi</button>
+      <p class="hint" id="ios-hint" hidden>Di iPhone: ketuk Bagikan, lalu Tambahkan ke Layar Utama.</p>
+    </div>
+  </section>
+
+  <div class="controls">
+    <div class="gutter" style="display:grid;gap:10px">
+      <label class="search"><span class="sr-only">Cari</span>
+        <input id="q" type="search" placeholder="Cari kode saham atau kata, mis. AADI" autocomplete="off" enterkeyhint="search">
+      </label>
+      <div class="chips" id="chips" role="group" aria-label="Filter"></div>
+    </div>
+  </div>
+
+  <div class="gutter">
+    <ol class="topics" id="topics" aria-live="polite"></ol>
+    <p class="empty" id="empty" hidden>Tidak ada topik yang cocok. Hapus pencarian atau pilih filter lain.</p>
+    <div class="state" id="error" hidden>
+      <p style="margin:0">Edisi belum bisa dimuat. Periksa koneksi, lalu coba lagi.</p>
+      <button class="btn" id="retry" type="button">Coba lagi</button>
+    </div>
+
+    <section class="later" id="later" hidden aria-labelledby="later-h">
+      <h2 id="later-h">Masuk edisi berikutnya</h2>
+      <p id="later-p">Terbit setelah batas edisi, jadi dihitung di edisi berikutnya.</p>
+      <ul id="later-list"></ul>
+    </section>
+
+    <details class="rules" id="rules">
+      <summary>Cara hitung</summary>
+      <dl>
+        <div><dt>Rentang waktu</dt><dd>19.01 hari sebelumnya sampai 19.00 WIB. Edisi final dikunci pukul 19.00 setiap hari.</dd></div>
+        <div><dt>Tab Hari ini</dt><dd>Edisi yang sedang berjalan, diperbarui tiap jam pukul 06.00–19.00 WIB. Peringkat masih bisa berubah. Panah menunjukkan naik atau turun dibanding pembaruan sebelumnya; "Baru" berarti topik baru masuk.</dd></div>
+        <div><dt>Sumber</dt><dd>Kontan, CNBC Indonesia, IDX Channel, Bisnis, dan Investor.id.</dd></div>
+        <div><dt>Dibuang</dt><dd>Berita pergerakan harga (IHSG, top gainer dan loser, analisis teknikal), net buy dan sell asing, serta harga emas dan kurs.</dd></div>
+        <div><dt>Satu topik</dt><dd>Satu peristiwa. Beberapa artikel tentang peristiwa yang sama digabung.</dd></div>
+        <div><dt>Urutan</dt><dd>Jumlah media yang memberitakan, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu jam terbit paling awal.</dd></div>
+        <div><dt>Kurang dari 30</dt><dd>Ditampilkan apa adanya, tanpa diisi topik pelengkap.</dd></div>
+        <div><dt>Jam tak terbaca</dt><dd>Jika halaman artikel tidak bisa dibuka untuk dicek jamnya, artikel dihitung dari tanggal terbitnya dan ditandai "jam tak terbaca".</dd></div>
+      </dl>
+    </details>
+
+    <footer>
+      <p>Bahan riset, bukan rekomendasi beli atau jual.</p>
+      <p>Ringkasan ditulis ulang. Baca artikel aslinya lewat tautan sumber.</p>
+    </footer>
+  </div>
+</main>
+
+<script>
+(() => {
+  const CATS = {
+    "Aksi korporasi": { cls: "aksi", order: 0 },
+    "Regulasi": { cls: "regulasi", order: 1 },
+    "Kinerja": { cls: "kinerja", order: 2 },
+    "Makro": { cls: "makro", order: 3 }
+  };
+  const SAVED_KEY = "top30.saved";
+  const LIVE_FILE = "sementara.json";
+  const UPDATE_HOURS = [6, 19]; // pembaruan tiap jam, 06.00 sampai 19.00 WIB
+  const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>';
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const tz = { timeZone: "Asia/Jakarta" };
+  const fmtLong = (d) => new Intl.DateTimeFormat("id-ID", { weekday: "long", day: "numeric", month: "long", year: "numeric", ...tz }).format(new Date(d + "T12:00:00+07:00"));
+  const fmtShortDate = (d) => new Intl.DateTimeFormat("id-ID", { day: "numeric", month: "short", ...tz }).format(new Date(d + "T12:00:00+07:00"));
+  const fmtDay = (iso) => new Intl.DateTimeFormat("id-ID", { day: "numeric", month: "short", ...tz }).format(new Date(iso));
+  const fmtTime = (iso) => new Intl.DateTimeFormat("id-ID", { hour: "2-digit", minute: "2-digit", hour12: false, ...tz }).format(new Date(iso));
+  const wibHour = (ms) => Number(new Intl.DateTimeFormat("en-GB", { hour: "2-digit", hour12: false, ...tz }).format(new Date(ms)));
+
+  const state = { editions: [], view: "final", file: null, ed: null, live: null, ranked: [], later: [], cat: "Semua", q: "", saved: readSaved() };
+
+  function readSaved() {
+    try { return new Set(JSON.parse(localStorage.getItem(SAVED_KEY) || "[]")); } catch (e) { return new Set(); }
+  }
+  function writeSaved() {
+    try { localStorage.setItem(SAVED_KEY, JSON.stringify([...state.saved])); } catch (e) { /* penyimpanan tidak tersedia */ }
+  }
+
+  async function getJSON(url) {
+    const r = await fetch(url, { cache: "no-cache" });
+    if (!r.ok) throw new Error(url + " " + r.status);
+    return r.json();
+  }
+
+  // Terapkan aturan: hanya artikel di dalam rentang waktu, urutkan, potong ke target.
+  function build(ed) {
+    const start = Date.parse(ed.window.start), end = Date.parse(ed.window.end);
+    const inWin = [], later = [];
+    for (const t of ed.topics || []) {
+      const src = t.sources.filter((s) => { const x = Date.parse(s.time); return x >= start && x <= end; });
+      if (src.length) {
+        const media = new Set(src.map((s) => s.media));
+        inWin.push({ ...t, sources: src, media, nMedia: media.size, nArt: src.length, first: Math.min(...src.map((s) => Date.parse(s.time))) });
+      } else if (t.sources.some((s) => Date.parse(s.time) > end)) {
+        later.push(t);
+      }
+    }
+    const ord = (c) => (CATS[c] ? CATS[c].order : 9);
+    inWin.sort((a, b) => b.nMedia - a.nMedia || b.nArt - a.nArt || ord(a.category) - ord(b.category) || a.first - b.first);
+    return { ranked: inWin.slice(0, ed.target || 30).map((t, i) => ({ ...t, rank: i + 1 })), later };
+  }
+
+  // Jam pembaruan berikutnya untuk tab Hari ini.
+  function nextUpdate(fromMs) {
+    const h = wibHour(fromMs);
+    if (h < UPDATE_HOURS[0]) return "06.00";
+    if (h >= UPDATE_HOURS[1]) return "besok 06.00";
+    return String(h + 1).padStart(2, "0") + ".00";
+  }
+
+  function when(s) {
+    const sameDay = fmtDay(s.time) === fmtDay(state.ed.window.end);
+    if (s.approx) return fmtDay(s.time) + " · jam tak terbaca";
+    return (sameDay ? "" : fmtDay(s.time) + " ") + fmtTime(s.time) + " WIB";
+  }
+
+  function renderHead() {
+    const ed = state.ed, target = ed.target || 30, n = state.ranked.length, live = !!ed.live;
+    $("ed-eyebrow").innerHTML = live
+      ? '<span class="dot" aria-hidden="true"></span>Sementara · diperbarui ' + esc(fmtTime(ed.updated)) + " WIB"
+      : "Edisi final";
+    $("ed-date").textContent = live ? "Menuju edisi " + fmtLong(ed.date) : fmtLong(ed.date);
+    $("ed-window").textContent = fmtDay(ed.window.start) + " " + fmtTime(ed.window.start) + " – " + fmtDay(ed.window.end) + " " + fmtTime(ed.window.end) + " WIB";
+
+    $("live-row").hidden = !live;
+    if (live) {
+      $("live-hint").textContent = "Peringkat masih berubah. Pembaruan berikutnya " + nextUpdate(Date.now()) + " WIB; pukul " + fmtTime(ed.window.end) + " dikunci menjadi edisi final.";
+    }
+
+    const box = $("ed-sample");
+    box.hidden = !(ed.sample || ed.note);
+    box.className = "sample" + (ed.sample ? "" : " info");
+    if (ed.sample) box.innerHTML = "<strong>Data contoh.</strong> " + esc(ed.note ? ed.note.replace(/^Data contoh\.\s*/, "") : "");
+    else if (ed.note) box.innerHTML = "<strong>Catatan.</strong> " + esc(ed.note);
+
+    $("meter").innerHTML = Array.from({ length: target }, (_, i) => '<span class="' + (i < n ? "on" : "") + '" style="animation-delay:' + (i * 18) + 'ms"></span>').join("");
+    $("meter").setAttribute("aria-label", n + " dari " + target + " slot terisi");
+    $("meter-label").innerHTML = "<b>" + n + "</b> dari " + target + " topik";
+    const arts = state.ranked.reduce((a, t) => a + t.nArt, 0);
+    const usedMedia = new Set(state.ranked.flatMap((t) => [...t.media]));
+    $("ed-totals").textContent = arts + " artikel · " + usedMedia.size + " dari " + ed.media.length + " media";
+
+    const per = Object.fromEntries(ed.media.map((m) => [m.name, 0]));
+    state.ranked.forEach((t) => t.sources.forEach((s) => { per[s.media] = (per[s.media] || 0) + 1; }));
+    $("tally").innerHTML = ed.media.map((m) => "<li>" + esc(m.name) + " <b>" + per[m.name] + "</b></li>").join("");
+  }
+
+  function renderTabs() {
+    $("tabs").hidden = !state.live;
+    $("tab-live").setAttribute("aria-selected", String(state.view === "live"));
+    $("tab-final").setAttribute("aria-selected", String(state.view === "final"));
+    document.querySelector(".ed-pick").hidden = state.view === "live";
+  }
+
+  function renderChips() {
+    const counts = { Semua: state.ranked.length };
+    state.ranked.forEach((t) => { counts[t.category] = (counts[t.category] || 0) + 1; });
+    const savedN = state.ranked.filter((t) => state.saved.has(t.id)).length;
+    const keys = ["Semua", ...Object.keys(CATS).filter((k) => counts[k])];
+    let html = keys.map((k) => '<button class="chip" type="button" data-cat="' + esc(k) + '" aria-pressed="' + (state.cat === k) + '">' + esc(k) + ' <span class="n">' + counts[k] + "</span></button>").join("");
+    html += '<button class="chip" type="button" data-cat="Tersimpan" aria-pressed="' + (state.cat === "Tersimpan") + '">' + STAR + ' Ide tersimpan <span class="n">' + savedN + "</span></button>";
+    $("chips").innerHTML = html;
+  }
+
+  function matches(t) {
+    if (state.cat === "Tersimpan" && !state.saved.has(t.id)) return false;
+    if (state.cat !== "Semua" && state.cat !== "Tersimpan" && t.category !== state.cat) return false;
+    const q = state.q.trim().toLowerCase();
+    if (!q) return true;
+    return [t.title, t.summary, ...(t.tickers || []), ...(t.tags || [])].join(" ").toLowerCase().includes(q);
+  }
+
+  // Naik/turun dibanding pembaruan sebelumnya (hanya di tab Hari ini).
+  function moveHTML(t) {
+    const prev = state.ed.live && state.ed.prevRanks;
+    if (!prev || !Object.keys(prev).length) return "";
+    if (!(t.id in prev)) return '<span class="move new" aria-label="Topik baru">Baru</span>';
+    const d = prev[t.id] - t.rank;
+    if (d > 0) return '<span class="move up" aria-label="Naik ' + d + '">▲' + d + "</span>";
+    if (d < 0) return '<span class="move down" aria-label="Turun ' + -d + '">▼' + -d + "</span>";
+    return "";
+  }
+
+  function topicHTML(t) {
+    const cat = CATS[t.category] || CATS.Makro;
+    const tickers = (t.tickers || []).map((k) => '<span class="tk">' + esc(k) + "</span>").join("") + (t.tags || []).map((k) => '<span class="tag">' + esc(k) + "</span>").join("");
+    const cov = state.ed.media.map((m) => '<span class="' + (t.media.has(m.name) ? "on" : "") + '" title="' + esc(m.name) + '">' + esc(m.abbr) + "</span>").join("");
+    const covLabel = "Diberitakan " + t.nMedia + " dari " + state.ed.media.length + " media: " + [...t.media].join(", ");
+    const saved = state.saved.has(t.id);
+    const src = t.sources.slice().sort((a, b) => Date.parse(a.time) - Date.parse(b.time)).map((s) =>
+      '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener"><span>' + esc(s.media) + ' ↗</span><span class="when">' + esc(when(s)) + "</span></a></li>").join("");
+    return '<li class="topic">' +
+      '<div class="rank" aria-label="Peringkat ' + t.rank + '">' + t.rank + moveHTML(t) + "</div>" +
+      '<div class="t-body">' +
+        '<div class="t-meta"><span class="cat ' + cat.cls + '">' + esc(t.category) + "</span>" + tickers + "</div>" +
+        '<h2 class="t-title">' + esc(t.title) + "</h2>" +
+        '<p class="t-sum">' + esc(t.summary) + "</p>" +
+        '<div class="t-foot">' +
+          '<div class="cov" role="img" aria-label="' + esc(covLabel) + '">' + cov + "</div>" +
+          '<span class="counts">' + t.nMedia + " media · " + t.nArt + " artikel</span>" +
+          '<button class="save" type="button" data-id="' + esc(t.id) + '" aria-pressed="' + saved + '">' + STAR + (saved ? "Tersimpan" : "Simpan ide") + "</button>" +
+        "</div>" +
+        '<details class="src"><summary>Sumber (' + t.nArt + ")</summary><ul>" + src + "</ul></details>" +
+      "</div></li>";
+  }
+
+  function renderList() {
+    const shown = state.ranked.filter(matches);
+    $("topics").innerHTML = shown.map(topicHTML).join("");
+    $("empty").hidden = shown.length > 0;
+    if (!state.ranked.length && state.ed.live) {
+      $("empty").textContent = "Belum ada topik sejak " + fmtTime(state.ed.window.start) + " WIB. Pembaruan berikutnya " + nextUpdate(Date.now()) + " WIB. Edisi final terakhir ada di tab Edisi final.";
+    } else if (!shown.length && state.cat === "Tersimpan" && !state.q) {
+      $("empty").textContent = "Belum ada ide tersimpan. Ketuk Simpan ide pada topik yang ingin Anda riset.";
+    } else {
+      $("empty").textContent = "Tidak ada topik yang cocok. Hapus pencarian atau pilih filter lain.";
+    }
+  }
+
+  function renderLater() {
+    const box = $("later");
+    box.hidden = !state.later.length;
+    $("later-p").textContent = "Terbit setelah " + fmtTime(state.ed.window.end) + " WIB, jadi dihitung di edisi berikutnya.";
+    $("later-list").innerHTML = state.later.map((t) => {
+      const s = t.sources[0];
+      return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener"><span class="tk">' + esc((t.tickers || [])[0] || "") + "</span><span>" + esc(t.title) + '</span><span class="when">' + esc(s.media) + " " + fmtTime(s.time) + "</span></a></li>";
+    }).join("");
+  }
+
+  function show(ed) {
+    state.ed = ed;
+    const b = build(ed);
+    state.ranked = b.ranked; state.later = b.later;
+    if (state.cat !== "Semua" && state.cat !== "Tersimpan" && !state.ranked.some((t) => t.category === state.cat)) state.cat = "Semua";
+    renderTabs(); renderHead(); renderChips(); renderList(); renderLater();
+  }
+
+  async function loadEdition(file) {
+    state.file = file;
+    show(await getJSON("data/" + file));
+  }
+
+  async function loadLive() {
+    try { state.live = await getJSON("data/" + LIVE_FILE); } catch (e) { state.live = null; }
+    return state.live;
+  }
+
+  async function setView(view) {
+    state.view = view;
+    if (view === "live" && state.live) show(state.live);
+    else { state.view = "final"; await loadEdition(state.file || state.editions[0].file); }
+  }
+
+  async function boot() {
+    $("error").hidden = true;
+    try {
+      const [idx] = await Promise.all([getJSON("data/index.json"), loadLive()]);
+      state.editions = (idx.editions || []).slice().sort((a, b) => b.date.localeCompare(a.date));
+      if (!state.editions.length && !state.live) throw new Error("tidak ada edisi");
+      $("edition-select").innerHTML = state.editions.map((e) => '<option value="' + esc(e.file) + '">' + esc(fmtShortDate(e.date)) + "</option>").join("");
+      state.file = state.editions.length ? state.editions[0].file : null;
+      // Buka tab Hari ini jika sudah ada isinya; jika masih kosong, buka edisi final terakhir.
+      const liveHasTopics = state.live && build(state.live).ranked.length > 0;
+      await setView(liveHasTopics || !state.file ? "live" : "final");
+    } catch (e) {
+      $("ed-date").textContent = "Edisi belum tersedia";
+      $("error").hidden = false;
+    }
+  }
+
+  // Ambil ulang tab Hari ini; render ulang hanya jika ada pembaruan baru.
+  async function refreshLive(force) {
+    const before = state.live && state.live.updated;
+    await loadLive();
+    if (!state.live) return;
+    if (state.view === "live" && (force || state.live.updated !== before)) show(state.live);
+    else renderTabs();
+  }
+
+  $("edition-select").addEventListener("change", (e) => { loadEdition(e.target.value).catch(() => { $("error").hidden = false; }); });
+  $("tabs").addEventListener("click", (e) => {
+    const b = e.target.closest(".tab"); if (!b || b.dataset.view === state.view) return;
+    setView(b.dataset.view).catch(() => { $("error").hidden = false; });
+  });
+  $("refresh").addEventListener("click", async () => {
+    const btn = $("refresh"); btn.disabled = true; btn.textContent = "Memuat…";
+    await refreshLive(true);
+    btn.disabled = false; btn.textContent = "Muat ulang";
+  });
+  $("q").addEventListener("input", (e) => { state.q = e.target.value; renderList(); });
+  $("chips").addEventListener("click", (e) => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    state.cat = b.dataset.cat; renderChips(); renderList();
+  });
+  $("topics").addEventListener("click", (e) => {
+    const b = e.target.closest(".save"); if (!b) return;
+    const id = b.dataset.id;
+    if (state.saved.has(id)) state.saved.delete(id); else state.saved.add(id);
+    writeSaved(); renderChips(); renderList();
+  });
+  $("retry").addEventListener("click", boot);
+
+  // Cek pembaruan tiap 5 menit dan setiap kali aplikasi dibuka lagi.
+  setInterval(() => { if (document.visibilityState === "visible") refreshLive(false); }, 5 * 60 * 1000);
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") refreshLive(false); });
+
+  // Filter menempel tepat di bawah bilah atas, berapa pun tingginya.
+  const bar = document.querySelector(".bar");
+  const setBarH = () => document.documentElement.style.setProperty("--bar-h", bar.offsetHeight + "px");
+  setBarH();
+  window.addEventListener("resize", setBarH);
+
+  // Bagian PWA: hanya aktif saat halaman dipasang dengan manifest (versi yang di-hosting).
+  const isPWA = !!document.querySelector('link[rel="manifest"]');
+  if (isPWA) {
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+    let prompt = null;
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault(); prompt = e;
+      $("install-row").hidden = false; $("install-btn").hidden = false;
+    });
+    $("install-btn").addEventListener("click", async () => {
+      if (!prompt) return;
+      prompt.prompt();
+      try { await prompt.userChoice; } catch (e) {}
+      prompt = null; $("install-btn").hidden = true;
+    });
+    const standalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+    if (/iphone|ipad|ipod/i.test(navigator.userAgent) && !standalone) {
+      $("install-row").hidden = false; $("ios-hint").hidden = false;
+    }
+  }
+
+  boot();
+})();
+</script>
+</body>
+</html>

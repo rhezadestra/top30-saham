@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-27",
+  "live": true,
+  "updated": "2026-11-26T19:30:00+07:00",
+  "window": {
+    "start": "2026-11-26T19:01:00+07:00",
+    "end": "2026-11-27T19:00:00+07:00"
+  },
+  "target": 30,
+  "sample": false,
+  "media": [
+    {
+      "name": "Kontan",
+      "abbr": "KON"
+    },
+    {
+      "name": "CNBC Indonesia",
+      "abbr": "CNBC"
+    },
+    {
+      "name": "IDX Channel",
+      "abbr": "IDXC"
+    },
+    {
+      "name": "Bisnis",
+      "abbr": "BIS"
+    },
+    {
+      "name": "Investor.id",
+      "abbr": "INV"
+    }
+  ],
+  "prevRanks": {},
+  "topics": []
+}
