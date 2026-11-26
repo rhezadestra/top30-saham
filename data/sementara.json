@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "live": true,
-  "updated": "2026-11-26T19:38:30+07:00",
+  "updated": "2026-11-27T06:10:56+07:00",
   "window": {
     "start": "2026-11-26T19:01:00+07:00",
     "end": "2026-11-27T19:00:00+07:00"
@@ -31,5 +31,118 @@
     }
   ],
   "prevRanks": {},
-  "topics": []
+  "topics": [
+    {
+      "id": "2026-11-27-danantara-laba-2025",
+      "title": "Laba bersih konsolidasi Danantara 2025 capai Rp259,6 triliun",
+      "category": "Kinerja",
+      "tickers": [
+        "BBRI",
+        "BMRI",
+        "BBNI",
+        "TLKM",
+        "ANTM"
+      ],
+      "summary": "Danantara membukukan laba bersih konsolidasi 2025 sebesar Rp259,6 triliun, lebih dari separuhnya berasal dari BBRI, BMRI, dan Pertamina. Korea Investment & Sekuritas menilai angka itu di bawah klaim awal Rp326–335 triliun karena eliminasi antarperusahaan dan porsi minoritas.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T19:10:08+07:00",
+          "url": "https://investasi.kontan.co.id/news/laba-bersih-danantara-rp-2596-triliun-pada-2025-simak-prospek-emiten-asuhannya"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-tarif-trump-14-negara",
+      "title": "AS usulkan tarif baru untuk 14 negara, termasuk Indonesia",
+      "category": "Makro",
+      "tickers": [],
+      "summary": "AS mengusulkan tarif tambahan bagi 14 mitra dagang, dengan Indonesia disebut terkena tambahan 18% lewat proses Section 301 yang belum final. Analis menilai dampaknya lebih kecil dibanding April 2025, tetapi tetap menjadi risiko bagi pasar pada 2027.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T19:28:40+07:00",
+          "url": "https://investasi.kontan.co.id/news/trump-ancam-tarif-baru-untuk-14-negara-begini-dampaknya-ke-pasar-saham-indonesia"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-ratbi-2027",
+      "title": "DPR dan BI sepakati anggaran BI 2027, penerimaan Rp37,79 triliun",
+      "category": "Makro",
+      "tickers": [],
+      "summary": "Komisi XI DPR dan Bank Indonesia menyepakati RATBI 2027 dengan penerimaan operasional Rp37,79 triliun dan pengeluaran operasional Rp23,41 triliun. Asumsi yang dipakai antara lain pertumbuhan ekonomi 5,2–6% dan inflasi 2,5% ±1%.",
+      "sources": [
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-27T03:00:00+07:00",
+          "url": "https://www.idxchannel.com/economics/dpr-dan-bi-sepakati-ratbi-2027-penerimaan-operasional-dipatok-rp3779-triliun"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-tris-produk-ritel",
+      "title": "Trisula (TRIS) perkuat pengembangan produk untuk ritel",
+      "category": "Kinerja",
+      "tickers": [
+        "TRIS"
+      ],
+      "summary": "Trisula International menggenjot pengembangan dan inovasi produk untuk menangkap pertumbuhan ritel. Pada November 2026 perseroan merilis koleksi busana pria merek JOBB bersama desainer Musa Widyatmodjo.",
+      "sources": [
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-27T04:04:00+07:00",
+          "url": "https://www.idxchannel.com/market-news/bidik-peluang-pertumbuhan-ritel-trisula-tris-fokus-perkuat-strategi-pengembangan-produk"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-danantara-41-proyek-2027",
+      "title": "Danantara siapkan 41 proyek strategis untuk 2027",
+      "category": "Makro",
+      "tickers": [],
+      "summary": "CEO Danantara Rosan Roeslani memaparkan rencana kerja 2027 Danantara Asset Management berisi 41 proyek strategis, terdiri atas 16 program lanjutan dan 25 program baru, dengan fokus restrukturisasi dan perampingan. Paparan disampaikan di Komisi VI DPR pada 26 November 2026.",
+      "sources": [
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-27T05:05:00+07:00",
+          "url": "https://www.idxchannel.com/economics/danantara-siapkan-41-proyek-strategis-2027-fokus-restrukturisasi-dan-streamlining"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-el-nino-cpo-2027",
+      "title": "CGS: El Niño berpotensi angkat harga CPO pada 2027",
+      "category": "Makro",
+      "tickers": [
+        "TAPG",
+        "AALI",
+        "DSNG"
+      ],
+      "summary": "CGS International memproyeksikan harga CPO 2027 sekitar RM4.800 per ton, naik 6,7%, seiring peluang El Niño kuat di awal 2027 yang bisa menekan produksi. Sektor sawit disebut diperdagangkan sekitar 10 kali P/E 2027, di bawah rata-rata historis 11,9 kali.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T05:55:44+07:00",
+          "url": "https://investasi.kontan.co.id/news/el-ni%C3%B1o-ancam-produksi-sawit-bisa-kerek-harga-cpo-di-2027-ini-saham-pilihan-cgs"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-pgeo-rating-sp",
+      "title": "PGEO raih peringkat BBB- prospek stabil dari S&P",
+      "category": "Kinerja",
+      "tickers": [
+        "PGEO"
+      ],
+      "summary": "Pertamina Geothermal Energy memperoleh peringkat BBB- dengan prospek stabil dari S&P Global Ratings pada 24 November 2026, didukung produksi Januari–September 2026 yang mencetak rekor. Perseroan menyebut peringkat ini membuka akses pendanaan lebih kompetitif untuk proyek panas bumi.",
+      "sources": [
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-27T06:00:00+07:00",
+          "url": "https://www.idxchannel.com/market-news/pgeo-raih-peringkat-bbb-dengan-prospek-stabil-dari-sp-global-ratings"
+        }
+      ]
+    }
+  ]
 }
