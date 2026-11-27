@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "live": true,
-  "updated": "2026-11-27T11:09:38+07:00",
+  "updated": "2026-11-27T12:04:13+07:00",
   "window": {
     "start": "2026-11-26T19:01:00+07:00",
     "end": "2026-11-27T19:00:00+07:00"
@@ -40,19 +40,25 @@
     "2026-11-27-pack-rupslb-tunda": 7,
     "2026-11-27-tbig-akuisisi-edotco": 8,
     "2026-11-27-bbca-dividen-interim3": 9,
-    "2026-11-27-danantara-saham-bei": 10,
-    "2026-11-27-tris-produk-ritel": 11,
-    "2026-11-27-pgeo-rating-sp": 12,
-    "2026-11-27-foru-pendapatan-batubara": 13,
-    "2026-11-27-mdla-distribusi-obat": 14,
-    "2026-11-27-danantara-pajak-2025": 15,
-    "2026-11-27-ratbi-2027": 16,
-    "2026-11-27-alat-berat-2027": 17,
-    "2026-11-27-danantara-41-proyek-2027": 18,
-    "2026-11-27-el-nino-cpo-2027": 19,
-    "2026-11-27-danantara-utang-whoosh": 20,
-    "2026-11-27-pertamina-minyak-amsel": 21,
-    "2026-11-27-danantara-standar-kompetensi": 22
+    "2026-11-27-meta-dividen-interim": 10,
+    "2026-11-27-tapg-dividen-anak-usaha": 11,
+    "2026-11-27-flmc-private-placement": 12,
+    "2026-11-27-anda-ipo-tertunda": 13,
+    "2026-11-27-danantara-saham-bei": 14,
+    "2026-11-27-zero-odol-logistik": 15,
+    "2026-11-27-tris-produk-ritel": 16,
+    "2026-11-27-pgeo-rating-sp": 17,
+    "2026-11-27-foru-pendapatan-batubara": 18,
+    "2026-11-27-mdla-distribusi-obat": 19,
+    "2026-11-27-danantara-pajak-2025": 20,
+    "2026-11-27-konsumsi-semen-oktober": 21,
+    "2026-11-27-ratbi-2027": 22,
+    "2026-11-27-alat-berat-2027": 23,
+    "2026-11-27-danantara-41-proyek-2027": 24,
+    "2026-11-27-el-nino-cpo-2027": 25,
+    "2026-11-27-danantara-utang-whoosh": 26,
+    "2026-11-27-pertamina-minyak-amsel": 27,
+    "2026-11-27-danantara-standar-kompetensi": 28
   },
   "topics": [
     {
@@ -400,6 +406,16 @@
           "media": "IDX Channel",
           "time": "2026-11-27T09:52:00+07:00",
           "url": "https://www.idxchannel.com/market-news/bei-suspensi-5-saham-usai-langgar-ketentuan-pelaporan-free-float"
+        },
+        {
+          "media": "Investor.id",
+          "time": "2026-11-27T11:08:00+07:00",
+          "url": "https://investor.id/market/463550/emiten-hary-tanoe-kena-suspensi-bei-ini-sebabnya"
+        },
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-27T11:35:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float"
         }
       ]
     },
@@ -523,6 +539,39 @@
           "media": "IDX Channel",
           "time": "2026-11-27T10:10:00+07:00",
           "url": "https://www.idxchannel.com/market-news/permintaan-semen-menguat-smgr-dan-intp-berebut-momentum"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-msci-brpt-keluar",
+      "title": "Hasil review MSCI berlaku 1 Desember, BRPT keluar dari indeks global",
+      "category": "Regulasi",
+      "tickers": [
+        "BRPT",
+        "BRMS"
+      ],
+      "summary": "Dalam review MSCI November 2026, BRPT dikeluarkan dari MSCI Global Standard Indexes dan BRMS digeser ke kelompok Small Cap. Penyesuaian portofolio dana indeks dilakukan usai penutupan 30 November, dan komposisi baru efektif 1 Desember 2026.",
+      "sources": [
+        {
+          "media": "Investor.id",
+          "time": "2026-11-27T09:32:00+07:00",
+          "url": "https://investor.id/market/463538/awas-msci-lagi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-bwpt-obligasi-sukuk",
+      "title": "Eagle High (BWPT) tawarkan obligasi dan sukuk Rp550 miliar",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "BWPT"
+      ],
+      "summary": "BWPT menerbitkan obligasi konvensional Rp175 miliar dan sukuk Rp375 miliar, total Rp550 miliar. Seri yang ditawarkan bertenor 370 hari hingga lima tahun dengan kupon 9,5% sampai 12%.",
+      "sources": [
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-27T11:00:00+07:00",
+          "url": "https://www.idxchannel.com/market-news/bwpt-tawarkan-obligasi-dengan-kupon-hingga-12-persen"
         }
       ]
     }
