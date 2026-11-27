@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T18:14:40+07:00",
+ "updated": "2026-11-27T18:17:39+07:00",
  "window": {
-  "start": "2026-11-26T18:14:40+07:00",
-  "end": "2026-11-27T18:14:40+07:00",
+  "start": "2026-11-26T18:17:39+07:00",
+  "end": "2026-11-27T18:17:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 160
+   "items": 184
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 154
+   "items": 156
   }
  },
  "prevAt": "2026-11-27T18:02:39+07:00",
@@ -299,6 +299,30 @@
      "time": "2026-11-27T16:26:32+07:00",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
      "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026"
+    }
+   ]
+  },
+  {
+   "id": "c3a1f192e352",
+   "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "KOTA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T17:55:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWc1SmJZOWNYb2hadnBhOHlXSG1STk9IRGU3ZmdPY3hQUWh2TXhEeDAyYm9mMy0xYTdyYUdYS2RKV1Q5dUt4NGZhU1NMV0VCd2E0eGM4MlJ6WUJPZnBXNXVyaURuR1VLUTBXRnJvWjlLdTkxaXo0b3hhb3VlSVpNeWZTNDhwUS1uTGdrYzNIckxmOU84eVV5Vzl3SzFqazREOGpNbkN6Q3JPMy0xNlhkQWhR?oc=5",
+     "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T18:15:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUV81Z2NLaWgtRlVKN3pIRE5GbWRNNFdLSDhIWGRQdlZ1a2RMRTJ0Z3pzTjAzS2dNNGd0YlN2emNlVGczd2t4Sm1YLUZOSGMzVnBKZUhhLWRSdDViX0R2eWZVTlRITVVmTFpVMFRlX1ZNblV5LTJJVVFibUlmUW1qTXdkNXhDbTAycTBqWjJqQy1pTFVpTHd5dEJn?oc=5",
+     "title": "KOTA Kantongi Restu Rights Issue , Incar Land Bank 572 Hektare"
     }
    ]
   },
@@ -669,24 +693,6 @@
      "time": "2026-11-27T13:39:14+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1BhLVZqMmxoTDNRWnljUnhoUnE4UEJ3MnZvX0xOS0ppNXFmMjJzT2NQV0NHeTNTclctMG4ybHFaU0dkOERLR3hyVnF6RXg0RER1dXFYMzlhdHpxUGsyUEpWZm1uV0RpWG9idVFOSUpHek9KQnBfMW9DSTVRUGhCT2FTSlhVV3pzWl9fd0RSS2ZCY1FPMzNxVzUwNmMyZ1RSSmgtRUlWeGQ3Z9IBogFBVV95cUxOSHdMTG5kc0kzd1FmbjltZElEMGFyNDhaVm1nUmJ6ZDlZNFdnbGRRemJ6cWlzZXhpaDAtLTVaMUFNclBQeDAxRTEzb3AxNktfYjRHMktFb3Vub002MUE2VW1Ia0o1RlM1ZW5xT2JGa2dJaHJXcVRfTlVoUy1VaFg4RjE3RVFJR3oteTFsT1NTRTFWTkd4Rno5NzhrOXZQNUlrY0E?oc=5",
      "title": "Trump Ancam Kenakan Tarif Baru, Pasar Saham Indonesia Dibayangi Tekanan"
-    }
-   ]
-  },
-  {
-   "id": "c3a1f192e352",
-   "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "KOTA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T17:55:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWc1SmJZOWNYb2hadnBhOHlXSG1STk9IRGU3ZmdPY3hQUWh2TXhEeDAyYm9mMy0xYTdyYUdYS2RKV1Q5dUt4NGZhU1NMV0VCd2E0eGM4MlJ6WUJPZnBXNXVyaURuR1VLUTBXRnJvWjlLdTkxaXo0b3hhb3VlSVpNeWZTNDhwUS1uTGdrYzNIckxmOU84eVV5Vzl3SzFqazREOGpNbkN6Q3JPMy0xNlhkQWhR?oc=5",
-     "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare"
     }
    ]
   },
@@ -2062,6 +2068,22 @@
    ]
   },
   {
+   "id": "16e8e247f3e3",
+   "title": "Pengamat: Fee Ekspor Komoditas DSI Harus Berbasis Perhitungan, Bukan Tarif Pukul Rata",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:13:22+07:00",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNmFURE9sNjB3NjZtMHZBbEZYendrckp5dlRsdmI1bFRpSmgxdGVYaURxczFzekVjSXRLLWN5bHRGMGQycV9zR04xRWFqMHNOUU9tSlVKYXNQZ043aVlkS251MWwtSXI2U0RXVXBHeDZ6S0Y5NVZsZ19EREVBcUl0RFFEWTdkR0hjNVNxb2YzQmkwazlLR29wNHRUMUkxbUcyOERzZF9xSHEzdUEwQXRXckpvM19maVBrTV9mZXJya1BBVUdieGNQVHEteHNrbmpt?oc=5",
+     "title": "Pengamat: Fee Ekspor Komoditas DSI Harus Berbasis Perhitungan, Bukan Tarif Pukul Rata"
+    }
+   ]
+  },
+  {
    "id": "9f57fea24f26",
    "title": "Kejagung Jelaskan Penanganan Kasus Nikel yang Jerat AK",
    "category": "Makro",
@@ -3212,22 +3234,6 @@
      "time": "2026-11-26T18:20:55+07:00",
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2U3cFc5STBCVXd6dFN3WEMtSjhwMGhRajRPc2U0Z0t2X2xtNnhrbUkyZjI0ZENWc05IaldxVFR3OE95US0yeUV2dkEtS3FPOWIwdnR2WmtwV3FHUF9ualdlUUxwYVJQMjItMmU4ZVNaTVRTUjFqb3d6NjZoMm1uQ2FBQ3A3OG9CWDNOUS0wQURBU2Z2TDhxNTF3SHJnRllRUXpnbmpKUXdCWi1EV09JUHRWeXlZVGM?oc=5",
      "title": "Alasan Danantara Pilih Sehatkan BUMN Sakit Ketimbang Opsi Pailit"
-    }
-   ]
-  },
-  {
-   "id": "f03960e46852",
-   "title": "Danantara Targetkan Restrukturisasi Utang KCIC Rampung Awal 2027",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T18:15:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV1V6Y0U4ZlBTX1UxQlZRT1ZWVlJrRE4yaFNXQU9WMlphTnZWT2o2bVkzMkF6ZXBEMFFxbHpEa3RPZ2FlQTktWUNuRTFQb2dkeTBOSlVYXzdFQmtyT3JzYmFfTmRzSXo0cnBwTC1hNUU4UjYtZEJ1LUJSTjV3MktCNU56OXhGRUQyMjd0dDFYX1FWMFc2SWM5SnI5TTdQeTJFSVBSeGZPMmU3UlNVeFotOU81R2F4Uzg?oc=5",
-     "title": "Danantara Targetkan Restrukturisasi Utang KCIC Rampung Awal 2027"
     }
    ]
   }
