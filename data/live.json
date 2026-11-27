@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T15:59:51+07:00",
+ "updated": "2026-11-27T16:01:41+07:00",
  "window": {
-  "start": "2026-11-26T15:59:51+07:00",
-  "end": "2026-11-27T15:59:51+07:00",
+  "start": "2026-11-26T16:01:41+07:00",
+  "end": "2026-11-27T16:01:41+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,10 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 170
+   "items": 111,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -475,30 +478,6 @@
    ]
   },
   {
-   "id": "526e50e1f6fa",
-   "title": "Jasa Marga (JSMR) Rombak Direksi hingga Merger Anak Usaha - Halaman 2",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "JSMR"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-26T16:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1dFS3lSTi14aVd6dzl4cm9xdmhlWEpxWW8xRkExbFhoRHRfRU55UkowX3loNGw1WGNVZXVBRTBHbU5PSlowSy12TjVUVFZWNGlkeWQ3aHpxMzYyM1FDNmhFZGs5bk1GcWFMV3E2b1pFWEU0VUlSLWNpRzYzUmJNVVdOcUQxeU1LOEtUQ3dOaW9TTW5Td2c?oc=5",
-     "title": "Jasa Marga (JSMR) Rombak Direksi hingga Merger Anak Usaha - Halaman 2"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-26T16:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdGVsTDRvUnRXMUo5TkR0cG9ydFhsN1IzY1J5QzJHdWdUdFJidjNnbXo3aG56TkZiWklnZlVpNUo4RXNEa3hMSGd0Rk0yNUExaU00c1dLZXM3RFlUQ3FrS1BTZjltUURoOHVFWXBkNjNZVFQwZENqRWQtd2h0NElvX0kwOXl3RG80djJpZHZHX0VxbTg?oc=5",
-     "title": "Jasa Marga (JSMR) Rombak Direksi hingga Merger Anak Usaha"
-    }
-   ]
-  },
-  {
    "id": "2a9bb8479908",
    "title": "Nusantara Infrastructure (META) Mengandalkan Pendapatan Jalan Tol",
    "category": "Kinerja",
@@ -541,6 +520,28 @@
      "time": "2026-11-27T14:15:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbFhvQ0o4NjJVZmdWVE11cjBqckRWazYwcnBPOTl1dzZHSEpTbWs4bXBoc1ZCcGI1eUdGRmV1Z3VnM1NLUDdPNEhDWEFGeUZlbml6V1VKaUtodnNKNU1HczVZUDlDYV9mdjF4R2xIR3VmN2p5TGhleVhjbTZpREctaUxuWUNjb1pDVmtDT2RxU1FodkowalBzaHUyOUk2STJ1VUJVeDV1X3dGZ3ZaTjdBZlpXaFZ0aEZ4MUFR?oc=5",
      "title": "DSI Klaim Fee Ekspor CPO hingga Batu Bara Tak Akan Bebani Eksportir"
+    }
+   ]
+  },
+  {
+   "id": "2d9f26b41fa7",
+   "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T14:12:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFFiTDQ5cnF4UXR0UU82MmppRGdsWlVSWFFjTVBiMzVFTjlnbE5xOE1wWHFBbTc0bUtXem9PdlJ2b1hXOXdtMkx2SXcxd2tYRk1SbXdSMVAxZ0l5a3FmNFhtMjNGNU9UTmtQUk56bm9fa014ZEw1VElPTklBLV92U3JnMl9hcUhFUkxnMDdNalBTTHVDTlo1RUFVS19GQQ?oc=5",
+     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T14:12:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUms4V3ZmYzczaEdpUE1qSzhlRjVuTl9GUUhnWGFLVThfdGIzd0d1WjNSU0NMRnl3MExUQXE1cUEyajVMbnNFOWw4VUd0V1pDaW5sTGFadlBxbXU0cV96Y1lKQXpWSGFmOWhyMjNUVXlDNC0yZlpxUlp1Q2ViNWNKSTV6VmY0cGhjZ3M4VGE1NGRZMkh1ekNleTVTMzRseHJ3?oc=5",
+     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah - Halaman 2"
     }
    ]
   },
