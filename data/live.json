@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T06:02:06+07:00",
+ "updated": "2026-11-28T06:05:06+07:00",
  "window": {
-  "start": "2026-11-27T06:02:06+07:00",
-  "end": "2026-11-28T06:02:06+07:00",
+  "start": "2026-11-27T06:05:06+07:00",
+  "end": "2026-11-28T06:05:06+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,10 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 120,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 167
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -3569,22 +3566,6 @@
      "time": "2026-11-27T06:06:17+07:00",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xTXo5RzVZb0p0Z1M4MG8tOWp1M3hKRlhDdFByM0hJUFRDMFotQkJ3anVvSVNaOFVuZUJfQURWdW1YcHdVLUE0RE1IekxDNFBZbEN1THlEWkplSFZ6MG5NR3cyd0prRUJ6eE4td0hIRkItZ01EYmdV?oc=5",
      "title": "Danantara Andalkan Sektor Perbankan"
-    }
-   ]
-  },
-  {
-   "id": "0e6718ac5060",
-   "title": "Efek Rencana Tarif Baru AS",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T06:03:25+07:00",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX2Nsc2VJQU93RTJ1RS0xVzcweWZvM1VfSVRxREI3dnZMclkxMGdreWkyWDlUeVBLeG5zVzNjN0tDbGdHbUhKUENORDBGeHpQMWNPUGZaakhSVkw5akNQOEJQNkZuQWJXS3ZkaWhqQVE2d2haMWZ6Y2Y2TVF5ZG54cXBXdXotNDQ?oc=5",
-     "title": "Efek Rencana Tarif Baru AS"
     }
    ]
   }
