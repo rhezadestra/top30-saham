@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T06:20:05+07:00",
+ "updated": "2026-11-28T06:26:05+07:00",
  "window": {
-  "start": "2026-11-27T06:20:05+07:00",
-  "end": "2026-11-28T06:20:05+07:00",
+  "start": "2026-11-27T06:26:05+07:00",
+  "end": "2026-11-28T06:26:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 157
+   "items": 158
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 92
+   "items": 93
   },
   "Investor.id": {
    "via": "google",
-   "items": 132
+   "items": 128
   }
  },
  "prevAt": "2026-11-28T05:59:06+07:00",
@@ -1013,6 +1013,22 @@
      "time": "2026-11-27T11:15:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMVFDMzBfWFNyTy1qU2k2WHdlOUlMM0RMbG0xRlQzR3dOMXp2ZnUtZXZyT1k2YU9IQXpBcV94R1ZMZGVGbDFYUUxyMTl1UDM1U24zdEFHRGZxS2J3Vmg4YmZ3Y005ZHNUYnFaekllaHR4azhnVVdiMklxaWRQeTd3amd1R1dHT3hEOGgxQzV5dnFLODR0MU9RUzc5b0QwdzZiaXRFRVEwVklxelRIdWxOSVZvRXY0ckZV0gG-AUFVX3lxTE0wcXRiRnBIOVFYZ1Jrcm1DTFBQV2E5VlRzYV9xSFk0Y2Y1TU10MGRocFdqR0FIdXZRWnVIVjZ4a2l1YlRnOGJrZHUwSE9VYlBZS0lZSjRDTVJpSHBXaGNnemJZLUptWU9PaXVsT0dKaGJHMFNmTGR5aDNmSU9NYjExSUNVYmVSWjNfUVpRMHBiaEViVlVLOFJZeE1WQzFpNU9ycXFQeTdyWHlJX2JGdEVtblByam8xZVNZQUZ6TGc?oc=5",
      "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah"
+    }
+   ]
+  },
+  {
+   "id": "001934022fde",
+   "title": "Gejolak Suku Bunga, Avrist AM Racik Reksa Dana Berbasis Sukuk",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T06:20:42+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYWNYTXZsSmJVY2R0MDZpMGs1cG11d2MweGRRYnF6UDlra3FlWlNNRDhlWkVBMlZ5YTNWRmxwTDZXem9aU1FESE9sd3A1czN5amFnTlRtZ01DN1R5RE5yLVJBWUoyZ2U3S01jMUdUV0pmbkc2cHR1bU5idTBPMkJ3YjVHVHdJRldJWEpmcmVwMFFBckRhN2Z4MmYtUUY3d1piX3BsVENfOTJObnVJUUxhMg?oc=5",
+     "title": "Gejolak Suku Bunga, Avrist AM Racik Reksa Dana Berbasis Sukuk"
     }
    ]
   },
@@ -2374,24 +2390,6 @@
      "time": "2026-11-27T07:20:28+07:00",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWHFOZUZ4U184LUFIMnJiUFAwUDY3NEdZZDJEQ2Q1Q3Y3VDN2TFA2UTRGM3ZZRTRMMXBMejlvbXFkanU4S3phQlV4ZEdPanhFYkZLb3NnSHhCQWQ0WGtidWE4c2VIZHN1UFFjVXZlaV94STlwZlY3YVZLXzZvbTVodkl1aEdndlZSTnNr?oc=5",
      "title": "MDLA Membangun Kinerja Sehat dari Pengiriman Obat"
-    }
-   ]
-  },
-  {
-   "id": "90a9b276716f",
-   "title": "Big Money Berlabuh di Saham BBCA",
-   "category": "Kinerja",
-   "tickers": [
-    "BBCA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T06:25:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tNUx4akxMeXR5SDlySjBBcDlOM1NBcU5UZUh6Y1ZkN1BUMzI2UlRUdXlQMEZxVVVORm92X2QzTl9aYk5IU2FVWW05V3d6TG9FRHpGeUhOQ3ZVSkk3cXdtZm13anhLeE44cDBLNXJrNzVTMXgw?oc=5",
-     "title": "Big Money Berlabuh di Saham BBCA"
     }
    ]
   },
