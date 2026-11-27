@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T04:04:05+07:00",
+ "updated": "2026-11-28T04:07:05+07:00",
  "window": {
-  "start": "2026-11-27T04:04:05+07:00",
-  "end": "2026-11-28T04:04:05+07:00",
+  "start": "2026-11-27T04:07:05+07:00",
+  "end": "2026-11-28T04:07:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 163
+   "items": 188
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 90
+   "items": 89
   },
   "Investor.id": {
    "via": "google",
-   "items": 119
+   "items": 121
   }
  },
  "prevAt": "2026-11-28T03:45:38+07:00",
@@ -2444,24 +2444,6 @@
      "time": "2026-11-27T05:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQjg2dkRsNThXeXJOaHdQMGU5MTN2Uk5QZS01T3ROekEwWnFfZHZ1NU53V3pKR0NJUWNFTlJ2eWxCOV9jZTBpRl9jZjJMRHJsdVJHZ05KdERKRVFWTFRsbW40aUZzVC1raGlRclk0UDhKOEhUdDB3Q2xRMGJtVm9kV3doV1ItcS10MEx6eUl6VmdwTDR6cmZBTlNCV3ExWVNYR1E0OEVGc0NFYWx0bFNUd2lBY1pRNDhzTHlOX25R?oc=5",
      "title": "BERITA POPULER: Haji Isam dan Dewi Kam di Proyek Besar hingga BUMI Bicara soal Batu Bara"
-    }
-   ]
-  },
-  {
-   "id": "d4a6f8442fcf",
-   "title": "Grup Blibli (BELI) FAS Siapkan Operasional Hadapi Harbolnas",
-   "category": "Kinerja",
-   "tickers": [
-    "BELI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T04:05:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY3BMdkVJeU1nX3Y3RkxENlpNRGUyTDF2QnpCVjhKeDU4b2ZJcjE3VUlZbUVXYlR0YlNSODY2QjNGdUxFVkQteS1VblN3TFlkNnN0aHZGSHZQX2VKMTIyeGpteUtrcURMUFVZVXNTQ21UQXVaVlJLYkVPLUlNSkFYMnROcXEzOWdRSDZHM2FCVDhEM0tZU1k3SWx3UVpGWHVjTl9sRjZRY1VWMG1VdkE?oc=5",
-     "title": "Grup Blibli (BELI) FAS Siapkan Operasional Hadapi Harbolnas"
     }
    ]
   },
