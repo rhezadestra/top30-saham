@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T17:29:10+07:00",
+ "updated": "2026-11-27T17:32:10+07:00",
  "window": {
-  "start": "2026-11-26T17:29:10+07:00",
-  "end": "2026-11-27T17:29:10+07:00",
+  "start": "2026-11-26T17:32:10+07:00",
+  "end": "2026-11-27T17:32:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 157
+   "items": 159
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 100
+   "items": 101
   },
   "Investor.id": {
    "via": "google",
-   "items": 155
+   "items": 154
   }
  },
  "prevAt": "2026-11-27T17:02:11+07:00",
@@ -205,6 +205,30 @@
      "time": "2026-11-27T17:16:51+07:00",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWEl0WHl6V0N2SjNxVE5RNWdpZUxyZmJjODZMOWNaTWRycTlPbVlfZ25pY01JX1FIejh0S01rUlVBSkM2T1FlODI1ODVldXBEcjFGZGlYT3NFRUJsLVA2UDl6VTVrVXpZeUczNXZ3aG05S0EtbjJuQVZYaDdJMWRmLTlZaVo4UXVnWFJaM2taVFVhRjJJWTBDNGsxa1ZPNEZwdXlpZWJjTGpKUWJ5NHB2eklMSHBKVWtON3RBYWIxMjhMM2wxR3hOYndjYVJubXpTcnBTY0V3?oc=5",
      "title": "TOBA Kantongi Restu Investasi HPS Maksimal 555 Juta Dolar Singapura untuk Bisnis Limbah"
+    }
+   ]
+  },
+  {
+   "id": "eaabf957882d",
+   "title": "TBS Energi Utama (TOBA) Pede Capai Target Kapasitas EBT 500 MW di 2030",
+   "category": "Kinerja",
+   "tickers": [
+    "TOBA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T13:42:56+07:00",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV3ZoR3BBVGhOTVZvXzhGYi1TNU9ITzlydEhHdHFsamhGX3JySktLN3VuNkFoLTZ0YjdNemtjSGd4bmQtUm9YLVdrSGtPMVVaU2UtM1NjcThjR3FISFBqTjZLME9ZNFhIcmNqQ2N2QWI4V0daNGotd1BCTFdEclVoZGhER0lHUHhaVlNwTW9FV2FrY2dvX2JLYXlFa0NpWTNtZlVsWndCMF9EeGZZOG5idjdVVThQaXlDTC03Rw?oc=5",
+     "title": "TBS Energi Utama (TOBA) Pede Capai Target Kapasitas EBT 500 MW di 2030"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T17:13:57+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQXZlSUVPZVlxNlBQdUUzWEotNFc2TDZpbG15S0FXVGd6TzhWNUdtWUh5ZzNXU3N5Nk1GZHZ2c1oza0RDT3JhOFBneEVTOTlVMnd3Y1BlSHFsdmhyNG9Iazk1QWsxR0VzQzBjdU1zRkFSSy1NMDRZdXZYWDhPZE52eHhFazlTUFE3ZTFvS08zbG9tQUQyMEZPbXFIM2ZETktHRXNrYkRXSVlyVTVSX1lEUEZLMNIBqwFBVV95cUxOY1F4YmlERVdlbHU3ZGQ1REZTUFVoRDZUS2JDZWRhcFV0WURWcUF1T1JYZXBFNnFvVThkakwzV0dTSXRGMEp1c2JRTVFrVjdEQWhLYlBjOExBR1A0SXd5SzZEdGs3SnRGMUJITWxWWVlzSkdfa01oNUhKZTVYN0FpaUhLYWNfRm1saDdvQ01DSmRCLTF3emJDX2JQVndXV2x3N2gzNk5HSE01MGc?oc=5",
+     "title": "TBS Energi (TOBA) Transformasi Bisnis ke Pengembang Infrastruktur Berkelanjutan"
     }
    ]
   },
@@ -972,22 +996,6 @@
    ]
   },
   {
-   "id": "b1fe5a48a028",
-   "title": "BRI Finance Optimalkan Pinjaman Perbankan dan Obligasi untuk Jaga Pendanaan",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T17:30:52+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMXZOemJaTmRTcl9Bd0NvNk0zUklUQ1VVRzlfelU2SnRzQW5RUFJUdmpZTExsOVJGZnpFalpwam9nRjhZMUdfdEVzczZfNW9qOXl1cVUxYTN0QjRwUmFyblowTHpLNldqZG5TQkM5cy1lUGZqSVFQS1hJd1ZWSVRTXzJPLWNHWjlUQVI2WVVrMnpHQzJ5UXgtM0JFTWllZVdqQm1GVl9GZmotekF4Wm1N0gGoAUFVX3lxTE02MTJKNG9ielYyUDV4cFV0WVNXbFE4MUxJcWFwZ1JpYnlVaE93Ml90T1JqX0dxMXpqRlJYZERNa0g1TmpoT3JTQ1ZVT2VKV0tLX3ZUR0Z1WE1KcWhWM0xpQVI2RVpuMEtmRHVrTmh1R21oMmpfQS1haGdaYk5LTXhpYTUyUHlhYk5ua2pTZnBRN1BGUnBJMl9xcU1qTTNEa1BER1RZYTg4WQ?oc=5",
-     "title": "BRI Finance Optimalkan Pinjaman Perbankan dan Obligasi untuk Jaga Pendanaan"
-    }
-   ]
-  },
-  {
    "id": "325b42e9c40b",
    "title": "BEI: Sentimen MSCI ' Wake-Up Call ' untuk Reformasi Struktural Pasar Modal",
    "category": "Regulasi",
@@ -1436,24 +1444,6 @@
      "time": "2026-11-27T13:47:32+07:00",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sMjM2TnY5M09KVWE3bHFIaUpqVHBqOUIzYzJmMjV0ZkM5U3FXSzBZVDIyRC14M29Lbmd2V05nQ3ZoMXhOVGVES0JTdW9wcTFJVjg3MDlUY2dzalZveThsR0lLOUlwZldIemc?oc=5",
      "title": "Fenomena Unik Saham BBRI"
-    }
-   ]
-  },
-  {
-   "id": "eaabf957882d",
-   "title": "TBS Energi Utama (TOBA) Pede Capai Target Kapasitas EBT 500 MW di 2030",
-   "category": "Kinerja",
-   "tickers": [
-    "TOBA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T13:42:56+07:00",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV3ZoR3BBVGhOTVZvXzhGYi1TNU9ITzlydEhHdHFsamhGX3JySktLN3VuNkFoLTZ0YjdNemtjSGd4bmQtUm9YLVdrSGtPMVVaU2UtM1NjcThjR3FISFBqTjZLME9ZNFhIcmNqQ2N2QWI4V0daNGotd1BCTFdEclVoZGhER0lHUHhaVlNwTW9FV2FrY2dvX2JLYXlFa0NpWTNtZlVsWndCMF9EeGZZOG5idjdVVThQaXlDTC03Rw?oc=5",
-     "title": "TBS Energi Utama (TOBA) Pede Capai Target Kapasitas EBT 500 MW di 2030"
     }
    ]
   },
