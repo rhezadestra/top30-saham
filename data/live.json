@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T22:31:13+07:00",
+ "updated": "2026-11-27T22:37:12+07:00",
  "window": {
-  "start": "2026-11-26T22:31:13+07:00",
-  "end": "2026-11-27T22:31:13+07:00",
+  "start": "2026-11-26T22:37:12+07:00",
+  "end": "2026-11-27T22:37:12+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,14 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 144,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 187
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 87
+   "items": 88
   },
   "IDX Channel": {
    "via": "rss",
@@ -48,10 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 60,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 89
   },
   "Investor.id": {
    "via": "google",
@@ -1436,6 +1430,22 @@
      "time": "2026-11-27T01:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYUx5N1hQaldxOXdlQUpBLXctb21XWHdVZjNyckdyMGdOZFdaTzRvZzUxSmtWekhHMmZ1YWp1T0lBYmpqMkNnYUlmVVlyQlRBYXI0SG80eUgxMkx1X0RMbEFYdE55cmZ3cklkeUVwUHlaZ0NOUjA4RURtUTAtWDkzU0NPZnhiYk9ocjZKX2k2TERNRDFqajdVX2owWlZURTZnREk3QmFFU0FsUzRrRUFUQVZXMFJDOFnSAbwBQVVfeXFMTko1bnB0djlqNFdzSmVGczk4ajkxMFlkQ0M5TW1QbUZHZlRWdEFOYWRNWnhlZmFzbEVjQ3hMVDhGcjB0bXlxMk43eW1jT2dhUHgtXzJhLXBrZHVWQUNOMEtYMjEydTF2TFptNXhmanVyS0EwMlU4T2QzblRHQUNxWmFqQ01ua2ZmalNYN0R3VXlZZ3FSX2Nnb016NUZFak1YcmFVYTliVGttbUw1akxhQmV5SGIxMHVqWWVrUmI?oc=5",
      "title": "Danantara Tegaskan Garuda Adidaya Tak Akuisisi Eks Lahan RAPP, Ini Penjelasannya"
+    }
+   ]
+  },
+  {
+   "id": "bbe10221ef7d",
+   "title": "Ramai Isu Gagal Tarik Dana, OJK: Masalah Persepsi, Bukan Solvabilitas",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "OJK menanggapi isu penarikan dana di bank kecil, menegaskan masalah terkait persepsi, bukan solvabilitas.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T22:35:22+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127223208-17-789252/ramai-isu-gagal-tarik-dana-ojk-masalah-persepsi-bukan-solvabilitas",
+     "title": "Ramai Isu Gagal Tarik Dana, OJK: Masalah Persepsi, Bukan Solvabilitas"
     }
    ]
   },
