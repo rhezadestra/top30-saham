@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:51:39+07:00",
+ "updated": "2026-11-27T19:54:39+07:00",
  "window": {
-  "start": "2026-11-26T19:51:39+07:00",
-  "end": "2026-11-27T19:51:39+07:00",
+  "start": "2026-11-26T19:54:39+07:00",
+  "end": "2026-11-27T19:54:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 158
+   "items": 181
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 81
+   "items": 82
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 91
+   "items": 90
   },
   "Investor.id": {
    "via": "google",
@@ -1453,6 +1453,22 @@
    ]
   },
   {
+   "id": "9135a47d8dbb",
+   "title": "Genjot Ekonomi Tumbuh Tinggi, RI Butuh 5 Sinergi Kebijakan Ini",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "Bank Indonesia (BI) menilai ekonomi nasional berhasil tumbuh tinggi di tengah ketidakpastian global.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T19:52:11+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127194921-17-789217/genjot-ekonomi-tumbuh-tinggi-ri-butuh-5-sinergi-kebijakan-ini",
+     "title": "Genjot Ekonomi Tumbuh Tinggi, RI Butuh 5 Sinergi Kebijakan Ini"
+    }
+   ]
+  },
+  {
    "id": "325b42e9c40b",
    "title": "BEI: Sentimen MSCI ' Wake-Up Call ' untuk Reformasi Struktural Pasar Modal",
    "category": "Regulasi",
@@ -2426,6 +2442,22 @@
      "time": "2026-11-27T19:46:44+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127194500-17-789215/5-risiko-intai-dunia-di-2027-bos-bi-ketidakpastian-belum-surut",
      "title": "5 Risiko Intai Dunia di 2027, Bos BI: Ketidakpastian Belum Surut"
+    }
+   ]
+  },
+  {
+   "id": "2559ea2a175c",
+   "title": "Prabowo Hadiri Pertemuan Tahunan Bank Indonesia 2026",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Prabowo Hadiri Pertemuan Tahunan Bank Indonesia 2026. (Foto Istimewa)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T19:45:00+07:00",
+     "url": "https://www.idxchannel.com/banking/prabowo-hadiri-pertemuan-tahunan-bank-indonesia-2026",
+     "title": "Prabowo Hadiri Pertemuan Tahunan Bank Indonesia 2026"
     }
    ]
   },
@@ -3422,22 +3454,6 @@
      "time": "2026-11-26T20:12:23+07:00",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOXlyc2l5T2duTTBTa2hndUdzc2s5T0daNkZwZi1wZURuTkFaZERDTHZ5WElPbS1oaVBmdUo0ZzgyLWFWVGlEZTE5T3lNSlYyamFDZUVnajAzaWg5bkhfRllsMVBjNmp2eC1kSEJXdWE2QlY1UldZYlMyam9KdHFFNGI0NF9jb1phTGozUUJIUGRmQ3VvdGNhdG1sbmF2Z1FyTkhYZVBKd2h5UTMwemttcA?oc=5",
      "title": "Paylabs Gaet Bank Mega Genjot Pembayaran Digital Syariah"
-    }
-   ]
-  },
-  {
-   "id": "a170c6a2bdfd",
-   "title": "Ekonomi Sawit RI Tembus Rp2.335 Triliun, Sumbang 13,8% PDB Nasional",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T19:54:02+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTExNSWFxUzVNU3VXWmQzaVVzREpXNjgtTkE1X0E1UjZ6cVlLMFhET2Z5VC1YcmpQTFFJM0YzVFBwRnlxTUNmME5uZWVWeER6SkluTm9wdVFKLW9WMndqU1pwNktvcFlvOEpybmFSb3FZQk1XbjJPWHpqUGY4VDVDQkFnY1d5ZzI0VERpVE4zSVQ4ZmJ2WUdNcjMySXZSRDFfVF84SS1lTjVIYXg3VElFSFo2Sk1XQQ?oc=5",
-     "title": "Ekonomi Sawit RI Tembus Rp2.335 Triliun, Sumbang 13,8% PDB Nasional"
     }
    ]
   }
