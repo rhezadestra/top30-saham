@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T03:21:38+07:00",
+ "updated": "2026-11-28T03:33:38+07:00",
  "window": {
-  "start": "2026-11-27T03:21:38+07:00",
-  "end": "2026-11-28T03:21:38+07:00",
+  "start": "2026-11-27T03:33:38+07:00",
+  "end": "2026-11-28T03:33:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 164
+   "items": 189
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 72
+   "items": 71
   },
   "IDX Channel": {
    "via": "rss",
