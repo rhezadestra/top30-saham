@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "live": true,
-  "updated": "2026-11-27T07:04:34+07:00",
+  "updated": "2026-11-27T08:04:04+07:00",
   "window": {
     "start": "2026-11-26T19:01:00+07:00",
     "end": "2026-11-27T19:00:00+07:00"
@@ -32,12 +32,18 @@
   ],
   "prevRanks": {
     "2026-11-27-danantara-laba-2025": 1,
-    "2026-11-27-tris-produk-ritel": 2,
-    "2026-11-27-pgeo-rating-sp": 3,
-    "2026-11-27-tarif-trump-14-negara": 4,
-    "2026-11-27-ratbi-2027": 5,
-    "2026-11-27-danantara-41-proyek-2027": 6,
-    "2026-11-27-el-nino-cpo-2027": 7
+    "2026-11-27-bfin-dividen-70persen": 2,
+    "2026-11-27-byan-komite-audit": 3,
+    "2026-11-27-pack-rupslb-tunda": 4,
+    "2026-11-27-danantara-saham-bei": 5,
+    "2026-11-27-tris-produk-ritel": 6,
+    "2026-11-27-pgeo-rating-sp": 7,
+    "2026-11-27-foru-pendapatan-batubara": 8,
+    "2026-11-27-tarif-trump-14-negara": 9,
+    "2026-11-27-ratbi-2027": 10,
+    "2026-11-27-danantara-41-proyek-2027": 11,
+    "2026-11-27-el-nino-cpo-2027": 12,
+    "2026-11-27-danantara-utang-whoosh": 13
   },
   "topics": [
     {
@@ -62,6 +68,11 @@
           "media": "Kontan",
           "time": "2026-11-27T05:40:00+07:00",
           "url": "https://insight.kontan.co.id/news/mencermati-pengelolaan-dividen-danantara"
+        },
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T06:06:00+07:00",
+          "url": "https://insight.kontan.co.id/news/danantara-andalkan-sektor-perbankan"
         }
       ]
     },
@@ -246,6 +257,86 @@
           "media": "Investor.id",
           "time": "2026-11-27T06:49:00+07:00",
           "url": "https://investor.id/market/463520/mesin-tambang-mulai-menyala-omzet-meledak"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-tbig-akuisisi-edotco",
+      "title": "TBIG akan akuisisi EDOTCO Indonesia, tambah sekitar 800 menara",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "TBIG",
+        "MTEL",
+        "TOWR"
+      ],
+      "summary": "Tower Bersama berencana membeli seluruh saham EDOTCO Infrastruktur Indonesia dari Axiata, yang diperkirakan menambah sekitar 800 menara. Konsolidasi industri menara terus berjalan dengan Mitratel dan Sarana Menara sebagai pemain lain.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T07:33:00+07:00",
+          "url": "https://insight.kontan.co.id/news/skala-jadi-kunci-emiten-menara-telekomunikasi-terus-berburu-akuisisi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-bumi-kinerja-kuartal3",
+      "title": "Laba BUMI kuartal III-2026 melonjak 404,9% didorong volume",
+      "category": "Kinerja",
+      "tickers": [
+        "BUMI"
+      ],
+      "summary": "Pendapatan Bumi Resources hingga kuartal III-2026 naik 38,85% secara tahunan menjadi US$1,44 miliar. Laba yang diatribusikan ke pemilik naik 404,9% menjadi US$148,47 juta seiring kenaikan volume penjualan.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T06:08:00+07:00",
+          "url": "https://insight.kontan.co.id/news/peningkatan-volume-memoles-kinerja-keuangan-bumi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-mdla-distribusi-obat",
+      "title": "Medela Potentia (MDLA) perkuat logistik distribusi farmasi",
+      "category": "Kinerja",
+      "tickers": [
+        "MDLA"
+      ],
+      "summary": "Lewat anak usaha Anugrah Argon Medica, Medela Potentia menyalurkan lebih dari 11.500 SKU dari lebih dari 70 mitra prinsipal. Perusahaan memperkuat jaringan logistik obat sebagai penopang kinerja.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T07:20:00+07:00",
+          "url": "https://insight.kontan.co.id/news/mdla-membangun-kinerja-sehat-dari-pengiriman-obat"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-pertamina-minyak-amsel",
+      "title": "Pertamina incar tambahan minyak mentah 30.000 bph dari Amerika Selatan",
+      "category": "Makro",
+      "tickers": [],
+      "summary": "Pertamina menargetkan tambahan pasokan minyak mentah lebih dari 30.000 barel per hari dari Amerika Selatan mulai tahun depan. Langkah ini bagian dari diversifikasi pasokan di tengah risiko geopolitik.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T07:31:00+07:00",
+          "url": "https://insight.kontan.co.id/news/pertamina-bidik-tambahan-pasokan-minyak-mentah-dari-amerika-selatan"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-bbca-dividen-interim3",
+      "title": "BBCA bayar dividen interim ketiga Rp35 per saham, total Rp4,29 triliun",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "BBCA"
+      ],
+      "summary": "BCA membagikan dividen interim terakhir tahun buku 2026 sebesar Rp35 per saham dengan cum date 27 November dan pembayaran 16 Desember 2026. Dwimuria Investama Andalan sebagai pemegang 54,94% saham diperkirakan menerima sekitar Rp2,37 triliun.",
+      "sources": [
+        {
+          "media": "Investor.id",
+          "time": "2026-11-27T07:37:00+07:00",
+          "url": "https://investor.id/market/463522/setoran-besar-buat-grup-djarum"
         }
       ]
     }
