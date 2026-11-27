@@ -101,6 +101,11 @@ button, input, select { font: inherit; color: inherit; }
 .src a .s-main b { font-weight: 600; font-size: 13px; }
 .src a .s-main span { color: var(--ink-2); font-size: 13.5px; }
 .t-sum .from { color: var(--ink-3); font-size: 13px; white-space: nowrap; }
+.read { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; padding: 9px 12px; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; color: var(--ink); font-size: 14px; max-width: 62ch; }
+.read .s-main { display: grid; gap: 2px; min-width: 0; }
+.read .s-main b { font-weight: 600; font-size: 13px; color: var(--accent); }
+.read .s-main span { color: var(--ink-2); font-size: 13.5px; }
+.read .when { font-family: var(--font-data); font-size: 12.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; padding-top: 1px; }
 .ai { padding: 10px 12px 11px; border-radius: 10px; background: var(--accent-soft); max-width: 62ch; }
 .ai-h { margin: 0 0 6px; display: flex; align-items: center; gap: 6px; font-family: var(--font-data); font-size: 11.5px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
 .ai ul { margin: 0; padding-left: 18px; display: grid; gap: 5px; color: var(--ink); font-size: 14.5px; line-height: 1.5; }
@@ -316,7 +321,7 @@ footer p { margin: 0; }
         <div><dt>Pembaruan</dt><dd>Berita diambil otomatis dari RSS kira-kira tiap 10 menit. Aplikasi mengecek data baru tiap 2 menit selama terbuka.</dd></div>
         <div><dt>Sumber</dt><dd>Kontan, CNBC Indonesia, IDX Channel, Bisnis, dan Investor.id. Jika RSS sebuah media tidak bisa diambil server, dipakai Google News RSS untuk situs media itu.</dd></div>
         <div><dt>Dibuang</dt><dd>Berita pergerakan harga (IHSG, top gainer dan loser, analisis teknikal), net buy dan sell asing, serta harga emas dan kurs. Penyaringan otomatis memakai kata kunci di judul.</dd></div>
-        <div><dt>Satu topik</dt><dd>Satu peristiwa. Artikel digabung otomatis jika menyebut kode saham dan jenis aksi yang sama, atau judulnya sangat mirip.</dd></div>
+        <div><dt>Satu topik</dt><dd>Satu peristiwa. Artikel digabung otomatis jika menyebut kode saham atau jenis aksi yang sama dengan judul mirip; topik kembar yang masih lolos digabung AI tiap jam. Tiap topik melampirkan satu artikel saja: tautan langsung ke media jika ada, yang terbit paling awal.</dd></div>
         <div><dt>Terpopuler</dt><dd>Jumlah media yang memberitakan, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu artikel terbaru. Maksimal 30 topik.</dd></div>
         <div><dt>Panah dan Baru</dt><dd>Dibanding peringkat sekitar satu jam sebelumnya.</dd></div>
         <div><dt>Ringkasan AI</dt><dd>Poin-poin ditulis Claude dari artikel sumber, tiap jam pukul 05.00–22.00 WIB. Topik baru tampil dulu dengan judul, lalu ringkasannya menyusul. AI bisa keliru; cek angka penting di artikel aslinya.</dd></div>
@@ -384,7 +389,20 @@ footer p { margin: 0; }
     const start = Date.parse(ed.window.start);
     const ord = (c) => (CATS[c] ? CATS[c].order : 9);
     const rows = [];
-    for (const t of ed.topics || []) {
+    // Topik kembar yang ditandai AI (merge: {idKembar: idUtama}) digabung ke topik utamanya.
+    const merge = (state.ai && state.ai.merge) || {};
+    const byId = new Map((ed.topics || []).map((t) => [t.id, { ...t, sources: t.sources.slice() }]));
+    for (const [dup, main] of Object.entries(merge)) {
+      let target = main, hops = 0;
+      while (merge[target] && hops++ < 5) target = merge[target];
+      const d = byId.get(dup), m = byId.get(target);
+      if (!d || !m || d === m) continue;
+      const seen = new Set(m.sources.map((s) => s.url));
+      d.sources.forEach((s) => { if (!seen.has(s.url)) m.sources.push(s); });
+      (d.tickers || []).forEach((k) => { if (!(m.tickers || []).includes(k)) m.tickers = [...(m.tickers || []), k]; });
+      byId.delete(dup);
+    }
+    for (const t of byId.values()) {
       const src = t.sources.filter((s) => Date.parse(s.time) >= start);
       if (!src.length) continue;
       const media = new Set(src.map((s) => s.media));
@@ -464,14 +482,20 @@ footer p { margin: 0; }
     return (today ? "" : fmtDay(iso) + " ") + fmtTime(iso);
   }
 
+  // Satu artikel per topik: utamakan tautan langsung ke media (bukan Google News), lalu yang terbit paling awal.
+  function pickSource(t) {
+    return t.sources.slice().sort((a, b) =>
+      (/news\.google\./.test(a.url) - /news\.google\./.test(b.url)) || Date.parse(a.time) - Date.parse(b.time))[0];
+  }
+
   function topicHTML(t) {
     const cat = CATS[t.category] || CATS.Makro;
     const tickers = (t.tickers || []).map((k) => '<span class="tk">' + esc(k) + "</span>").join("");
     const cov = state.ed.media.map((m) => '<span class="' + (t.media.has(m.name) ? "on" : "") + '" title="' + esc(m.name) + '">' + esc(m.abbr) + "</span>").join("");
     const covLabel = "Diberitakan " + t.nMedia + " dari " + state.ed.media.length + " media: " + [...t.media].join(", ");
     const saved = !!state.saved[t.id];
-    const src = t.sources.slice().sort((a, b) => Date.parse(b.time) - Date.parse(a.time)).map((s) =>
-      '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener"><span class="s-main"><b>' + esc(s.media) + ' ↗</b><span>' + esc(s.title || "") + '</span></span><span class="when">' + esc(when(s.time)) + "</span></a></li>").join("");
+    const one = pickSource(t);
+    const src = '<a class="read" href="' + esc(one.url) + '" target="_blank" rel="noopener"><span class="s-main"><b>Baca di ' + esc(one.media) + ' ↗</b><span>' + esc(one.title || t.title) + '</span></span><span class="when">' + esc(when(one.time)) + "</span></a>";
     const lead = state.sort === "new"
       ? '<div class="rank time" aria-label="Terbaru pukul ' + fmtTime(t.latest) + '">' + esc(fmtTime(t.latest)) + "</div>"
       : '<div class="rank" aria-label="Peringkat ' + t.rank + '">' + t.rank + moveHTML(t) + "</div>";
@@ -486,10 +510,9 @@ footer p { margin: 0; }
         '<h2 class="t-title">' + esc(t.title) + "</h2>" + sum +
         '<div class="t-foot">' +
           '<div class="cov" role="img" aria-label="' + esc(covLabel) + '">' + cov + "</div>" +
-          '<span class="counts">' + t.nMedia + " media · " + t.nArt + " artikel</span>" +
+          '<span class="counts">Diberitakan ' + t.nMedia + " media</span>" +
           '<button class="save" type="button" data-id="' + esc(t.id) + '" aria-pressed="' + saved + '">' + STAR + (saved ? "Tersimpan" : "Simpan ide") + "</button>" +
-        "</div>" +
-        '<details class="src"><summary>Sumber (' + t.nArt + ")</summary><ul>" + src + "</ul></details>" +
+        "</div>" + src +
       "</div></li>";
   }
 

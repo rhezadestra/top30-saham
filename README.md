@@ -9,7 +9,7 @@ Alamat: https://rhezadestra.github.io/top30-saham/
 1. Workflow GitHub Actions `.github/workflows/live.yml` menjalankan `scripts/update_live.py` tiap 10 menit. GitHub kadang menunda jadwal beberapa menit.
 2. Skrip mengambil RSS tiap media. Jika RSS langsung tidak bisa diambil dari server (Kontan, Bisnis, dan Investor.id memblokir), skrip memakai Google News RSS untuk situs media itu.
 3. Berita pergerakan harga, net buy/sell asing, harga emas, dan kurs dibuang berdasarkan kata kunci di judul.
-4. Artikel digabung per peristiwa: kode saham dan jenis aksi yang sama (dividen, rights issue, IPO, dan lain-lain), atau judul yang sangat mirip.
+4. Artikel digabung per peristiwa: kode saham dan jenis aksi yang sama (dividen, rights issue, IPO, delisting, dan lain-lain) dengan beberapa kata kunci sama, atau judul yang sangat mirip.
 5. Hasilnya ditulis ke `data/live.json`, lalu di-commit hanya jika ada perubahan atau sudah lebih dari 30 menit. GitHub Pages memperbarui situs dalam satu sampai dua menit.
 6. Aplikasi mengecek `data/live.json` tiap 2 menit selama terbuka, dan setiap kali dibuka lagi.
 
@@ -42,6 +42,10 @@ Tugas terjadwal Claude berjalan tiap jam (menit ke-45, pukul 05.45–22.45 WIB).
   }
 }
 ```
+
+Tugas yang sama menandai topik kembar (peristiwa sama yang terpecah) di kunci `"merge": {"<id kembar>": "<id utama>"}`. Aplikasi menggabungkan sumber topik kembar ke topik utamanya, sehingga jumlah media ikut terhitung dan topik tidak tampil dua kali.
+
+Setiap topik hanya melampirkan satu artikel: tautan langsung ke media jika ada (bukan Google News), yang terbit paling awal.
 
 Aplikasi mencocokkan ringkasan lewat id topik, atau lewat URL artikel jika pengelompokan otomatis berubah. Topik yang belum diringkas menampilkan cuplikan RSS (jika ada) dan keterangan "Ringkasan AI menyusul".
 

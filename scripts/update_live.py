@@ -310,9 +310,13 @@ def same_event(a, b):
         if ea and eb:
             return bool(ea & eb)
         return sim >= 0.2
+    shared = len(a["tok"] & b["tok"])
+    # Jenis aksi sama (mis. delisting, dividen) dan beberapa kata kunci sama: kemungkinan besar peristiwa yang sama.
+    if a["ev"] & b["ev"] and shared >= 3 and sim >= 0.2:
+        return True
     if ta or tb:
         return sim >= 0.45
-    return sim >= 0.4 and len(a["tok"] & b["tok"]) >= 3
+    return sim >= 0.4 and shared >= 3
 
 
 def cluster(arts):
