@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T17:53:39+07:00",
+ "updated": "2026-11-27T17:59:39+07:00",
  "window": {
-  "start": "2026-11-26T17:53:39+07:00",
-  "end": "2026-11-27T17:53:39+07:00",
+  "start": "2026-11-26T17:59:39+07:00",
+  "end": "2026-11-27T17:59:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 185
+   "items": 161
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 99
+   "items": 98
   },
   "Investor.id": {
    "via": "google",
@@ -527,6 +527,24 @@
      "time": "2026-11-27T13:39:14+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1BhLVZqMmxoTDNRWnljUnhoUnE4UEJ3MnZvX0xOS0ppNXFmMjJzT2NQV0NHeTNTclctMG4ybHFaU0dkOERLR3hyVnF6RXg0RER1dXFYMzlhdHpxUGsyUEpWZm1uV0RpWG9idVFOSUpHek9KQnBfMW9DSTVRUGhCT2FTSlhVV3pzWl9fd0RSS2ZCY1FPMzNxVzUwNmMyZ1RSSmgtRUlWeGQ3Z9IBogFBVV95cUxOSHdMTG5kc0kzd1FmbjltZElEMGFyNDhaVm1nUmJ6ZDlZNFdnbGRRemJ6cWlzZXhpaDAtLTVaMUFNclBQeDAxRTEzb3AxNktfYjRHMktFb3Vub002MUE2VW1Ia0o1RlM1ZW5xT2JGa2dJaHJXcVRfTlVoUy1VaFg4RjE3RVFJR3oteTFsT1NTRTFWTkd4Rno5NzhrOXZQNUlrY0E?oc=5",
      "title": "Trump Ancam Kenakan Tarif Baru, Pasar Saham Indonesia Dibayangi Tekanan"
+    }
+   ]
+  },
+  {
+   "id": "c3a1f192e352",
+   "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "KOTA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T17:55:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWc1SmJZOWNYb2hadnBhOHlXSG1STk9IRGU3ZmdPY3hQUWh2TXhEeDAyYm9mMy0xYTdyYUdYS2RKV1Q5dUt4NGZhU1NMV0VCd2E0eGM4MlJ6WUJPZnBXNXVyaURuR1VLUTBXRnJvWjlLdTkxaXo0b3hhb3VlSVpNeWZTNDhwUS1uTGdrYzNIckxmOU84eVV5Vzl3SzFqazREOGpNbkN6Q3JPMy0xNlhkQWhR?oc=5",
+     "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare"
     }
    ]
   },
@@ -1204,6 +1222,22 @@
      "time": "2026-11-26T18:21:07+07:00",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeXI5MnRxdkg0TWllNjRKYmlObGpHMTBFOTFLa09ya0VHQW1XSXNfZWt1M1h6bTdLSEVBQnlOUmlTXzI0cVNvX0ZmbkFWSFQ3NzVFMWFwd0hIZnR0YVdXdk9BSUVZYzNmZ0p6UExCdVlZMElJZ201NWlKWjRpakxnMWtzbUdDcjJFeWR3RHRLcjZ4Wk1HZjdXbVJMazBFUHNpd3U2a3ZR0gGfAUFVX3lxTFByU3k1b1ZobzI2bXNaUmhZMkxKbXJOS0tMeE5UeVB0LUZQSm9wN0x5TVJieC1nZDBhRWlvcW1WRXhIc1BvdmZkZXdsLWRZcDRKdVdkSnkzeElPd3k4UEtKNnFFMncyeXJMdDhKVG02SWswQXpGYk95QlFsQjJYS2JUM1BiUmszNEpWb0dQMW5DOXlkakRDTi04S2FCZXVZaw?oc=5",
      "title": "OJK Cabut Izin Usaha Koperasi LKM Agrobisnis Subur Lestari Sejahtera"
+    }
+   ]
+  },
+  {
+   "id": "203683fc7303",
+   "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T17:50:47+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEloVEVSYTZZOENnS2RQbHRIdno0NnF2aFp0c1hRdURwSWtRU3hNbVdIN1ZhNFVfNHQ2VGU2V0l3eWtpaEtSU3pEeGF5LTdlYzVvekk2b1ZoV2FoZkowYktSTTZHSU13S0pyelQyb2xjUFpKQnNxSGFHWHhRb0hUeURqUXlDZEM0S2I5UmVrSlI1cXlZc2JlRWwyaF92bkxpdm1DUNIBngFBVV95cUxQcU96ZmFFcmprZXJWckxQQnhWMUZvTTJkV0tvLW9rYnNwS3hMRVZ0RVlBZjhNN3g3SkNvN0NEM3luVkRsS05tSDBqWGJiRTJYZEk1bkpTTGxRQl9FSWN2VjF5Z0N1bmVNVzJKbVRQbWVQN09ySUdLU2U5LXNZNU9iUXZtOTBmbDlCbk93cVpvZS1VT3JyVG5MSW44ajJRUQ?oc=5",
+     "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026"
     }
    ]
   },
@@ -3054,22 +3088,6 @@
      "time": "2026-11-26T18:00:57+07:00",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVHpFRjNPeVJ6VlFiZVAyNTE5V1pPMTBGV01TeHhDUWFMRzdkTktrQi0yYXdtemFpNE1sanJ3QTh6eWdnWjBucEFnc1FsdXJScjhJeHloSzh4QTA2MlBiS25WeGFBWm9JQVFucDhYZTV1N1NXbFA3N0prS2ZVUU56cnNndHVteFVXWTAyY3BVRnZYYVBlVXlvN0hvZFFCQnBVbE9aZWs4ZG1iNUdKSUQ3Sw?oc=5",
      "title": "Buntut Usulan Tarif 18% AS, Industri Tekstil Disarankan Siaga"
-    }
-   ]
-  },
-  {
-   "id": "4bcd89401204",
-   "title": "RI Terancam Tarif AS 18%, Apindo Soroti Daya Saing dengan Jepang-Uni Eropa",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T17:58:34+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUnZLZENTSklwalZoVm9EcWRyX3VoS2F3REhuVS1qaTZrZXBnYXExWk43TzVvaXhBYjB1bEcwZS1KX3ZjNkl5MTF2NklzT0hCdUNrRC1IV0N6UWFmSEJQRGRYNEV3dlluT1VrOEUtTmQzaWtPdHljcmgyc0F5QkM2WkJUcVZnOXhBaVNMNkhiVTY4OE5yVDU2bm53LU5UWmc0UTh2LWh3cHBTZS1hUUl1aEZPX2QxbTZtVmNqdnQ4VDRnQQ?oc=5",
-     "title": "RI Terancam Tarif AS 18%, Apindo Soroti Daya Saing dengan Jepang-Uni Eropa"
     }
    ]
   }
