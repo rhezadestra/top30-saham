@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T05:07:38+07:00",
+ "updated": "2026-11-28T05:16:38+07:00",
  "window": {
-  "start": "2026-11-27T05:07:38+07:00",
-  "end": "2026-11-28T05:07:38+07:00",
+  "start": "2026-11-27T05:16:38+07:00",
+  "end": "2026-11-28T05:16:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 166
+   "items": 165
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 88
+   "items": 89
   },
   "Investor.id": {
    "via": "google",
-   "items": 118
+   "items": 119
   }
  },
  "prevAt": "2026-11-28T04:58:38+07:00",
@@ -767,6 +767,28 @@
    ]
   },
   {
+   "id": "984097e8d7b0",
+   "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T08:32:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3BzMkFvWno3TmYzbk1nNnEwem40RVc5cmxyOHc0Z1pYVU1oVTY5aTVEMU0zTGJ6Zkt2bG1NNFJ4c1FfR3VybzI0MXAwa1V4SWY4aTFuRFR1ekJ0U3dnZFpzX3ppY3dON0YybG5SSEZCRHhoMm1SNVh0OEJ4dUlCOUJFc2tNNEtYcHVWQmR4MWhjVlFlQkdzQVh1bGRKSFBPeVpmSXNiNHhiNUV6N0VaSXJRcDBvbzBFU1E?oc=5",
+     "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T08:32:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY0x0ZThCc0l6cHJCTjVCdFNQQkVORjVnTm9uRERkb0c5U2hXRTZMNHBPUVJFZTgwNHBRRVEyT2Nncm0zSTlWLTJ5WlprY0lTUlZHNV94d3VCMlIzdU56dXdYbEhHdEswX0xhcWN1Y2daNzJNamlFWlNBdTA1MnVfZWFhUUx6dW83eEs4TUNxenVfbUtNTk84QThlejdueWh5UE40LVZwTjlPY1ljdXhQS2gwZmpDTE02V2ZablhtTFVKTXYwVjcyQlVWN1FXT1drZ2tzMg?oc=5",
+     "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun"
+    }
+   ]
+  },
+  {
    "id": "567fe040b98c",
    "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak",
    "category": "Kinerja",
@@ -1287,22 +1309,6 @@
      "time": "2026-11-27T08:43:39+07:00",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTzZDS1Q0LUdnRUNNLW1PeE9qWU5XQkdsYzRxLXBQT0NKMTNqdXdVVlE4UTJmTEFLQnZzd05vdmZXSlZoUzN2OVV5TTBjSGYydmhBZEtlbnRjZVEzSmx4XzdtU1lQeS1kZW1EMi1TRW1GbDNqTXR2V3l0czh5WTdYYTNkaFpKWTV1dERzWWpKMi1oUV8xcGpSVVNR?oc=5",
      "title": "Menjaga Pertumbuhan Kinerja, CLEO Ekspansi Produk Air Mineral"
-    }
-   ]
-  },
-  {
-   "id": "984097e8d7b0",
-   "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T08:32:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3BzMkFvWno3TmYzbk1nNnEwem40RVc5cmxyOHc0Z1pYVU1oVTY5aTVEMU0zTGJ6Zkt2bG1NNFJ4c1FfR3VybzI0MXAwa1V4SWY4aTFuRFR1ekJ0U3dnZFpzX3ppY3dON0YybG5SSEZCRHhoMm1SNVh0OEJ4dUlCOUJFc2tNNEtYcHVWQmR4MWhjVlFlQkdzQVh1bGRKSFBPeVpmSXNiNHhiNUV6N0VaSXJRcDBvbzBFU1E?oc=5",
-     "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun"
     }
    ]
   },
