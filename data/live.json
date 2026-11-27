@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T18:54:09+07:00",
+ "updated": "2026-11-27T18:57:10+07:00",
  "window": {
-  "start": "2026-11-26T18:54:09+07:00",
-  "end": "2026-11-27T18:54:09+07:00",
+  "start": "2026-11-26T18:57:10+07:00",
+  "end": "2026-11-27T18:57:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 158
+   "items": 181
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 91
+   "items": 92
   },
   "Investor.id": {
    "via": "google",
@@ -275,6 +275,36 @@
    ]
   },
   {
+   "id": "c3a1f192e352",
+   "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "KOTA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T17:55:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWc1SmJZOWNYb2hadnBhOHlXSG1STk9IRGU3ZmdPY3hQUWh2TXhEeDAyYm9mMy0xYTdyYUdYS2RKV1Q5dUt4NGZhU1NMV0VCd2E0eGM4MlJ6WUJPZnBXNXVyaURuR1VLUTBXRnJvWjlLdTkxaXo0b3hhb3VlSVpNeWZTNDhwUS1uTGdrYzNIckxmOU84eVV5Vzl3SzFqazREOGpNbkN6Q3JPMy0xNlhkQWhR?oc=5",
+     "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T18:15:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUV81Z2NLaWgtRlVKN3pIRE5GbWRNNFdLSDhIWGRQdlZ1a2RMRTJ0Z3pzTjAzS2dNNGd0YlN2emNlVGczd2t4Sm1YLUZOSGMzVnBKZUhhLWRSdDViX0R2eWZVTlRITVVmTFpVMFRlX1ZNblV5LTJJVVFibUlmUW1qTXdkNXhDbTAycTBqWjJqQy1pTFVpTHd5dEJn?oc=5",
+     "title": "KOTA Kantongi Restu Rights Issue , Incar Land Bank 572 Hektare"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T18:45:49+07:00",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUNUNEdnXzdqSWFPaVlOZ0FmTHNicXlhX2VDMU1rTVFTcndrOFZISVhBaHV1TkNLVVNuZkNVeGRiM1p2b2ZWa19fMFR3OWRDbHBKbEdDN1MzUWxMV3ljRGhJU3ZRTy04bHBsT2kyX1p6OWFyZWFqSUlkVEJNcVgxODYzT1BucWx6QkFHWFlmZjZsdGM1Unp4QTR0N1VGX0pUZ1VhUHVmRklfejJO0gGkAUFVX3lxTE9VUENQRzdiVUhwb1pINUNrallHNWJBVDl2aVViclA0TnZxdk1VV1gyY20tWDg5NHIzeDcwaTNkc3BwblllZWN5YV9HelNGWmxzUE1KdURKeEs3Q25oQjZ5aHBzS3pJMVlUd3dLTjB4SEtlaU15dEtVTnI5QzhIQWpXa1hhZWNMZlVLMHpNREdiNjc0Y2V3bTlQQ1lpVFhvNUdiSTNl?oc=5",
+     "title": "KOTA Kantongi Restu Rights Issue 100 Miliar Saham, Incar Land Bank 572 Ha"
+    }
+   ]
+  },
+  {
    "id": "7dbe91716ba1",
    "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
    "category": "Aksi korporasi",
@@ -379,30 +409,6 @@
      "time": "2026-11-27T18:32:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127181126-17-789191/jasindo-brins-jasaraharja-putera-merger-awal-2027-begini-skemanya",
      "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya"
-    }
-   ]
-  },
-  {
-   "id": "c3a1f192e352",
-   "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "KOTA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T17:55:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWc1SmJZOWNYb2hadnBhOHlXSG1STk9IRGU3ZmdPY3hQUWh2TXhEeDAyYm9mMy0xYTdyYUdYS2RKV1Q5dUt4NGZhU1NMV0VCd2E0eGM4MlJ6WUJPZnBXNXVyaURuR1VLUTBXRnJvWjlLdTkxaXo0b3hhb3VlSVpNeWZTNDhwUS1uTGdrYzNIckxmOU84eVV5Vzl3SzFqazREOGpNbkN6Q3JPMy0xNlhkQWhR?oc=5",
-     "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T18:15:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUV81Z2NLaWgtRlVKN3pIRE5GbWRNNFdLSDhIWGRQdlZ1a2RMRTJ0Z3pzTjAzS2dNNGd0YlN2emNlVGczd2t4Sm1YLUZOSGMzVnBKZUhhLWRSdDViX0R2eWZVTlRITVVmTFpVMFRlX1ZNblV5LTJJVVFibUlmUW1qTXdkNXhDbTAycTBqWjJqQy1pTFVpTHd5dEJn?oc=5",
-     "title": "KOTA Kantongi Restu Rights Issue , Incar Land Bank 572 Hektare"
     }
    ]
   },
@@ -1704,6 +1710,22 @@
      "time": "2026-11-26T19:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYm9waXJ1UEZuOU4zMXZPR0hCU1QzdXZYd0VVWHZxRjlTcFJwZjd2alJtalJhQVF6RUZucHNUTGZhVldWX1NvRHRpSjNVUFZUUXhYckpnRGhzbjRUUUVHejBXbDdYQXhnY3lQU0xGTmJPQWJZcHpsUFRwaE9objZ6Y1dQUk00aFBzVFRidTBoWm4wZmNsQy1qdE5lMnJtbXE0a3ZXZXhB?oc=5",
      "title": "Melirik Peluang Saham Underrated Pasca-MSCI Index Review November 2026"
+    }
+   ]
+  },
+  {
+   "id": "94a72d19e496",
+   "title": "Citilink Umumkan Penjualan Lima Aset Pesawat Boeing 737-300 dan Engine",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:49:43+07:00",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOEVpNWtBbTN3TGhSUy1FWjdvYWFXZ2VyVHd4a3dCM0hIWndSTHJOWkg0eGZ5a2hVakFjRnB2R2U3VDY0YzdqRFBYeXJJU054UDlYRHFIUk1VTHdQVGJKQWNRM0p5OXdyMDNHQ2dXWEdXSDMxSXRNVWFzaGZoSGZMRm1BMFdaUXFwYTQ5ZE1ha0ZCbjhHQ180OFRMc285aTI5d3YyRUR4WlVGUDNDS1F4dUdqcEwxN1JhTUJsVWhGZw?oc=5",
+     "title": "Citilink Umumkan Penjualan Lima Aset Pesawat Boeing 737-300 dan Engine"
     }
    ]
   },
