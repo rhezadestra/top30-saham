@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T04:58:38+07:00",
+ "updated": "2026-11-28T05:01:39+07:00",
  "window": {
-  "start": "2026-11-27T04:58:38+07:00",
-  "end": "2026-11-28T04:58:38+07:00",
+  "start": "2026-11-27T05:01:39+07:00",
+  "end": "2026-11-28T05:01:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,10 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 159
+   "items": 147,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +52,10 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 118
+   "items": 114,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   }
  },
  "prevAt": "2026-11-28T04:58:38+07:00",
@@ -2380,40 +2386,6 @@
      "time": "2026-11-27T05:24:47+07:00",
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTHpaY3Zub0t3dWZQcWd5cGRocEg4bmFRZ2lfUjE5T0ZFYmxMeDh2Unp5YVBPYW85b3VIRUJFaDFDV083SDdaV3VpRXlQcmhpZFA3VFdPdlJsUHliYXFnQWlwX3Z3M1otOFJramxNVk5FLU5FT0s2cEpXd3hkdUVlc2RyTlFyODVmcnZyQm43SnhGbXMxd0xDTVU5a0ZuSEFrY1RQQkFiWkhjMmJUVjRyZ2dkZ2vSAawBQVVfeXFMT0Y4SFUxTkNrTFNjejctVVpyTm1RNzJ1Ty1kd3d1ZjU2RDcxUFpqUDZYbVhyQnFKaFA2ZUwxUDY0WmJ6MTFoODQ1cFQyTFNyZTZ0T2twSkJ0U0xGc19KNWZ0ME5JdkJnU216N1BYQldyaDluQ21kbU9JSDVzVmUxUk1pdkRBM0JVZ2lRcE5KbHc5VVdPTnRHMnhreFNtZnlSalAtNTNueWFKNVVVZQ?oc=5",
      "title": "Daftar Saham LQ45 dengan PER Terendah Tertinggi (26 Nov 2026), BRPT Melonjak 14,96%"
-    }
-   ]
-  },
-  {
-   "id": "d71f904a51f6",
-   "title": "Bank Digital Pacu Kredit Berkualitas",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:00:53+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YZGJYT0dvOTh0Y0o5ZnhiVkMwelR4YU1zWWdMaVMweU85djQzcEhQY3pxYlNZaHloV2JiOWlyVzFWNEQwQU5hdm1KTWJNTWNKaEhGTnlpUWFWVmFvNVZ3WVRJNmRsQWphdnBoUUIwSGNjOHcyMFBvNV9n?oc=5",
-     "title": "Bank Digital Pacu Kredit Berkualitas"
-    }
-   ]
-  },
-  {
-   "id": "b471df0df70e",
-   "title": "BERITA POPULER: Haji Isam dan Dewi Kam di Proyek Besar hingga BUMI Bicara soal Batu Bara",
-   "category": "Kinerja",
-   "tickers": [
-    "BUMI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T05:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQjg2dkRsNThXeXJOaHdQMGU5MTN2Uk5QZS01T3ROekEwWnFfZHZ1NU53V3pKR0NJUWNFTlJ2eWxCOV9jZTBpRl9jZjJMRHJsdVJHZ05KdERKRVFWTFRsbW40aUZzVC1raGlRclk0UDhKOEhUdDB3Q2xRMGJtVm9kV3doV1ItcS10MEx6eUl6VmdwTDR6cmZBTlNCV3ExWVNYR1E0OEVGc0NFYWx0bFNUd2lBY1pRNDhzTHlOX25R?oc=5",
-     "title": "BERITA POPULER: Haji Isam dan Dewi Kam di Proyek Besar hingga BUMI Bicara soal Batu Bara"
     }
    ]
   },
