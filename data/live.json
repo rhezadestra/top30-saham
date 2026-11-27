@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T12:25:29+07:00",
+ "updated": "2026-11-27T12:26:26+07:00",
  "window": {
-  "start": "2026-11-26T12:25:29+07:00",
-  "end": "2026-11-27T12:25:29+07:00",
+  "start": "2026-11-26T12:26:26+07:00",
+  "end": "2026-11-27T12:26:26+07:00",
   "hours": 24
  },
  "target": 30,
@@ -30,589 +30,707 @@
    "abbr": "INV"
   }
  ],
- "feeds": {},
+ "feeds": {
+  "Kontan": {
+   "via": "google",
+   "items": 172
+  },
+  "CNBC Indonesia": {
+   "via": "rss",
+   "items": 66
+  },
+  "IDX Channel": {
+   "via": "rss",
+   "items": 10
+  },
+  "Bisnis": {
+   "via": "google",
+   "items": 112
+  },
+  "Investor.id": {
+   "via": "google",
+   "items": 163
+  }
+ },
  "prevAt": "2026-11-27T12:25:29+07:00",
  "prevRanks": {},
  "topics": [
   {
-   "id": "df5edb9a1312",
-   "title": "Laba bersih konsolidasi Danantara 2025 capai Rp259,6 triliun",
-   "category": "Kinerja",
-   "tickers": [
-    "BBRI",
-    "BMRI",
-    "BBNI",
-    "TLKM",
-    "ANTM"
-   ],
-   "summary": "Danantara membukukan laba bersih konsolidasi 2025 sebesar Rp259,6 triliun, lebih dari separuhnya dari BBRI, BMRI, dan Pertamina, sementara target laba BUMN 2026 dipatok Rp332 triliun. Korea Investment & Sekuritas menilai angka 2025 di bawah klaim awal karena eliminasi antarperusahaan dan porsi minoritas.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:10:08+07:00",
-     "url": "https://investasi.kontan.co.id/news/laba-bersih-danantara-rp-2596-triliun-pada-2025-simak-prospek-emiten-asuhannya",
-     "title": "Laba bersih konsolidasi Danantara 2025 capai Rp259,6 triliun"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:40:00+07:00",
-     "url": "https://insight.kontan.co.id/news/mencermati-pengelolaan-dividen-danantara",
-     "title": "Laba bersih konsolidasi Danantara 2025 capai Rp259,6 triliun"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T06:06:00+07:00",
-     "url": "https://insight.kontan.co.id/news/danantara-andalkan-sektor-perbankan",
-     "title": "Laba bersih konsolidasi Danantara 2025 capai Rp259,6 triliun"
-    }
-   ]
-  },
-  {
-   "id": "8b0ff9529ad4",
-   "title": "AS usulkan tarif baru untuk 14 negara, termasuk Indonesia",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "AS mengusulkan tarif tambahan bagi 14 mitra dagang, dengan Indonesia disebut terkena tambahan 18% lewat proses Section 301 yang belum final. Analis menilai dampaknya lebih kecil dibanding April 2025, tetapi tetap menjadi risiko bagi pasar pada 2027.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:28:40+07:00",
-     "url": "https://investasi.kontan.co.id/news/trump-ancam-tarif-baru-untuk-14-negara-begini-dampaknya-ke-pasar-saham-indonesia",
-     "title": "AS usulkan tarif baru untuk 14 negara, termasuk Indonesia"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T08:37:03+07:00",
-     "url": "https://insight.kontan.co.id/news/amerika-usulkan-tambahan-tarif-dagang-pasar-saham-indonesia-bisa-tegang",
-     "title": "AS usulkan tarif baru untuk 14 negara, termasuk Indonesia"
-    }
-   ]
-  },
-  {
-   "id": "437c68958b41",
-   "title": "DPR dan BI sepakati anggaran BI 2027, penerimaan Rp37,79 triliun",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Komisi XI DPR dan Bank Indonesia menyepakati RATBI 2027 dengan penerimaan operasional Rp37,79 triliun dan pengeluaran operasional Rp23,41 triliun. Asumsi yang dipakai antara lain pertumbuhan ekonomi 5,2–6% dan inflasi 2,5% ±1%.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T03:00:00+07:00",
-     "url": "https://www.idxchannel.com/economics/dpr-dan-bi-sepakati-ratbi-2027-penerimaan-operasional-dipatok-rp3779-triliun",
-     "title": "DPR dan BI sepakati anggaran BI 2027, penerimaan Rp37,79 triliun"
-    }
-   ]
-  },
-  {
-   "id": "097c3027fd50",
-   "title": "Trisula (TRIS) perkuat pengembangan produk untuk ritel",
-   "category": "Kinerja",
-   "tickers": [
-    "TRIS"
-   ],
-   "summary": "Trisula International menggenjot pengembangan dan inovasi produk untuk menangkap pertumbuhan ritel. Pada November 2026 perseroan merilis koleksi busana pria merek JOBB bersama desainer Musa Widyatmodjo.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T04:04:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/bidik-peluang-pertumbuhan-ritel-trisula-tris-fokus-perkuat-strategi-pengembangan-produk",
-     "title": "Trisula (TRIS) perkuat pengembangan produk untuk ritel"
-    }
-   ]
-  },
-  {
-   "id": "6165669bc7e7",
-   "title": "Danantara siapkan 41 proyek strategis untuk 2027",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "CEO Danantara Rosan Roeslani memaparkan rencana kerja 2027 Danantara Asset Management berisi 41 proyek strategis, terdiri atas 16 program lanjutan dan 25 program baru, dengan fokus restrukturisasi dan perampingan. Paparan disampaikan di Komisi VI DPR pada 26 November 2026.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T05:05:00+07:00",
-     "url": "https://www.idxchannel.com/economics/danantara-siapkan-41-proyek-strategis-2027-fokus-restrukturisasi-dan-streamlining",
-     "title": "Danantara siapkan 41 proyek strategis untuk 2027"
-    }
-   ]
-  },
-  {
-   "id": "6cdc05b3ac10",
-   "title": "CGS: El Niño berpotensi angkat harga CPO pada 2027",
-   "category": "Makro",
-   "tickers": [
-    "TAPG",
-    "AALI",
-    "DSNG"
-   ],
-   "summary": "CGS International memproyeksikan harga CPO 2027 sekitar RM4.800 per ton, naik 6,7%, seiring peluang El Niño kuat di awal 2027 yang bisa menekan produksi. Sektor sawit disebut diperdagangkan sekitar 10 kali P/E 2027, di bawah rata-rata historis 11,9 kali.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:55:44+07:00",
-     "url": "https://investasi.kontan.co.id/news/el-ni%C3%B1o-ancam-produksi-sawit-bisa-kerek-harga-cpo-di-2027-ini-saham-pilihan-cgs",
-     "title": "CGS: El Niño berpotensi angkat harga CPO pada 2027"
-    }
-   ]
-  },
-  {
-   "id": "79afe736613e",
-   "title": "PGEO raih peringkat BBB- prospek stabil dari S&P",
-   "category": "Kinerja",
-   "tickers": [
-    "PGEO"
-   ],
-   "summary": "Pertamina Geothermal Energy memperoleh peringkat BBB- dengan prospek stabil dari S&P Global Ratings pada 24 November 2026, didukung produksi Januari–September 2026 yang mencetak rekor. Perseroan menyebut peringkat ini membuka akses pendanaan lebih kompetitif untuk proyek panas bumi.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T06:00:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/pgeo-raih-peringkat-bbb-dengan-prospek-stabil-dari-sp-global-ratings",
-     "title": "PGEO raih peringkat BBB- prospek stabil dari S&P"
-    }
-   ]
-  },
-  {
-   "id": "b964c0311864",
-   "title": "Bayan (BYAN) rombak susunan komite audit",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "BYAN"
-   ],
-   "summary": "Bayan Resources mengganti ketua dan satu anggota komite audit per 25 November 2026: Nurfaizi menggantikan Timur Pradopo sebagai ketua, dan Indra Surya menggantikan Moermahadi Soerja Djanegara.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T06:20:00+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-mertua-kapolri-jadi-ketua-komite-audit",
-     "title": "Bayan (BYAN) rombak susunan komite audit"
-    }
-   ]
-  },
-  {
-   "id": "29dd24dc39bd",
-   "title": "Danantara targetkan jadi pemegang saham BEI semester I-2027",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "Danantara memperkirakan masuk sebagai pemegang saham Bursa Efek Indonesia pada paruh pertama 2027, menurut tayangan Evening CNBC Indonesia 26 November 2026.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-26T20:15:00+07:00",
-     "url": "https://www.cnbcindonesia.com/news/20261126190747-8-788878/danantara-perkirakan-jadi-pemegang-saham-bei-semester-i--2027",
-     "title": "Danantara targetkan jadi pemegang saham BEI semester I-2027"
-    }
-   ]
-  },
-  {
-   "id": "2accab4bbc9f",
-   "title": "Danantara targetkan restrukturisasi utang Whoosh tuntas awal 2027",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "COO Danantara Dony Oskaria menyebut restrukturisasi utang kereta cepat Whoosh ditargetkan rampung awal 2027, dengan pengalihan utang ke Kementerian Keuangan sedang berjalan. Kemenkeu berharap uji tuntas pengalihan saham PSBI selesai Desember 2026 sebagai dasar rancangan Perpres.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T06:50:00+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261126232134-17-788899/danantara-kebut-persoalan-utang-whoosh-selesai-tahun-depan",
-     "title": "Danantara targetkan restrukturisasi utang Whoosh tuntas awal 2027"
-    }
-   ]
-  },
-  {
-   "id": "a03b33f00af8",
-   "title": "BFI Finance (BFIN) siapkan 70% laba 2026 untuk dividen",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "BFIN"
-   ],
-   "summary": "BFI Finance menargetkan rasio pembagian dividen sekitar 70% dari laba bersih 2026, menunggu keputusan RUPS; dividen interim Rp35 per saham sudah ditetapkan dengan cum date 30 November. Laba bersih hingga kuartal III-2026 tercatat Rp1,3 triliun, naik 12,5%.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:38:00+07:00",
-     "url": "https://keuangan.kontan.co.id/news/bfi-finance-siapkan-70-laba-2026-untuk-dividen-ini-perkiraan-hak-investor",
-     "title": "BFI Finance (BFIN) siapkan 70% laba 2026 untuk dividen"
-    }
-   ]
-  },
-  {
-   "id": "f0bfcf8ab3b0",
-   "title": "PACK tunda RUPSLB rights issue Rp8,19 triliun ke 8 Desember",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "PACK"
-   ],
-   "summary": "Abadi Nusantara Hijau Investama memundurkan RUPSLB dari 30 November ke 8 Desember 2026 setelah OJK meminta tambahan informasi. Rencana rights issue hingga 100 miliar saham senilai maksimal Rp8,19 triliun, dengan Eco Energi Perkasa sebagai pembeli siaga hingga Rp7,39 triliun.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T06:22:00+07:00",
-     "url": "https://investor.id/market/463517/aksi-besarbesaran-perusahaan-portofolio-haji-isam-masih-butuh-waktu",
-     "title": "PACK tunda RUPSLB rights issue Rp8,19 triliun ke 8 Desember"
-    }
-   ]
-  },
-  {
-   "id": "bad24b9b06b8",
-   "title": "Fortune Indonesia (FORU) catat pendapatan Rp312 miliar dari batu bara",
-   "category": "Kinerja",
-   "tickers": [
-    "FORU"
-   ],
-   "summary": "Pendapatan FORU hingga September 2026 mencapai Rp312,31 miliar, sebagian besar dari ekspor batu bara lewat Borneo Prima, melonjak dari Rp10,35 miliar pada semester I. Perseroan masih merugi dengan rugi bersih induk sekitar Rp8,2 miliar.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T06:49:00+07:00",
-     "url": "https://investor.id/market/463520/mesin-tambang-mulai-menyala-omzet-meledak",
-     "title": "Fortune Indonesia (FORU) catat pendapatan Rp312 miliar dari batu bara"
-    }
-   ]
-  },
-  {
-   "id": "2cfb862b9443",
-   "title": "TBIG akan akuisisi EDOTCO Indonesia, tambah sekitar 800 menara",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "TBIG",
-    "MTEL",
-    "TOWR"
-   ],
-   "summary": "Tower Bersama berencana membeli seluruh saham EDOTCO Infrastruktur Indonesia dari Axiata, yang diperkirakan menambah sekitar 800 menara. Konsolidasi industri menara terus berjalan dengan Mitratel dan Sarana Menara sebagai pemain lain.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T07:33:00+07:00",
-     "url": "https://insight.kontan.co.id/news/skala-jadi-kunci-emiten-menara-telekomunikasi-terus-berburu-akuisisi",
-     "title": "TBIG akan akuisisi EDOTCO Indonesia, tambah sekitar 800 menara"
-    }
-   ]
-  },
-  {
-   "id": "dc514e3b6445",
-   "title": "Laba BUMI kuartal III-2026 melonjak 404,9% didorong volume",
-   "category": "Kinerja",
-   "tickers": [
-    "BUMI"
-   ],
-   "summary": "Pendapatan Bumi Resources hingga kuartal III-2026 naik 38,85% secara tahunan menjadi US$1,44 miliar. Laba yang diatribusikan ke pemilik naik 404,9% menjadi US$148,47 juta seiring kenaikan volume penjualan.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T06:08:00+07:00",
-     "url": "https://insight.kontan.co.id/news/peningkatan-volume-memoles-kinerja-keuangan-bumi",
-     "title": "Laba BUMI kuartal III-2026 melonjak 404,9% didorong volume"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T06:12:08+07:00",
-     "url": "https://investasi.kontan.co.id/news/laba-bersih-meroket-404-tapi-harga-saham-bumi-masih-anjlok-68-pilih-beli-tahan",
-     "title": "Laba BUMI kuartal III-2026 melonjak 404,9% didorong volume"
-    }
-   ]
-  },
-  {
-   "id": "3e75659917d2",
-   "title": "Medela Potentia (MDLA) perkuat logistik distribusi farmasi",
-   "category": "Kinerja",
-   "tickers": [
-    "MDLA"
-   ],
-   "summary": "Lewat anak usaha Anugrah Argon Medica, Medela Potentia menyalurkan lebih dari 11.500 SKU dari lebih dari 70 mitra prinsipal. Perusahaan memperkuat jaringan logistik obat sebagai penopang kinerja.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T07:20:00+07:00",
-     "url": "https://insight.kontan.co.id/news/mdla-membangun-kinerja-sehat-dari-pengiriman-obat",
-     "title": "Medela Potentia (MDLA) perkuat logistik distribusi farmasi"
-    }
-   ]
-  },
-  {
-   "id": "f5e47b9873ef",
-   "title": "Pertamina incar tambahan minyak mentah 30.000 bph dari Amerika Selatan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Pertamina menargetkan tambahan pasokan minyak mentah lebih dari 30.000 barel per hari dari Amerika Selatan mulai tahun depan. Langkah ini bagian dari diversifikasi pasokan di tengah risiko geopolitik.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T07:31:00+07:00",
-     "url": "https://insight.kontan.co.id/news/pertamina-bidik-tambahan-pasokan-minyak-mentah-dari-amerika-selatan",
-     "title": "Pertamina incar tambahan minyak mentah 30.000 bph dari Amerika Selatan"
-    }
-   ]
-  },
-  {
-   "id": "160da50bd9c8",
-   "title": "BBCA bayar dividen interim ketiga Rp35 per saham, total Rp4,29 triliun",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "BBCA"
-   ],
-   "summary": "BCA membagikan dividen interim terakhir tahun buku 2026 sebesar Rp35 per saham dengan cum date 27 November dan pembayaran 16 Desember 2026. Dwimuria Investama Andalan sebagai pemegang 54,94% saham diperkirakan menerima sekitar Rp2,37 triliun.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T07:37:00+07:00",
-     "url": "https://investor.id/market/463522/setoran-besar-buat-grup-djarum",
-     "title": "BBCA bayar dividen interim ketiga Rp35 per saham, total Rp4,29 triliun"
-    }
-   ]
-  },
-  {
-   "id": "8e6cc4c1b6c2",
-   "title": "PAABI proyeksikan penjualan alat berat 2027 hanya tumbuh sekitar 5%",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Asosiasi produsen alat berat (PAABI) memperkirakan pertumbuhan penjualan alat berat 2027 melambat ke kisaran 5%, dari estimasi 16% pada 2026. Perusahaan tambang dan perkebunan disebut menahan pembelian unit baru menjelang akhir tahun.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T04:35:13+07:00",
-     "url": "https://insight.kontan.co.id/news/penjualan-alat-berat-2027-diprediksi-melambat",
-     "title": "PAABI proyeksikan penjualan alat berat 2027 hanya tumbuh sekitar 5%"
-    }
-   ]
-  },
-  {
-   "id": "b075aa3c34af",
-   "title": "BEI suspensi lima saham karena data free float tidak sesuai",
+   "id": "0287597ab648",
+   "title": "BEI Sanksi Lima Emiten soal Ketidaksesuaian Data Free Float",
    "category": "Regulasi",
    "tickers": [
-    "AKKU",
-    "BAJA",
-    "FIRE",
-    "KING",
     "KPIG"
    ],
-   "summary": "Bursa menghentikan sementara perdagangan AKKU, BAJA, FIRE, KING, dan KPIG mulai 27 November 2026 karena kelima emiten tak memperbaiki data pemegang saham pengendali dan afiliasi dalam laporan free float hingga tenggat 26 November. Bursa sebelumnya telah mengirim pengingat pada 9 dan 16 November.",
-   "summaryFrom": null,
+   "summary": "Bursa Efek Indonesia menjatuhkan sanksi kepada lima emiten karena ketidakakuratan data saham free float. BEI menekankan pentingnya keterbukaan informasi.",
+   "summaryFrom": "CNBC Indonesia",
    "sources": [
     {
      "media": "Kontan",
      "time": "2026-11-27T09:15:01+07:00",
-     "url": "https://investasi.kontan.co.id/news/bei-sanksi-lima-emiten-soal-ketidaksesuaian-data-free-float",
-     "title": "BEI suspensi lima saham karena data free float tidak sesuai"
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU1RmYlE0NnJmVEYtMmphN0dUZnlUWWNzN2JpR1B0SDNXbWFFekpfdE14UDRKZk9jb3c1T1RvVlJWQS1ORE5mNXlwbWphS25RMThRY2twV3BDOHg5Q3hSRFlNN282SnVlR01mVDd5WnlfQzRyUFh5TU1WdlRMdlBHUVJLcUxndVJpZVdiNXVFWW5UdGRaWkN2UFBYa9IBkwFBVV95cUxNTDZCZElZVEdiOUx3WUtZaGRVTXdrZHp5T084S0hRMEktd0U3Qk9KSDAwZmFlb3BWaWhQM0tTV085a21lcnhxOEdyMG02UGx0SDNtcVpCLUZaUlM0d0VPQ2tsbVNRN051SFZWYVVkV0szTERlQzhYVGFXdFVBRUpXUkZ6ZUtiZUVyczZ6UmYzdjVtUm8?oc=5",
+     "title": "BEI Sanksi Lima Emiten soal Ketidaksesuaian Data Free Float"
     },
     {
      "media": "Investor.id",
-     "time": "2026-11-27T09:26:00+07:00",
-     "url": "https://investor.id/market/463537/bei-sanksi-5-emiten-gegara-data-free-float-bermasalah-ada-kpig",
-     "title": "BEI suspensi lima saham karena data free float tidak sesuai"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T09:52:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/bei-suspensi-5-saham-usai-langgar-ketentuan-pelaporan-free-float",
-     "title": "BEI suspensi lima saham karena data free float tidak sesuai"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T11:08:00+07:00",
-     "url": "https://investor.id/market/463550/emiten-hary-tanoe-kena-suspensi-bei-ini-sebabnya",
-     "title": "BEI suspensi lima saham karena data free float tidak sesuai"
+     "time": "2026-11-27T09:26:07+07:00",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQWt2RDFvLWVMYWZYSHprN1ZJaVRJRUt0V1QyRy1MbzdZSFF0Rm5qd0FNWllvXzhpQVdDZzgzVHVwQkFDQmpocW84ekZIcTF2ZnN5TjR0SkdpSjVKcXN2eV9YNEVONk9Sc1QwenBMWTBnc2ZjRWptUHk2bGhEeGtwVmdCZzlXcUlMdi1PdTh5bHNCR3V1MUdlZ0hYVlo?oc=5",
+     "title": "BEI Sanksi 5 Emiten Gegara Data Free Float Bermasalah, Ada KPIG"
     },
     {
      "media": "CNBC Indonesia",
-     "time": "2026-11-27T11:35:00+07:00",
+     "time": "2026-11-27T09:30:11+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127091911-17-788952/data-free-float-tak-akurat-bei-sanksi-5-emitan-ini",
+     "title": "Data Free Float Tak Akurat, BEI Sanksi 5 Emitan Ini"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T10:54:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFVDcWk2bXZMUGMyMmpjZy1oczFYUVN3c3QtYXg3WG9FZEc4R1E4eGt2eGlWWnEzRFdxU05XLW00bTk5TnRIM3hCUWhZX2IzQnVjeC1Ub01McnRIVDd6bXIzeTBhNFhsMVdfdUpLd0NRR3BKYnJFczlFWUt4akxndFNMYXY3WF9VbmtsT2hLYVhRRTltQUhKNnEwZHk2d9IBlgFBVV95cUxNcTJoTmI3WHdpR2hWSEYtLWJ6N25RMVZYbGFFRzM2SmRPb0JKYmVPVnFiSHRDV3RvRDUxN2ZJNTVISUF0WkhWMEV6UkgtT0o3Z0hsTnlRQ3hkeWFmeTlMTXZmZnVJYkpzQXFSNzk3ZVJIQUQ3MEFJdmFDcko5aHBUWGM1Tm1aelU2VGtwQV9KX2VUUWZ4V2c?oc=5",
+     "title": "Buntut Data Free Float Bermasalah, BEI Suspensi Lima Saham Ini"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T11:14:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTU3Zmw5TnB1SWtVZGM0dUFyOEwwd3NJN2xyMWl0U2JBdl81M091S19ZWDVSdkR4Q2NhaWM1emZFU2Q4RnJNZy1ZQW9Pa20wby11RXlVVHRxaWRfTHZrUlU5cXBxRFZjNGtiUGlzbENsdDQ3Sm9kUHFfWmstUDZLMWw0cU9pM0dqa3plSC1hVGFzVEpJZXB0TG9FbFJma1dxenJxZFFSZGZIVDBTNXBHZFpKd1o?oc=5",
+     "title": "Data Free Float Tidak Akurat, BEI Jatuhkan Sanksi kepada 5 Emiten - Bisnis.com"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T11:35:33+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float",
-     "title": "BEI suspensi lima saham karena data free float tidak sesuai"
+     "title": "Tak Cuma Beri Sanksi, BEI Juga Gembok 5 Saham Ini Gegara Free Float"
     }
    ]
   },
   {
-   "id": "2e5021c73029",
-   "title": "Setoran pajak BUMN 2025 naik 18% menjadi sekitar Rp567 triliun",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "Menurut COO Danantara Dony Oskaria, pajak yang dibayar BUMN pada 2025 mencapai sekitar Rp567 triliun, naik dari sekitar Rp480 triliun setahun sebelumnya. Ia juga menyebut Danantara tidak meminta penyertaan modal negara pada 2025 dan aset kelolaannya bertambah sekitar Rp400 triliun.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T09:10:00+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127080835-17-788936/bukan-cuma-tak-minta-pmn-danantara-pamer-setor-pajak-rp567-t-di-2025",
-     "title": "Setoran pajak BUMN 2025 naik 18% menjadi sekitar Rp567 triliun"
-    }
-   ]
-  },
-  {
-   "id": "5c1bca8380b6",
-   "title": "Danantara seragamkan standar kompetensi dan remunerasi pejabat BUMN",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Danantara Corporate University akan menyamakan standar kompetensi pegawai BUMN setingkat general manager ke atas, termasuk sistem grading, gaji, dan penilaian kinerja. Danantara juga menyeragamkan bagan akun keuangan antar-BUMN, terutama untuk akun terkait risiko.",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T09:45:00+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127082901-17-788938/ini-jurus-danantara-cetak-bos-bos-bumn-penyetaraan-standar-kompetensi",
-     "title": "Danantara seragamkan standar kompetensi dan remunerasi pejabat BUMN"
-    }
-   ]
-  },
-  {
-   "id": "e8d3fe592f30",
-   "title": "IPO Andalan Artha (ANDA) belum terlaksana, BEI tunggu konfirmasi",
+   "id": "8af9642a45de",
+   "title": "Nasib IPO Andalan Artha Primanusa (ANDA)",
    "category": "Aksi korporasi",
    "tickers": [
     "ANDA"
    ],
-   "summary": "Penawaran umum saham ANDA yang dijadwalkan 24–27 November 2026 belum dimulai. BEI menyebut jadwal itu indikatif dan masih menunggu konfirmasi perseroan serta penjamin emisi.",
-   "summaryFrom": null,
+   "summary": "Bursa Efek Indonesia menjelaskan penundaan IPO PT Andalan Artha Primanusa Tbk (ANDA) yang dijadwalkan 24-27 November 2026.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-26T14:48:56+07:00",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WZVA4OENMaFU3WXhuend1MXVGSHk0V0NfQXRXcGVRc2gxRG4wdF8xYlN2SDdSLXR0WVQ1eGNjZXpaSnlRd3FGekF0Zk1SOHNVbkIzYVB3c2lBVVl5SmF3elRVOUtoZnJDd0Y5TDlqS094QXQ2VFZQYkdzUVg?oc=5",
+     "title": "Nasib IPO Andalan Artha Primanusa (ANDA)"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T15:08:51+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWkgwQXV0U2dOT0lzWGFBVmhLemZoY1VEaHI3V2xvTnNJSTl4MHBIUkFpdTU2RW5rY29PdG40bDI1RDFod3JjVF9ibW9hRzFBc1RvM1J1Unl3LUlwazlWOFhQSTVSblZJdEV6aFhXbHEyVEY5eDVXZ2hoQW1iU3ZFTDE2Z3ZtTjdUOEpmemRTUE9xdldrM1EyMW9ncmJDWlVhZVZYcndMdUNMcmZ4QWs5MEdR?oc=5",
+     "title": "BEI Buka Suara Soal IPO Andalan Artha (ANDA) Tak Sesuai Jadwal - Bisnis.com"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T10:50:15+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127100115-17-788962/ipo-andalan-artha--anda--belum-terlaksana-bei-buka-suara",
+     "title": "IPO Andalan Artha (ANDA) Belum Terlaksana, BEI Buka Suara"
+    }
+   ]
+  },
+  {
+   "id": "6ca464c4a25b",
+   "title": "Bukan Akuisisi! Dony Oskaria Ungkap Status Danantara di Lahan RAPP",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "RAPP"
+   ],
+   "summary": "Danantara bantah akuisisi lahan RAPP, tegaskan pengelolaan sementara oleh Kemenhut. Pencabutan izin RAPP akibat pelanggaran lingkungan.",
+   "summaryFrom": "CNBC Indonesia",
    "sources": [
     {
      "media": "CNBC Indonesia",
-     "time": "2026-11-27T10:50:00+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127100115-17-788962/ipo-andalan-artha--anda--belum-terlaksana-bei-buka-suara",
-     "title": "IPO Andalan Artha (ANDA) belum terlaksana, BEI tunggu konfirmasi"
+     "time": "2026-11-26T16:41:14+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261126163007-17-788818/bukan-akuisisi-dony-oskaria-ungkap-status-danantara-di-lahan-rapp",
+     "title": "Bukan Akuisisi! Dony Oskaria Ungkap Status Danantara di Lahan RAPP"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T17:27:09+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOW5VY2s1QTFpYkxFWmt5Q2hySHBkblpsbEkwbUx2clJhblI4a1Q2MlVrcmxWTVJVRFZhb2tPZXNYeko2aWxMbVdKMWExT0plM1BLWllCMXYwRXp1T0w4bXBfRWRpUkFKbXFJclYtTVBNUnRBcWF6LXQ0UkpfQjZlQmhBT2hwTXA3V2g3SGZkdXJVNGZsaFdvczNJY1VhNlJKUENZT0I5VTI4cGZ4UzAxa1ZMd0xRd9IBrwFBVV95cUxOVUZYZXhWM0h1OXZ2RFFmQ1lTbzFQWk5ubmRTUllIYTAzb19tYS1ITS1BanJvS1otZEVZeDRWVTl5Q1NZRWhrUVh0Z1I0a3Fncm4xM2thSm84U0xSMml2R0pBT1VUdU1JZG1BM0kxcFdvUzhVNlM4UWxURGNlaU5LVzh3bnZweVpNRnQ0MzVtTkZhbjBFdXBzQVo3cWpJNl9BLVNiUHRFaWhzVXRQT0ZV?oc=5",
+     "title": "Danantara Tegaskan Garuda Adidaya Hanya Kelola Sementara Eks RAPP, Bukan Akuisisi"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T17:33:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmEtVWRCME9Gb3BMTnNuNVhYekRVUDRyVXkza3d5UHZxVFhWNmpfamZBLUJpckJhWWFHTnZXbmxqbzhFWndRTHJXTnQyUTJpd1NlUFZmT1RMckJjTnJOWS0wSDdvYVhVNmtSSnNwb1RsZ0g0XzhNODRKTEszN2VtZGhmNnBHdFNaODdBQW1ueWR2LW1TZkt0a1dPVFpseDFVTml2ZlZWMHJNbjFiTURNZlNDTmJEUQ?oc=5",
+     "title": "Danantara Tegaskan Garuda Adidaya Nusantara Bukan Akuisisi RAPP - Bisnis.com"
     }
    ]
   },
   {
-   "id": "4af3995ad22d",
-   "title": "Nusantara Infrastructure (META) bagi dividen interim Rp60,64 miliar",
+   "id": "b917b7f18503",
+   "title": "Bos SMBC Indonesia (BTPN) Buka-Bukaan Soal Alasan Mau Delisting",
    "category": "Aksi korporasi",
    "tickers": [
-    "META"
+    "BTPN",
+    "SMBC"
    ],
-   "summary": "RUPSLB META pada 26 November menyetujui dividen interim Rp3,5 per saham yang dibayar 3 Desember 2026. Rapat juga mengangkat Francis Gerard E. Aberilla sebagai direktur baru.",
-   "summaryFrom": null,
+   "summary": "PT Bank SMBC Indonesia Tbk. (BTPN) menyatakan rencana beralih menjadi perusahaan tertutup (go private) merupakan langkah strategis perusahaan.",
+   "summaryFrom": "CNBC Indonesia",
    "sources": [
     {
-     "media": "Investor.id",
-     "time": "2026-11-27T10:30:00+07:00",
-     "url": "https://investor.id/market/463542/nusantara-infrastructure-angkat-direktur-baru-tebar-dividen-interim",
-     "title": "Nusantara Infrastructure (META) bagi dividen interim Rp60,64 miliar"
-    }
-   ]
-  },
-  {
-   "id": "48b9611088b7",
-   "title": "Falmaco (FLMC) rencanakan private placement 78 juta saham",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "FLMC"
-   ],
-   "summary": "FLMC akan menerbitkan 78,125 juta saham baru seharga Rp100 kepada PT Futura Living Investama, yang kemudian memegang 9,09%. Dana sekitar Rp7,8 miliar dipakai untuk modal anak usaha distribusi; RUPSLB dijadwalkan 28 Desember 2026.",
-   "summaryFrom": null,
-   "sources": [
+     "media": "CNBC Indonesia",
+     "time": "2026-11-26T13:26:27+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261126132350-17-788723/bos-smbc-indonesia--btpn--buka-bukaan-soal-alasan-mau-delisting",
+     "title": "Bos SMBC Indonesia (BTPN) Buka-Bukaan Soal Alasan Mau Delisting"
+    },
     {
-     "media": "Investor.id",
-     "time": "2026-11-27T10:45:00+07:00",
-     "url": "https://investor.id/market/463546/pendatang-baru-di-emiten-portofolio-andry-hakim",
-     "title": "Falmaco (FLMC) rencanakan private placement 78 juta saham"
+     "media": "Kontan",
+     "time": "2026-11-26T13:42:59+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWUtIdFl2eTI4NzR2RHFCRWlNYzRSeFZfS2lJS2lLcHA1UkdocHFRRmRkZ1hNbHdWVXc2VGg5SWlpaFhiaXYzaW43VDBGSXRZUTFkVEhuTmtlVENjVk45cFpBUmpFVmJUb1RyUkw4OVRJamViZ0ZhVXJpWGhEb3JWeTdqOGtNd3N5Q2RkcTlNRUZzNS1qeW92QtIBkAFBVV95cUxPV3lpNmpTT1JoNllERFp5M2pVYlZiTGlURFRrWTlJLWpsTFBMaWFNaU5hS3J1aGRhZElyaGRNaFo2SU40SVFxUy14SWFBbnFvQm1UYXAxejBJbk1MUS1VNFlvT1h6UTdyemphRTN6cUd6OGZyeGh0ZWllLVJBZTRGb2FUbkZuRnF1SnRYYmxUalA?oc=5",
+     "title": "SMBC Indonesia Berencana Delisting dari BEI, Ini Alasannya"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T16:30:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmtxWVQ4X0dfMUZnamhvbGZlVXhYODFweXBDaHVpQmVka01kLTMyMHczd1lZZkRSYS1kdW80cGs1U1BCWHg2dDIxdFVOV3I5TVJDbmd2S0d6OUhITUp2WnVnSlF1X0F3MkNSUHgtZ2pDTjV1Wm4tYTRNN2JyZnp3Tzh2SEVjeGNFTVAyQTg1YzFFQmVOTGZLeDlvSHdFYVVreGw3S0hkdkljSjBDYWg1cg?oc=5",
+     "title": "SMBC Indonesia (BTPN) Tegaskan Komitmennya di Indonesia Meski Bakal Go Private"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T22:27:36+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWllmSW94dm1HZnBpS0ljTFhOSFBFTjVYbkJkcVVQbm5NQnFwNklMMHhVNFJneUtubUR4cTBhcHNqZDFNRjZGMXhXaDFtSkZraU52clZPMHpCTG5pUlY2VVFlXzEzcmVUUjREelkwQ0dmSEx4NHEzSWJ2cDd3dHozWGdIS1A0dFNYbEdMcUlmaDRmcVU0alZXbVJ6cGF6c1lFZnpMQ9IBngFBVV95cUxNNE1tbXpjWERTaF9abWxYNllzUGNRZnN2bjNBMGFjTVNpeGVEemdXRjBkYUc2Zk1FYTQzX3cyUEcwZXp4RmlqYzZhb0dsS2VFQzlUdFRGeWNjMGxKc2JnTkQ2OGYxNVk0WDBhRGh5amgtQnVkc2RaeURrMDBmOXRSdFEyZV80OHo0M05jX2FCc1lNOXUyVlE5bktvZnBJZw?oc=5",
+     "title": "Setelah Delisting, Simak Langkah Berikutnya dari Bank SMBC Indonesia"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T08:10:00+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
+     "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
     }
    ]
   },
   {
-   "id": "8255e97dfcd2",
-   "title": "Anak usaha Triputra Agro (TAPG) setor dividen interim Rp1,33 triliun",
+   "id": "8c11ec64d056",
+   "title": "Jasa Marga (JSMR) Rombak Susunan Pengurus, Simak Detailnya",
    "category": "Aksi korporasi",
    "tickers": [
-    "TAPG"
+    "JSMR"
    ],
-   "summary": "PT Agro Multi Persada, yang 94,93% sahamnya dimiliki TAPG, membagikan dividen interim sekitar Rp1,33 triliun. TAPG juga menerima Rp599,99 miliar dari PT Union Sampoerna Triputra Persada.",
+   "summary": "",
    "summaryFrom": null,
    "sources": [
     {
      "media": "Kontan",
-     "time": "2026-11-27T10:37:00+07:00",
-     "url": "https://investasi.kontan.co.id/news/anak-usaha-triputra-agro-tapg-bagi-dividen-interim-rp-133-triliun",
-     "title": "Anak usaha Triputra Agro (TAPG) setor dividen interim Rp1,33 triliun"
+     "time": "2026-11-26T14:54:54+07:00",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORnh0X3cxa1JqR3ZWWkxfWXh4NXJXZ0lLb3ZmdnBLSWtsV3ZyaF9Ca0xOcWJiU3IyNzR3dUhQVGtYdkR2Y2w1Sld6UEJzalRpNDlBWUcxTHpxZGZLRHFZenBVUVU0SDZ3ZFlJVkdYS2R2cW50TEZkVzh4Q0FSSGpVeTczQ3VDQTRIb0tJRFhpX1dnbmlWMFHSAY4BQVVfeXFMUG1ybDVVM2lxZWRVbC0yWEdPOFI4NGU3dnJSTzBiU1Z4MWxoamFRVDZiYjI5ZEVuLVNETV9fLVR5VVBiak5jR0pmZGx6eUFjVXR5UnowYW9SdkJkb3ZUYnFkbEpMSWFZMzZ2MWN4QjhpUDlGaVpkN1FjTy1OUHFxSFZDZFh5WkRLalJWME9FQQ?oc=5",
+     "title": "Jasa Marga (JSMR) Rombak Susunan Pengurus, Simak Detailnya"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-26T16:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1dFS3lSTi14aVd6dzl4cm9xdmhlWEpxWW8xRkExbFhoRHRfRU55UkowX3loNGw1WGNVZXVBRTBHbU5PSlowSy12TjVUVFZWNGlkeWQ3aHpxMzYyM1FDNmhFZGs5bk1GcWFMV3E2b1pFWEU0VUlSLWNpRzYzUmJNVVdOcUQxeU1LOEtUQ3dOaW9TTW5Td2c?oc=5",
+     "title": "Jasa Marga (JSMR) Rombak Direksi hingga Merger Anak Usaha - Halaman 2"
     }
    ]
   },
   {
-   "id": "abda4386c4c3",
-   "title": "Kebijakan zero ODOL 2027 berpotensi tekan margin emiten logistik",
+   "id": "dd049b9708fa",
+   "title": "Bank Bangkrut Bertambah Lagi, OJK Cabut Izin Usaha BPR Bontang",
    "category": "Regulasi",
    "tickers": [],
-   "summary": "Kementerian Perhubungan berencana menerapkan larangan truk kelebihan dimensi dan muatan mulai Januari 2027. Dampaknya ke emiten transportasi dan logistik diperkirakan beragam karena posisi tawar penyedia angkutan lemah terhadap pemilik barang.",
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T14:28:52+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWTQ5UWNaSFVhU01lRnJFUXFoMUdmS211c05pZVRvam1wcTdUZVNjN2NzTzVsNkFqcGdKSHB2cGlqRGxLN2h6LWpvYlhOdmJxdkJld1QzaklnZHRxQk5LUVo4NWhjQ0IxMWxCQkdCZ0dZSDFubVBkVnBOY285NVMzRTNGTzN3WHhSNG9USUFtdE5PcGpRMllkM0N3UXYtLTFGVGo5RVR6RVgxay1BZ25SR2VPVmJzQQ?oc=5",
+     "title": "Bank Bangkrut Bertambah Lagi, OJK Cabut Izin Usaha BPR Bontang"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T14:29:37+07:00",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS3N5M1cyNWVUbTRkcllWMGxQeUpYVjhvN2xkZUMtUVVPaXgwUkk4T1QyRDI2MWFaQWFtUU9pcmw1WTBuVnQtS3Fjb1VzakxJR3BPUmRPOFd3NThOajRuUkROVms4SnN0WG02cDZqajZFZEpKQ3V2WTJHMzM4NmpSWFotbjFvSXFLZ01aY296dnDSAYoBQVVfeXFMTkFmSWVoaUVMRkJwMnlJeFZXYXR1cG5ZWTY0emRwbXdaVEtEM2V0Y0sxeU9HVWZEazJqOUNtemctZTBMZzdIaWtmWnNsVmM1UXE3RzdDNmlOOG9CSFFjZnVZazdDYV9KZkFqVnZkUkFzWmtHWHNOSEF5OHBIY0VXSjFVaTlaSXQyZ25R?oc=5",
+     "title": "OJK Cabut Izin Usaha BPR Bontang, LPS Bakal Likuidasi"
+    }
+   ]
+  },
+  {
+   "id": "e1b24d7a5905",
+   "title": "Krakatau Steel (KRAS) Raih Pertumbuhan Pendapatan 36,5%, Berbalik Laba - Bisnis.com",
+   "category": "Kinerja",
+   "tickers": [
+    "KRAS"
+   ],
+   "summary": "PT Krakatau Steel (KRAS) mencatat laba US$6,31 juta pada semester I-2026, berbalik dari rugi tahun lalu.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T06:26:53+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY1dZWmtfLXY1Z0JTZi00aXNrUlozc1h1ejNNRDdhaERTWDZ6LVpFRWgzaHlqZnV3YUMweE5URHk2Ry1XZVZCRmdkWG1vbGhjZ1JIQ0lSOUppYV9NcGV1enUyY25NVE1HdHBCVGExQzdIZHZmTjlqdEIzOHlYaFlESFpZdVRzdjlQM2VaLVJtSWNCc0ctd2RTWDA0VXdQZkNkS01WWldodjY2TDlwYzVqbDVWMDJzWDVo?oc=5",
+     "title": "Krakatau Steel (KRAS) Raih Pertumbuhan Pendapatan 36,5%, Berbalik Laba - Bisnis.com"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T11:15:02+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127100926-17-788971/krakatau-steel--kras--cetak-laba-rp115-m-di-semester-i-2026",
+     "title": "Krakatau Steel (KRAS) Cetak Laba Rp115 M di Semester I-2026"
+    }
+   ]
+  },
+  {
+   "id": "ecaf13830687",
+   "title": "Bayan Resources (BYAN) Rombak Komite Audit, Mertua Kapolri Suyudi Ari Seto Masuk",
+   "category": "Kinerja",
+   "tickers": [
+    "BYAN"
+   ],
+   "summary": "PT Bayan Resources (BYAN) merombak Komite Audit, menunjuk Dr. Nurfaizi sebagai Ketua baru dan Indra Surya sebagai anggota.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T17:25:19+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONjFwOFhuczlFX205TnZFeWlnV0NJVDRkTWo1SlMwb1VRRGRyaEU0Z2VFTXVVbzlMWktxVnNUcVYxeGpYbmxaMXJYZE1tV0NvSjJSVUNkY09UcUR2b1B4bVAtUUl5OFFNcHRuZExGY3JTRkhaTzlNVHhYNkhiSkpBZ09yZEd6enU5bEZrbXBJTWd0bUowcUhsekd2TzRRN2tOdHdWQ0RuM0JnOV9ib3RRandJZ9IBqwFBVV95cUxOMWdQREJHWDlXQ2MzQnpYc3d4cnBxaXE2d280eHhNZDhVNHFmbTg1SmtrRU43cEN6Q19iYWpnRTlvMEFkWWNUWkE5WlIwMmdkUkhTN2tsU3JhX3ZEdEhQcnZtMk90WFhUR2pDUGZFSVZQekt1XzZMLWtVQXdDSnBvOGZsQWd0dGdYUTRVZDd5R1EzcldZdG5lQzRHZzdWMWlZR3RxWGFteG9lNTA?oc=5",
+     "title": "Bayan Resources (BYAN) Rombak Komite Audit, Mertua Kapolri Suyudi Ari Seto Masuk"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T06:20:02+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-dua-mantan-polisi-jadi-komite-audit",
+     "title": "Bayan Resources (BYAN) Tunjuk Dua Mantan Polisi Jadi Komite Audit"
+    }
+   ]
+  },
+  {
+   "id": "98f8de3e1ac6",
+   "title": "OECD Ramal Defisit APBN RI Tembus 2,9% PDB pada 2026",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "",
    "summaryFrom": null,
    "sources": [
     {
      "media": "Kontan",
-     "time": "2026-11-27T10:00:00+07:00",
-     "url": "https://insight.kontan.co.id/news/kebijakan-zero-odol-2027-berpotensi-tekan-margin-jangka-pendek-emiten-logistik",
-     "title": "Kebijakan zero ODOL 2027 berpotensi tekan margin emiten logistik"
+     "time": "2026-11-26T14:52:48+07:00",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaHhUaUt4WDdHY3ZwbG5tRm5RUU1SWElEM3ZaQkQ2d2h1UXZZWnNRdHhDOGxiR0RMbTZDaGRBT1o3TFFwXzVVeW9XeVV4ZkVsaGY2Y3V4Y1hnV0paUzN5TEJ5SnZPZ29jeDdJZllLNXRxWGN3OFNaSE1ySHRvTzRFVVM3R19NSFU2RzV4OTJn0gGHAUFVX3lxTE9Dakh2WTRVMmpJb0RjTFVFdDdINkRibDNwajVJNmdRclFsTko0NERzU3VET05fcjE4clF0ZkFzQkx4QzZncjBad2E5djhGZnB1WVJvS0ZfbEtYX2dIQXFtX0JNS2V4WWYtTHB0aWZhUXNHVXNzeFJqbHVPNm91LUx5WTdfZHBGMA?oc=5",
+     "title": "OECD Ramal Defisit APBN RI Tembus 2,9% PDB pada 2026"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T15:13:59+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRXFoX09MQ1RGdDdmaEUtTjZGNEloQ2VScUpjVVE1LTBLZGNfQUJoXzhUMG5fTGhobWVsNGxCZmZWOHhFbzctb2x3ekdwNG1odnJTaHI1dkhMMnhWamNFcS1MZ0Z1dFR4NlJpTzFZTmNTSV91a3A0cV9PdUFWcW9MYTZNcHl5cVpZY2JDWEx3c09rQzZRT0NubXZzc1JCVkJwekpkYW00VWdaNHQ3dzA0dllKTQ?oc=5",
+     "title": "OECD Proyeksikan Defisit APBN Capai 2,9% terhadap PDB pada 2026 - Bisnis.com"
     }
    ]
   },
   {
-   "id": "5beca1b5117c",
-   "title": "Konsumsi semen Oktober 2026 capai 6,3 juta ton, tertinggi tahun ini",
+   "id": "e2c28496fc5c",
+   "title": "Danantara (DAM) Optimistis Akhir Tahun 2026 dengan Laba Rp332 T",
    "category": "Kinerja",
-   "tickers": [
-    "SMGR",
-    "INTP"
-   ],
-   "summary": "Menurut riset Mirae Asset, konsumsi semen domestik Oktober naik 4,4% secara bulanan dan 3,6% secara tahunan. Semen curah tumbuh 10,9% menjadi 1,9 juta ton, menguntungkan SMGR dan INTP.",
+   "tickers": [],
+   "summary": "DAM optimis laba 2026 mencapai Rp332 triliun, naik 40% dari tahun sebelumnya. Target laba BUMN 2027 ditetapkan Rp400 triliun.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-26T13:35:16+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261126133226-17-788731/danantara--dam--optimistis-akhir-tahun-2026-dengan-laba-rp332-t",
+     "title": "Danantara (DAM) Optimistis Akhir Tahun 2026 dengan Laba Rp332 T"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T14:00:25+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0pCaDlGbUxYR0RKdUVIMGZWeV8wN1I3SGY0TUxfbGJTNEg4UHp5SkZiRU10RnhmOXFoNThZcjN1RGg3M2FJX0FhUW0yWG9DZmIzcVl0LVVzYjRRV2lnQnVGcUdXSU0zWkdiU1NjdElQeUVHVWdTQ1lDbEpONlBfdG5wUnZTV1VHRWUwa3paN0FXQnlOZnh6d3REY2liSDJ0dzdQMUhLT0Jndw?oc=5",
+     "title": "Danantara Asset (DAM) Bidik Laba Rp332 Triliun pada 2026 - Bisnis.com"
+    }
+   ]
+  },
+  {
+   "id": "8a0b095473e4",
+   "title": "OECD Minta Indonesia Naikkan Tarif PPN Jadi 12%, Ini Pertimbangannya",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
    "summaryFrom": null,
    "sources": [
     {
-     "media": "IDX Channel",
-     "time": "2026-11-27T10:10:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/permintaan-semen-menguat-smgr-dan-intp-berebut-momentum",
-     "title": "Konsumsi semen Oktober 2026 capai 6,3 juta ton, tertinggi tahun ini"
+     "media": "Kontan",
+     "time": "2026-11-26T12:52:20+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWk8zUG9ENTd0Q2tIM0E5ZnpVZG5TLUJmWHpfZjAwUDdPMWZzOV9takVodHVsYkVfTFdOcDl1RVl5UHBVd3lld3oyR0xENng0NTRSMDcwRUR4SUdhTWM2eDgzTFd6SC0zYzVQZFlWSEJTeEwzdkFNajRtZGF5YWl5TC1lX3dBN2xwSWlVS1VtVGVRaFpWc1RiLU9CR01SaDU0ckhN0gGcAUFVX3lxTE9nTHpEeW1qcjN0Z3FuQWRDcG50S19Ebi15NnUwX1Q3Rk1UTml4Z2lHUGRqQl9YbEZLc1p1LWJ3elBwaHQtdURQVHZGTWpHc1NUZDdHcUI5MGFzbHhSWi05UUgyN2NzT09yRWdCWjA3M1dZNnNKLW1HTmI5bFlIXzBSWG1ob29HcTZUTWwzb1ZaaUgzcWhqQkU3TFZZcw?oc=5",
+     "title": "OECD Minta Indonesia Naikkan Tarif PPN Jadi 12%, Ini Pertimbangannya"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-26T19:22:47+07:00",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTng0bXhyVERKM21oMVhZUkJjc2IyUW9wVnhkZC1uUUxvOWFldnZyTHJfdlZkekxHaDBQM1hCZmVqM3h3d0N4NGtZVy1ZZDVwUW9MLTdaUUdhb244azdWT0Y3OXQwd2xtbHloWlpha0R1Wk5DUHk5WWc5WGdPbWpOVTFMWHdmeVNMWmpYaXFZU21RUEg3NHREUkdTVzhmdw?oc=5",
+     "title": "OECD Sarankan Indonesia Naikkan Tarif PPN Secara Perlahan"
     }
    ]
   },
   {
-   "id": "0599b1cb4877",
-   "title": "Hasil review MSCI berlaku 1 Desember, BRPT keluar dari indeks global",
-   "category": "Regulasi",
-   "tickers": [
-    "BRPT",
-    "BRMS"
-   ],
-   "summary": "Dalam review MSCI November 2026, BRPT dikeluarkan dari MSCI Global Standard Indexes dan BRMS digeser ke kelompok Small Cap. Penyesuaian portofolio dana indeks dilakukan usai penutupan 30 November, dan komposisi baru efektif 1 Desember 2026.",
+   "id": "da9b0df4b481",
+   "title": "DPR Setujui Anggaran Operasional Bank Indonesia Rp 37,79 Triliun di 2027",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T16:02:57+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM3VwZkdvb2xnYklWMW4yYkR3OG54YUdtbmxGOHJTUUx1X3FEVmdUaVQtaDd4R1dFTzhialFuY0VkOXBxdEtqYXFzcmFwNmZFRjdxU1NmUlVmdmhaNzdqMEJLanFQWERDQ0x3c0k2WXdIRFF5bTFKRmR0U1hYWXBSaUtqNEZ3WHVZR2lwaVQtLVZyVV9UZDlheVJKN01oLVRPRXZvdlU0RjdLQdIBowFBVV95cUxOQ2ZhUXQtV2xieVdLWTBfSHQ4TkFPT3FwUmlHMzRkXzBLc2VXdTM4QmZLcXN5ZkU2Nm51bmE1NGF6NUtBT21obUFLSVBuVGFzam9MWlBnUzgxUno3clpwNmh2eE82Y2FuMGJubWFYeS1FcDRhQ0tkb3pVTzZkYWlsMTFEanZTM3Z1OXhnbkdvaE9BckZ4Z0EyQ1BWdTdSYVRZdUhn?oc=5",
+     "title": "DPR Setujui Anggaran Operasional Bank Indonesia Rp 37,79 Triliun di 2027"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T17:51:52+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdnBqdWxQVDM2Tms3dEZybGlJZmdNa2llU3BqcW5MWXl6ZlZxOGNycVlfMXZQRE1IWlM3ckNYYnFXUHJhSXFkSDd1bWVLSm10cUMwSEVIUno4Qklfc2FXU0RuV090eXdpUU5veFRST0VBck0yVEZvNnR2cDNHOHRNcDF3V0VBQmsyQXM4bTE4MlZNTmpmM2oxNkdkUWkxc2xjYVh3WlBPV3lPWlpOQ0FGQnQxcXozR00zS1dHZG1lVzl0dTdqSEVQUA?oc=5",
+     "title": "DPR Setujui Anggaran Operasional Bank Indonesia 2027: Surplus Rp14,56 Triliun"
+    }
+   ]
+  },
+  {
+   "id": "aaebe7c218f8",
+   "title": "Kumpulan Berita Laba Bersih Bumi 2026 Terbaru Dan Terkini Hari Ini",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "",
    "summaryFrom": null,
    "sources": [
     {
      "media": "Investor.id",
-     "time": "2026-11-27T09:32:00+07:00",
-     "url": "https://investor.id/market/463538/awas-msci-lagi",
-     "title": "Hasil review MSCI berlaku 1 Desember, BRPT keluar dari indeks global"
+     "time": "2026-11-26T15:00:06+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UcXV3LUlPY1lTejJGaDdkcllEaVhQSk5MUGF3cWVFQWhKamVRa0tqaE02b1o5NWk2bjZIRWZzOEVUd0Z3YTRqMkRCZ2wwRDJzNm4zM2VWZlc?oc=5",
+     "title": "Kumpulan Berita Laba Bersih Bumi 2026 Terbaru Dan Terkini Hari Ini"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-26T15:00:06+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xMk8zb1RDa29fRjM0Mmx5UWN2VGFROFdqd0lCSFBSUk80ODdKN3NBcXdfa090OTJ5alkwTS1aZFZLUjAzSV9SME1rX24tTGQxX3ZJSEtR?oc=5",
+     "title": "Kumpulan Berita Prediksi Saham Bumi Terbaru Dan Terkini Hari Ini"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-26T17:24:29+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kQ3RwRFdqV0RpQ3V4MHpIY1pjYl83OVpsT1NuVS1jY2xmZjJVb0lJNElUdl9RNjd6eVZxRG81SzFMLUNWa2lfRUpkRS1ITmNjdVpaSDZZOGtpZnJNU1Bz?oc=5",
+     "title": "Kumpulan Berita Saham Spacex Untuk Anak As Terbaru Dan Terkini Hari Ini"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-26T17:24:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94ZEwwZTh3UXVsWWc3QjhwMm4yX1lVZ0xyQUprWEJTUFVTdHdVcHh0TVNpVWE4UHNjc3NRRkFLY3VrNEdVa1ZhSXNFdzE4RTdIaDNtN2cyYXFOTGc?oc=5",
+     "title": "Kumpulan Berita Saham Spacex Dibagibagi Terbaru Dan Terkini Hari Ini"
+    }
+   ]
+  },
+  {
+   "id": "54831c07e0ef",
+   "title": "Laba BUMI Melonjak hingga September 2026, Bagaimana Prospek Sahamnya pada 2027?",
+   "category": "Kinerja",
+   "tickers": [
+    "BUMI"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T16:43:41+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbW9oOHlMSGU2TFRaU3pxclZfOGRxNVBfU1c3ZFQxbUxvNzF0bDQwU3N0RFdvU2xDcmc3Y0ZRd3RrbnhGUmw1OW9zbFRiQU93cTItMldtWGxQeHIzb0xFOEhnT2VhdzhWUk95N0tpWjgxcENPNmZmX0ZRRzNlclRDOUhNYlREejF4SXY1WEFqcERjRHJocGFDTV9VaUNvNkpZS2JWMHlvcGk1ekRNc053NW1qNNIBqwFBVV95cUxOUnp2cTdOZWltejhIbDJSRmJLS3ZpRHhseTdDb2xCbHhQaktBbEhuTndSUXctTVdxX1VqbGQxd08tUVpCcGpQZXRTbG9vUnBmdTh2MnNDN3RKTGVsN25fMTVySXRPZEJFSUxWdVZ2Q3IzeXYybmtBdzRieEJGMGUwNmg5ZVZPSjhUWS0xXzI3Ym93dnU4ZVdSRExRRGdPQU9scDRCa1JPR3NEOEk?oc=5",
+     "title": "Laba BUMI Melonjak hingga September 2026, Bagaimana Prospek Sahamnya pada 2027?"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T06:08:29+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMk9xSmJST2xfSGR6OXNvN044OUZFc1k2YlJDd0E5ZmYxMEIwYlhQUTNhSW8wS1AtWndyZ0tfMVUwVDZSa0ZVQWpFV3EyRGtpSVVSQmJyenZHSHJZNkt1SkgxZEdCZlpwWm1DMmY4Y1dJWFY5RXRmMG9ZS0ZDZ04yb0tNLXIwTXV0?oc=5",
+     "title": "Peningkatan Volume Memoles Kinerja Keuangan BUMI"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T06:12:08+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNW12UWdDcGFQZWgxanlpcFo5b2NSbVJUV014THVEWEVWZDlwcGlJOGRULUxqM1cwdTQwcUxpUDE5THpSUUw3eTh1dGswTlNiMTRxV1B6eGktZFFpWkg3OW9FWWpLWWtmNG9WVHhmamFaYjF6QVRlcG5SUy1GRFZJOFAxeFk2SjB4Tlk5ZVFJWm5fNGxxQUJPUlZvbVdSZHlGVXRBdl9XaTh5RFBDRnB2YkVDZFnSAawBQVVfeXFMUEpkbm40eW85dWJzdXVESnUzRmRZLVNFT3dCdzk3Y29qYU5ISk9kcjBlZHlwbDhmQkRRbnlGOTFVNXRCSVRLVGs1ek1Td1djTVNhREtZcE56Zk1yaTd4Um1hV2NzZWJ1aHctYUxLSjRwYkJIZ1dFU1ZHc0hJaHVGVDFKeU5uQWNQN1dyNlN2RFBGU3VCWVRCWVhyOWw5cS1OLThYYk1mamtXT09qNg?oc=5",
+     "title": "Laba Bersih Meroket 404%, Tapi Harga Saham BUMI Masih Anjlok 68%? Pilih Beli / Tahan?"
+    }
+   ]
+  },
+  {
+   "id": "0847f283c30c",
+   "title": "Bank Kecil Perkuat Dana Murah untuk Menjaga Likuiditas",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T18:52:44+07:00",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbWN2UENlcVRNc08xNnZGaWFOVHhic3BuYTgzOHdmTkYyWU1QcW1QaU9fVjYxTWFCR2M0NWZWM3FhY1ladkQ3VjV2aERtcjV2X0c0UnZVU0JEaEtTUTY5emVOaHZ5MEpSWWZNVUV5eWozYjFUcXMxU0FMaTZ2d3Zkbmpzd3dBYTduTEsxUzUyNmNXbFnSAYwBQVVfeXFMUDBjd1IxQ0l0YXo4NWx4MTZvOEtUY1VoSmhTaGNUU1J2R1hyRU1hdFBfT2N1RXNFOXdsQ2MyWFZDT2x6YVlnczdqSTBaVzc2RjVlSl9CWmJWUlFRU25JRU95eVBDeTM5MWY1RzlIcEUtbDVPMWk0OW9PTmh6VlpYRVdxN1BjWGpOZ2NkeHA?oc=5",
+     "title": "Bank Kecil Perkuat Dana Murah untuk Menjaga Likuiditas"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T04:30:49+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUmhKaUg1anE3cXctMnhIRjBjd2k3U2JZc3I4NEpOVHBCMTRyRF9Ja2JyV1REdFp6MjJRNzkwMVlDS1RtWjRGaHdBanNmSWJDdXo5T1pTOGxPaThxcU9ZWjd6N2xoYmFTTG9qY0xfQW8wWWJsZFNHZklkdzdJeU1FTHg2Ujh5cnBkcEV6T1lROTQ3cFQ5aW9INWh3?oc=5",
+     "title": "Bank Kecil Berjuang Menjaga Likuiditas di Tengah Persaingan"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T05:30:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFA3MDd1dFFjRzlNZTV2amh1ZjRqeW9KaVRJdzBMazVjR3lVZFNLWWh3YkxUYVpfM29WdTdqTTBKOEU0M2VmeGdPS3pEeFFmdm80dTRhN0FiNV9zQVp3TUJVTDc2eFlLR1RDOHhrWkZ2ZlpET0N0T0dFS3hEUUE2aEpMR2FRWjFWTlhjb2FZckxUQ0JvWThwTnZKWjNMVlp0blJweDlBSzRxS1V6UV9zYkRoTUQtUdIBrwFBVV95cUxOLVN6VjQwbVgwTnFGMUR1ZktoQzlvTmdoYkZzcEprYTV0TEEyVFh1YXRPOGhiNnN1cU1qbFVuREpoVTBDYWFSV1N5VXZjelo3RmZYVjVKcHVtY2RTQm1iRmJzeG12NFllaXY5a2VQODJDbmpTejlmc3ZvV2c2d3VnT2R5SHBVcURTR21rSDVJZkVzTUNCb0tZTnM4LXpoeDhzRkp1OHVjX3FNMVpFek84?oc=5",
+     "title": "Bank Kecil Genjot Dana Murah untuk Menjaga Likuiditas di Tengah Persaingan Ketat"
+    }
+   ]
+  },
+  {
+   "id": "95473cce7905",
+   "title": "Sariguna (CLEO) Ekspansi Produk Air Mineral, Cermati Dampaknya Terhadap Kinerja",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "CLEO"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T16:43:23+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWW1HY0MxUUJGN1pJS21GdDNBOGNya21oX1RreUMwR0FyVXBENW5Fd2otWFJpTGRweGI4NkNwR2JhN1BUM25QcDk3QWhhQ2R2eGw3SmM0Y1VMR3VxUnlUUW5Ga2tUdi1GRWlUYTFjUXVibU1BRjVKcS1Ja3BadHh1Y3l0RzU4bUhTSWNWajdMSjF6YzNOUVJWYkx2T1YtV2dKTWhLUk15ZElZOEJQYU5MT3Nn0gGqAUFVX3lxTFBES3hTVG5wdnB3Ulo5TW5JVG5TakgyNWVrMFYya1pSOGxRQVFJZzY4U2FMazFKQmloR3JmUmpzZ1g4ZjhSMEozWTFfMWtkOWRuQVprREExZG1lS3JRX1o1MFg2WWNybm9oeERWLXBhUjRxZVlBQTBmUDdza0Q5VmtsVU41M2MwT3F3XzBlRmVQbm1CdlY1SjFHd1dlVWdZQ1UxMHc2aFZWRExR?oc=5",
+     "title": "Sariguna (CLEO) Ekspansi Produk Air Mineral, Cermati Dampaknya Terhadap Kinerja"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T08:43:39+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTzZDS1Q0LUdnRUNNLW1PeE9qWU5XQkdsYzRxLXBQT0NKMTNqdXdVVlE4UTJmTEFLQnZzd05vdmZXSlZoUzN2OVV5TTBjSGYydmhBZEtlbnRjZVEzSmx4XzdtU1lQeS1kZW1EMi1TRW1GbDNqTXR2V3l0czh5WTdYYTNkaFpKWTV1dERzWWpKMi1oUV8xcGpSVVNR?oc=5",
+     "title": "Menjaga Pertumbuhan Kinerja, CLEO Ekspansi Produk Air Mineral"
     }
    ]
   },
   {
    "id": "5756630c573a",
-   "title": "Eagle High (BWPT) tawarkan obligasi dan sukuk Rp550 miliar",
+   "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen",
    "category": "Aksi korporasi",
    "tickers": [
     "BWPT"
    ],
-   "summary": "BWPT menerbitkan obligasi konvensional Rp175 miliar dan sukuk Rp375 miliar, total Rp550 miliar. Seri yang ditawarkan bertenor 370 hari hingga lima tahun dengan kupon 9,5% sampai 12%.",
-   "summaryFrom": null,
+   "summary": "PT Eagle High Plantations Tbk (BWPT) bakal menerbitkan obligasi dengan total nilai emisi mencapai Rp550 miliar. (Foto: Ist)",
+   "summaryFrom": "IDX Channel",
    "sources": [
     {
      "media": "IDX Channel",
      "time": "2026-11-27T11:00:00+07:00",
      "url": "https://www.idxchannel.com/market-news/bwpt-tawarkan-obligasi-dengan-kupon-hingga-12-persen",
-     "title": "Eagle High (BWPT) tawarkan obligasi dan sukuk Rp550 miliar"
+     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
+    }
+   ]
+  },
+  {
+   "id": "e98d15dcc483",
+   "title": "Usai Konsolidasi MI BUMN dan Akuisisi Schroder, Persaingan Manajer Investasi Mengetat",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T10:55:23+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcW9GY3ZnSnhIdXRiTW5nUFgwRm9MWVJSWkJxTzdmejgzSlh6WV9kRmhDbkpWSVh5YmMzNm9UTW5JR1RBTlNIalh4U0tGNFViMGpYT21teVdaajhkVm9ndjQ0amZPdmxHa1NtNWsyWkM1d3NneGlHMkhvMVRUTVpBVFJ6dEMzdXNQT0JvR0t2bEthRUZPQl9CYTlBdm82bGhScm9DQjNDalVVODRpTThtZlpqaVdoVUh6SXc?oc=5",
+     "title": "Usai Konsolidasi MI BUMN dan Akuisisi Schroder, Persaingan Manajer Investasi Mengetat"
+    }
+   ]
+  },
+  {
+   "id": "1c958187e62a",
+   "title": "Anak Usaha Triputra Agro (TAPG) Bagi Dividen Interim Rp 1,33 Triliun",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "TAPG"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T10:37:40+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMGsxZHVhWTkwcGdra0xnSXdJUjh1R3FLeENxYXNXMEZiaUN3a3BlcG9rNlp1ZmpwclpkOVZNZUREc09xQm9Bam9rZmpCaklTTEdEMVBqUzJIS3N1SEY5UzlicTBVQi1tZURuVG9jMzBlODNEZ2J3RW9BQ3dlN3FVRWpwTTBXTHhxd244S09kN3JpWjBIanlUOFhoS0QweW9MSGNn0gGbAUFVX3lxTE9VSWpjRjhnN051UlhVbEVlQmdhNkpaUklSV2ZCOEE5cTlnSVROczdkRFNJUzZyblkyaUxjdHNQYmlyXzI4VVV6V2pVVGdmMFg4MHE3VzhJZ0pRR0JneEtQQVdNTzBxUVlBMm5PWEVfbFVib2pBRUpuOWx5T0JXM3Z2UnprLUhSZElkajM3UlhMVVVXUnNwaFduVXRJ?oc=5",
+     "title": "Anak Usaha Triputra Agro (TAPG) Bagi Dividen Interim Rp 1,33 Triliun"
+    }
+   ]
+  },
+  {
+   "id": "09620449a136",
+   "title": "Nusantara Infrastructure Angkat Direktur Baru & Tebar Dividen Interim",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T10:30:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDVBQU9KOU5reDE5ME4xSl9nYjI1TDFVWGd6UUFReG45OENCc18wNUZwaEZTNUZlaTBIZ01CLXVyRmtVOGJWbjFmbUFTeVpSTGp3UktuWmd2VFJzaWJsclhBOHVRQi1FdERnVG1EcGpJVjNtejQ2V2hDZW5BaUl1SmUxM1VkWi1IcHVyQmQ4TXlZZS10SmlBR1FZRExEMV9wNTlz?oc=5",
+     "title": "Nusantara Infrastructure Angkat Direktur Baru & Tebar Dividen Interim"
+    }
+   ]
+  },
+  {
+   "id": "984097e8d7b0",
+   "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T08:32:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3BzMkFvWno3TmYzbk1nNnEwem40RVc5cmxyOHc0Z1pYVU1oVTY5aTVEMU0zTGJ6Zkt2bG1NNFJ4c1FfR3VybzI0MXAwa1V4SWY4aTFuRFR1ekJ0U3dnZFpzX3ppY3dON0YybG5SSEZCRHhoMm1SNVh0OEJ4dUlCOUJFc2tNNEtYcHVWQmR4MWhjVlFlQkdzQVh1bGRKSFBPeVpmSXNiNHhiNUV6N0VaSXJRcDBvbzBFU1E?oc=5",
+     "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun"
+    }
+   ]
+  },
+  {
+   "id": "c93c23ec0dcf",
+   "title": "Rekam Jejak Setyanto Hantoro, Managing Director Danantara Jadi Komisaris PT Garuda Adidaya Nusantara - Bisnis.com",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T07:40:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNazg4bDNmSHFjaUVpVlNVVHdhV1l2bWdSREJiaW84dWdmWEw4TDZLQ3JLMm9wczBJU3NhM0hMUzFMRnZPS294MXlzaTY2SEVtUHhyTUFFMDQtSnpWTEM0VUlfUHFwOVBsaU9Yc1A3aWVvR0hiXzV3NjRzZUtuMlZLZWtrY3prd1RGTjhaS3JscjFBQmJQVWRZRHNHSloxX29paE5HdWY4VjM0NDZLbkVybV9HNGh3cHBpdzhEby1EdldPVlZrRkZ0c1cycUMtUGlIZlJwSUNfVDVpUHdHYkltaEFkQ2hLZw?oc=5",
+     "title": "Rekam Jejak Setyanto Hantoro, Managing Director Danantara Jadi Komisaris PT Garuda Adidaya Nusantara - Bisnis.com"
+    }
+   ]
+  },
+  {
+   "id": "b3d37d56494e",
+   "title": "Skala Jadi Kunci, Emiten Menara Telekomunikasi Terus Berburu Akuisisi",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T07:33:05+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaXVKVlF1QjhZVVM0SnNWVk5sNWc4TnpHVUwtR29RdjJaYl9tcUNGanFWekRFSER2bzZmWHdTdDhvTFY1R2ViUE52dWxCbFB6MzRJQ3hpYTR0bmVhcXZib0dLV0xMNHlNRTUwRHNPZkZIdDczX2dOcWJVSE5XbnVQZkZJLVZEbTMyQ2V2X2VVZ3Z1X3RPY3VxNnZ5VDNIN1lhZzNvSA?oc=5",
+     "title": "Skala Jadi Kunci, Emiten Menara Telekomunikasi Terus Berburu Akuisisi"
+    }
+   ]
+  },
+  {
+   "id": "1bef8ed79ae1",
+   "title": "Kumpulan Berita Cum Dividen Bbca Terbaru Dan Terkini Hari Ini",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T06:43:07+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CSkFXVUhlSzlxZE5zeTJJQ25aVHA3bU9fV2Z2LTZseWN5cWxaZVBJc3ZmWnFxSTV4NFNDcmJrQjhRbjVVRXB3dTJuWXZxTE1Dc0E?oc=5",
+     "title": "Kumpulan Berita Cum Dividen Bbca Terbaru Dan Terkini Hari Ini"
+    }
+   ]
+  },
+  {
+   "id": "4dbbf1f7b937",
+   "title": "Mencermati Pengelolaan Dividen Danantara",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T05:40:20+07:00",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ueW5JeVB3LWVHOEpkQzlCbXI0NUJWUTQ2dnBBdXplZjYtWHlMVXdTdjZhXzBsQXJvdDQwX2lRbmxya2UtbEdCR25CSnFrLXhtTkxTTi1oNnJGQkNoajB3ZHJubXh3bVZBbFhnVUgzRTFFRzFxQ1ZxdDhFeEw4SnM?oc=5",
+     "title": "Mencermati Pengelolaan Dividen Danantara"
+    }
+   ]
+  },
+  {
+   "id": "08b3ad64ffae",
+   "title": "Kementan Tugaskan BUMN Bangun Pabrik Biodiesel hingga Margarin Sawit - Bisnis.com",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T22:30:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUR3TEdrU21OTmItUHFyamtwRXdRU0N4QWZ4YkRrdVlBc2JwYzBvOWlzTlRvc2ktRjFnMXJUaHJpOWh5Njk1aXNVUFFmOHF3U3p3T2NaZnB4UWJzalhQSWFxMkFEelYxWmJYMjJSM2s3ZzdVdlJXc3RQeFJZc2RWZUJPV1N1VXdHNERkM052c0NYcHpvWk5Fck1RNGotMzhuSGdxUUxNNzU4VkJDY1ZOdFZWOTd5X0pjMzNxUA?oc=5",
+     "title": "Kementan Tugaskan BUMN Bangun Pabrik Biodiesel hingga Margarin Sawit - Bisnis.com"
+    }
+   ]
+  },
+  {
+   "id": "0ca35b8abd40",
+   "title": "Kian Santang (RGAS) Raih Kontrak Rp 72,68 Miliar dari Pertamina, Ini Detilnya",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "RGAS"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T21:09:37+07:00",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQkJkb1RmMGhvdXJJWDU3ZTRtVHR1Tm03bnFOVGlGQ2cxTTRsVzBjZ0s5WkNQWGxvSUlCaG81c1QyUmNGM0MyWkJwbVViQjJKaXlRNDc1b25RMzdndkM5OThVMy02N2FhYm1ZcVFIejhKd0ZKNEF0cEZ6eVhjZTdWUjJCTzVIeWNCaDliNHotSXBKMU1ZZ3FwU1l0d1ljRE0yYnA1TU9lbHNZNTZKMEHSAaYBQVVfeXFMUGZNWXJjWHF6dkVRNmhRYmg1eFJDZU5GYkN4QzJ0bkV4Wk53MXVablB3Ylp3QkR0aFlIdTBQdW5aSC10ZVhsSlN1RlZsdGoxQ0NVeXZlYm9zRmFBMEtyZ1NndElneHJWcXBKTnNHZ3U2NkpCaVhwNWNtREduMlE5TjNuLWFnWWZFSjBlbFBNV1F5REdqQ19jeXV0WTYtM2hZRk5NZmxOdw?oc=5",
+     "title": "Kian Santang (RGAS) Raih Kontrak Rp 72,68 Miliar dari Pertamina, Ini Detilnya"
+    }
+   ]
+  },
+  {
+   "id": "aed52177f632",
+   "title": "Buka Pabrik Baru di Sidoarjo, SuperDry Bidik Produksi 300 Ton - Bisnis.com",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T20:01:46+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVmxDOWpLUVF2UFJrdEk4a3BFb19MRFl3bC15WWJrNTlObU5YM0JhYVhQY00wNC0xNjF4YXFocWtrVy16azEyM2tXaTNieEMwTFhsckhSNkFKXzV3LThZTEp5NUUzX05iR2ZrYXNxcEpDSldPWksyTVFWM2JMVzg5VjlLLS1WWWJiQW56YU44OVZPZnRfUFIwQmVzY2R6SjkzZU5uRUExcHNkdHV3bFd5NDhaOA?oc=5",
+     "title": "Buka Pabrik Baru di Sidoarjo, SuperDry Bidik Produksi 300 Ton - Bisnis.com"
+    }
+   ]
+  },
+  {
+   "id": "95470b184fe0",
+   "title": "Hypefast Tahan Rencana IPO, Pilih Pantau Kondisi Pasar Hingga Kuartal II",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T19:50:38+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZFSzNieTMtVUJ0MnhneUYzWmdIVTBuVnlqN2tHMkhPOEtCQTBwT2tyNmdtcHBqM1FYTUI2WGwtcm53a2lpUTRyS3p0V19jcndnV0VCcFNTTi1EN2xqeHFPanhDcXdsOUlOVXF5QVVvOVhBSWFOamk4aTAyaFlUT3hpbWQydUtMcVljczlfc2NiR1JlUWY2UzExRC1uV0g3WFBvM2otNjZPRlnSAaMBQVVfeXFMTTVYU0YwQkl5UUlrdVBnVDljNHVnb2VKT0ZELU5sLTg2Zmt3SzJ0TzkwVWlRWkszcS16dkI3MDA1aFRaU2s5STdtbW4wS0Y5UmNXMk9mVUtzRnNuWVlIMnhRanVlckZkT01ZeVdScDAtdjNfTVg1bE40WjlKdktDWUVBTDE2WG9LaVVzSS0wZ3VpWUtjM01aU1RkamJldmtnQ1JhQQ?oc=5",
+     "title": "Hypefast Tahan Rencana IPO, Pilih Pantau Kondisi Pasar Hingga Kuartal II"
+    }
+   ]
+  },
+  {
+   "id": "666420c2fdd6",
+   "title": "BFI Finance Siapkan 70% Laba 2026 untuk Dividen, Ini Perkiraan Hak Investor",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T19:38:40+07:00",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGZPR2h6Qm5DMEM1cWZGQzZOa1NzYlNnQS1DWG41NEViM1dtS3dtcDUwSWhDcGNWamt4dE1tRG9pRWZ4LUIyblJVUC1UbWR0aU9NT2FWcDE4OXQ2ZFhtR2FLSXczekpwZnpzM2RLaGlmTXRaVkVrUWFUQjRuZ0JaRWRpT1FkTlJ5dWVkRFE5Ukx4bDZNamJXVHZYdzdXTU8yNV9qVmhSVGxtbWh40gGmAUFVX3lxTE5uZV9GMnh4UnlLRTQxVzFQY0VreUVTOWdudi01NmFMWnVoVmhqRndtWEQ4Y3h2ZXNUdEk1Rk1nVWJiaEZlcUpoc2lHMDJHVTIwbVNLVDVEcTR5QzFHXzA1WkNsQUxRdThLOGNfbWhSNk1ucDV1M2dwQWZzWGxmMUxjS2l1cWVuQnIza054OU1BcGhRWmU4NGlyYzRRbFF2SU56WW1GSXc?oc=5",
+     "title": "BFI Finance Siapkan 70% Laba 2026 untuk Dividen, Ini Perkiraan Hak Investor"
     }
    ]
   }
