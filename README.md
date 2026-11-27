@@ -1,74 +1,46 @@
-# Top 30 Berita Saham (prototipe PWA)
+# Top 30 Berita Saham
 
-Aplikasi baca rangkuman harian topik berita saham dari Kontan, CNBC Indonesia, IDX Channel, Bisnis, dan Investor.id. Edisi final dikunci setiap pukul **19.00 WIB** (rentang 19.01 hari sebelumnya sampai 19.00). Tab **Hari ini** menampilkan edisi yang sedang berjalan dan diperbarui tiap jam pukul 06.00 sampai 19.00 WIB.
+Aplikasi baca (PWA) berisi topik berita saham **24 jam terakhir** dari Kontan, CNBC Indonesia, IDX Channel, Bisnis, dan Investor.id. Daftarnya diperbarui otomatis kira-kira tiap 10 menit, tanpa edisi final.
+
+Alamat: https://rhezadestra.github.io/top30-saham/
+
+## Cara kerja
+
+1. Workflow GitHub Actions `.github/workflows/live.yml` menjalankan `scripts/update_live.py` tiap 10 menit. GitHub kadang menunda jadwal beberapa menit.
+2. Skrip mengambil RSS tiap media. Jika RSS langsung tidak bisa diambil dari server (Kontan, Bisnis, dan Investor.id memblokir), skrip memakai Google News RSS untuk situs media itu.
+3. Berita pergerakan harga, net buy/sell asing, harga emas, dan kurs dibuang berdasarkan kata kunci di judul.
+4. Artikel digabung per peristiwa: kode saham dan jenis aksi yang sama (dividen, rights issue, IPO, dan lain-lain), atau judul yang sangat mirip.
+5. Hasilnya ditulis ke `data/live.json`, lalu di-commit hanya jika ada perubahan atau sudah lebih dari 30 menit. GitHub Pages memperbarui situs dalam satu sampai dua menit.
+6. Aplikasi mengecek `data/live.json` tiap 2 menit selama terbuka, dan setiap kali dibuka lagi.
 
 ## Isi folder
 
 | File | Fungsi |
 |---|---|
-| `index.html` | Seluruh tampilan dan logika aplikasi |
-| `manifest.webmanifest` | Nama, warna, dan ikon saat dipasang di layar utama |
-| `sw.js` | Service worker: aplikasi tetap terbuka saat offline |
-| `icons/` | Ikon 192, 512, dan maskable, plus ikon iPhone |
-| `data/index.json` | Daftar edisi |
-| `data/YYYY-MM-DD.json` | Satu file per edisi final |
-| `data/sementara.json` | Edisi berjalan untuk tab Hari ini, ditimpa tiap jam |
+| `index.html` | Tampilan dan logika aplikasi |
+| `manifest.webmanifest`, `sw.js`, `icons/` | Bagian PWA (pasang di layar utama, buka offline) |
+| `scripts/update_live.py` | Pengambil berita, hanya pustaka standar Python |
+| `.github/workflows/live.yml` | Jadwal tiap 10 menit |
+| `data/live.json` | Topik 24 jam terakhir, dibaca aplikasi |
+| `data/articles.json` | Simpanan artikel 36 jam, supaya artikel tidak hilang saat RSS bergulir |
 
-## Cara memasang di HP
+## Aturan peringkat
 
-PWA harus dibuka lewat alamat **https**. Unggah seluruh isi folder ini ke layanan hosting statis, misalnya GitHub Pages, Netlify, atau Cloudflare Pages. Lalu buka alamatnya di HP:
+Terpopuler: jumlah media yang memberitakan, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu artikel terbaru. Maksimal 30 topik. Panah naik/turun dan penanda "Baru" dibanding peringkat sekitar satu jam sebelumnya.
 
-- **iPhone (Safari):** ketuk Bagikan, lalu Tambahkan ke Layar Utama.
-- **Android (Chrome):** ketuk tombol Pasang aplikasi di halaman, atau menu ⋮ lalu Instal aplikasi.
+Terbaru: diurutkan dari artikel paling baru.
 
-Membuka `index.html` langsung dari file di komputer tidak akan memuat data, karena browser memblokir pengambilan file lokal.
+## Mengubah sesuatu
 
-## Alur pembaruan
-
-Dikerjakan oleh tugas terjadwal tiap jam, menit ke-02, pukul 06.02 sampai 19.02 WIB:
-
-1. **06.02 sampai 18.02:** cari berita baru di rentang `sementara.json`, gabungkan per peristiwa, simpan peringkat sebelumnya ke `prevRanks`, perbarui `updated`, lalu timpa `data/sementara.json`.
-2. **19.02:** salin isi akhir `sementara.json` menjadi `data/YYYY-MM-DD.json` (tanpa `live` dan `prevRanks`), catat di `data/index.json`, lalu kosongkan `sementara.json` untuk rentang 19.01 hari ini sampai 19.00 besok.
-3. Commit dan push ke `main`. GitHub Pages memperbarui situs dalam satu sampai dua menit.
-
-Aplikasi mengecek pembaruan tiap 5 menit dan setiap kali dibuka lagi.
-
-Format satu edisi:
-
-```json
-{
-  "date": "2026-11-26",
-  "window": { "start": "2026-11-25T19:01:00+07:00", "end": "2026-11-26T19:00:00+07:00" },
-  "target": 30,
-  "sample": false,
-  "media": [{ "name": "Kontan", "abbr": "KON" }],
-  "topics": [
-    {
-      "id": "2026-11-25-aadi-dividen",
-      "title": "AADI bagikan dividen interim US$500 juta",
-      "category": "Aksi korporasi",
-      "tickers": ["AADI"],
-      "summary": "Ringkasan satu atau dua kalimat, ditulis ulang.",
-      "sources": [{ "media": "Kontan", "time": "2026-11-26T06:53:00+07:00", "url": "https://..." }]
-    }
-  ]
-}
-```
-
-`sementara.json` memakai format yang sama, ditambah `"live": true`, `"updated"` (jam pembaruan), dan `"prevRanks"` (peringkat per `id` pada pembaruan sebelumnya, untuk panah naik/turun dan penanda Baru).
-
-Jika jam terbit artikel tidak bisa dicek, isi `"time"` dengan tanggal terbit pukul 12.00 dan tambahkan `"approx": true`.
-
-Kategori yang dikenali: `Aksi korporasi`, `Regulasi`, `Kinerja`, `Makro`.
-
-Peringkat dihitung di aplikasi, bukan di file data:
-
-1. Artikel di luar rentang waktu tidak dihitung. Topik yang terbit setelah 19.00 tampil di bagian "Masuk edisi berikutnya".
-2. Urutan: jumlah media, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu jam terbit paling awal.
-3. Maksimal 30 topik; jika kurang, ditampilkan apa adanya.
+- Daftar sumber dan alamat RSS: `MEDIA` di `scripts/update_live.py`.
+- Kata kunci yang dibuang: `HARD_EXCLUDE` dan `SOFT_PRICE`.
+- Kata kunci kategori: `CAT_RULES`.
+- Frekuensi: baris `cron` di `.github/workflows/live.yml` (minimal 5 menit).
+- Menjalankan manual: tab Actions di GitHub, pilih "Perbarui berita live", lalu Run workflow.
 
 ## Catatan
 
-- Edisi 25 November adalah data contoh. Edisi 26 November disusun dari pencarian dan belum mencakup semua artikel lima media.
-- Sebelum dipakai rutin atau dibagikan, cek aturan pemakaian konten tiap media.
+- Ringkasan adalah cuplikan pembuka dari RSS media. Media yang diambil lewat Google News hanya menampilkan judul.
+- Pengelompokan dan penyaringan otomatis bisa meleset; topik yang sama kadang terpecah, atau berita harga lolos.
+- Cek aturan pemakaian konten tiap media sebelum aplikasi dibagikan ke orang lain.
 - Bahan riset, bukan rekomendasi beli atau jual.

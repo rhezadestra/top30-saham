@@ -1,0 +1,47 @@
+name: Perbarui berita live
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # tiap 10 menit (GitHub kadang menunda beberapa menit)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/live.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Ambil berita dan tulis data/live.json
+        run: python3 scripts/update_live.py
+
+      - name: Simpan jika ada perubahan
+        run: |
+          if git diff --quiet -- data/; then
+            echo "Tidak ada perubahan."
+            exit 0
+          fi
+          git config user.name "top30-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live.json data/articles.json
+          git commit -m "Live $(TZ=Asia/Jakarta date +'%d %b %H.%M') WIB"
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase -X theirs origin main || true
+            sleep 5
+          done
+          exit 1

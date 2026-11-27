@@ -1,7 +1,7 @@
 // Service worker Top 30 Berita Saham.
-// Tampilan aplikasi disimpan untuk dibuka offline; data edisi selalu dicoba ambil terbaru dulu.
-const SHELL = "top30-shell-v2";
-const DATA = "top30-data-v2";
+// Tampilan aplikasi disimpan untuk dibuka offline; data selalu dicoba ambil terbaru dulu.
+const SHELL = "top30-shell-v3";
+const DATA = "top30-data-v3";
 const SHELL_FILES = [
   "./",
   "./index.html",
@@ -28,20 +28,27 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET" || url.origin !== self.location.origin) return;
 
-  // Data edisi: jaringan dulu, cadangan dari cache saat offline.
+  // Data: jaringan dulu, cadangan dari cache saat offline. Kunci cache tanpa ?t= agar tidak menumpuk.
   if (url.pathname.includes("/data/")) {
+    const key = url.origin + url.pathname;
     event.respondWith(
       fetch(event.request)
         .then((res) => {
-          const copy = res.clone();
-          caches.open(DATA).then((c) => c.put(event.request, copy));
+          if (res.ok) { const copy = res.clone(); caches.open(DATA).then((c) => c.put(key, copy)); }
           return res;
         })
-        .catch(() => caches.match(event.request))
+        .catch(() => caches.match(key))
     );
     return;
   }
 
-  // Tampilan aplikasi: cache dulu, lalu jaringan.
-  event.respondWith(caches.match(event.request).then((hit) => hit || fetch(event.request)));
+  // Tampilan aplikasi: jaringan dulu supaya versi baru langsung terpakai, cache saat offline.
+  event.respondWith(
+    fetch(event.request)
+      .then((res) => {
+        if (res.ok) { const copy = res.clone(); caches.open(SHELL).then((c) => c.put(event.request, copy)); }
+        return res;
+      })
+      .catch(() => caches.match(event.request).then((hit) => hit || caches.match("./index.html")))
+  );
 });

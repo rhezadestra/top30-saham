@@ -1,7 +1,7 @@
 {
   "name": "Top 30 Berita Saham",
   "short_name": "Top 30 Saham",
-  "description": "Rangkuman harian topik berita saham dari lima media, tanpa berita pergerakan harga.",
+  "description": "Topik berita saham 24 jam terakhir dari lima media, diperbarui otomatis.",
   "lang": "id",
   "start_url": "./",
   "scope": "./",
