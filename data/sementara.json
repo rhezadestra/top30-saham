@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "live": true,
-  "updated": "2026-11-27T06:10:56+07:00",
+  "updated": "2026-11-27T07:04:34+07:00",
   "window": {
     "start": "2026-11-26T19:01:00+07:00",
     "end": "2026-11-27T19:00:00+07:00"
@@ -30,7 +30,15 @@
       "abbr": "INV"
     }
   ],
-  "prevRanks": {},
+  "prevRanks": {
+    "2026-11-27-danantara-laba-2025": 1,
+    "2026-11-27-tris-produk-ritel": 2,
+    "2026-11-27-pgeo-rating-sp": 3,
+    "2026-11-27-tarif-trump-14-negara": 4,
+    "2026-11-27-ratbi-2027": 5,
+    "2026-11-27-danantara-41-proyek-2027": 6,
+    "2026-11-27-el-nino-cpo-2027": 7
+  },
   "topics": [
     {
       "id": "2026-11-27-danantara-laba-2025",
@@ -43,12 +51,17 @@
         "TLKM",
         "ANTM"
       ],
-      "summary": "Danantara membukukan laba bersih konsolidasi 2025 sebesar Rp259,6 triliun, lebih dari separuhnya berasal dari BBRI, BMRI, dan Pertamina. Korea Investment & Sekuritas menilai angka itu di bawah klaim awal Rp326–335 triliun karena eliminasi antarperusahaan dan porsi minoritas.",
+      "summary": "Danantara membukukan laba bersih konsolidasi 2025 sebesar Rp259,6 triliun, lebih dari separuhnya dari BBRI, BMRI, dan Pertamina, sementara target laba BUMN 2026 dipatok Rp332 triliun. Korea Investment & Sekuritas menilai angka 2025 di bawah klaim awal karena eliminasi antarperusahaan dan porsi minoritas.",
       "sources": [
         {
           "media": "Kontan",
           "time": "2026-11-26T19:10:08+07:00",
           "url": "https://investasi.kontan.co.id/news/laba-bersih-danantara-rp-2596-triliun-pada-2025-simak-prospek-emiten-asuhannya"
+        },
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T05:40:00+07:00",
+          "url": "https://insight.kontan.co.id/news/mencermati-pengelolaan-dividen-danantara"
         }
       ]
     },
@@ -141,6 +154,98 @@
           "media": "IDX Channel",
           "time": "2026-11-27T06:00:00+07:00",
           "url": "https://www.idxchannel.com/market-news/pgeo-raih-peringkat-bbb-dengan-prospek-stabil-dari-sp-global-ratings"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-byan-komite-audit",
+      "title": "Bayan (BYAN) rombak susunan komite audit",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "BYAN"
+      ],
+      "summary": "Bayan Resources mengganti ketua dan satu anggota komite audit per 25 November 2026: Nurfaizi menggantikan Timur Pradopo sebagai ketua, dan Indra Surya menggantikan Moermahadi Soerja Djanegara.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-27T06:20:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-mertua-kapolri-jadi-ketua-komite-audit"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-danantara-saham-bei",
+      "title": "Danantara targetkan jadi pemegang saham BEI semester I-2027",
+      "category": "Regulasi",
+      "tickers": [],
+      "summary": "Danantara memperkirakan masuk sebagai pemegang saham Bursa Efek Indonesia pada paruh pertama 2027, menurut tayangan Evening CNBC Indonesia 26 November 2026.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-26T20:15:00+07:00",
+          "url": "https://www.cnbcindonesia.com/news/20261126190747-8-788878/danantara-perkirakan-jadi-pemegang-saham-bei-semester-i--2027"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-danantara-utang-whoosh",
+      "title": "Danantara targetkan restrukturisasi utang Whoosh tuntas awal 2027",
+      "category": "Makro",
+      "tickers": [],
+      "summary": "COO Danantara Dony Oskaria menyebut restrukturisasi utang kereta cepat Whoosh ditargetkan rampung awal 2027, dengan pengalihan utang ke Kementerian Keuangan sedang berjalan. Kemenkeu berharap uji tuntas pengalihan saham PSBI selesai Desember 2026 sebagai dasar rancangan Perpres.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-27T06:50:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261126232134-17-788899/danantara-kebut-persoalan-utang-whoosh-selesai-tahun-depan"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-bfin-dividen-70persen",
+      "title": "BFI Finance (BFIN) siapkan 70% laba 2026 untuk dividen",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "BFIN"
+      ],
+      "summary": "BFI Finance menargetkan rasio pembagian dividen sekitar 70% dari laba bersih 2026, menunggu keputusan RUPS; dividen interim Rp35 per saham sudah ditetapkan dengan cum date 30 November. Laba bersih hingga kuartal III-2026 tercatat Rp1,3 triliun, naik 12,5%.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-26T19:38:00+07:00",
+          "url": "https://keuangan.kontan.co.id/news/bfi-finance-siapkan-70-laba-2026-untuk-dividen-ini-perkiraan-hak-investor"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-pack-rupslb-tunda",
+      "title": "PACK tunda RUPSLB rights issue Rp8,19 triliun ke 8 Desember",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "PACK"
+      ],
+      "summary": "Abadi Nusantara Hijau Investama memundurkan RUPSLB dari 30 November ke 8 Desember 2026 setelah OJK meminta tambahan informasi. Rencana rights issue hingga 100 miliar saham senilai maksimal Rp8,19 triliun, dengan Eco Energi Perkasa sebagai pembeli siaga hingga Rp7,39 triliun.",
+      "sources": [
+        {
+          "media": "Investor.id",
+          "time": "2026-11-27T06:22:00+07:00",
+          "url": "https://investor.id/market/463517/aksi-besarbesaran-perusahaan-portofolio-haji-isam-masih-butuh-waktu"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-foru-pendapatan-batubara",
+      "title": "Fortune Indonesia (FORU) catat pendapatan Rp312 miliar dari batu bara",
+      "category": "Kinerja",
+      "tickers": [
+        "FORU"
+      ],
+      "summary": "Pendapatan FORU hingga September 2026 mencapai Rp312,31 miliar, sebagian besar dari ekspor batu bara lewat Borneo Prima, melonjak dari Rp10,35 miliar pada semester I. Perseroan masih merugi dengan rugi bersih induk sekitar Rp8,2 miliar.",
+      "sources": [
+        {
+          "media": "Investor.id",
+          "time": "2026-11-27T06:49:00+07:00",
+          "url": "https://investor.id/market/463520/mesin-tambang-mulai-menyala-omzet-meledak"
         }
       ]
     }
