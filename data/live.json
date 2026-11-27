@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T05:37:38+07:00",
+ "updated": "2026-11-28T05:41:06+07:00",
  "window": {
-  "start": "2026-11-27T05:37:38+07:00",
-  "end": "2026-11-28T05:37:38+07:00",
+  "start": "2026-11-27T05:41:06+07:00",
+  "end": "2026-11-28T05:41:06+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,10 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 162
+   "items": 143,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +48,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 90
+   "items": 30,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests",
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "Investor.id": {
    "via": "google",
@@ -1377,22 +1384,6 @@
      "time": "2026-11-27T07:33:05+07:00",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaXVKVlF1QjhZVVM0SnNWVk5sNWc4TnpHVUwtR29RdjJaYl9tcUNGanFWekRFSER2bzZmWHdTdDhvTFY1R2ViUE52dWxCbFB6MzRJQ3hpYTR0bmVhcXZib0dLV0xMNHlNRTUwRHNPZkZIdDczX2dOcWJVSE5XbnVQZkZJLVZEbTMyQ2V2X2VVZ3Z1X3RPY3VxNnZ5VDNIN1lhZzNvSA?oc=5",
      "title": "Skala Jadi Kunci, Emiten Menara Telekomunikasi Terus Berburu Akuisisi"
-    }
-   ]
-  },
-  {
-   "id": "4dbbf1f7b937",
-   "title": "Mencermati Pengelolaan Dividen Danantara",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:40:20+07:00",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ueW5JeVB3LWVHOEpkQzlCbXI0NUJWUTQ2dnBBdXplZjYtWHlMVXdTdjZhXzBsQXJvdDQwX2lRbmxya2UtbEdCR25CSnFrLXhtTkxTTi1oNnJGQkNoajB3ZHJubXh3bVZBbFhnVUgzRTFFRzFxQ1ZxdDhFeEw4SnM?oc=5",
-     "title": "Mencermati Pengelolaan Dividen Danantara"
     }
    ]
   },
