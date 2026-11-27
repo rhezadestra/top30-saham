@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T05:41:06+07:00",
+ "updated": "2026-11-28T05:50:05+07:00",
  "window": {
-  "start": "2026-11-27T05:41:06+07:00",
-  "end": "2026-11-28T05:41:06+07:00",
+  "start": "2026-11-27T05:50:05+07:00",
+  "end": "2026-11-28T05:50:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,14 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 143,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 158
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 65
+   "items": 64
   },
   "IDX Channel": {
    "via": "rss",
@@ -48,15 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 30,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests",
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 91
   },
   "Investor.id": {
    "via": "google",
-   "items": 119
+   "items": 122
   }
  },
  "prevAt": "2026-11-28T04:58:38+07:00",
@@ -1852,6 +1845,24 @@
      "time": "2026-11-27T17:50:47+07:00",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEloVEVSYTZZOENnS2RQbHRIdno0NnF2aFp0c1hRdURwSWtRU3hNbVdIN1ZhNFVfNHQ2VGU2V0l3eWtpaEtSU3pEeGF5LTdlYzVvekk2b1ZoV2FoZkowYktSTTZHSU13S0pyelQyb2xjUFpKQnNxSGFHWHhRb0hUeURqUXlDZEM0S2I5UmVrSlI1cXlZc2JlRWwyaF92bkxpdm1DUNIBngFBVV95cUxQcU96ZmFFcmprZXJWckxQQnhWMUZvTTJkV0tvLW9rYnNwS3hMRVZ0RVlBZjhNN3g3SkNvN0NEM3luVkRsS05tSDBqWGJiRTJYZEk1bkpTTGxRQl9FSWN2VjF5Z0N1bmVNVzJKbVRQbWVQN09ySUdLU2U5LXNZNU9iUXZtOTBmbDlCbk93cVpvZS1VT3JyVG5MSW44ajJRUQ?oc=5",
      "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026"
+    }
+   ]
+  },
+  {
+   "id": "9a6c8b05fafe",
+   "title": "Ekonom BMRI Prediksi BI-Rate Naik Sekali Lagi",
+   "category": "Kinerja",
+   "tickers": [
+    "BMRI"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T17:44:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUmVhd254VlVYeGdOZXVrQ3R2YnJyRzBEQVBSV0FJOHc2R0VHR2hpWHRvTHQ5aTZIM0pDZE9sZmFSUDBtNk15ZXg3a0xLTU1FeThrQnRLbVF5SFl3aW1lOHBSZzdWWFV5Ny1teTdfekpKX2dnSVpxenlVN2Y2QzVNdVFJQkpjS1BQUWJVZw?oc=5",
+     "title": "Ekonom BMRI Prediksi BI-Rate Naik Sekali Lagi"
     }
    ]
   },
