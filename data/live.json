@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T05:50:05+07:00",
+ "updated": "2026-11-28T05:56:06+07:00",
  "window": {
-  "start": "2026-11-27T05:50:05+07:00",
-  "end": "2026-11-28T05:50:05+07:00",
+  "start": "2026-11-27T05:56:06+07:00",
+  "end": "2026-11-28T05:56:06+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 158
+   "items": 168
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 91
+   "items": 92
   },
   "Investor.id": {
    "via": "google",
-   "items": 122
+   "items": 125
   }
  },
  "prevAt": "2026-11-28T04:58:38+07:00",
@@ -1711,6 +1711,22 @@
    ]
   },
   {
+   "id": "489479142a1a",
+   "title": "Target Penambahan Bank Anggota KBMI 4 Tahun Ini Tercapai, Kenapa?",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T05:50:07+07:00",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdlZnWFBGamkwVmtXYW5teFpfNnpRM20xYWlZV0V6bEVQb1VWTERCZFpNZkNpWTRzTWZ3cXE2VlFTRG5lLUg4UXNRNjZZVEgyQXByMzlDR3RKV21oTURTSE9KSnhpc3Z2Y1RrejY2QW4zeDBKWDlIWXo3RlBBeVdUWmZ2c1VpcmNlSmZGMS1jWXNSWHdocFdnOUJoczBXOEnSAZgBQVVfeXFMTm9xbnNGOVVaODkwazdueWx5Ym44N0hhMlNRd2lIYUJpRlRjSzRhMm01MldlNTdJdHpEYnpiamJ4UDJsaTFERG5HOEpVVzFWMEZwN1BISHhLUE9TOF9GWDNGbmJsZUlXcXh4eVBqQ2hRZnZpdUx6cndzRmZKMjVwUnBMbUdBN044bU96OWpZTzY3UEE2UjN1eWQ?oc=5",
+     "title": "Target Penambahan Bank Anggota KBMI 4 Tahun Ini Tercapai, Kenapa?"
+    }
+   ]
+  },
+  {
    "id": "1b7bf9bee88e",
    "title": "BERITA POPULER: Manuver Emiten Portofolio Andry Hakim Omzet FORU Meledak",
    "category": "Kinerja",
@@ -2390,6 +2406,22 @@
      "time": "2026-11-27T06:20:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-dua-mantan-polisi-jadi-komite-audit",
      "title": "Bayan Resources (BYAN) Tunjuk Dua Mantan Polisi Jadi Komite Audit"
+    }
+   ]
+  },
+  {
+   "id": "1949180aac95",
+   "title": "Daftar 10 Saham Top Leaders-Laggards Pekan Akhir November 2026",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T05:50:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVTBqUEJtZ05fNG1WbjBQeFdXVG1zMk9ZRDZtcjJlZ05kNUtRWUtOdHE3eXVnbElPZ0VkdlJkUkVLVkZsMmVBb0NsZkNEdGl5ZVVOZVhueUNXVnJ5SmM0WGFfUS1Qb0tydVBYVnYyNi0wazNRWUFZMHZydktrYTdqUllwbmxWYS1Ya1h5Snp5ZE1pQlU5STc5VGdxeU51ZmxVZVZ5d0EwM3B0dFFQS2JVaWhB?oc=5",
+     "title": "Daftar 10 Saham Top Leaders-Laggards Pekan Akhir November 2026"
     }
    ]
   },
@@ -3578,54 +3610,6 @@
      "time": "2026-11-27T06:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONzBFQ2s2V2tObGo4TzNIVGwyYXFab3R5b19FeHZZWHRUREdQaXZPV2xzRVlHZW5DdnhoSUNRSXNKcUtjNDdpU2h6dGJxMEJNUG9OekpjY1BTT2MyTFdWRFpsVWpqVnN5cUJWdmhfWUtjWVQ3MVVpM0lGTFRmOXgwcE5XWnFlMlZmc3dNU2FiOFZiWW8zaWlvOEJzaWFZTXllQTBvNEx1TTVXdjDSAbABQVVfeXFMTXBqQVliWjNnWjBoUGxHOHJuYlJjWWs5TTlyQ242b0t4SnJxMGJ1NEd5SVlRVXVWTjNDQXpCbkUwUWRsalc0VnByT0pFYTIySjl5MEU3V3Z6VkNwVjk5NVRzZ2Y4MWs5Y0hWdUdfTzNPWVpDcXduRWV4blUwOXRSOEs5UHJCZXlKenhaMWVxUVMwc1hQYkx2Z0NpN1VnemlTQ3lBbWtjMENNRXUyekJ2XzM?oc=5",
      "title": "PGEO Raih Peringkat BBB- dengan Prospek Stabil dari S&P Global Ratings"
-    }
-   ]
-  },
-  {
-   "id": "13ea888949ed",
-   "title": "Bank Putar Strategi Mengamankan Likuiditas",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:54:21+07:00",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xNXFkenh6ZjN6SU5QQy1pQ2FOQi1wWFl6RjJEMjNHcnJrczVUWlJxWFVCUENuQnpEYXk5YmQ4eWd5b2xpMEFBT3VxQ0ZnZV9fSHZYSjY2X2VLY3NTSm5uS0pXWFNLRnRpM19WM2RB?oc=5",
-     "title": "Bank Putar Strategi Mengamankan Likuiditas"
-    }
-   ]
-  },
-  {
-   "id": "b1b7a6b8e885",
-   "title": "Danantara Pangkas BUMN, IPCM Berpeluang Jadi Raja Jasa Pandu dan Tunda Indonesia",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:54:21+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15ZmVkc0lnNG5xTHRDN1dwZVJkb2tGaXpfLWVzSmxoRTFiS1FfZVJRVFdILWdoVVVEUXVvdF85aVQyV19UN2ZveUxscmtjMlZ2d3NYaWNhSDZSQ0tTSzB3ODI5cDhEZHpBa3c?oc=5",
-     "title": "Danantara Pangkas BUMN, IPCM Berpeluang Jadi Raja Jasa Pandu dan Tunda Indonesia"
-    }
-   ]
-  },
-  {
-   "id": "2a6a2687cbe0",
-   "title": "Deposito Himbara Mekar, Sedang Bank Swasta Layu",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:54:20+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QU1VuMG9DdWRWYmU4Z2pfb3RPLXpiRkZhVXV5d1FpMHNuVG9oR2c0VzB4cUxnRGhObFJXeGgzUnF0ZjlUOWExeTlNMWxseEJnUWJJTXdyVFp4ZzZ5ZUdFNWJScTBlTmQy?oc=5",
-     "title": "Deposito Himbara Mekar, Sedang Bank Swasta Layu"
     }
    ]
   }
