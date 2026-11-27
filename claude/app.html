@@ -1,0 +1,751 @@
+<title>Top 30 Berita Saham</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Topik berita saham 24 jam terakhir dari lima media, diperbarui otomatis, tanpa berita pergerakan harga.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: satu kolom untuk dibaca pagi di HP (maks 680px). Bilah atas lengket, kepala edisi dengan meter 30 slot, filter, daftar berperingkat, lalu aturan hitung. */
+:root {
+  --paper: #F3F5F8;
+  --surface: #FFFFFF;
+  --ink: #132030;
+  --ink-2: #4A586A;
+  --ink-3: #758396;
+  --line: #DCE2EA;
+  --accent: #2447C7;
+  --accent-ink: #FFFFFF;
+  --accent-soft: #E5EAFB;
+  --star: #B57A06;
+  --star-soft: #FBF0D8;
+  --aksi: #6A3EC4;    --aksi-bg: #EEE8FB;
+  --kinerja: #1B744A; --kinerja-bg: #E3F2E9;
+  --regulasi: #B13A22; --regulasi-bg: #FBE8E3;
+  --makro: #4A586A;   --makro-bg: #EBEEF2;
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0D131A; --surface: #141C26; --ink: #E6EBF1; --ink-2: #A3B0BF; --ink-3: #7D8B9C; --line: #253140;
+    --accent: #85A1FF; --accent-ink: #0D131A; --accent-soft: #1C2A4D;
+    --star: #F0B743; --star-soft: #3A2E14;
+    --aksi: #BCA6FF; --aksi-bg: #2A2342;
+    --kinerja: #74D2A2; --kinerja-bg: #15322A;
+    --regulasi: #FF9C86; --regulasi-bg: #3A1F1A;
+    --makro: #A3B0BF; --makro-bg: #222C38;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0D131A; --surface: #141C26; --ink: #E6EBF1; --ink-2: #A3B0BF; --ink-3: #7D8B9C; --line: #253140;
+  --accent: #85A1FF; --accent-ink: #0D131A; --accent-soft: #1C2A4D;
+  --star: #F0B743; --star-soft: #3A2E14;
+  --aksi: #BCA6FF; --aksi-bg: #2A2342;
+  --kinerja: #74D2A2; --kinerja-bg: #15322A;
+  --regulasi: #FF9C86; --regulasi-bg: #3A1F1A;
+  --makro: #A3B0BF; --makro-bg: #222C38;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface);
+}
+a { color: var(--accent); }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.gutter {
+  max-width: 680px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+/* Bilah atas */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
+.bar .gutter { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 10px; }
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.brand svg { flex: none; }
+.brand b { font-family: var(--font-display); font-weight: 700; font-size: 16px; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.live-pill { display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-data); font-size: 12px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--kinerja); background: var(--kinerja-bg); padding: 4px 10px; border-radius: 999px; flex: none; }
+.live-pill.stale { color: var(--star); background: var(--star-soft); }
+.live-pill.stale .dot { background: var(--star); }
+.sortbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+.tabs.range .tab { padding: 7px 10px; font-family: var(--font-data); font-weight: 500; font-size: 13px; }
+.tab[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.rank.time { font-family: var(--font-data); font-weight: 500; font-size: 14px; padding-top: 6px; color: var(--ink-2); }
+.src a .s-main { display: grid; gap: 2px; min-width: 0; }
+.src a .s-main b { font-weight: 600; font-size: 13px; }
+.src a .s-main span { color: var(--ink-2); font-size: 13.5px; }
+.t-sum .from { color: var(--ink-3); font-size: 13px; white-space: nowrap; }
+.read { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; padding: 9px 12px; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; color: var(--ink); font-size: 14px; max-width: 62ch; }
+.read .s-main { display: grid; gap: 2px; min-width: 0; }
+.read .s-main b { font-weight: 600; font-size: 13px; color: var(--accent); }
+.read .s-main span { color: var(--ink-2); font-size: 13.5px; }
+.read .when { font-family: var(--font-data); font-size: 12.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; padding-top: 1px; }
+.ai { padding: 10px 12px 11px; border-radius: 10px; background: var(--accent-soft); max-width: 62ch; }
+.ai-h { margin: 0 0 6px; display: flex; align-items: center; gap: 6px; font-family: var(--font-data); font-size: 11.5px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+.ai ul { margin: 0; padding-left: 18px; display: grid; gap: 5px; color: var(--ink); font-size: 14.5px; line-height: 1.5; }
+.ai li::marker { color: var(--accent); }
+.ai-wait { margin: 0; display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--ink-3); }
+.ai-wait svg { color: var(--accent); opacity: .6; flex: none; }
+.topics.by-new .topic { grid-template-columns: 5.5ch minmax(0, 1fr); }
+.later li { display: grid; justify-items: start; }
+.ed-pick select {
+  appearance: none; -webkit-appearance: none;
+  background: var(--paper); border: 1px solid var(--line); border-radius: 8px;
+  padding: 6px 28px 6px 10px; font-family: var(--font-data); font-size: 13px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--ink-2) 50%), linear-gradient(135deg, var(--ink-2) 50%, transparent 50%);
+  background-position: calc(100% - 14px) 52%, calc(100% - 9px) 52%;
+  background-size: 5px 5px; background-repeat: no-repeat;
+}
+
+/* Kepala edisi */
+.edition { padding-block: 22px 18px; display: grid; gap: 10px; }
+.eyebrow { margin: 0; font-family: var(--font-data); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+.edition h1 { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: clamp(26px, 7vw, 34px); line-height: 1.1; letter-spacing: -0.02em; text-wrap: balance; }
+.window { margin: 0; font-family: var(--font-data); font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.sample { margin: 4px 0 0; padding: 10px 12px; border-radius: 10px; background: var(--star-soft); color: var(--ink); font-size: 13.5px; }
+.sample strong { color: var(--star); }
+.sample.info { background: var(--surface); border: 1px solid var(--line); color: var(--ink-2); }
+.sample.info strong { color: var(--ink); }
+
+/* Tab: Hari ini (sementara) dan Edisi final */
+.tabs { display: flex; gap: 4px; padding: 4px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); width: fit-content; max-width: 100%; }
+.tab { border: 0; background: transparent; color: var(--ink-2); border-radius: 9px; padding: 7px 14px; font-weight: 600; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
+.tab[aria-selected="true"] { background: var(--ink); color: var(--paper); }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--kinerja); flex: none; }
+.tab[aria-selected="true"] .dot { background: var(--kinerja-bg); box-shadow: 0 0 0 2px var(--kinerja); }
+.eyebrow .dot { display: inline-block; margin-right: 6px; vertical-align: 1px; }
+.live-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.live-row .hint { flex: 1 1 220px; }
+.live-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn[disabled] { opacity: .6; cursor: default; }
+.upd-status { margin: 0; padding: 9px 12px; border-radius: 10px; font-size: 13.5px; background: var(--accent-soft); color: var(--ink); }
+.upd-status.ok { background: var(--kinerja-bg); }
+.upd-status.err { background: var(--regulasi-bg); }
+.btn.ghost { background: var(--surface); color: var(--ink); border: 1px solid var(--line); padding: 7px 12px; font-size: 13.5px; }
+.move { display: block; margin-top: 6px; font-family: var(--font-data); font-size: 11px; font-weight: 500; text-align: right; font-variant-numeric: tabular-nums; }
+.move.up { color: var(--kinerja); }
+.move.down { color: var(--regulasi); }
+.move.new { color: var(--accent); }
+.badge-new { font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); }
+
+.meter { display: flex; gap: 3px; margin-top: 8px; }
+.meter span { flex: 1; height: 14px; border-radius: 3px; background: var(--line); }
+.meter span.on { background: var(--accent); }
+.meter-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.meter-meta b { color: var(--ink); font-weight: 600; }
+.tally { list-style: none; margin: 2px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.tally li { font-family: var(--font-data); font-size: 12px; padding: 3px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-2); background: var(--surface); font-variant-numeric: tabular-nums; }
+.tally li b { color: var(--ink); font-weight: 500; }
+
+.install { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 4px; }
+.btn { border: 0; border-radius: 10px; padding: 9px 14px; background: var(--accent); color: var(--accent-ink); font-weight: 600; cursor: pointer; }
+.hint { margin: 0; font-size: 13px; color: var(--ink-2); }
+
+/* Filter */
+.controls { position: sticky; top: calc(env(safe-area-inset-top, 0px) + var(--bar-h, 52px)); z-index: 4; background: var(--paper); padding-block: 10px; display: grid; gap: 10px; border-bottom: 1px solid var(--line); }
+.search input {
+  width: 100%; border: 1px solid var(--line); border-radius: 10px; background: var(--surface);
+  padding: 10px 12px; font-size: 15px;
+}
+.search input::placeholder { color: var(--ink-3); }
+.chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+  border-radius: 999px; padding: 6px 12px; font-size: 13.5px; cursor: pointer; white-space: nowrap;
+}
+.chip .n { font-family: var(--font-data); font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.chip[aria-pressed="true"] .n { color: var(--paper); opacity: 0.75; }
+.chip svg { width: 14px; height: 14px; }
+
+/* Daftar topik */
+.topics { list-style: none; margin: 0; padding: 0; }
+.topic { display: grid; grid-template-columns: 2.4ch minmax(0, 1fr); gap: 4px 14px; padding-block: 18px; border-bottom: 1px solid var(--line); }
+.rank { font-family: var(--font-display); font-weight: 700; font-size: 28px; line-height: 1; color: var(--accent); font-variant-numeric: tabular-nums; text-align: right; padding-top: 2px; }
+.t-body { min-width: 0; display: grid; gap: 8px; }
+.t-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.cat { font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 6px; }
+.cat.aksi { color: var(--aksi); background: var(--aksi-bg); }
+.cat.kinerja { color: var(--kinerja); background: var(--kinerja-bg); }
+.cat.regulasi { color: var(--regulasi); background: var(--regulasi-bg); }
+.cat.makro { color: var(--makro); background: var(--makro-bg); }
+.tk { font-family: var(--font-data); font-size: 12.5px; font-weight: 500; color: var(--ink); letter-spacing: 0.02em; }
+.tag { font-size: 12px; color: var(--ink-3); }
+.t-title { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 19px; line-height: 1.25; letter-spacing: -0.01em; text-wrap: balance; }
+.t-sum { margin: 0; color: var(--ink-2); max-width: 62ch; }
+.t-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.cov { display: flex; gap: 3px; }
+.cov span {
+  font-family: var(--font-data); font-size: 10px; font-weight: 500; letter-spacing: 0.02em;
+  padding: 2px 5px; border-radius: 4px; border: 1px solid var(--line); color: var(--ink-3);
+}
+.cov span.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.counts { font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.save {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+  border-radius: 999px; padding: 5px 11px; font-size: 13px; cursor: pointer;
+}
+.save svg { width: 15px; height: 15px; }
+.save[aria-pressed="true"] { background: var(--star-soft); border-color: var(--star-soft); color: var(--star); }
+.save[aria-pressed="true"] svg path { fill: currentColor; }
+
+.src summary { cursor: pointer; font-size: 13.5px; color: var(--ink-2); width: fit-content; }
+.src summary::marker { color: var(--ink-3); }
+.src ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+.src a { display: flex; justify-content: space-between; gap: 12px; padding: 8px 10px; border-radius: 8px; background: var(--paper); border: 1px solid var(--line); text-decoration: none; color: var(--ink); font-size: 14px; }
+.src a .when { font-family: var(--font-data); font-size: 12.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.empty { margin: 0; padding-block: 28px; color: var(--ink-2); text-align: center; }
+.state { padding-block: 40px; text-align: center; color: var(--ink-2); display: grid; gap: 12px; justify-items: center; }
+
+/* Edisi berikutnya, aturan, catatan kaki */
+.later { padding-block: 22px 6px; display: grid; gap: 10px; }
+.later h2, .rules summary { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 17px; }
+.later p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+.later ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.later a { display: flex; gap: 10px; align-items: baseline; padding: 9px 12px; border: 1px dashed var(--line); border-radius: 10px; text-decoration: none; color: var(--ink); font-size: 14px; }
+.later a .when { margin-left: auto; font-family: var(--font-data); font-size: 12.5px; color: var(--ink-3); white-space: nowrap; }
+
+.rules { margin-top: 18px; padding: 14px 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
+.rules summary { cursor: pointer; }
+.rules dl { margin: 12px 0 0; display: grid; gap: 10px; font-size: 14px; }
+.rules dt { font-weight: 600; }
+.rules dd { margin: 2px 0 0; color: var(--ink-2); }
+footer { padding-block: 20px 36px; font-size: 13px; color: var(--ink-3); display: grid; gap: 4px; }
+footer p { margin: 0; }
+
+@media (min-width: 560px) {
+  .topic { grid-template-columns: 3ch minmax(0, 1fr); gap: 4px 18px; }
+  .rank { font-size: 32px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .meter span.on { animation: fill .5s ease-out both; }
+  @keyframes fill { from { transform: scaleY(.3); } to { transform: none; } }
+  .eyebrow .dot, .tab .dot { animation: pulse 2s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .35; } }
+}
+</style>
+
+<header class="bar">
+  <div class="gutter">
+    <div class="brand">
+      <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
+        <rect width="28" height="28" rx="7" fill="var(--accent)"></rect>
+        <text x="14" y="16.5" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-weight="500" font-size="11" fill="var(--accent-ink)">30</text>
+        <g fill="var(--accent-ink)"><rect x="6" y="20" width="2.6" height="2" rx="1"></rect><rect x="9.6" y="20" width="2.6" height="2" rx="1"></rect><rect x="13.2" y="20" width="2.6" height="2" rx="1"></rect><rect x="16.8" y="20" width="2.6" height="2" rx="1" opacity=".45"></rect><rect x="20.4" y="20" width="2.6" height="2" rx="1" opacity=".45"></rect></g>
+      </svg>
+      <b>Top 30 Berita Saham</b>
+    </div>
+    <span class="live-pill" id="live-pill"><span class="dot" aria-hidden="true"></span>Live</span>
+  </div>
+</header>
+
+<main>
+  <section class="gutter edition" aria-labelledby="ed-date">
+    <p class="eyebrow" id="ed-eyebrow">Live</p>
+    <h1 id="ed-date">Memuat berita…</h1>
+    <p class="window" id="ed-window"></p>
+    <div class="live-row" id="live-row">
+      <p class="hint" id="live-hint"></p>
+      <div class="live-btns">
+        <button class="btn" id="update-now" type="button" hidden>Perbarui sekarang</button>
+        <button class="btn ghost" id="refresh" type="button">Muat ulang</button>
+      </div>
+    </div>
+    <p class="upd-status" id="upd-status" role="status" hidden></p>
+    <p class="sample" id="ed-sample" hidden></p>
+    <div class="meter" id="meter" role="img" aria-label=""></div>
+    <div class="meter-meta"><span id="meter-label"></span><span id="ed-totals"></span></div>
+    <ul class="tally" id="tally" aria-label="Jumlah artikel per media"></ul>
+    <div class="install" id="install-row" hidden>
+      <button class="btn" id="install-btn" type="button" hidden>Pasang aplikasi</button>
+      <p class="hint" id="ios-hint" hidden>Di iPhone: ketuk Bagikan, lalu Tambahkan ke Layar Utama.</p>
+    </div>
+  </section>
+
+  <div class="controls">
+    <div class="gutter" style="display:grid;gap:10px">
+      <label class="search"><span class="sr-only">Cari</span>
+        <input id="q" type="search" placeholder="Cari kode saham atau kata, mis. AADI" autocomplete="off" enterkeyhint="search">
+      </label>
+      <div class="sortbar">
+        <div class="tabs" id="sort" role="group" aria-label="Urutkan">
+          <button class="tab" type="button" data-sort="pop" aria-pressed="true">Terpopuler</button>
+          <button class="tab" type="button" data-sort="new" aria-pressed="false">Terbaru</button>
+        </div>
+        <div class="tabs range" id="range" role="group" aria-label="Rentang waktu">
+          <button class="tab" type="button" data-h="3" aria-pressed="false">3j</button>
+          <button class="tab" type="button" data-h="6" aria-pressed="false">6j</button>
+          <button class="tab" type="button" data-h="12" aria-pressed="true">12j</button>
+          <button class="tab" type="button" data-h="24" aria-pressed="false">24j</button>
+        </div>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Filter"></div>
+    </div>
+  </div>
+
+  <div class="gutter">
+    <ol class="topics" id="topics" aria-live="polite"></ol>
+    <p class="empty" id="empty" hidden>Tidak ada topik yang cocok. Hapus pencarian atau pilih filter lain.</p>
+    <div class="state" id="error" hidden>
+      <p style="margin:0">Berita belum bisa dimuat. Periksa koneksi, lalu coba lagi.</p>
+      <button class="btn" id="retry" type="button">Coba lagi</button>
+    </div>
+
+    <section class="later" id="later" hidden aria-labelledby="later-h">
+      <h2 id="later-h">Tersimpan, sudah lewat 24 jam</h2>
+      <p>Ide yang Anda simpan tetap ada di sini walau topiknya sudah keluar dari daftar.</p>
+      <ul id="later-list"></ul>
+    </section>
+
+    <details class="rules" id="rules">
+      <summary>Cara hitung</summary>
+      <dl>
+        <div><dt>Rentang waktu</dt><dd>Pilih 3, 6, 12 (bawaan), atau 24 jam terakhir. Topik dihitung hanya dari artikel di rentang itu, jadi berita lama tersisih otomatis. Tidak ada edisi final.</dd></div>
+        <div><dt>Pembaruan</dt><dd>Berita diambil otomatis dari RSS kira-kira tiap 3 menit. Aplikasi mengecek data baru tiap menit selama terbuka.</dd></div>
+        <div><dt>Sumber</dt><dd>Kontan, CNBC Indonesia, IDX Channel, Bisnis, dan Investor.id. Jika RSS sebuah media tidak bisa diambil server, dipakai Google News RSS untuk situs media itu.</dd></div>
+        <div><dt>Dibuang</dt><dd>Berita pergerakan harga (IHSG, top gainer dan loser, analisis teknikal), net buy dan sell asing, serta harga emas dan kurs. Penyaringan otomatis memakai kata kunci di judul.</dd></div>
+        <div><dt>Satu topik</dt><dd>Satu peristiwa. Artikel digabung otomatis jika menyebut kode saham atau jenis aksi yang sama dengan judul mirip; topik kembar yang masih lolos digabung AI tiap jam. Tiap topik melampirkan satu artikel saja: tautan langsung ke media jika ada, yang terbit paling awal.</dd></div>
+        <div><dt>Terpopuler</dt><dd>Jumlah media yang memberitakan, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu artikel terbaru. Maksimal 30 topik.</dd></div>
+        <div><dt>Panah dan Baru</dt><dd>"Baru" berarti topik belum ada sekitar satu jam sebelumnya. Panah naik/turun hanya tampil di rentang 24 jam.</dd></div>
+        <div><dt>Ringkasan AI</dt><dd>Poin-poin ditulis Claude dari artikel sumber, tiap jam pukul 05.00–22.00 WIB. Topik baru tampil dulu dengan judul, lalu ringkasannya menyusul. AI bisa keliru; cek angka penting di artikel aslinya.</dd></div>
+        <div><dt>Cuplikan</dt><dd>Sebelum ringkasan AI tersedia, tampil cuplikan pembuka dari RSS media jika ada.</dd></div>
+      </dl>
+    </details>
+
+    <footer>
+      <p>Bahan riset, bukan rekomendasi beli atau jual.</p>
+      <p>Judul dan cuplikan milik media sumber. Ringkasan AI ditulis ulang oleh Claude dan bisa keliru; baca artikel lengkapnya lewat tautan sumber.</p>
+    </footer>
+  </div>
+</main>
+
+<script>
+(() => {
+  const CATS = {
+    "Aksi korporasi": { cls: "aksi", order: 0 },
+    "Regulasi": { cls: "regulasi", order: 1 },
+    "Kinerja": { cls: "kinerja", order: 2 },
+    "Makro": { cls: "makro", order: 3 }
+  };
+  const SAVED_KEY = "top30.savedItems";
+  const SORT_KEY = "top30.sort";
+  const LIVE_FILE = "data/live.json";
+  const AI_FILE = "data/ringkasan.json";
+  const SPARK = '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9zM19 15l.9 2.6 2.6.9-2.6.9L19 22l-.9-2.6-2.6-.9 2.6-.9z" fill="currentColor"/></svg>';
+  const POLL_MS = 60 * 1000;          // cek data baru tiap 1 menit
+  const STALE_MIN = 20;               // label "terlambat" jika data lebih tua dari ini
+  const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>';
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const tz = { timeZone: "Asia/Jakarta" };
+  const fmtDay = (iso) => new Intl.DateTimeFormat("id-ID", { day: "numeric", month: "short", ...tz }).format(new Date(iso));
+  const fmtTime = (iso) => new Intl.DateTimeFormat("id-ID", { hour: "2-digit", minute: "2-digit", hour12: false, ...tz }).format(new Date(iso));
+  const ago = (iso) => {
+    const m = Math.max(0, Math.round((Date.now() - Date.parse(iso)) / 60000));
+    if (m < 1) return "baru saja";
+    if (m < 60) return m + " menit lalu";
+    const h = Math.floor(m / 60);
+    return h < 24 ? h + " jam lalu" : Math.floor(h / 24) + " hari lalu";
+  };
+
+  const RANGE_KEY = "top30.range";
+  const RANGES = [3, 6, 12, 24];
+  const state = { ed: null, ranked: [], cat: "Semua", q: "", sort: readSort(), hours: readRange(), saved: readSaved() };
+
+  function readRange() {
+    try { const h = Number(localStorage.getItem(RANGE_KEY)); return RANGES.includes(h) ? h : 12; } catch (e) { return 12; }
+  }
+  // Awal rentang yang dipilih (3/6/12/24 jam sebelum data terakhir diperbarui).
+  function rangeStart(ed) {
+    return Math.max(Date.parse(ed.window.start), Date.parse(ed.updated) - state.hours * 3600000);
+  }
+
+  function readSaved() {
+    try { return JSON.parse(localStorage.getItem(SAVED_KEY) || "{}") || {}; } catch (e) { return {}; }
+  }
+  function writeSaved() {
+    try { localStorage.setItem(SAVED_KEY, JSON.stringify(state.saved)); } catch (e) { /* penyimpanan tidak tersedia */ }
+  }
+  function readSort() {
+    try { return localStorage.getItem(SORT_KEY) === "new" ? "new" : "pop"; } catch (e) { return "pop"; }
+  }
+
+  async function getJSON(url) {
+    const r = await fetch(url + "?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error(url + " " + r.status);
+    return r.json();
+  }
+
+  // Hitung ulang dari artikel di dalam jendela 24 jam; peringkat populer = jumlah media, artikel, kategori, terbaru.
+  function build(ed) {
+    const start = rangeStart(ed);
+    const ord = (c) => (CATS[c] ? CATS[c].order : 9);
+    const rows = [];
+    // Topik kembar yang ditandai AI (merge: {idKembar: idUtama}) digabung ke topik utamanya.
+    const merge = (state.ai && state.ai.merge) || {};
+    const byId = new Map((ed.topics || []).map((t) => [t.id, { ...t, sources: t.sources.slice() }]));
+    for (const [dup, main] of Object.entries(merge)) {
+      let target = main, hops = 0;
+      while (merge[target] && hops++ < 5) target = merge[target];
+      const d = byId.get(dup), m = byId.get(target);
+      if (!d || !m || d === m) continue;
+      const seen = new Set(m.sources.map((s) => s.url));
+      d.sources.forEach((s) => { if (!seen.has(s.url)) m.sources.push(s); });
+      (d.tickers || []).forEach((k) => { if (!(m.tickers || []).includes(k)) m.tickers = [...(m.tickers || []), k]; });
+      byId.delete(dup);
+    }
+    for (const t of byId.values()) {
+      const src = t.sources.filter((s) => Date.parse(s.time) >= start);
+      if (!src.length) continue;
+      const media = new Set(src.map((s) => s.media));
+      rows.push({ ...t, sources: src, media, nMedia: media.size, nArt: src.length, latest: Math.max(...src.map((s) => Date.parse(s.time))) });
+    }
+    rows.sort((a, b) => b.nMedia - a.nMedia || b.nArt - a.nArt || ord(a.category) - ord(b.category) || b.latest - a.latest);
+    // Semua topik di rentang, urut populer; peringkat dihitung untuk semuanya.
+    return rows.map((t, i) => ({ ...t, rank: i + 1 }));
+  }
+
+  function renderHead() {
+    const ed = state.ed, target = ed.target || 30, n = state.ranked.length;
+    const stale = Date.now() - Date.parse(ed.updated) > STALE_MIN * 60000;
+    $("live-pill").classList.toggle("stale", stale);
+    $("live-pill").lastChild.textContent = stale ? "Terlambat" : "Live";
+    $("ed-eyebrow").innerHTML = '<span class="dot" aria-hidden="true"></span>Diperbarui ' + esc(fmtTime(ed.updated)) + " WIB · " + esc(ago(ed.updated));
+    const st = new Date(rangeStart(ed)).toISOString();
+    $("ed-date").textContent = "Berita saham " + state.hours + " jam terakhir";
+    $("ed-window").textContent = fmtDay(st) + " " + fmtTime(st) + " – " + fmtDay(ed.window.end) + " " + fmtTime(ed.window.end) + " WIB";
+    // Di kartu Claude data hanya berganti saat kartu dipublikasikan ulang; di GitHub Pages halaman mengecek sendiri.
+    const inClaude = !!(window.claude && typeof window.claude.use === "function") && !document.querySelector('link[rel="manifest"]');
+    $("live-hint").textContent = inClaude
+      ? (stale ? "Kartu ini memuat data " + ago(ed.updated) + ". Ketuk Perbarui sekarang untuk mengambil berita terbaru." : "Data kartu ini masih baru. Ketuk Perbarui sekarang kapan saja untuk mengambil berita terbaru.")
+      : (stale ? "Pembaruan otomatis tertunda. Data yang tampil adalah yang terakhir berhasil diambil." : "Diperbarui otomatis tiap ±3 menit. Halaman ini mengecek data baru sendiri.");
+
+    // Media yang gagal diambil pada pembaruan terakhir.
+    const failed = Object.entries(ed.feeds || {}).filter(([, f]) => !f.items).map(([k]) => k);
+    const box = $("ed-sample");
+    box.hidden = !failed.length;
+    box.className = "sample info";
+    if (failed.length) box.innerHTML = "<strong>Catatan.</strong> " + esc(failed.join(", ")) + " belum berhasil diambil pada pembaruan terakhir, jadi jumlah media bisa lebih rendah.";
+
+    $("meter").innerHTML = Array.from({ length: target }, (_, i) => '<span class="' + (i < n ? "on" : "") + '"></span>').join("");
+    $("meter").setAttribute("aria-label", n + " dari " + target + " slot terisi");
+    $("meter-label").innerHTML = "<b>" + n + "</b> dari " + target + " topik";
+    const arts = state.ranked.reduce((a, t) => a + t.nArt, 0);
+    const usedMedia = new Set(state.ranked.flatMap((t) => [...t.media]));
+    $("ed-totals").textContent = arts + " artikel · " + usedMedia.size + " dari " + ed.media.length + " media";
+
+    const per = Object.fromEntries(ed.media.map((m) => [m.name, 0]));
+    state.ranked.forEach((t) => t.sources.forEach((s) => { per[s.media] = (per[s.media] || 0) + 1; }));
+    $("tally").innerHTML = ed.media.map((m) => "<li>" + esc(m.name) + " <b>" + per[m.name] + "</b></li>").join("");
+  }
+
+  function renderSort() {
+    document.querySelectorAll("#sort .tab").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.sort === state.sort)));
+    document.querySelectorAll("#range .tab").forEach((b) => b.setAttribute("aria-pressed", String(Number(b.dataset.h) === state.hours)));
+    $("topics").classList.toggle("by-new", state.sort === "new");
+  }
+
+  function renderChips() {
+    const counts = { Semua: state.ranked.length };
+    state.ranked.forEach((t) => { counts[t.category] = (counts[t.category] || 0) + 1; });
+    const savedN = Object.keys(state.saved).length;
+    const keys = ["Semua", ...Object.keys(CATS).filter((k) => counts[k])];
+    let html = keys.map((k) => '<button class="chip" type="button" data-cat="' + esc(k) + '" aria-pressed="' + (state.cat === k) + '">' + esc(k) + ' <span class="n">' + counts[k] + "</span></button>").join("");
+    html += '<button class="chip" type="button" data-cat="Tersimpan" aria-pressed="' + (state.cat === "Tersimpan") + '">' + STAR + ' Ide tersimpan <span class="n">' + savedN + "</span></button>";
+    $("chips").innerHTML = html;
+  }
+
+  function matches(t) {
+    if (state.cat === "Tersimpan" && !state.saved[t.id]) return false;
+    if (state.cat !== "Semua" && state.cat !== "Tersimpan" && t.category !== state.cat) return false;
+    const q = state.q.trim().toLowerCase();
+    if (!q) return true;
+    const ai = aiFor(t);
+    return [t.title, t.summary, ...(t.tickers || []), ...t.sources.map((s) => s.title || ""), ...(ai ? ai.points : [])].join(" ").toLowerCase().includes(q);
+  }
+
+  function moveHTML(t) {
+    const prev = state.ed.prevRanks;
+    if (state.sort !== "pop" || !prev || !Object.keys(prev).length) return "";
+    if (!(t.id in prev)) return '<span class="move new" aria-label="Topik baru">Baru</span>';
+    // Peringkat sebelumnya tercatat untuk 24 jam; di rentang lebih pendek panahnya menyesatkan, jadi hanya "Baru".
+    if (state.hours !== 24) return "";
+    // Peringkat sebelumnya dihitung ulang hanya di antara topik yang tampil di rentang ini.
+    const shownPrev = state.ranked.filter((x) => x.id in prev).sort((a, b) => prev[a.id] - prev[b.id]);
+    const prevRank = shownPrev.findIndex((x) => x.id === t.id) + 1;
+    const nowRank = state.ranked.filter((x) => x.id in prev).findIndex((x) => x.id === t.id) + 1;
+    const d = prevRank - nowRank;
+    if (d > 0) return '<span class="move up" aria-label="Naik ' + d + '">▲' + d + "</span>";
+    if (d < 0) return '<span class="move down" aria-label="Turun ' + -d + '">▼' + -d + "</span>";
+    return "";
+  }
+
+  function when(iso) {
+    const today = fmtDay(new Date().toISOString()) === fmtDay(iso);
+    return (today ? "" : fmtDay(iso) + " ") + fmtTime(iso);
+  }
+
+  // Satu artikel per topik: utamakan tautan langsung ke media (bukan Google News), lalu yang terbit paling awal.
+  function pickSource(t) {
+    return t.sources.slice().sort((a, b) =>
+      (/news\.google\./.test(a.url) - /news\.google\./.test(b.url)) || Date.parse(a.time) - Date.parse(b.time))[0];
+  }
+
+  function topicHTML(t) {
+    const cat = CATS[t.category] || CATS.Makro;
+    const tickers = (t.tickers || []).map((k) => '<span class="tk">' + esc(k) + "</span>").join("");
+    const cov = state.ed.media.map((m) => '<span class="' + (t.media.has(m.name) ? "on" : "") + '" title="' + esc(m.name) + '">' + esc(m.abbr) + "</span>").join("");
+    const covLabel = "Diberitakan " + t.nMedia + " dari " + state.ed.media.length + " media: " + [...t.media].join(", ");
+    const saved = !!state.saved[t.id];
+    const one = pickSource(t);
+    const src = '<a class="read" href="' + esc(one.url) + '" target="_blank" rel="noopener"><span class="s-main"><b>Baca di ' + esc(one.media) + ' ↗</b><span>' + esc(one.title || t.title) + '</span></span><span class="when">' + esc(when(one.time)) + "</span></a>";
+    const lead = state.sort === "new"
+      ? '<div class="rank time" aria-label="Terbaru pukul ' + fmtTime(t.latest) + '">' + esc(fmtTime(t.latest)) + "</div>"
+      : '<div class="rank" aria-label="Peringkat ' + t.rank + '">' + t.rank + moveHTML(t) + "</div>";
+    const ai = aiFor(t);
+    const sum = ai
+      ? '<div class="ai"><p class="ai-h">' + SPARK + 'Ringkasan AI</p><ul>' + ai.points.map((p) => "<li>" + esc(p) + "</li>").join("") + "</ul></div>"
+      : (t.summary ? '<p class="t-sum">' + esc(t.summary) + (t.summaryFrom ? ' <span class="from">— ' + esc(t.summaryFrom) + "</span>" : "") + "</p>" : "") +
+        '<p class="ai-wait">' + SPARK + "Ringkasan AI menyusul pada pembaruan berikutnya.</p>";
+    return '<li class="topic">' + lead +
+      '<div class="t-body">' +
+        '<div class="t-meta"><span class="cat ' + cat.cls + '">' + esc(t.category) + "</span>" + tickers + '<span class="tag">' + esc(ago(new Date(t.latest).toISOString())) + "</span></div>" +
+        '<h2 class="t-title">' + esc(t.title) + "</h2>" + sum +
+        '<div class="t-foot">' +
+          '<div class="cov" role="img" aria-label="' + esc(covLabel) + '">' + cov + "</div>" +
+          '<span class="counts">Diberitakan ' + t.nMedia + " media</span>" +
+          '<button class="save" type="button" data-id="' + esc(t.id) + '" aria-pressed="' + saved + '">' + STAR + (saved ? "Tersimpan" : "Simpan ide") + "</button>" +
+        "</div>" + src +
+      "</div></li>";
+  }
+
+  function renderList() {
+    // Saat mencari, cari di semua topik dalam rentang, bukan hanya 30 yang tampil.
+    let shown = (state.q.trim() ? state.all : state.ranked).filter(matches);
+    if (state.sort === "new") shown = shown.slice().sort((a, b) => b.latest - a.latest);
+    $("topics").innerHTML = shown.map(topicHTML).join("");
+    $("empty").hidden = shown.length > 0 || (state.cat === "Tersimpan" && Object.keys(state.saved).length > 0);
+    if (!state.ranked.length) $("empty").textContent = "Belum ada berita dalam " + state.hours + " jam terakhir. Pilih rentang yang lebih panjang.";
+    else if (state.cat === "Tersimpan" && !state.q) $("empty").textContent = "Belum ada ide tersimpan. Ketuk Simpan ide pada topik yang ingin Anda riset.";
+    else $("empty").textContent = "Tidak ada topik yang cocok. Hapus pencarian atau pilih filter lain.";
+
+    // Ide tersimpan yang topiknya sudah keluar dari 24 jam terakhir.
+    const live = new Set(state.all.map((t) => t.id));
+    const old = state.cat === "Tersimpan" ? Object.entries(state.saved).filter(([id]) => !live.has(id)) : [];
+    $("later").hidden = !old.length;
+    $("later-list").innerHTML = old.sort((a, b) => (b[1].time || "").localeCompare(a[1].time || "")).map(([id, s]) =>
+      '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener"><span class="tk">' + esc((s.tickers || [])[0] || "") + "</span><span>" + esc(s.title) + '</span><span class="when">' + esc(s.time ? fmtDay(s.time) : "") + '</span></a> <button class="save" type="button" data-id="' + esc(id) + '" aria-pressed="true" style="margin:6px 0 0">' + STAR + "Hapus</button></li>").join("");
+  }
+
+  function show(ed) {
+    state.ed = ed;
+    state.all = build(ed);
+    const target = ed.target || 30;
+    // Terpopuler: 30 topik dengan media terbanyak. Terbaru: 30 topik dengan artikel paling baru.
+    state.ranked = state.sort === "new"
+      ? state.all.slice().sort((a, b) => b.latest - a.latest).slice(0, target)
+      : state.all.slice(0, target);
+    if (state.cat !== "Semua" && state.cat !== "Tersimpan" && !state.ranked.some((t) => t.category === state.cat)) state.cat = "Semua";
+    renderSort(); renderHead(); renderChips(); renderList();
+  }
+
+  // Ringkasan AI: dicocokkan lewat id topik, atau lewat URL artikel jika pengelompokan berubah.
+  function setAI(ai) {
+    state.ai = ai && ai.items ? ai : { items: {} };
+    state.aiByUrl = new Map();
+    for (const [id, it] of Object.entries(state.ai.items)) (it.urls || []).forEach((u) => state.aiByUrl.set(u, id));
+  }
+  function aiFor(t) {
+    const items = (state.ai && state.ai.items) || {};
+    let it = items[t.id];
+    if (!it && state.aiByUrl) {
+      const id = t.sources.map((s) => state.aiByUrl.get(s.url)).find(Boolean);
+      it = id ? items[id] : null;
+    }
+    return it && Array.isArray(it.points) && it.points.length ? it : null;
+  }
+
+  async function load(force) {
+    const btn = $("refresh");
+    try {
+      const [ed, ai] = await Promise.all([getJSON(LIVE_FILE), getJSON(AI_FILE).catch(() => null)]);
+      $("error").hidden = true;
+      const aiChanged = !!ai && (!state.ai || ai.updated !== state.ai.updated);
+      if (ai || !state.ai) setAI(ai);
+      if (force || !state.ed || ed.updated !== state.ed.updated || aiChanged) show(ed);
+      else renderHead();
+    } catch (e) {
+      if (!state.ed) { $("ed-date").textContent = "Berita belum tersedia"; $("error").hidden = false; }
+    }
+    btn.disabled = false; btn.textContent = "Muat ulang";
+  }
+
+  function toggleSave(id) {
+    if (state.saved[id]) delete state.saved[id];
+    else {
+      const t = state.all.find((x) => x.id === id);
+      if (!t) return;
+      const s = t.sources[0];
+      state.saved[id] = { title: t.title, url: s.url, media: s.media, time: new Date(t.latest).toISOString(), tickers: t.tickers || [], category: t.category };
+    }
+    writeSaved(); renderChips(); renderList();
+  }
+
+  $("refresh").addEventListener("click", () => { const b = $("refresh"); b.disabled = true; b.textContent = "Memuat…"; load(true); });
+
+  // Tombol "Perbarui sekarang" (hanya di kartu Claude): memicu tugas Claude yang mengambil data
+  // terbaru dari GitHub lalu memasangnya ke kartu ini. Di GitHub Pages tombol disembunyikan,
+  // karena di sana data sudah dicek sendiri tiap menit.
+  const REFRESH_TRIGGER = "trig_01FAu7AMS83LpTgqtE6BFtBs";
+  const CC_SERVER = "Claude Code Remote";
+  const COOLDOWN_MS = 4 * 60 * 1000;
+  const LAST_FIRE_KEY = "top30.lastFire";
+  let mcpApi = null, watchTimer = null;
+
+  function setStatus(text, kind) {
+    const el = $("upd-status");
+    el.hidden = !text;
+    el.className = "upd-status" + (kind ? " " + kind : "");
+    el.textContent = text || "";
+  }
+  function lastFire() { try { return Number(localStorage.getItem(LAST_FIRE_KEY)) || 0; } catch (e) { return 0; } }
+  function lockButton() {
+    const b = $("update-now"), left = COOLDOWN_MS - (Date.now() - lastFire());
+    b.disabled = left > 0;
+    b.textContent = left > 0 ? "Sedang diperbarui…" : "Perbarui sekarang";
+    if (left > 0) setTimeout(lockButton, Math.min(left, 30000));
+  }
+  // Setelah tugas dipicu: cek berkala apakah data kartu sudah berganti.
+  function watchForNewData(before) {
+    clearInterval(watchTimer);
+    const until = Date.now() + 8 * 60 * 1000;
+    watchTimer = setInterval(async () => {
+      try {
+        const ed = await getJSON(LIVE_FILE);
+        if (ed.updated !== before) {
+          clearInterval(watchTimer);
+          await load(true);
+          setStatus("Berita diperbarui: data pukul " + fmtTime(ed.updated) + " WIB.", "ok");
+          return;
+        }
+      } catch (e) { /* coba lagi pada putaran berikutnya */ }
+      if (Date.now() > until) {
+        clearInterval(watchTimer);
+        setStatus("Pembaruan sudah dikirim, tapi kartu ini belum berganti. Tutup lalu buka lagi kartunya untuk melihat versi terbaru.", "");
+      }
+    }, 20000);
+  }
+  async function updateNow() {
+    if (!mcpApi || Date.now() - lastFire() < COOLDOWN_MS) return;
+    const b = $("update-now");
+    b.disabled = true; b.textContent = "Mengirim…";
+    try {
+      await mcpApi.callTool(CC_SERVER, "fire_trigger", { trigger_id: REFRESH_TRIGGER }, { cache: false });
+      try { localStorage.setItem(LAST_FIRE_KEY, String(Date.now())); } catch (e) {}
+      setStatus("Mengambil berita terbaru… biasanya 2–4 menit. Kartu ini dimuat ulang sendiri setelah selesai.", "");
+      lockButton();
+      watchForNewData(state.ed && state.ed.updated);
+    } catch (err) {
+      const code = err && err.code;
+      const msg = {
+        approval_required: "Izinkan kartu ini memakai Claude Code Remote agar tombol bisa memicu pembaruan.",
+        not_in_manifest: "Akses Claude Code Remote untuk kartu ini dimatikan. Aktifkan lagi lewat menu Izin kartu.",
+        server_not_connected: "Sambungan Claude Code Remote belum aktif di akun Anda. Tambahkan di Settings → Connectors.",
+        needs_reauth: "Sambungkan ulang Claude Code Remote di Settings → Connectors.",
+        blocked_by_policy: "Organisasi Anda tidak mengizinkan kartu ini memicu tugas.",
+        tool_error: "Tugas pembaruan tidak bisa dijalankan sekarang. Coba lagi beberapa menit lagi."
+      }[code] || "Pembaruan belum terkirim. Coba lagi sebentar lagi.";
+      setStatus(msg, "err");
+      b.disabled = false; b.textContent = "Perbarui sekarang";
+    }
+  }
+  $("update-now").addEventListener("click", updateNow);
+  if (window.claude && typeof window.claude.use === "function") {
+    window.claude.use("mcp").then(async (api) => {
+      if (!api) return;
+      mcpApi = api;
+      try {
+        const list = await api.listTools(CC_SERVER);
+        const srv = (list.servers || []).find((s) => s.server === CC_SERVER);
+        if (srv && srv.tools.length && !srv.tools.some((t) => t.name === "fire_trigger")) return;
+      } catch (e) { /* daftar tidak tersedia: tetap tampilkan, panggilan pertama yang menentukan */ }
+      $("update-now").hidden = false;
+      lockButton();
+    }).catch(() => {});
+  }
+  $("sort").addEventListener("click", (e) => {
+    const b = e.target.closest(".tab"); if (!b) return;
+    state.sort = b.dataset.sort;
+    try { localStorage.setItem(SORT_KEY, state.sort); } catch (err) {}
+    show(state.ed);
+  });
+  $("range").addEventListener("click", (e) => {
+    const b = e.target.closest(".tab"); if (!b) return;
+    state.hours = Number(b.dataset.h);
+    try { localStorage.setItem(RANGE_KEY, String(state.hours)); } catch (err) {}
+    show(state.ed);
+  });
+  $("q").addEventListener("input", (e) => { state.q = e.target.value; renderList(); });
+  $("chips").addEventListener("click", (e) => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    state.cat = b.dataset.cat; renderChips(); renderList();
+  });
+  document.querySelector("main").addEventListener("click", (e) => {
+    const b = e.target.closest(".save"); if (b) toggleSave(b.dataset.id);
+  });
+  $("retry").addEventListener("click", () => load(true));
+
+  setInterval(() => { if (document.visibilityState === "visible") load(false); }, POLL_MS);
+  setInterval(() => { if (state.ed && document.visibilityState === "visible") renderHead(); }, 60000);
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") load(false); });
+
+  // Filter menempel tepat di bawah bilah atas, berapa pun tingginya.
+  const bar = document.querySelector(".bar");
+  const setBarH = () => document.documentElement.style.setProperty("--bar-h", bar.offsetHeight + "px");
+  setBarH();
+  window.addEventListener("resize", setBarH);
+
+  // Bagian PWA: hanya aktif saat halaman dipasang dengan manifest (versi yang di-hosting).
+  const isPWA = !!document.querySelector('link[rel="manifest"]');
+  if (isPWA) {
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+    let prompt = null;
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault(); prompt = e;
+      $("install-row").hidden = false; $("install-btn").hidden = false;
+    });
+    $("install-btn").addEventListener("click", async () => {
+      if (!prompt) return;
+      prompt.prompt();
+      try { await prompt.userChoice; } catch (e) {}
+      prompt = null; $("install-btn").hidden = true;
+    });
+    const standalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+    if (/iphone|ipad|ipod/i.test(navigator.userAgent) && !standalone) {
+      $("install-row").hidden = false; $("ios-hint").hidden = false;
+    }
+  }
+
+  load(true);
+})();
+</script>

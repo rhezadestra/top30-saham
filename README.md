@@ -49,6 +49,10 @@ Setiap topik hanya melampirkan satu artikel: tautan langsung ke media jika ada (
 
 Aplikasi mencocokkan ringkasan lewat id topik, atau lewat URL artikel jika pengelompokan otomatis berubah. Topik yang belum diringkas menampilkan cuplikan RSS (jika ada) dan keterangan "Ringkasan AI menyusul".
 
+## Kartu di Claude dan tombol "Perbarui sekarang"
+
+`claude/app.html` adalah sumber halaman versi kartu Claude (artifact). Kartu itu salinan data, karena halaman di Claude tidak boleh mengambil data dari situs lain. Tombol **Perbarui sekarang** di kartu memanggil tugas Claude "Top 30 Berita Saham – segarkan kartu Claude" lewat sambungan Claude Code Remote. Tugas itu mengambil `data/live.json` dan `data/ringkasan.json` terbaru dari repo ini, lalu memublikasikan ulang kartu (±2–4 menit). Di GitHub Pages tombol ini tersembunyi, karena halaman mengecek data sendiri tiap menit.
+
 ## Aturan peringkat
 
 Terpopuler: jumlah media yang memberitakan, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu artikel terbaru. Maksimal 30 topik. `data/live.json` menyimpan semua topik 24 jam (sampai 200); aplikasi yang memilih 30 teratas sesuai rentang dan urutan. Penanda "Baru" berarti topik belum ada sekitar satu jam sebelumnya; panah naik/turun hanya tampil di rentang 24 jam. Data menyimpan 24 jam, aplikasi menyaring sesuai rentang yang dipilih.

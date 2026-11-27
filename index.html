@@ -143,6 +143,11 @@ button, input, select { font: inherit; color: inherit; }
 .eyebrow .dot { display: inline-block; margin-right: 6px; vertical-align: 1px; }
 .live-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
 .live-row .hint { flex: 1 1 220px; }
+.live-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn[disabled] { opacity: .6; cursor: default; }
+.upd-status { margin: 0; padding: 9px 12px; border-radius: 10px; font-size: 13.5px; background: var(--accent-soft); color: var(--ink); }
+.upd-status.ok { background: var(--kinerja-bg); }
+.upd-status.err { background: var(--regulasi-bg); }
 .btn.ghost { background: var(--surface); color: var(--ink); border: 1px solid var(--line); padding: 7px 12px; font-size: 13.5px; }
 .move { display: block; margin-top: 6px; font-family: var(--font-data); font-size: 11px; font-weight: 500; text-align: right; font-variant-numeric: tabular-nums; }
 .move.up { color: var(--kinerja); }
@@ -274,8 +279,12 @@ footer p { margin: 0; }
     <p class="window" id="ed-window"></p>
     <div class="live-row" id="live-row">
       <p class="hint" id="live-hint"></p>
-      <button class="btn ghost" id="refresh" type="button">Muat ulang</button>
+      <div class="live-btns">
+        <button class="btn" id="update-now" type="button" hidden>Perbarui sekarang</button>
+        <button class="btn ghost" id="refresh" type="button">Muat ulang</button>
+      </div>
     </div>
+    <p class="upd-status" id="upd-status" role="status" hidden></p>
     <p class="sample" id="ed-sample" hidden></p>
     <div class="meter" id="meter" role="img" aria-label=""></div>
     <div class="meter-meta"><span id="meter-label"></span><span id="ed-totals"></span></div>
@@ -439,9 +448,11 @@ footer p { margin: 0; }
     const st = new Date(rangeStart(ed)).toISOString();
     $("ed-date").textContent = "Berita saham " + state.hours + " jam terakhir";
     $("ed-window").textContent = fmtDay(st) + " " + fmtTime(st) + " – " + fmtDay(ed.window.end) + " " + fmtTime(ed.window.end) + " WIB";
-    $("live-hint").textContent = stale
-      ? "Pembaruan otomatis tertunda. Data yang tampil adalah yang terakhir berhasil diambil."
-      : "Diperbarui otomatis tiap ±3 menit. Halaman ini mengecek data baru sendiri.";
+    // Di kartu Claude data hanya berganti saat kartu dipublikasikan ulang; di GitHub Pages halaman mengecek sendiri.
+    const inClaude = !!(window.claude && typeof window.claude.use === "function") && !document.querySelector('link[rel="manifest"]');
+    $("live-hint").textContent = inClaude
+      ? (stale ? "Kartu ini memuat data " + ago(ed.updated) + ". Ketuk Perbarui sekarang untuk mengambil berita terbaru." : "Data kartu ini masih baru. Ketuk Perbarui sekarang kapan saja untuk mengambil berita terbaru.")
+      : (stale ? "Pembaruan otomatis tertunda. Data yang tampil adalah yang terakhir berhasil diambil." : "Diperbarui otomatis tiap ±3 menit. Halaman ini mengecek data baru sendiri.");
 
     // Media yang gagal diambil pada pembaruan terakhir.
     const failed = Object.entries(ed.feeds || {}).filter(([, f]) => !f.items).map(([k]) => k);
@@ -615,6 +626,87 @@ footer p { margin: 0; }
   }
 
   $("refresh").addEventListener("click", () => { const b = $("refresh"); b.disabled = true; b.textContent = "Memuat…"; load(true); });
+
+  // Tombol "Perbarui sekarang" (hanya di kartu Claude): memicu tugas Claude yang mengambil data
+  // terbaru dari GitHub lalu memasangnya ke kartu ini. Di GitHub Pages tombol disembunyikan,
+  // karena di sana data sudah dicek sendiri tiap menit.
+  const REFRESH_TRIGGER = "trig_01FAu7AMS83LpTgqtE6BFtBs";
+  const CC_SERVER = "Claude Code Remote";
+  const COOLDOWN_MS = 4 * 60 * 1000;
+  const LAST_FIRE_KEY = "top30.lastFire";
+  let mcpApi = null, watchTimer = null;
+
+  function setStatus(text, kind) {
+    const el = $("upd-status");
+    el.hidden = !text;
+    el.className = "upd-status" + (kind ? " " + kind : "");
+    el.textContent = text || "";
+  }
+  function lastFire() { try { return Number(localStorage.getItem(LAST_FIRE_KEY)) || 0; } catch (e) { return 0; } }
+  function lockButton() {
+    const b = $("update-now"), left = COOLDOWN_MS - (Date.now() - lastFire());
+    b.disabled = left > 0;
+    b.textContent = left > 0 ? "Sedang diperbarui…" : "Perbarui sekarang";
+    if (left > 0) setTimeout(lockButton, Math.min(left, 30000));
+  }
+  // Setelah tugas dipicu: cek berkala apakah data kartu sudah berganti.
+  function watchForNewData(before) {
+    clearInterval(watchTimer);
+    const until = Date.now() + 8 * 60 * 1000;
+    watchTimer = setInterval(async () => {
+      try {
+        const ed = await getJSON(LIVE_FILE);
+        if (ed.updated !== before) {
+          clearInterval(watchTimer);
+          await load(true);
+          setStatus("Berita diperbarui: data pukul " + fmtTime(ed.updated) + " WIB.", "ok");
+          return;
+        }
+      } catch (e) { /* coba lagi pada putaran berikutnya */ }
+      if (Date.now() > until) {
+        clearInterval(watchTimer);
+        setStatus("Pembaruan sudah dikirim, tapi kartu ini belum berganti. Tutup lalu buka lagi kartunya untuk melihat versi terbaru.", "");
+      }
+    }, 20000);
+  }
+  async function updateNow() {
+    if (!mcpApi || Date.now() - lastFire() < COOLDOWN_MS) return;
+    const b = $("update-now");
+    b.disabled = true; b.textContent = "Mengirim…";
+    try {
+      await mcpApi.callTool(CC_SERVER, "fire_trigger", { trigger_id: REFRESH_TRIGGER }, { cache: false });
+      try { localStorage.setItem(LAST_FIRE_KEY, String(Date.now())); } catch (e) {}
+      setStatus("Mengambil berita terbaru… biasanya 2–4 menit. Kartu ini dimuat ulang sendiri setelah selesai.", "");
+      lockButton();
+      watchForNewData(state.ed && state.ed.updated);
+    } catch (err) {
+      const code = err && err.code;
+      const msg = {
+        approval_required: "Izinkan kartu ini memakai Claude Code Remote agar tombol bisa memicu pembaruan.",
+        not_in_manifest: "Akses Claude Code Remote untuk kartu ini dimatikan. Aktifkan lagi lewat menu Izin kartu.",
+        server_not_connected: "Sambungan Claude Code Remote belum aktif di akun Anda. Tambahkan di Settings → Connectors.",
+        needs_reauth: "Sambungkan ulang Claude Code Remote di Settings → Connectors.",
+        blocked_by_policy: "Organisasi Anda tidak mengizinkan kartu ini memicu tugas.",
+        tool_error: "Tugas pembaruan tidak bisa dijalankan sekarang. Coba lagi beberapa menit lagi."
+      }[code] || "Pembaruan belum terkirim. Coba lagi sebentar lagi.";
+      setStatus(msg, "err");
+      b.disabled = false; b.textContent = "Perbarui sekarang";
+    }
+  }
+  $("update-now").addEventListener("click", updateNow);
+  if (window.claude && typeof window.claude.use === "function") {
+    window.claude.use("mcp").then(async (api) => {
+      if (!api) return;
+      mcpApi = api;
+      try {
+        const list = await api.listTools(CC_SERVER);
+        const srv = (list.servers || []).find((s) => s.server === CC_SERVER);
+        if (srv && srv.tools.length && !srv.tools.some((t) => t.name === "fire_trigger")) return;
+      } catch (e) { /* daftar tidak tersedia: tetap tampilkan, panggilan pertama yang menentukan */ }
+      $("update-now").hidden = false;
+      lockButton();
+    }).catch(() => {});
+  }
   $("sort").addEventListener("click", (e) => {
     const b = e.target.closest(".tab"); if (!b) return;
     state.sort = b.dataset.sort;
