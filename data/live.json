@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T17:08:10+07:00",
+ "updated": "2026-11-27T17:11:11+07:00",
  "window": {
-  "start": "2026-11-26T17:08:10+07:00",
-  "end": "2026-11-27T17:08:10+07:00",
+  "start": "2026-11-26T17:11:11+07:00",
+  "end": "2026-11-27T17:11:11+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 187
+   "items": 162
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -371,6 +371,12 @@
      "time": "2026-11-27T14:12:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRW1BQnhCMFRmZ0h6MFZRc1NhZnA3d040OGoxTmZMU05MaXRXOUpIM2x3dGJFdFdzMnpja2htOUdBRU9ESkN6QUpQSkdtbW96Slh3Tlp4UVFkeHNBa3FRLS12d3VlYUpVQ1pScXdyUS05Y3M1MlZHd0g4ZG5HZXRBdVJJaFUzZVpkQ0gzTUFNNmlwOE5lTm44RGE5bGVYVUY3MXZv?oc=5",
      "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T14:12:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQM0lqeTJqeDhVWThKalpHZlRHalV1ZTI5QUxWdmgyQ0lsalc1VHh2b0VWbkRXRE11Wlg5NlBUWFRkZG9oQjczLVdFYjRuYXlIbXhXNDNpc29kR01ITkdreXUzc3Q5QXM1bERhSnZGeVdKell4UE1LUXlmUnNFYUJlTjRnYjZjamM0ZGdkY3YtS0d3QlBjbTd5XzJDN0Jua1dT?oc=5",
+     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah - Halaman 3"
     }
    ]
   },
