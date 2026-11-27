@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T20:46:15+07:00",
+ "updated": "2026-11-27T20:49:15+07:00",
  "window": {
-  "start": "2026-11-26T20:46:15+07:00",
-  "end": "2026-11-27T20:46:15+07:00",
+  "start": "2026-11-26T20:49:15+07:00",
+  "end": "2026-11-27T20:49:15+07:00",
   "hours": 24
  },
  "target": 30,
@@ -35,15 +35,15 @@
    "via": null,
    "items": 0,
    "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests",
-    "google: HTTPError HTTP Error 429: Too Many Requests",
     "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 429: Too Many Requests"
+    "google: HTTPError HTTP Error 503: Service Unavailable",
+    "google: HTTPError HTTP Error 503: Service Unavailable",
+    "google: HTTPError HTTP Error 503: Service Unavailable"
    ]
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 88
+   "items": 91
   },
   "IDX Channel": {
    "via": "rss",
@@ -2451,6 +2451,54 @@
      "time": "2026-11-26T21:35:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSTh4b2NMd01QM3BHWUJBVFk3MW9ZRjc5NWxsdGFPZjBldnVKb1hnV2k0a01icDBzUnpFR09BMU5kN0QzTUNWdGRLUFpKWl9hQzh2QXAxd2pjbVY0T1l6VEZpOUxxMFRqdFlwZTVoNnpFWVNkdlVpYUZsM1VpYzRaYmlKZ3ZFcUtEU2xGMzln?oc=5",
      "title": "Emiten Tol Grup Salim (META) Jajaki VTO Tahap Keempat"
+    }
+   ]
+  },
+  {
+   "id": "4e27dcd0aba3",
+   "title": "Momen Prabowo Berapi-Api Beri Pesan ke Bankir: Rakyat Kita Tidak Bodoh",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Presiden Prabowo Subianto memberikan pesan khusus kepada para bankir di bank-bank BUMN, supaya mengelola dengan baik uang milik rakyat.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T20:47:35+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127203900-17-789235/momen-prabowo-berapi-api-beri-pesan-ke-bankir-rakyat-kita-tidak-bodoh",
+     "title": "Momen Prabowo Berapi-Api Beri Pesan ke Bankir: Rakyat Kita Tidak Bodoh"
+    }
+   ]
+  },
+  {
+   "id": "4becbaa7d3af",
+   "title": "Prabowo: Sudah Kaya Masih Main Goreng Saham, Rakyat Kecil Jadi Korban",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Presiden Prabowo Subianto soroti praktik goreng saham yang merugikan masyarakat kecil. Ia menekankan pentingnya pengawasan pasar modal.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T20:46:49+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127204333-17-789238/prabowo-sudah-kaya-masih-main-goreng-saham-rakyat-kecil-jadi-korban",
+     "title": "Prabowo: Sudah Kaya Masih Main Goreng Saham, Rakyat Kecil Jadi Korban"
+    }
+   ]
+  },
+  {
+   "id": "31ed44a0a9fd",
+   "title": "Prabowo Minta Bankir BUMN Lebih Membumi, Turun ke Sawah-Lihat Nelayan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Presiden Prabowo Subianto mendorong bankir BUMN untuk turun ke lapangan.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T20:44:42+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127204128-17-789236/prabowo-minta-bankir-bumn-lebih-membumi-turun-ke-sawah-lihat-nelayan",
+     "title": "Prabowo Minta Bankir BUMN Lebih Membumi, Turun ke Sawah-Lihat Nelayan"
     }
    ]
   },
