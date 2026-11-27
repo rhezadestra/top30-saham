@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T21:48:43+07:00",
+ "updated": "2026-11-27T22:03:42+07:00",
  "window": {
-  "start": "2026-11-26T21:48:43+07:00",
-  "end": "2026-11-27T21:48:43+07:00",
+  "start": "2026-11-26T22:03:42+07:00",
+  "end": "2026-11-27T22:03:42+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 160
+   "items": 162
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,14 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 45,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 90
   },
   "Investor.id": {
    "via": "google",
-   "items": 144
+   "items": 134
   }
  },
  "prevAt": "2026-11-27T21:04:14+07:00",
@@ -2441,6 +2438,38 @@
      "time": "2026-11-26T22:31:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ0QweC1tQ0txVm1ZbG9tYmR6R3lHdTRuY3AzN2NucFdkU3lmOHV5T2xkS0tzaDBVUFF5Sk9fdkhwNXVMdUY4TjJCazZSSGNLblphc2E0MU1PZE93Q01BRkN3ZFZlM3BIWS0zYkNoTmpfREVvVEJKQThnZ1VmWmZZQ0o1eGJoOF9BRGZZenF1Z3FQcVVRb245OXhLTdIBlAFBVV95cUxPQkhPLV9WT3lDeHJvTFNHRVl0dFJzTjVUYmlwT3pUV1dJM2JnSUREdzlEVHVUcG9UR3B6RXhMR1lmMEowcjg2Si16OFBOYkdfX24xcHYxU1RTWk5PZW12WGhRRUdaOU9jblVzeEVUcVFYT1VFUTFJV294TGFEQlJjUV9UM1dhT1VkX1BFbkk2dEtaTUxD?oc=5",
      "title": "Akulaku Finance Gandeng Bank Jago Perluas Pembiayaan Digital"
+    }
+   ]
+  },
+  {
+   "id": "dc72000c0383",
+   "title": "Pengamat Apresiasi Danantara Setor Pajak Tembus Rp567 Triliun Sepanjang 2025",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T22:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeklXRVBrUjlDN2pFdTFQS190dlRuUFBPSGJYeUlidVA5OFRMMGRHdnNKa0Y5TW5UT0RXTnZPdGxfMlVqQUNRZ2FfTFFuWHQzbV9PQ3dFR3ZocFR1dVlLbHVSRkFNa25hQTF2UFFtTUlmblVsQThuTHREVi1EOWwycnNsX2U2cm0xMjd3TnFWZGNGellTcFlldFlFcThRR05rMW9PWUhTQllRcFJiWmNmSE4xaWNyNEhxdVhNY2c2d0VNUEg1OHV3?oc=5",
+     "title": "Pengamat Apresiasi Danantara Setor Pajak Tembus Rp567 Triliun Sepanjang 2025"
+    }
+   ]
+  },
+  {
+   "id": "45fe3e4d0e53",
+   "title": "Wall Street Menguat, Didukung Rebound Saham Terkait AI",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T21:54:26+07:00",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONlZlMWlicElQVFFQc2MyMi1UVC0wY2EyOV9uMDQ1akE1dWZtRmhWUEI1bTZFb29WVjNxaDYwdkpyRlpqblBtUDdUaVhTTkFVUGtqakNxbGNBUEdPRExLRk51ZWp4NnFLdUQ3dUtlODVzb2E1UmphSWpkUVFlWm5ZMmZqUXRraVRkSFFRWnVFRjdscmPSAYsBQVVfeXFMTmhqQXdnTnJIV09vNzlyb0RzOFZndmVNenV2WDk2YW05amRuMm0xX25EY1VFeGZ4bXNsWGlrTm0tdHhCU0ZlTnBaTnhXekV5WDZDYzd2cGZNbHdVY2tnNlRwQWZBSGJ3Q1NWb3ItYkZsLUNGbDhpLXdQd3ZISnRUd0NyTVlaOTBRcmw5MA?oc=5",
+     "title": "Wall Street Menguat, Didukung Rebound Saham Terkait AI"
     }
    ]
   },
