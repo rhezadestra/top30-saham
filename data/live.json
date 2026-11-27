@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T17:35:11+07:00",
+ "updated": "2026-11-27T17:44:10+07:00",
  "window": {
-  "start": "2026-11-26T17:35:11+07:00",
-  "end": "2026-11-27T17:35:11+07:00",
+  "start": "2026-11-26T17:44:10+07:00",
+  "end": "2026-11-27T17:44:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 160
+   "items": 159
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -980,22 +980,6 @@
    ]
   },
   {
-   "id": "293341644ea2",
-   "title": "Danantara Bongkar Modus Anak Usaha BUMN, 600 Perusahaan Ditutup!",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "Danantara melakukan perampingan 380 BUMN untuk efisiensi dan menutup celah penyalahgunaan. Target 600 perusahaan hingga akhir 2026.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-26T17:42:20+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261126173219-17-788852/danantara-bongkar-modus-anak-usaha-bumn-600-perusahaan-ditutup",
-     "title": "Danantara Bongkar Modus Anak Usaha BUMN, 600 Perusahaan Ditutup!"
-    }
-   ]
-  },
-  {
    "id": "325b42e9c40b",
    "title": "BEI: Sentimen MSCI ' Wake-Up Call ' untuk Reformasi Struktural Pasar Modal",
    "category": "Regulasi",
@@ -1882,6 +1866,22 @@
      "time": "2026-11-26T18:11:53+07:00",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRjlHRW1VMlJYUGRTeDhTbk9lcV9PdXloZ3NibU1GWjUyZG1kaFd1MFhOSWF3eDRBM2owM2l1Z3pMTGJDdWRoUF93ZUtoM1ZudXhiSU50T0lDVEdaTkdYRmh4RGdfY3BWMnpkUEYwTUdUZXpSSk1HM2IxVnNXbjFUbjZ4U3VmS3JmcEZwVjJxZGo2aWNiUWNHbi1DVjBBVmREN3J3cWY2Z9IBoAFBVV95cUxQX3RuS0p0NE5PSWJDTG1DU3NkYXlJQ04tTUc0OEVQUWZwcXVlU1AtUURGT0VZQkc5a2pnMTRZeFJ4Q2dZRXl2dVdfZUNfdlBhVl8wUk5lMHU0dWlheUhsNFJqMFpHTUpuMU5hWHRLLVhuTEdxVm92alBrb2pqTk9hZ1B4T1lfbTVtLS1STVNYWlpLVThUUG9BMDB4NzZha1Jt?oc=5",
      "title": "Pembiayaan Mobil Bekas BFI Finance (BFIN) Turun 2%, Aset Justru Tumbuh 17%"
+    }
+   ]
+  },
+  {
+   "id": "8db17dd1dbdb",
+   "title": "Menilik Prospek Emiten Jalan Tol Jelang Periode Akhir Tahun",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T17:35:20+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTTFwNDIzLWhLM3FYdVhnNEtrNWJ0eU5JZ3oxdldXazVnYkJFdDhPNnVCR2R0Nk9GYXNpMkk1ZEJ5d0hNaWZlSVJNa1U2ZWlVYnhKdVkzYVpaTV9LUk9sWjRUM2lVVVRUUExfT09RQlBmNkFkZTRvTW10b2RSQkJWMDBMTk9kRjVyd3pZeEU2NXBaTVRGNU1Zb3FzZ9IBkwFBVV95cUxQWkxhV1c4MjdEREtxM191RHFwY0NSc0JDVG9oOG91MHc2WXdDc0VYRXZZMzR2dWplUHp5MHYzeHJja21GVHl5UXdQWTBVWW1jM1YxVG9lV1NvQmJqY3I5QmxZTG81VXNUS0Y5QXVTMVAtY21FNUdjMmNCSmZibjRJZjZLSzd1NXBkOWFtZUFSQmNvUXc?oc=5",
+     "title": "Menilik Prospek Emiten Jalan Tol Jelang Periode Akhir Tahun"
     }
    ]
   },
