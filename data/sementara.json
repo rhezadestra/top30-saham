@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "live": true,
-  "updated": "2026-11-27T08:04:04+07:00",
+  "updated": "2026-11-27T09:04:46+07:00",
   "window": {
     "start": "2026-11-26T19:01:00+07:00",
     "end": "2026-11-27T19:00:00+07:00"
@@ -35,15 +35,20 @@
     "2026-11-27-bfin-dividen-70persen": 2,
     "2026-11-27-byan-komite-audit": 3,
     "2026-11-27-pack-rupslb-tunda": 4,
-    "2026-11-27-danantara-saham-bei": 5,
-    "2026-11-27-tris-produk-ritel": 6,
-    "2026-11-27-pgeo-rating-sp": 7,
-    "2026-11-27-foru-pendapatan-batubara": 8,
-    "2026-11-27-tarif-trump-14-negara": 9,
-    "2026-11-27-ratbi-2027": 10,
-    "2026-11-27-danantara-41-proyek-2027": 11,
-    "2026-11-27-el-nino-cpo-2027": 12,
-    "2026-11-27-danantara-utang-whoosh": 13
+    "2026-11-27-tbig-akuisisi-edotco": 5,
+    "2026-11-27-bbca-dividen-interim3": 6,
+    "2026-11-27-danantara-saham-bei": 7,
+    "2026-11-27-tris-produk-ritel": 8,
+    "2026-11-27-pgeo-rating-sp": 9,
+    "2026-11-27-bumi-kinerja-kuartal3": 10,
+    "2026-11-27-foru-pendapatan-batubara": 11,
+    "2026-11-27-mdla-distribusi-obat": 12,
+    "2026-11-27-tarif-trump-14-negara": 13,
+    "2026-11-27-ratbi-2027": 14,
+    "2026-11-27-danantara-41-proyek-2027": 15,
+    "2026-11-27-el-nino-cpo-2027": 16,
+    "2026-11-27-danantara-utang-whoosh": 17,
+    "2026-11-27-pertamina-minyak-amsel": 18
   },
   "topics": [
     {
@@ -291,6 +296,11 @@
           "media": "Kontan",
           "time": "2026-11-27T06:08:00+07:00",
           "url": "https://insight.kontan.co.id/news/peningkatan-volume-memoles-kinerja-keuangan-bumi"
+        },
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T06:12:08+07:00",
+          "url": "https://investasi.kontan.co.id/news/laba-bersih-meroket-404-tapi-harga-saham-bumi-masih-anjlok-68-pilih-beli-tahan"
         }
       ]
     },
@@ -337,6 +347,20 @@
           "media": "Investor.id",
           "time": "2026-11-27T07:37:00+07:00",
           "url": "https://investor.id/market/463522/setoran-besar-buat-grup-djarum"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-alat-berat-2027",
+      "title": "PAABI proyeksikan penjualan alat berat 2027 hanya tumbuh sekitar 5%",
+      "category": "Makro",
+      "tickers": [],
+      "summary": "Asosiasi produsen alat berat (PAABI) memperkirakan pertumbuhan penjualan alat berat 2027 melambat ke kisaran 5%, dari estimasi 16% pada 2026. Perusahaan tambang dan perkebunan disebut menahan pembelian unit baru menjelang akhir tahun.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T04:35:13+07:00",
+          "url": "https://insight.kontan.co.id/news/penjualan-alat-berat-2027-diprediksi-melambat"
         }
       ]
     }
