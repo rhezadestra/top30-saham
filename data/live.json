@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T22:28:13+07:00",
+ "updated": "2026-11-27T22:31:13+07:00",
  "window": {
-  "start": "2026-11-26T22:28:13+07:00",
-  "end": "2026-11-27T22:28:13+07:00",
+  "start": "2026-11-26T22:31:13+07:00",
+  "end": "2026-11-27T22:31:13+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,10 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 188
+   "items": 144,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +48,10 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 90
+   "items": 60,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "Investor.id": {
    "via": "google",
@@ -1434,22 +1440,6 @@
    ]
   },
   {
-   "id": "08b3ad64ffae",
-   "title": "Kementan Tugaskan BUMN Bangun Pabrik Biodiesel hingga Margarin Sawit",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T22:30:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUR3TEdrU21OTmItUHFyamtwRXdRU0N4QWZ4YkRrdVlBc2JwYzBvOWlzTlRvc2ktRjFnMXJUaHJpOWh5Njk1aXNVUFFmOHF3U3p3T2NaZnB4UWJzalhQSWFxMkFEelYxWmJYMjJSM2s3ZzdVdlJXc3RQeFJZc2RWZUJPV1N1VXdHNERkM052c0NYcHpvWk5Fck1RNGotMzhuSGdxUUxNNzU4VkJDY1ZOdFZWOTd5X0pjMzNxUA?oc=5",
-     "title": "Kementan Tugaskan BUMN Bangun Pabrik Biodiesel hingga Margarin Sawit"
-    }
-   ]
-  },
-  {
    "id": "79892b614d9e",
    "title": "OJK Perlu Perkuat Pengawasan Pasar Modal, Pengamat Soroti Penanganan Kasus",
    "category": "Regulasi",
@@ -2425,22 +2415,6 @@
      "time": "2026-11-27T04:04:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMlRaT0JLZ0I0UTIya3RnaWstYW5FSEMzMVRwWFc0ekZYMWVrOFI5YnRaaFVBRXFRNkhUM21tNGNZVzd6dE9ySUloTHV6Z1VwV255UlJaSWJObkVvNlBxNWt5UGdobUlSa1ppQ1dqMm5aYnVfZHZMWW5WZ012OUw4YnRRYVp1bzF3ZmROZXQxWlN0Yjh4UjFjR2RkeTBESTlHVUZyMUZpWHVnVEl1cWVrQlJrdVhBNWhrdExpS3F0Qm1NaGJR0gHKAUFVX3lxTE5rOXBMajhfQzJGdnV5TkVuSHVMLXNhZmFONTQ0eTAyZF9iQVo1NFZONmhmY2FrOHRoeGkxdWhFWkVUcERvNDlBRUlibEY2WXY5dUVVYk93THpSb1ZCNTlhNU9HVWtBUzluRDFPWXhfUUNUQ1lTalE4UHZHV0VKMldrWFZHRXA2eDctYmZiNmtVNW9fZGIxUFlERGNwTFZIaGZUcjdKX3hkbWVOT3NNakFHb1hkMWJqRzNsX1hzeHJkMkVuenVGbW1RSWc?oc=5",
      "title": "Bidik Peluang Pertumbuhan Ritel, Trisula (TRIS) Fokus Perkuat Strategi Pengembangan Produk"
-    }
-   ]
-  },
-  {
-   "id": "6ea4cb2d2047",
-   "title": "Akulaku Finance Gandeng Bank Jago Perluas Pembiayaan Digital",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T22:31:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ0QweC1tQ0txVm1ZbG9tYmR6R3lHdTRuY3AzN2NucFdkU3lmOHV5T2xkS0tzaDBVUFF5Sk9fdkhwNXVMdUY4TjJCazZSSGNLblphc2E0MU1PZE93Q01BRkN3ZFZlM3BIWS0zYkNoTmpfREVvVEJKQThnZ1VmWmZZQ0o1eGJoOF9BRGZZenF1Z3FQcVVRb245OXhLTdIBlAFBVV95cUxPQkhPLV9WT3lDeHJvTFNHRVl0dFJzTjVUYmlwT3pUV1dJM2JnSUREdzlEVHVUcG9UR3B6RXhMR1lmMEowcjg2Si16OFBOYkdfX24xcHYxU1RTWk5PZW12WGhRRUdaOU9jblVzeEVUcVFYT1VFUTFJV294TGFEQlJjUV9UM1dhT1VkX1BFbkk2dEtaTUxD?oc=5",
-     "title": "Akulaku Finance Gandeng Bank Jago Perluas Pembiayaan Digital"
     }
    ]
   },
