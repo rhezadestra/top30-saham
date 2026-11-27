@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T20:21:40+07:00",
+ "updated": "2026-11-27T20:30:40+07:00",
  "window": {
-  "start": "2026-11-26T20:21:40+07:00",
-  "end": "2026-11-27T20:21:40+07:00",
+  "start": "2026-11-26T20:30:40+07:00",
+  "end": "2026-11-27T20:30:40+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 157
+   "items": 180
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 86
+   "items": 87
   },
   "IDX Channel": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 154
+   "items": 155
   }
  },
  "prevAt": "2026-11-27T20:03:39+07:00",
@@ -2429,6 +2429,22 @@
      "time": "2026-11-26T21:35:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSTh4b2NMd01QM3BHWUJBVFk3MW9ZRjc5NWxsdGFPZjBldnVKb1hnV2k0a01icDBzUnpFR09BMU5kN0QzTUNWdGRLUFpKWl9hQzh2QXAxd2pjbVY0T1l6VEZpOUxxMFRqdFlwZTVoNnpFWVNkdlVpYUZsM1VpYzRaYmlKZ3ZFcUtEU2xGMzln?oc=5",
      "title": "Emiten Tol Grup Salim (META) Jajaki VTO Tahap Keempat"
+    }
+   ]
+  },
+  {
+   "id": "888b70a05d96",
+   "title": "Pesan Prabowo ke Bank BUMN: Jaga Uang Rakyat!",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Presiden Prabowo Subianto mengingatkan bank-bank milik negara untuk bersih dari korupsi dan menjaga uang rakyat.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T20:28:37+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127202621-17-789228/pesan-prabowo-ke-bank-bumn-jaga-uang-rakyat",
+     "title": "Pesan Prabowo ke Bank BUMN: Jaga Uang Rakyat!"
     }
    ]
   },
