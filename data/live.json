@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T20:06:39+07:00",
+ "updated": "2026-11-27T20:12:39+07:00",
  "window": {
-  "start": "2026-11-26T20:06:39+07:00",
-  "end": "2026-11-27T20:06:39+07:00",
+  "start": "2026-11-26T20:12:39+07:00",
+  "end": "2026-11-27T20:12:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 183
+   "items": 158
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 84
+   "items": 85
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 90
+   "items": 88
   },
   "Investor.id": {
    "via": "google",
@@ -1020,6 +1020,22 @@
      "time": "2026-11-27T05:30:03+07:00",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFA3MDd1dFFjRzlNZTV2amh1ZjRqeW9KaVRJdzBMazVjR3lVZFNLWWh3YkxUYVpfM29WdTdqTTBKOEU0M2VmeGdPS3pEeFFmdm80dTRhN0FiNV9zQVp3TUJVTDc2eFlLR1RDOHhrWkZ2ZlpET0N0T0dFS3hEUUE2aEpMR2FRWjFWTlhjb2FZckxUQ0JvWThwTnZKWjNMVlp0blJweDlBSzRxS1V6UV9zYkRoTUQtUdIBrwFBVV95cUxOLVN6VjQwbVgwTnFGMUR1ZktoQzlvTmdoYkZzcEprYTV0TEEyVFh1YXRPOGhiNnN1cU1qbFVuREpoVTBDYWFSV1N5VXZjelo3RmZYVjVKcHVtY2RTQm1iRmJzeG12NFllaXY5a2VQODJDbmpTejlmc3ZvV2c2d3VnT2R5SHBVcURTR21rSDVJZkVzTUNCb0tZTnM4LXpoeDhzRkp1OHVjX3FNMVpFek84?oc=5",
      "title": "Bank Kecil Genjot Dana Murah untuk Menjaga Likuiditas di Tengah Persaingan Ketat"
+    }
+   ]
+  },
+  {
+   "id": "29fe8aff4237",
+   "title": "Dana Investor Bergeser, Aset di Reksadana Saham dan Obligasi Mulai Susut",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T20:04:45+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONEw2QnpIaXlJNzhRazlEcXNzTlU0T0VKRnQ4OUliOWtyclE4bDZCMGo2WkpveFNZemNkeVZRcGZoTk9oX09DdDMzMUxWNEQxYnpTdWJHUHVyNnVCel9FUERkNjRkVUVNdmxhWFU2OWxDaHpwdVhObTlaekdCRmFZTGp6Q1U2Smx3YkJrU0ZHVXZudVN5eDdKNExNTEpsYlBoQ2lmdF92SWxWTUHSAaMBQVVfeXFMT2hNV3Utc2NwRWJ1R0swZ2hGa2w0dEdSX2dHY1JnbnhIZDVZYWdYMmZaUTRSZzBiZFVSeVI0dDI1WU0wX3E2dk5KazhoTjNidkJMYXJsSVJLT29zQl9ueFhVbmFsRVl6TnphbjJadFBIeE1rdW5nU083Q05RdEZpejgxRFctUkxuTGdETU42WDFqc044MkNaQjlhbVpkdmctby1VQQ?oc=5",
+     "title": "Dana Investor Bergeser, Aset di Reksadana Saham dan Obligasi Mulai Susut"
     }
    ]
   },
@@ -3441,22 +3457,6 @@
      "time": "2026-11-26T20:20:31+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQWhVbzEzM2xjWlVtTUVJMGl2SlA2Ykk2Mm9Oek1GVUdSNHpjSWlON2F6Y0JhTktoUGg5X3BiNXEtTUNCZkJBaUxQYlIxbGRsRnlZcXBsdUtMWFBCdGo0UG9icVM5QU5EVFRhSTFHQ2FDWGlWb1gtTlFtU0kzQ0d2LWlOSnJ2LU5sR0Npb0Zkc0lLUXhkb1BKd2xTZVAtOU1LaGtzZkJlbWpSNkJDUC1iVnpJQnZrek5RaERybGNMWlk5Zw?oc=5",
      "title": "Pertamina International Shipping bakal Dilebur ke Holding BUMN Arnantara"
-    }
-   ]
-  },
-  {
-   "id": "e27aca43ae29",
-   "title": "Paylabs Gaet Bank Mega Genjot Pembayaran Digital Syariah",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T20:12:23+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOXlyc2l5T2duTTBTa2hndUdzc2s5T0daNkZwZi1wZURuTkFaZERDTHZ5WElPbS1oaVBmdUo0ZzgyLWFWVGlEZTE5T3lNSlYyamFDZUVnajAzaWg5bkhfRllsMVBjNmp2eC1kSEJXdWE2QlY1UldZYlMyam9KdHFFNGI0NF9jb1phTGozUUJIUGRmQ3VvdGNhdG1sbmF2Z1FyTkhYZVBKd2h5UTMwemttcA?oc=5",
-     "title": "Paylabs Gaet Bank Mega Genjot Pembayaran Digital Syariah"
     }
    ]
   }
