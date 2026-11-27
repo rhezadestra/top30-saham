@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T13:57:31+07:00",
+ "updated": "2026-11-27T14:53:53+07:00",
  "window": {
-  "start": "2026-11-26T13:57:31+07:00",
-  "end": "2026-11-27T13:57:31+07:00",
+  "start": "2026-11-26T14:53:53+07:00",
+  "end": "2026-11-27T14:53:53+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 201
+   "items": 173
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 69
+   "items": 73
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,45 +45,45 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 109
+   "items": 108
   },
   "Investor.id": {
    "via": "google",
    "items": 158
   }
  },
- "prevAt": "2026-11-27T13:27:21+07:00",
+ "prevAt": "2026-11-27T14:53:53+07:00",
  "prevRanks": {
   "0287597ab648": 1,
   "8af9642a45de": 2,
-  "b917b7f18503": 3,
-  "4d5636538b26": 4,
-  "8c11ec64d056": 5,
-  "dd049b9708fa": 6,
-  "e1b24d7a5905": 7,
-  "ecaf13830687": 8,
-  "8a0b095473e4": 9,
-  "da9b0df4b481": 10,
-  "98f8de3e1ac6": 11,
-  "e2c28496fc5c": 12,
-  "54831c07e0ef": 13,
-  "0847f283c30c": 14,
-  "95473cce7905": 15,
-  "5756630c573a": 16,
-  "e98d15dcc483": 17,
-  "1c958187e62a": 18,
-  "09620449a136": 19,
-  "984097e8d7b0": 20,
-  "c93c23ec0dcf": 21,
-  "b3d37d56494e": 22,
-  "4dbbf1f7b937": 23,
-  "08b3ad64ffae": 24,
-  "9ce24d65b5ef": 25,
-  "0ca35b8abd40": 26,
-  "aed52177f632": 27,
-  "95470b184fe0": 28,
-  "666420c2fdd6": 29,
-  "c75f1a0326fa": 30
+  "6ca464c4a25b": 3,
+  "8c11ec64d056": 4,
+  "55091c6547c4": 5,
+  "9ce24d65b5ef": 6,
+  "dd049b9708fa": 7,
+  "e1b24d7a5905": 8,
+  "ecaf13830687": 9,
+  "4a6c99a0295c": 10,
+  "08e00b7d865e": 11,
+  "da9b0df4b481": 12,
+  "98f8de3e1ac6": 13,
+  "caf4edc921ed": 14,
+  "54831c07e0ef": 15,
+  "0847f283c30c": 16,
+  "95473cce7905": 17,
+  "2a9bb8479908": 18,
+  "1aff24ff367b": 19,
+  "2ac0b16ba9e9": 20,
+  "81d72e645b89": 21,
+  "96d977bbbc4c": 22,
+  "5756630c573a": 23,
+  "e98d15dcc483": 24,
+  "1c958187e62a": 25,
+  "09620449a136": 26,
+  "983616798bf4": 27,
+  "e6d8f6c56e59": 28,
+  "75d0e07ed4be": 29,
+  "4cde0274b9ea": 30
  },
  "topics": [
   {
@@ -133,8 +133,8 @@
    ]
   },
   {
-   "id": "8af9642a45de",
-   "title": "Nasib IPO Andalan Artha Primanusa (ANDA)",
+   "id": "8aeec649070f",
+   "title": "BEI Buka Suara Soal IPO Andalan Artha (ANDA) Tak Sesuai Jadwal",
    "category": "Aksi korporasi",
    "tickers": [
     "ANDA"
@@ -142,12 +142,6 @@
    "summary": "Bursa Efek Indonesia menjelaskan penundaan IPO PT Andalan Artha Primanusa Tbk (ANDA) yang dijadwalkan 24-27 November 2026.",
    "summaryFrom": "CNBC Indonesia",
    "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-26T14:48:56+07:00",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WZVA4OENMaFU3WXhuend1MXVGSHk0V0NfQXRXcGVRc2gxRG4wdF8xYlN2SDdSLXR0WVQ1eGNjZXpaSnlRd3FGekF0Zk1SOHNVbkIzYVB3c2lBVVl5SmF3elRVOUtoZnJDd0Y5TDlqS094QXQ2VFZQYkdzUVg?oc=5",
-     "title": "Nasib IPO Andalan Artha Primanusa (ANDA)"
-    },
     {
      "media": "Bisnis",
      "time": "2026-11-26T15:08:51+07:00",
@@ -227,34 +221,6 @@
    ]
   },
   {
-   "id": "55091c6547c4",
-   "title": "Bos Danantara Ungkap Alokasi Sisa Dividen BUMN 2025 yang Tak Disetor ke Negara",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T14:23:15+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR3BJcUhtd1hYZ3lacWhNc21JMnlwaXl6Q0pvdTRtVEg4TkM4MmVad3E2cDA0WWprSVUwR0ZocENSUmtveDVFUTRoVFZEZV8tdmlJck16ZXpLMXYycEVwVEwwMmZEV21ZcjRWbmdsdDZyLVJRVVNmOUVrOHgwejEyRXJ5UHp2QzlXMUk0QWFac2RaTnFiQ1lqT2ZFY3FxckdKNXdUTi1FOEpWMXlobHpaOXM4OUZNZ3JUY0RNbnNEbXA0bk9PVDIxbnln?oc=5",
-     "title": "Bos Danantara Ungkap Alokasi Sisa Dividen BUMN 2025 yang Tak Disetor ke Negara"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T14:35:04+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVGlITi1mdFh6YllYSHdBOGNNRzMtZXlyRm5MRkh2UE1rWWhWYTdMY01uWXV6d1ZxUWJfd2h4RjI1Tkc4U0NNYnpLM09MMnhtWVA2WU5raU50RVMwRmFROENsRHVadmdYY1k5MmdwYnlDdXlNOTZoZUZ0XzJ4bGM3MTBOVlM0WG1zUXVEWmQ3NUtyUVRDUHJIeFpn0gGTAUFVX3lxTE5vNEdjY1FrUlpnUUFyQ3hSZG1pTkthdS00ckIxVmJ3ZlZJWWw5V0puY1dWdW1IY3B4Um5UaUhTa2c2bnNNNlozZ1N5aERqV0NWblotZGZkcXZjZ0M1VWw0V2xjb2V0NU43STNXOHF4UW1MQjZVRTdiY0hILWpwWG9CeHRiSGxySXRZd2hPT2dSOXJmSQ?oc=5",
-     "title": "Tak Banyak Setor Dividen ke Negara, Ini Penjelasan Danantara"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T15:29:51+07:00",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2NIMXlTUFR2Sy1iLTdSQWgxelZ6d2RyVnh2OFM2dng0SDMxWFR2TUprUTFsX1MyM0YwLUNjdGM1cGNyelphcmdDWVdlcmhBN1RlWXJSOGxfeTBnZ0VJX0NBSXBxaGVBYmZUSmpxU3ZsbGJtSTNzWkllc1FmR3ZsWTRsb3lTc1QtZ3IyeXBWeTlBbURrUFY0dFk4MU56R3dGTFNkbi1DNlozWGxDN0d4QWs5cGxWemRBeUVLWUd2Zw?oc=5",
-     "title": "Danantara Respons Isu Dividen ke Negara, Pastikan Nol PMN & Pajak Melesat"
-    }
-   ]
-  },
-  {
    "id": "9ce24d65b5ef",
    "title": "Setelah Delisting, Simak Langkah Berikutnya dari Bank SMBC Indonesia",
    "category": "Aksi korporasi",
@@ -275,28 +241,6 @@
      "time": "2026-11-27T08:10:00+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
      "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
-    }
-   ]
-  },
-  {
-   "id": "dd049b9708fa",
-   "title": "Bank Bangkrut Bertambah Lagi, OJK Cabut Izin Usaha BPR Bontang",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T14:28:52+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWTQ5UWNaSFVhU01lRnJFUXFoMUdmS211c05pZVRvam1wcTdUZVNjN2NzTzVsNkFqcGdKSHB2cGlqRGxLN2h6LWpvYlhOdmJxdkJld1QzaklnZHRxQk5LUVo4NWhjQ0IxMWxCQkdCZ0dZSDFubVBkVnBOY285NVMzRTNGTzN3WHhSNG9USUFtdE5PcGpRMllkM0N3UXYtLTFGVGo5RVR6RVgxay1BZ25SR2VPVmJzQQ?oc=5",
-     "title": "Bank Bangkrut Bertambah Lagi, OJK Cabut Izin Usaha BPR Bontang"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T14:29:37+07:00",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS3N5M1cyNWVUbTRkcllWMGxQeUpYVjhvN2xkZUMtUVVPaXgwUkk4T1QyRDI2MWFaQWFtUU9pcmw1WTBuVnQtS3Fjb1VzakxJR3BPUmRPOFd3NThOajRuUkROVms4SnN0WG02cDZqajZFZEpKQ3V2WTJHMzM4NmpSWFotbjFvSXFLZ01aY296dnDSAYoBQVVfeXFMTkFmSWVoaUVMRkJwMnlJeFZXYXR1cG5ZWTY0emRwbXdaVEtEM2V0Y0sxeU9HVWZEazJqOUNtemctZTBMZzdIaWtmWnNsVmM1UXE3RzdDNmlOOG9CSFFjZnVZazdDYV9KZkFqVnZkUkFzWmtHWHNOSEF5OHBIY0VXSjFVaTlaSXQyZ25R?oc=5",
-     "title": "OJK Cabut Izin Usaha BPR Bontang, LPS Bakal Likuidasi"
     }
    ]
   },
@@ -373,6 +317,50 @@
    ]
   },
   {
+   "id": "d21337aa9aa2",
+   "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan. Foto: iNews Media Group.",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T13:48:00+07:00",
+     "url": "https://www.idxchannel.com/economics/menperin-lepas-ekspor-manufaktur-senilai-rp11228-triliun-ke-110-negara-tujuan",
+     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T14:06:19+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaF9VdHNCZGJOeGE3VGI4bi1mY2xOb1BhRktHS1RMRWJ0TDZmS2ZhblgyOTA4RkxvMUVDajIzRXNua0ZvTzdtY3FET3UzOEFoaEtKajhpYTNIVlZTaENja2UwbnVlQWNtNlpaVlpYR0p3T21vMndWY18tUURJbkhQa2p3T282emZyY3dXaDQ1SHM0UWw1OTlXcW1FWW56Ukh1cjl1RzZJUlY4THBSeGJPZWg4bDhZUDJiYl9BZmpIMC11UQ?oc=5",
+     "title": "Pemerintah Lepas Ekspor Produk Manufaktur Rp112,28 Triliun ke 110 Negara"
+    }
+   ]
+  },
+  {
+   "id": "f7498fcaddfd",
+   "title": "Aset Rp11.607 Triliun, Seberapa Kuat Fondasi Keuangan Danantara?",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T16:32:04+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQnBDQnRCVG1Pd1A2TVFlT1BHbDNWNjdkUk5SV2Fac2E0eGhNRU5lbHVBSS0wT1lFSFE5Rl81X05EQUZRNzVUREwzZFgwZGE2QWlUeVZrWDJrdzFLVWpXb2dZUUxueDdzNEo4b3JldVZYYksxbXZOX0x5QkQtUG44VnZ3R1E3QXVHUDVHUFlBX2YxMElraHkzRGFpUDJ5cDBVNHRYWnFrNmRPVlgzNl82QnR3?oc=5",
+     "title": "Aset Rp11.607 Triliun, Seberapa Kuat Fondasi Keuangan Danantara?"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T14:02:46+07:00",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWldLOUxRbFF5bExOeXJ3WnBta0xPTDJGTUQtVEVsUU5KdHBYdENKR0JsNFVOX0taWmJ3LUZFSzVvWHVZbnV5VlhNbDVWOTdoSFFNUDRIanZzRXJaMlJRNjk4d2I2MllubDFteFAzaHJ6NjBfdjQtMGhhS3pVYldfZmJNSkVNTm04ME1YYk5OZzBPdGNzYmx4QXN3aERMUdIBlgFBVV95cUxPUVUyQ3JEZDVudTRQcUxGZTMyOGdtTzFMMm53MzVmUmllaFMydHA4Q1JiLTZwb3NLT3cyNkJ4Unc2RXZqT1lfNEVETmZLYV94LUIycnAyRGllUk9rNGdBRzJXRHZycEFhMC1nbzZJYTVNaGlTVkxuWE9kcHZZR3RkRkFzZ2VUMmpBaG9Iekp0U3VxUS1WU3c?oc=5",
+     "title": "Aset Rp11.607 Triliun, Seberapa Kuat Fondasi Keuangan Danantara?"
+    }
+   ]
+  },
+  {
    "id": "08e00b7d865e",
    "title": "OECD Sarankan Pemerintah Indonesia Naikkan Tarif Cukai Rokok",
    "category": "Makro",
@@ -413,50 +401,6 @@
      "time": "2026-11-26T17:51:52+07:00",
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdnBqdWxQVDM2Tms3dEZybGlJZmdNa2llU3BqcW5MWXl6ZlZxOGNycVlfMXZQRE1IWlM3ckNYYnFXUHJhSXFkSDd1bWVLSm10cUMwSEVIUno4Qklfc2FXU0RuV090eXdpUU5veFRST0VBck0yVEZvNnR2cDNHOHRNcDF3V0VBQmsyQXM4bTE4MlZNTmpmM2oxNkdkUWkxc2xjYVh3WlBPV3lPWlpOQ0FGQnQxcXozR00zS1dHZG1lVzl0dTdqSEVQUA?oc=5",
      "title": "DPR Setujui Anggaran Operasional Bank Indonesia 2027: Surplus Rp14,56 Triliun"
-    }
-   ]
-  },
-  {
-   "id": "98f8de3e1ac6",
-   "title": "OECD Ramal Defisit APBN RI Tembus 2,9% PDB pada 2026",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T14:52:48+07:00",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaHhUaUt4WDdHY3ZwbG5tRm5RUU1SWElEM3ZaQkQ2d2h1UXZZWnNRdHhDOGxiR0RMbTZDaGRBT1o3TFFwXzVVeW9XeVV4ZkVsaGY2Y3V4Y1hnV0paUzN5TEJ5SnZPZ29jeDdJZllLNXRxWGN3OFNaSE1ySHRvTzRFVVM3R19NSFU2RzV4OTJn0gGHAUFVX3lxTE9Dakh2WTRVMmpJb0RjTFVFdDdINkRibDNwajVJNmdRclFsTko0NERzU3VET05fcjE4clF0ZkFzQkx4QzZncjBad2E5djhGZnB1WVJvS0ZfbEtYX2dIQXFtX0JNS2V4WWYtTHB0aWZhUXNHVXNzeFJqbHVPNm91LUx5WTdfZHBGMA?oc=5",
-     "title": "OECD Ramal Defisit APBN RI Tembus 2,9% PDB pada 2026"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T15:13:59+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRXFoX09MQ1RGdDdmaEUtTjZGNEloQ2VScUpjVVE1LTBLZGNfQUJoXzhUMG5fTGhobWVsNGxCZmZWOHhFbzctb2x3ekdwNG1odnJTaHI1dkhMMnhWamNFcS1MZ0Z1dFR4NlJpTzFZTmNTSV91a3A0cV9PdUFWcW9MYTZNcHl5cVpZY2JDWEx3c09rQzZRT0NubXZzc1JCVkJwekpkYW00VWdaNHQ3dzA0dllKTQ?oc=5",
-     "title": "OECD Proyeksikan Defisit APBN Capai 2,9% terhadap PDB pada 2026"
-    }
-   ]
-  },
-  {
-   "id": "caf4edc921ed",
-   "title": "Danantara Asset (DAM) Bidik Laba Rp332 Triliun pada 2026",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T14:00:25+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0pCaDlGbUxYR0RKdUVIMGZWeV8wN1I3SGY0TUxfbGJTNEg4UHp5SkZiRU10RnhmOXFoNThZcjN1RGg3M2FJX0FhUW0yWG9DZmIzcVl0LVVzYjRRV2lnQnVGcUdXSU0zWkdiU1NjdElQeUVHVWdTQ1lDbEpONlBfdG5wUnZTV1VHRWUwa3paN0FXQnlOZnh6d3REY2liSDJ0dzdQMUhLT0Jndw?oc=5",
-     "title": "Danantara Asset (DAM) Bidik Laba Rp332 Triliun pada 2026"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T14:50:09+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU0YzOXFDUnNhYk1Mc2dBVTZ3bE9WU0pzRU05bHRHWDhrVXVmQlJiS1BPZF8yVktvdUFmOEpSRVRuaC1oaEI2NTByamJXOUVKRjBGZTd3VVpFeUNCUVFLWGxkNTBUWGJGQlg3cnRfOUQ5U2FCTW9GcXlkcUxGdUpsWEJaWG5KNHFfbDlOcjJGNndONzZUd2wxbHdUYmNpTjFhX3dEamVzZjR4WVE1azFnNtIBqgFBVV95cUxQTzNiYVA0X3QtOVZfQllzNTUwUTlFMzdSNk9MVDNxSFVyazV3dFgzTW5NbjBCVTM3djF4RnBJV1plODVjNGZkMXVDYWo3cG9wRVgzbjVVTTFfQXZYUzJqa2lhOWhBWGxLTTNoYm1LVHBlMEtkLXFBcTJSTTJPY2lYMUYtMGJZSmdqVnZ5WkJRaWJRZk1GalRkMElaT2ZaQ1R1MUpoNXZlcEpwQQ?oc=5",
-     "title": "Danantara Asset Management Optimistis Raup Laba Rp 332 Triliun di Tahun 2026"
     }
    ]
   },
@@ -567,6 +511,28 @@
    ]
   },
   {
+   "id": "ea793beacc60",
+   "title": "Danantara (DSI): Fee Layanan Ekspor CPO-Batu Bara Belum Final",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T13:35:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcVBQRXpYRktKYU5pc1N1aU1TM2I1dWpyMHJRZDZpNzIxOHpzWmVMcE1JOEVJcXBxUmY4VXdpYjNWTTVCYjV5eHp1a0RHOEN1aVBCaVZKck9Tc2tzc1F1czVkU214YTNPX2Y0MndJQ19xQVRzN2FRblZEU3FmZWRIZmJ2U3YtWEN5UFNKUTBVX3NtcThrb0ZWbHlzbWxSYVBvWXVwdTZGRmdwLVIzazhJ?oc=5",
+     "title": "Danantara (DSI): Fee Layanan Ekspor CPO-Batu Bara Belum Final"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T14:15:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbFhvQ0o4NjJVZmdWVE11cjBqckRWazYwcnBPOTl1dzZHSEpTbWs4bXBoc1ZCcGI1eUdGRmV1Z3VnM1NLUDdPNEhDWEFGeUZlbml6V1VKaUtodnNKNU1HczVZUDlDYV9mdjF4R2xIR3VmN2p5TGhleVhjbTZpREctaUxuWUNjb1pDVmtDT2RxU1FodkowalBzaHUyOUk2STJ1VUJVeDV1X3dGZ3ZaTjdBZlpXaFZ0aEZ4MUFR?oc=5",
+     "title": "DSI Klaim Fee Ekspor CPO hingga Batu Bara Tak Akan Bebani Eksportir"
+    }
+   ]
+  },
+  {
    "id": "1aff24ff367b",
    "title": "Trump Ancam Tarif Baru Untuk 14 Negara, Begini Dampaknya ke Pasar Saham Indonesia",
    "category": "Makro",
@@ -589,8 +555,8 @@
    ]
   },
   {
-   "id": "2ac0b16ba9e9",
-   "title": "Danantara Aset Management Bukukan Laba Bersih Rp 259 triliun pada tahun 2025",
+   "id": "3de048f10837",
+   "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang",
    "category": "Makro",
    "tickers": [],
    "summary": "",
@@ -598,15 +564,15 @@
    "sources": [
     {
      "media": "Kontan",
-     "time": "2026-11-26T14:15:11+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNFNsZkhNcVh6RVc3ajVmZXd5SlRFb0RwNFhqUFJVZFZZVlRydzB3TGVfaUdlN1dNZFVZSjVZd012UnBNNUVYdTNISDJ1QVdBbmpjV1p1eFB5VXdFUWRNaW40Y28wZi1UcXRDVW5hMnllWVl2c2VfdWFvdXJaNXpJX2lPZEVjZjQxSEtyRHlXOFRlZkxvekt0STRoU3hmQURQeEF2S1VaWER0Y0hic1R0ddIBqgFBVV95cUxQUzdydjNNUW1reTRzSW8xUF93Q1cxSnhOTEM1VWxIaHZmN25lMTBVSjRTMEtmeE5hbVJuLUJQd0o2OFJwc2YxTnpCWnltMlhqZDVoN2Q1ODdkX01TdVpNZ1JYQkpaNXEwaVRBdkF1cVNWWXQxcXBzdGh5ZF8yaVNUc2RvWFlQdHJLQjA1dkRkYWhTcW1KMUFuVDlsLXY3Zlh3c0pWYWl6MnplZw?oc=5",
-     "title": "Danantara Aset Management Bukukan Laba Bersih Rp 259 triliun pada tahun 2025"
+     "time": "2026-11-27T08:37:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc1lqeXdFSkt2MTBzSjBEemZJQkVOVjN5Z290cXVHX2FPa2tLeWNIUUUxNlBmVVNteXhKMlNvUEhMRGs4QTUwWXJMb3pHTEZrWFZwSWpkZThmZ1JCQTBVZkd2YmVwOFprUjZ5UzM1cEJtVnBRcHVoZmZXZFpVcVpRYWdNTjNCSS1hQW1WRFpQbUNJbzFtVVJQeExGejlHVEswMlRvOWlvYWY?oc=5",
+     "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang"
     },
     {
      "media": "Kontan",
-     "time": "2026-11-26T19:10:08+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRjMzektCdlVWaTlRYkIya296YjlfQm9wZXBDQmRNOXNqLXp1a1NaVzczaC13dTRFWHhMNDRDcHN2YllQd1NOendNREw5eVpVTU53enpFdFNkV0tTN1pkTUwxcGNXR2pCYXY2UnUxSmRnX3RkR3ZDQ2U4Nzg2ZTc5M0xtS2tkOGx5N1JDVWxndDh6TDdVbDhORDA1YVR0bk9QaTlrenlCd2c0bGN1cXVNZ0QtQjPSAawBQVVfeXFMTXJ1QjhuLWZKbW51SGY2azlkTjk3RlpzY1ZrWktIdnVQZnVwOFNRMUJWVk9MUkxZcjZ4SnpxYWxxSFJBc2E0cW1yQTNRSEd0cXNqaDhhWWpSZHV1MkxoOHdyRW9CeC15M1pjdmV3LWlrdFhrMUtudDNZQ3RGYVhhZG96QlNRQmJQcGVob0o3OVhlOW94aU1wOXduVERkMTd5NC1EelJQUnlzZ2tibQ?oc=5",
-     "title": "Laba Bersih Danantara Rp 259,6 Triliun pada 2025, Simak Prospek Emiten Asuhannya"
+     "time": "2026-11-27T08:37:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU2d0RVRrc1F2cGlKUVYyYjVHUWJEMFpnUWpoWUdPV1NqT1ZPcUE5Slp3VlV3dW51R0NfNnpUWVU4Qk5HWUlvT3V1VFVTbEl6UW9FenZvSjk0ZGFkWl9DMHdMZW9pNkZZTmZmUjIweGhKcVhlQ1h0cF9mWWhySUNhTVVOdG5lSk5nellfM0NxZGJabXJNTmRkdmdOeE5rcmtiOURhRGdqZEM5TGJVMW9IWEpmYmQ3WEtPdGVUanBzY3JwZ28?oc=5",
+     "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang"
     }
    ]
   },
@@ -773,6 +739,22 @@
      "time": "2026-11-27T09:16:50+07:00",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzcENYSGNGYlJXeERCV29hU2NGc3VZV3ptLVJ0djZGRHNyc05sY2VSUGZFNHNqSmU4aWJFOGE1R0FUV1VjWThRZU1yQ2VvVkJ6NjZGS0xveGNfV3RCUlJHNmlqaVQ?oc=5",
      "title": "Ekspansi Kredit Bank Digital Masih Melaju Kencang"
+    }
+   ]
+  },
+  {
+   "id": "984097e8d7b0",
+   "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T08:32:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3BzMkFvWno3TmYzbk1nNnEwem40RVc5cmxyOHc0Z1pYVU1oVTY5aTVEMU0zTGJ6Zkt2bG1NNFJ4c1FfR3VybzI0MXAwa1V4SWY4aTFuRFR1ekJ0U3dnZFpzX3ppY3dON0YybG5SSEZCRHhoMm1SNVh0OEJ4dUlCOUJFc2tNNEtYcHVWQmR4MWhjVlFlQkdzQVh1bGRKSFBPeVpmSXNiNHhiNUV6N0VaSXJRcDBvbzBFU1E?oc=5",
+     "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun"
     }
    ]
   }
