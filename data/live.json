@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T17:14:10+07:00",
+ "updated": "2026-11-27T17:20:10+07:00",
  "window": {
-  "start": "2026-11-26T17:14:10+07:00",
-  "end": "2026-11-27T17:14:10+07:00",
+  "start": "2026-11-26T17:20:10+07:00",
+  "end": "2026-11-27T17:20:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 186
+   "items": 160
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 98
+   "items": 99
   },
   "Investor.id": {
    "via": "google",
@@ -203,6 +203,30 @@
      "time": "2026-11-26T17:33:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmEtVWRCME9Gb3BMTnNuNVhYekRVUDRyVXkza3d5UHZxVFhWNmpfamZBLUJpckJhWWFHTnZXbmxqbzhFWndRTHJXTnQyUTJpd1NlUFZmT1RMckJjTnJOWS0wSDdvYVhVNmtSSnNwb1RsZ0g0XzhNODRKTEszN2VtZGhmNnBHdFNaODdBQW1ueWR2LW1TZkt0a1dPVFpseDFVTml2ZlZWMHJNbjFiTURNZlNDTmJEUQ?oc=5",
      "title": "Danantara Tegaskan Garuda Adidaya Nusantara Bukan Akuisisi RAPP"
+    }
+   ]
+  },
+  {
+   "id": "14aeb788c570",
+   "title": "Bisnis Limbah dan EV Jadi Penopang Transformasi TOBA, Simak Prospek Sahamnya",
+   "category": "Kinerja",
+   "tickers": [
+    "TOBA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T15:03:24+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVTNzQk95cnBYbEdBY0lBUGpGeF9CT3VJUjdYREd6X1FYdHp1ejZxZEx0R2h4SlVRblkwUVpaS2R2a3dPQ1hOYkFKdGoxOVdnNldhcmg5RmxRTmpJUl9NR0paSnN2WHYtXzJIMmpKNDB5cVpBOXI4VFRYeHdpOGZIcUZXZzJFS0N5YzBNb2t3ZmtOemx2bTRzYUxPelFXa0hRYXBQTjJ0OXpoWlFnZjZvatIBqAFBVV95cUxOSkNyTHRubERWR2tLdnF4M1NJV3NYZ0dzcXNLZzRNQVJWQnh4eFN3OURCNEs0bVdmYTY2bk9DOHFNalNYRFViWHFxd2w0TFBId2g5cUhNdXlzNzd5VUN0X05YZ05hVm5mZzV2QXRQSEprQjhrX1VqTno2SVVCVk5KVFdLeUVlTDNtOUd2RkFfdVd1TFF5SWVfUEpCQ0o2UUZ1dDhscTktbTk?oc=5",
+     "title": "Bisnis Limbah dan EV Jadi Penopang Transformasi TOBA, Simak Prospek Sahamnya"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T17:16:51+07:00",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWEl0WHl6V0N2SjNxVE5RNWdpZUxyZmJjODZMOWNaTWRycTlPbVlfZ25pY01JX1FIejh0S01rUlVBSkM2T1FlODI1ODVldXBEcjFGZGlYT3NFRUJsLVA2UDl6VTVrVXpZeUczNXZ3aG05S0EtbjJuQVZYaDdJMWRmLTlZaVo4UXVnWFJaM2taVFVhRjJJWTBDNGsxa1ZPNEZwdXlpZWJjTGpKUWJ5NHB2eklMSHBKVWtON3RBYWIxMjhMM2wxR3hOYndjYVJubXpTcnBTY0V3?oc=5",
+     "title": "TOBA Kantongi Restu Investasi HPS Maksimal 555 Juta Dolar Singapura untuk Bisnis Limbah"
     }
    ]
   },
@@ -1290,24 +1314,6 @@
      "time": "2026-11-27T15:43:53+07:00",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZzd4cTdmZ2NMRmJRZ3NJaDJ6LUdGOXhPOVNGWkhKV0FINFBvYmtsV1hsSGVXN0FNcHR2MElCVnowVUdOVjJ6MHBKc1N2S2swRkhNemNZZU1uVFR6TVVTUmRRRnhNNjdzQ2JNd0sxbllUNGEweXo1em1pTHpNenI4Z2hLeGJxc0d4d1VRN21ldmhyTTN4V0VCVGtjWE7SAZYBQVVfeXFMTmZNR09jalFXdUFGOUVxOXNNM2VBNHVkME5UMGRBVno2ZzlHa2N6TXV2SXpDSWhFak5kVHlMcHplYWRwTVVyQjN4WTFmM2Y1YXM1YkJUWUVoc1VtdjRJVGQ3Q045LXlRSVBqSWI3cGxveGg0VktjNWNUMnI2d081ZFlQS1RTaUd2eU93NDBVZnFSWUpPYm9B?oc=5",
      "title": "Krom Bank Bersiap Garap Bisnis Kartu Kredit, Bidik Peluang KKI"
-    }
-   ]
-  },
-  {
-   "id": "14aeb788c570",
-   "title": "Bisnis Limbah dan EV Jadi Penopang Transformasi TOBA, Simak Prospek Sahamnya",
-   "category": "Kinerja",
-   "tickers": [
-    "TOBA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T15:03:24+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVTNzQk95cnBYbEdBY0lBUGpGeF9CT3VJUjdYREd6X1FYdHp1ejZxZEx0R2h4SlVRblkwUVpaS2R2a3dPQ1hOYkFKdGoxOVdnNldhcmg5RmxRTmpJUl9NR0paSnN2WHYtXzJIMmpKNDB5cVpBOXI4VFRYeHdpOGZIcUZXZzJFS0N5YzBNb2t3ZmtOemx2bTRzYUxPelFXa0hRYXBQTjJ0OXpoWlFnZjZvatIBqAFBVV95cUxOSkNyTHRubERWR2tLdnF4M1NJV3NYZ0dzcXNLZzRNQVJWQnh4eFN3OURCNEs0bVdmYTY2bk9DOHFNalNYRFViWHFxd2w0TFBId2g5cUhNdXlzNzd5VUN0X05YZ05hVm5mZzV2QXRQSEprQjhrX1VqTno2SVVCVk5KVFdLeUVlTDNtOUd2RkFfdVd1TFF5SWVfUEpCQ0o2UUZ1dDhscTktbTk?oc=5",
-     "title": "Bisnis Limbah dan EV Jadi Penopang Transformasi TOBA, Simak Prospek Sahamnya"
     }
    ]
   },
