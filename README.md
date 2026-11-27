@@ -51,9 +51,9 @@ Aplikasi mencocokkan ringkasan lewat id topik, atau lewat URL artikel jika penge
 
 ## Aturan peringkat
 
-Terpopuler: jumlah media yang memberitakan, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu artikel terbaru. Maksimal 30 topik. Penanda "Baru" berarti topik belum ada sekitar satu jam sebelumnya; panah naik/turun hanya tampil di rentang 24 jam. Data menyimpan 24 jam, aplikasi menyaring sesuai rentang yang dipilih.
+Terpopuler: jumlah media yang memberitakan, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu artikel terbaru. Maksimal 30 topik. `data/live.json` menyimpan semua topik 24 jam (sampai 200); aplikasi yang memilih 30 teratas sesuai rentang dan urutan. Penanda "Baru" berarti topik belum ada sekitar satu jam sebelumnya; panah naik/turun hanya tampil di rentang 24 jam. Data menyimpan 24 jam, aplikasi menyaring sesuai rentang yang dipilih.
 
-Terbaru: diurutkan dari artikel paling baru.
+Terbaru: 30 topik dengan artikel paling baru di rentang yang dipilih. Pencarian mencakup semua topik di rentang itu.
 
 ## Mengubah sesuatu
 

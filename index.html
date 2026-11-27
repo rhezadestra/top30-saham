@@ -426,7 +426,8 @@ footer p { margin: 0; }
       rows.push({ ...t, sources: src, media, nMedia: media.size, nArt: src.length, latest: Math.max(...src.map((s) => Date.parse(s.time))) });
     }
     rows.sort((a, b) => b.nMedia - a.nMedia || b.nArt - a.nArt || ord(a.category) - ord(b.category) || b.latest - a.latest);
-    return rows.slice(0, ed.target || 30).map((t, i) => ({ ...t, rank: i + 1 }));
+    // Semua topik di rentang, urut populer; peringkat dihitung untuk semuanya.
+    return rows.map((t, i) => ({ ...t, rank: i + 1 }));
   }
 
   function renderHead() {
@@ -542,7 +543,8 @@ footer p { margin: 0; }
   }
 
   function renderList() {
-    let shown = state.ranked.filter(matches);
+    // Saat mencari, cari di semua topik dalam rentang, bukan hanya 30 yang tampil.
+    let shown = (state.q.trim() ? state.all : state.ranked).filter(matches);
     if (state.sort === "new") shown = shown.slice().sort((a, b) => b.latest - a.latest);
     $("topics").innerHTML = shown.map(topicHTML).join("");
     $("empty").hidden = shown.length > 0 || (state.cat === "Tersimpan" && Object.keys(state.saved).length > 0);
@@ -551,7 +553,7 @@ footer p { margin: 0; }
     else $("empty").textContent = "Tidak ada topik yang cocok. Hapus pencarian atau pilih filter lain.";
 
     // Ide tersimpan yang topiknya sudah keluar dari 24 jam terakhir.
-    const live = new Set(state.ranked.map((t) => t.id));
+    const live = new Set(state.all.map((t) => t.id));
     const old = state.cat === "Tersimpan" ? Object.entries(state.saved).filter(([id]) => !live.has(id)) : [];
     $("later").hidden = !old.length;
     $("later-list").innerHTML = old.sort((a, b) => (b[1].time || "").localeCompare(a[1].time || "")).map(([id, s]) =>
@@ -560,7 +562,12 @@ footer p { margin: 0; }
 
   function show(ed) {
     state.ed = ed;
-    state.ranked = build(ed);
+    state.all = build(ed);
+    const target = ed.target || 30;
+    // Terpopuler: 30 topik dengan media terbanyak. Terbaru: 30 topik dengan artikel paling baru.
+    state.ranked = state.sort === "new"
+      ? state.all.slice().sort((a, b) => b.latest - a.latest).slice(0, target)
+      : state.all.slice(0, target);
     if (state.cat !== "Semua" && state.cat !== "Tersimpan" && !state.ranked.some((t) => t.category === state.cat)) state.cat = "Semua";
     renderSort(); renderHead(); renderChips(); renderList();
   }
@@ -599,7 +606,7 @@ footer p { margin: 0; }
   function toggleSave(id) {
     if (state.saved[id]) delete state.saved[id];
     else {
-      const t = state.ranked.find((x) => x.id === id);
+      const t = state.all.find((x) => x.id === id);
       if (!t) return;
       const s = t.sources[0];
       state.saved[id] = { title: t.title, url: s.url, media: s.media, time: new Date(t.latest).toISOString(), tickers: t.tickers || [], category: t.category };
@@ -612,7 +619,7 @@ footer p { margin: 0; }
     const b = e.target.closest(".tab"); if (!b) return;
     state.sort = b.dataset.sort;
     try { localStorage.setItem(SORT_KEY, state.sort); } catch (err) {}
-    renderSort(); renderList();
+    show(state.ed);
   });
   $("range").addEventListener("click", (e) => {
     const b = e.target.closest(".tab"); if (!b) return;

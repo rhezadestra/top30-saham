@@ -25,7 +25,8 @@ WINDOW_H = 24          # topik dihitung dari artikel 24 jam terakhir
 KEEP_H = 36            # artikel disimpan sedikit lebih lama agar tidak hilang saat RSS bergulir
 PREV_EVERY_MIN = 60    # panah naik/turun dibanding peringkat sekitar 1 jam lalu
 REFRESH_MIN = 12       # tulis ulang file walau isi sama, supaya jam "diperbarui" tidak basi
-TARGET = 30
+TARGET = 30            # jumlah topik yang ditampilkan aplikasi
+MAX_TOPICS = 200       # semua topik 24 jam disimpan; aplikasi yang memilih 30 teratas per rentang dan urutan
 UA = "Mozilla/5.0 (compatible; Top30BeritaSaham/1.0; +https://github.com/rhezadestra/top30-saham)"
 
 
@@ -253,7 +254,8 @@ def keep_article(a):
         return False
     if SOFT_PRICE.search(t) and not CORP.search(t):
         return False
-    return bool(RELEVANT.search(t + " " + a.get("desc", "")))
+    # Relevan jika ada kata kunci pasar modal, atau menyebut kode saham yang dikenal (pernah muncul dalam kurung).
+    return bool(RELEVANT.search(t + " " + a.get("desc", ""))) or any(w in KNOWN_TICKERS for w in re.findall(r"\b[A-Z]{4}\b", t))
 
 
 # Kode saham besar yang sering ditulis tanpa kurung. Kode lain dikenali setelah pernah muncul dalam kurung, mis. "Bumi Resources (BUMI)".
@@ -367,7 +369,7 @@ def rank(topics, start, end):
         rows.append((len({s["media"] for s in src}), len(src), order.get(t["category"], 9), max(s["time"] for s in src), t["id"]))
     # Jumlah media, jumlah artikel, kategori, lalu jam terbaru dulu.
     rows.sort(key=lambda r: (-r[0], -r[1], r[2], -datetime.fromisoformat(r[3]).timestamp()))
-    return {r[4]: i + 1 for i, r in enumerate(rows[:TARGET])}
+    return {r[4]: i + 1 for i, r in enumerate(rows[:MAX_TOPICS])}
 
 
 def load(path, default):
