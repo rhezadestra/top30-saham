@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T06:29:05+07:00",
+ "updated": "2026-11-28T06:32:06+07:00",
  "window": {
-  "start": "2026-11-27T06:29:05+07:00",
-  "end": "2026-11-28T06:29:05+07:00",
+  "start": "2026-11-27T06:32:06+07:00",
+  "end": "2026-11-28T06:32:06+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 155
+   "items": 157
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 92
+   "items": 90
   },
   "Investor.id": {
    "via": "google",
-   "items": 131
+   "items": 132
   }
  },
  "prevAt": "2026-11-28T05:59:06+07:00",
@@ -3474,22 +3474,6 @@
      "time": "2026-11-27T06:32:29+07:00",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zaG9idVBldktMVW94NU1ON2FkbVR2OFctMXhkNzhwbXZ1YWdxZUlzcE9ZdHEtM3NrQ25QdXh4a09PWVpsOUtmZnlRUU9XalNoRU56eWlpRUQ1bnNVaFVucDVEYjl5ZHE5VHdxWkV5eFNQU0o3RnZJ?oc=5",
      "title": "Koreksi Pasar Ancam Investasi Danantara"
-    }
-   ]
-  },
-  {
-   "id": "019d5a376fd8",
-   "title": "Menko Airlangga Pastikan Tarif Tertinggi dari AS untuk Indonesia 18%, Tergantung Kode HS",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T06:29:27+07:00",
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV1UtN3RVMDhMUVZPMXFpT2F3Zkc1Rk5wa1N0VEhzTTZNSjhiV204X3d4YWF5YzV0SXdwUy1mUGhKMGwyU01FZG1tZ0hoQzBlWU9MT2JhVk9TbUtUN2JkdVY2Qzl3cFUtMW1UckpEOW9MVUxMdW1zZEt2akRKTXNiQzhkZGszVlppcjYtcXVyOW5NRXNzUnM0SWlqckRxd0pKZDhUWmZtam1vYTZ6SHRwNEV5Z01velA5RkpHajVEbjQweE95ZTRPWi1xVGpNUUN4RHpn?oc=5",
-     "title": "Menko Airlangga Pastikan Tarif Tertinggi dari AS untuk Indonesia 18%, Tergantung Kode HS"
     }
    ]
   }
