@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T18:02:39+07:00",
+ "updated": "2026-11-27T18:14:40+07:00",
  "window": {
-  "start": "2026-11-26T18:02:39+07:00",
-  "end": "2026-11-27T18:02:39+07:00",
+  "start": "2026-11-26T18:14:40+07:00",
+  "end": "2026-11-27T18:14:40+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 186
+   "items": 160
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 155
+   "items": 154
   }
  },
  "prevAt": "2026-11-27T18:02:39+07:00",
@@ -2062,20 +2062,18 @@
    ]
   },
   {
-   "id": "3738fe12bf00",
-   "title": "Pembiayaan Mobil Bekas BFI Finance (BFIN) Turun 2%, Aset Justru Tumbuh 17%",
-   "category": "Kinerja",
-   "tickers": [
-    "BFIN"
-   ],
+   "id": "9f57fea24f26",
+   "title": "Kejagung Jelaskan Penanganan Kasus Nikel yang Jerat AK",
+   "category": "Makro",
+   "tickers": [],
    "summary": "",
    "summaryFrom": null,
    "sources": [
     {
-     "media": "Kontan",
-     "time": "2026-11-26T18:11:53+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRjlHRW1VMlJYUGRTeDhTbk9lcV9PdXloZ3NibU1GWjUyZG1kaFd1MFhOSWF3eDRBM2owM2l1Z3pMTGJDdWRoUF93ZUtoM1ZudXhiSU50T0lDVEdaTkdYRmh4RGdfY3BWMnpkUEYwTUdUZXpSSk1HM2IxVnNXbjFUbjZ4U3VmS3JmcEZwVjJxZGo2aWNiUWNHbi1DVjBBVmREN3J3cWY2Z9IBoAFBVV95cUxQX3RuS0p0NE5PSWJDTG1DU3NkYXlJQ04tTUc0OEVQUWZwcXVlU1AtUURGT0VZQkc5a2pnMTRZeFJ4Q2dZRXl2dVdfZUNfdlBhVl8wUk5lMHU0dWlheUhsNFJqMFpHTUpuMU5hWHRLLVhuTEdxVm92alBrb2pqTk9hZ1B4T1lfbTVtLS1STVNYWlpLVThUUG9BMDB4NzZha1Jt?oc=5",
-     "title": "Pembiayaan Mobil Bekas BFI Finance (BFIN) Turun 2%, Aset Justru Tumbuh 17%"
+     "media": "Investor.id",
+     "time": "2026-11-27T18:10:13+07:00",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbXJBeG1jWVY2NVpCSmE2Mkh3UkRkdjRkcnl3d3c5M3BhOVg3eHpjQ1ZkcTdkS0FmeWdyMmN6MGZzd3llLUtockNMQVpmalczdzk3TU90ck1yT2cxRGc3WFJ2bGhOWEVwM2h5X3kySnEwaW5hMElCTzhEOFZyNHhTN1ZkdENlTUxYeVVnYkZvNjhjSWVC?oc=5",
+     "title": "Kejagung Jelaskan Penanganan Kasus Nikel yang Jerat AK"
     }
    ]
   },
