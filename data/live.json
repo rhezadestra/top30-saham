@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:48:39+07:00",
+ "updated": "2026-11-27T19:51:39+07:00",
  "window": {
-  "start": "2026-11-26T19:48:39+07:00",
-  "end": "2026-11-27T19:48:39+07:00",
+  "start": "2026-11-26T19:51:39+07:00",
+  "end": "2026-11-27T19:51:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 80
+   "items": 81
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 92
+   "items": 91
   },
   "Investor.id": {
    "via": "google",
@@ -1453,22 +1453,6 @@
    ]
   },
   {
-   "id": "95470b184fe0",
-   "title": "Hypefast Tahan Rencana IPO, Pilih Pantau Kondisi Pasar Hingga Kuartal II",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:50:38+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZFSzNieTMtVUJ0MnhneUYzWmdIVTBuVnlqN2tHMkhPOEtCQTBwT2tyNmdtcHBqM1FYTUI2WGwtcm53a2lpUTRyS3p0V19jcndnV0VCcFNTTi1EN2xqeHFPanhDcXdsOUlOVXF5QVVvOVhBSWFOamk4aTAyaFlUT3hpbWQydUtMcVljczlfc2NiR1JlUWY2UzExRC1uV0g3WFBvM2otNjZPRlnSAaMBQVVfeXFMTTVYU0YwQkl5UUlrdVBnVDljNHVnb2VKT0ZELU5sLTg2Zmt3SzJ0TzkwVWlRWkszcS16dkI3MDA1aFRaU2s5STdtbW4wS0Y5UmNXMk9mVUtzRnNuWVlIMnhRanVlckZkT01ZeVdScDAtdjNfTVg1bE40WjlKdktDWUVBTDE2WG9LaVVzSS0wZ3VpWUtjM01aU1RkamJldmtnQ1JhQQ?oc=5",
-     "title": "Hypefast Tahan Rencana IPO, Pilih Pantau Kondisi Pasar Hingga Kuartal II"
-    }
-   ]
-  },
-  {
    "id": "325b42e9c40b",
    "title": "BEI: Sentimen MSCI ' Wake-Up Call ' untuk Reformasi Struktural Pasar Modal",
    "category": "Regulasi",
@@ -2410,6 +2394,22 @@
      "time": "2026-11-26T21:35:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSTh4b2NMd01QM3BHWUJBVFk3MW9ZRjc5NWxsdGFPZjBldnVKb1hnV2k0a01icDBzUnpFR09BMU5kN0QzTUNWdGRLUFpKWl9hQzh2QXAxd2pjbVY0T1l6VEZpOUxxMFRqdFlwZTVoNnpFWVNkdlVpYUZsM1VpYzRaYmlKZ3ZFcUtEU2xGMzln?oc=5",
      "title": "Emiten Tol Grup Salim (META) Jajaki VTO Tahap Keempat"
+    }
+   ]
+  },
+  {
+   "id": "e1b603c45582",
+   "title": "Ekonomi RI Bisa Tembus 6% Tahun Depan, Ini Ramalan Bos BI",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Bank Indonesia optimis pertumbuhan ekonomi Indonesia akan mencapai 6% pada 2027, didukung stabilitas makroekonomi dan pembiayaan perbankan yang meningkat.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T19:48:41+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127194718-17-789216/ekonomi-ri-bisa-tembus-6-tahun-depan-ini-ramalan-bos-bi",
+     "title": "Ekonomi RI Bisa Tembus 6% Tahun Depan, Ini Ramalan Bos BI"
     }
    ]
   },
