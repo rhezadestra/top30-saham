@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T20:49:15+07:00",
+ "updated": "2026-11-27T20:55:14+07:00",
  "window": {
-  "start": "2026-11-26T20:49:15+07:00",
-  "end": "2026-11-27T20:49:15+07:00",
+  "start": "2026-11-26T20:55:14+07:00",
+  "end": "2026-11-27T20:55:14+07:00",
   "hours": 24
  },
  "target": 30,
@@ -43,7 +43,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 91
+   "items": 90
   },
   "IDX Channel": {
    "via": "rss",
@@ -3527,22 +3527,6 @@
      "time": "2026-11-26T23:55:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVUVfSElpbjhmU0JNbERWUW9nM2lDekdpVmtONEZ6M3prRmlNZkc5WVVaYVFuRDZEWWlsSGppeHJYSTl4X2NiY2V0Qy1WUkhuSVFmeGhUTWpJNXBrRWRyTlpsRkhvc3EwYjUtVHJZS2NWVXIyekx3TDRpVlFnQlVIQ0JOMnQ1LTYxZllvQ0p4WDgxdTNHVWluRGozVHhlNnFUXzBwRWhaZFd5dU5UR0lpTWpfaFJmYUtuckFWRlNDUmk?oc=5",
      "title": "AS Usul Produk Tekstil RI Kena Tarif Tambahan 18%, Asosiasi Beri Respons"
-    }
-   ]
-  },
-  {
-   "id": "9285cac634a5",
-   "title": "Laporan Keuangan Perdana, Danantara Dinilai Penuhi Komitmen Transparansi",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T20:53:59+07:00",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdmtUVmhDQkV6c0txcVNtZVBMSFFPUzM1VjRJYW9jQ1ZiMnItQVowdnhXbC1uZkFnUHp0eWJXMFlwTU9ZaTd2ODNHRUdObjVPdDJZZ2lvOTJvODNsbFl5enBrN0otelp0T0owcmVNV19rcW9YZTJ5cjlVRGIyeDYzQnA2c09fcGlsOVFIdkI3STZxTkVJTGNFc2RhZWN5UWl1ejNZcElXS0xTcDluYXE3OEJJZk5DN1laRmhraExtTQ?oc=5",
-     "title": "Laporan Keuangan Perdana, Danantara Dinilai Penuhi Komitmen Transparansi"
     }
    ]
   }
