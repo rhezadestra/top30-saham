@@ -318,7 +318,7 @@ footer p { margin: 0; }
       <summary>Cara hitung</summary>
       <dl>
         <div><dt>Rentang waktu</dt><dd>Bergulir: artikel 24 jam terakhir. Tidak ada edisi final; topik lama keluar sendiri.</dd></div>
-        <div><dt>Pembaruan</dt><dd>Berita diambil otomatis dari RSS kira-kira tiap 10 menit. Aplikasi mengecek data baru tiap 2 menit selama terbuka.</dd></div>
+        <div><dt>Pembaruan</dt><dd>Berita diambil otomatis dari RSS kira-kira tiap 6 menit. Aplikasi mengecek data baru tiap 2 menit selama terbuka.</dd></div>
         <div><dt>Sumber</dt><dd>Kontan, CNBC Indonesia, IDX Channel, Bisnis, dan Investor.id. Jika RSS sebuah media tidak bisa diambil server, dipakai Google News RSS untuk situs media itu.</dd></div>
         <div><dt>Dibuang</dt><dd>Berita pergerakan harga (IHSG, top gainer dan loser, analisis teknikal), net buy dan sell asing, serta harga emas dan kurs. Penyaringan otomatis memakai kata kunci di judul.</dd></div>
         <div><dt>Satu topik</dt><dd>Satu peristiwa. Artikel digabung otomatis jika menyebut kode saham atau jenis aksi yang sama dengan judul mirip; topik kembar yang masih lolos digabung AI tiap jam. Tiap topik melampirkan satu artikel saja: tautan langsung ke media jika ada, yang terbit paling awal.</dd></div>
@@ -350,7 +350,7 @@ footer p { margin: 0; }
   const AI_FILE = "data/ringkasan.json";
   const SPARK = '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9zM19 15l.9 2.6 2.6.9-2.6.9L19 22l-.9-2.6-2.6-.9 2.6-.9z" fill="currentColor"/></svg>';
   const POLL_MS = 2 * 60 * 1000;      // cek data baru tiap 2 menit
-  const STALE_MIN = 45;               // label "terlambat" jika data lebih tua dari ini
+  const STALE_MIN = 25;               // label "terlambat" jika data lebih tua dari ini
   const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>';
 
   const $ = (id) => document.getElementById(id);
@@ -422,7 +422,7 @@ footer p { margin: 0; }
     $("ed-window").textContent = fmtDay(ed.window.start) + " " + fmtTime(ed.window.start) + " – " + fmtDay(ed.window.end) + " " + fmtTime(ed.window.end) + " WIB";
     $("live-hint").textContent = stale
       ? "Pembaruan otomatis tertunda. Data yang tampil adalah yang terakhir berhasil diambil."
-      : "Diambil otomatis tiap ±10 menit. Halaman ini mengecek data baru sendiri.";
+      : "Diperbarui otomatis tiap ±6 menit. Halaman ini mengecek data baru sendiri.";
 
     // Media yang gagal diambil pada pembaruan terakhir.
     const failed = Object.entries(ed.feeds || {}).filter(([, f]) => !f.items).map(([k]) => k);

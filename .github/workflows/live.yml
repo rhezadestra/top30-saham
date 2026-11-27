@@ -1,17 +1,20 @@
 name: Perbarui berita live
 
+# Jadwal GitHub sering tertunda sampai satu jam, jadi setiap run memperbarui berita
+# tiap 6 menit selama ±55 menit, lalu memicu run berikutnya sendiri (rantai).
+# Jadwal di bawah hanya cadangan untuk menyambung rantai jika sempat putus.
 on:
   schedule:
-    - cron: "*/10 * * * *"   # tiap 10 menit (GitHub kadang menunda beberapa menit)
+    - cron: "*/10 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - "scripts/**"
       - ".github/workflows/live.yml"
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: live-update
@@ -20,28 +23,42 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 70
+    env:
+      INTERVAL: 360        # detik antar pembaruan (6 menit)
+      DURATION: 3300       # lama satu run sebelum menyambung ke run berikutnya (55 menit)
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      - name: Ambil berita dan tulis data/live.json
-        run: python3 scripts/update_live.py
-
-      - name: Simpan jika ada perubahan
+      - name: Perbarui berita berulang
         run: |
-          if git diff --quiet -- data/; then
-            echo "Tidak ada perubahan."
-            exit 0
-          fi
           git config user.name "top30-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/live.json data/articles.json
-          git commit -m "Live $(TZ=Asia/Jakarta date +'%d %b %H.%M') WIB"
-          for i in 1 2 3; do
-            git push && exit 0
-            git pull --rebase -X theirs origin main || true
-            sleep 5
+          end=$((SECONDS + DURATION))
+          while :; do
+            start=$SECONDS
+            # Ambil perubahan terbaru (ringkasan AI, perbaikan skrip) sebelum tiap putaran.
+            git pull --rebase --quiet origin main || git rebase --abort || true
+            python3 scripts/update_live.py || echo "::warning::pengambilan berita gagal, dicoba lagi putaran berikutnya"
+            if ! git diff --quiet -- data/live.json data/articles.json; then
+              git add data/live.json data/articles.json
+              git commit -q -m "Live $(TZ=Asia/Jakarta date +'%d %b %H.%M') WIB"
+              for i in 1 2 3; do
+                git push -q && break
+                git pull --rebase -X theirs --quiet origin main || true
+                sleep 5
+              done
+            fi
+            left=$((end - SECONDS))
+            [ "$left" -le "$INTERVAL" ] && break
+            wait=$((INTERVAL - (SECONDS - start)))
+            [ "$wait" -gt 0 ] && sleep "$wait"
           done
-          exit 1
+
+      - name: Sambung ke run berikutnya
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run live.yml --ref main -R "$GITHUB_REPOSITORY"

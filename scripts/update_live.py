@@ -24,7 +24,7 @@ STORE = os.path.join(ROOT, "data", "articles.json")
 WINDOW_H = 24          # topik dihitung dari artikel 24 jam terakhir
 KEEP_H = 36            # artikel disimpan sedikit lebih lama agar tidak hilang saat RSS bergulir
 PREV_EVERY_MIN = 60    # panah naik/turun dibanding peringkat sekitar 1 jam lalu
-REFRESH_MIN = 30       # tulis ulang file walau isi sama, supaya jam "dicek" tidak basi
+REFRESH_MIN = 12       # tulis ulang file walau isi sama, supaya jam "diperbarui" tidak basi
 TARGET = 30
 UA = "Mozilla/5.0 (compatible; Top30BeritaSaham/1.0; +https://github.com/rhezadestra/top30-saham)"
 
