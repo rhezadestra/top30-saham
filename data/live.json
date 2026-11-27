@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T17:05:10+07:00",
+ "updated": "2026-11-27T17:08:10+07:00",
  "window": {
-  "start": "2026-11-26T17:05:10+07:00",
-  "end": "2026-11-27T17:05:10+07:00",
+  "start": "2026-11-26T17:08:10+07:00",
+  "end": "2026-11-27T17:08:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 98
+   "items": 97
   },
   "Investor.id": {
    "via": "google",
@@ -375,6 +375,34 @@
    ]
   },
   {
+   "id": "3de048f10837",
+   "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T08:37:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc1lqeXdFSkt2MTBzSjBEemZJQkVOVjN5Z290cXVHX2FPa2tLeWNIUUUxNlBmVVNteXhKMlNvUEhMRGs4QTUwWXJMb3pHTEZrWFZwSWpkZThmZ1JCQTBVZkd2YmVwOFprUjZ5UzM1cEJtVnBRcHVoZmZXZFpVcVpRYWdNTjNCSS1hQW1WRFpQbUNJbzFtVVJQeExGejlHVEswMlRvOWlvYWY?oc=5",
+     "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T08:37:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU2d0RVRrc1F2cGlKUVYyYjVHUWJEMFpnUWpoWUdPV1NqT1ZPcUE5Slp3VlV3dW51R0NfNnpUWVU4Qk5HWUlvT3V1VFVTbEl6UW9FenZvSjk0ZGFkWl9DMHdMZW9pNkZZTmZmUjIweGhKcVhlQ1h0cF9mWWhySUNhTVVOdG5lSk5nellfM0NxZGJabXJNTmRkdmdOeE5rcmtiOURhRGdqZEM5TGJVMW9IWEpmYmQ3WEtPdGVUanBzY3JwZ28?oc=5",
+     "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T08:37:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWmRrczM1ZnBzUWN3YlJCSEcwR0ZxTUc1M2RHenhtVGRSR2djTmpWY1ZfWnF4V1E4Q0NodjZiVW5lS1FndEgtNEZkamI2S3lndE1DcjFqUUVJZS1zR3dQZ1pPM0NVNDZ5YUFUNVE1Mlo1d1B5OWZCb25LZHZJVEYtNTF4UE5ub2JPeTQ0amlLbjhHajFtYjc2cUphamVocTJMS2l1TXlabzFqQ2VNdVBVbXhOVlJ0Mmd5Z1FVNkM0VWpzNzQ?oc=5",
+     "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang"
+    }
+   ]
+  },
+  {
    "id": "0847f283c30c",
    "title": "Bank Kecil Perkuat Dana Murah untuk Menjaga Likuiditas",
    "category": "Makro",
@@ -491,28 +519,6 @@
      "time": "2026-11-27T13:39:14+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1BhLVZqMmxoTDNRWnljUnhoUnE4UEJ3MnZvX0xOS0ppNXFmMjJzT2NQV0NHeTNTclctMG4ybHFaU0dkOERLR3hyVnF6RXg0RER1dXFYMzlhdHpxUGsyUEpWZm1uV0RpWG9idVFOSUpHek9KQnBfMW9DSTVRUGhCT2FTSlhVV3pzWl9fd0RSS2ZCY1FPMzNxVzUwNmMyZ1RSSmgtRUlWeGQ3Z9IBogFBVV95cUxOSHdMTG5kc0kzd1FmbjltZElEMGFyNDhaVm1nUmJ6ZDlZNFdnbGRRemJ6cWlzZXhpaDAtLTVaMUFNclBQeDAxRTEzb3AxNktfYjRHMktFb3Vub002MUE2VW1Ia0o1RlM1ZW5xT2JGa2dJaHJXcVRfTlVoUy1VaFg4RjE3RVFJR3oteTFsT1NTRTFWTkd4Rno5NzhrOXZQNUlrY0E?oc=5",
      "title": "Trump Ancam Kenakan Tarif Baru, Pasar Saham Indonesia Dibayangi Tekanan"
-    }
-   ]
-  },
-  {
-   "id": "3de048f10837",
-   "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T08:37:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc1lqeXdFSkt2MTBzSjBEemZJQkVOVjN5Z290cXVHX2FPa2tLeWNIUUUxNlBmVVNteXhKMlNvUEhMRGs4QTUwWXJMb3pHTEZrWFZwSWpkZThmZ1JCQTBVZkd2YmVwOFprUjZ5UzM1cEJtVnBRcHVoZmZXZFpVcVpRYWdNTjNCSS1hQW1WRFpQbUNJbzFtVVJQeExGejlHVEswMlRvOWlvYWY?oc=5",
-     "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T08:37:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU2d0RVRrc1F2cGlKUVYyYjVHUWJEMFpnUWpoWUdPV1NqT1ZPcUE5Slp3VlV3dW51R0NfNnpUWVU4Qk5HWUlvT3V1VFVTbEl6UW9FenZvSjk0ZGFkWl9DMHdMZW9pNkZZTmZmUjIweGhKcVhlQ1h0cF9mWWhySUNhTVVOdG5lSk5nellfM0NxZGJabXJNTmRkdmdOeE5rcmtiOURhRGdqZEM5TGJVMW9IWEpmYmQ3WEtPdGVUanBzY3JwZ28?oc=5",
-     "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang"
     }
    ]
   },
