@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:54:39+07:00",
+ "updated": "2026-11-27T20:00:39+07:00",
  "window": {
-  "start": "2026-11-26T19:54:39+07:00",
-  "end": "2026-11-27T19:54:39+07:00",
+  "start": "2026-11-26T20:00:39+07:00",
+  "end": "2026-11-27T20:00:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 181
+   "items": 182
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 82
+   "items": 84
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 90
+   "items": 91
   },
   "Investor.id": {
    "via": "google",
-   "items": 153
+   "items": 150
   }
  },
  "prevAt": "2026-11-27T19:03:09+07:00",
@@ -286,6 +286,42 @@
    ]
   },
   {
+   "id": "5efb24c17d83",
+   "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026",
+   "category": "Kinerja",
+   "tickers": [
+    "BMRI"
+   ],
+   "summary": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T14:21:12+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNmYxc0M1d2xuSlF0TnRsMUd1QXJVR1V6VGdqMzFFM1luX01mS2hkV0RON01Wb1pPZzFlNlFQUGU3OTBpRWFfZXFVdGdCOF9xdGFaNUJBZG5tZ2duYUcxNWpWcGhnTTk3NkpBSmdXVWMzRjgzN3hSYzJCT3Q1T1N3akpzU0s4dzV4YWo2RlNZbG1hdHhqWkNBMkhaSG1ZVFliakZOUDMybThSdzhXZkxrQTVsQnNMM0gtalZJ0gG0AUFVX3lxTE5FNWg3ZEtPUzRxaDhza1k0ZXlrN2FqR21RUVdFTVdlZlNZZGJuY1VYTzJVZ0JMT0Yyck1aWDJic3owXzRGYTNlUUxqUVFNV0t3SWNENkl3MklJWmd1enVlcFZ5SEl6eG02aXFWMEZzRGxSbGtGREpRdThZU3A1S1hTbjZnNXdiM1NpaUlMemd5dVVScG5qakkxRjZBOEVtc1FpY1pRVTRpOHhWSld0OGZWVk5LUw?oc=5",
+     "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T15:31:00+07:00",
+     "url": "https://www.idxchannel.com/banking/hingga-oktober-2026-bank-mandiri-salurkan-kur-ke-lebih-dari-193000-pelaku-usaha",
+     "title": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T16:26:32+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
+     "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T19:56:37+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLVI1aU9sMFpESVBRdS1OMUpGaGR1emtSSEhpalhVc09uaXBKRFRaOUdxLUozVDB3S05zNHNiVUM1TE1maEtvb0dTVFNHWTNCd3cyal9MUWdhNWoxb0JjbGN4M3M5VWFRbG94RVJHaVNIaG5mazF5YjJpaS1iM0hqMGY4NHNCZ2o4U2RCTVR0RUt6Qk5MQXBWcGR4UFVyQzl6RzE1aGwzc3UxaWM?oc=5",
+     "title": "Bank Mandiri (BMRI) Salurkan KUR ke 193.000 Debitur Baru"
+    }
+   ]
+  },
+  {
    "id": "c3a1f192e352",
    "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare",
    "category": "Aksi korporasi",
@@ -342,34 +378,6 @@
      "time": "2026-11-27T18:40:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUtsY2szdGJxYk82SEdOX1JLMEhYODhua2oxMkNORWdKeGszdUlYMXBEUExqZlVBc3FsTUNaTlhOSUVZeDc4dGpSSmxBd2lLa04yRU00eDkwelJ4WVJsWjNycFdoYXBiTE1RbnA1ZUlLWnRqX2ZycGV0b0NHRnhsU3N5dFpkOEkyQVhVaGdkc3VRUmxxeXZwN1o4NzV0RUZBaWdJTEpNYmhMejZMMGZFQXpIU3I3c2MwNHZZYWgyd1Fud2FEckJF?oc=5",
      "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick"
-    }
-   ]
-  },
-  {
-   "id": "5efb24c17d83",
-   "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T14:21:12+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNmYxc0M1d2xuSlF0TnRsMUd1QXJVR1V6VGdqMzFFM1luX01mS2hkV0RON01Wb1pPZzFlNlFQUGU3OTBpRWFfZXFVdGdCOF9xdGFaNUJBZG5tZ2duYUcxNWpWcGhnTTk3NkpBSmdXVWMzRjgzN3hSYzJCT3Q1T1N3akpzU0s4dzV4YWo2RlNZbG1hdHhqWkNBMkhaSG1ZVFliakZOUDMybThSdzhXZkxrQTVsQnNMM0gtalZJ0gG0AUFVX3lxTE5FNWg3ZEtPUzRxaDhza1k0ZXlrN2FqR21RUVdFTVdlZlNZZGJuY1VYTzJVZ0JMT0Yyck1aWDJic3owXzRGYTNlUUxqUVFNV0t3SWNENkl3MklJWmd1enVlcFZ5SEl6eG02aXFWMEZzRGxSbGtGREpRdThZU3A1S1hTbjZnNXdiM1NpaUlMemd5dVVScG5qakkxRjZBOEVtc1FpY1pRVTRpOHhWSld0OGZWVk5LUw?oc=5",
-     "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T15:31:00+07:00",
-     "url": "https://www.idxchannel.com/banking/hingga-oktober-2026-bank-mandiri-salurkan-kur-ke-lebih-dari-193000-pelaku-usaha",
-     "title": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T16:26:32+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
-     "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026"
     }
    ]
   },
