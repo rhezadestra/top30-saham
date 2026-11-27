@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:12:09+07:00",
+ "updated": "2026-11-27T19:18:09+07:00",
  "window": {
-  "start": "2026-11-26T19:12:09+07:00",
-  "end": "2026-11-27T19:12:09+07:00",
+  "start": "2026-11-26T19:18:09+07:00",
+  "end": "2026-11-27T19:18:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 152
+   "items": 153
   }
  },
  "prevAt": "2026-11-27T19:03:09+07:00",
@@ -1039,6 +1039,22 @@
      "time": "2026-11-27T05:30:03+07:00",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFA3MDd1dFFjRzlNZTV2amh1ZjRqeW9KaVRJdzBMazVjR3lVZFNLWWh3YkxUYVpfM29WdTdqTTBKOEU0M2VmeGdPS3pEeFFmdm80dTRhN0FiNV9zQVp3TUJVTDc2eFlLR1RDOHhrWkZ2ZlpET0N0T0dFS3hEUUE2aEpMR2FRWjFWTlhjb2FZckxUQ0JvWThwTnZKWjNMVlp0blJweDlBSzRxS1V6UV9zYkRoTUQtUdIBrwFBVV95cUxOLVN6VjQwbVgwTnFGMUR1ZktoQzlvTmdoYkZzcEprYTV0TEEyVFh1YXRPOGhiNnN1cU1qbFVuREpoVTBDYWFSV1N5VXZjelo3RmZYVjVKcHVtY2RTQm1iRmJzeG12NFllaXY5a2VQODJDbmpTejlmc3ZvV2c2d3VnT2R5SHBVcURTR21rSDVJZkVzTUNCb0tZTnM4LXpoeDhzRkp1OHVjX3FNMVpFek84?oc=5",
      "title": "Bank Kecil Genjot Dana Murah untuk Menjaga Likuiditas di Tengah Persaingan Ketat"
+    }
+   ]
+  },
+  {
+   "id": "7d99e338bec0",
+   "title": "Ancang-Ancang Berburu Dividen",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T19:15:12+07:00",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JT1JfQnJCVmhDS0pIeDdOZTVBZWNwanA0X29NMzNKVjJvVURCeUl0RmhNQzNTTlFHeU5tbFM5cjA0MEg4VTJsX1ptWTU2NjJ4MnJ5ZGJqcjl6S1U0VkFucDRQLXA2ckdCSkhXSDlrMA?oc=5",
+     "title": "Ancang-Ancang Berburu Dividen"
     }
    ]
   },
@@ -3522,24 +3538,6 @@
      "time": "2026-11-26T19:22:47+07:00",
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTng0bXhyVERKM21oMVhZUkJjc2IyUW9wVnhkZC1uUUxvOWFldnZyTHJfdlZkekxHaDBQM1hCZmVqM3h3d0N4NGtZVy1ZZDVwUW9MLTdaUUdhb244azdWT0Y3OXQwd2xtbHloWlpha0R1Wk5DUHk5WWc5WGdPbWpOVTFMWHdmeVNMWmpYaXFZU21RUEg3NHREUkdTVzhmdw?oc=5",
      "title": "OECD Sarankan Indonesia Naikkan Tarif PPN Secara Perlahan"
-    }
-   ]
-  },
-  {
-   "id": "a2c7ba3d3765",
-   "title": "SMBC Indonesia Dukung UMKM Tembus Pasar Ekspor Lewat Daya Fest",
-   "category": "Makro",
-   "tickers": [
-    "SMBC"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:17:44+07:00",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUXFwT3JnUlNwYUJHVm5Kbkl6bjI4OEg1MW8xbDRoakd5bGNTR0VfV050RTRDd0x6VHhoNC1SLUZ0MXJ0UFBTaUpzRFlEWjF1SXJrTE5qVG9pMndEZl9UUFBDNUo2RVZqR0R5MjlSMmRmV1ZLVFM0MkdwMGY1cTJ3QS1wMHczb2Z0alRRdVF3UllUT1RqTXZyZF81aVNPQdIBlwFBVV95cUxOTjE2Q0ZLLVU4Ni1sbGZiaGVLUzNSYjVfOUQ4U2Z6Y2V5dV9iMW9pMDlIVEVsbU5ITWc2T3R0V1hETlA3Z0g3NHQtRkJHeXFfelZHSU5kMC1kV3JDTkV4UXVVZXI4NHRhZm5MWTl5Yk82dHhNZXdET0FXd3hQZ05rWlhqR0lNdDMtaEFyUjE0VFNiVDUxMi1R?oc=5",
-     "title": "SMBC Indonesia Dukung UMKM Tembus Pasar Ekspor Lewat Daya Fest"
     }
    ]
   }
