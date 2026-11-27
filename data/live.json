@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:27:09+07:00",
+ "updated": "2026-11-27T19:30:09+07:00",
  "window": {
-  "start": "2026-11-26T19:27:09+07:00",
-  "end": "2026-11-27T19:27:09+07:00",
+  "start": "2026-11-26T19:30:09+07:00",
+  "end": "2026-11-27T19:30:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 182
+   "items": 159
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -951,28 +951,6 @@
      "time": "2026-11-27T14:15:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbFhvQ0o4NjJVZmdWVE11cjBqckRWazYwcnBPOTl1dzZHSEpTbWs4bXBoc1ZCcGI1eUdGRmV1Z3VnM1NLUDdPNEhDWEFGeUZlbml6V1VKaUtodnNKNU1HczVZUDlDYV9mdjF4R2xIR3VmN2p5TGhleVhjbTZpREctaUxuWUNjb1pDVmtDT2RxU1FodkowalBzaHUyOUk2STJ1VUJVeDV1X3dGZ3ZaTjdBZlpXaFZ0aEZ4MUFR?oc=5",
      "title": "DSI Klaim Fee Ekspor CPO hingga Batu Bara Tak Akan Bebani Eksportir"
-    }
-   ]
-  },
-  {
-   "id": "1aff24ff367b",
-   "title": "Trump Ancam Tarif Baru Untuk 14 Negara, Begini Dampaknya ke Pasar Saham Indonesia",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:28:40+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcDFGYWVtRlJaUFJ2Q2sxWVNnckF4X3hNRFVIVWptNWFLdnVrV0d6WW9KVzBmLXhWdHVkcWc5OThWU09va2JMT3FyXzRaRHFNSlloY29CMHh1NkZoTkNTak8tcmlDaTZMSW1EYVRrZnVfaWE3YjA2M0pCTkdOcUMzTXBDLVBiNGRqYjR0d1hQc1JxN29LWV9OcG5XM1NkZGI3aVZfZi1XWXRkWFRoZy05cUZISFlYRFnSAa8BQVVfeXFMTkZtcEZLSGRBSnE3TU8xWV9XMW51cWlYTG5tczFIUnZTVi1QeEJYZ3JmVzZUVVl5VGZEQVB6dE1IUEhFTDFBU2NTaXAxWWVKS0F3cXY4blJhQjYwZ3RHREpxdTFYT2ZMbXFqNkhHY2JsWVlsMlNHODVBeXlMZUs2MEJWbUhReUtJUzFWOGU5NlRMS3hwdWxfcC1oanh5SThXTEJaZEtVcjNTdDFWNl9nNA?oc=5",
-     "title": "Trump Ancam Tarif Baru Untuk 14 Negara, Begini Dampaknya ke Pasar Saham Indonesia"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T13:39:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1BhLVZqMmxoTDNRWnljUnhoUnE4UEJ3MnZvX0xOS0ppNXFmMjJzT2NQV0NHeTNTclctMG4ybHFaU0dkOERLR3hyVnF6RXg0RER1dXFYMzlhdHpxUGsyUEpWZm1uV0RpWG9idVFOSUpHek9KQnBfMW9DSTVRUGhCT2FTSlhVV3pzWl9fd0RSS2ZCY1FPMzNxVzUwNmMyZ1RSSmgtRUlWeGQ3Z9IBogFBVV95cUxOSHdMTG5kc0kzd1FmbjltZElEMGFyNDhaVm1nUmJ6ZDlZNFdnbGRRemJ6cWlzZXhpaDAtLTVaMUFNclBQeDAxRTEzb3AxNktfYjRHMktFb3Vub002MUE2VW1Ia0o1RlM1ZW5xT2JGa2dJaHJXcVRfTlVoUy1VaFg4RjE3RVFJR3oteTFsT1NTRTFWTkd4Rno5NzhrOXZQNUlrY0E?oc=5",
-     "title": "Trump Ancam Kenakan Tarif Baru, Pasar Saham Indonesia Dibayangi Tekanan"
     }
    ]
   },
@@ -2804,6 +2782,22 @@
    ]
   },
   {
+   "id": "a9dd179044c1",
+   "title": "Trump Ancam Kenakan Tarif Baru, Pasar Saham Indonesia Dibayangi Tekanan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T13:39:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1BhLVZqMmxoTDNRWnljUnhoUnE4UEJ3MnZvX0xOS0ppNXFmMjJzT2NQV0NHeTNTclctMG4ybHFaU0dkOERLR3hyVnF6RXg0RER1dXFYMzlhdHpxUGsyUEpWZm1uV0RpWG9idVFOSUpHek9KQnBfMW9DSTVRUGhCT2FTSlhVV3pzWl9fd0RSS2ZCY1FPMzNxVzUwNmMyZ1RSSmgtRUlWeGQ3Z9IBogFBVV95cUxOSHdMTG5kc0kzd1FmbjltZElEMGFyNDhaVm1nUmJ6ZDlZNFdnbGRRemJ6cWlzZXhpaDAtLTVaMUFNclBQeDAxRTEzb3AxNktfYjRHMktFb3Vub002MUE2VW1Ia0o1RlM1ZW5xT2JGa2dJaHJXcVRfTlVoUy1VaFg4RjE3RVFJR3oteTFsT1NTRTFWTkd4Rno5NzhrOXZQNUlrY0E?oc=5",
+     "title": "Trump Ancam Kenakan Tarif Baru, Pasar Saham Indonesia Dibayangi Tekanan"
+    }
+   ]
+  },
+  {
    "id": "a808c407ccff",
    "title": "Geng Negara Kaya OECD Sebut Pasar Modal RI Masih Dangkal",
    "category": "Makro",
@@ -3490,22 +3484,6 @@
      "time": "2026-11-26T19:35:45+07:00",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaVNGYzRfZnkxVUtMNUdybWJaZ0dPdnBaandCSUdWTmdQN1hnSURFTk5DZ0RBY1NnUWY2elhFMFF4enN3NDNzbmNJVjFLbXpxd0RZM2MxOGJRMDhXRUtrUVlpZWFHN3dWT2t0c2dVczJPb1M4NWFObmhXdWN6TlBfUFlfUDBiWXNnVm90ZURTU2p5aTJvVXNyRy15Sk5ucHpjTzRpbVVwNDhUb2QwMXpEUQ?oc=5",
      "title": "OECD Usulkan PPN Naik Jadi 12%, Kerek Tarif Cukai Rokok-MBDK"
-    }
-   ]
-  },
-  {
-   "id": "4e65975cd99c",
-   "title": "Danantara Catat ROE 8,7 Persen, Jadi Fondasi Awal Konsolidasi BUMN",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-26T19:30:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYzcyNldZc251YlBJZUZQajk4QThTTUJIdXg0OWtaUFZMdXV5UzBiQ2MwaTZra0YzS0xWLTgtendIcjFDNC1LdXBYUE11ZXJVYkFzMXRnUkdxaTVfX3hOQjVYVVNkdmVaRTY1YzFMdXJlbGE5ZFNESW9WUFRnejNQQzcxdF92bjZTcDhyR3dleFh0eG9IVlJ1NDY1SWtWTWc2dEVN0gGoAUFVX3lxTE1xUGJaUXVvaWNnUnY2TW5hYmdDZ0dMZUZpWXVNZkVldzFjMVNUWVZBR2FEY291SnRCVU1La1FHTjFXRm5OMEhGUG93SVpXcW93RkxPZnp4VlNSZWtBTVc0TkgzU3AyanJ6cXNZNkJZYnFrcXBhMFVPZ2FBa2ZrTzdNMXJzOG5rcm1KTzBRRG16X0t5aHFDeER1STlyOUdGclJyYmtVZVFEWQ?oc=5",
-     "title": "Danantara Catat ROE 8,7 Persen, Jadi Fondasi Awal Konsolidasi BUMN"
     }
    ]
   }
