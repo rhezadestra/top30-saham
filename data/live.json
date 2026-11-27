@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T01:53:41+07:00",
+ "updated": "2026-11-28T02:06:10+07:00",
  "window": {
-  "start": "2026-11-27T01:53:41+07:00",
-  "end": "2026-11-28T01:53:41+07:00",
+  "start": "2026-11-27T02:06:10+07:00",
+  "end": "2026-11-28T02:06:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 164
+   "items": 189
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 85
+   "items": 84
   },
   "IDX Channel": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 119
+   "items": 121
   }
  },
  "prevAt": "2026-11-28T01:41:41+07:00",
