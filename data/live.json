@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T00:56:09+07:00",
+ "updated": "2026-11-28T01:02:09+07:00",
  "window": {
-  "start": "2026-11-27T00:56:09+07:00",
-  "end": "2026-11-28T00:56:09+07:00",
+  "start": "2026-11-27T01:02:09+07:00",
+  "end": "2026-11-28T01:02:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 164
+   "items": 189
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,15 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 89
+   "items": 30,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests",
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "Investor.id": {
    "via": "google",
-   "items": 123
+   "items": 126
   }
  },
  "prevAt": "2026-11-28T00:29:09+07:00",
@@ -1417,22 +1421,6 @@
      "time": "2026-11-27T05:40:20+07:00",
      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ueW5JeVB3LWVHOEpkQzlCbXI0NUJWUTQ2dnBBdXplZjYtWHlMVXdTdjZhXzBsQXJvdDQwX2lRbmxya2UtbEdCR25CSnFrLXhtTkxTTi1oNnJGQkNoajB3ZHJubXh3bVZBbFhnVUgzRTFFRzFxQ1ZxdDhFeEw4SnM?oc=5",
      "title": "Mencermati Pengelolaan Dividen Danantara"
-    }
-   ]
-  },
-  {
-   "id": "ec85211d241c",
-   "title": "Danantara Tegaskan Garuda Adidaya Tak Akuisisi Eks Lahan RAPP, Ini Penjelasannya",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T01:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYUx5N1hQaldxOXdlQUpBLXctb21XWHdVZjNyckdyMGdOZFdaTzRvZzUxSmtWekhHMmZ1YWp1T0lBYmpqMkNnYUlmVVlyQlRBYXI0SG80eUgxMkx1X0RMbEFYdE55cmZ3cklkeUVwUHlaZ0NOUjA4RURtUTAtWDkzU0NPZnhiYk9ocjZKX2k2TERNRDFqajdVX2owWlZURTZnREk3QmFFU0FsUzRrRUFUQVZXMFJDOFnSAbwBQVVfeXFMTko1bnB0djlqNFdzSmVGczk4ajkxMFlkQ0M5TW1QbUZHZlRWdEFOYWRNWnhlZmFzbEVjQ3hMVDhGcjB0bXlxMk43eW1jT2dhUHgtXzJhLXBrZHVWQUNOMEtYMjEydTF2TFptNXhmanVyS0EwMlU4T2QzblRHQUNxWmFqQ01ua2ZmalNYN0R3VXlZZ3FSX2Nnb016NUZFak1YcmFVYTliVGttbUw1akxhQmV5SGIxMHVqWWVrUmI?oc=5",
-     "title": "Danantara Tegaskan Garuda Adidaya Tak Akuisisi Eks Lahan RAPP, Ini Penjelasannya"
     }
    ]
   },
