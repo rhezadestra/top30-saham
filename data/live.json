@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T16:13:41+07:00",
+ "updated": "2026-11-27T16:19:40+07:00",
  "window": {
-  "start": "2026-11-26T16:13:41+07:00",
-  "end": "2026-11-27T16:13:41+07:00",
+  "start": "2026-11-26T16:19:40+07:00",
+  "end": "2026-11-27T16:19:40+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 170
+   "items": 195
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 78
+   "items": 79
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 104
+   "items": 103
   },
   "Investor.id": {
    "via": "google",
@@ -587,6 +587,24 @@
    ]
   },
   {
+   "id": "cda192aea60b",
+   "title": "Gapura Prima (GPRA) Siapkan Buyback Saham Rp40 Miliar, Harga Maksimal Rp120",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "GPRA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T16:15:25+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWHBkM1ljc3VnTHpNbTl4QWFTWHlhT3ZYc1Rxd3BuUXd1eExMd3lYMVE2ZFBORDcwWkpUU2JvVUoxQlNycFNRYTBxblJPV3UwRy1qSFg4NEVGaDJJNDdHVGNiRWxEWms0bFFhQUl3VFByRzdhdUc1ZTVwOU9hRU9OcjR1d2hoNFd2WXRaamFfeVNiYlkxTEotbTMxeHR3VGtsU1JXOFNXSlBxM1NHNXhkV1JfSFI2bklKUGh3OTd2M0dhZw?oc=5",
+     "title": "Gapura Prima (GPRA) Siapkan Buyback Saham Rp40 Miliar, Harga Maksimal Rp120"
+    }
+   ]
+  },
+  {
    "id": "0e58eb65cb1e",
    "title": "Danantara Bakal Merger BRINS, Jasaraharja Putera, dan Jasindo",
    "category": "Aksi korporasi",
@@ -736,22 +754,6 @@
      "time": "2026-11-27T09:16:51+07:00",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xYzZmcURmNlYtTDRWN0kxV2paQW5VUUdDcmcwOGcwVGdMMVpzRjlmRkotQlFRWFo1SGljaWZ1WVZiZ0xNQktTM2hLMG5CdVhQVzNKdGQwSXFEZ29VMTBwanRqbE4?oc=5",
      "title": "Dividen ENRG 2029"
-    }
-   ]
-  },
-  {
-   "id": "e6d8f6c56e59",
-   "title": "Rights issue 4,12 triliun",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T09:16:51+07:00",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DaVNiREZZNjBNNVB6RWhJQmlxVlJnNlFVRXVCREpFUVhSeGNMU2IzV1JaZ0ljakQ4bUNwMTVmckpxRFNkNkZzbGI0SDFhNTdNME1idFNlMTlua2ZnQzJ3WEw0eHp2MHFOUFg5eHJB?oc=5",
-     "title": "Rights issue 4,12 triliun"
     }
    ]
   }
