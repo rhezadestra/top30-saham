@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T05:31:38+07:00",
+ "updated": "2026-11-28T05:37:38+07:00",
  "window": {
-  "start": "2026-11-27T05:31:38+07:00",
-  "end": "2026-11-28T05:31:38+07:00",
+  "start": "2026-11-27T05:37:38+07:00",
+  "end": "2026-11-28T05:37:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 181
+   "items": 162
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -1723,22 +1723,6 @@
      "time": "2026-11-27T07:29:17+07:00",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkc2UHFQb3BBcUVQemZqT1M0SU1qRzlxQ1lEVkdDcDZDX213SW9pU3YxU0k1SWgxb2tldkxLeGVQWGRmemVlZmJ5bnpLTEtraEdhN0xNQkUycXlTbG8xTXltTzl3TXg5Q0tDV1Z5N0RvZTlwb20wYU42bXBGa2xTTnFjVzFNcFlKT1NOQzA5eTY1bm9CZFVvdldqMDZoUDg0ZlUxQkVQcV9NSkNtVmw0?oc=5",
      "title": "Prabowo Temui MSCI, Bos Asabri Ingatkan Reformasi Pasar Modal"
-    }
-   ]
-  },
-  {
-   "id": "8ecbb6251719",
-   "title": "Transaksi Non-HSC Naik 12,9%, HSC Turun 15,4% di BEI (26 November 2026)",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:35:04+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ09IV2FLeFJ1R0FpM1RwXzkzNFZwdGczLVZiazFrek1hWng3YXhMczM4V0ptNEVGVnp1RVA5VFBubVI3Wm1GNjN0Y0dJeGVUV21wei1TaXowN0dRUHZRaTB2anFCaFFPRS1Nc0pjckZpQ0pFOWRSQTBaS2tLS015YkY2UldRaDR4Q0Y3cjF6aEZhd1ZVZnRGcUs5Z3BlMW1QY2fSAZoBQVVfeXFMT0NlaC0yTEQwVE1iSndadEZwdUhxX1NTd1ktbV83UW9XOWhFbDRrZnNMdktXTmo4ZjN6WDdfcTFoVW15Vl8xQllrOHFnZHpmaURzQmd0UVRJNVRwX3JlcXFpMTNkZXBhOVVWY2w4RUZTTEQzYmk5a1c4MVhUdGtKcmhYOUR4eXdWQWRFYm1peHRibW1OWUJOTWJVUQ?oc=5",
-     "title": "Transaksi Non-HSC Naik 12,9%, HSC Turun 15,4% di BEI (26 November 2026)"
     }
    ]
   },
