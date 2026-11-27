@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T06:41:33+07:00",
+ "updated": "2026-11-28T06:44:33+07:00",
  "window": {
-  "start": "2026-11-27T06:41:33+07:00",
-  "end": "2026-11-28T06:41:33+07:00",
+  "start": "2026-11-27T06:44:33+07:00",
+  "end": "2026-11-28T06:44:33+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 90
+   "items": 91
   },
   "Investor.id": {
    "via": "google",
@@ -1707,6 +1707,24 @@
    ]
   },
   {
+   "id": "8988cc319e62",
+   "title": "Daya Beli Lesu, Cinema XXI (CNMA) Jaga Harga Tiket Bioskop Tetap Hemat",
+   "category": "Kinerja",
+   "tickers": [
+    "CNMA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T06:40:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNemJZRHlqb0lGQW1EbExjYTNSMFRhRFR3Nzd5bTU1R2k5dGV0NTQ0WkxXYnJMcEFUc21xYUU2MHNKYmwwSkVBM1hNWXg4Sk1oRjAwRUxUQTFzenR6QzAyeXg4ZTVHUTVfSi1HMjR2YzBQT1VrV3BLd3ZrU3F3SlhUaUZxTG1HUjFSOUgwWEhTdXJqOGpEX0dvLTVwdnFJbWM2UVdKcElWMUtWYklIdkNVdXlsc2dUV2w1V0pr?oc=5",
+     "title": "Daya Beli Lesu, Cinema XXI (CNMA) Jaga Harga Tiket Bioskop Tetap Hemat"
+    }
+   ]
+  },
+  {
    "id": "489479142a1a",
    "title": "Target Penambahan Bank Anggota KBMI 4 Tahun Ini Tercapai, Kenapa?",
    "category": "Kinerja",
@@ -2432,6 +2450,22 @@
      "time": "2026-11-28T04:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX21vYW5jNHRkQVA1dHVUdG9uTVBZWGJvdlRwM0diZFJzLUJLdHpMaUI5aTlCY25ESmFudFpsTlpGSkhPWnFlVFpvOWxjN2xkT2pReFY1TEk4ZlBva2Q1RUZianRhVW92SVBRZE9aRnFpS0F5aDIzWWFndTlaa20zYjI0V3NDcHBiYkV2Q3ZSX1pmdjM5c2Y3YWJ5c1QxMlNXNzlHTG9oT3huNlBIYkMzcHV1eVNkd3Z4NlI2VDloQXE?oc=5",
      "title": "Ini Klarifikasi Menko Airlangga Soal Pungutan Ekspor Sawit 0,5% oleh DSI"
+    }
+   ]
+  },
+  {
+   "id": "4718f5612070",
+   "title": "BI Beri Sinyal Arah Suku Bunga pada 2027",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T00:42:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQTZPSlRNTWpxZzIyWWNveEx2TFNhTDRGRnlnZ1Z3d2p6NjZYVXlHd3ZieFBYb0NBSWc5QUYxTTV3MmtFeHVIQllSZzVPSngwRHBGd2ZBbzF3XzVXdFN0c1p6ZzhfZlFxOGpsRWptLVhlckRnU0szamEwZGVrM1J4WUE0ZjdJa2c?oc=5",
+     "title": "BI Beri Sinyal Arah Suku Bunga pada 2027"
     }
    ]
   },
