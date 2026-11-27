@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T12:28:05+07:00",
+ "updated": "2026-11-27T13:27:21+07:00",
  "window": {
-  "start": "2026-11-26T12:28:05+07:00",
-  "end": "2026-11-27T12:28:05+07:00",
+  "start": "2026-11-26T13:27:21+07:00",
+  "end": "2026-11-27T13:27:21+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 172
+   "items": 176
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 66
+   "items": 68
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,15 +45,46 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 112
+   "items": 106
   },
   "Investor.id": {
    "via": "google",
-   "items": 163
+   "items": 159
   }
  },
- "prevAt": "2026-11-27T12:25:29+07:00",
- "prevRanks": {},
+ "prevAt": "2026-11-27T13:27:21+07:00",
+ "prevRanks": {
+  "0287597ab648": 1,
+  "8af9642a45de": 2,
+  "b917b7f18503": 3,
+  "4d5636538b26": 4,
+  "8c11ec64d056": 5,
+  "dd049b9708fa": 6,
+  "e1b24d7a5905": 7,
+  "ecaf13830687": 8,
+  "8a0b095473e4": 9,
+  "da9b0df4b481": 10,
+  "98f8de3e1ac6": 11,
+  "e2c28496fc5c": 12,
+  "54831c07e0ef": 13,
+  "0847f283c30c": 14,
+  "95473cce7905": 15,
+  "5756630c573a": 16,
+  "e98d15dcc483": 17,
+  "1c958187e62a": 18,
+  "09620449a136": 19,
+  "984097e8d7b0": 20,
+  "c93c23ec0dcf": 21,
+  "b3d37d56494e": 22,
+  "4dbbf1f7b937": 23,
+  "08b3ad64ffae": 24,
+  "9ce24d65b5ef": 25,
+  "0ca35b8abd40": 26,
+  "aed52177f632": 27,
+  "95470b184fe0": 28,
+  "666420c2fdd6": 29,
+  "c75f1a0326fa": 30
+ },
  "topics": [
   {
    "id": "0287597ab648",
@@ -132,33 +163,32 @@
    ]
   },
   {
-   "id": "b917b7f18503",
-   "title": "Bos SMBC Indonesia (BTPN) Buka-Bukaan Soal Alasan Mau Delisting",
+   "id": "8c11ec64d056",
+   "title": "Jasa Marga (JSMR) Rombak Susunan Pengurus, Simak Detailnya",
    "category": "Aksi korporasi",
    "tickers": [
-    "BTPN",
-    "SMBC"
+    "JSMR"
    ],
-   "summary": "PT Bank SMBC Indonesia Tbk. (BTPN) menyatakan rencana beralih menjadi perusahaan tertutup (go private) merupakan langkah strategis perusahaan.",
-   "summaryFrom": "CNBC Indonesia",
+   "summary": "",
+   "summaryFrom": null,
    "sources": [
     {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-26T13:26:27+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261126132350-17-788723/bos-smbc-indonesia--btpn--buka-bukaan-soal-alasan-mau-delisting",
-     "title": "Bos SMBC Indonesia (BTPN) Buka-Bukaan Soal Alasan Mau Delisting"
-    },
-    {
      "media": "Kontan",
-     "time": "2026-11-26T16:30:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmtxWVQ4X0dfMUZnamhvbGZlVXhYODFweXBDaHVpQmVka01kLTMyMHczd1lZZkRSYS1kdW80cGs1U1BCWHg2dDIxdFVOV3I5TVJDbmd2S0d6OUhITUp2WnVnSlF1X0F3MkNSUHgtZ2pDTjV1Wm4tYTRNN2JyZnp3Tzh2SEVjeGNFTVAyQTg1YzFFQmVOTGZLeDlvSHdFYVVreGw3S0hkdkljSjBDYWg1cg?oc=5",
-     "title": "SMBC Indonesia (BTPN) Tegaskan Komitmennya di Indonesia Meski Bakal Go Private"
+     "time": "2026-11-26T14:54:54+07:00",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORnh0X3cxa1JqR3ZWWkxfWXh4NXJXZ0lLb3ZmdnBLSWtsV3ZyaF9Ca0xOcWJiU3IyNzR3dUhQVGtYdkR2Y2w1Sld6UEJzalRpNDlBWUcxTHpxZGZLRHFZenBVUVU0SDZ3ZFlJVkdYS2R2cW50TEZkVzh4Q0FSSGpVeTczQ3VDQTRIb0tJRFhpX1dnbmlWMFHSAY4BQVVfeXFMUG1ybDVVM2lxZWRVbC0yWEdPOFI4NGU3dnJSTzBiU1Z4MWxoamFRVDZiYjI5ZEVuLVNETV9fLVR5VVBiak5jR0pmZGx6eUFjVXR5UnowYW9SdkJkb3ZUYnFkbEpMSWFZMzZ2MWN4QjhpUDlGaVpkN1FjTy1OUHFxSFZDZFh5WkRLalJWME9FQQ?oc=5",
+     "title": "Jasa Marga (JSMR) Rombak Susunan Pengurus, Simak Detailnya"
     },
     {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T08:10:00+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
-     "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
+     "media": "Investor.id",
+     "time": "2026-11-26T16:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1dFS3lSTi14aVd6dzl4cm9xdmhlWEpxWW8xRkExbFhoRHRfRU55UkowX3loNGw1WGNVZXVBRTBHbU5PSlowSy12TjVUVFZWNGlkeWQ3aHpxMzYyM1FDNmhFZGs5bk1GcWFMV3E2b1pFWEU0VUlSLWNpRzYzUmJNVVdOcUQxeU1LOEtUQ3dOaW9TTW5Td2c?oc=5",
+     "title": "Jasa Marga (JSMR) Rombak Direksi hingga Merger Anak Usaha - Halaman 2"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-26T16:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdGVsTDRvUnRXMUo5TkR0cG9ydFhsN1IzY1J5QzJHdWdUdFJidjNnbXo3aG56TkZiWklnZlVpNUo4RXNEa3hMSGd0Rk0yNUExaU00c1dLZXM3RFlUQ3FrS1BTZjltUURoOHVFWXBkNjNZVFQwZENqRWQtd2h0NElvX0kwOXl3RG80djJpZHZHX0VxbTg?oc=5",
+     "title": "Jasa Marga (JSMR) Rombak Direksi hingga Merger Anak Usaha"
     }
    ]
   },
@@ -181,30 +211,6 @@
      "time": "2026-11-26T17:33:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmEtVWRCME9Gb3BMTnNuNVhYekRVUDRyVXkza3d5UHZxVFhWNmpfamZBLUJpckJhWWFHTnZXbmxqbzhFWndRTHJXTnQyUTJpd1NlUFZmT1RMckJjTnJOWS0wSDdvYVhVNmtSSnNwb1RsZ0g0XzhNODRKTEszN2VtZGhmNnBHdFNaODdBQW1ueWR2LW1TZkt0a1dPVFpseDFVTml2ZlZWMHJNbjFiTURNZlNDTmJEUQ?oc=5",
      "title": "Danantara Tegaskan Garuda Adidaya Nusantara Bukan Akuisisi RAPP"
-    }
-   ]
-  },
-  {
-   "id": "8c11ec64d056",
-   "title": "Jasa Marga (JSMR) Rombak Susunan Pengurus, Simak Detailnya",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "JSMR"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T14:54:54+07:00",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORnh0X3cxa1JqR3ZWWkxfWXh4NXJXZ0lLb3ZmdnBLSWtsV3ZyaF9Ca0xOcWJiU3IyNzR3dUhQVGtYdkR2Y2w1Sld6UEJzalRpNDlBWUcxTHpxZGZLRHFZenBVUVU0SDZ3ZFlJVkdYS2R2cW50TEZkVzh4Q0FSSGpVeTczQ3VDQTRIb0tJRFhpX1dnbmlWMFHSAY4BQVVfeXFMUG1ybDVVM2lxZWRVbC0yWEdPOFI4NGU3dnJSTzBiU1Z4MWxoamFRVDZiYjI5ZEVuLVNETV9fLVR5VVBiak5jR0pmZGx6eUFjVXR5UnowYW9SdkJkb3ZUYnFkbEpMSWFZMzZ2MWN4QjhpUDlGaVpkN1FjTy1OUHFxSFZDZFh5WkRLalJWME9FQQ?oc=5",
-     "title": "Jasa Marga (JSMR) Rombak Susunan Pengurus, Simak Detailnya"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-26T16:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1dFS3lSTi14aVd6dzl4cm9xdmhlWEpxWW8xRkExbFhoRHRfRU55UkowX3loNGw1WGNVZXVBRTBHbU5PSlowSy12TjVUVFZWNGlkeWQ3aHpxMzYyM1FDNmhFZGs5bk1GcWFMV3E2b1pFWEU0VUlSLWNpRzYzUmJNVVdOcUQxeU1LOEtUQ3dOaW9TTW5Td2c?oc=5",
-     "title": "Jasa Marga (JSMR) Rombak Direksi hingga Merger Anak Usaha - Halaman 2"
     }
    ]
   },
@@ -279,8 +285,8 @@
    ]
   },
   {
-   "id": "8a0b095473e4",
-   "title": "OECD Minta Indonesia Naikkan Tarif PPN Jadi 12%, Ini Pertimbangannya",
+   "id": "08e00b7d865e",
+   "title": "OECD Sarankan Pemerintah Indonesia Naikkan Tarif Cukai Rokok",
    "category": "Makro",
    "tickers": [],
    "summary": "",
@@ -288,9 +294,9 @@
    "sources": [
     {
      "media": "Kontan",
-     "time": "2026-11-26T12:52:20+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWk8zUG9ENTd0Q2tIM0E5ZnpVZG5TLUJmWHpfZjAwUDdPMWZzOV9takVodHVsYkVfTFdOcDl1RVl5UHBVd3lld3oyR0xENng0NTRSMDcwRUR4SUdhTWM2eDgzTFd6SC0zYzVQZFlWSEJTeEwzdkFNajRtZGF5YWl5TC1lX3dBN2xwSWlVS1VtVGVRaFpWc1RiLU9CR01SaDU0ckhN0gGcAUFVX3lxTE9nTHpEeW1qcjN0Z3FuQWRDcG50S19Ebi15NnUwX1Q3Rk1UTml4Z2lHUGRqQl9YbEZLc1p1LWJ3elBwaHQtdURQVHZGTWpHc1NUZDdHcUI5MGFzbHhSWi05UUgyN2NzT09yRWdCWjA3M1dZNnNKLW1HTmI5bFlIXzBSWG1ob29HcTZUTWwzb1ZaaUgzcWhqQkU3TFZZcw?oc=5",
-     "title": "OECD Minta Indonesia Naikkan Tarif PPN Jadi 12%, Ini Pertimbangannya"
+     "time": "2026-11-26T14:59:17+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZG9BSDBqREEtMmp3Z2dkQTV4WU0xOTVnNXlkVVdTRVl2LUlSQnREQXZwbmZtZE1TMWp6U2c1aE5uM19OMkVUSEpTd2RWZEpZQjFUSzE2R3dHc1JvOUVHQzE2Mld2WXVTQXBZZEJsTU9GdWVGVmVKNXB0NmdsMFA5bUJKUmV1Q3JENVpfUHBiS0xnSW95R3BiY3Q5NNIBlAFBVV95cUxNa3c2X3BsemRobDV1VktxX0dkRllnV3Z4aUtPeDd2ZUMzcWJBRHFFUHFhOWY2QVJ6QkxoVHVwZDNRYVpucWtkUFpHNU5TcldFUm9UX2RLS0JtS1dhY2Z6dWYtWi1mVlhiTm5GSXVBWnVJQWtpRHczV0hjSS02LVVOXzduNlc0TkJHSEU5ckUzUHd6bnB6?oc=5",
+     "title": "OECD Sarankan Pemerintah Indonesia Naikkan Tarif Cukai Rokok"
     },
     {
      "media": "Investor.id",
@@ -449,6 +455,22 @@
    ]
   },
   {
+   "id": "96d977bbbc4c",
+   "title": "Ekspansi Armada Emiten Pelayaran Dongkrak Prospek, Intip Peluang dan Risikonya",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T12:57:34+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcWgzaldhVHRENndnbl9lOTNnMkhITGpJWFY3WS1NY21UQl82czQ1U1c1N1hGdGJLZWtpdTBPSjMySDRfaENfZk1GT3dWMEtpdE9hWm4zLXMwMkhlMlZVR3hGV2xWR2d3V3B3cWRNdWtXUC1BWUZPekNKTDhnWjNaY2M1X0NCY2h1VDk4dldENHpWV29hdUowNFkwN3B2a3NteEZkMGpJV3RtOFBHVVhQbg?oc=5",
+     "title": "Ekspansi Armada Emiten Pelayaran Dongkrak Prospek, Intip Peluang dan Risikonya"
+    }
+   ]
+  },
+  {
    "id": "5756630c573a",
    "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen",
    "category": "Aksi korporasi",
@@ -529,6 +551,24 @@
      "time": "2026-11-27T08:32:14+07:00",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3BzMkFvWno3TmYzbk1nNnEwem40RVc5cmxyOHc0Z1pYVU1oVTY5aTVEMU0zTGJ6Zkt2bG1NNFJ4c1FfR3VybzI0MXAwa1V4SWY4aTFuRFR1ekJ0U3dnZFpzX3ppY3dON0YybG5SSEZCRHhoMm1SNVh0OEJ4dUlCOUJFc2tNNEtYcHVWQmR4MWhjVlFlQkdzQVh1bGRKSFBPeVpmSXNiNHhiNUV6N0VaSXJRcDBvbzBFU1E?oc=5",
      "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun"
+    }
+   ]
+  },
+  {
+   "id": "ff21a71d5519",
+   "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "BTPN"
+   ],
+   "summary": "PT Bank SMBC Indonesia (BTPN) mengumumkan rencana delisting dari BEI dan perubahan status menjadi perusahaan tertutup, tanpa dampak pada likuiditas.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T08:10:00+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
+     "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
     }
    ]
   },
@@ -675,22 +715,6 @@
      "time": "2026-11-26T19:38:40+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGZPR2h6Qm5DMEM1cWZGQzZOa1NzYlNnQS1DWG41NEViM1dtS3dtcDUwSWhDcGNWamt4dE1tRG9pRWZ4LUIyblJVUC1UbWR0aU9NT2FWcDE4OXQ2ZFhtR2FLSXczekpwZnpzM2RLaGlmTXRaVkVrUWFUQjRuZ0JaRWRpT1FkTlJ5dWVkRFE5Ukx4bDZNamJXVHZYdzdXTU8yNV9qVmhSVGxtbWh40gGmAUFVX3lxTE5uZV9GMnh4UnlLRTQxVzFQY0VreUVTOWdudi01NmFMWnVoVmhqRndtWEQ4Y3h2ZXNUdEk1Rk1nVWJiaEZlcUpoc2lHMDJHVTIwbVNLVDVEcTR5QzFHXzA1WkNsQUxRdThLOGNfbWhSNk1ucDV1M2dwQWZzWGxmMUxjS2l1cWVuQnIza054OU1BcGhRWmU4NGlyYzRRbFF2SU56WW1GSXc?oc=5",
      "title": "BFI Finance Siapkan 70% Laba 2026 untuk Dividen, Ini Perkiraan Hak Investor"
-    }
-   ]
-  },
-  {
-   "id": "c75f1a0326fa",
-   "title": "BTN Bayar Bunga Obligasi Rp 5,72 Miliar, Ini Rinciannya",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:25:29+07:00",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdEFCVWhsRkJxN2NkcmV1UEpvSVY0R0ludXF1MFp0WFExcnBpaTkwb3g4QkMtME9qVzkzcVBtMGtIaW93Qk5UZ1lQeHprZ1lXR0pHUDZCTmJuV0s3N0IxYjBEcU1sYWFQTXJCb1JVd2Q1dGE0R2oyX3dqNDNEelp6YmpIdE5MUWwxQnB4S1JoaXFWZ9IBiwFBVV95cUxPVzJUWnhWYnV2UjFQWjBDamJPeWdoMDhzcDBxajEta0tsZTBaaUxuVGFWNTMxR1hiVmo0a0tiOWV4eFpsX014alVYLTJQSFRUYkdxb0hwSE5Zbi1xX1FkZENvUWFFYURudUdmVWV6bmdDNktxdG1YdjZuUU9XbXQ3UnJ1YTlQS0xrazQw?oc=5",
-     "title": "BTN Bayar Bunga Obligasi Rp 5,72 Miliar, Ini Rinciannya"
     }
    ]
   }
