@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:30:09+07:00",
+ "updated": "2026-11-27T19:33:09+07:00",
  "window": {
-  "start": "2026-11-26T19:30:09+07:00",
-  "end": "2026-11-27T19:30:09+07:00",
+  "start": "2026-11-26T19:33:09+07:00",
+  "end": "2026-11-27T19:33:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 159
+   "items": 160
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 153
+   "items": 154
   }
  },
  "prevAt": "2026-11-27T19:03:09+07:00",
@@ -2426,6 +2426,22 @@
      "time": "2026-11-26T21:35:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSTh4b2NMd01QM3BHWUJBVFk3MW9ZRjc5NWxsdGFPZjBldnVKb1hnV2k0a01icDBzUnpFR09BMU5kN0QzTUNWdGRLUFpKWl9hQzh2QXAxd2pjbVY0T1l6VEZpOUxxMFRqdFlwZTVoNnpFWVNkdlVpYUZsM1VpYzRaYmlKZ3ZFcUtEU2xGMzln?oc=5",
      "title": "Emiten Tol Grup Salim (META) Jajaki VTO Tahap Keempat"
+    }
+   ]
+  },
+  {
+   "id": "a17bce3016ea",
+   "title": "Danantara Ukir Laba, Begini Kata Pengamat BUMN",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T19:28:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY1NNUUtaM0FzY0lXNFpBWC1QZXNxLVNtYm5hX3lGaHR1cU5iNmI2WGZfV3dUUk8tZXFkdWFKR0VKQ1pGSnBpR1JBZTRJSlNCeU0tUXFGb3R0bE1WUVFlRF9maG1vT09FM3JqUzdJc2xubFI4MXFrbXpLQmEwbmMzTXZoZ2F1QQ?oc=5",
+     "title": "Danantara Ukir Laba, Begini Kata Pengamat BUMN"
     }
    ]
   },
