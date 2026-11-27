@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:36:09+07:00",
+ "updated": "2026-11-27T19:39:09+07:00",
  "window": {
-  "start": "2026-11-26T19:36:09+07:00",
-  "end": "2026-11-27T19:36:09+07:00",
+  "start": "2026-11-26T19:39:09+07:00",
+  "end": "2026-11-27T19:39:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 160
+   "items": 158
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 153
+   "items": 154
   }
  },
  "prevAt": "2026-11-27T19:03:09+07:00",
@@ -1465,22 +1465,6 @@
      "time": "2026-11-26T19:50:38+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZFSzNieTMtVUJ0MnhneUYzWmdIVTBuVnlqN2tHMkhPOEtCQTBwT2tyNmdtcHBqM1FYTUI2WGwtcm53a2lpUTRyS3p0V19jcndnV0VCcFNTTi1EN2xqeHFPanhDcXdsOUlOVXF5QVVvOVhBSWFOamk4aTAyaFlUT3hpbWQydUtMcVljczlfc2NiR1JlUWY2UzExRC1uV0g3WFBvM2otNjZPRlnSAaMBQVVfeXFMTTVYU0YwQkl5UUlrdVBnVDljNHVnb2VKT0ZELU5sLTg2Zmt3SzJ0TzkwVWlRWkszcS16dkI3MDA1aFRaU2s5STdtbW4wS0Y5UmNXMk9mVUtzRnNuWVlIMnhRanVlckZkT01ZeVdScDAtdjNfTVg1bE40WjlKdktDWUVBTDE2WG9LaVVzSS0wZ3VpWUtjM01aU1RkamJldmtnQ1JhQQ?oc=5",
      "title": "Hypefast Tahan Rencana IPO, Pilih Pantau Kondisi Pasar Hingga Kuartal II"
-    }
-   ]
-  },
-  {
-   "id": "666420c2fdd6",
-   "title": "BFI Finance Siapkan 70% Laba 2026 untuk Dividen, Ini Perkiraan Hak Investor",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:38:40+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGZPR2h6Qm5DMEM1cWZGQzZOa1NzYlNnQS1DWG41NEViM1dtS3dtcDUwSWhDcGNWamt4dE1tRG9pRWZ4LUIyblJVUC1UbWR0aU9NT2FWcDE4OXQ2ZFhtR2FLSXczekpwZnpzM2RLaGlmTXRaVkVrUWFUQjRuZ0JaRWRpT1FkTlJ5dWVkRFE5Ukx4bDZNamJXVHZYdzdXTU8yNV9qVmhSVGxtbWh40gGmAUFVX3lxTE5uZV9GMnh4UnlLRTQxVzFQY0VreUVTOWdudi01NmFMWnVoVmhqRndtWEQ4Y3h2ZXNUdEk1Rk1nVWJiaEZlcUpoc2lHMDJHVTIwbVNLVDVEcTR5QzFHXzA1WkNsQUxRdThLOGNfbWhSNk1ucDV1M2dwQWZzWGxmMUxjS2l1cWVuQnIza054OU1BcGhRWmU4NGlyYzRRbFF2SU56WW1GSXc?oc=5",
-     "title": "BFI Finance Siapkan 70% Laba 2026 untuk Dividen, Ini Perkiraan Hak Investor"
     }
    ]
   },
@@ -3468,22 +3452,6 @@
      "time": "2026-11-26T19:40:30+07:00",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmNTakhJaFlKNXZDNDdySWlYNGJ0ZmhFRE45UWZJcmxQbTRnTzg3RGpxVmp2WXA0NUxNZHRVSjRvTVgyZ0VpdWhVMjZ3WEdBdkxWTklQckhpNXJnNFNCUGdDRDVrVDNPRUl4NmU0OGZ0VEpkTkdyQXVYSnJMR19fN1Nqb0xxSGpxTUJ6LWc5RFhxWHFIeUlQbUJqMkdWRllPcktzb0tDNGQ3VERvMUhEeg?oc=5",
      "title": "Tarif Trump 18%, APSyFI Sebut Ekspor RI Masih Bisa Kompetitif"
-    }
-   ]
-  },
-  {
-   "id": "8aa5430e8d2f",
-   "title": "Buy atau Wait and See? Ini Rekomendasi Analis untuk Saham ENRG",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:37:05+07:00",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXp4aWt5dk9LcVBRbzU3WTc0WGNKSWNQRTVQbWRzWEpxdjFtNGNxUU13ZFNrQVVzRHhtTEJNR1Vxc0hzcUNSTk41d0I3V0Z3Rk1jcFQ2eXMtNGJNX3Y3MUpZdGVqNlhadVQxZUJyWEVkazlhQ3BKWkZmc09rZ1FLaTJGTnlRTVQ3LVRhOGJvaS1TQnBCSGRoNkZraXA4QdIBlgFBVV95cUxQRzVnOXQ5bXJTZWxCWGNNTTdRODI4R2VFWWxBRTZ6NXhYWHNkenVjRURaRko2a1dXdjVFdFRzRVVoRHNtNUsxVndGdXhEX3JIXzZjQUphYlV1blJrQUI1Skx6YUhncDlxSHpDTDVZcHJYWGk5dGN0YUpqM2dkTHlja0ZhU1VKN0xTZlF6SU1vYTI1dFNGclE?oc=5",
-     "title": "Buy atau Wait and See? Ini Rekomendasi Analis untuk Saham ENRG"
     }
    ]
   }
