@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:18:09+07:00",
+ "updated": "2026-11-27T19:24:09+07:00",
  "window": {
-  "start": "2026-11-26T19:18:09+07:00",
-  "end": "2026-11-27T19:18:09+07:00",
+  "start": "2026-11-26T19:24:09+07:00",
+  "end": "2026-11-27T19:24:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 159
+   "items": 182
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 92
+   "items": 93
   },
   "Investor.id": {
    "via": "google",
@@ -3522,22 +3522,6 @@
      "time": "2026-11-26T19:30:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYzcyNldZc251YlBJZUZQajk4QThTTUJIdXg0OWtaUFZMdXV5UzBiQ2MwaTZra0YzS0xWLTgtendIcjFDNC1LdXBYUE11ZXJVYkFzMXRnUkdxaTVfX3hOQjVYVVNkdmVaRTY1YzFMdXJlbGE5ZFNESW9WUFRnejNQQzcxdF92bjZTcDhyR3dleFh0eG9IVlJ1NDY1SWtWTWc2dEVN0gGoAUFVX3lxTE1xUGJaUXVvaWNnUnY2TW5hYmdDZ0dMZUZpWXVNZkVldzFjMVNUWVZBR2FEY291SnRCVU1La1FHTjFXRm5OMEhGUG93SVpXcW93RkxPZnp4VlNSZWtBTVc0TkgzU3AyanJ6cXNZNkJZYnFrcXBhMFVPZ2FBa2ZrTzdNMXJzOG5rcm1KTzBRRG16X0t5aHFDeER1STlyOUdGclJyYmtVZVFEWQ?oc=5",
      "title": "Danantara Catat ROE 8,7 Persen, Jadi Fondasi Awal Konsolidasi BUMN"
-    }
-   ]
-  },
-  {
-   "id": "736de654aa97",
-   "title": "OECD Sarankan Indonesia Naikkan Tarif PPN Secara Perlahan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-26T19:22:47+07:00",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTng0bXhyVERKM21oMVhZUkJjc2IyUW9wVnhkZC1uUUxvOWFldnZyTHJfdlZkekxHaDBQM1hCZmVqM3h3d0N4NGtZVy1ZZDVwUW9MLTdaUUdhb244azdWT0Y3OXQwd2xtbHloWlpha0R1Wk5DUHk5WWc5WGdPbWpOVTFMWHdmeVNMWmpYaXFZU21RUEg3NHREUkdTVzhmdw?oc=5",
-     "title": "OECD Sarankan Indonesia Naikkan Tarif PPN Secara Perlahan"
     }
    ]
   }
