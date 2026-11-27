@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "live": true,
-  "updated": "2026-11-27T10:04:20+07:00",
+  "updated": "2026-11-27T11:09:38+07:00",
   "window": {
     "start": "2026-11-26T19:01:00+07:00",
     "end": "2026-11-27T19:00:00+07:00"
@@ -31,25 +31,28 @@
     }
   ],
   "prevRanks": {
-    "2026-11-27-danantara-laba-2025": 1,
-    "2026-11-27-bumi-kinerja-kuartal3": 2,
-    "2026-11-27-bfin-dividen-70persen": 3,
-    "2026-11-27-byan-komite-audit": 4,
-    "2026-11-27-pack-rupslb-tunda": 5,
-    "2026-11-27-tbig-akuisisi-edotco": 6,
-    "2026-11-27-bbca-dividen-interim3": 7,
-    "2026-11-27-danantara-saham-bei": 8,
-    "2026-11-27-tris-produk-ritel": 9,
-    "2026-11-27-pgeo-rating-sp": 10,
-    "2026-11-27-foru-pendapatan-batubara": 11,
-    "2026-11-27-mdla-distribusi-obat": 12,
-    "2026-11-27-tarif-trump-14-negara": 13,
-    "2026-11-27-ratbi-2027": 14,
-    "2026-11-27-alat-berat-2027": 15,
-    "2026-11-27-danantara-41-proyek-2027": 16,
-    "2026-11-27-el-nino-cpo-2027": 17,
-    "2026-11-27-danantara-utang-whoosh": 18,
-    "2026-11-27-pertamina-minyak-amsel": 19
+    "2026-11-27-bei-suspensi-free-float": 1,
+    "2026-11-27-danantara-laba-2025": 2,
+    "2026-11-27-bumi-kinerja-kuartal3": 3,
+    "2026-11-27-tarif-trump-14-negara": 4,
+    "2026-11-27-bfin-dividen-70persen": 5,
+    "2026-11-27-byan-komite-audit": 6,
+    "2026-11-27-pack-rupslb-tunda": 7,
+    "2026-11-27-tbig-akuisisi-edotco": 8,
+    "2026-11-27-bbca-dividen-interim3": 9,
+    "2026-11-27-danantara-saham-bei": 10,
+    "2026-11-27-tris-produk-ritel": 11,
+    "2026-11-27-pgeo-rating-sp": 12,
+    "2026-11-27-foru-pendapatan-batubara": 13,
+    "2026-11-27-mdla-distribusi-obat": 14,
+    "2026-11-27-danantara-pajak-2025": 15,
+    "2026-11-27-ratbi-2027": 16,
+    "2026-11-27-alat-berat-2027": 17,
+    "2026-11-27-danantara-41-proyek-2027": 18,
+    "2026-11-27-el-nino-cpo-2027": 19,
+    "2026-11-27-danantara-utang-whoosh": 20,
+    "2026-11-27-pertamina-minyak-amsel": 21,
+    "2026-11-27-danantara-standar-kompetensi": 22
   },
   "topics": [
     {
@@ -425,6 +428,101 @@
           "media": "CNBC Indonesia",
           "time": "2026-11-27T09:45:00+07:00",
           "url": "https://www.cnbcindonesia.com/market/20261127082901-17-788938/ini-jurus-danantara-cetak-bos-bos-bumn-penyetaraan-standar-kompetensi"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-anda-ipo-tertunda",
+      "title": "IPO Andalan Artha (ANDA) belum terlaksana, BEI tunggu konfirmasi",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "ANDA"
+      ],
+      "summary": "Penawaran umum saham ANDA yang dijadwalkan 24–27 November 2026 belum dimulai. BEI menyebut jadwal itu indikatif dan masih menunggu konfirmasi perseroan serta penjamin emisi.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-27T10:50:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261127100115-17-788962/ipo-andalan-artha--anda--belum-terlaksana-bei-buka-suara"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-meta-dividen-interim",
+      "title": "Nusantara Infrastructure (META) bagi dividen interim Rp60,64 miliar",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "META"
+      ],
+      "summary": "RUPSLB META pada 26 November menyetujui dividen interim Rp3,5 per saham yang dibayar 3 Desember 2026. Rapat juga mengangkat Francis Gerard E. Aberilla sebagai direktur baru.",
+      "sources": [
+        {
+          "media": "Investor.id",
+          "time": "2026-11-27T10:30:00+07:00",
+          "url": "https://investor.id/market/463542/nusantara-infrastructure-angkat-direktur-baru-tebar-dividen-interim"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-flmc-private-placement",
+      "title": "Falmaco (FLMC) rencanakan private placement 78 juta saham",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "FLMC"
+      ],
+      "summary": "FLMC akan menerbitkan 78,125 juta saham baru seharga Rp100 kepada PT Futura Living Investama, yang kemudian memegang 9,09%. Dana sekitar Rp7,8 miliar dipakai untuk modal anak usaha distribusi; RUPSLB dijadwalkan 28 Desember 2026.",
+      "sources": [
+        {
+          "media": "Investor.id",
+          "time": "2026-11-27T10:45:00+07:00",
+          "url": "https://investor.id/market/463546/pendatang-baru-di-emiten-portofolio-andry-hakim"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-tapg-dividen-anak-usaha",
+      "title": "Anak usaha Triputra Agro (TAPG) setor dividen interim Rp1,33 triliun",
+      "category": "Aksi korporasi",
+      "tickers": [
+        "TAPG"
+      ],
+      "summary": "PT Agro Multi Persada, yang 94,93% sahamnya dimiliki TAPG, membagikan dividen interim sekitar Rp1,33 triliun. TAPG juga menerima Rp599,99 miliar dari PT Union Sampoerna Triputra Persada.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T10:37:00+07:00",
+          "url": "https://investasi.kontan.co.id/news/anak-usaha-triputra-agro-tapg-bagi-dividen-interim-rp-133-triliun"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-zero-odol-logistik",
+      "title": "Kebijakan zero ODOL 2027 berpotensi tekan margin emiten logistik",
+      "category": "Regulasi",
+      "tickers": [],
+      "summary": "Kementerian Perhubungan berencana menerapkan larangan truk kelebihan dimensi dan muatan mulai Januari 2027. Dampaknya ke emiten transportasi dan logistik diperkirakan beragam karena posisi tawar penyedia angkutan lemah terhadap pemilik barang.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T10:00:00+07:00",
+          "url": "https://insight.kontan.co.id/news/kebijakan-zero-odol-2027-berpotensi-tekan-margin-jangka-pendek-emiten-logistik"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-konsumsi-semen-oktober",
+      "title": "Konsumsi semen Oktober 2026 capai 6,3 juta ton, tertinggi tahun ini",
+      "category": "Kinerja",
+      "tickers": [
+        "SMGR",
+        "INTP"
+      ],
+      "summary": "Menurut riset Mirae Asset, konsumsi semen domestik Oktober naik 4,4% secara bulanan dan 3,6% secara tahunan. Semen curah tumbuh 10,9% menjadi 1,9 juta ton, menguntungkan SMGR dan INTP.",
+      "sources": [
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-27T10:10:00+07:00",
+          "url": "https://www.idxchannel.com/market-news/permintaan-semen-menguat-smgr-dan-intp-berebut-momentum"
         }
       ]
     }
