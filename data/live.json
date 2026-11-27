@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T17:23:10+07:00",
+ "updated": "2026-11-27T17:26:11+07:00",
  "window": {
-  "start": "2026-11-26T17:23:10+07:00",
-  "end": "2026-11-27T17:23:10+07:00",
+  "start": "2026-11-26T17:26:11+07:00",
+  "end": "2026-11-27T17:26:11+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 159
+   "items": 158
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 81
+   "items": 82
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 99
+   "items": 100
   },
   "Investor.id": {
    "via": "google",
@@ -299,30 +299,6 @@
      "time": "2026-11-27T11:15:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127100926-17-788971/krakatau-steel--kras--cetak-laba-rp115-m-di-semester-i-2026",
      "title": "Krakatau Steel (KRAS) Cetak Laba Rp115 M di Semester I-2026"
-    }
-   ]
-  },
-  {
-   "id": "ecaf13830687",
-   "title": "Bayan Resources (BYAN) Rombak Komite Audit, Mertua Kapolri Suyudi Ari Seto Masuk",
-   "category": "Kinerja",
-   "tickers": [
-    "BYAN"
-   ],
-   "summary": "PT Bayan Resources (BYAN) merombak Komite Audit, menunjuk Dr. Nurfaizi sebagai Ketua baru dan Indra Surya sebagai anggota.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T17:25:19+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONjFwOFhuczlFX205TnZFeWlnV0NJVDRkTWo1SlMwb1VRRGRyaEU0Z2VFTXVVbzlMWktxVnNUcVYxeGpYbmxaMXJYZE1tV0NvSjJSVUNkY09UcUR2b1B4bVAtUUl5OFFNcHRuZExGY3JTRkhaTzlNVHhYNkhiSkpBZ09yZEd6enU5bEZrbXBJTWd0bUowcUhsekd2TzRRN2tOdHdWQ0RuM0JnOV9ib3RRandJZ9IBqwFBVV95cUxOMWdQREJHWDlXQ2MzQnpYc3d4cnBxaXE2d280eHhNZDhVNHFmbTg1SmtrRU43cEN6Q19iYWpnRTlvMEFkWWNUWkE5WlIwMmdkUkhTN2tsU3JhX3ZEdEhQcnZtMk90WFhUR2pDUGZFSVZQekt1XzZMLWtVQXdDSnBvOGZsQWd0dGdYUTRVZDd5R1EzcldZdG5lQzRHZzdWMWlZR3RxWGFteG9lNTA?oc=5",
-     "title": "Bayan Resources (BYAN) Rombak Komite Audit, Mertua Kapolri Suyudi Ari Seto Masuk"
-    },
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T06:20:02+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-dua-mantan-polisi-jadi-komite-audit",
-     "title": "Bayan Resources (BYAN) Tunjuk Dua Mantan Polisi Jadi Komite Audit"
     }
    ]
   },
@@ -1230,6 +1206,22 @@
    ]
   },
   {
+   "id": "1b73d52de90e",
+   "title": "Enam Terdakwa Kasus Korupsi Minyak Mentah Petral Didakwa Rugikan Negara Rp6,1 Triliun",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "Enam Terdakwa Kasus Korupsi Minyak Mentah Petral Didakwa Rugikan Negara Rp6,1 Triliun. (Foto: Nur Khabibi/iNews Media Group)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T17:22:00+07:00",
+     "url": "https://www.idxchannel.com/news/enam-terdakwa-kasus-korupsi-minyak-mentah-petral-didakwa-rugikan-negara-rp61-triliun",
+     "title": "Enam Terdakwa Kasus Korupsi Minyak Mentah Petral Didakwa Rugikan Negara Rp6,1 Triliun"
+    }
+   ]
+  },
+  {
    "id": "9637352051fa",
    "title": "ZATA Ungkap Alasan Jual Kantor Pusat Elcorps Building di Bawah Harga Buku",
    "category": "Kinerja",
@@ -1738,6 +1730,24 @@
    ]
   },
   {
+   "id": "ce993ded5ee4",
+   "title": "Bayan Resources (BYAN) Tunjuk Dua Mantan Polisi Jadi Komite Audit",
+   "category": "Kinerja",
+   "tickers": [
+    "BYAN"
+   ],
+   "summary": "PT Bayan Resources (BYAN) merombak Komite Audit, menunjuk Dr. Nurfaizi sebagai Ketua baru dan Indra Surya sebagai anggota.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T06:20:02+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-dua-mantan-polisi-jadi-komite-audit",
+     "title": "Bayan Resources (BYAN) Tunjuk Dua Mantan Polisi Jadi Komite Audit"
+    }
+   ]
+  },
+  {
    "id": "981aeec7ee5c",
    "title": "Daftar Saham LQ45 dengan PER Terendah Tertinggi (26 Nov 2026), BRPT Melonjak 14,96%",
    "category": "Kinerja",
@@ -1888,6 +1898,22 @@
      "time": "2026-11-26T18:11:53+07:00",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRjlHRW1VMlJYUGRTeDhTbk9lcV9PdXloZ3NibU1GWjUyZG1kaFd1MFhOSWF3eDRBM2owM2l1Z3pMTGJDdWRoUF93ZUtoM1ZudXhiSU50T0lDVEdaTkdYRmh4RGdfY3BWMnpkUEYwTUdUZXpSSk1HM2IxVnNXbjFUbjZ4U3VmS3JmcEZwVjJxZGo2aWNiUWNHbi1DVjBBVmREN3J3cWY2Z9IBoAFBVV95cUxQX3RuS0p0NE5PSWJDTG1DU3NkYXlJQ04tTUc0OEVQUWZwcXVlU1AtUURGT0VZQkc5a2pnMTRZeFJ4Q2dZRXl2dVdfZUNfdlBhVl8wUk5lMHU0dWlheUhsNFJqMFpHTUpuMU5hWHRLLVhuTEdxVm92alBrb2pqTk9hZ1B4T1lfbTVtLS1STVNYWlpLVThUUG9BMDB4NzZha1Jt?oc=5",
      "title": "Pembiayaan Mobil Bekas BFI Finance (BFIN) Turun 2%, Aset Justru Tumbuh 17%"
+    }
+   ]
+  },
+  {
+   "id": "cd1f258d01e4",
+   "title": "Danantara Mau Sulap Walini jadi 'Sillicon Valley', Dibangun mulai 2027",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "BP BUMN dan Danantara Indonesia rencanakan pembangunan smart city di Walini mulai Januari 2027.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T17:23:02+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127171317-17-789165/danantara-mau-sulap-walini-jadi-sillicon-valley-dibangun-mulai-2027",
+     "title": "Danantara Mau Sulap Walini jadi 'Sillicon Valley', Dibangun mulai 2027"
     }
    ]
   },
