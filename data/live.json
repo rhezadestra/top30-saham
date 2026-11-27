@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T21:04:14+07:00",
+ "updated": "2026-11-27T21:10:15+07:00",
  "window": {
-  "start": "2026-11-26T21:04:14+07:00",
-  "end": "2026-11-27T21:04:14+07:00",
+  "start": "2026-11-26T21:10:15+07:00",
+  "end": "2026-11-27T21:10:15+07:00",
   "hours": 24
  },
  "target": 30,
@@ -43,7 +43,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 91
+   "items": 92
   },
   "IDX Channel": {
    "via": "rss",
@@ -54,8 +54,8 @@
    "items": 0,
    "errors": [
     "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 503: Service Unavailable"
+    "google: HTTPError HTTP Error 429: Too Many Requests",
+    "google: HTTPError HTTP Error 429: Too Many Requests"
    ]
   },
   "Investor.id": {
@@ -1463,24 +1463,6 @@
    ]
   },
   {
-   "id": "0ca35b8abd40",
-   "title": "Kian Santang (RGAS) Raih Kontrak Rp 72,68 Miliar dari Pertamina, Ini Detilnya",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "RGAS"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T21:09:37+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQkJkb1RmMGhvdXJJWDU3ZTRtVHR1Tm03bnFOVGlGQ2cxTTRsVzBjZ0s5WkNQWGxvSUlCaG81c1QyUmNGM0MyWkJwbVViQjJKaXlRNDc1b25RMzdndkM5OThVMy02N2FhYm1ZcVFIejhKd0ZKNEF0cEZ6eVhjZTdWUjJCTzVIeWNCaDliNHotSXBKMU1ZZ3FwU1l0d1ljRE0yYnA1TU9lbHNZNTZKMEHSAaYBQVVfeXFMUGZNWXJjWHF6dkVRNmhRYmg1eFJDZU5GYkN4QzJ0bkV4Wk53MXVablB3Ylp3QkR0aFlIdTBQdW5aSC10ZVhsSlN1RlZsdGoxQ0NVeXZlYm9zRmFBMEtyZ1NndElneHJWcXBKTnNHZ3U2NkpCaVhwNWNtREduMlE5TjNuLWFnWWZFSjBlbFBNV1F5REdqQ19jeXV0WTYtM2hZRk5NZmxOdw?oc=5",
-     "title": "Kian Santang (RGAS) Raih Kontrak Rp 72,68 Miliar dari Pertamina, Ini Detilnya"
-    }
-   ]
-  },
-  {
    "id": "79892b614d9e",
    "title": "OJK Perlu Perkuat Pengawasan Pasar Modal, Pengamat Soroti Penanganan Kasus",
    "category": "Regulasi",
@@ -2454,6 +2436,22 @@
      "time": "2026-11-26T21:35:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSTh4b2NMd01QM3BHWUJBVFk3MW9ZRjc5NWxsdGFPZjBldnVKb1hnV2k0a01icDBzUnpFR09BMU5kN0QzTUNWdGRLUFpKWl9hQzh2QXAxd2pjbVY0T1l6VEZpOUxxMFRqdFlwZTVoNnpFWVNkdlVpYUZsM1VpYzRaYmlKZ3ZFcUtEU2xGMzln?oc=5",
      "title": "Emiten Tol Grup Salim (META) Jajaki VTO Tahap Keempat"
+    }
+   ]
+  },
+  {
+   "id": "ce290a6450df",
+   "title": "Singgung Pelanggaran Pasar Modal, Prabowo: 60 Orang Diperiksa",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Presiden Prabowo menegaskan tindakan tegas terhadap praktik manipulasi saham di Indonesia. Puluhan pelaku sedang diperiksa.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T21:07:01+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127210416-17-789242/singgung-pelanggaran-pasar-modal-prabowo-60-orang-diperiksa",
+     "title": "Singgung Pelanggaran Pasar Modal, Prabowo: 60 Orang Diperiksa"
     }
    ]
   },
