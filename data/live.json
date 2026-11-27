@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T06:14:05+07:00",
+ "updated": "2026-11-28T06:20:05+07:00",
  "window": {
-  "start": "2026-11-27T06:14:05+07:00",
-  "end": "2026-11-28T06:14:05+07:00",
+  "start": "2026-11-27T06:20:05+07:00",
+  "end": "2026-11-28T06:20:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 163
+   "items": 157
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 131
+   "items": 132
   }
  },
  "prevAt": "2026-11-28T05:59:06+07:00",
@@ -2392,24 +2392,6 @@
      "time": "2026-11-27T06:25:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tNUx4akxMeXR5SDlySjBBcDlOM1NBcU5UZUh6Y1ZkN1BUMzI2UlRUdXlQMEZxVVVORm92X2QzTl9aYk5IU2FVWW05V3d6TG9FRHpGeUhOQ3ZVSkk3cXdtZm13anhLeE44cDBLNXJrNzVTMXgw?oc=5",
      "title": "Big Money Berlabuh di Saham BBCA"
-    }
-   ]
-  },
-  {
-   "id": "ce993ded5ee4",
-   "title": "Bayan Resources (BYAN) Tunjuk Dua Mantan Polisi Jadi Komite Audit",
-   "category": "Kinerja",
-   "tickers": [
-    "BYAN"
-   ],
-   "summary": "PT Bayan Resources (BYAN) merombak Komite Audit, menunjuk Dr. Nurfaizi sebagai Ketua baru dan Indra Surya sebagai anggota.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T06:20:02+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-dua-mantan-polisi-jadi-komite-audit",
-     "title": "Bayan Resources (BYAN) Tunjuk Dua Mantan Polisi Jadi Komite Audit"
     }
    ]
   },
