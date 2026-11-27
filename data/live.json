@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T04:31:05+07:00",
+ "updated": "2026-11-28T04:37:06+07:00",
  "window": {
-  "start": "2026-11-27T04:31:05+07:00",
-  "end": "2026-11-28T04:31:05+07:00",
+  "start": "2026-11-27T04:37:06+07:00",
+  "end": "2026-11-28T04:37:06+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 160
+   "items": 184
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 68
+   "items": 67
   },
   "IDX Channel": {
    "via": "rss",
@@ -49,7 +49,10 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 118
+   "items": 56,
+   "errors": [
+    "google: URLError <urlopen error _ssl.c:1063: The handshake operation timed out>"
+   ]
   }
  },
  "prevAt": "2026-11-28T03:45:38+07:00",
@@ -763,30 +766,6 @@
      "time": "2026-11-27T11:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTTF2Q0NJRE83czNxWVROLWNvV3hTczZaeUZlNmxVcW1jeTQ2YjhrUkRxcG9TOVpodWh5V2gzc24yeTdUSHBtWTZjb1dHTnMyQmR3UEg0Z09uRmFrZENOTk1DTHhDeGNlVG5RQ3pKQWtuNjh4U0VZaFRueGFQcURRU29KbTUwTkVuRWh6bVZqemw5Y1dSMXpZLdIBmwFBVV95cUxPSm5rLWY4UmdmaE5OZHJrTG1RdlJmcThTNzV2aERMcXRWZl9hTzBVblpSY0s1MTJmQ1JSbER4V1p1SVBpZVBqTEg2dG5WMkFGYWVyRUk1YngtQm5tczBuanotaXd0YWVQcnFtUzdTdmhuVmtFaVFDR2FjUDJNSGNJY2NSNllDa2VNbHVIeDhibzVpaEN3V2RTREl0cw?oc=5",
      "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
-    }
-   ]
-  },
-  {
-   "id": "e55835096b06",
-   "title": "Penjualan Alat Berat 2027 Diprediksi Melambat",
-   "category": "Kinerja",
-   "tickers": [
-    "UNTR"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T04:35:13+07:00",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY0pKbU1NQWZtc29nMVNFTUdOUkhJVFBpRFVkcGVBUlcxR2hKXzhxQkNfNnU2Y2lDNkdfWmJwaWgtREtzSkFYV04wSjJTUVExTHRKbHRKaWV2OHBSNGNOMkFzaFFGaTNlbHQ5S0dnZE5wU0h0dE5vWHJ3NHRWWEdBS1N6Z2ZIZw?oc=5",
-     "title": "Penjualan Alat Berat 2027 Diprediksi Melambat"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T18:43:08+07:00",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTU02akN6MDFFU3pxekF3UWJZcHkzX2s1ZTRUQ25HS2ZPdjNvVktiZDZNSzRzUGx3OVpHQ1NqWmJsYUQzLXdnSTE3NHk2VG5Sb0VvVzlnNS1qOUVvaUVfc3FWMFRaTWh4SmxOeDFsUWlCUDJqMEtDWWZ2dmNrcWpJclZVWFBFdVZLWkJVOEVoNTU3TE11TGF0Szlpb2FpVmPSAZcBQVVfeXFMTnZ1ekhWM1VlbkhoSi1FTUo1Y0VaRFVOdDhmVG8xNEplaVpJZnl5cUVvUUNBcWQ2bGpCYmJCSW9jQmtjMUFGSVJNNXFLOXRoQWpzXzIyMkNrVUNybE80dWRDWm01R0VJR2RoZ3llQWppWF94RXJMdVBNSFFrMy05am9DcVRZbzRacVpwZFpUM21lem5WQ0ZnMA?oc=5",
-     "title": "Penjualan Alat Berat UNTR Turun, Bagaimana Prospeknya pada 2027?"
     }
    ]
   },
@@ -1827,6 +1806,24 @@
      "time": "2026-11-27T18:49:43+07:00",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOEVpNWtBbTN3TGhSUy1FWjdvYWFXZ2VyVHd4a3dCM0hIWndSTHJOWkg0eGZ5a2hVakFjRnB2R2U3VDY0YzdqRFBYeXJJU054UDlYRHFIUk1VTHdQVGJKQWNRM0p5OXdyMDNHQ2dXWEdXSDMxSXRNVWFzaGZoSGZMRm1BMFdaUXFwYTQ5ZE1ha0ZCbjhHQ180OFRMc285aTI5d3YyRUR4WlVGUDNDS1F4dUdqcEwxN1JhTUJsVWhGZw?oc=5",
      "title": "Citilink Umumkan Penjualan Lima Aset Pesawat Boeing 737-300 dan Engine"
+    }
+   ]
+  },
+  {
+   "id": "d8f02c375470",
+   "title": "Penjualan Alat Berat UNTR Turun, Bagaimana Prospeknya pada 2027?",
+   "category": "Kinerja",
+   "tickers": [
+    "UNTR"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T18:43:08+07:00",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTU02akN6MDFFU3pxekF3UWJZcHkzX2s1ZTRUQ25HS2ZPdjNvVktiZDZNSzRzUGx3OVpHQ1NqWmJsYUQzLXdnSTE3NHk2VG5Sb0VvVzlnNS1qOUVvaUVfc3FWMFRaTWh4SmxOeDFsUWlCUDJqMEtDWWZ2dmNrcWpJclZVWFBFdVZLWkJVOEVoNTU3TE11TGF0Szlpb2FpVmPSAZcBQVVfeXFMTnZ1ekhWM1VlbkhoSi1FTUo1Y0VaRFVOdDhmVG8xNEplaVpJZnl5cUVvUUNBcWQ2bGpCYmJCSW9jQmtjMUFGSVJNNXFLOXRoQWpzXzIyMkNrVUNybE80dWRDWm01R0VJR2RoZ3llQWppWF94RXJMdVBNSFFrMy05am9DcVRZbzRacVpwZFpUM21lem5WQ0ZnMA?oc=5",
+     "title": "Penjualan Alat Berat UNTR Turun, Bagaimana Prospeknya pada 2027?"
     }
    ]
   },
