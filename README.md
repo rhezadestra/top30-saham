@@ -6,7 +6,7 @@ Alamat: https://rhezadestra.github.io/top30-saham/
 
 ## Cara kerja
 
-1. Workflow GitHub Actions `.github/workflows/live.yml` menjalankan `scripts/update_live.py` tiap 6 menit. Satu run berjalan ±55 menit lalu memicu run berikutnya sendiri, karena jadwal bawaan GitHub sering tertunda sampai satu jam. Jadwal `*/10` tetap ada sebagai cadangan untuk menyambung rantai jika putus. Untuk menghentikan, batalkan run yang sedang berjalan (Cancel) lalu nonaktifkan workflow di tab Actions.
+1. Workflow GitHub Actions `.github/workflows/live.yml` menjalankan `scripts/update_live.py` tiap 3 menit. Satu run berjalan ±55 menit lalu memicu run berikutnya sendiri, karena jadwal bawaan GitHub sering tertunda sampai satu jam. Jadwal `*/10` tetap ada sebagai cadangan untuk menyambung rantai jika putus. Untuk menghentikan, batalkan run yang sedang berjalan (Cancel) lalu nonaktifkan workflow di tab Actions.
 2. Skrip mengambil RSS tiap media. Jika RSS langsung tidak bisa diambil dari server (Kontan, Bisnis, dan Investor.id memblokir), skrip memakai Google News RSS untuk situs media itu.
 3. Berita pergerakan harga, net buy/sell asing, harga emas, dan kurs dibuang berdasarkan kata kunci di judul.
 4. Artikel digabung per peristiwa: kode saham dan jenis aksi yang sama (dividen, rights issue, IPO, delisting, dan lain-lain) dengan beberapa kata kunci sama, atau judul yang sangat mirip.
@@ -20,7 +20,7 @@ Alamat: https://rhezadestra.github.io/top30-saham/
 | `index.html` | Tampilan dan logika aplikasi |
 | `manifest.webmanifest`, `sw.js`, `icons/` | Bagian PWA (pasang di layar utama, buka offline) |
 | `scripts/update_live.py` | Pengambil berita, hanya pustaka standar Python |
-| `.github/workflows/live.yml` | Pembaruan berantai tiap 6 menit |
+| `.github/workflows/live.yml` | Pembaruan berantai tiap 3 menit |
 | `data/live.json` | Topik 24 jam terakhir, dibaca aplikasi |
 | `data/articles.json` | Simpanan artikel 36 jam, supaya artikel tidak hilang saat RSS bergulir |
 | `data/ringkasan.json` | Ringkasan AI per topik (poin-poin), ditulis tugas terjadwal Claude |

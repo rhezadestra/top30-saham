@@ -1,7 +1,7 @@
 name: Perbarui berita live
 
 # Jadwal GitHub sering tertunda sampai satu jam, jadi setiap run memperbarui berita
-# tiap 6 menit selama ±55 menit, lalu memicu run berikutnya sendiri (rantai).
+# tiap 3 menit selama ±55 menit, lalu memicu run berikutnya sendiri (rantai).
 # Jadwal di bawah hanya cadangan untuk menyambung rantai jika sempat putus.
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 70
     env:
-      INTERVAL: 360        # detik antar pembaruan (6 menit)
+      INTERVAL: 180        # detik antar pembaruan (3 menit)
       DURATION: 3300       # lama satu run sebelum menyambung ke run berikutnya (55 menit)
     steps:
       - uses: actions/checkout@v4
