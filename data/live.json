@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T21:36:43+07:00",
+ "updated": "2026-11-27T21:45:42+07:00",
  "window": {
-  "start": "2026-11-26T21:36:43+07:00",
-  "end": "2026-11-27T21:36:43+07:00",
+  "start": "2026-11-26T21:45:42+07:00",
+  "end": "2026-11-27T21:45:42+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,14 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 184
+   "items": 138,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 90
+   "items": 89
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,11 +48,14 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 88
+   "items": 89
   },
   "Investor.id": {
    "via": "google",
-   "items": 144
+   "items": 57,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   }
  },
  "prevAt": "2026-11-27T21:04:14+07:00",
@@ -2438,6 +2444,22 @@
      "time": "2026-11-26T22:31:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ0QweC1tQ0txVm1ZbG9tYmR6R3lHdTRuY3AzN2NucFdkU3lmOHV5T2xkS0tzaDBVUFF5Sk9fdkhwNXVMdUY4TjJCazZSSGNLblphc2E0MU1PZE93Q01BRkN3ZFZlM3BIWS0zYkNoTmpfREVvVEJKQThnZ1VmWmZZQ0o1eGJoOF9BRGZZenF1Z3FQcVVRb245OXhLTdIBlAFBVV95cUxPQkhPLV9WT3lDeHJvTFNHRVl0dFJzTjVUYmlwT3pUV1dJM2JnSUREdzlEVHVUcG9UR3B6RXhMR1lmMEowcjg2Si16OFBOYkdfX24xcHYxU1RTWk5PZW12WGhRRUdaOU9jblVzeEVUcVFYT1VFUTFJV294TGFEQlJjUV9UM1dhT1VkX1BFbkk2dEtaTUxD?oc=5",
      "title": "Akulaku Finance Gandeng Bank Jago Perluas Pembiayaan Digital"
+    }
+   ]
+  },
+  {
+   "id": "be22f8145d5e",
+   "title": "Airlangga Bandingkan Pengenaan Tarif AS: Indonesia 'Cuma' 18%, Vietnam 35%",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T21:40:49+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWlRZeS1uSmFGb01XWEJUemFwQUNMSnVueHZqMUVNelY0Q3JDVExMVGkwYmpPM3FSaUtoSVJEbUJ5ZGhZWk9EeldLRHpGdjBZYkpqNHRLYW16M0FrbTRud0lhOHhwNGF1NXk0S0xLTUt0WVhpT196cmRobmZOZzlCbjQtSzhqcGdRNll5UzRsS0huRHpfcjR3dDljcm5JZU5OOTVBeUltRHFJeUNzMzFCOGkyblJMQXhCZkFJ?oc=5",
+     "title": "Airlangga Bandingkan Pengenaan Tarif AS: Indonesia 'Cuma' 18%, Vietnam 35%"
     }
    ]
   },
