@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:42:39+07:00",
+ "updated": "2026-11-27T19:45:40+07:00",
  "window": {
-  "start": "2026-11-26T19:42:39+07:00",
-  "end": "2026-11-27T19:42:39+07:00",
+  "start": "2026-11-26T19:45:40+07:00",
+  "end": "2026-11-27T19:45:40+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 182
+   "items": 181
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -3422,22 +3422,6 @@
      "time": "2026-11-26T19:54:02+07:00",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTExNSWFxUzVNU3VXWmQzaVVzREpXNjgtTkE1X0E1UjZ6cVlLMFhET2Z5VC1YcmpQTFFJM0YzVFBwRnlxTUNmME5uZWVWeER6SkluTm9wdVFKLW9WMndqU1pwNktvcFlvOEpybmFSb3FZQk1XbjJPWHpqUGY4VDVDQkFnY1d5ZzI0VERpVE4zSVQ4ZmJ2WUdNcjMySXZSRDFfVF84SS1lTjVIYXg3VElFSFo2Sk1XQQ?oc=5",
      "title": "Ekonomi Sawit RI Tembus Rp2.335 Triliun, Sumbang 13,8% PDB Nasional"
-    }
-   ]
-  },
-  {
-   "id": "068ebe84237b",
-   "title": "Bursa RI Masih Dihantui Aksi Jual Asing, Ini Prediksi hingga 2027",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:43:27+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSFg1bUVsMjRWUzVhR2d3ek5ZMldXeFZUa2RuVFdRaGM0Z1pXZEhUTE9OaTlqYnZVOWpMMG0xTTdYdWExN2pqQUQyaE1OUjl4Q3g1T0VpUnJjTW1oS1RRblUyUGdHS3JvSGFQaWZSOWUzbjVMRHVWcHBnNnVWLXgxcU5mVmRJZDF1WlV1TUFLQUladjFaVm56ay1JbTRlNjV1eHfSAZoBQVVfeXFMT0YzMFJBQWxBLXZLT2xCVkFib3RmZjdiUGxUWE9HZEFoSzZNcXFXdHJBN1luVnJLVUNrLXRBOEw0VUJmMHR5WHNhXzFUcEUzLWxfS1hJMVJ0Znp1YkFvRHpDUjlScE9sZVFvazVkdlFtUFpMRDFpUW9KR3FkRUZGWGpGZTdVQklRV0phcnE1VW5ROFVPV0tTNFZaZw?oc=5",
-     "title": "Bursa RI Masih Dihantui Aksi Jual Asing, Ini Prediksi hingga 2027"
     }
    ]
   }
