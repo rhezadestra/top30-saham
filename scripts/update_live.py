@@ -64,7 +64,8 @@ HARD_EXCLUDE = re.compile(r"""
   harga\ emas | emas\ antam | buyback\ emas | \bkurs\b | \brupiah\b | dolar\ as\ (menguat|melemah) | \bbitcoin\b | \bkripto\b | \bcrypto\b |
   rekomendasi\ saham | saham\ pilihan | analisis\ teknikal | rekomendasi\ teknikal | \bteknikal\b | trading\ (hari|pekan) |
   saham\ (paling\ )?(cuan|boncos) | saham\ (yang\ )?(ara|arb)\b | \b(ara|arb)\b | proyeksi\ ihsg | gerak\ ihsg |
-  \bvideo:? | \bfoto:? | \bpodcast\b | \blive\b: | harga\ (bbm|cabai|beras)
+  \bvideo:? | \bfoto:? | \bpodcast\b | \blive\b: | harga\ (bbm|cabai|beras) |
+  kumpulan\ berita | terbaru\ dan\ terkini | berita\ terkini | ^berita\ \w+\ hari\ ini
 """, re.I | re.X)
 
 # Pergerakan harga yang masih boleh jika ada peristiwa korporasi di judul.
@@ -192,9 +193,18 @@ def host_ok(url, domains):
     return any(h == d or h.endswith("." + d) for d in domains)
 
 
+MEDIA_SUFFIX = re.compile(r"\s+[-–|]\s+(bisnis|kontan|investor|investortrust|idx\s?channel|idxchannel|cnbc)[\w.]*\.{0,3}\s*$", re.I)
+
+
 def strip_source_suffix(title, m):
-    # Judul Google News diakhiri " - Nama Media".
-    return re.sub(r"\s+[-–|]\s+[^-–|]{2,40}$", "", title).strip()
+    # Judul Google News diakhiri " - Nama Media", kadang dua kali atau terpotong ("- Bisnis.").
+    title = re.sub(r"\s+[-–|]\s+[^-–|]{2,40}$", "", title).strip()
+    for _ in range(3):
+        new = MEDIA_SUFFIX.sub("", title).strip()
+        if new == title:
+            break
+        title = new
+    return title
 
 
 def collect(m, now):
@@ -246,12 +256,22 @@ def keep_article(a):
     return bool(RELEVANT.search(t + " " + a.get("desc", "")))
 
 
+# Kode saham besar yang sering ditulis tanpa kurung. Kode lain dikenali setelah pernah muncul dalam kurung, mis. "Bumi Resources (BUMI)".
+COMMON_TICKERS = set("""AADI ADRO AMMN AMRT ANTM ASII BBCA BBNI BBRI BBTN BMRI BRIS BREN BRPT BUMI BYAN CPIN CUAN DSSA EXCL GOTO ICBP
+INCO INDF INKP INTP ISAT ITMG JPFA JSMR KLBF MAPI MDKA MEDC PGAS PGEO PTBA SMGR TLKM TOWR UNTR UNVR TPIA PANI DEWA RAJA""".split())
+KNOWN_TICKERS = set(COMMON_TICKERS)
+
+
 def tickers_of(title):
     found = re.findall(r"\(([A-Z]{4})\)", title)
     letters = [c for c in title if c.isalpha()]
     mostly_caps = letters and sum(c.isupper() for c in letters) / len(letters) > 0.6
     if not mostly_caps:
-        found += [w for w in re.findall(r"\b[A-Z]{4}\b", title) if w not in TICKER_STOP]
+        found += [w for w in re.findall(r"\b[A-Z]{4}\b", title) if w in KNOWN_TICKERS and w not in TICKER_STOP]
+        # Kata pertama berhuruf kapital empat huruf hampir selalu kode saham ("BWPT Tawarkan Obligasi").
+        m0 = re.match(r"([A-Z]{4})\b", title)
+        if m0 and m0.group(1) not in TICKER_STOP:
+            found.insert(0, m0.group(1))
     out = []
     for t in found:
         if t not in out and t not in TICKER_STOP:
@@ -269,7 +289,8 @@ def event_keys(title):
 
 
 def category_of(text, has_ticker):
-    for name, rx in CAT_RULES:
+    rules = CAT_RULES if has_ticker else [r for r in CAT_RULES if r[0] != "Kinerja"] + [r for r in CAT_RULES if r[0] == "Kinerja"]
+    for name, rx in rules:
         if rx.search(text):
             return name
     return "Kinerja" if has_ticker else "Makro"
@@ -372,6 +393,11 @@ def main():
 
     cutoff = now - timedelta(hours=KEEP_H)
     articles = sorted((a for a in store.values() if datetime.fromisoformat(a["time"]) >= cutoff), key=lambda a: a["time"])
+    for a in articles:
+        KNOWN_TICKERS.update(re.findall(r"\(([A-Z]{4})\)", a["title"]))
+    for a in articles:
+        if a["media"] in ("Bisnis", "Kontan", "Investor.id", "IDX Channel", "CNBC Indonesia"):
+            a["title"] = MEDIA_SUFFIX.sub("", a["title"]).strip()
     kept = [a for a in articles if keep_article(a) and datetime.fromisoformat(a["time"]) >= start]
     topics = cluster([dict(a) for a in kept])
     ranks = rank(topics, start, end)
