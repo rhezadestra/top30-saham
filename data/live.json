@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:06:09+07:00",
+ "updated": "2026-11-27T19:12:09+07:00",
  "window": {
-  "start": "2026-11-26T19:06:09+07:00",
-  "end": "2026-11-27T19:06:09+07:00",
+  "start": "2026-11-26T19:12:09+07:00",
+  "end": "2026-11-27T19:12:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,10 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 141,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 159
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -48,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 91
+   "items": 92
   },
   "Investor.id": {
    "via": "google",
@@ -1754,6 +1751,22 @@
      "time": "2026-11-27T05:35:04+07:00",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ09IV2FLeFJ1R0FpM1RwXzkzNFZwdGczLVZiazFrek1hWng3YXhMczM4V0ptNEVGVnp1RVA5VFBubVI3Wm1GNjN0Y0dJeGVUV21wei1TaXowN0dRUHZRaTB2anFCaFFPRS1Nc0pjckZpQ0pFOWRSQTBaS2tLS015YkY2UldRaDR4Q0Y3cjF6aEZhd1ZVZnRGcUs5Z3BlMW1QY2fSAZoBQVVfeXFMT0NlaC0yTEQwVE1iSndadEZwdUhxX1NTd1ktbV83UW9XOWhFbDRrZnNMdktXTmo4ZjN6WDdfcTFoVW15Vl8xQllrOHFnZHpmaURzQmd0UVRJNVRwX3JlcXFpMTNkZXBhOVVWY2w4RUZTTEQzYmk5a1c4MVhUdGtKcmhYOUR4eXdWQWRFYm1peHRibW1OWUJOTWJVUQ?oc=5",
      "title": "Transaksi Non-HSC Naik 12,9%, HSC Turun 15,4% di BEI (26 November 2026)"
+    }
+   ]
+  },
+  {
+   "id": "853a7f067efb",
+   "title": "Pertamina Targetkan Pengeboran Sumur Besar-1 di Natuna pada Kuartal I/2027",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T19:07:46+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYW5PSHBvR1dtWDdJTWtiazJRZWtubHBjd3BSbnhLQXE2ZFBid3VxdW9DT2xEdVA0VG1aQWM2dUpNVDVxSUl6QlVwNVJ1ZExKdDYtcThGbEN2UVFad2U4T2RVR2d4MGlyTDNjdEYwOXluTkVDdFZpOXhTSHozZlFuendtVW5NNWxRV09RSldaTVA4aU12b2RJcWE4eGVXWC1GMTRYemhGYzQzTHRScFpxdTQ5Ykl4M2tnWjBaVU9Td1NvNmc?oc=5",
+     "title": "Pertamina Targetkan Pengeboran Sumur Besar-1 di Natuna pada Kuartal I/2027"
     }
    ]
   },
@@ -3527,22 +3540,6 @@
      "time": "2026-11-26T19:17:44+07:00",
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUXFwT3JnUlNwYUJHVm5Kbkl6bjI4OEg1MW8xbDRoakd5bGNTR0VfV050RTRDd0x6VHhoNC1SLUZ0MXJ0UFBTaUpzRFlEWjF1SXJrTE5qVG9pMndEZl9UUFBDNUo2RVZqR0R5MjlSMmRmV1ZLVFM0MkdwMGY1cTJ3QS1wMHczb2Z0alRRdVF3UllUT1RqTXZyZF81aVNPQdIBlwFBVV95cUxOTjE2Q0ZLLVU4Ni1sbGZiaGVLUzNSYjVfOUQ4U2Z6Y2V5dV9iMW9pMDlIVEVsbU5ITWc2T3R0V1hETlA3Z0g3NHQtRkJHeXFfelZHSU5kMC1kV3JDTkV4UXVVZXI4NHRhZm5MWTl5Yk82dHhNZXdET0FXd3hQZ05rWlhqR0lNdDMtaEFyUjE0VFNiVDUxMi1R?oc=5",
      "title": "SMBC Indonesia Dukung UMKM Tembus Pasar Ekspor Lewat Daya Fest"
-    }
-   ]
-  },
-  {
-   "id": "fe15db712326",
-   "title": "Laba Bersih Danantara Rp 259,6 Triliun pada 2025, Simak Prospek Emiten Asuhannya",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:10:08+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRjMzektCdlVWaTlRYkIya296YjlfQm9wZXBDQmRNOXNqLXp1a1NaVzczaC13dTRFWHhMNDRDcHN2YllQd1NOendNREw5eVpVTU53enpFdFNkV0tTN1pkTUwxcGNXR2pCYXY2UnUxSmRnX3RkR3ZDQ2U4Nzg2ZTc5M0xtS2tkOGx5N1JDVWxndDh6TDdVbDhORDA1YVR0bk9QaTlrenlCd2c0bGN1cXVNZ0QtQjPSAawBQVVfeXFMTXJ1QjhuLWZKbW51SGY2azlkTjk3RlpzY1ZrWktIdnVQZnVwOFNRMUJWVk9MUkxZcjZ4SnpxYWxxSFJBc2E0cW1yQTNRSEd0cXNqaDhhWWpSZHV1MkxoOHdyRW9CeC15M1pjdmV3LWlrdFhrMUtudDNZQ3RGYVhhZG96QlNRQmJQcGVob0o3OVhlOW94aU1wOXduVERkMTd5NC1EelJQUnlzZ2tibQ?oc=5",
-     "title": "Laba Bersih Danantara Rp 259,6 Triliun pada 2025, Simak Prospek Emiten Asuhannya"
     }
    ]
   }
