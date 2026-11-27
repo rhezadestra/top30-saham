@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T06:11:05+07:00",
+ "updated": "2026-11-28T06:14:05+07:00",
  "window": {
-  "start": "2026-11-27T06:11:05+07:00",
-  "end": "2026-11-28T06:11:05+07:00",
+  "start": "2026-11-27T06:14:05+07:00",
+  "end": "2026-11-28T06:14:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,10 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 144,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 163
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -2413,24 +2410,6 @@
      "time": "2026-11-27T06:20:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-dua-mantan-polisi-jadi-komite-audit",
      "title": "Bayan Resources (BYAN) Tunjuk Dua Mantan Polisi Jadi Komite Audit"
-    }
-   ]
-  },
-  {
-   "id": "2fb2f7bbe4a7",
-   "title": "Laba Bersih Meroket 404%, Tapi Harga Saham BUMI Masih Anjlok 68%? Pilih Beli / Tahan?",
-   "category": "Kinerja",
-   "tickers": [
-    "BUMI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T06:12:08+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNW12UWdDcGFQZWgxanlpcFo5b2NSbVJUV014THVEWEVWZDlwcGlJOGRULUxqM1cwdTQwcUxpUDE5THpSUUw3eTh1dGswTlNiMTRxV1B6eGktZFFpWkg3OW9FWWpLWWtmNG9WVHhmamFaYjF6QVRlcG5SUy1GRFZJOFAxeFk2SjB4Tlk5ZVFJWm5fNGxxQUJPUlZvbVdSZHlGVXRBdl9XaTh5RFBDRnB2YkVDZFnSAawBQVVfeXFMUEpkbm40eW85dWJzdXVESnUzRmRZLVNFT3dCdzk3Y29qYU5ISk9kcjBlZHlwbDhmQkRRbnlGOTFVNXRCSVRLVGs1ek1Td1djTVNhREtZcE56Zk1yaTd4Um1hV2NzZWJ1aHctYUxLSjRwYkJIZ1dFU1ZHc0hJaHVGVDFKeU5uQWNQN1dyNlN2RFBGU3VCWVRCWVhyOWw5cS1OLThYYk1mamtXT09qNg?oc=5",
-     "title": "Laba Bersih Meroket 404%, Tapi Harga Saham BUMI Masih Anjlok 68%? Pilih Beli / Tahan?"
     }
    ]
   },
