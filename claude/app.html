@@ -618,7 +618,7 @@ footer p { margin: 0; }
   // karena di sana data sudah dicek sendiri tiap menit.
   const REFRESH_TRIGGER = "trig_01FAu7AMS83LpTgqtE6BFtBs";
   const CC_SERVER = "Claude Code Remote";
-  const COOLDOWN_MS = 4 * 60 * 1000;
+  const COOLDOWN_MS = 5 * 60 * 1000;
   const LAST_FIRE_KEY = "top30.lastFire";
   let mcpApi = null, watchTimer = null;
 
@@ -645,7 +645,7 @@ footer p { margin: 0; }
         if (ed.updated !== before) {
           clearInterval(watchTimer);
           await load(true);
-          setStatus("Berita diperbarui: data pukul " + fmtTime(ed.updated) + " WIB.", "ok");
+          setStatus("Berita diperbarui: data pukul " + fmtTime(ed.updated) + " WIB. Ringkasan AI topik baru sedang ditulis dan muncul sendiri.", "ok");
           return;
         }
       } catch (e) { /* coba lagi pada putaran berikutnya */ }
@@ -662,7 +662,7 @@ footer p { margin: 0; }
     try {
       await mcpApi.callTool(CC_SERVER, "fire_trigger", { trigger_id: REFRESH_TRIGGER }, { cache: false });
       try { localStorage.setItem(LAST_FIRE_KEY, String(Date.now())); } catch (e) {}
-      setStatus("Mengambil berita terbaru… biasanya 2–4 menit. Kartu ini dimuat ulang sendiri setelah selesai.", "");
+      setStatus("Mengambil berita terbaru… daftar berganti dalam ±1–3 menit, lalu ringkasan AI untuk topik baru menyusul beberapa menit kemudian.", "");
       lockButton();
       watchForNewData(state.ed && state.ed.updated);
     } catch (err) {

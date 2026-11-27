@@ -51,7 +51,7 @@ Aplikasi mencocokkan ringkasan lewat id topik, atau lewat URL artikel jika penge
 
 ## Kartu di Claude dan tombol "Perbarui sekarang"
 
-`claude/app.html` adalah sumber halaman versi kartu Claude (artifact). Kartu itu salinan data, karena halaman di Claude tidak boleh mengambil data dari situs lain. Tombol **Perbarui sekarang** di kartu memanggil tugas Claude "Top 30 Berita Saham – segarkan kartu Claude" lewat sambungan Claude Code Remote. Tugas itu mengambil `data/live.json` dan `data/ringkasan.json` terbaru dari repo ini, lalu memublikasikan ulang kartu (±2–4 menit). Di GitHub Pages tombol ini tersembunyi, karena halaman mengecek data sendiri tiap menit.
+`claude/app.html` adalah sumber halaman versi kartu Claude (artifact). Kartu itu salinan data, karena halaman di Claude tidak boleh mengambil data dari situs lain. Tombol **Perbarui sekarang** di kartu memanggil tugas Claude "Top 30 Berita Saham – segarkan kartu Claude" lewat sambungan Claude Code Remote. Tugas itu langsung memasang `data/live.json` dan `data/ringkasan.json` terbaru dari repo ini ke kartu (±1–3 menit), lalu menulis Ringkasan AI untuk topik baru yang belum punya ringkasan (dipilih `scripts/pick_for_summary.py`: 30 terpopuler + 30 terbaru dalam 12 jam, maks 15 per ketukan), mem-push ringkasan, dan memasang kartu sekali lagi. Di GitHub Pages tombol ini tersembunyi, karena halaman mengecek data sendiri tiap menit.
 
 ## Aturan peringkat
 
