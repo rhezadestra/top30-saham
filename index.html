@@ -94,7 +94,8 @@ button, input, select { font: inherit; color: inherit; }
 .live-pill { display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-data); font-size: 12px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--kinerja); background: var(--kinerja-bg); padding: 4px 10px; border-radius: 999px; flex: none; }
 .live-pill.stale { color: var(--star); background: var(--star-soft); }
 .live-pill.stale .dot { background: var(--star); }
-.sortbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.sortbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+.tabs.range .tab { padding: 7px 10px; font-family: var(--font-data); font-weight: 500; font-size: 13px; }
 .tab[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
 .rank.time { font-family: var(--font-data); font-weight: 500; font-size: 14px; padding-top: 6px; color: var(--ink-2); }
 .src a .s-main { display: grid; gap: 2px; min-width: 0; }
@@ -295,6 +296,12 @@ footer p { margin: 0; }
           <button class="tab" type="button" data-sort="pop" aria-pressed="true">Terpopuler</button>
           <button class="tab" type="button" data-sort="new" aria-pressed="false">Terbaru</button>
         </div>
+        <div class="tabs range" id="range" role="group" aria-label="Rentang waktu">
+          <button class="tab" type="button" data-h="3" aria-pressed="false">3j</button>
+          <button class="tab" type="button" data-h="6" aria-pressed="false">6j</button>
+          <button class="tab" type="button" data-h="12" aria-pressed="true">12j</button>
+          <button class="tab" type="button" data-h="24" aria-pressed="false">24j</button>
+        </div>
       </div>
       <div class="chips" id="chips" role="group" aria-label="Filter"></div>
     </div>
@@ -317,13 +324,13 @@ footer p { margin: 0; }
     <details class="rules" id="rules">
       <summary>Cara hitung</summary>
       <dl>
-        <div><dt>Rentang waktu</dt><dd>Bergulir: artikel 24 jam terakhir. Tidak ada edisi final; topik lama keluar sendiri.</dd></div>
+        <div><dt>Rentang waktu</dt><dd>Pilih 3, 6, 12 (bawaan), atau 24 jam terakhir. Topik dihitung hanya dari artikel di rentang itu, jadi berita lama tersisih otomatis. Tidak ada edisi final.</dd></div>
         <div><dt>Pembaruan</dt><dd>Berita diambil otomatis dari RSS kira-kira tiap 3 menit. Aplikasi mengecek data baru tiap menit selama terbuka.</dd></div>
         <div><dt>Sumber</dt><dd>Kontan, CNBC Indonesia, IDX Channel, Bisnis, dan Investor.id. Jika RSS sebuah media tidak bisa diambil server, dipakai Google News RSS untuk situs media itu.</dd></div>
         <div><dt>Dibuang</dt><dd>Berita pergerakan harga (IHSG, top gainer dan loser, analisis teknikal), net buy dan sell asing, serta harga emas dan kurs. Penyaringan otomatis memakai kata kunci di judul.</dd></div>
         <div><dt>Satu topik</dt><dd>Satu peristiwa. Artikel digabung otomatis jika menyebut kode saham atau jenis aksi yang sama dengan judul mirip; topik kembar yang masih lolos digabung AI tiap jam. Tiap topik melampirkan satu artikel saja: tautan langsung ke media jika ada, yang terbit paling awal.</dd></div>
         <div><dt>Terpopuler</dt><dd>Jumlah media yang memberitakan, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu artikel terbaru. Maksimal 30 topik.</dd></div>
-        <div><dt>Panah dan Baru</dt><dd>Dibanding peringkat sekitar satu jam sebelumnya.</dd></div>
+        <div><dt>Panah dan Baru</dt><dd>"Baru" berarti topik belum ada sekitar satu jam sebelumnya. Panah naik/turun hanya tampil di rentang 24 jam.</dd></div>
         <div><dt>Ringkasan AI</dt><dd>Poin-poin ditulis Claude dari artikel sumber, tiap jam pukul 05.00–22.00 WIB. Topik baru tampil dulu dengan judul, lalu ringkasannya menyusul. AI bisa keliru; cek angka penting di artikel aslinya.</dd></div>
         <div><dt>Cuplikan</dt><dd>Sebelum ringkasan AI tersedia, tampil cuplikan pembuka dari RSS media jika ada.</dd></div>
       </dl>
@@ -366,7 +373,17 @@ footer p { margin: 0; }
     return h < 24 ? h + " jam lalu" : Math.floor(h / 24) + " hari lalu";
   };
 
-  const state = { ed: null, ranked: [], cat: "Semua", q: "", sort: readSort(), saved: readSaved() };
+  const RANGE_KEY = "top30.range";
+  const RANGES = [3, 6, 12, 24];
+  const state = { ed: null, ranked: [], cat: "Semua", q: "", sort: readSort(), hours: readRange(), saved: readSaved() };
+
+  function readRange() {
+    try { const h = Number(localStorage.getItem(RANGE_KEY)); return RANGES.includes(h) ? h : 12; } catch (e) { return 12; }
+  }
+  // Awal rentang yang dipilih (3/6/12/24 jam sebelum data terakhir diperbarui).
+  function rangeStart(ed) {
+    return Math.max(Date.parse(ed.window.start), Date.parse(ed.updated) - state.hours * 3600000);
+  }
 
   function readSaved() {
     try { return JSON.parse(localStorage.getItem(SAVED_KEY) || "{}") || {}; } catch (e) { return {}; }
@@ -386,7 +403,7 @@ footer p { margin: 0; }
 
   // Hitung ulang dari artikel di dalam jendela 24 jam; peringkat populer = jumlah media, artikel, kategori, terbaru.
   function build(ed) {
-    const start = Date.parse(ed.window.start);
+    const start = rangeStart(ed);
     const ord = (c) => (CATS[c] ? CATS[c].order : 9);
     const rows = [];
     // Topik kembar yang ditandai AI (merge: {idKembar: idUtama}) digabung ke topik utamanya.
@@ -418,8 +435,9 @@ footer p { margin: 0; }
     $("live-pill").classList.toggle("stale", stale);
     $("live-pill").lastChild.textContent = stale ? "Terlambat" : "Live";
     $("ed-eyebrow").innerHTML = '<span class="dot" aria-hidden="true"></span>Diperbarui ' + esc(fmtTime(ed.updated)) + " WIB · " + esc(ago(ed.updated));
-    $("ed-date").textContent = "Berita saham 24 jam terakhir";
-    $("ed-window").textContent = fmtDay(ed.window.start) + " " + fmtTime(ed.window.start) + " – " + fmtDay(ed.window.end) + " " + fmtTime(ed.window.end) + " WIB";
+    const st = new Date(rangeStart(ed)).toISOString();
+    $("ed-date").textContent = "Berita saham " + state.hours + " jam terakhir";
+    $("ed-window").textContent = fmtDay(st) + " " + fmtTime(st) + " – " + fmtDay(ed.window.end) + " " + fmtTime(ed.window.end) + " WIB";
     $("live-hint").textContent = stale
       ? "Pembaruan otomatis tertunda. Data yang tampil adalah yang terakhir berhasil diambil."
       : "Diperbarui otomatis tiap ±3 menit. Halaman ini mengecek data baru sendiri.";
@@ -445,6 +463,7 @@ footer p { margin: 0; }
 
   function renderSort() {
     document.querySelectorAll("#sort .tab").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.sort === state.sort)));
+    document.querySelectorAll("#range .tab").forEach((b) => b.setAttribute("aria-pressed", String(Number(b.dataset.h) === state.hours)));
     $("topics").classList.toggle("by-new", state.sort === "new");
   }
 
@@ -471,7 +490,13 @@ footer p { margin: 0; }
     const prev = state.ed.prevRanks;
     if (state.sort !== "pop" || !prev || !Object.keys(prev).length) return "";
     if (!(t.id in prev)) return '<span class="move new" aria-label="Topik baru">Baru</span>';
-    const d = prev[t.id] - t.rank;
+    // Peringkat sebelumnya tercatat untuk 24 jam; di rentang lebih pendek panahnya menyesatkan, jadi hanya "Baru".
+    if (state.hours !== 24) return "";
+    // Peringkat sebelumnya dihitung ulang hanya di antara topik yang tampil di rentang ini.
+    const shownPrev = state.ranked.filter((x) => x.id in prev).sort((a, b) => prev[a.id] - prev[b.id]);
+    const prevRank = shownPrev.findIndex((x) => x.id === t.id) + 1;
+    const nowRank = state.ranked.filter((x) => x.id in prev).findIndex((x) => x.id === t.id) + 1;
+    const d = prevRank - nowRank;
     if (d > 0) return '<span class="move up" aria-label="Naik ' + d + '">▲' + d + "</span>";
     if (d < 0) return '<span class="move down" aria-label="Turun ' + -d + '">▼' + -d + "</span>";
     return "";
@@ -521,7 +546,7 @@ footer p { margin: 0; }
     if (state.sort === "new") shown = shown.slice().sort((a, b) => b.latest - a.latest);
     $("topics").innerHTML = shown.map(topicHTML).join("");
     $("empty").hidden = shown.length > 0 || (state.cat === "Tersimpan" && Object.keys(state.saved).length > 0);
-    if (!state.ranked.length) $("empty").textContent = "Belum ada berita yang terambil dalam 24 jam terakhir.";
+    if (!state.ranked.length) $("empty").textContent = "Belum ada berita dalam " + state.hours + " jam terakhir. Pilih rentang yang lebih panjang.";
     else if (state.cat === "Tersimpan" && !state.q) $("empty").textContent = "Belum ada ide tersimpan. Ketuk Simpan ide pada topik yang ingin Anda riset.";
     else $("empty").textContent = "Tidak ada topik yang cocok. Hapus pencarian atau pilih filter lain.";
 
@@ -588,6 +613,12 @@ footer p { margin: 0; }
     state.sort = b.dataset.sort;
     try { localStorage.setItem(SORT_KEY, state.sort); } catch (err) {}
     renderSort(); renderList();
+  });
+  $("range").addEventListener("click", (e) => {
+    const b = e.target.closest(".tab"); if (!b) return;
+    state.hours = Number(b.dataset.h);
+    try { localStorage.setItem(RANGE_KEY, String(state.hours)); } catch (err) {}
+    show(state.ed);
   });
   $("q").addEventListener("input", (e) => { state.q = e.target.value; renderList(); });
   $("chips").addEventListener("click", (e) => {

@@ -1,6 +1,6 @@
 # Top 30 Berita Saham
 
-Aplikasi baca (PWA) berisi topik berita saham **24 jam terakhir** dari Kontan, CNBC Indonesia, IDX Channel, Bisnis, dan Investor.id. Daftarnya diperbarui otomatis kira-kira tiap 10 menit, tanpa edisi final.
+Aplikasi baca (PWA) berisi topik berita saham terbaru (bawaan **12 jam terakhir**; bisa dipilih 3, 6, 12, atau 24 jam) dari Kontan, CNBC Indonesia, IDX Channel, Bisnis, dan Investor.id. Daftarnya diperbarui otomatis kira-kira tiap 10 menit, tanpa edisi final.
 
 Alamat: https://rhezadestra.github.io/top30-saham/
 
@@ -51,7 +51,7 @@ Aplikasi mencocokkan ringkasan lewat id topik, atau lewat URL artikel jika penge
 
 ## Aturan peringkat
 
-Terpopuler: jumlah media yang memberitakan, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu artikel terbaru. Maksimal 30 topik. Panah naik/turun dan penanda "Baru" dibanding peringkat sekitar satu jam sebelumnya.
+Terpopuler: jumlah media yang memberitakan, lalu jumlah artikel, lalu kategori (aksi korporasi, regulasi, kinerja, makro), lalu artikel terbaru. Maksimal 30 topik. Penanda "Baru" berarti topik belum ada sekitar satu jam sebelumnya; panah naik/turun hanya tampil di rentang 24 jam. Data menyimpan 24 jam, aplikasi menyaring sesuai rentang yang dipilih.
 
 Terbaru: diurutkan dari artikel paling baru.
 
