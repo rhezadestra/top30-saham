@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T20:30:40+07:00",
+ "updated": "2026-11-27T20:33:39+07:00",
  "window": {
-  "start": "2026-11-26T20:30:40+07:00",
-  "end": "2026-11-27T20:30:40+07:00",
+  "start": "2026-11-26T20:33:39+07:00",
+  "end": "2026-11-27T20:33:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 180
+   "items": 156
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 87
+   "items": 89
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 87
+   "items": 89
   },
   "Investor.id": {
    "via": "google",
@@ -401,6 +401,28 @@
      "time": "2026-11-27T14:06:19+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaF9VdHNCZGJOeGE3VGI4bi1mY2xOb1BhRktHS1RMRWJ0TDZmS2ZhblgyOTA4RkxvMUVDajIzRXNua0ZvTzdtY3FET3UzOEFoaEtKajhpYTNIVlZTaENja2UwbnVlQWNtNlpaVlpYR0p3T21vMndWY18tUURJbkhQa2p3T282emZyY3dXaDQ1SHM0UWw1OTlXcW1FWW56Ukh1cjl1RzZJUlY4THBSeGJPZWg4bDhZUDJiYl9BZmpIMC11UQ?oc=5",
      "title": "Pemerintah Lepas Ekspor Produk Manufaktur Rp112,28 Triliun ke 110 Negara"
+    }
+   ]
+  },
+  {
+   "id": "75f0dcdcf024",
+   "title": "BRI Ungkap Skema Merger Tiga Asuransi Umum dalam Ekosistem Danantara",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "Tiga perusahaan asuransi, Jasindo, BRINS, dan Jasaraharja Putera, rencanakan merger efektif 1 Januari 2027.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T17:29:02+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcE1ESjhDZ1FEVnlhY1pkeWNjMTY2dU9qWmxiWkFiX21Gbk1xUkVod3lvdkJJTE4wT3dWajlMdkRtc2lXeExrcUZINkpZRnhiYWlGMG9FS2p5dWpjZXpKckloeFFySmRWNzNybHpZT0FiaGEzV0d3QWRTQVl5cjhtZElzSEQwYldsSVp0VEV0cm1IQ2xXSGVJTlo3WmZmUEJpNXA0YTZoaW9qMkp1RmptcnBFR25hd1J6UkJCR05GdGY?oc=5",
+     "title": "BRI Ungkap Skema Merger Tiga Asuransi Umum dalam Ekosistem Danantara"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T20:30:12+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127192010-17-789203/tiga-asuransi-bumn-merger-bagaimana-nasib-pegawai",
+     "title": "Tiga Asuransi BUMN Merger, Bagaimana Nasib Pegawai?"
     }
    ]
   },
@@ -1088,22 +1110,6 @@
      "time": "2026-11-27T18:38:02+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUmpOZ3d6SFFXWlF3WkNPcVNILTZ2T1VZa1p1N3MwbGM3MS0wYXV6R1I5RVRkTHdnSW1UU0toSURQNElwSHFwRmxYNHV6bEdZYkY2OUxVazhvR0FXTmNUS3VpeWVmRzZvVUgxM2pxMldtTzBaYnFPcElEeDlPUlJwczdxNUx2QUNoaUFiZEhGSnE0NDlBV3A2ZVJvdFhwSmJTa0ZDT1FoRnViMVYy0gGmAUFVX3lxTE8tWHFLZTdIbEk1SGRzRDlkOXZ3NEFOR3NFdkc1Y1BrRDI0VlFGbjUtdmtEN3E3bWNmNWs1Y0Q5di1mdzl1M19wbGhaMW02SmdMajhOWWVsRDdTQVhfQzRlQXllX1JHRjhVZmpTMTdRZUJwd1VNR2lKWmZJODZKZV93UkJFWFl3cmZFU0hiMlRjQVY1ZnlSeFVHTWFwX1pMaFlWcVVHZUE?oc=5",
      "title": "Allo Bank (BBHI) Telah Buyback Saham Rp 293 Miliar, Segini Dana yang Tersisa"
-    }
-   ]
-  },
-  {
-   "id": "75f0dcdcf024",
-   "title": "BRI Ungkap Skema Merger Tiga Asuransi Umum dalam Ekosistem Danantara",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T17:29:02+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcE1ESjhDZ1FEVnlhY1pkeWNjMTY2dU9qWmxiWkFiX21Gbk1xUkVod3lvdkJJTE4wT3dWajlMdkRtc2lXeExrcUZINkpZRnhiYWlGMG9FS2p5dWpjZXpKckloeFFySmRWNzNybHpZT0FiaGEzV0d3QWRTQVl5cjhtZElzSEQwYldsSVp0VEV0cm1IQ2xXSGVJTlo3WmZmUEJpNXA0YTZoaW9qMkp1RmptcnBFR25hd1J6UkJCR05GdGY?oc=5",
-     "title": "BRI Ungkap Skema Merger Tiga Asuransi Umum dalam Ekosistem Danantara"
     }
    ]
   },
