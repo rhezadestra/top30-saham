@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "live": true,
-  "updated": "2026-11-27T09:04:46+07:00",
+  "updated": "2026-11-27T10:04:20+07:00",
   "window": {
     "start": "2026-11-26T19:01:00+07:00",
     "end": "2026-11-27T19:00:00+07:00"
@@ -32,23 +32,24 @@
   ],
   "prevRanks": {
     "2026-11-27-danantara-laba-2025": 1,
-    "2026-11-27-bfin-dividen-70persen": 2,
-    "2026-11-27-byan-komite-audit": 3,
-    "2026-11-27-pack-rupslb-tunda": 4,
-    "2026-11-27-tbig-akuisisi-edotco": 5,
-    "2026-11-27-bbca-dividen-interim3": 6,
-    "2026-11-27-danantara-saham-bei": 7,
-    "2026-11-27-tris-produk-ritel": 8,
-    "2026-11-27-pgeo-rating-sp": 9,
-    "2026-11-27-bumi-kinerja-kuartal3": 10,
+    "2026-11-27-bumi-kinerja-kuartal3": 2,
+    "2026-11-27-bfin-dividen-70persen": 3,
+    "2026-11-27-byan-komite-audit": 4,
+    "2026-11-27-pack-rupslb-tunda": 5,
+    "2026-11-27-tbig-akuisisi-edotco": 6,
+    "2026-11-27-bbca-dividen-interim3": 7,
+    "2026-11-27-danantara-saham-bei": 8,
+    "2026-11-27-tris-produk-ritel": 9,
+    "2026-11-27-pgeo-rating-sp": 10,
     "2026-11-27-foru-pendapatan-batubara": 11,
     "2026-11-27-mdla-distribusi-obat": 12,
     "2026-11-27-tarif-trump-14-negara": 13,
     "2026-11-27-ratbi-2027": 14,
-    "2026-11-27-danantara-41-proyek-2027": 15,
-    "2026-11-27-el-nino-cpo-2027": 16,
-    "2026-11-27-danantara-utang-whoosh": 17,
-    "2026-11-27-pertamina-minyak-amsel": 18
+    "2026-11-27-alat-berat-2027": 15,
+    "2026-11-27-danantara-41-proyek-2027": 16,
+    "2026-11-27-el-nino-cpo-2027": 17,
+    "2026-11-27-danantara-utang-whoosh": 18,
+    "2026-11-27-pertamina-minyak-amsel": 19
   },
   "topics": [
     {
@@ -92,6 +93,11 @@
           "media": "Kontan",
           "time": "2026-11-26T19:28:40+07:00",
           "url": "https://investasi.kontan.co.id/news/trump-ancam-tarif-baru-untuk-14-negara-begini-dampaknya-ke-pasar-saham-indonesia"
+        },
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T08:37:03+07:00",
+          "url": "https://insight.kontan.co.id/news/amerika-usulkan-tambahan-tarif-dagang-pasar-saham-indonesia-bisa-tegang"
         }
       ]
     },
@@ -361,6 +367,64 @@
           "media": "Kontan",
           "time": "2026-11-27T04:35:13+07:00",
           "url": "https://insight.kontan.co.id/news/penjualan-alat-berat-2027-diprediksi-melambat"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-bei-suspensi-free-float",
+      "title": "BEI suspensi lima saham karena data free float tidak sesuai",
+      "category": "Regulasi",
+      "tickers": [
+        "AKKU",
+        "BAJA",
+        "FIRE",
+        "KING",
+        "KPIG"
+      ],
+      "summary": "Bursa menghentikan sementara perdagangan AKKU, BAJA, FIRE, KING, dan KPIG mulai 27 November 2026 karena kelima emiten tak memperbaiki data pemegang saham pengendali dan afiliasi dalam laporan free float hingga tenggat 26 November. Bursa sebelumnya telah mengirim pengingat pada 9 dan 16 November.",
+      "sources": [
+        {
+          "media": "Kontan",
+          "time": "2026-11-27T09:15:01+07:00",
+          "url": "https://investasi.kontan.co.id/news/bei-sanksi-lima-emiten-soal-ketidaksesuaian-data-free-float"
+        },
+        {
+          "media": "Investor.id",
+          "time": "2026-11-27T09:26:00+07:00",
+          "url": "https://investor.id/market/463537/bei-sanksi-5-emiten-gegara-data-free-float-bermasalah-ada-kpig"
+        },
+        {
+          "media": "IDX Channel",
+          "time": "2026-11-27T09:52:00+07:00",
+          "url": "https://www.idxchannel.com/market-news/bei-suspensi-5-saham-usai-langgar-ketentuan-pelaporan-free-float"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-danantara-pajak-2025",
+      "title": "Setoran pajak BUMN 2025 naik 18% menjadi sekitar Rp567 triliun",
+      "category": "Kinerja",
+      "tickers": [],
+      "summary": "Menurut COO Danantara Dony Oskaria, pajak yang dibayar BUMN pada 2025 mencapai sekitar Rp567 triliun, naik dari sekitar Rp480 triliun setahun sebelumnya. Ia juga menyebut Danantara tidak meminta penyertaan modal negara pada 2025 dan aset kelolaannya bertambah sekitar Rp400 triliun.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-27T09:10:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261127080835-17-788936/bukan-cuma-tak-minta-pmn-danantara-pamer-setor-pajak-rp567-t-di-2025"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-danantara-standar-kompetensi",
+      "title": "Danantara seragamkan standar kompetensi dan remunerasi pejabat BUMN",
+      "category": "Makro",
+      "tickers": [],
+      "summary": "Danantara Corporate University akan menyamakan standar kompetensi pegawai BUMN setingkat general manager ke atas, termasuk sistem grading, gaji, dan penilaian kinerja. Danantara juga menyeragamkan bagan akun keuangan antar-BUMN, terutama untuk akun terkait risiko.",
+      "sources": [
+        {
+          "media": "CNBC Indonesia",
+          "time": "2026-11-27T09:45:00+07:00",
+          "url": "https://www.cnbcindonesia.com/market/20261127082901-17-788938/ini-jurus-danantara-cetak-bos-bos-bumn-penyetaraan-standar-kompetensi"
         }
       ]
     }
