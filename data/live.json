@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T04:40:05+07:00",
+ "updated": "2026-11-28T04:43:39+07:00",
  "window": {
-  "start": "2026-11-27T04:40:05+07:00",
-  "end": "2026-11-28T04:40:05+07:00",
+  "start": "2026-11-27T04:43:39+07:00",
+  "end": "2026-11-28T04:43:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 66
+   "items": 65
   },
   "IDX Channel": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 115
+   "items": 118
   }
  },
  "prevAt": "2026-11-28T03:45:38+07:00",
@@ -1278,9 +1278,7 @@
    "id": "e71a10e94543",
    "title": "Menjaga Pertumbuhan Kinerja, CLEO Ekspansi Produk Air Mineral",
    "category": "Aksi korporasi",
-   "tickers": [
-    "CLEO"
-   ],
+   "tickers": [],
    "summary": "",
    "summaryFrom": null,
    "sources": [
