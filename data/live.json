@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T18:41:39+07:00",
+ "updated": "2026-11-27T18:44:39+07:00",
  "window": {
-  "start": "2026-11-26T18:41:39+07:00",
-  "end": "2026-11-27T18:41:39+07:00",
+  "start": "2026-11-26T18:44:39+07:00",
+  "end": "2026-11-27T18:44:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 159
+   "items": 161
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 93
+   "items": 94
   },
   "Investor.id": {
    "via": "google",
-   "items": 155
+   "items": 154
   }
  },
  "prevAt": "2026-11-27T18:02:39+07:00",
@@ -275,6 +275,36 @@
    ]
   },
   {
+   "id": "7dbe91716ba1",
+   "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "UNVR"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T17:45:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUdXajhQVmNISm5oemt6RVlZQmxTNmdfWDRpd1pKMkFYT3VJUTlONmZ4M3VRTklCNTYwVEdIMWNIN2cyaWhzcTBRV0RvWnJnb0xrdDZtMzVnRDNjelNheE9YLUNtNnI0Y04yNlJzVnVLVjNKRnhiM2hBdFY1VE8wdFlCV3FvOFpOT0REcVZUSHN4dXhKRTlkbEhCUU81dlE?oc=5",
+     "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:18:54+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaFlvNjNVRFZ4MXJqaTVLTkhNbE04Tl8yNHJTT3B1cUdGVktvZ1BtcThfTTNCVVkxdjVSbkw4ZGNQbXdELWplSXFDQXFxemFDY2VKNXY5cWxyS3dxb3FxckZoZTd4TTktUFZsSDVZYnY4NXF5UU5mR25UaWxpUU1kNW9Yc2M5TG9kMkJfU1VwVmpyS2tBeEZreVhlaGVYMVd6NWZ3RHB0Y3pDYm9NSW5VUzFLaw?oc=5",
+     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:40:49+07:00",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUtsY2szdGJxYk82SEdOX1JLMEhYODhua2oxMkNORWdKeGszdUlYMXBEUExqZlVBc3FsTUNaTlhOSUVZeDc4dGpSSmxBd2lLa04yRU00eDkwelJ4WVJsWjNycFdoYXBiTE1RbnA1ZUlLWnRqX2ZycGV0b0NHRnhsU3N5dFpkOEkyQVhVaGdkc3VRUmxxeXZwN1o4NzV0RUZBaWdJTEpNYmhMejZMMGZFQXpIU3I3c2MwNHZZYWgyd1Fud2FEckJF?oc=5",
+     "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick"
+    }
+   ]
+  },
+  {
    "id": "5efb24c17d83",
    "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026",
    "category": "Makro",
@@ -397,30 +427,6 @@
      "time": "2026-11-27T08:10:00+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
      "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
-    }
-   ]
-  },
-  {
-   "id": "7dbe91716ba1",
-   "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
-   "category": "Kinerja",
-   "tickers": [
-    "UNVR"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T17:45:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUdXajhQVmNISm5oemt6RVlZQmxTNmdfWDRpd1pKMkFYT3VJUTlONmZ4M3VRTklCNTYwVEdIMWNIN2cyaWhzcTBRV0RvWnJnb0xrdDZtMzVnRDNjelNheE9YLUNtNnI0Y04yNlJzVnVLVjNKRnhiM2hBdFY1VE8wdFlCV3FvOFpOT0REcVZUSHN4dXhKRTlkbEhCUU81dlE?oc=5",
-     "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T18:18:54+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaFlvNjNVRFZ4MXJqaTVLTkhNbE04Tl8yNHJTT3B1cUdGVktvZ1BtcThfTTNCVVkxdjVSbkw4ZGNQbXdELWplSXFDQXFxemFDY2VKNXY5cWxyS3dxb3FxckZoZTd4TTktUFZsSDVZYnY4NXF5UU5mR25UaWxpUU1kNW9Yc2M5TG9kMkJfU1VwVmpyS2tBeEZreVhlaGVYMVd6NWZ3RHB0Y3pDYm9NSW5VUzFLaw?oc=5",
-     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
     }
    ]
   },
@@ -970,6 +976,24 @@
      "time": "2026-11-27T11:15:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMVFDMzBfWFNyTy1qU2k2WHdlOUlMM0RMbG0xRlQzR3dOMXp2ZnUtZXZyT1k2YU9IQXpBcV94R1ZMZGVGbDFYUUxyMTl1UDM1U24zdEFHRGZxS2J3Vmg4YmZ3Y005ZHNUYnFaekllaHR4azhnVVdiMklxaWRQeTd3amd1R1dHT3hEOGgxQzV5dnFLODR0MU9RUzc5b0QwdzZiaXRFRVEwVklxelRIdWxOSVZvRXY0ckZV0gG-AUFVX3lxTE0wcXRiRnBIOVFYZ1Jrcm1DTFBQV2E5VlRzYV9xSFk0Y2Y1TU10MGRocFdqR0FIdXZRWnVIVjZ4a2l1YlRnOGJrZHUwSE9VYlBZS0lZSjRDTVJpSHBXaGNnemJZLUptWU9PaXVsT0dKaGJHMFNmTGR5aDNmSU9NYjExSUNVYmVSWjNfUVpRMHBiaEViVlVLOFJZeE1WQzFpNU9ycXFQeTdyWHlJX2JGdEVtblByam8xZVNZQUZ6TGc?oc=5",
      "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah"
+    }
+   ]
+  },
+  {
+   "id": "81c672eaa0d6",
+   "title": "Allo Bank (BBHI) Telah Buyback Saham Rp 293 Miliar, Segini Dana yang Tersisa",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "BBHI"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T18:38:02+07:00",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUmpOZ3d6SFFXWlF3WkNPcVNILTZ2T1VZa1p1N3MwbGM3MS0wYXV6R1I5RVRkTHdnSW1UU0toSURQNElwSHFwRmxYNHV6bEdZYkY2OUxVazhvR0FXTmNUS3VpeWVmRzZvVUgxM2pxMldtTzBaYnFPcElEeDlPUlJwczdxNUx2QUNoaUFiZEhGSnE0NDlBV3A2ZVJvdFhwSmJTa0ZDT1FoRnViMVYy0gGmAUFVX3lxTE8tWHFLZTdIbEk1SGRzRDlkOXZ3NEFOR3NFdkc1Y1BrRDI0VlFGbjUtdmtEN3E3bWNmNWs1Y0Q5di1mdzl1M19wbGhaMW02SmdMajhOWWVsRDdTQVhfQzRlQXllX1JHRjhVZmpTMTdRZUJwd1VNR2lKWmZJODZKZV93UkJFWFl3cmZFU0hiMlRjQVY1ZnlSeFVHTWFwX1pMaFlWcVVHZUE?oc=5",
+     "title": "Allo Bank (BBHI) Telah Buyback Saham Rp 293 Miliar, Segini Dana yang Tersisa"
     }
    ]
   },
@@ -1662,22 +1686,6 @@
      "time": "2026-11-26T19:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYm9waXJ1UEZuOU4zMXZPR0hCU1QzdXZYd0VVWHZxRjlTcFJwZjd2alJtalJhQVF6RUZucHNUTGZhVldWX1NvRHRpSjNVUFZUUXhYckpnRGhzbjRUUUVHejBXbDdYQXhnY3lQU0xGTmJPQWJZcHpsUFRwaE9objZ6Y1dQUk00aFBzVFRidTBoWm4wZmNsQy1qdE5lMnJtbXE0a3ZXZXhB?oc=5",
      "title": "Melirik Peluang Saham Underrated Pasca-MSCI Index Review November 2026"
-    }
-   ]
-  },
-  {
-   "id": "46c5a2161ee8",
-   "title": "BEI Perkuat Pengawasan Saham, Andalkan Teknologi Nasdaq dan Transparansi Pemeriksaan",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-26T18:42:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd2lvd3hjdnJuWUlBbVZxWW1Cc1Q0YXJUeHJQNHN0OHlucVBLUlN6LUpKMFZnT0o0LTlRVU1FZTFZa0duYjB4VG5nVHE4ODRxUldOc2ZVN1EtT1hPUm5ES0lwYk9fd29Gc09neWVFeFF3YkZXSEdmcEs4b1NQZ1BRVmdBVjE2RTVYT21DdU14UEpPcVF3dnh4aWFRNXVfeXJCVFNPOUc4U2RNNmVnYllFTVBKcFRueGRwSFFYM3U0QdIBxAFBVV95cUxPSGItVjdSUERxSDE1NUlhaVRoQVA4YWllZklfczJDSnBNWWxUYlVyUmxhcm83TXIyM1ltY2pvLUlvVGdGNVhLRWVLMU1DbGZUemxiTVZ4SG5GVlVrU1picGY4ZXF0NWdBbFlPbVYwTFVscXh6TGdheFBlMDJrbDhfcUQtbWhEc3I1eXhkeE5PZVlvdy1zM3ljZVpfeFlMWllJbnFDNlE3NzhpR2J4a0VuZzF5dXYzWVJzYlc0WVIxVE5jemZ3?oc=5",
-     "title": "BEI Perkuat Pengawasan Saham, Andalkan Teknologi Nasdaq dan Transparansi Pemeriksaan"
     }
    ]
   },
