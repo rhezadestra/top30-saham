@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T18:32:39+07:00",
+ "updated": "2026-11-27T18:35:39+07:00",
  "window": {
-  "start": "2026-11-26T18:32:39+07:00",
-  "end": "2026-11-27T18:32:39+07:00",
+  "start": "2026-11-26T18:35:39+07:00",
+  "end": "2026-11-27T18:35:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,15 +33,18 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 158
+   "items": 183
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 81
+   "items": 82
   },
   "IDX Channel": {
-   "via": "rss",
-   "items": 10
+   "via": "google",
+   "items": 51,
+   "errors": [
+    "rss: HTTPError HTTP Error 522: <none>"
+   ]
   },
   "Bisnis": {
    "via": "google",
@@ -303,6 +306,56 @@
    ]
   },
   {
+   "id": "d21337aa9aa2",
+   "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan. Foto: iNews Media Group.",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T13:48:00+07:00",
+     "url": "https://www.idxchannel.com/economics/menperin-lepas-ekspor-manufaktur-senilai-rp11228-triliun-ke-110-negara-tujuan",
+     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T13:48:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaVBaWThTcGhoTm1MSTVoNTliQVIzb3ZUYzI2NFlHeHpTUWtVSnFZRC03ZW9FWWN2TEpoby1oS24ycHNSeGQ1Ukx1YnBFSkloWThHVzFnNTRId0Y4Yy1PT0ZrZHprbFdOdDNmNHg1YXFTODZVZHRZQV9Sd2k5RzJnYm50U3pjT19sSmlFWUFXczNUTExlbFJtX3NzU3R2ZDUwOS1GNkd3RHZ2OVhYMjVzQ2d5T21RdGvSAboBQVVfeXFMUG9vMjFiMFJUbElpazhiQ3J4RnFsa19NUFFBVGxSajg4cWE2LTJjdWFLRDU4SUU1dzg4MHdybHRxSE5nckQ4MmlrVGpGbnJiWV9sai03YTJLYXlrMlNCeVRzR1lXQjdzaWlWZW1Qd09PSGRCUmlST21acDRIR3FOZDdVem1QWUdRdXl3c3diNWRVam5iS1lSclN6VTg3cE9pVlVQZFZDbkpzdV83QzlveHZudWtTYU5OYnJ3?oc=5",
+     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T14:06:19+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaF9VdHNCZGJOeGE3VGI4bi1mY2xOb1BhRktHS1RMRWJ0TDZmS2ZhblgyOTA4RkxvMUVDajIzRXNua0ZvTzdtY3FET3UzOEFoaEtKajhpYTNIVlZTaENja2UwbnVlQWNtNlpaVlpYR0p3T21vMndWY18tUURJbkhQa2p3T282emZyY3dXaDQ1SHM0UWw1OTlXcW1FWW56Ukh1cjl1RzZJUlY4THBSeGJPZWg4bDhZUDJiYl9BZmpIMC11UQ?oc=5",
+     "title": "Pemerintah Lepas Ekspor Produk Manufaktur Rp112,28 Triliun ke 110 Negara"
+    }
+   ]
+  },
+  {
+   "id": "0e58eb65cb1e",
+   "title": "Danantara Bakal Merger BRINS, Jasaraharja Putera, dan Jasindo",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "Tiga perusahaan asuransi BUMN, Jasindo, BRINS, dan Jasaraharja Putera, akan bergabung untuk memperkuat kapasitas dan layanan.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T15:29:01+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUk9RZVBiY1dQQTRQcXRvZENjWkZtS2QtcDR2Z3ZHN0pHc3hzM3ozMzBmcFNjNk5VSE1fel9HT29BR0FUUktOY0trU0Y2cXhud0k0R29BVF9BVEdOY01rcTN6dmZ6Z3dybWtDTDU2ZUVRcjk1NmxtYi13OTBwVmNrellFbWI5ZlJyaDVLSmYwdXNUQWZraWhsUndR0gGTAUFVX3lxTE1pMHNKdXNWQmZrY0V4Si1nOVMybmpvSUdzVGtNV0NGR0I4aHUtcF9yRXdON04zdDgwbzhDT0JQcFRBWXJRUllXVHA5clNncDNxUlpIcEtjajg0S0tBZkVHc2JCMzNNZl9pR1RINlpEMDNFMk44VHFlRklldFhMMkpfQ0tsRG5GbHVOVGNGd01iUncyMA?oc=5",
+     "title": "Danantara Bakal Merger BRINS, Jasaraharja Putera, dan Jasindo"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T18:32:02+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127181126-17-789191/jasindo-brins-jasaraharja-putera-merger-awal-2027-begini-skemanya",
+     "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya"
+    }
+   ]
+  },
+  {
    "id": "c3a1f192e352",
    "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare",
    "category": "Aksi korporasi",
@@ -517,28 +570,6 @@
    ]
   },
   {
-   "id": "d21337aa9aa2",
-   "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan. Foto: iNews Media Group.",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T13:48:00+07:00",
-     "url": "https://www.idxchannel.com/economics/menperin-lepas-ekspor-manufaktur-senilai-rp11228-triliun-ke-110-negara-tujuan",
-     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T14:06:19+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaF9VdHNCZGJOeGE3VGI4bi1mY2xOb1BhRktHS1RMRWJ0TDZmS2ZhblgyOTA4RkxvMUVDajIzRXNua0ZvTzdtY3FET3UzOEFoaEtKajhpYTNIVlZTaENja2UwbnVlQWNtNlpaVlpYR0p3T21vMndWY18tUURJbkhQa2p3T282emZyY3dXaDQ1SHM0UWw1OTlXcW1FWW56Ukh1cjl1RzZJUlY4THBSeGJPZWg4bDhZUDJiYl9BZmpIMC11UQ?oc=5",
-     "title": "Pemerintah Lepas Ekspor Produk Manufaktur Rp112,28 Triliun ke 110 Negara"
-    }
-   ]
-  },
-  {
    "id": "2d9f26b41fa7",
    "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah",
    "category": "Makro",
@@ -629,6 +660,99 @@
    ]
   },
   {
+   "id": "43a35b6b55c2",
+   "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam. (Foto: Magnific)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T17:45:00+07:00",
+     "url": "https://www.idxchannel.com/economics/ekonomi-prancis-kontraksi-02-persen-pada-kuartal-iii-2026-ekspor-turun-tajam",
+     "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T17:45:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkhHZ2xsbTNnOWdnNGR2NklrT1Z1MGJkOVE0V2lILUI3MWRweDZjdmVhZDRQRU9NSkVOWkNlYmRoaU5nUXVlT1lsMnRpNHV6QjBSRVVna1NhOG1OS05wWG5FSTBaRHNHMEI4Y0tQMGJyREt2TkdEUjRMOFNJc1R4bVZoUXkyY0ZoMVhrTnRaZEtweUtDd3k1aDY0VHU0dl9JTURTcHBTSThLdWNLU25VV2RtNNIBuAFBVV95cUxNVGlUdm50cHFVQkVJMHdpR3RJTG11Q2JZZ1VMaU1sQkw0SnctODRVc0lkaXFRRTgyRjdRTFU3TkItNlpWalBhZHhLaTBwOU1nTWloc0g1S1FkSUR4UzgtMGhxYk9KYVdQWFpNLWRnM2tiUGc4R0Zoakh1RzBVbl9QUVdRQTFWaWxHY09zbmo1LUVWYTRBMHJaS2xqbnBDUUFpbEhnYm1kRkdtUmlMbVBIcXdaZlFwWTZt?oc=5",
+     "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam"
+    }
+   ]
+  },
+  {
+   "id": "83c0ae37d035",
+   "title": "WIKA Beton (WTON) Kantongi Kontrak Baru Rp3,47 Triliun hingga Oktober 2026",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "WIKA",
+    "WTON"
+   ],
+   "summary": "PT Wijaya Karya Beton Tbk (WTON) atau WIKA Beton membukukan kontrak baru senilai Rp3,47 triliun hingga Oktober 2026. (Foto: Ist)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T15:10:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/wika-beton-wton-kantongi-kontrak-baru-rp347-triliun-hingga-oktober-2026",
+     "title": "WIKA Beton (WTON) Kantongi Kontrak Baru Rp3,47 Triliun hingga Oktober 2026"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T15:10:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONkZXZjRBc2tDZW5KNkl3QWh1T0hzb2VDMG5WS1FISEFCT2VZZlZPMWJFT2o5a2d3elNEclRWMl82LUpaNFlmVnZ6VGxNM3pDUTVrRnNYdmQtbmQ4cXJCR0hMdkJMMmtnRVpyZHdMZnJ1V0ZkNHBwREZzQ25uYVRsTkh5am13ZHpoSEJRLWVMY2ZVdWg4VF84LUhURUlicFJpNl9PSmlqUWlBTXFsLXgyVlF30gG0AUFVX3lxTE4wUDB2cl9Gb2R0eTBkdU1oWnVDRzgzV3JvSlhZRzZnM3pBcGxYdHVhNnRiSkZtUmVSa1JNeE9mdFg2aGJ0cXByd1R3S0pJZVhDa24zZS1LLXRGMEIxamJMZmRYTEJ0VjFtQ1FXQTJ4aWlRYXJFM2VjYU41THJUaVFfeUt3Z29tLWN3M3dpYUxNYXhqMTVUcHgxTzBTT2p4cTFNeHFrek84OHh6SHlhN1ZmaVI3Vw?oc=5",
+     "title": "WIKA Beton (WTON) Kantongi Kontrak Baru Rp3,47 Triliun hingga Oktober 2026"
+    }
+   ]
+  },
+  {
+   "id": "5756630c573a",
+   "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "BWPT"
+   ],
+   "summary": "PT Eagle High Plantations Tbk (BWPT) bakal menerbitkan obligasi dengan total nilai emisi mencapai Rp550 miliar. (Foto: Ist)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T11:00:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/bwpt-tawarkan-obligasi-dengan-kupon-hingga-12-persen",
+     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T11:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTTF2Q0NJRE83czNxWVROLWNvV3hTczZaeUZlNmxVcW1jeTQ2YjhrUkRxcG9TOVpodWh5V2gzc24yeTdUSHBtWTZjb1dHTnMyQmR3UEg0Z09uRmFrZENOTk1DTHhDeGNlVG5RQ3pKQWtuNjh4U0VZaFRueGFQcURRU29KbTUwTkVuRWh6bVZqemw5Y1dSMXpZLdIBmwFBVV95cUxPSm5rLWY4UmdmaE5OZHJrTG1RdlJmcThTNzV2aERMcXRWZl9hTzBVblpSY0s1MTJmQ1JSbER4V1p1SVBpZVBqTEg2dG5WMkFGYWVyRUk1YngtQm5tczBuanotaXd0YWVQcnFtUzdTdmhuVmtFaVFDR2FjUDJNSGNJY2NSNllDa2VNbHVIeDhibzVpaEN3V2RTREl0cw?oc=5",
+     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
+    }
+   ]
+  },
+  {
+   "id": "567fe040b98c",
+   "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak. (Foto: WAM)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T14:33:00+07:00",
+     "url": "https://www.idxchannel.com/economics/as-dorong-venezuela-dan-irak-keluar-dari-opec-demi-ambisi-produksi-minyak",
+     "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T14:33:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeno1MWNTZzRfcmFaRWtGQk1FelBDeDREeGpnN096dlNyM3lmOE0wck9VUC1sRzNVc0JqQ0R2RDl5T0N3X1JIbXlDUG8tdkZZV0ZVQmZnbkJvSUdTdi0wNm84TjFBbzJZRElvSG9Cc3hBcFZqbWNudmJqS2VWWThBX0IzLXJLU1FPR183NExuaTJKZXF2WkluSENweVBPNUV1Rmp4WDhKdE4zUVl1TUhB0gG0AUFVX3lxTE53UlpJcXZBRGlGUV81MGtzVTRrLWpiaXlHYTUtZ21TYlRpWXVGclo4b25sM0VSMEtLcHVmNkR3MTRteThrcFRzUlRzaDVpaV9xblNnVFJZRHE1MTR2LWRzR2hvY0p1bmpnaGRoa2c1cWZmRnZvdGlCa2s2YU1Iei10a2xKQ3J2TzlGanNfM0hrUUVCYmtsLUxpYWM5MjAtM1JDbGJTZHZYSDExaEwtYzdKaG1uOQ?oc=5",
+     "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak"
+    }
+   ]
+  },
+  {
    "id": "2a9bb8479908",
    "title": "Nusantara Infrastructure (META) Mengandalkan Pendapatan Jalan Tol",
    "category": "Kinerja",
@@ -677,6 +801,94 @@
    ]
   },
   {
+   "id": "42ac769c1ede",
+   "title": "DSI Siapkan Portal NADI, Registrasi Eksportir Dibuka 15 Desember 2026",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "DSI Siapkan Portal NADI, Registrasi Eksportir Dibuka 15 Desember 2026. Foto: iNews Media Group.",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T18:30:00+07:00",
+     "url": "https://www.idxchannel.com/economics/dsi-siapkan-portal-nadi-registrasi-eksportir-dibuka-15-desember-2026",
+     "title": "DSI Siapkan Portal NADI, Registrasi Eksportir Dibuka 15 Desember 2026"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T18:30:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSThzZGNieGU5aV90cmFiWDBkcmFmQnl1aUhvb0ozcFBUQnlDbGJHbXlxNTV3RW5CVVlRMHlUUzdTTlRHWnhLSk9fejVhM1ZsVHlCLUtuS1lKQzdQekhPWU1yektqdWNiYTVKUlpHcFhOa2hOOWlDMFQ1UEt0bENUeUpYbnBJNThPckMtOHpnSTBIQlg5ZHgtSEN5aVJHVXh5SkpSYXZsbDnSAa4BQVVfeXFMT0dreDBuOWZwZ0MyTGYxeEVyZGg4SFJyckY2X081T3VrX0ZsSFVzWVZ3M2licEo2ZnRMMWFwU0R6a0V4WGNhVzlCUHNoQ2tKS2xFdnJOTFBsdkFsX194UWI5bE5HTDRvVVhWSzd6ZW9aVWxJb3FYd0FocUt1R0FHUXl2WldWejFKT0ZzdVdMekpaa2ZmSnljTmpHZi1IOU1sdUZZNHlGeHl1SHlFdWV3?oc=5",
+     "title": "DSI Siapkan Portal NADI, Registrasi Eksportir Dibuka 15 Desember 2026"
+    }
+   ]
+  },
+  {
+   "id": "5a51881f97dc",
+   "title": "Hemat Subsidi BBM, Sarmuji Ingin Motor Listrik Digunakan di Instansi Pemerintah dan BUMN",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Hemat Subsidi BBM, Sarmuji Ingin Motor Listrik Digunakan di Instansi Pemerintah dan BUMN. Foto: iNews Media Group.",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T17:57:00+07:00",
+     "url": "https://www.idxchannel.com/economics/hemat-subsidi-bbm-sarmuji-ingin-motor-listrik-digunakan-di-instansi-pemerintah-dan-bumn",
+     "title": "Hemat Subsidi BBM, Sarmuji Ingin Motor Listrik Digunakan di Instansi Pemerintah dan BUMN"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T17:57:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXJCQXJfekpyOHd1RWl3MDFxb3VpMXlYTEotZ3pOSFFwbU10aHV6TW0zNlotRkwzb0V0eE1rM2doUGlFM3liSG9USTdBN0Y0TU1zNkdCTmlVWXllR2VYdl9jZUVKUzVicnZ4dks4cTg0U1N3VHo5Y2lDMUp2ZDNpeHRqNW51Y2JKeC1vMHp2WUdWY0lIY1JIdVJqS0xzM0pPejZvSHZEalVrSktVYkxCWWNtQkE3OURtUGNNcEUydmhOUdIBxwFBVV95cUxPdUlDaDVzc1I0TEJiUXZGNHlUY3F4cElwWEw2bDFRbGxNMDRhS0ZRMHpjZm1iTEtKVVF3eW9zX3A1TVFaOXAzZDZRajFTSmpRX193SlFsX0g4SUl6X05idG1YWXBXZzNldlNVUHhZaUFiMlpVZGVIS2xjcXFUMkVOVEZxY2xiaDRSc3JZTVB0YWpkQkNXM1kybWhOVmN6MUlGdW5YZWlYWmZ5QXhPTTJpc1Iya3ZaaWkzaFJlZkp0Vkd5dGRFQnY0?oc=5",
+     "title": "Hemat Subsidi BBM, Sarmuji Ingin Motor Listrik Digunakan di Instansi Pemerintah dan BUMN"
+    }
+   ]
+  },
+  {
+   "id": "c61caa3842cf",
+   "title": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu. (Foto Iqbal/IMG)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T15:33:00+07:00",
+     "url": "https://www.idxchannel.com/economics/dsi-masih-evaluasi-struktur-final-tarif-layanan-ekspor-sda-satu-pintu",
+     "title": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T15:33:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaFhPNmhlVVpydDNRVkFueHVHc0ZFaEdFdzREdU05R0JxSVhucDRBajVUT2J6dXpSRnpZQmYyQ1luODh6dU1Hbl9ETXpSdHlmZUxUUUNOTGx4eE4yN29QMXc0N3kydno0ZVUycGthbTBPNmJueWxiOTZnUF8ybXNlV0ZOb29JdmRTaVBlbGcxTFVCR3FsTUpLbXRqS2I5VHluTkdSc19wQ0tmQdIBrwFBVV95cUxOcWNKZ253T1IwNTk1ajI3M1BnTjhzaHA4eU9aNTRXODg0eFhiZk55T0ZvTkR6YVozNk0tZUk5SGQzSGFadU9GTzNTWm9KaEo5ZEpxbnhhSWNuekVHa2w1WlRlYXZpY3R6a0tlWjEzRUpBTWdfZ3FIVjZhSHQzaTFJVlUwajZfS1g3LUdIZnVEb0pwVjE4dlZJNEV5dEE1SGZCdldBcEZRMUhubkszdy1V?oc=5",
+     "title": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu"
+    }
+   ]
+  },
+  {
+   "id": "f2606b7a3fa3",
+   "title": "Argentina Masuk Jurang Resesi meski Ekspor Minyak Melonjak",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Argentina Masuk Jurang Resesi meski Ekspor Minyak Melonjak. (Foto: Magnific)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T15:06:00+07:00",
+     "url": "https://www.idxchannel.com/economics/argentina-masuk-jurang-resesi-meski-ekspor-minyak-melonjak",
+     "title": "Argentina Masuk Jurang Resesi meski Ekspor Minyak Melonjak"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T15:06:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdDdIYm9PLXN0d0g3RlZFUVdFa3U3SjJMMldoSURZTXROekNNS2puZ0h3NDkwX01pSjF2S1lxTWp3MVZ1NnIyWTVFek4zQ0E5eklhWkxaVkFqZFUySlE0YVZab2lYSE9FVjlLUENhQlViRHFqUnRBQkY0aFd2VEpOU2E5NjFDRnUwd0RIcmZaN0NTS2hWcFoxOHVkVdIBoAFBVV95cUxPd0hCbUtYd2JWXzhVUzVqZzBjMXRJN2c2bWVCdlgyVTFWUG1oMWxVdFlMeEF0TWltR2toT0tMQ3NDOWpGdHJLSjNReE9Oc0VwMHE0Y0oxZmczYkV3UHNpWVRDYU83bmdaMVNmQ3BaQ1VOc0lHWjd3Nmc3YXR2UGduVTd1NEROTmdRNF96NkJLTk5Rc3YzT0VuUFJHc2VvbEwz?oc=5",
+     "title": "Argentina Masuk Jurang Resesi meski Ekspor Minyak Melonjak"
+    }
+   ]
+  },
+  {
    "id": "ea793beacc60",
    "title": "Danantara (DSI): Fee Layanan Ekspor CPO-Batu Bara Belum Final",
    "category": "Makro",
@@ -721,18 +933,46 @@
    ]
   },
   {
-   "id": "43a35b6b55c2",
-   "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam",
-   "category": "Aksi korporasi",
+   "id": "a3cd9e76aecc",
+   "title": "Di Tengah Tekanan Pasar Modal, Teknologi AI Perkuat Pendekatan Investasi",
+   "category": "Makro",
    "tickers": [],
-   "summary": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam. (Foto: Magnific)",
+   "summary": "Kondisi pasar yang dinamis membutuhkan pendekatan investasi yang lebih disiplin dan tidak hanya mengikuti sentimen jangka pendek. (Foto: IMG/Shifa Nurhaliza)",
    "summaryFrom": "IDX Channel",
    "sources": [
     {
      "media": "IDX Channel",
-     "time": "2026-11-27T17:45:00+07:00",
-     "url": "https://www.idxchannel.com/economics/ekonomi-prancis-kontraksi-02-persen-pada-kuartal-iii-2026-ekspor-turun-tajam",
-     "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam"
+     "time": "2026-11-27T13:28:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/di-tengah-tekanan-pasar-modal-teknologi-ai-perkuat-pendekatan-investasi",
+     "title": "Di Tengah Tekanan Pasar Modal, Teknologi AI Perkuat Pendekatan Investasi"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T13:28:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV0ViQm5hN2FKcFNydGxkNnRxemZVdEtnQ3hrMnNvNW1jb3IyWmZFRURDOGZnQl82UVlxd2UtNUU3eGF5TFNrRkgtMWlfMHhhbUJGeGJtSjdLWHpoaUJYOXBLbnp5Mno4ZjA1ZmpaQy1DcVZPWGE4MnoyZ2JXY2FMLVNDcnJwWFlCcWd2M1JHemdoRjZOcWxMTzhQUXZva2tzQnZILU1VajhlUWpvRDZV0gG0AUFVX3lxTE5lR3lNb2xvZnhIWVgzV3V3UjZ2T1NCenMwVFo2eUxTa05jX3pBVzFCWGgtaGpEXzJtd2ozX203VG1ZMnpsYnA0bGFNT2JpbFR1TDBuaFdNck1ZbEZDZ1BmekptcmRfRmF5eXJJVEZlSmNBQlZuLWVrT1UtWjhhQXBUUVhxYzRyaG9Wazd0RzNFOVVKTmdvZk5NY1YzM18wRmNDdEFDSmt1bXNzcW9udUtoZGFUTA?oc=5",
+     "title": "Di Tengah Tekanan Pasar Modal, Teknologi AI Perkuat Pendekatan Investasi"
+    }
+   ]
+  },
+  {
+   "id": "52e41525db74",
+   "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Argentina menyetujui undang-undang yang melarang bank sentral mencetak uang tambahan untuk membiayai belanja pemerintah. (Foto: IMG)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T11:15:00+07:00",
+     "url": "https://www.idxchannel.com/economics/presiden-argentina-larang-bank-sentral-cetak-duit-untuk-danai-belanja-pemerintah",
+     "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T11:15:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMVFDMzBfWFNyTy1qU2k2WHdlOUlMM0RMbG0xRlQzR3dOMXp2ZnUtZXZyT1k2YU9IQXpBcV94R1ZMZGVGbDFYUUxyMTl1UDM1U24zdEFHRGZxS2J3Vmg4YmZ3Y005ZHNUYnFaekllaHR4azhnVVdiMklxaWRQeTd3amd1R1dHT3hEOGgxQzV5dnFLODR0MU9RUzc5b0QwdzZiaXRFRVEwVklxelRIdWxOSVZvRXY0ckZV0gG-AUFVX3lxTE0wcXRiRnBIOVFYZ1Jrcm1DTFBQV2E5VlRzYV9xSFk0Y2Y1TU10MGRocFdqR0FIdXZRWnVIVjZ4a2l1YlRnOGJrZHUwSE9VYlBZS0lZSjRDTVJpSHBXaGNnemJZLUptWU9PaXVsT0dKaGJHMFNmTGR5aDNmSU9NYjExSUNVYmVSWjNfUVpRMHBiaEViVlVLOFJZeE1WQzFpNU9ycXFQeTdyWHlJX2JGdEVtblByam8xZVNZQUZ6TGc?oc=5",
+     "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah"
     }
    ]
   },
@@ -787,41 +1027,6 @@
    ]
   },
   {
-   "id": "0e58eb65cb1e",
-   "title": "Danantara Bakal Merger BRINS, Jasaraharja Putera, dan Jasindo",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T15:29:01+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUk9RZVBiY1dQQTRQcXRvZENjWkZtS2QtcDR2Z3ZHN0pHc3hzM3ozMzBmcFNjNk5VSE1fel9HT29BR0FUUktOY0trU0Y2cXhud0k0R29BVF9BVEdOY01rcTN6dmZ6Z3dybWtDTDU2ZUVRcjk1NmxtYi13OTBwVmNrellFbWI5ZlJyaDVLSmYwdXNUQWZraWhsUndR0gGTAUFVX3lxTE1pMHNKdXNWQmZrY0V4Si1nOVMybmpvSUdzVGtNV0NGR0I4aHUtcF9yRXdON04zdDgwbzhDT0JQcFRBWXJRUllXVHA5clNncDNxUlpIcEtjajg0S0tBZkVHc2JCMzNNZl9pR1RINlpEMDNFMk44VHFlRklldFhMMkpfQ0tsRG5GbHVOVGNGd01iUncyMA?oc=5",
-     "title": "Danantara Bakal Merger BRINS, Jasaraharja Putera, dan Jasindo"
-    }
-   ]
-  },
-  {
-   "id": "83c0ae37d035",
-   "title": "WIKA Beton (WTON) Kantongi Kontrak Baru Rp3,47 Triliun hingga Oktober 2026",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "WIKA",
-    "WTON"
-   ],
-   "summary": "PT Wijaya Karya Beton Tbk (WTON) atau WIKA Beton membukukan kontrak baru senilai Rp3,47 triliun hingga Oktober 2026. (Foto: Ist)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T15:10:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/wika-beton-wton-kantongi-kontrak-baru-rp347-triliun-hingga-oktober-2026",
-     "title": "WIKA Beton (WTON) Kantongi Kontrak Baru Rp3,47 Triliun hingga Oktober 2026"
-    }
-   ]
-  },
-  {
    "id": "81d72e645b89",
    "title": "Vastland (VAST) Bagi Dividen 37,4% dari Laba",
    "category": "Aksi korporasi",
@@ -852,24 +1057,6 @@
      "time": "2026-11-27T12:57:34+07:00",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcWgzaldhVHRENndnbl9lOTNnMkhITGpJWFY3WS1NY21UQl82czQ1U1c1N1hGdGJLZWtpdTBPSjMySDRfaENfZk1GT3dWMEtpdE9hWm4zLXMwMkhlMlZVR3hGV2xWR2d3V3B3cWRNdWtXUC1BWUZPekNKTDhnWjNaY2M1X0NCY2h1VDk4dldENHpWV29hdUowNFkwN3B2a3NteEZkMGpJV3RtOFBHVVhQbg?oc=5",
      "title": "Ekspansi Armada Emiten Pelayaran Dongkrak Prospek, Intip Peluang dan Risikonya"
-    }
-   ]
-  },
-  {
-   "id": "5756630c573a",
-   "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "BWPT"
-   ],
-   "summary": "PT Eagle High Plantations Tbk (BWPT) bakal menerbitkan obligasi dengan total nilai emisi mencapai Rp550 miliar. (Foto: Ist)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T11:00:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/bwpt-tawarkan-obligasi-dengan-kupon-hingga-12-persen",
-     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
     }
    ]
   },
@@ -938,6 +1125,22 @@
      "time": "2026-11-27T10:30:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDVBQU9KOU5reDE5ME4xSl9nYjI1TDFVWGd6UUFReG45OENCc18wNUZwaEZTNUZlaTBIZ01CLXVyRmtVOGJWbjFmbUFTeVpSTGp3UktuWmd2VFJzaWJsclhBOHVRQi1FdERnVG1EcGpJVjNtejQ2V2hDZW5BaUl1SmUxM1VkWi1IcHVyQmQ4TXlZZS10SmlBR1FZRExEMV9wNTlz?oc=5",
      "title": "Nusantara Infrastructure Angkat Direktur Baru & Tebar Dividen Interim"
+    }
+   ]
+  },
+  {
+   "id": "92ad066b4a84",
+   "title": "Saham KETR Pernah Sentuh Rp1.595 Sebelum Jatuh, Masih Menarik di Tengah Ekspansi Kabel Laut?",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T09:43:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWlhwdVp0VFY3RXRuWnlLNVFBQWQ5TktGaWQ0Y3RUVmE1dnRINXJPa3RWa204M2NhQ21tdldvQ2I5ZUZUVUpMSnAzaDVsREpBX2tSWXhnYUMxSUx5SC1iLUxMTF9zNndTT0tCYzJHSHBsbW9mWW1HNWNtVXhSWjU1WWN0VzBGa2pVZFNfSk9vOFNuNzE2a2lQSG9mZW9OeU5QN0xPVkg2VkZ3VGdhV2RZSFQwcVVXRDhPT2x4T2NvdlozVlpwVC1B?oc=5",
+     "title": "Saham KETR Pernah Sentuh Rp1.595 Sebelum Jatuh, Masih Menarik di Tengah Ekspansi Kabel Laut?"
     }
    ]
   },
@@ -1088,6 +1291,22 @@
    ]
   },
   {
+   "id": "ec85211d241c",
+   "title": "Danantara Tegaskan Garuda Adidaya Tak Akuisisi Eks Lahan RAPP, Ini Penjelasannya",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T01:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYUx5N1hQaldxOXdlQUpBLXctb21XWHdVZjNyckdyMGdOZFdaTzRvZzUxSmtWekhHMmZ1YWp1T0lBYmpqMkNnYUlmVVlyQlRBYXI0SG80eUgxMkx1X0RMbEFYdE55cmZ3cklkeUVwUHlaZ0NOUjA4RURtUTAtWDkzU0NPZnhiYk9ocjZKX2k2TERNRDFqajdVX2owWlZURTZnREk3QmFFU0FsUzRrRUFUQVZXMFJDOFnSAbwBQVVfeXFMTko1bnB0djlqNFdzSmVGczk4ajkxMFlkQ0M5TW1QbUZHZlRWdEFOYWRNWnhlZmFzbEVjQ3hMVDhGcjB0bXlxMk43eW1jT2dhUHgtXzJhLXBrZHVWQUNOMEtYMjEydTF2TFptNXhmanVyS0EwMlU4T2QzblRHQUNxWmFqQ01ua2ZmalNYN0R3VXlZZ3FSX2Nnb016NUZFak1YcmFVYTliVGttbUw1akxhQmV5SGIxMHVqWWVrUmI?oc=5",
+     "title": "Danantara Tegaskan Garuda Adidaya Tak Akuisisi Eks Lahan RAPP, Ini Penjelasannya"
+    }
+   ]
+  },
+  {
    "id": "08b3ad64ffae",
    "title": "Kementan Tugaskan BUMN Bangun Pabrik Biodiesel hingga Margarin Sawit",
    "category": "Aksi korporasi",
@@ -1202,6 +1421,24 @@
    ]
   },
   {
+   "id": "83eb425741d6",
+   "title": "MSCI Play Saham Konglo Berujung Kasus DSSA, Akankah Ada Nama Lain?",
+   "category": "Regulasi",
+   "tickers": [
+    "DSSA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T16:05:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeDRhVWZEZVIydTVkZGU0d1BiRWZBVGtiUnBBVFBtNkRIUGhVOVM3S2sxODZiemxMaklXMC1Bd1pXTDdqdHd3RTRsNmN0QzVLUHNBai1rSnhlcGNCU29SV3hublJ2OGRkUTc3QVpmYnB2UnU4TmJsZFZmeF9yWS1PZ2xvZ3V5RVJxVTRPSnNnbjRrX3NOZnkwMGJhams2SGlFZ1NSWFR30gGrAUFVX3lxTFBzREVLWTU0QlBzZkI2Q0dINkR4d0lfb01PX3dLRnU4V3cyNEJrNDUzNElMSXhoeXhXRVNNZHFzRTlnNzJJeFZJR1N1Y284dW9rdEI5blZzZlp5WWYtdjZLeExEbTU1V2lFaGd6aGU2QWtRSWoyMUhySl91NTNmelVQS3EzcHBtZHV1UFNpdzNDcURzcGhXQVhuT2lSMmlpeGhFcTcyNjZYZ29Tcw?oc=5",
+     "title": "MSCI Play Saham Konglo Berujung Kasus DSSA, Akankah Ada Nama Lain?"
+    }
+   ]
+  },
+  {
    "id": "46a8f071aca3",
    "title": "Kebijakan DP 0% KPR Berlanjut, OJK Lihat Peluang bagi Asuransi Properti",
    "category": "Regulasi",
@@ -1286,6 +1523,24 @@
    ]
   },
   {
+   "id": "a72436d0981a",
+   "title": "Jelang Efektif Rebalancing MSCI pada 1 Desember, BRMS dan BRPT Malah Melaju Kencang",
+   "category": "Regulasi",
+   "tickers": [
+    "BRPT"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T11:09:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVVg2UGJOck56OEk2bkJuUVBGazFFdExoQzBOM1ZQWXpBOEZHWXBONGxWaHJTQTZZMW5iQ2lJd1VtaUtWU3lnVTd2UW56T05lNkdIX0RJTDVWa0N3SUhyNmhqcTNwQUxFWlM0c1BqbG9ZRnA5RE0zV3RiczJ2V0J1YUlhVTNEUlFGWU9wZU5PSHFTc2NWU09jX0c5VUVuWHFab1NoRmdVSXlGTGV4Rm8tX1lkQjBjWmtmWWFqaWp30gHDAUFVX3lxTE1WbDF2YUpSd0hOSUdwa1h5T0liLTVzaEphU2ljU2stMU84dndZbkh3cmJIX3UzTUgwS3FaZi1kU0FFaUpOY3lMbGVDNzRNeWZBUHd6dm1YOVVKV3YtMnpid1ZXY0NKcE9wcVc4TFMzZUFkcVpaTVJPV2ZSaXNrVnlGYkFqX3hRMWNBdEk1eERmS2tiQXNGTkhmX3l4d1Zma0Y0OTIxQ2dYQmFFVmJ0RnNFaTVYTGwwWmVycDd6S1dGQUxIdw?oc=5",
+     "title": "Jelang Efektif Rebalancing MSCI pada 1 Desember, BRMS dan BRPT Malah Melaju Kencang"
+    }
+   ]
+  },
+  {
    "id": "5612801f3acb",
    "title": "Emiten Hary Tanoe Kena Suspensi BEI, Ini Sebabnya",
    "category": "Regulasi",
@@ -1318,6 +1573,22 @@
    ]
   },
   {
+   "id": "36b351d6bc91",
+   "title": "BEI Suspensi 5 Saham usai Langgar Ketentuan Pelaporan Free Float",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T09:52:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWjliTHJyX3NkZjB1N0xLUlJlZDgyTEgwVlRXS05lWjhKRVdvSzBPc0xnZWJLd0dndG9kMjBsc3R3blpqcmtkYVVpNURzU3JmbFVtX1p1U05qTjBjRjVLS3Babk03MDJXVkRKQnVaZUlReFB0ZUR0Y1ozel9jRjdWWjQ0a0p3U0p6RGlNZ0xQQ3A1RENlU2lWNVpyeXAway1uTlVsOXJR0gGrAUFVX3lxTE9ZRXhVdlVmZ0lqcWxUZUNVV3pPdVQwRjJDZjBrWXp2ODg5eUIzU3g3ZkNHbjVIQ3BqcTA0SVpkQ0R0RWtpM0VXT05WSzFRV0xuakk1aFhPd3I4eGMyUUFvNnJVYVpJNHpEdXAwcWpQVER0QjdodURrSjhMYXRYeDhkdDgybUktdXpnRTdrdlFvXzN5ZHZRTmYwQU5nRnhmOTFLb3FaQl9wcDRNbw?oc=5",
+     "title": "BEI Suspensi 5 Saham usai Langgar Ketentuan Pelaporan Free Float"
+    }
+   ]
+  },
+  {
    "id": "d20f08305b51",
    "title": "Awas MSCI Lagi",
    "category": "Regulasi",
@@ -1330,6 +1601,22 @@
      "time": "2026-11-27T09:32:33+07:00",
      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QQ3BRMlpFd0l4RXhtamtQbVFEbm1QTUJTcVhkVVc3V1FuZC1Mc1hVd05HUjlKZlp2UkZWZzFucS00cjVCM0doaHkwLW41b29lNFRnVGNod0VPUlNk?oc=5",
      "title": "Awas MSCI Lagi"
+    }
+   ]
+  },
+  {
+   "id": "e300599e81c4",
+   "title": "OJK Diminta Perkuat Sistem Pencegahan Jika Terjadi Pelanggaran di Pasar Modal",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T09:12:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUUtfY2lpMkYxOWR2SjFJV3dOSUN2c2EwYmJmOG0yaUtLMVdCYlF5a0ZBcHViTWk1LVVnXzB6dldQVU1aa21tTmV4LW5WS25XbE1OanQ1OVp2QVpoNlJFblZCSjdwV2I0RkVFNUlYQ2x1VElDeTVpUy1LQjMyREFyNlFsWXY4YmhKVG1OeWswNTZfLVBfN1gzRklhWXd1cG55emg1OC1oM0FpVWs0YkozbjBwMEnSAboBQVVfeXFMTkZ3Zko1bzFqS0RxaFF3Z0loN3ZXTlMwQTl1T2hqX3BDV3VnMVY0Wk9LeUhzZ0pyZ1hXQnFKQS10ZUVRanUwd2Rpa010SXg4TWE2VF9ybVk2VzBMY1d3OGdNSUhuNHNCLW10MUh4bFBmb0hkT0xYbXNRaU11aUpWVWc2VzFUUzRfbGNUcC05NlZCOXgtRm1oQTJGUzRTREI0RDZjbHQ4aEhUZzVUWlRlM0plb05aUm1oM1pR?oc=5",
+     "title": "OJK Diminta Perkuat Sistem Pencegahan Jika Terjadi Pelanggaran di Pasar Modal"
     }
    ]
   },
@@ -1378,6 +1665,22 @@
      "time": "2026-11-26T19:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYm9waXJ1UEZuOU4zMXZPR0hCU1QzdXZYd0VVWHZxRjlTcFJwZjd2alJtalJhQVF6RUZucHNUTGZhVldWX1NvRHRpSjNVUFZUUXhYckpnRGhzbjRUUUVHejBXbDdYQXhnY3lQU0xGTmJPQWJZcHpsUFRwaE9objZ6Y1dQUk00aFBzVFRidTBoWm4wZmNsQy1qdE5lMnJtbXE0a3ZXZXhB?oc=5",
      "title": "Melirik Peluang Saham Underrated Pasca-MSCI Index Review November 2026"
+    }
+   ]
+  },
+  {
+   "id": "46c5a2161ee8",
+   "title": "BEI Perkuat Pengawasan Saham, Andalkan Teknologi Nasdaq dan Transparansi Pemeriksaan",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-26T18:42:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd2lvd3hjdnJuWUlBbVZxWW1Cc1Q0YXJUeHJQNHN0OHlucVBLUlN6LUpKMFZnT0o0LTlRVU1FZTFZa0duYjB4VG5nVHE4ODRxUldOc2ZVN1EtT1hPUm5ES0lwYk9fd29Gc09neWVFeFF3YkZXSEdmcEs4b1NQZ1BRVmdBVjE2RTVYT21DdU14UEpPcVF3dnh4aWFRNXVfeXJCVFNPOUc4U2RNNmVnYllFTVBKcFRueGRwSFFYM3U0QdIBxAFBVV95cUxPSGItVjdSUERxSDE1NUlhaVRoQVA4YWllZklfczJDSnBNWWxUYlVyUmxhcm83TXIyM1ltY2pvLUlvVGdGNVhLRWVLMU1DbGZUemxiTVZ4SG5GVlVrU1picGY4ZXF0NWdBbFlPbVYwTFVscXh6TGdheFBlMDJrbDhfcUQtbWhEc3I1eXhkeE5PZVlvdy1zM3ljZVpfeFlMWllJbnFDNlE3NzhpR2J4a0VuZzF5dXYzWVJzYlc0WVIxVE5jemZ3?oc=5",
+     "title": "BEI Perkuat Pengawasan Saham, Andalkan Teknologi Nasdaq dan Transparansi Pemeriksaan"
     }
    ]
   },
@@ -1548,22 +1851,6 @@
      "time": "2026-11-27T14:33:01+07:00",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeXdGYm0tR3RrSWZrOHlWVDcydWFGd2FaU0tacWlQdzg5SHp2NFBVVHRiSFFWSlVSZkgwUzRkUnlnY0Z2b0Z6Yi01Qks5MDh6TUtQVlhrTTZYMWc2a0V5NktkRFVtRjd0UFFma3h0UGhzRGtHX1NVcmNIRXBTWFRJLXl1VUNiZw?oc=5",
      "title": "Target Saham Bumi Resources (BUMI) Tak Main-main"
-    }
-   ]
-  },
-  {
-   "id": "567fe040b98c",
-   "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak. (Foto: WAM)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T14:33:00+07:00",
-     "url": "https://www.idxchannel.com/economics/as-dorong-venezuela-dan-irak-keluar-dari-opec-demi-ambisi-produksi-minyak",
-     "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak"
     }
    ]
   },
@@ -1740,6 +2027,25 @@
      "time": "2026-11-27T11:13:19+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYWEya3V2REZTbXpfLTBCYUg0V2N5Q1Z5X2VCd2FaUThNN3l2eTF3eEY0UmZrc0NxOGFiUi1zZ1kyMVg5MHItVnQ3cUhET2FZQVBIcl9UTU45TmhDRVVmZWxZUDdOOWxEM0ZfZC1iRXhNZWRLUkVZNDdTYWRjTThkTndVQnB6cld2SUtwRTA3Y3NzaXVITnJKZWRFWk9WZTVNeHJIUUxoQlhBVVpUMlZIaUln0gGqAUFVX3lxTFBMa0tTNE4tUEtuczhpSEwxdlBxSjRGaTRMVGJrdXA0N3N0Q1ozTVVOcHpERlNocHR5eXE0RXl3aHRCSmZHOEJXMUhSaTdfTjBrcGdlY2Q4Um1rUEdGNTltYWgtRmtZVE5TTzl3YmhwLUx4ZktraE5BcDJFSkp1RnBVQXpoQk9GdTdoWXRXMnhNTjdYMzRtQjg2Zm1hUmhveTNDeDBlQ3JMR25R?oc=5",
      "title": "Kenaikan Harga Saham TOBA Jadi Sorotan, Cek Profil Emiten dan Kinerja Terkini"
+    }
+   ]
+  },
+  {
+   "id": "9ebb04256115",
+   "title": "Permintaan Semen Menguat, SMGR dan INTP Berebut Momentum",
+   "category": "Kinerja",
+   "tickers": [
+    "SMGR",
+    "INTP"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T10:10:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeHBYZk4tdXp3YVplX3d1WDhEdFI5OEF4TnF0a3V0Z0pnc0J2R0dGOUxHSFV4dFBrNnJmMVctRTlrZEx1Y1BrckdWNVdEbVVBUjJLUFZuVlVhbFppWnVranVjWGk3R2RyRnpkZ0tlX1hVWVJzNmJJdUVLTXlKSzFncUhEdUlZQVlsamdNVHlvdTdkNG1WLV81ZmMwVFjSAZ8BQVVfeXFMUEpfaWZsVUNlcmtTdnpfdl9CWHFoZFVZZWF6bjhoMjBjOEQ5eHpVMllyRkxQNC1xNjY5eXJ3OEdxM01wTVgzNGY0eDdMMU5MNGtYTGhSbW94UXJjUm5LcU5ycExVcXE2Y1NUeVk1WG04X3NJeDlWRU1JRHpfVWNYOU0xYTZvOFhyMXF4SHB6T2pFeEdPYjVsOW5HbUw4VmYw?oc=5",
+     "title": "Permintaan Semen Menguat, SMGR dan INTP Berebut Momentum"
     }
    ]
   },
@@ -2008,6 +2314,24 @@
    ]
   },
   {
+   "id": "c36fb687333f",
+   "title": "Bidik Peluang Pertumbuhan Ritel, Trisula (TRIS) Fokus Perkuat Strategi Pengembangan Produk",
+   "category": "Kinerja",
+   "tickers": [
+    "TRIS"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T04:04:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMlRaT0JLZ0I0UTIya3RnaWstYW5FSEMzMVRwWFc0ekZYMWVrOFI5YnRaaFVBRXFRNkhUM21tNGNZVzd6dE9ySUloTHV6Z1VwV255UlJaSWJObkVvNlBxNWt5UGdobUlSa1ppQ1dqMm5aYnVfZHZMWW5WZ012OUw4YnRRYVp1bzF3ZmROZXQxWlN0Yjh4UjFjR2RkeTBESTlHVUZyMUZpWHVnVEl1cWVrQlJrdVhBNWhrdExpS3F0Qm1NaGJR0gHKAUFVX3lxTE5rOXBMajhfQzJGdnV5TkVuSHVMLXNhZmFONTQ0eTAyZF9iQVo1NFZONmhmY2FrOHRoeGkxdWhFWkVUcERvNDlBRUlibEY2WXY5dUVVYk93THpSb1ZCNTlhNU9HVWtBUzluRDFPWXhfUUNUQ1lTalE4UHZHV0VKMldrWFZHRXA2eDctYmZiNmtVNW9fZGIxUFlERGNwTFZIaGZUcjdKX3hkbWVOT3NNakFHb1hkMWJqRzNsX1hzeHJkMkVuenVGbW1RSWc?oc=5",
+     "title": "Bidik Peluang Pertumbuhan Ritel, Trisula (TRIS) Fokus Perkuat Strategi Pengembangan Produk"
+    }
+   ]
+  },
+  {
    "id": "6ea4cb2d2047",
    "title": "Akulaku Finance Gandeng Bank Jago Perluas Pembiayaan Digital",
    "category": "Kinerja",
@@ -2042,22 +2366,6 @@
    ]
   },
   {
-   "id": "42ac769c1ede",
-   "title": "DSI Siapkan Portal NADI, Registrasi Eksportir Dibuka 15 Desember 2026",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "DSI Siapkan Portal NADI, Registrasi Eksportir Dibuka 15 Desember 2026. Foto: iNews Media Group.",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T18:30:00+07:00",
-     "url": "https://www.idxchannel.com/economics/dsi-siapkan-portal-nadi-registrasi-eksportir-dibuka-15-desember-2026",
-     "title": "DSI Siapkan Portal NADI, Registrasi Eksportir Dibuka 15 Desember 2026"
-    }
-   ]
-  },
-  {
    "id": "16e8e247f3e3",
    "title": "Pengamat: Fee Ekspor Komoditas DSI Harus Berbasis Perhitungan, Bukan Tarif Pukul Rata",
    "category": "Makro",
@@ -2086,22 +2394,6 @@
      "time": "2026-11-27T18:10:13+07:00",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbXJBeG1jWVY2NVpCSmE2Mkh3UkRkdjRkcnl3d3c5M3BhOVg3eHpjQ1ZkcTdkS0FmeWdyMmN6MGZzd3llLUtockNMQVpmalczdzk3TU90ck1yT2cxRGc3WFJ2bGhOWEVwM2h5X3kySnEwaW5hMElCTzhEOFZyNHhTN1ZkdENlTUxYeVVnYkZvNjhjSWVC?oc=5",
      "title": "Kejagung Jelaskan Penanganan Kasus Nikel yang Jerat AK"
-    }
-   ]
-  },
-  {
-   "id": "5a51881f97dc",
-   "title": "Hemat Subsidi BBM, Sarmuji Ingin Motor Listrik Digunakan di Instansi Pemerintah dan BUMN",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Hemat Subsidi BBM, Sarmuji Ingin Motor Listrik Digunakan di Instansi Pemerintah dan BUMN. Foto: iNews Media Group.",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T17:57:00+07:00",
-     "url": "https://www.idxchannel.com/economics/hemat-subsidi-bbm-sarmuji-ingin-motor-listrik-digunakan-di-instansi-pemerintah-dan-bumn",
-     "title": "Hemat Subsidi BBM, Sarmuji Ingin Motor Listrik Digunakan di Instansi Pemerintah dan BUMN"
     }
    ]
   },
@@ -2202,22 +2494,6 @@
    ]
   },
   {
-   "id": "c61caa3842cf",
-   "title": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu. (Foto Iqbal/IMG)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T15:33:00+07:00",
-     "url": "https://www.idxchannel.com/economics/dsi-masih-evaluasi-struktur-final-tarif-layanan-ekspor-sda-satu-pintu",
-     "title": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu"
-    }
-   ]
-  },
-  {
    "id": "34a6a023e1d3",
    "title": "Mantan Gubernur Bank Sentral Spanyol Kandidat Kuat Pengganti Lagarde",
    "category": "Makro",
@@ -2250,18 +2526,18 @@
    ]
   },
   {
-   "id": "f2606b7a3fa3",
-   "title": "Argentina Masuk Jurang Resesi meski Ekspor Minyak Melonjak",
+   "id": "5e316db81772",
+   "title": "Harga CPO Menguat Lebih dari 1 Persen, DSI Masih Kaji Pungutan Ekspor Sawit",
    "category": "Makro",
    "tickers": [],
-   "summary": "Argentina Masuk Jurang Resesi meski Ekspor Minyak Melonjak. (Foto: Magnific)",
-   "summaryFrom": "IDX Channel",
+   "summary": "",
+   "summaryFrom": null,
    "sources": [
     {
      "media": "IDX Channel",
-     "time": "2026-11-27T15:06:00+07:00",
-     "url": "https://www.idxchannel.com/economics/argentina-masuk-jurang-resesi-meski-ekspor-minyak-melonjak",
-     "title": "Argentina Masuk Jurang Resesi meski Ekspor Minyak Melonjak"
+     "time": "2026-11-27T14:51:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVjJNcWY1WXhtQ2ktMngxaTBIY0NHS3ItcTV6OFFfd0lob1pXUnd4ZHJ5aDVOUjU4dXdRaUtkYUlST2cwVUVWQ2t0Q1k1MGtyamhFTkZyd0MwejBlTnNlNmUtN09VaDJTRGdvajNWR2ZUQjdYZF9TWlJRbnB4OE90R3pOcjI3UDZkdm1jWW9Mamh4U05ReUJzelRwSmRjOWxqY3ZQdE5rYVhHRmJPUlFocmMwRdIBuAFBVV95cUxORFotSkh0Q1dma3dnM0Q4RUpMbVc1STZyNXE3NFVKdFRlbXFZZ25GaWNRdXBCaXJ3akx5ZHZpazNmb2MyTnp2NV9OR2NMOVdGTXNWRHQ4MVNoMklWTGNUaEFVMTZrNTRqTGlQWUQ0dWNpRmd2SGNsbmJMbDFhVTdWc3diUkNBcTM4b3dyX2treXBPdzJjT3prODRtTXY4NHpUX1dNY01CekZEMEpPbjVrcjJzSTl5c0Z4?oc=5",
+     "title": "Harga CPO Menguat Lebih dari 1 Persen, DSI Masih Kaji Pungutan Ekspor Sawit"
     }
    ]
   },
@@ -2458,22 +2734,6 @@
    ]
   },
   {
-   "id": "a3cd9e76aecc",
-   "title": "Di Tengah Tekanan Pasar Modal, Teknologi AI Perkuat Pendekatan Investasi",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Kondisi pasar yang dinamis membutuhkan pendekatan investasi yang lebih disiplin dan tidak hanya mengikuti sentimen jangka pendek. (Foto: IMG/Shifa Nurhaliza)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T13:28:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/di-tengah-tekanan-pasar-modal-teknologi-ai-perkuat-pendekatan-investasi",
-     "title": "Di Tengah Tekanan Pasar Modal, Teknologi AI Perkuat Pendekatan Investasi"
-    }
-   ]
-  },
-  {
    "id": "a80218254650",
    "title": "Dana Asing Mengalir ke Saham BRMS, Harganya Melejit",
    "category": "Makro",
@@ -2538,18 +2798,18 @@
    ]
   },
   {
-   "id": "52e41525db74",
-   "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah",
+   "id": "e2050c9c4e7b",
+   "title": "Pungutan Ekspor Sawit 0,5 Persen Mengintai, Dua Emiten Ini Paling Terdampak?",
    "category": "Makro",
    "tickers": [],
-   "summary": "Argentina menyetujui undang-undang yang melarang bank sentral mencetak uang tambahan untuk membiayai belanja pemerintah. (Foto: IMG)",
-   "summaryFrom": "IDX Channel",
+   "summary": "",
+   "summaryFrom": null,
    "sources": [
     {
      "media": "IDX Channel",
-     "time": "2026-11-27T11:15:00+07:00",
-     "url": "https://www.idxchannel.com/economics/presiden-argentina-larang-bank-sentral-cetak-duit-untuk-danai-belanja-pemerintah",
-     "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah"
+     "time": "2026-11-27T10:46:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdlBma2FxQnppUGhDdTlKWmFJVWd1Rll4cXBhQmMySldkLXZiRUNUVVRKNVBjNktINU8wdWNEOTlVcHNnenJ4S1hTNU44bW5IUW9sMmxoNFJEVUlOdkZkVExoLXhiWFRKbmJTMDhIWktIRjlSWmZTRF9uZ2trVzFFMzFGLVdTQ2toWlQteThSRkJ4dEhqb0t0b2hLaGhBNWF1OTZTcndtN3ZRTnJLOE9wMXpR0gG3AUFVX3lxTE1BeE1meXFLNGVFZkVZZTBEQ1lSRklKczRpTjBqRzBORUotZ2NHdndPM3IzSWVneUtIb29abzhjX2dBb3RYSl9VcHBCcVAtOXVDN1M5UDNIV1ZiZVpnZktPaFAySjUzeTFFRHRGdklxUTVmeS1qSWx3Nl9icjVyYjJwNWx5Q0swLUxUVGNlejJwWjA2X3VsODFLUzJVWU5TVDQ3LXk2aUZleWxvMkswTWpzTlZIakNFSQ?oc=5",
+     "title": "Pungutan Ekspor Sawit 0,5 Persen Mengintai, Dua Emiten Ini Paling Terdampak?"
     }
    ]
   },
@@ -2630,6 +2890,38 @@
      "time": "2026-11-27T09:41:54+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLVBIbmRpZnJGWG1wQ3ltZmZCWlZ5THIwSmNpM3ZwOEJJUHBob2FiRjlmejBhajZyRGs3MnNSWWN2ejhyQUhubTJ0QzVZNHk4b0EtQ2pEQjQ5aFZNMkV4UTM3UjZiZjlUT2lhdzl3UWFJU3dZS2xoeDBJblJqZC1sdFhUQk53aF9YdmNkTzlaZGNlZVpORzlmeUlGa3RJd2dhZUUxRlJiN0RPS2F3ajRIc1pydzJFYUNkVHJKYjZjaW0ydw?oc=5",
      "title": "Airlangga Klaim Progres CEPA dengan Cina Tinggal Bahas Hambatan Nontarif"
+    }
+   ]
+  },
+  {
+   "id": "3550291a98db",
+   "title": "Kejar Daya Saing Ekspor 2027, Kemendag Perkuat Logistik Efisien hingga Integrasi Inatrade",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T09:38:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbGtpOTF2WmtGV3pvOE02UWhBcmZJcUFwU2lsdnYwWWc4LTM3MDlqZEZSMmlTaUNLX3owTF80Ylk1SG15cS1KS2F1NU5GTnhNQU1vcW04TVY3MENwOEIyczRzcWhyNFRybzJKQmg2alhfWXpIREIyNmJ1LXM4b0E3NUNDOHNBV3RSb0ZlaENDNWJBS29SbWtnOFJmTFFLdnY2cDFob3RqdFFuZGNWbGFLVjdPdWM1LXByY1RybmFpZ1ItbTjSAcgBQVVfeXFMUGRMNDJlYXlCTUlPa3YzRjJUZmNlYksxUmV5UFc3MF9CNWNvN0gwQ2YzSllfZUJXYThTOVVnLUMyRVNvVnFXRmd5VzhCejlpeGNHNExlaEdhMEM1OUE3MFhaUllWQm9tVzZYMzdvYzhWbThhSEJsblhhWm8wR0M3dmRBRERoVG5zclhGZUVtbmVTYjVjQ3VCak5qTUd6LWxDQkg2M1RQU29PTk5UVXlkMlNmc3d6LUdBLTB4cHZpOHF1aDZMOXhJNk8?oc=5",
+     "title": "Kejar Daya Saing Ekspor 2027, Kemendag Perkuat Logistik Efisien hingga Integrasi Inatrade"
+    }
+   ]
+  },
+  {
+   "id": "52e29ec81eb6",
+   "title": "Bursa Asia Menguat di Penghujung November",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T09:13:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVUJ5WEFJejFjWllFSnRHZmU5LXdhUnZhdzBVeEh5U1RlNFNqdm1BNUxja1NmNUJkSS1kODNlRGxCaHBkd0pfSThBUTgzNzNRcWZaT2ZpdE5KMVJuX3l0eUs4SldpSmtta0pfNVNqSmdreHdTcjZEalJPeXAwUWVZV3kwSmUyS1HSAYwBQVVfeXFMTXJsLXhjaG1oSl9fYjRMOUpaZmNoWXFTUXFPNUtyaDJJYmVMVldSbFRNOVg1U1ZyMldCMmNYcG1oejFQcS00c0VrQkdFRDhRRWpKX1B4S25kLTVMVmRydS1qMWNDS1BMLXNMMzVWRk94aGM5YWhCbjlTa0ItdGZXMkQ2aVJ0THRhd3gzT28?oc=5",
+     "title": "Bursa Asia Menguat di Penghujung November"
     }
    ]
   },
@@ -2794,6 +3086,22 @@
    ]
   },
   {
+   "id": "d55b69161b3b",
+   "title": "IEU-CEPA Bebaskan Bea Ekspor Sawit ke Eropa, Seberapa Besar Dampaknya bagi Emiten?",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T06:28:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczhKWHJFZFJnUmhoQTFXRTcta25TUmZoVGt6b0RNcTNaM0Q5dUd3LXJKcG1zMnA2X0FxUVpta3o5VzJURy1YZHI2Mk12TmJPbWF5Rm8zbTZuanFKQXhyV0lCWWk1dWhjbGtXUmFiTjVsWGMtZXBudkRKU1NXVktBTFR5UXFrTlozak1SLVJJZ1hoLTBNaEYxVVByQldkUnptaVZNNTJCMC1CNzJ5bzBLbldETmdsMDdqZDBF0gHAAUFVX3lxTE5BeHNvcEdlaGcyY2k4dHZHYjhLYlRWa0lLOUtkcjBpX1lYdzJ5Y3Q0ZUw5Um51WlNSTHF4bGdya3F6QWNncVVUNlhPMU1ySWQtZG5RbFNUVW1oblJobU9hSDl3VmVXay0zSXd2MGJkSjlSX2VzMjdMMEZ4Nk4yMno0M2JwbDB6QXZrNHhnVHRtWlg1ajBqX1duRjhNcjRIRGlIejZySWEyd3FIanhuRFBkVi1EYXBlQXlSVFZ4MWRBTg?oc=5",
+     "title": "IEU-CEPA Bebaskan Bea Ekspor Sawit ke Eropa, Seberapa Besar Dampaknya bagi Emiten?"
+    }
+   ]
+  },
+  {
    "id": "adb4c15d4f0b",
    "title": "Danantara Andalkan Sektor Perbankan",
    "category": "Makro",
@@ -2838,6 +3146,24 @@
      "time": "2026-11-27T06:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUUd4SlQtUzY4d0phRGZJTTEtd294QWlxWFUtME02R3h1Z1NCVFhTVEhYbHFVQmt0SlN3VDRZOERseGtOR1YwQXNIUk1RdUlScXItZnlsLWxXUXZtc0xMeDY5d19vamtRMzBxMk1BRE5CdVJuZ0xwdHJMbVBBdWdGNWJGU0Vtdkp4UnVtekEwOU9ZNW4tVy1CcEtaSWNBZzlDcGs0LUxla3Y0Yy1uakhjQUdNV0o5WWM4?oc=5",
      "title": "Menakar Peluang Cuan Emiten CPO dari IEU-CEPA hingga Mandatori B50"
+    }
+   ]
+  },
+  {
+   "id": "57d883bbad0a",
+   "title": "PGEO Raih Peringkat BBB- dengan Prospek Stabil dari S&P Global Ratings",
+   "category": "Makro",
+   "tickers": [
+    "PGEO"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T06:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONzBFQ2s2V2tObGo4TzNIVGwyYXFab3R5b19FeHZZWHRUREdQaXZPV2xzRVlHZW5DdnhoSUNRSXNKcUtjNDdpU2h6dGJxMEJNUG9OekpjY1BTT2MyTFdWRFpsVWpqVnN5cUJWdmhfWUtjWVQ3MVVpM0lGTFRmOXgwcE5XWnFlMlZmc3dNU2FiOFZiWW8zaWlvOEJzaWFZTXllQTBvNEx1TTVXdjDSAbABQVVfeXFMTXBqQVliWjNnWjBoUGxHOHJuYlJjWWs5TTlyQ242b0t4SnJxMGJ1NEd5SVlRVXVWTjNDQXpCbkUwUWRsalc0VnByT0pFYTIySjl5MEU3V3Z6VkNwVjk5NVRzZ2Y4MWs5Y0hWdUdfTzNPWVpDcXduRWV4blUwOXRSOEs5UHJCZXlKenhaMWVxUVMwc1hQYkx2Z0NpN1VnemlTQ3lBbWtjMENNRXUyekJ2XzM?oc=5",
+     "title": "PGEO Raih Peringkat BBB- dengan Prospek Stabil dari S&P Global Ratings"
     }
    ]
   },
@@ -2902,6 +3228,22 @@
      "time": "2026-11-27T05:30:07+07:00",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1Z1bkVCZTFBalF0dWF2a3ZqNG5EMVpPVzF0bm9LM0ZjU2p6bzNPLTdkeFhLWlkwbkZNbnliVXQ2XzN1MC01T3BPbjZYUU51cGNYMkkzX1BET21sLVFfcXhCNTk4Y3JzQkc4TjE3TDNDSG9Dc1g0Nk9zT25FZjBvcnJtV2FfYzA?oc=5",
      "title": "Bank Makin Doyan Parkir Dana di Surat Berharga"
+    }
+   ]
+  },
+  {
+   "id": "264ff4c43125",
+   "title": "Danantara Siapkan 41 Proyek Strategis 2027, Fokus Restrukturisasi dan Streamlining",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T05:05:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV1ZYQzZ6ZkhZWDBTaTFXZlFqbnlvdXpmRUtTd3JQbWFpRzlsenl2Rmc5aEdpN3N5LVRkbFpsN1RLR2o2TVNKaDZuVzZiT0hPZHlpLVdIcXNpdXpTZkFpcTBaanViX2xpSVYyTHREQWtxeGlLa2Q5SjF4dGV0MVY4SU1yanM0VnROOVBKUjExOW9wNk5Yd1QxRldTNFpNS1JMbnRaUUZwWHhMaFJ5bW1wS3NfVjBaYTI5ZUHSAb8BQVVfeXFMTzBnZG1rQXJxR0VQMmJZaTVnSUh1ZnlVdGtxY3NUbVNBdXgzOTVtNU5WaFVaZE91WVY3Rks5eThGNXFjb2haUko1cW56OE1fTWdraFFxRHBpT0ROTEI2TGF1b2J2eXVmSkJHV2ZnekhnNC03ZkxFUTNLb1A2V3duZ28wREJxU2REdVhLaWw2UmZUSmxDeU9oSTJMemtJWHlMRjBDNjB6X2FvbjJZemo1LXYxSXY4elNJWnp4Y2hYSWM?oc=5",
+     "title": "Danantara Siapkan 41 Proyek Strategis 2027, Fokus Restrukturisasi dan Streamlining"
     }
    ]
   },
@@ -3062,6 +3404,22 @@
      "time": "2026-11-26T19:35:45+07:00",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaVNGYzRfZnkxVUtMNUdybWJaZ0dPdnBaandCSUdWTmdQN1hnSURFTk5DZ0RBY1NnUWY2elhFMFF4enN3NDNzbmNJVjFLbXpxd0RZM2MxOGJRMDhXRUtrUVlpZWFHN3dWT2t0c2dVczJPb1M4NWFObmhXdWN6TlBfUFlfUDBiWXNnVm90ZURTU2p5aTJvVXNyRy15Sk5ucHpjTzRpbVVwNDhUb2QwMXpEUQ?oc=5",
      "title": "OECD Usulkan PPN Naik Jadi 12%, Kerek Tarif Cukai Rokok-MBDK"
+    }
+   ]
+  },
+  {
+   "id": "4e65975cd99c",
+   "title": "Danantara Catat ROE 8,7 Persen, Jadi Fondasi Awal Konsolidasi BUMN",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-26T19:30:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYzcyNldZc251YlBJZUZQajk4QThTTUJIdXg0OWtaUFZMdXV5UzBiQ2MwaTZra0YzS0xWLTgtendIcjFDNC1LdXBYUE11ZXJVYkFzMXRnUkdxaTVfX3hOQjVYVVNkdmVaRTY1YzFMdXJlbGE5ZFNESW9WUFRnejNQQzcxdF92bjZTcDhyR3dleFh0eG9IVlJ1NDY1SWtWTWc2dEVN0gGoAUFVX3lxTE1xUGJaUXVvaWNnUnY2TW5hYmdDZ0dMZUZpWXVNZkVldzFjMVNUWVZBR2FEY291SnRCVU1La1FHTjFXRm5OMEhGUG93SVpXcW93RkxPZnp4VlNSZWtBTVc0TkgzU3AyanJ6cXNZNkJZYnFrcXBhMFVPZ2FBa2ZrTzdNMXJzOG5rcm1KTzBRRG16X0t5aHFDeER1STlyOUdGclJyYmtVZVFEWQ?oc=5",
+     "title": "Danantara Catat ROE 8,7 Persen, Jadi Fondasi Awal Konsolidasi BUMN"
     }
    ]
   },
