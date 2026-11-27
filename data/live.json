@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T18:17:39+07:00",
+ "updated": "2026-11-27T18:23:40+07:00",
  "window": {
-  "start": "2026-11-26T18:17:39+07:00",
-  "end": "2026-11-27T18:17:39+07:00",
+  "start": "2026-11-26T18:23:40+07:00",
+  "end": "2026-11-27T18:23:40+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 184
+   "items": 157
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 82
+   "items": 81
   },
   "IDX Channel": {
    "via": "rss",
@@ -347,6 +347,30 @@
      "time": "2026-11-27T08:10:00+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
      "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
+    }
+   ]
+  },
+  {
+   "id": "7dbe91716ba1",
+   "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
+   "category": "Kinerja",
+   "tickers": [
+    "UNVR"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T17:45:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUdXajhQVmNISm5oemt6RVlZQmxTNmdfWDRpd1pKMkFYT3VJUTlONmZ4M3VRTklCNTYwVEdIMWNIN2cyaWhzcTBRV0RvWnJnb0xrdDZtMzVnRDNjelNheE9YLUNtNnI0Y04yNlJzVnVLVjNKRnhiM2hBdFY1VE8wdFlCV3FvOFpOT0REcVZUSHN4dXhKRTlkbEhCUU81dlE?oc=5",
+     "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:18:54+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaFlvNjNVRFZ4MXJqaTVLTkhNbE04Tl8yNHJTT3B1cUdGVktvZ1BtcThfTTNCVVkxdjVSbkw4ZGNQbXdELWplSXFDQXFxemFDY2VKNXY5cWxyS3dxb3FxckZoZTd4TTktUFZsSDVZYnY4NXF5UU5mR25UaWxpUU1kNW9Yc2M5TG9kMkJfU1VwVmpyS2tBeEZreVhlaGVYMVd6NWZ3RHB0Y3pDYm9NSW5VUzFLaw?oc=5",
+     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
     }
    ]
   },
@@ -1358,22 +1382,6 @@
    ]
   },
   {
-   "id": "483ca5ac74c8",
-   "title": "OJK Cabut Izin Usaha Koperasi LKM Agrobisnis Subur Lestari Sejahtera",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T18:21:07+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeXI5MnRxdkg0TWllNjRKYmlObGpHMTBFOTFLa09ya0VHQW1XSXNfZWt1M1h6bTdLSEVBQnlOUmlTXzI0cVNvX0ZmbkFWSFQ3NzVFMWFwd0hIZnR0YVdXdk9BSUVZYzNmZ0p6UExCdVlZMElJZ201NWlKWjRpakxnMWtzbUdDcjJFeWR3RHRLcjZ4Wk1HZjdXbVJMazBFUHNpd3U2a3ZR0gGfAUFVX3lxTFByU3k1b1ZobzI2bXNaUmhZMkxKbXJOS0tMeE5UeVB0LUZQSm9wN0x5TVJieC1nZDBhRWlvcW1WRXhIc1BvdmZkZXdsLWRZcDRKdVdkSnkzeElPd3k4UEtKNnFFMncyeXJMdDhKVG02SWswQXpGYk95QlFsQjJYS2JUM1BiUmszNEpWb0dQMW5DOXlkakRDTi04S2FCZXVZaw?oc=5",
-     "title": "OJK Cabut Izin Usaha Koperasi LKM Agrobisnis Subur Lestari Sejahtera"
-    }
-   ]
-  },
-  {
    "id": "203683fc7303",
    "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026",
    "category": "Kinerja",
@@ -1386,24 +1394,6 @@
      "time": "2026-11-27T17:50:47+07:00",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEloVEVSYTZZOENnS2RQbHRIdno0NnF2aFp0c1hRdURwSWtRU3hNbVdIN1ZhNFVfNHQ2VGU2V0l3eWtpaEtSU3pEeGF5LTdlYzVvekk2b1ZoV2FoZkowYktSTTZHSU13S0pyelQyb2xjUFpKQnNxSGFHWHhRb0hUeURqUXlDZEM0S2I5UmVrSlI1cXlZc2JlRWwyaF92bkxpdm1DUNIBngFBVV95cUxQcU96ZmFFcmprZXJWckxQQnhWMUZvTTJkV0tvLW9rYnNwS3hMRVZ0RVlBZjhNN3g3SkNvN0NEM3luVkRsS05tSDBqWGJiRTJYZEk1bkpTTGxRQl9FSWN2VjF5Z0N1bmVNVzJKbVRQbWVQN09ySUdLU2U5LXNZNU9iUXZtOTBmbDlCbk93cVpvZS1VT3JyVG5MSW44ajJRUQ?oc=5",
      "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026"
-    }
-   ]
-  },
-  {
-   "id": "7dbe91716ba1",
-   "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
-   "category": "Kinerja",
-   "tickers": [
-    "UNVR"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T17:45:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUdXajhQVmNISm5oemt6RVlZQmxTNmdfWDRpd1pKMkFYT3VJUTlONmZ4M3VRTklCNTYwVEdIMWNIN2cyaWhzcTBRV0RvWnJnb0xrdDZtMzVnRDNjelNheE9YLUNtNnI0Y04yNlJzVnVLVjNKRnhiM2hBdFY1VE8wdFlCV3FvOFpOT0REcVZUSHN4dXhKRTlkbEhCUU81dlE?oc=5",
-     "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun"
     }
    ]
   },
@@ -3218,22 +3208,6 @@
      "time": "2026-11-26T18:25:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOGZQYmdCcWlnbndvMUM4UnhabWxkOTN3T3k0emFjSktJaXF6Rk5WaGlDV1lVWEdoSW52OE5VVGU4R2FvUmdDMTNyWmJWUzlLSFI3QU4xajN1dWlGOVdpOUlSVHhRdjUtOFE0LXJnQlZOWDU0bjBySGN6Qm1zbEtkQ3VrWHJIbUdyaFpOYVpLY2hiRVFrNnVWcXBCaXBtckJ2NHNVNkp0NV8xSURW?oc=5",
      "title": "RI Buka Peluang Ekspor Pupuk ke Bangladesh, Ini Syaratnya"
-    }
-   ]
-  },
-  {
-   "id": "67d1951547d5",
-   "title": "Alasan Danantara Pilih Sehatkan BUMN Sakit Ketimbang Opsi Pailit",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T18:20:55+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2U3cFc5STBCVXd6dFN3WEMtSjhwMGhRajRPc2U0Z0t2X2xtNnhrbUkyZjI0ZENWc05IaldxVFR3OE95US0yeUV2dkEtS3FPOWIwdnR2WmtwV3FHUF9ualdlUUxwYVJQMjItMmU4ZVNaTVRTUjFqb3d6NjZoMm1uQ2FBQ3A3OG9CWDNOUS0wQURBU2Z2TDhxNTF3SHJnRllRUXpnbmpKUXdCWi1EV09JUHRWeXlZVGM?oc=5",
-     "title": "Alasan Danantara Pilih Sehatkan BUMN Sakit Ketimbang Opsi Pailit"
     }
    ]
   }

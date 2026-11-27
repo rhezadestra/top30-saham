@@ -1,13 +1,6 @@
 {
-"updated": "2026-11-27T18:17:39+07:00",
+"updated": "2026-11-27T18:23:40+07:00",
 "articles": [
-{
-"media": "CNBC Indonesia",
-"title": "Ini Daftar BUMN Penyumbang Laba Terbesar Danantara",
-"url": "https://www.cnbcindonesia.com/market/20261125221113-17-788528/ini-daftar-bumn-penyumbang-laba-terbesar-danantara",
-"time": "2026-11-26T06:20:15+07:00",
-"desc": "BPI Danantara melaporkan laba bersih 2025 sebesar Rp259,6 triliun."
-},
 {
 "media": "CNBC Indonesia",
 "title": "IHSG Tertekan, 10 Saham Ini Paling Banyak Dilepas Asing",
@@ -4874,6 +4867,20 @@
 "desc": ""
 },
 {
+"media": "Kontan",
+"title": "Bapanas Waspadai Kenaikan Harga Pangan Akibat Lonjakan Permintaan Nataru",
+"url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM0t4N092ZFZNWGZfdVpuVkJDa1JuajBIWXluaFdRMmZBT3R5SGxNdjdnSk9Bamtvd2Z3cnJDNExyMUJwYm9ibFdqeE5sb1dkajAtbDh6VmlKNnNIbVR6Z2lKRU1lV19RWnFzZ3RLOWZULTNtZDdfRFdpTHFYLVJ6WDB5N0x0ZVUwZHp4eFR3aUNvcUNLYUhWRTRNM2VSR1pBejBGMFFnWWppWTjSAaQBQVVfeXFMT3pwQ0k2dFdieXRVVldlejNNTTNZMnFHcHlPREx5OTRZZld1LVJMel9jcUQ5YlFGQ2R0RDFidmg5WFpyMTVXeE93STJTMFo4M3ZaZV9LRk9nTWw4Mm11Y2t6c0o4bS1DS2xlTGFwT2xRRXNsekl0RFhRdlA5U3ZFNk1kbE9WNmZGN3ZobmNXX2hHSjYzX1ZZZnlTWW9tWFhOVE9ualk?oc=5",
+"time": "2026-11-27T18:09:16+07:00",
+"desc": ""
+},
+{
+"media": "Kontan",
+"title": "Perdagangan RI-UEA Tumbuh, Investasi US$ 169,7 Juta Masih Jadi Tantangan",
+"url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFNSVDYzYTA4b3hRSURxcWpZUzJDcTg4NDZwSHE2SHlZMHctaVdYU2JYVW10NzBjUmYzRkxLV190QWtEeEtyNmtycnAxaXBuZGhxSFVUbThwckJ1bDFEQ3RGRVI5c0FaNHFURDVkajZFUF83TW9EOFVacUlKc01kUTNKV1VObm45QkR2dWR3SFkxc1BaZFY3c1FKbE9ESkowaThkUlZoRdIBoAFBVV95cUxPTDk2YlI0SHRwU3BjUXNMZHVlYTg1Z2pVajJmT0ZFTXVhX0sxVF9MaU5YNFZsNE1fejJjWFRPenE0TGxscVlhNTNwVGVub25RYWVjVzlmMjR2ZE8zTGZpRGpaeUZ3LVBSU2JhZzl0anFDb2Q5N21sOXI2cVc2N3E0RERrcEwzQ2VkZXY2VTVCMzFoUmtYeXkyTE5IZWt2NVVZ?oc=5",
+"time": "2026-11-27T18:09:27+07:00",
+"desc": ""
+},
+{
 "media": "Investor.id",
 "title": "Kejagung Jelaskan Penanganan Kasus Nikel yang Jerat AK",
 "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbXJBeG1jWVY2NVpCSmE2Mkh3UkRkdjRkcnl3d3c5M3BhOVg3eHpjQ1ZkcTdkS0FmeWdyMmN6MGZzd3llLUtockNMQVpmalczdzk3TU90ck1yT2cxRGc3WFJ2bGhOWEVwM2h5X3kySnEwaW5hMElCTzhEOFZyNHhTN1ZkdENlTUxYeVVnYkZvNjhjSWVC?oc=5",
@@ -4895,10 +4902,24 @@
 "desc": ""
 },
 {
+"media": "Kontan",
+"title": "DSI Targetkan Portal NADI Beroperasi 1 Januari 2027, Ini Persiapannya",
+"url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU2ZVX1hsclJkTmtVM0FXNVlyaWV3akNMS0cxWTJuT0o5aHFBektIbVVidFA4VTEyVFl5NmJpZzg0MDJLTlpjRWJfenlrUGRLaV9Ma01OQUFtQVh2QXUyYTV3VnpyVjRQamZuSG14anR4ZVVwdzRuRnBjWGZGOG42SzZoUkxDWmZaVnpkNHZuWHhIck9DaktJOXJHdy1FZmdLa2ZPampR0gGfAUFVX3lxTE5MRldITC1ZWVRoejBYU2pjNEVnRjR1NWl4dndtanhBeFFLSktpbmUzZU45WmhKY2JJRmhMSWViUWVwb1lGTzdjOEt1QmFoRnhrd1VwazNJZUpmV3ctbENOdDRONkVRTHFjaWw4MnM1YjVFd255U0JMcExLYWJVcmFiZzhCeTRmS1FMdWZVNW1aMU5tR0RsbkJTU3RWVG16TQ?oc=5",
+"time": "2026-11-27T18:13:43+07:00",
+"desc": ""
+},
+{
 "media": "Investor.id",
 "title": "KOTA Kantongi Restu Rights Issue , Incar Land Bank 572 Hektare",
 "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUV81Z2NLaWgtRlVKN3pIRE5GbWRNNFdLSDhIWGRQdlZ1a2RMRTJ0Z3pzTjAzS2dNNGd0YlN2emNlVGczd2t4Sm1YLUZOSGMzVnBKZUhhLWRSdDViX0R2eWZVTlRITVVmTFpVMFRlX1ZNblV5LTJJVVFibUlmUW1qTXdkNXhDbTAycTBqWjJqQy1pTFVpTHd5dEJn?oc=5",
 "time": "2026-11-27T18:15:00+07:00",
+"desc": ""
+},
+{
+"media": "Bisnis",
+"title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun",
+"url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaFlvNjNVRFZ4MXJqaTVLTkhNbE04Tl8yNHJTT3B1cUdGVktvZ1BtcThfTTNCVVkxdjVSbkw4ZGNQbXdELWplSXFDQXFxemFDY2VKNXY5cWxyS3dxb3FxckZoZTd4TTktUFZsSDVZYnY4NXF5UU5mR25UaWxpUU1kNW9Yc2M5TG9kMkJfU1VwVmpyS2tBeEZreVhlaGVYMVd6NWZ3RHB0Y3pDYm9NSW5VUzFLaw?oc=5",
+"time": "2026-11-27T18:18:54+07:00",
 "desc": ""
 }
 ]
