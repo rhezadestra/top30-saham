@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T16:49:41+07:00",
+ "updated": "2026-11-27T16:59:11+07:00",
  "window": {
-  "start": "2026-11-26T16:49:41+07:00",
-  "end": "2026-11-27T16:49:41+07:00",
+  "start": "2026-11-26T16:59:11+07:00",
+  "end": "2026-11-27T16:59:11+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 189
+   "items": 188
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 80
+   "items": 81
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 100
+   "items": 99
   },
   "Investor.id": {
    "via": "google",
@@ -157,30 +157,6 @@
      "time": "2026-11-27T16:26:32+07:00",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
      "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026"
-    }
-   ]
-  },
-  {
-   "id": "6cbe397ac800",
-   "title": "Penjelasan Bursa Soal Jadwal IPO Andalan Artha Primanusa yang Molor",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "ANDA"
-   ],
-   "summary": "Bursa Efek Indonesia menjelaskan penundaan IPO PT Andalan Artha Primanusa Tbk (ANDA) yang dijadwalkan 24-27 November 2026.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T16:57:56+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUUVVWHlBdGh4WE1LdjF2WG1qX2x4QjZjWUtkWjU0Y0tsUWppU2dkRXhuUENCUk5aWTZCZ0wzaTJKeDBpTWVjeHJ2VXdNRUhneTdTMGwzck1SaG1uNjFlakVwbTZWMHJLUGtVVmo2R0pUaG0wa3dLLXNJZ0JuaXo2Y2ExdnpZc0xaaWJjRzVRMTBtSkU4M2RCUHlON2dEU0dUbXVtS2ln0gGeAUFVX3lxTE8zVUNoLTFhQ29LVFN6MnpyRUpQVUxDMnNKU21Ta2JXTTJMV3dfWlo4QlZ2Q0JndkZRM2ctN3I4ZGhOcE1VYkdFZVRTODlmM1M0M0w0Q3pUcjhQQUdmYkNPcXNZTkpzR2gtQmZ2M2d4NVQxZDhhUHJ2NUJBaTQxZWRSSEhWX0JLNVI4cFlRZFFOOFNwaXAtc0pualphNXBn?oc=5",
-     "title": "Penjelasan Bursa Soal Jadwal IPO Andalan Artha Primanusa yang Molor"
-    },
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T10:50:15+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127100115-17-788962/ipo-andalan-artha--anda--belum-terlaksana-bei-buka-suara",
-     "title": "IPO Andalan Artha (ANDA) Belum Terlaksana, BEI Buka Suara"
     }
    ]
   },
@@ -696,6 +672,24 @@
      "time": "2026-11-27T10:55:23+07:00",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcW9GY3ZnSnhIdXRiTW5nUFgwRm9MWVJSWkJxTzdmejgzSlh6WV9kRmhDbkpWSVh5YmMzNm9UTW5JR1RBTlNIalh4U0tGNFViMGpYT21teVdaajhkVm9ndjQ0amZPdmxHa1NtNWsyWkM1d3NneGlHMkhvMVRUTVpBVFJ6dEMzdXNQT0JvR0t2bEthRUZPQl9CYTlBdm82bGhScm9DQjNDalVVODRpTThtZlpqaVdoVUh6SXc?oc=5",
      "title": "Usai Konsolidasi MI BUMN dan Akuisisi Schroder, Persaingan Manajer Investasi Mengetat"
+    }
+   ]
+  },
+  {
+   "id": "e8d3fe592f30",
+   "title": "IPO Andalan Artha (ANDA) Belum Terlaksana, BEI Buka Suara",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "ANDA"
+   ],
+   "summary": "Bursa Efek Indonesia menjelaskan penundaan IPO PT Andalan Artha Primanusa Tbk (ANDA) yang dijadwalkan 24-27 November 2026.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T10:50:15+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127100115-17-788962/ipo-andalan-artha--anda--belum-terlaksana-bei-buka-suara",
+     "title": "IPO Andalan Artha (ANDA) Belum Terlaksana, BEI Buka Suara"
     }
    ]
   },
