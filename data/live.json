@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T16:04:41+07:00",
+ "updated": "2026-11-27T16:13:41+07:00",
  "window": {
-  "start": "2026-11-26T16:04:41+07:00",
-  "end": "2026-11-27T16:04:41+07:00",
+  "start": "2026-11-26T16:13:41+07:00",
+  "end": "2026-11-27T16:13:41+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 197
+   "items": 170
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 105
+   "items": 104
   },
   "Investor.id": {
    "via": "google",
@@ -301,30 +301,6 @@
      "time": "2026-11-27T06:20:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-dua-mantan-polisi-jadi-komite-audit",
      "title": "Bayan Resources (BYAN) Tunjuk Dua Mantan Polisi Jadi Komite Audit"
-    }
-   ]
-  },
-  {
-   "id": "4a6c99a0295c",
-   "title": "United Tractors (UNTR) Catat Koreksi Penjualan Alat Berat hingga Batu Bara per Oktober 2026",
-   "category": "Kinerja",
-   "tickers": [
-    "UNTR"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T16:11:38+07:00",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdHBwaWY2b2l1T1B1aWJXdXdSSVBwa0JxZnM1WlEtZEh1Mlo4aTllVXlZSUZkRkVJSHFoYUc0aXpnWEwyU0oxRGhWUkdMRU5JOGtDQ1FPLU5jdHZkcUpFRDhmMmxWOE1XUXJhXzNYanJpR0FPQjdHd1hPVXR0Y3pmMGZ6XzcwOU51bWJkV3VYbVBwWG5BUFNXazlra01uVE1KMnNONkdaN1g1SHJwWVRadF9fZEtTMHl0SHI3VlZCRk1FWmFhMkdZYW81RXMxZF9weWg5S21DN1E?oc=5",
-     "title": "United Tractors (UNTR) Catat Koreksi Penjualan Alat Berat hingga Batu Bara per Oktober 2026"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T04:35:13+07:00",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY0pKbU1NQWZtc29nMVNFTUdOUkhJVFBpRFVkcGVBUlcxR2hKXzhxQkNfNnU2Y2lDNkdfWmJwaWgtREtzSkFYV04wSjJTUVExTHRKbHRKaWV2OHBSNGNOMkFzaFFGaTNlbHQ5S0dnZE5wU0h0dE5vWHJ3NHRWWEdBS1N6Z2ZIZw?oc=5",
-     "title": "Penjualan Alat Berat 2027 Diprediksi Melambat"
     }
    ]
   },
@@ -760,6 +736,22 @@
      "time": "2026-11-27T09:16:51+07:00",
      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xYzZmcURmNlYtTDRWN0kxV2paQW5VUUdDcmcwOGcwVGdMMVpzRjlmRkotQlFRWFo1SGljaWZ1WVZiZ0xNQktTM2hLMG5CdVhQVzNKdGQwSXFEZ29VMTBwanRqbE4?oc=5",
      "title": "Dividen ENRG 2029"
+    }
+   ]
+  },
+  {
+   "id": "e6d8f6c56e59",
+   "title": "Rights issue 4,12 triliun",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T09:16:51+07:00",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DaVNiREZZNjBNNVB6RWhJQmlxVlJnNlFVRXVCREpFUVhSeGNMU2IzV1JaZ0ljakQ4bUNwMTVmckpxRFNkNkZzbGI0SDFhNTdNME1idFNlMTlua2ZnQzJ3WEw0eHp2MHFOUFg5eHJB?oc=5",
+     "title": "Rights issue 4,12 triliun"
     }
    ]
   }
