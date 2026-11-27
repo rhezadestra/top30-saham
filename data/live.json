@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T17:26:11+07:00",
+ "updated": "2026-11-27T17:29:10+07:00",
  "window": {
-  "start": "2026-11-26T17:26:11+07:00",
-  "end": "2026-11-27T17:26:11+07:00",
+  "start": "2026-11-26T17:29:10+07:00",
+  "end": "2026-11-27T17:29:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 158
+   "items": 157
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -181,28 +181,6 @@
      "time": "2026-11-27T08:10:00+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
      "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
-    }
-   ]
-  },
-  {
-   "id": "4d5636538b26",
-   "title": "Danantara Tegaskan Garuda Adidaya Hanya Kelola Sementara Eks RAPP, Bukan Akuisisi",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T17:27:09+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOW5VY2s1QTFpYkxFWmt5Q2hySHBkblpsbEkwbUx2clJhblI4a1Q2MlVrcmxWTVJVRFZhb2tPZXNYeko2aWxMbVdKMWExT0plM1BLWllCMXYwRXp1T0w4bXBfRWRpUkFKbXFJclYtTVBNUnRBcWF6LXQ0UkpfQjZlQmhBT2hwTXA3V2g3SGZkdXJVNGZsaFdvczNJY1VhNlJKUENZT0I5VTI4cGZ4UzAxa1ZMd0xRd9IBrwFBVV95cUxOVUZYZXhWM0h1OXZ2RFFmQ1lTbzFQWk5ubmRTUllIYTAzb19tYS1ITS1BanJvS1otZEVZeDRWVTl5Q1NZRWhrUVh0Z1I0a3Fncm4xM2thSm84U0xSMml2R0pBT1VUdU1JZG1BM0kxcFdvUzhVNlM4UWxURGNlaU5LVzh3bnZweVpNRnQ0MzVtTkZhbjBFdXBzQVo3cWpJNl9BLVNiUHRFaWhzVXRQT0ZV?oc=5",
-     "title": "Danantara Tegaskan Garuda Adidaya Hanya Kelola Sementara Eks RAPP, Bukan Akuisisi"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T17:33:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmEtVWRCME9Gb3BMTnNuNVhYekRVUDRyVXkza3d5UHZxVFhWNmpfamZBLUJpckJhWWFHTnZXbmxqbzhFWndRTHJXTnQyUTJpd1NlUFZmT1RMckJjTnJOWS0wSDdvYVhVNmtSSnNwb1RsZ0g0XzhNODRKTEszN2VtZGhmNnBHdFNaODdBQW1ueWR2LW1TZkt0a1dPVFpseDFVTml2ZlZWMHJNbjFiTURNZlNDTmJEUQ?oc=5",
-     "title": "Danantara Tegaskan Garuda Adidaya Nusantara Bukan Akuisisi RAPP"
     }
    ]
   },
@@ -974,6 +952,22 @@
      "time": "2026-11-26T17:42:20+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261126173219-17-788852/danantara-bongkar-modus-anak-usaha-bumn-600-perusahaan-ditutup",
      "title": "Danantara Bongkar Modus Anak Usaha BUMN, 600 Perusahaan Ditutup!"
+    }
+   ]
+  },
+  {
+   "id": "114d43aec1a5",
+   "title": "Danantara Tegaskan Garuda Adidaya Nusantara Bukan Akuisisi RAPP",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T17:33:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmEtVWRCME9Gb3BMTnNuNVhYekRVUDRyVXkza3d5UHZxVFhWNmpfamZBLUJpckJhWWFHTnZXbmxqbzhFWndRTHJXTnQyUTJpd1NlUFZmT1RMckJjTnJOWS0wSDdvYVhVNmtSSnNwb1RsZ0g0XzhNODRKTEszN2VtZGhmNnBHdFNaODdBQW1ueWR2LW1TZkt0a1dPVFpseDFVTml2ZlZWMHJNbjFiTURNZlNDTmJEUQ?oc=5",
+     "title": "Danantara Tegaskan Garuda Adidaya Nusantara Bukan Akuisisi RAPP"
     }
    ]
   },
