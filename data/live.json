@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T15:53:51+07:00",
+ "updated": "2026-11-27T15:59:51+07:00",
  "window": {
-  "start": "2026-11-26T15:53:51+07:00",
-  "end": "2026-11-27T15:53:51+07:00",
+  "start": "2026-11-26T15:59:51+07:00",
+  "end": "2026-11-27T15:59:51+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 171
+   "items": 170
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 77
+   "items": 78
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,45 +45,45 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 104
+   "items": 105
   },
   "Investor.id": {
    "via": "google",
-   "items": 155
+   "items": 154
   }
  },
- "prevAt": "2026-11-27T14:53:53+07:00",
+ "prevAt": "2026-11-27T15:59:51+07:00",
  "prevRanks": {
   "0287597ab648": 1,
-  "8af9642a45de": 2,
-  "6ca464c4a25b": 3,
-  "8c11ec64d056": 4,
-  "55091c6547c4": 5,
-  "9ce24d65b5ef": 6,
-  "dd049b9708fa": 7,
-  "e1b24d7a5905": 8,
-  "ecaf13830687": 9,
-  "4a6c99a0295c": 10,
-  "08e00b7d865e": 11,
-  "da9b0df4b481": 12,
-  "98f8de3e1ac6": 13,
-  "caf4edc921ed": 14,
-  "54831c07e0ef": 15,
-  "0847f283c30c": 16,
-  "95473cce7905": 17,
-  "2a9bb8479908": 18,
-  "1aff24ff367b": 19,
-  "2ac0b16ba9e9": 20,
-  "81d72e645b89": 21,
-  "96d977bbbc4c": 22,
-  "5756630c573a": 23,
-  "e98d15dcc483": 24,
-  "1c958187e62a": 25,
-  "09620449a136": 26,
-  "983616798bf4": 27,
-  "e6d8f6c56e59": 28,
-  "75d0e07ed4be": 29,
-  "4cde0274b9ea": 30
+  "6ca464c4a25b": 2,
+  "6cbe397ac800": 3,
+  "9ce24d65b5ef": 4,
+  "e1b24d7a5905": 5,
+  "ecaf13830687": 6,
+  "4a6c99a0295c": 7,
+  "5efb24c17d83": 8,
+  "d21337aa9aa2": 9,
+  "f7498fcaddfd": 10,
+  "da9b0df4b481": 11,
+  "54831c07e0ef": 12,
+  "0847f283c30c": 13,
+  "95473cce7905": 14,
+  "526e50e1f6fa": 15,
+  "2a9bb8479908": 16,
+  "ea793beacc60": 17,
+  "1aff24ff367b": 18,
+  "3de048f10837": 19,
+  "0e58eb65cb1e": 20,
+  "83c0ae37d035": 21,
+  "81d72e645b89": 22,
+  "96d977bbbc4c": 23,
+  "5756630c573a": 24,
+  "e98d15dcc483": 25,
+  "1c958187e62a": 26,
+  "09620449a136": 27,
+  "983616798bf4": 28,
+  "e6d8f6c56e59": 29,
+  "75d0e07ed4be": 30
  },
  "topics": [
   {
@@ -205,6 +205,30 @@
      "time": "2026-11-27T08:10:00+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
      "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
+    }
+   ]
+  },
+  {
+   "id": "da501901101b",
+   "title": "Debitur Baru Kuasai 69% Penerima KUR Bank Mandiri (BMRI)",
+   "category": "Kinerja",
+   "tickers": [
+    "BMRI"
+   ],
+   "summary": "Bank Mandiri telah salurkan KUR kepada 193.000 debitur baru hingga Oktober 2026.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T14:45:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVTd1T1NnTmZxbzhick90eW53eGxZbU4xNWdOYkFIbFIzQlZ3V2NFZnN4R2lUM0VnZVJRVGRkY0QzVjZDakZyZ0RwTVBvME9idVFtZWFOVXgwZzhJVkUwbm1kalVLODJDZnNHbkpKNlJ4YXlQQzZTanZYQW1QVGtBMXU4RW9INVQ4Q050WmdfY0c?oc=5",
+     "title": "Debitur Baru Kuasai 69% Penerima KUR Bank Mandiri (BMRI)"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T15:55:28+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127150120-17-789112/bmri-salurkan-kur-ke-193000-debitur-baru-produksi-jadi-prioritas",
+     "title": "BMRI Salurkan KUR ke 193.000 Debitur Baru, Produksi jadi Prioritas"
     }
    ]
   },
@@ -730,22 +754,6 @@
      "time": "2026-11-27T09:16:51+07:00",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DaVNiREZZNjBNNVB6RWhJQmlxVlJnNlFVRXVCREpFUVhSeGNMU2IzV1JaZ0ljakQ4bUNwMTVmckpxRFNkNkZzbGI0SDFhNTdNME1idFNlMTlua2ZnQzJ3WEw0eHp2MHFOUFg5eHJB?oc=5",
      "title": "Rights issue 4,12 triliun"
-    }
-   ]
-  },
-  {
-   "id": "75d0e07ed4be",
-   "title": "Pinjaman Deutsche Bank",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T09:16:51+07:00",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXbWdKeUtCWE5CVEtQME0ydnZFbVptTWlGcGRJamp0VWFDNDVmODJQVEdHMERvYndFQ2p3UHYxWXRLSTlQTmFHUjBmamg5X0otZ3pzS0N5Q3JxMHA0Ql9zcS15YmU4dlZWNnFn?oc=5",
-     "title": "Pinjaman Deutsche Bank"
     }
    ]
   }
