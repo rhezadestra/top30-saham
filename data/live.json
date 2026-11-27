@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T05:25:39+07:00",
+ "updated": "2026-11-28T05:31:38+07:00",
  "window": {
-  "start": "2026-11-27T05:25:39+07:00",
-  "end": "2026-11-28T05:25:39+07:00",
+  "start": "2026-11-27T05:31:38+07:00",
+  "end": "2026-11-28T05:31:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 164
+   "items": 181
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 120
+   "items": 119
   }
  },
  "prevAt": "2026-11-28T04:58:38+07:00",
@@ -3640,38 +3640,6 @@
      "time": "2026-11-27T05:54:20+07:00",
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QU1VuMG9DdWRWYmU4Z2pfb3RPLXpiRkZhVXV5d1FpMHNuVG9oR2c0VzB4cUxnRGhObFJXeGgzUnF0ZjlUOWExeTlNMWxseEJnUWJJTXdyVFp4ZzZ5ZUdFNWJScTBlTmQy?oc=5",
      "title": "Deposito Himbara Mekar, Sedang Bank Swasta Layu"
-    }
-   ]
-  },
-  {
-   "id": "f2314942e6bd",
-   "title": "Bank Makin Doyan Parkir Dana di Surat Berharga",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:30:07+07:00",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1Z1bkVCZTFBalF0dWF2a3ZqNG5EMVpPVzF0bm9LM0ZjU2p6bzNPLTdkeFhLWlkwbkZNbnliVXQ2XzN1MC01T3BPbjZYUU51cGNYMkkzX1BET21sLVFfcXhCNTk4Y3JzQkc4TjE3TDNDSG9Dc1g0Nk9zT25FZjBvcnJtV2FfYzA?oc=5",
-     "title": "Bank Makin Doyan Parkir Dana di Surat Berharga"
-    }
-   ]
-  },
-  {
-   "id": "0e0e34b3c9a6",
-   "title": "Bank Kecil Genjot Dana Murah untuk Menjaga Likuiditas di Tengah Persaingan Ketat",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:30:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFA3MDd1dFFjRzlNZTV2amh1ZjRqeW9KaVRJdzBMazVjR3lVZFNLWWh3YkxUYVpfM29WdTdqTTBKOEU0M2VmeGdPS3pEeFFmdm80dTRhN0FiNV9zQVp3TUJVTDc2eFlLR1RDOHhrWkZ2ZlpET0N0T0dFS3hEUUE2aEpMR2FRWjFWTlhjb2FZckxUQ0JvWThwTnZKWjNMVlp0blJweDlBSzRxS1V6UV9zYkRoTUQtUdIBrwFBVV95cUxOLVN6VjQwbVgwTnFGMUR1ZktoQzlvTmdoYkZzcEprYTV0TEEyVFh1YXRPOGhiNnN1cU1qbFVuREpoVTBDYWFSV1N5VXZjelo3RmZYVjVKcHVtY2RTQm1iRmJzeG12NFllaXY5a2VQODJDbmpTejlmc3ZvV2c2d3VnT2R5SHBVcURTR21rSDVJZkVzTUNCb0tZTnM4LXpoeDhzRkp1OHVjX3FNMVpFek84?oc=5",
-     "title": "Bank Kecil Genjot Dana Murah untuk Menjaga Likuiditas di Tengah Persaingan Ketat"
     }
    ]
   }
