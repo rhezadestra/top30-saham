@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T19:24:09+07:00",
+ "updated": "2026-11-27T19:27:09+07:00",
  "window": {
-  "start": "2026-11-26T19:24:09+07:00",
-  "end": "2026-11-27T19:24:09+07:00",
+  "start": "2026-11-26T19:27:09+07:00",
+  "end": "2026-11-27T19:27:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 81
+   "items": 80
   },
   "IDX Channel": {
    "via": "rss",
@@ -1503,22 +1503,6 @@
      "time": "2026-11-26T19:38:40+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGZPR2h6Qm5DMEM1cWZGQzZOa1NzYlNnQS1DWG41NEViM1dtS3dtcDUwSWhDcGNWamt4dE1tRG9pRWZ4LUIyblJVUC1UbWR0aU9NT2FWcDE4OXQ2ZFhtR2FLSXczekpwZnpzM2RLaGlmTXRaVkVrUWFUQjRuZ0JaRWRpT1FkTlJ5dWVkRFE5Ukx4bDZNamJXVHZYdzdXTU8yNV9qVmhSVGxtbWh40gGmAUFVX3lxTE5uZV9GMnh4UnlLRTQxVzFQY0VreUVTOWdudi01NmFMWnVoVmhqRndtWEQ4Y3h2ZXNUdEk1Rk1nVWJiaEZlcUpoc2lHMDJHVTIwbVNLVDVEcTR5QzFHXzA1WkNsQUxRdThLOGNfbWhSNk1ucDV1M2dwQWZzWGxmMUxjS2l1cWVuQnIza054OU1BcGhRWmU4NGlyYzRRbFF2SU56WW1GSXc?oc=5",
      "title": "BFI Finance Siapkan 70% Laba 2026 untuk Dividen, Ini Perkiraan Hak Investor"
-    }
-   ]
-  },
-  {
-   "id": "c75f1a0326fa",
-   "title": "BTN Bayar Bunga Obligasi Rp 5,72 Miliar, Ini Rinciannya",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T19:25:29+07:00",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdEFCVWhsRkJxN2NkcmV1UEpvSVY0R0ludXF1MFp0WFExcnBpaTkwb3g4QkMtME9qVzkzcVBtMGtIaW93Qk5UZ1lQeHprZ1lXR0pHUDZCTmJuV0s3N0IxYjBEcU1sYWFQTXJCb1JVd2Q1dGE0R2oyX3dqNDNEelp6YmpIdE5MUWwxQnB4S1JoaXFWZ9IBiwFBVV95cUxPVzJUWnhWYnV2UjFQWjBDamJPeWdoMDhzcDBxajEta0tsZTBaaUxuVGFWNTMxR1hiVmo0a0tiOWV4eFpsX014alVYLTJQSFRUYkdxb0hwSE5Zbi1xX1FkZENvUWFFYURudUdmVWV6bmdDNktxdG1YdjZuUU9XbXQ3UnJ1YTlQS0xrazQw?oc=5",
-     "title": "BTN Bayar Bunga Obligasi Rp 5,72 Miliar, Ini Rinciannya"
     }
    ]
   },
