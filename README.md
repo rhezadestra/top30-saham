@@ -23,6 +23,27 @@ Alamat: https://rhezadestra.github.io/top30-saham/
 | `.github/workflows/live.yml` | Jadwal tiap 10 menit |
 | `data/live.json` | Topik 24 jam terakhir, dibaca aplikasi |
 | `data/articles.json` | Simpanan artikel 36 jam, supaya artikel tidak hilang saat RSS bergulir |
+| `data/ringkasan.json` | Ringkasan AI per topik (poin-poin), ditulis tugas terjadwal Claude |
+
+## Ringkasan AI
+
+Tugas terjadwal Claude berjalan tiap jam (menit ke-45, pukul 05.45–22.45 WIB). Tugas itu membaca `data/live.json`, membuka artikel sumber untuk topik yang belum punya ringkasan, lalu menulis 2–4 poin ke `data/ringkasan.json`:
+
+```json
+{
+  "updated": "2026-11-27T12:45:00+07:00",
+  "items": {
+    "<id topik>": {
+      "title": "judul topik saat diringkas",
+      "at": "2026-11-27T12:45:00+07:00",
+      "urls": ["semua URL sumber saat diringkas"],
+      "points": ["poin 1", "poin 2"]
+    }
+  }
+}
+```
+
+Aplikasi mencocokkan ringkasan lewat id topik, atau lewat URL artikel jika pengelompokan otomatis berubah. Topik yang belum diringkas menampilkan cuplikan RSS (jika ada) dan keterangan "Ringkasan AI menyusul".
 
 ## Aturan peringkat
 
