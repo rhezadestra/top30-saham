@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T16:34:41+07:00",
+ "updated": "2026-11-27T16:43:40+07:00",
  "window": {
-  "start": "2026-11-26T16:34:41+07:00",
-  "end": "2026-11-27T16:34:41+07:00",
+  "start": "2026-11-26T16:43:40+07:00",
+  "end": "2026-11-27T16:43:40+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 166
+   "items": 165
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 101
+   "items": 99
   },
   "Investor.id": {
    "via": "google",
-   "items": 154
+   "items": 155
   }
  },
  "prevAt": "2026-11-27T15:59:51+07:00",
@@ -133,30 +133,30 @@
    ]
   },
   {
-   "id": "6ca464c4a25b",
-   "title": "Bukan Akuisisi! Dony Oskaria Ungkap Status Danantara di Lahan RAPP",
-   "category": "Aksi korporasi",
+   "id": "5efb24c17d83",
+   "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026",
+   "category": "Makro",
    "tickers": [],
-   "summary": "Danantara bantah akuisisi lahan RAPP, tegaskan pengelolaan sementara oleh Kemenhut. Pencabutan izin RAPP akibat pelanggaran lingkungan.",
-   "summaryFrom": "CNBC Indonesia",
+   "summary": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha",
+   "summaryFrom": "IDX Channel",
    "sources": [
     {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-26T16:41:14+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261126163007-17-788818/bukan-akuisisi-dony-oskaria-ungkap-status-danantara-di-lahan-rapp",
-     "title": "Bukan Akuisisi! Dony Oskaria Ungkap Status Danantara di Lahan RAPP"
+     "media": "Kontan",
+     "time": "2026-11-27T14:21:12+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNmYxc0M1d2xuSlF0TnRsMUd1QXJVR1V6VGdqMzFFM1luX01mS2hkV0RON01Wb1pPZzFlNlFQUGU3OTBpRWFfZXFVdGdCOF9xdGFaNUJBZG5tZ2duYUcxNWpWcGhnTTk3NkpBSmdXVWMzRjgzN3hSYzJCT3Q1T1N3akpzU0s4dzV4YWo2RlNZbG1hdHhqWkNBMkhaSG1ZVFliakZOUDMybThSdzhXZkxrQTVsQnNMM0gtalZJ0gG0AUFVX3lxTE5FNWg3ZEtPUzRxaDhza1k0ZXlrN2FqR21RUVdFTVdlZlNZZGJuY1VYTzJVZ0JMT0Yyck1aWDJic3owXzRGYTNlUUxqUVFNV0t3SWNENkl3MklJWmd1enVlcFZ5SEl6eG02aXFWMEZzRGxSbGtGREpRdThZU3A1S1hTbjZnNXdiM1NpaUlMemd5dVVScG5qakkxRjZBOEVtc1FpY1pRVTRpOHhWSld0OGZWVk5LUw?oc=5",
+     "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T15:31:00+07:00",
+     "url": "https://www.idxchannel.com/banking/hingga-oktober-2026-bank-mandiri-salurkan-kur-ke-lebih-dari-193000-pelaku-usaha",
+     "title": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha"
     },
     {
      "media": "Kontan",
-     "time": "2026-11-26T17:27:09+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOW5VY2s1QTFpYkxFWmt5Q2hySHBkblpsbEkwbUx2clJhblI4a1Q2MlVrcmxWTVJVRFZhb2tPZXNYeko2aWxMbVdKMWExT0plM1BLWllCMXYwRXp1T0w4bXBfRWRpUkFKbXFJclYtTVBNUnRBcWF6LXQ0UkpfQjZlQmhBT2hwTXA3V2g3SGZkdXJVNGZsaFdvczNJY1VhNlJKUENZT0I5VTI4cGZ4UzAxa1ZMd0xRd9IBrwFBVV95cUxOVUZYZXhWM0h1OXZ2RFFmQ1lTbzFQWk5ubmRTUllIYTAzb19tYS1ITS1BanJvS1otZEVZeDRWVTl5Q1NZRWhrUVh0Z1I0a3Fncm4xM2thSm84U0xSMml2R0pBT1VUdU1JZG1BM0kxcFdvUzhVNlM4UWxURGNlaU5LVzh3bnZweVpNRnQ0MzVtTkZhbjBFdXBzQVo3cWpJNl9BLVNiUHRFaWhzVXRQT0ZV?oc=5",
-     "title": "Danantara Tegaskan Garuda Adidaya Hanya Kelola Sementara Eks RAPP, Bukan Akuisisi"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T17:33:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmEtVWRCME9Gb3BMTnNuNVhYekRVUDRyVXkza3d5UHZxVFhWNmpfamZBLUJpckJhWWFHTnZXbmxqbzhFWndRTHJXTnQyUTJpd1NlUFZmT1RMckJjTnJOWS0wSDdvYVhVNmtSSnNwb1RsZ0g0XzhNODRKTEszN2VtZGhmNnBHdFNaODdBQW1ueWR2LW1TZkt0a1dPVFpseDFVTml2ZlZWMHJNbjFiTURNZlNDTmJEUQ?oc=5",
-     "title": "Danantara Tegaskan Garuda Adidaya Nusantara Bukan Akuisisi RAPP"
+     "time": "2026-11-27T16:26:32+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
+     "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026"
     }
    ]
   },
@@ -205,6 +205,28 @@
      "time": "2026-11-27T08:10:00+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
      "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
+    }
+   ]
+  },
+  {
+   "id": "4d5636538b26",
+   "title": "Danantara Tegaskan Garuda Adidaya Hanya Kelola Sementara Eks RAPP, Bukan Akuisisi",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-26T17:27:09+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOW5VY2s1QTFpYkxFWmt5Q2hySHBkblpsbEkwbUx2clJhblI4a1Q2MlVrcmxWTVJVRFZhb2tPZXNYeko2aWxMbVdKMWExT0plM1BLWllCMXYwRXp1T0w4bXBfRWRpUkFKbXFJclYtTVBNUnRBcWF6LXQ0UkpfQjZlQmhBT2hwTXA3V2g3SGZkdXJVNGZsaFdvczNJY1VhNlJKUENZT0I5VTI4cGZ4UzAxa1ZMd0xRd9IBrwFBVV95cUxOVUZYZXhWM0h1OXZ2RFFmQ1lTbzFQWk5ubmRTUllIYTAzb19tYS1ITS1BanJvS1otZEVZeDRWVTl5Q1NZRWhrUVh0Z1I0a3Fncm4xM2thSm84U0xSMml2R0pBT1VUdU1JZG1BM0kxcFdvUzhVNlM4UWxURGNlaU5LVzh3bnZweVpNRnQ0MzVtTkZhbjBFdXBzQVo3cWpJNl9BLVNiUHRFaWhzVXRQT0ZV?oc=5",
+     "title": "Danantara Tegaskan Garuda Adidaya Hanya Kelola Sementara Eks RAPP, Bukan Akuisisi"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-26T17:33:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmEtVWRCME9Gb3BMTnNuNVhYekRVUDRyVXkza3d5UHZxVFhWNmpfamZBLUJpckJhWWFHTnZXbmxqbzhFWndRTHJXTnQyUTJpd1NlUFZmT1RMckJjTnJOWS0wSDdvYVhVNmtSSnNwb1RsZ0g0XzhNODRKTEszN2VtZGhmNnBHdFNaODdBQW1ueWR2LW1TZkt0a1dPVFpseDFVTml2ZlZWMHJNbjFiTURNZlNDTmJEUQ?oc=5",
+     "title": "Danantara Tegaskan Garuda Adidaya Nusantara Bukan Akuisisi RAPP"
     }
    ]
   },
@@ -305,24 +327,24 @@
    ]
   },
   {
-   "id": "5efb24c17d83",
-   "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026",
+   "id": "8bfb791e32ac",
+   "title": "DSI Susun Referensi Harga Komoditas SDA Ekspor, Bukan Harga Jual",
    "category": "Makro",
    "tickers": [],
-   "summary": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha",
-   "summaryFrom": "IDX Channel",
+   "summary": "",
+   "summaryFrom": null,
    "sources": [
     {
-     "media": "Kontan",
-     "time": "2026-11-27T14:21:12+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNmYxc0M1d2xuSlF0TnRsMUd1QXJVR1V6VGdqMzFFM1luX01mS2hkV0RON01Wb1pPZzFlNlFQUGU3OTBpRWFfZXFVdGdCOF9xdGFaNUJBZG5tZ2duYUcxNWpWcGhnTTk3NkpBSmdXVWMzRjgzN3hSYzJCT3Q1T1N3akpzU0s4dzV4YWo2RlNZbG1hdHhqWkNBMkhaSG1ZVFliakZOUDMybThSdzhXZkxrQTVsQnNMM0gtalZJ0gG0AUFVX3lxTE5FNWg3ZEtPUzRxaDhza1k0ZXlrN2FqR21RUVdFTVdlZlNZZGJuY1VYTzJVZ0JMT0Yyck1aWDJic3owXzRGYTNlUUxqUVFNV0t3SWNENkl3MklJWmd1enVlcFZ5SEl6eG02aXFWMEZzRGxSbGtGREpRdThZU3A1S1hTbjZnNXdiM1NpaUlMemd5dVVScG5qakkxRjZBOEVtc1FpY1pRVTRpOHhWSld0OGZWVk5LUw?oc=5",
-     "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026"
+     "media": "Bisnis",
+     "time": "2026-11-27T15:55:46+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLTYtY2Z5UFA3YVl4LXcxb1BqdE9JeTQ1VVJkVnJYTGhyN2VWZ1pyb0RwYlFpR2MzVGktVnNidVhyNDRFQXBILTM5UWlIdFlfelBOa0NkMlc2WHcwNzhhb3JNVmd2UGlqQnNqQmhzdEVQMjJ0SC1lLVBQVHFaNnctUGEwSmJBSlBfZjc1ZG5rMGhfQ3l3UzV1U3FIN25zVGdaSGR0Tlc0ZEZMZ0x0eTltWVhWQTZkQQ?oc=5",
+     "title": "DSI Susun Referensi Harga Komoditas SDA Ekspor, Bukan Harga Jual"
     },
     {
-     "media": "IDX Channel",
-     "time": "2026-11-27T15:31:00+07:00",
-     "url": "https://www.idxchannel.com/banking/hingga-oktober-2026-bank-mandiri-salurkan-kur-ke-lebih-dari-193000-pelaku-usaha",
-     "title": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha"
+     "media": "Kontan",
+     "time": "2026-11-27T16:36:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYmxTay14TWlrMzByVENHYkFnOVpJa0dXX21QMFRDQTRvazZja0c5amYyVmF4UXV6d25rV2N3XzFJb3BPaWZTcjYtQzVCeGlUd3E5c0FiM3F4WmNiNFM3aWQxZGdZVVlMNjczX3VnVHg0SUhCaTZndk1nczlOU1VqZVNlTkljMi1fdnRFVkJCb2FIRzJ5Z0F2eVhza3hTdGFVVTFfQUVYbHhpQdIBowFBVV95cUxPYjdVNG42Wmp2eVZnb1c1Njd6WFdYWEl4dVVSR3dkd2c1Ti1vR3RJM2xWeGpzU2dfc25zUTk1XzE5c09tWUhKd2htbDUtTVBpV2JHQXMwUVpsX195WHJHejdCOF9XdXRCbUVEMGNhT1p0QkYxOU44a3lrUXlRLWk5bm1YclE0S3ZWUkZGTlFXT3A3enc3WjFmMzJuMkNySGlCOElV?oc=5",
+     "title": "DSI Siapkan Referensi Harga Komoditas untuk Awasi Ekspor Tiga Komoditas"
     }
    ]
   },
@@ -431,30 +453,6 @@
      "time": "2026-11-27T05:30:03+07:00",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFA3MDd1dFFjRzlNZTV2amh1ZjRqeW9KaVRJdzBMazVjR3lVZFNLWWh3YkxUYVpfM29WdTdqTTBKOEU0M2VmeGdPS3pEeFFmdm80dTRhN0FiNV9zQVp3TUJVTDc2eFlLR1RDOHhrWkZ2ZlpET0N0T0dFS3hEUUE2aEpMR2FRWjFWTlhjb2FZckxUQ0JvWThwTnZKWjNMVlp0blJweDlBSzRxS1V6UV9zYkRoTUQtUdIBrwFBVV95cUxOLVN6VjQwbVgwTnFGMUR1ZktoQzlvTmdoYkZzcEprYTV0TEEyVFh1YXRPOGhiNnN1cU1qbFVuREpoVTBDYWFSV1N5VXZjelo3RmZYVjVKcHVtY2RTQm1iRmJzeG12NFllaXY5a2VQODJDbmpTejlmc3ZvV2c2d3VnT2R5SHBVcURTR21rSDVJZkVzTUNCb0tZTnM4LXpoeDhzRkp1OHVjX3FNMVpFek84?oc=5",
      "title": "Bank Kecil Genjot Dana Murah untuk Menjaga Likuiditas di Tengah Persaingan Ketat"
-    }
-   ]
-  },
-  {
-   "id": "95473cce7905",
-   "title": "Sariguna (CLEO) Ekspansi Produk Air Mineral, Cermati Dampaknya Terhadap Kinerja",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "CLEO"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T16:43:23+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWW1HY0MxUUJGN1pJS21GdDNBOGNya21oX1RreUMwR0FyVXBENW5Fd2otWFJpTGRweGI4NkNwR2JhN1BUM25QcDk3QWhhQ2R2eGw3SmM0Y1VMR3VxUnlUUW5Ga2tUdi1GRWlUYTFjUXVibU1BRjVKcS1Ja3BadHh1Y3l0RzU4bUhTSWNWajdMSjF6YzNOUVJWYkx2T1YtV2dKTWhLUk15ZElZOEJQYU5MT3Nn0gGqAUFVX3lxTFBES3hTVG5wdnB3Ulo5TW5JVG5TakgyNWVrMFYya1pSOGxRQVFJZzY4U2FMazFKQmloR3JmUmpzZ1g4ZjhSMEozWTFfMWtkOWRuQVprREExZG1lS3JRX1o1MFg2WWNybm9oeERWLXBhUjRxZVlBQTBmUDdza0Q5VmtsVU41M2MwT3F3XzBlRmVQbm1CdlY1SjFHd1dlVWdZQ1UxMHc2aFZWRExR?oc=5",
-     "title": "Sariguna (CLEO) Ekspansi Produk Air Mineral, Cermati Dampaknya Terhadap Kinerja"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T08:43:39+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTzZDS1Q0LUdnRUNNLW1PeE9qWU5XQkdsYzRxLXBQT0NKMTNqdXdVVlE4UTJmTEFLQnZzd05vdmZXSlZoUzN2OVV5TTBjSGYydmhBZEtlbnRjZVEzSmx4XzdtU1lQeS1kZW1EMi1TRW1GbDNqTXR2V3l0czh5WTdYYTNkaFpKWTV1dERzWWpKMi1oUV8xcGpSVVNR?oc=5",
-     "title": "Menjaga Pertumbuhan Kinerja, CLEO Ekspansi Produk Air Mineral"
     }
    ]
   },
