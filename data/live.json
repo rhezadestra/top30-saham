@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T02:06:10+07:00",
+ "updated": "2026-11-28T02:21:10+07:00",
  "window": {
-  "start": "2026-11-27T02:06:10+07:00",
-  "end": "2026-11-28T02:06:10+07:00",
+  "start": "2026-11-27T02:21:10+07:00",
+  "end": "2026-11-28T02:21:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,14 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 189
+   "items": 132,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 84
+   "items": 83
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,7 +48,10 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 90
+   "items": 60,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "Investor.id": {
    "via": "google",
