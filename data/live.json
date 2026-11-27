@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T23:19:41+07:00",
+ "updated": "2026-11-27T23:31:41+07:00",
  "window": {
-  "start": "2026-11-26T23:19:41+07:00",
-  "end": "2026-11-27T23:19:41+07:00",
+  "start": "2026-11-26T23:31:41+07:00",
+  "end": "2026-11-27T23:31:41+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,16 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 162
+   "items": 38,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests",
+    "google: HTTPError HTTP Error 429: Too Many Requests",
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 89
+   "items": 90
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,11 +50,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 89
+   "items": 88
   },
   "Investor.id": {
    "via": "google",
-   "items": 131
+   "items": 126
   }
  },
  "prevAt": "2026-11-27T23:19:41+07:00",
@@ -1761,6 +1766,24 @@
      "time": "2026-11-27T05:35:04+07:00",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ09IV2FLeFJ1R0FpM1RwXzkzNFZwdGczLVZiazFrek1hWng3YXhMczM4V0ptNEVGVnp1RVA5VFBubVI3Wm1GNjN0Y0dJeGVUV21wei1TaXowN0dRUHZRaTB2anFCaFFPRS1Nc0pjckZpQ0pFOWRSQTBaS2tLS015YkY2UldRaDR4Q0Y3cjF6aEZhd1ZVZnRGcUs5Z3BlMW1QY2fSAZoBQVVfeXFMT0NlaC0yTEQwVE1iSndadEZwdUhxX1NTd1ktbV83UW9XOWhFbDRrZnNMdktXTmo4ZjN6WDdfcTFoVW15Vl8xQllrOHFnZHpmaURzQmd0UVRJNVRwX3JlcXFpMTNkZXBhOVVWY2w4RUZTTEQzYmk5a1c4MVhUdGtKcmhYOUR4eXdWQWRFYm1peHRibW1OWUJOTWJVUQ?oc=5",
      "title": "Transaksi Non-HSC Naik 12,9%, HSC Turun 15,4% di BEI (26 November 2026)"
+    }
+   ]
+  },
+  {
+   "id": "23aed728cbc3",
+   "title": "Bos BSI (BRIS) Ungkap Kisi-Kisi Kinerja 2027",
+   "category": "Kinerja",
+   "tickers": [
+    "BRIS"
+   ],
+   "summary": "Direktur Utama BSI, Anggoro Eko Cahyo, proyeksikan pertumbuhan pembiayaan dobel digit hingga 2027, meski likuiditas tetap ketat.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T23:27:10+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127232024-17-789257/bos-bsi--bris--ungkap-kisi-kisi-kinerja-2027",
+     "title": "Bos BSI (BRIS) Ungkap Kisi-Kisi Kinerja 2027"
     }
    ]
   },
