@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T05:56:06+07:00",
+ "updated": "2026-11-28T05:59:06+07:00",
  "window": {
-  "start": "2026-11-27T05:56:06+07:00",
-  "end": "2026-11-28T05:56:06+07:00",
+  "start": "2026-11-27T05:59:06+07:00",
+  "end": "2026-11-28T05:59:06+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,15 +33,18 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 168
+   "items": 169
   },
   "CNBC Indonesia": {
    "via": "rss",
    "items": 64
   },
   "IDX Channel": {
-   "via": "rss",
-   "items": 10
+   "via": "google",
+   "items": 47,
+   "errors": [
+    "rss: HTTPError HTTP Error 522: <none>"
+   ]
   },
   "Bisnis": {
    "via": "google",
@@ -49,10 +52,10 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 125
+   "items": 128
   }
  },
- "prevAt": "2026-11-28T04:58:38+07:00",
+ "prevAt": "2026-11-28T05:59:06+07:00",
  "prevRanks": {
   "0287597ab648": 1,
   "5efb24c17d83": 2,
@@ -73,39 +76,39 @@
   "43a35b6b55c2": 17,
   "83c0ae37d035": 18,
   "5756630c573a": 19,
-  "567fe040b98c": 20,
-  "2a9bb8479908": 21,
-  "4388cceabece": 22,
-  "42ac769c1ede": 23,
-  "5a51881f97dc": 24,
-  "c61caa3842cf": 25,
-  "f2606b7a3fa3": 26,
-  "ea793beacc60": 27,
-  "a3cd9e76aecc": 28,
-  "52e41525db74": 29,
-  "29fe8aff4237": 30,
-  "7d99e338bec0": 31,
-  "cfa1a63405b8": 32,
-  "81c672eaa0d6": 33,
-  "8ee02b5cfded": 34,
-  "cda192aea60b": 35,
-  "81d72e645b89": 36,
-  "96d977bbbc4c": 37,
-  "e98d15dcc483": 38,
-  "e8d3fe592f30": 39,
-  "1c958187e62a": 40,
-  "09620449a136": 41,
-  "92ad066b4a84": 42,
-  "983616798bf4": 43,
-  "e6d8f6c56e59": 44,
-  "75d0e07ed4be": 45,
-  "4cde0274b9ea": 46,
-  "e71a10e94543": 47,
-  "984097e8d7b0": 48,
-  "ff21a71d5519": 49,
-  "c93c23ec0dcf": 50,
-  "b3d37d56494e": 51,
-  "4dbbf1f7b937": 52,
+  "984097e8d7b0": 20,
+  "567fe040b98c": 21,
+  "2a9bb8479908": 22,
+  "4388cceabece": 23,
+  "42ac769c1ede": 24,
+  "5a51881f97dc": 25,
+  "c61caa3842cf": 26,
+  "f2606b7a3fa3": 27,
+  "ea793beacc60": 28,
+  "a3cd9e76aecc": 29,
+  "52e41525db74": 30,
+  "d65256df9f7f": 31,
+  "29fe8aff4237": 32,
+  "7d99e338bec0": 33,
+  "cfa1a63405b8": 34,
+  "81c672eaa0d6": 35,
+  "8ee02b5cfded": 36,
+  "cda192aea60b": 37,
+  "81d72e645b89": 38,
+  "96d977bbbc4c": 39,
+  "e98d15dcc483": 40,
+  "e8d3fe592f30": 41,
+  "1c958187e62a": 42,
+  "09620449a136": 43,
+  "92ad066b4a84": 44,
+  "983616798bf4": 45,
+  "e6d8f6c56e59": 46,
+  "75d0e07ed4be": 47,
+  "4cde0274b9ea": 48,
+  "e71a10e94543": 49,
+  "ff21a71d5519": 50,
+  "c93c23ec0dcf": 51,
+  "b3d37d56494e": 52,
   "d3709a98ac07": 53,
   "c8c4c97c6039": 54,
   "a341e9ee9868": 55,
@@ -126,47 +129,47 @@
   "d20f08305b51": 70,
   "e300599e81c4": 71,
   "c7f79f09854d": 72,
-  "8ecbb6251719": 73,
-  "23aed728cbc3": 74,
-  "55eba9271b21": 75,
-  "e5cfc3413b7e": 76,
-  "853a7f067efb": 77,
-  "94a72d19e496": 78,
-  "d8f02c375470": 79,
-  "203683fc7303": 80,
-  "1b73d52de90e": 81,
-  "9637352051fa": 82,
-  "5356fd5addfa": 83,
-  "425b4e2c1763": 84,
-  "e7ee091fd9e7": 85,
-  "69f5b147797a": 86,
-  "af47a8c95db1": 87,
-  "cca6b3363fdb": 88,
-  "a138eede5798": 89,
-  "162651cad430": 90,
-  "59e6c8a696e9": 91,
-  "06d64bdf0cb4": 92,
-  "900d3071dc71": 93,
-  "24e20d625da2": 94,
-  "172f96263151": 95,
-  "0d2781915cf2": 96,
-  "c39bdc2a30be": 97,
-  "479075b07dee": 98,
-  "b7de4600308b": 99,
-  "9ebb04256115": 100,
-  "d0b19389a401": 101,
-  "2ace12739e73": 102,
-  "092edae16073": 103,
-  "c1ce578607d6": 104,
-  "d3f94984e1f0": 105,
-  "42425cc4467e": 106,
-  "62a22fbd11de": 107,
-  "1eb0e0e924fd": 108,
-  "90a9b276716f": 109,
-  "ce993ded5ee4": 110,
-  "981aeec7ee5c": 111,
-  "d71f904a51f6": 112,
-  "b471df0df70e": 113,
+  "489479142a1a": 73,
+  "1b7bf9bee88e": 74,
+  "23aed728cbc3": 75,
+  "55eba9271b21": 76,
+  "e5cfc3413b7e": 77,
+  "853a7f067efb": 78,
+  "94a72d19e496": 79,
+  "d8f02c375470": 80,
+  "203683fc7303": 81,
+  "9a6c8b05fafe": 82,
+  "1b73d52de90e": 83,
+  "9637352051fa": 84,
+  "5356fd5addfa": 85,
+  "425b4e2c1763": 86,
+  "e7ee091fd9e7": 87,
+  "69f5b147797a": 88,
+  "af47a8c95db1": 89,
+  "cca6b3363fdb": 90,
+  "a138eede5798": 91,
+  "162651cad430": 92,
+  "59e6c8a696e9": 93,
+  "06d64bdf0cb4": 94,
+  "900d3071dc71": 95,
+  "24e20d625da2": 96,
+  "172f96263151": 97,
+  "0d2781915cf2": 98,
+  "c39bdc2a30be": 99,
+  "479075b07dee": 100,
+  "b7de4600308b": 101,
+  "9ebb04256115": 102,
+  "d0b19389a401": 103,
+  "2ace12739e73": 104,
+  "092edae16073": 105,
+  "c1ce578607d6": 106,
+  "d3f94984e1f0": 107,
+  "42425cc4467e": 108,
+  "62a22fbd11de": 109,
+  "1eb0e0e924fd": 110,
+  "90a9b276716f": 111,
+  "ce993ded5ee4": 112,
+  "1949180aac95": 113,
   "c0ece463bb77": 114,
   "6ec2d43301cd": 115,
   "09c3fce892a2": 116,
@@ -240,13 +243,7 @@
   "adb4c15d4f0b": 184,
   "0e6718ac5060": 185,
   "922e2f4f0bc4": 186,
-  "57d883bbad0a": 187,
-  "13ea888949ed": 188,
-  "b1b7a6b8e885": 189,
-  "2a6a2687cbe0": 190,
-  "f2314942e6bd": 191,
-  "0e0e34b3c9a6": 192,
-  "264ff4c43125": 193
+  "57d883bbad0a": 187
  },
  "topics": [
   {
@@ -362,6 +359,40 @@
    ]
   },
   {
+   "id": "d21337aa9aa2",
+   "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan. Foto: iNews Media Group.",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T13:48:00+07:00",
+     "url": "https://www.idxchannel.com/economics/menperin-lepas-ekspor-manufaktur-senilai-rp11228-triliun-ke-110-negara-tujuan",
+     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T13:48:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaVBaWThTcGhoTm1MSTVoNTliQVIzb3ZUYzI2NFlHeHpTUWtVSnFZRC03ZW9FWWN2TEpoby1oS24ycHNSeGQ1Ukx1YnBFSkloWThHVzFnNTRId0Y4Yy1PT0ZrZHprbFdOdDNmNHg1YXFTODZVZHRZQV9Sd2k5RzJnYm50U3pjT19sSmlFWUFXczNUTExlbFJtX3NzU3R2ZDUwOS1GNkd3RHZ2OVhYMjVzQ2d5T21RdGvSAboBQVVfeXFMUG9vMjFiMFJUbElpazhiQ3J4RnFsa19NUFFBVGxSajg4cWE2LTJjdWFLRDU4SUU1dzg4MHdybHRxSE5nckQ4MmlrVGpGbnJiWV9sai03YTJLYXlrMlNCeVRzR1lXQjdzaWlWZW1Qd09PSGRCUmlST21acDRIR3FOZDdVem1QWUdRdXl3c3diNWRVam5iS1lSclN6VTg3cE9pVlVQZFZDbkpzdV83QzlveHZudWtTYU5OYnJ3?oc=5",
+     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T13:48:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkR4Q3RIa0MzZEZaZ3p5b2JIekRiWUlzdTFHMnFBUXBDWjkwcVYzTXBMX19jWXRFblJxOFFrTXY1clpkRHVDVnpIeG9EQS01dFhsVWlvU1RtcEYwVk03dFRvcHVjNVlIaXExSzRKVFZMcDJ3WXVnWkRqdzVqUDZwQVRWckxGREZRX1JhM1FGWGVBYklnYmJQTUVGRU15aTVXYVkwS3ByT05WaFpKOWpVRXlVQm_SAboBQVVfeXFMUG9vMjFiMFJUbElpazhiQ3J4RnFsa19NUFFBVGxSajg4cWE2LTJjdWFLRDU4SUU1dzg4MHdybHRxSE5nckQ4MmlrVGpGbnJiWV9sai03YTJLYXlrMlNCeVRzR1lXQjdzaWlWZW1Qd09PSGRCUmlST21acDRIR3FOZDdVem1QWUdRdXl3c3diNWRVam5iS1lSclN6VTg3cE9pVlVQZFZDbkpzdV83QzlveHZudWtTYU5OYnJ3?oc=5",
+     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T14:06:19+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaF9VdHNCZGJOeGE3VGI4bi1mY2xOb1BhRktHS1RMRWJ0TDZmS2ZhblgyOTA4RkxvMUVDajIzRXNua0ZvTzdtY3FET3UzOEFoaEtKajhpYTNIVlZTaENja2UwbnVlQWNtNlpaVlpYR0p3T21vMndWY18tUURJbkhQa2p3T282emZyY3dXaDQ1SHM0UWw1OTlXcW1FWW56Ukh1cjl1RzZJUlY4THBSeGJPZWg4bDhZUDJiYl9BZmpIMC11UQ?oc=5",
+     "title": "Pemerintah Lepas Ekspor Produk Manufaktur Rp112,28 Triliun ke 110 Negara"
+    }
+   ]
+  },
+  {
    "id": "7dbe91716ba1",
    "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
    "category": "Aksi korporasi",
@@ -388,34 +419,6 @@
      "time": "2026-11-27T18:40:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUtsY2szdGJxYk82SEdOX1JLMEhYODhua2oxMkNORWdKeGszdUlYMXBEUExqZlVBc3FsTUNaTlhOSUVZeDc4dGpSSmxBd2lLa04yRU00eDkwelJ4WVJsWjNycFdoYXBiTE1RbnA1ZUlLWnRqX2ZycGV0b0NHRnhsU3N5dFpkOEkyQVhVaGdkc3VRUmxxeXZwN1o4NzV0RUZBaWdJTEpNYmhMejZMMGZFQXpIU3I3c2MwNHZZYWgyd1Fud2FEckJF?oc=5",
      "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick"
-    }
-   ]
-  },
-  {
-   "id": "d21337aa9aa2",
-   "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan. Foto: iNews Media Group.",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T13:48:00+07:00",
-     "url": "https://www.idxchannel.com/economics/menperin-lepas-ekspor-manufaktur-senilai-rp11228-triliun-ke-110-negara-tujuan",
-     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T13:48:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaVBaWThTcGhoTm1MSTVoNTliQVIzb3ZUYzI2NFlHeHpTUWtVSnFZRC03ZW9FWWN2TEpoby1oS24ycHNSeGQ1Ukx1YnBFSkloWThHVzFnNTRId0Y4Yy1PT0ZrZHprbFdOdDNmNHg1YXFTODZVZHRZQV9Sd2k5RzJnYm50U3pjT19sSmlFWUFXczNUTExlbFJtX3NzU3R2ZDUwOS1GNkd3RHZ2OVhYMjVzQ2d5T21RdGvSAboBQVVfeXFMUG9vMjFiMFJUbElpazhiQ3J4RnFsa19NUFFBVGxSajg4cWE2LTJjdWFLRDU4SUU1dzg4MHdybHRxSE5nckQ4MmlrVGpGbnJiWV9sai03YTJLYXlrMlNCeVRzR1lXQjdzaWlWZW1Qd09PSGRCUmlST21acDRIR3FOZDdVem1QWUdRdXl3c3diNWRVam5iS1lSclN6VTg3cE9pVlVQZFZDbkpzdV83QzlveHZudWtTYU5OYnJ3?oc=5",
-     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T14:06:19+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaF9VdHNCZGJOeGE3VGI4bi1mY2xOb1BhRktHS1RMRWJ0TDZmS2ZhblgyOTA4RkxvMUVDajIzRXNua0ZvTzdtY3FET3UzOEFoaEtKajhpYTNIVlZTaENja2UwbnVlQWNtNlpaVlpYR0p3T21vMndWY18tUURJbkhQa2p3T282emZyY3dXaDQ1SHM0UWw1OTlXcW1FWW56Ukh1cjl1RzZJUlY4THBSeGJPZWg4bDhZUDJiYl9BZmpIMC11UQ?oc=5",
-     "title": "Pemerintah Lepas Ekspor Produk Manufaktur Rp112,28 Triliun ke 110 Negara"
     }
    ]
   },
@@ -640,6 +643,36 @@
    ]
   },
   {
+   "id": "5756630c573a",
+   "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "BWPT"
+   ],
+   "summary": "PT Eagle High Plantations Tbk (BWPT) bakal menerbitkan obligasi dengan total nilai emisi mencapai Rp550 miliar. (Foto: Ist)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T11:00:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/bwpt-tawarkan-obligasi-dengan-kupon-hingga-12-persen",
+     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T11:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTTF2Q0NJRE83czNxWVROLWNvV3hTczZaeUZlNmxVcW1jeTQ2YjhrUkRxcG9TOVpodWh5V2gzc24yeTdUSHBtWTZjb1dHTnMyQmR3UEg0Z09uRmFrZENOTk1DTHhDeGNlVG5RQ3pKQWtuNjh4U0VZaFRueGFQcURRU29KbTUwTkVuRWh6bVZqemw5Y1dSMXpZLdIBmwFBVV95cUxPSm5rLWY4UmdmaE5OZHJrTG1RdlJmcThTNzV2aERMcXRWZl9hTzBVblpSY0s1MTJmQ1JSbER4V1p1SVBpZVBqTEg2dG5WMkFGYWVyRUk1YngtQm5tczBuanotaXd0YWVQcnFtUzdTdmhuVmtFaVFDR2FjUDJNSGNJY2NSNllDa2VNbHVIeDhibzVpaEN3V2RTREl0cw?oc=5",
+     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T11:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSzAzTU8zUERuVXZvZnhuakx3anBuVE5aYWdqS2RQS1JSbFRMUzQyYmx6QjFLQW1vYVUyY1laandDbFFMX1hibV9KaXo1YjRnTDdfcUQ0OS1iRkEzU2kwNmVTYWFEQ01jYUQzdi1pNUxxS0NZU1VwX3pLVFVDVV9jenBqckhFYzFyZVR1dHFHbmpja3FQQWfSAZsBQVVfeXFMT0puay1mOFJnZmhOTmRya0xtUXZSZnE4Uzc1dmhETHF0VmZfYU8wVW5aUmNLNTEyZkNSUmxEeFdadUlQaWVQakxINnRuVjJBRmFlckVJNWJ4LUJubXMwbmp6LWl3dGFlUHJxbVM3U3ZoblZrRWlRQ0dhY1AyTUhjSWNjUjZZQ2tlTWx1SHg4Ym81aWhDd1dkU0RJdHM?oc=5",
+     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
+    }
+   ]
+  },
+  {
    "id": "4404f57291cc",
    "title": "Dana Investor Beralih ke Pasar Uang, Ini Prospek Reksadana pada 2027",
    "category": "Makro",
@@ -739,30 +772,6 @@
      "time": "2026-11-27T15:10:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONkZXZjRBc2tDZW5KNkl3QWh1T0hzb2VDMG5WS1FISEFCT2VZZlZPMWJFT2o5a2d3elNEclRWMl82LUpaNFlmVnZ6VGxNM3pDUTVrRnNYdmQtbmQ4cXJCR0hMdkJMMmtnRVpyZHdMZnJ1V0ZkNHBwREZzQ25uYVRsTkh5am13ZHpoSEJRLWVMY2ZVdWg4VF84LUhURUlicFJpNl9PSmlqUWlBTXFsLXgyVlF30gG0AUFVX3lxTE4wUDB2cl9Gb2R0eTBkdU1oWnVDRzgzV3JvSlhZRzZnM3pBcGxYdHVhNnRiSkZtUmVSa1JNeE9mdFg2aGJ0cXByd1R3S0pJZVhDa24zZS1LLXRGMEIxamJMZmRYTEJ0VjFtQ1FXQTJ4aWlRYXJFM2VjYU41THJUaVFfeUt3Z29tLWN3M3dpYUxNYXhqMTVUcHgxTzBTT2p4cTFNeHFrek84OHh6SHlhN1ZmaVI3Vw?oc=5",
      "title": "WIKA Beton (WTON) Kantongi Kontrak Baru Rp3,47 Triliun hingga Oktober 2026"
-    }
-   ]
-  },
-  {
-   "id": "5756630c573a",
-   "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "BWPT"
-   ],
-   "summary": "PT Eagle High Plantations Tbk (BWPT) bakal menerbitkan obligasi dengan total nilai emisi mencapai Rp550 miliar. (Foto: Ist)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T11:00:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/bwpt-tawarkan-obligasi-dengan-kupon-hingga-12-persen",
-     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T11:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTTF2Q0NJRE83czNxWVROLWNvV3hTczZaeUZlNmxVcW1jeTQ2YjhrUkRxcG9TOVpodWh5V2gzc24yeTdUSHBtWTZjb1dHTnMyQmR3UEg0Z09uRmFrZENOTk1DTHhDeGNlVG5RQ3pKQWtuNjh4U0VZaFRueGFQcURRU29KbTUwTkVuRWh6bVZqemw5Y1dSMXpZLdIBmwFBVV95cUxPSm5rLWY4UmdmaE5OZHJrTG1RdlJmcThTNzV2aERMcXRWZl9hTzBVblpSY0s1MTJmQ1JSbER4V1p1SVBpZVBqTEg2dG5WMkFGYWVyRUk1YngtQm5tczBuanotaXd0YWVQcnFtUzdTdmhuVmtFaVFDR2FjUDJNSGNJY2NSNllDa2VNbHVIeDhibzVpaEN3V2RTREl0cw?oc=5",
-     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
     }
    ]
   },
