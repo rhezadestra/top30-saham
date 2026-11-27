@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T06:32:34+07:00",
+ "updated": "2026-11-28T06:41:33+07:00",
  "window": {
-  "start": "2026-11-27T06:32:34+07:00",
-  "end": "2026-11-28T06:32:34+07:00",
+  "start": "2026-11-27T06:41:33+07:00",
+  "end": "2026-11-28T06:41:33+07:00",
   "hours": 24
  },
  "target": 30,
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 132
+   "items": 131
   }
  },
  "prevAt": "2026-11-28T05:59:06+07:00",
@@ -3442,22 +3442,6 @@
      "time": "2026-11-27T06:50:34+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261126232134-17-788899/danantara-kebut-persoalan-utang-whoosh-selesai-tahun-depan",
      "title": "Danantara Kebut Persoalan Utang Whoosh Selesai Tahun Depan"
-    }
-   ]
-  },
-  {
-   "id": "2ef53ffac4f7",
-   "title": "Danantara Rampingkan BUMN, Jamkrindo Bakal Terima Bisnis Penjaminan Askrindo",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T06:40:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNME82WmxOZ0V1X212Q01YWG9tQnVFRHFOc0NwbkRYWmQza2NiSTZUeElXc0w1TEZzd3gyZ1ExVU1PeW5EVFB1NnpSZ0lkVjhLMkFFZVg3ZDB6cjR0Sm5HVzJTTG5jWDE0RWFkUFRNd3R4b2l6VkVQTVBTUllldWNaUWwtQ09QRkhKT00ybXoyVlFFczQ2Z3RXVkFFSFBVd2d4RnhGWXVIN0NqNzR2aG9CZXln?oc=5",
-     "title": "Danantara Rampingkan BUMN, Jamkrindo Bakal Terima Bisnis Penjaminan Askrindo"
     }
    ]
   }
