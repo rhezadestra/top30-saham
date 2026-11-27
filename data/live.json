@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T16:19:40+07:00",
+ "updated": "2026-11-27T16:31:41+07:00",
  "window": {
-  "start": "2026-11-26T16:19:40+07:00",
-  "end": "2026-11-27T16:19:40+07:00",
+  "start": "2026-11-26T16:31:41+07:00",
+  "end": "2026-11-27T16:31:41+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 195
+   "items": 192
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 79
+   "items": 80
   },
   "IDX Channel": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 154
+   "items": 155
   }
  },
  "prevAt": "2026-11-27T15:59:51+07:00",
@@ -401,6 +401,34 @@
    ]
   },
   {
+   "id": "2d9f26b41fa7",
+   "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T14:12:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFFiTDQ5cnF4UXR0UU82MmppRGdsWlVSWFFjTVBiMzVFTjlnbE5xOE1wWHFBbTc0bUtXem9PdlJ2b1hXOXdtMkx2SXcxd2tYRk1SbXdSMVAxZ0l5a3FmNFhtMjNGNU9UTmtQUk56bm9fa014ZEw1VElPTklBLV92U3JnMl9hcUhFUkxnMDdNalBTTHVDTlo1RUFVS19GQQ?oc=5",
+     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T14:12:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUms4V3ZmYzczaEdpUE1qSzhlRjVuTl9GUUhnWGFLVThfdGIzd0d1WjNSU0NMRnl3MExUQXE1cUEyajVMbnNFOWw4VUd0V1pDaW5sTGFadlBxbXU0cV96Y1lKQXpWSGFmOWhyMjNUVXlDNC0yZlpxUlp1Q2ViNWNKSTV6VmY0cGhjZ3M4VGE1NGRZMkh1ekNleTVTMzRseHJ3?oc=5",
+     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah - Halaman 2"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T14:12:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRW1BQnhCMFRmZ0h6MFZRc1NhZnA3d040OGoxTmZMU05MaXRXOUpIM2x3dGJFdFdzMnpja2htOUdBRU9ESkN6QUpQSkdtbW96Slh3Tlp4UVFkeHNBa3FRLS12d3VlYUpVQ1pScXdyUS05Y3M1MlZHd0g4ZG5HZXRBdVJJaFUzZVpkQ0gzTUFNNmlwOE5lTm44RGE5bGVYVUY3MXZv?oc=5",
+     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah"
+    }
+   ]
+  },
+  {
    "id": "0847f283c30c",
    "title": "Bank Kecil Perkuat Dana Murah untuk Menjaga Likuiditas",
    "category": "Makro",
@@ -517,28 +545,6 @@
      "time": "2026-11-27T14:15:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbFhvQ0o4NjJVZmdWVE11cjBqckRWazYwcnBPOTl1dzZHSEpTbWs4bXBoc1ZCcGI1eUdGRmV1Z3VnM1NLUDdPNEhDWEFGeUZlbml6V1VKaUtodnNKNU1HczVZUDlDYV9mdjF4R2xIR3VmN2p5TGhleVhjbTZpREctaUxuWUNjb1pDVmtDT2RxU1FodkowalBzaHUyOUk2STJ1VUJVeDV1X3dGZ3ZaTjdBZlpXaFZ0aEZ4MUFR?oc=5",
      "title": "DSI Klaim Fee Ekspor CPO hingga Batu Bara Tak Akan Bebani Eksportir"
-    }
-   ]
-  },
-  {
-   "id": "2d9f26b41fa7",
-   "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T14:12:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFFiTDQ5cnF4UXR0UU82MmppRGdsWlVSWFFjTVBiMzVFTjlnbE5xOE1wWHFBbTc0bUtXem9PdlJ2b1hXOXdtMkx2SXcxd2tYRk1SbXdSMVAxZ0l5a3FmNFhtMjNGNU9UTmtQUk56bm9fa014ZEw1VElPTklBLV92U3JnMl9hcUhFUkxnMDdNalBTTHVDTlo1RUFVS19GQQ?oc=5",
-     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T14:12:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUms4V3ZmYzczaEdpUE1qSzhlRjVuTl9GUUhnWGFLVThfdGIzd0d1WjNSU0NMRnl3MExUQXE1cUEyajVMbnNFOWw4VUd0V1pDaW5sTGFadlBxbXU0cV96Y1lKQXpWSGFmOWhyMjNUVXlDNC0yZlpxUlp1Q2ViNWNKSTV6VmY0cGhjZ3M4VGE1NGRZMkh1ekNleTVTMzRseHJ3?oc=5",
-     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah - Halaman 2"
     }
    ]
   },
