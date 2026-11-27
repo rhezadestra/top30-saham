@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T18:48:09+07:00",
+ "updated": "2026-11-27T18:51:10+07:00",
  "window": {
-  "start": "2026-11-26T18:48:09+07:00",
-  "end": "2026-11-27T18:48:09+07:00",
+  "start": "2026-11-26T18:51:10+07:00",
+  "end": "2026-11-27T18:51:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,15 +33,18 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 160
+   "items": 159
   },
   "CNBC Indonesia": {
    "via": "rss",
    "items": 82
   },
   "IDX Channel": {
-   "via": "rss",
-   "items": 10
+   "via": "google",
+   "items": 50,
+   "errors": [
+    "rss: HTTPError HTTP Error 522: <none>"
+   ]
   },
   "Bisnis": {
    "via": "google",
@@ -3515,22 +3518,6 @@
      "time": "2026-11-26T19:01:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoTmdBeW5VOXNydGhfTVhpTmJLak10NFZ5cGdIRGxhbU1TUHk3Xzd0c05MakFPMWRDSzltVHlsd2NNd3hFUGIxWW5PRW9jRFlXZlIwekFtQnN6akMybGVBdzZENWkzLUNudzQ1azRLTGdpRUZSOGxVcA?oc=5",
      "title": "Peruntungan Saham di Bulan Desember"
-    }
-   ]
-  },
-  {
-   "id": "d7d70e5dd2ea",
-   "title": "BI Rate Naik, Bank Perbesar Penempatan di SBN di Tengah Seleksi Kredit",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T18:49:32+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSDFzZWhfelByRFZyWFNVbXZSRGM3aHI4elhJeVFkVmlkUmZOVHVoMGkzaHlEOWkzX3ppOEo4aEFqN0JTU2F2aktjclJtUkhTZXBiT1JlVjVKVXlVbnV2ZU9iOGdvZXdCb0ZYbFVJWXRpekpfN21RRnBsSmRrM0VFdTBmU3JWdzBBaWFzZkltX1FFTHVYVnVkbkJfUjNrNEJYdlNfN2oxNNIBoAFBVV95cUxQa1dQaWtiZGcyTUFJY19pN25KUWpBdnM0b3dKaTN0Umk5RUNTUElIU3dPS04tODBuTDJpNU0xWmtua2VWSmJCbkVPejNXRk5UNTNDOGp2b2NyUlBVWmpUSmFpLXJCRER2MzRvNFk3blVUMDNQSGt4WDVNSkhrdUltbWY3TDR3cFJHXzFlbGJqbVZjSkJwVlNZcV9vbko3WXdF?oc=5",
-     "title": "BI Rate Naik, Bank Perbesar Penempatan di SBN di Tengah Seleksi Kredit"
     }
    ]
   }
