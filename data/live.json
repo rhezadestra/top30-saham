@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T06:44:33+07:00",
+ "updated": "2026-11-28T06:53:33+07:00",
  "window": {
-  "start": "2026-11-27T06:44:33+07:00",
-  "end": "2026-11-28T06:44:33+07:00",
+  "start": "2026-11-27T06:53:33+07:00",
+  "end": "2026-11-28T06:53:33+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 154
+   "items": 161
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 91
+   "items": 92
   },
   "Investor.id": {
    "via": "google",
-   "items": 131
+   "items": 129
   }
  },
  "prevAt": "2026-11-28T05:59:06+07:00",
@@ -1234,7 +1234,9 @@
    "id": "92ad066b4a84",
    "title": "Saham KETR Pernah Sentuh Rp1.595 Sebelum Jatuh, Masih Menarik di Tengah Ekspansi Kabel Laut?",
    "category": "Aksi korporasi",
-   "tickers": [],
+   "tickers": [
+    "KETR"
+   ],
    "summary": "",
    "summaryFrom": null,
    "sources": [
@@ -1703,6 +1705,24 @@
      "time": "2026-11-27T07:29:17+07:00",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkc2UHFQb3BBcUVQemZqT1M0SU1qRzlxQ1lEVkdDcDZDX213SW9pU3YxU0k1SWgxb2tldkxLeGVQWGRmemVlZmJ5bnpLTEtraEdhN0xNQkUycXlTbG8xTXltTzl3TXg5Q0tDV1Z5N0RvZTlwb20wYU42bXBGa2xTTnFjVzFNcFlKT1NOQzA5eTY1bm9CZFVvdldqMDZoUDg0ZlUxQkVQcV9NSkNtVmw0?oc=5",
      "title": "Prabowo Temui MSCI, Bos Asabri Ingatkan Reformasi Pasar Modal"
+    }
+   ]
+  },
+  {
+   "id": "b0b13642c68d",
+   "title": "Emiten Grup Sinar Mas (KETR) Bidik Proyek Digital di KEK Batang",
+   "category": "Kinerja",
+   "tickers": [
+    "KETR"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T06:50:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYjk4dkZ3SGtzVUtYdGU1LXBkN2E4MmhTSm1UdFFNVEpKT2xwWjBXbi1pMWpGTmVOODFQSHJpc1NwSFVhYm9iVTFTY2NOcnRYd09ZUThOMmIzZEN4cXZEcFVaRkZMeUk2NHdGS1BoZkNwVHd3VDN1UllSZWhZeWJxdWdGNHlIR1VPVW5SUWJQZC1aYW5CM3RsQzRqbHhMNVdzS0xVZ1kyOC1Ec3FyV2xBOGEzOA?oc=5",
+     "title": "Emiten Grup Sinar Mas (KETR) Bidik Proyek Digital di KEK Batang"
     }
    ]
   },
@@ -3460,22 +3480,6 @@
      "time": "2026-11-27T07:54:40+07:00",
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PSUNmakJ0M2pWLVRqNlNFNktiTzZxNDFvOTZKN0l6aEIyU3M3N01pbEk5anN3YkRMei01a2xyM3JTTVlRU0NOaGlsVG5PLWdoby1JOHo0RENELWkyX2p5WWFzTy1KZw?oc=5",
      "title": "Bank Perbesar Portofolio Pensiunan Secara Anorganik"
-    }
-   ]
-  },
-  {
-   "id": "2accab4bbc9f",
-   "title": "Danantara Kebut Persoalan Utang Whoosh Selesai Tahun Depan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Danantara targetkan restrukturisasi utang Kereta Cepat rampung tahun depan. Proses pengalihan utang ke Kemenkeu sedang berlangsung.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T06:50:34+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261126232134-17-788899/danantara-kebut-persoalan-utang-whoosh-selesai-tahun-depan",
-     "title": "Danantara Kebut Persoalan Utang Whoosh Selesai Tahun Depan"
     }
    ]
   }
