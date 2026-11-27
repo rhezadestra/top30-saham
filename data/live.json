@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T16:43:40+07:00",
+ "updated": "2026-11-27T16:46:41+07:00",
  "window": {
-  "start": "2026-11-26T16:43:40+07:00",
-  "end": "2026-11-27T16:43:40+07:00",
+  "start": "2026-11-26T16:46:41+07:00",
+  "end": "2026-11-27T16:46:41+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 165
+   "items": 189
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -371,36 +371,6 @@
    ]
   },
   {
-   "id": "54831c07e0ef",
-   "title": "Laba BUMI Melonjak hingga September 2026, Bagaimana Prospek Sahamnya pada 2027?",
-   "category": "Kinerja",
-   "tickers": [
-    "BUMI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T16:43:41+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbW9oOHlMSGU2TFRaU3pxclZfOGRxNVBfU1c3ZFQxbUxvNzF0bDQwU3N0RFdvU2xDcmc3Y0ZRd3RrbnhGUmw1OW9zbFRiQU93cTItMldtWGxQeHIzb0xFOEhnT2VhdzhWUk95N0tpWjgxcENPNmZmX0ZRRzNlclRDOUhNYlREejF4SXY1WEFqcERjRHJocGFDTV9VaUNvNkpZS2JWMHlvcGk1ekRNc053NW1qNNIBqwFBVV95cUxOUnp2cTdOZWltejhIbDJSRmJLS3ZpRHhseTdDb2xCbHhQaktBbEhuTndSUXctTVdxX1VqbGQxd08tUVpCcGpQZXRTbG9vUnBmdTh2MnNDN3RKTGVsN25fMTVySXRPZEJFSUxWdVZ2Q3IzeXYybmtBdzRieEJGMGUwNmg5ZVZPSjhUWS0xXzI3Ym93dnU4ZVdSRExRRGdPQU9scDRCa1JPR3NEOEk?oc=5",
-     "title": "Laba BUMI Melonjak hingga September 2026, Bagaimana Prospek Sahamnya pada 2027?"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T06:08:29+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMk9xSmJST2xfSGR6OXNvN044OUZFc1k2YlJDd0E5ZmYxMEIwYlhQUTNhSW8wS1AtWndyZ0tfMVUwVDZSa0ZVQWpFV3EyRGtpSVVSQmJyenZHSHJZNkt1SkgxZEdCZlpwWm1DMmY4Y1dJWFY5RXRmMG9ZS0ZDZ04yb0tNLXIwTXV0?oc=5",
-     "title": "Peningkatan Volume Memoles Kinerja Keuangan BUMI"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T06:12:08+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNW12UWdDcGFQZWgxanlpcFo5b2NSbVJUV014THVEWEVWZDlwcGlJOGRULUxqM1cwdTQwcUxpUDE5THpSUUw3eTh1dGswTlNiMTRxV1B6eGktZFFpWkg3OW9FWWpLWWtmNG9WVHhmamFaYjF6QVRlcG5SUy1GRFZJOFAxeFk2SjB4Tlk5ZVFJWm5fNGxxQUJPUlZvbVdSZHlGVXRBdl9XaTh5RFBDRnB2YkVDZFnSAawBQVVfeXFMUEpkbm40eW85dWJzdXVESnUzRmRZLVNFT3dCdzk3Y29qYU5ISk9kcjBlZHlwbDhmQkRRbnlGOTFVNXRCSVRLVGs1ek1Td1djTVNhREtZcE56Zk1yaTd4Um1hV2NzZWJ1aHctYUxLSjRwYkJIZ1dFU1ZHc0hJaHVGVDFKeU5uQWNQN1dyNlN2RFBGU3VCWVRCWVhyOWw5cS1OLThYYk1mamtXT09qNg?oc=5",
-     "title": "Laba Bersih Meroket 404%, Tapi Harga Saham BUMI Masih Anjlok 68%? Pilih Beli / Tahan?"
-    }
-   ]
-  },
-  {
    "id": "2d9f26b41fa7",
    "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah",
    "category": "Makro",
@@ -499,6 +469,30 @@
      "time": "2026-11-27T07:32:36+07:00",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WR1lUVDVnWUdSSUtJMDZveWxpS1lLM2o0T0pGZGtNMVdoOTdYbm10eVM4SUFGdlZwVVFDSV90Q2JwRWVxRnQ1NFNlUERkcjEtcWdSWDdtQXRnR2ozaGFQaTRDb0ZaQURoanZyZ2Vn?oc=5",
      "title": "Nusantara Infrastructure (META) Mengandalkan Pendapatan Jalan Tol"
+    }
+   ]
+  },
+  {
+   "id": "4388cceabece",
+   "title": "Peningkatan Volume Memoles Kinerja Keuangan BUMI",
+   "category": "Kinerja",
+   "tickers": [
+    "BUMI"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T06:08:29+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMk9xSmJST2xfSGR6OXNvN044OUZFc1k2YlJDd0E5ZmYxMEIwYlhQUTNhSW8wS1AtWndyZ0tfMVUwVDZSa0ZVQWpFV3EyRGtpSVVSQmJyenZHSHJZNkt1SkgxZEdCZlpwWm1DMmY4Y1dJWFY5RXRmMG9ZS0ZDZ04yb0tNLXIwTXV0?oc=5",
+     "title": "Peningkatan Volume Memoles Kinerja Keuangan BUMI"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T06:12:08+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNW12UWdDcGFQZWgxanlpcFo5b2NSbVJUV014THVEWEVWZDlwcGlJOGRULUxqM1cwdTQwcUxpUDE5THpSUUw3eTh1dGswTlNiMTRxV1B6eGktZFFpWkg3OW9FWWpLWWtmNG9WVHhmamFaYjF6QVRlcG5SUy1GRFZJOFAxeFk2SjB4Tlk5ZVFJWm5fNGxxQUJPUlZvbVdSZHlGVXRBdl9XaTh5RFBDRnB2YkVDZFnSAawBQVVfeXFMUEpkbm40eW85dWJzdXVESnUzRmRZLVNFT3dCdzk3Y29qYU5ISk9kcjBlZHlwbDhmQkRRbnlGOTFVNXRCSVRLVGs1ek1Td1djTVNhREtZcE56Zk1yaTd4Um1hV2NzZWJ1aHctYUxLSjRwYkJIZ1dFU1ZHc0hJaHVGVDFKeU5uQWNQN1dyNlN2RFBGU3VCWVRCWVhyOWw5cS1OLThYYk1mamtXT09qNg?oc=5",
+     "title": "Laba Bersih Meroket 404%, Tapi Harga Saham BUMI Masih Anjlok 68%? Pilih Beli / Tahan?"
     }
    ]
   },
