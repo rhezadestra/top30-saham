@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T18:35:39+07:00",
+ "updated": "2026-11-27T18:38:39+07:00",
  "window": {
-  "start": "2026-11-26T18:35:39+07:00",
-  "end": "2026-11-27T18:35:39+07:00",
+  "start": "2026-11-26T18:38:39+07:00",
+  "end": "2026-11-27T18:38:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,22 +33,19 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 183
+   "items": 159
   },
   "CNBC Indonesia": {
    "via": "rss",
    "items": 82
   },
   "IDX Channel": {
-   "via": "google",
-   "items": 51,
-   "errors": [
-    "rss: HTTPError HTTP Error 522: <none>"
-   ]
+   "via": "rss",
+   "items": 10
   },
   "Bisnis": {
    "via": "google",
-   "items": 95
+   "items": 93
   },
   "Investor.id": {
    "via": "google",
@@ -3518,22 +3515,6 @@
      "time": "2026-11-26T18:39:38+07:00",
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVk5YT3dVSHVuSVBYQkRXMC1MVTd0a3FPTlNXTWJMSlBtNGtFRm4zaGFJSTM2cTR0TzFfZVNsM3lCb084QldHVVhQUF8tbDlua3VKR1ZxSFNnS0xMaDdHbHJhVElpODFZRDhMN3JDVVp5VmY2QXR1d3p0TEV5TjBja2o1MnBiN0JTUWdnYTVNM1BNbWNZNVI0RUZpQdIBlAFBVV95cUxONnctOVNIVHJIYXBCbFZUUWZZLXhfWVEyRzFRMTZyLVFXaGNPSFIyd2Y4N2JsQ1FSakhHU3V6XzFZQTVMLXBEQjNBQlZJS19xc0tzcjRoRTFKNUdfTEFFdlRnQV9DazN1S214NU5vcnRsSUtyU2NOQW85Zmg5eXloM1NraTdWdGpQajZERkJ5bGVLYlRh?oc=5",
      "title": "Airlangga Tegaskan Belum Ada Rencana Kerek Tarif PPN Jadi 12%"
-    }
-   ]
-  },
-  {
-   "id": "397c815f3a99",
-   "title": "Tarif AS Diusulkan 18%, Ekspor Mebel RI Berisiko Terdampak",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-26T18:38:36+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ1gwSWVNbUE0Vmc0UUlNbzJVOVBsSXBFbGRmMU5LQmthMm5BczhKelFIb0h2bVZPQ2RicUZ2XzdUd1paXzM0UmJxaXZTYnZDOWhOdkF6SzVSY2g3NGhyY3c4N3lUTktiazcxdU52NUpDZ3BsQ3VRQmJYb2ozYlZPU3UxX19lNnc1WE1mTjZHMzBBTzhwZXNlWl96MWEtdjFYaGVtOEd4d1VqeUJk?oc=5",
-     "title": "Tarif AS Diusulkan 18%, Ekspor Mebel RI Berisiko Terdampak"
     }
    ]
   }
