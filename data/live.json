@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T06:32:06+07:00",
+ "updated": "2026-11-28T06:32:34+07:00",
  "window": {
-  "start": "2026-11-27T06:32:06+07:00",
-  "end": "2026-11-28T06:32:06+07:00",
+  "start": "2026-11-27T06:32:34+07:00",
+  "end": "2026-11-28T06:32:34+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 157
+   "items": 154
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -3458,22 +3458,6 @@
      "time": "2026-11-27T06:40:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNME82WmxOZ0V1X212Q01YWG9tQnVFRHFOc0NwbkRYWmQza2NiSTZUeElXc0w1TEZzd3gyZ1ExVU1PeW5EVFB1NnpSZ0lkVjhLMkFFZVg3ZDB6cjR0Sm5HVzJTTG5jWDE0RWFkUFRNd3R4b2l6VkVQTVBTUllldWNaUWwtQ09QRkhKT00ybXoyVlFFczQ2Z3RXVkFFSFBVd2d4RnhGWXVIN0NqNzR2aG9CZXln?oc=5",
      "title": "Danantara Rampingkan BUMN, Jamkrindo Bakal Terima Bisnis Penjaminan Askrindo"
-    }
-   ]
-  },
-  {
-   "id": "ec338d5293c9",
-   "title": "Koreksi Pasar Ancam Investasi Danantara",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T06:32:29+07:00",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zaG9idVBldktMVW94NU1ON2FkbVR2OFctMXhkNzhwbXZ1YWdxZUlzcE9ZdHEtM3NrQ25QdXh4a09PWVpsOUtmZnlRUU9XalNoRU56eWlpRUQ1bnNVaFVucDVEYjl5ZHE5VHdxWkV5eFNQU0o3RnZJ?oc=5",
-     "title": "Koreksi Pasar Ancam Investasi Danantara"
     }
    ]
   }
