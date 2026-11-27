@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T21:25:14+07:00",
+ "updated": "2026-11-27T21:27:42+07:00",
  "window": {
-  "start": "2026-11-26T21:25:14+07:00",
-  "end": "2026-11-27T21:25:14+07:00",
+  "start": "2026-11-26T21:27:42+07:00",
+  "end": "2026-11-27T21:27:42+07:00",
   "hours": 24
  },
  "target": 30,
@@ -32,45 +32,24 @@
  ],
  "feeds": {
   "Kontan": {
-   "via": null,
-   "items": 0,
-   "errors": [
-    "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 503: Service Unavailable"
-   ]
+   "via": "google",
+   "items": 159
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 90
+   "items": 89
   },
   "IDX Channel": {
-   "via": null,
-   "items": 0,
-   "errors": [
-    "rss: HTTPError HTTP Error 522: <none>",
-    "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 503: Service Unavailable"
-   ]
+   "via": "rss",
+   "items": 10
   },
   "Bisnis": {
-   "via": null,
-   "items": 0,
-   "errors": [
-    "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 503: Service Unavailable"
-   ]
+   "via": "google",
+   "items": 89
   },
   "Investor.id": {
-   "via": null,
-   "items": 0,
-   "errors": [
-    "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 503: Service Unavailable",
-    "google: HTTPError HTTP Error 503: Service Unavailable"
-   ]
+   "via": "google",
+   "items": 147
   }
  },
  "prevAt": "2026-11-27T21:04:14+07:00",
@@ -1748,6 +1727,42 @@
    ]
   },
   {
+   "id": "55eba9271b21",
+   "title": "Saham Mitra Keluarga (MIKA) Mulai Rebound, Volume Pasien Jadi Penentu Prospek",
+   "category": "Kinerja",
+   "tickers": [
+    "MIKA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T20:58:33+07:00",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTXdSVER2d201RjFnTVdES2hvZTJlYlJkTmU3eFBVby1vWjI1QmVDVXR2ZHZ2S1F4VFpTc0xVQmZLQkt6LVpfVlgwVFo4Q2Fjd0lDeWFlc0VzeXdnNjJrWWRVZS1OVk1TZk5YTEVuSk15aElNczREbjRFWUU5Y0ZBbVV2a0NCcW9RRHF1ZC1tRDhEX0VRTW1URjFyTGN1cWNmNTFtNzAyb0xmZVItZ1dV0gGnAUFVX3lxTE5wR1NUeXJfdzJjV1ZZaFBGWG1EcklWQVIyeVhCTWRvQnRJMGQ4eWZuaGRVdElBdzl6Z2NXWU5YRHNKUVp4dUFrWWk0c05vOEtWYkI1aUZQSHZZeUxUX29hb1ZMSjA2RU1wM2lXY0ZOZVFudWFYVmx0aEw2Y3dpN2hoRjFfWXpUZFVNX3VoVEJ3UXMzelR0eHM1aUZkdzNGOW9hUE5DU2JR?oc=5",
+     "title": "Saham Mitra Keluarga (MIKA) Mulai Rebound, Volume Pasien Jadi Penentu Prospek"
+    }
+   ]
+  },
+  {
+   "id": "e5cfc3413b7e",
+   "title": "BBCA Diborong Asing 5 Hari Beruntun, Dana Besar Masuk",
+   "category": "Kinerja",
+   "tickers": [
+    "BBCA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T20:41:21+07:00",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcGNCbGhQSkRIWFhaTU16TTMwWXhVTmdDWDlRN2ZhZFVDX1JfUUxvMEI4ekNGYVNMR3lPbjJDd1hYWUcyOHFoZWFqTGxHY1lnSS1kSFFtbFY5VF9CQmhwUWpSZ19lRXdISFdhZTZzQ3VNZWxXUzdKX09WSnM0dVBUS2lCRE1fUldObWQ2eUxmRQ?oc=5",
+     "title": "BBCA Diborong Asing 5 Hari Beruntun, Dana Besar Masuk"
+    }
+   ]
+  },
+  {
    "id": "853a7f067efb",
    "title": "Pertamina Targetkan Pengeboran Sumur Besar-1 di Natuna pada Kuartal I/2027",
    "category": "Kinerja",
@@ -2441,6 +2456,22 @@
      "time": "2026-11-26T21:35:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSTh4b2NMd01QM3BHWUJBVFk3MW9ZRjc5NWxsdGFPZjBldnVKb1hnV2k0a01icDBzUnpFR09BMU5kN0QzTUNWdGRLUFpKWl9hQzh2QXAxd2pjbVY0T1l6VEZpOUxxMFRqdFlwZTVoNnpFWVNkdlVpYUZsM1VpYzRaYmlKZ3ZFcUtEU2xGMzln?oc=5",
      "title": "Emiten Tol Grup Salim (META) Jajaki VTO Tahap Keempat"
+    }
+   ]
+  },
+  {
+   "id": "5a0578e309c2",
+   "title": "Kredit Multiguna Perbankan Melambat, Daya Beli dan Kenaikan Suku Bunga Jadi Tantangan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T21:14:31+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQkVXb21KQllhTXhHMDdyUzJNRGdhbnllU21jVzR5MHlIbG1UdjNReUZUY3VmWkIzNWpHd0hEazJSNDZQMmhmSDY2VktYTjZwdDdRSlpPbnZfbkw3YU13UmhLTGltempXREc1STYzX1dhUm5IOWZYYkhYa0N2OExnWEZucXI5WnlrUkl3RHJNd2hsb0RTM2VDQUNMQVJFak5xR0pmZkZValR4X19FaFFSc1ZRVFJvaXllQTY00gG0AUFVX3lxTE9QSHF0dkpVMnRGSU9hdmYxYUpQQjJEbTFEcU9HOE94dHhRejF1YVFCUGM5X3k2REo1Tmtyb3RqbFktbmdqNVNoYTZYTzJiSGlOSkZlRG1JSk5BVGhtcmhuR19nQ3c3LURzTzgzaWhreldPYmEwXzVTdjFKaHdLd212QWF3UXVsTzVobG9HdUN3ZnVvWDc4aWpFcUJuY01faWpNblZCVF8wY1U4ZFEzWFR0ajVwdA?oc=5",
+     "title": "Kredit Multiguna Perbankan Melambat, Daya Beli dan Kenaikan Suku Bunga Jadi Tantangan"
     }
    ]
   },
