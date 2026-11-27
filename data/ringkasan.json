@@ -1,478 +1,566 @@
 {
- "updated": "2026-11-27T15:52:16+07:00",
- "items": {
-  "0287597ab648": {
-   "title": "BEI Sanksi Lima Emiten soal Ketidaksesuaian Data Free Float",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU1RmYlE0NnJmVEYtMmphN0dUZnlUWWNzN2JpR1B0SDNXbWFFekpfdE14UDRKZk9jb3c1T1RvVlJWQS1ORE5mNXlwbWphS25RMThRY2twV3BDOHg5Q3hSRFlNN282SnVlR01mVDd5WnlfQzRyUFh5TU1WdlRMdlBHUVJLcUxndVJpZVdiNXVFWW5UdGRaWkN2UFBYa9IBkwFBVV95cUxNTDZCZElZVEdiOUx3WUtZaGRVTXdrZHp5T084S0hRMEktd0U3Qk9KSDAwZmFlb3BWaWhQM0tTV085a21lcnhxOEdyMG02UGx0SDNtcVpCLUZaUlM0d0VPQ2tsbVNRN051SFZWYVVkV0szTERlQzhYVGFXdFVBRUpXUkZ6ZUtiZUVyczZ6UmYzdjVtUm8?oc=5",
-    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQWt2RDFvLWVMYWZYSHprN1ZJaVRJRUt0V1QyRy1MbzdZSFF0Rm5qd0FNWllvXzhpQVdDZzgzVHVwQkFDQmpocW84ekZIcTF2ZnN5TjR0SkdpSjVKcXN2eV9YNEVONk9Sc1QwenBMWTBnc2ZjRWptUHk2bGhEeGtwVmdCZzlXcUlMdi1PdTh5bHNCR3V1MUdlZ0hYVlo?oc=5",
-    "https://www.cnbcindonesia.com/market/20261127091911-17-788952/data-free-float-tak-akurat-bei-sanksi-5-emitan-ini",
-    "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFVDcWk2bXZMUGMyMmpjZy1oczFYUVN3c3QtYXg3WG9FZEc4R1E4eGt2eGlWWnEzRFdxU05XLW00bTk5TnRIM3hCUWhZX2IzQnVjeC1Ub01McnRIVDd6bXIzeTBhNFhsMVdfdUpLd0NRR3BKYnJFczlFWUt4akxndFNMYXY3WF9VbmtsT2hLYVhRRTltQUhKNnEwZHk2d9IBlgFBVV95cUxNcTJoTmI3WHdpR2hWSEYtLWJ6N25RMVZYbGFFRzM2SmRPb0JKYmVPVnFiSHRDV3RvRDUxN2ZJNTVISUF0WkhWMEV6UkgtT0o3Z0hsTnlRQ3hkeWFmeTlMTXZmZnVJYkpzQXFSNzk3ZVJIQUQ3MEFJdmFDcko5aHBUWGM1Tm1aelU2VGtwQV9KX2VUUWZ4V2c?oc=5",
-    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTU3Zmw5TnB1SWtVZGM0dUFyOEwwd3NJN2xyMWl0U2JBdl81M091S19ZWDVSdkR4Q2NhaWM1emZFU2Q4RnJNZy1ZQW9Pa20wby11RXlVVHRxaWRfTHZrUlU5cXBxRFZjNGtiUGlzbENsdDQ3Sm9kUHFfWmstUDZLMWw0cU9pM0dqa3plSC1hVGFzVEpJZXB0TG9FbFJma1dxenJxZFFSZGZIVDBTNXBHZFpKd1o?oc=5",
-    "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float"
-   ],
-   "points": [
-    "BEI menjatuhkan sanksi kepada lima emiten, yaitu AKKU, BAJA, FIRE, KING, dan KPIG, karena data free float yang mereka laporkan tidak sesuai.",
-    "Ketidaksesuaian ditemukan pada laporan registrasi saham bulanan periode 30 September 2026, setelah BEI mencocokkannya dengan data KSEI untuk kepemilikan di atas 1%.",
-    "BEI sudah mengirim pengingat pada 9 dan 16 November, tetapi sampai tenggat 26 November kelima emiten belum memberi klarifikasi atau koreksi.",
-    "Perdagangan kelima saham juga dihentikan sementara di Pasar Reguler dan Tunai mulai sesi 27 November 2026, berlaku sampai ada pengumuman berikutnya."
-   ]
+  "updated": "2026-11-27T16:53:52+07:00",
+  "items": {
+    "0287597ab648": {
+      "title": "BEI Sanksi Lima Emiten soal Ketidaksesuaian Data Free Float",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU1RmYlE0NnJmVEYtMmphN0dUZnlUWWNzN2JpR1B0SDNXbWFFekpfdE14UDRKZk9jb3c1T1RvVlJWQS1ORE5mNXlwbWphS25RMThRY2twV3BDOHg5Q3hSRFlNN282SnVlR01mVDd5WnlfQzRyUFh5TU1WdlRMdlBHUVJLcUxndVJpZVdiNXVFWW5UdGRaWkN2UFBYa9IBkwFBVV95cUxNTDZCZElZVEdiOUx3WUtZaGRVTXdrZHp5T084S0hRMEktd0U3Qk9KSDAwZmFlb3BWaWhQM0tTV085a21lcnhxOEdyMG02UGx0SDNtcVpCLUZaUlM0d0VPQ2tsbVNRN051SFZWYVVkV0szTERlQzhYVGFXdFVBRUpXUkZ6ZUtiZUVyczZ6UmYzdjVtUm8?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQWt2RDFvLWVMYWZYSHprN1ZJaVRJRUt0V1QyRy1MbzdZSFF0Rm5qd0FNWllvXzhpQVdDZzgzVHVwQkFDQmpocW84ekZIcTF2ZnN5TjR0SkdpSjVKcXN2eV9YNEVONk9Sc1QwenBMWTBnc2ZjRWptUHk2bGhEeGtwVmdCZzlXcUlMdi1PdTh5bHNCR3V1MUdlZ0hYVlo?oc=5",
+        "https://www.cnbcindonesia.com/market/20261127091911-17-788952/data-free-float-tak-akurat-bei-sanksi-5-emitan-ini",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFVDcWk2bXZMUGMyMmpjZy1oczFYUVN3c3QtYXg3WG9FZEc4R1E4eGt2eGlWWnEzRFdxU05XLW00bTk5TnRIM3hCUWhZX2IzQnVjeC1Ub01McnRIVDd6bXIzeTBhNFhsMVdfdUpLd0NRR3BKYnJFczlFWUt4akxndFNMYXY3WF9VbmtsT2hLYVhRRTltQUhKNnEwZHk2d9IBlgFBVV95cUxNcTJoTmI3WHdpR2hWSEYtLWJ6N25RMVZYbGFFRzM2SmRPb0JKYmVPVnFiSHRDV3RvRDUxN2ZJNTVISUF0WkhWMEV6UkgtT0o3Z0hsTnlRQ3hkeWFmeTlMTXZmZnVJYkpzQXFSNzk3ZVJIQUQ3MEFJdmFDcko5aHBUWGM1Tm1aelU2VGtwQV9KX2VUUWZ4V2c?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTU3Zmw5TnB1SWtVZGM0dUFyOEwwd3NJN2xyMWl0U2JBdl81M091S19ZWDVSdkR4Q2NhaWM1emZFU2Q4RnJNZy1ZQW9Pa20wby11RXlVVHRxaWRfTHZrUlU5cXBxRFZjNGtiUGlzbENsdDQ3Sm9kUHFfWmstUDZLMWw0cU9pM0dqa3plSC1hVGFzVEpJZXB0TG9FbFJma1dxenJxZFFSZGZIVDBTNXBHZFpKd1o?oc=5",
+        "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float"
+      ],
+      "points": [
+        "BEI menjatuhkan sanksi kepada lima emiten, yaitu AKKU, BAJA, FIRE, KING, dan KPIG, karena data free float yang mereka laporkan tidak sesuai.",
+        "Ketidaksesuaian ditemukan pada laporan registrasi saham bulanan periode 30 September 2026, setelah BEI mencocokkannya dengan data KSEI untuk kepemilikan di atas 1%.",
+        "BEI sudah mengirim pengingat pada 9 dan 16 November, tetapi sampai tenggat 26 November kelima emiten belum memberi klarifikasi atau koreksi.",
+        "Perdagangan kelima saham juga dihentikan sementara di Pasar Reguler dan Tunai mulai sesi 27 November 2026, berlaku sampai ada pengumuman berikutnya."
+      ]
+    },
+    "8af9642a45de": {
+      "title": "Nasib IPO Andalan Artha Primanusa (ANDA)",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WZVA4OENMaFU3WXhuend1MXVGSHk0V0NfQXRXcGVRc2gxRG4wdF8xYlN2SDdSLXR0WVQ1eGNjZXpaSnlRd3FGekF0Zk1SOHNVbkIzYVB3c2lBVVl5SmF3elRVOUtoZnJDd0Y5TDlqS094QXQ2VFZQYkdzUVg?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWkgwQXV0U2dOT0lzWGFBVmhLemZoY1VEaHI3V2xvTnNJSTl4MHBIUkFpdTU2RW5rY29PdG40bDI1RDFod3JjVF9ibW9hRzFBc1RvM1J1Unl3LUlwazlWOFhQSTVSblZJdEV6aFhXbHEyVEY5eDVXZ2hoQW1iU3ZFTDE2Z3ZtTjdUOEpmemRTUE9xdldrM1EyMW9ncmJDWlVhZVZYcndMdUNMcmZ4QWs5MEdR?oc=5",
+        "https://www.cnbcindonesia.com/market/20261127100115-17-788962/ipo-andalan-artha--anda--belum-terlaksana-bei-buka-suara"
+      ],
+      "points": [
+        "Penawaran umum saham Andalan Artha Primanusa (ANDA) yang dijadwalkan 24-27 November 2026 belum juga dibuka hingga 26 November.",
+        "Direktur Penilaian Perusahaan BEI Saidu Solihin menyebut jadwal di prospektus hanya indikatif dan bisa bergeser karena proses efektif OJK serta kesiapan emiten dan penjamin emisi.",
+        "ANDA berencana melepas maksimal 1,67 miliar saham (25,10%) di harga Rp158-189 per saham untuk meraih dana hingga Rp316,76 miliar, dengan Henan Putihrai sebagai penjamin.",
+        "BEI masih menunggu konfirmasi dari ANDA dan penjamin emisi, dan akan mengumumkan perubahan jadwal kepada publik sesuai ketentuan."
+      ]
+    },
+    "b917b7f18503": {
+      "title": "Bos SMBC Indonesia (BTPN) Buka-Bukaan Soal Alasan Mau Delisting",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://www.cnbcindonesia.com/market/20261126132350-17-788723/bos-smbc-indonesia--btpn--buka-bukaan-soal-alasan-mau-delisting",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmtxWVQ4X0dfMUZnamhvbGZlVXhYODFweXBDaHVpQmVka01kLTMyMHczd1lZZkRSYS1kdW80cGs1U1BCWHg2dDIxdFVOV3I5TVJDbmd2S0d6OUhITUp2WnVnSlF1X0F3MkNSUHgtZ2pDTjV1Wm4tYTRNN2JyZnp3Tzh2SEVjeGNFTVAyQTg1YzFFQmVOTGZLeDlvSHdFYVVreGw3S0hkdkljSjBDYWg1cg?oc=5",
+        "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank"
+      ],
+      "points": [
+        "Bank SMBC Indonesia (BTPN) berencana menjadi perusahaan tertutup dan menghapus pencatatan sahamnya (delisting) dari Bursa Efek Indonesia.",
+        "Direktur Utama Henoch Munandar menyebut langkah ini strategis untuk arah bisnis jangka panjang, tetapi artikel Kontan tidak merinci alasan spesifiknya.",
+        "Bank sudah memberi tahu OJK dan BEI soal rencana RUPSLB pada 19 November, dan rinciannya akan diumumkan pada 30 November 2026.",
+        "Manajemen menyatakan tetap berkomitmen berinvestasi di Indonesia dan menghormati hak pemegang saham minoritas, dengan CAR tercatat 30,7% per Juni 2026."
+      ]
+    },
+    "4d5636538b26": {
+      "title": "Danantara Tegaskan Garuda Adidaya Hanya Kelola Sementara Eks RAPP, Bukan Akuisisi",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOW5VY2s1QTFpYkxFWmt5Q2hySHBkblpsbEkwbUx2clJhblI4a1Q2MlVrcmxWTVJVRFZhb2tPZXNYeko2aWxMbVdKMWExT0plM1BLWllCMXYwRXp1T0w4bXBfRWRpUkFKbXFJclYtTVBNUnRBcWF6LXQ0UkpfQjZlQmhBT2hwTXA3V2g3SGZkdXJVNGZsaFdvczNJY1VhNlJKUENZT0I5VTI4cGZ4UzAxa1ZMd0xRd9IBrwFBVV95cUxOVUZYZXhWM0h1OXZ2RFFmQ1lTbzFQWk5ubmRTUllIYTAzb19tYS1ITS1BanJvS1otZEVZeDRWVTl5Q1NZRWhrUVh0Z1I0a3Fncm4xM2thSm84U0xSMml2R0pBT1VUdU1JZG1BM0kxcFdvUzhVNlM4UWxURGNlaU5LVzh3bnZweVpNRnQ0MzVtTkZhbjBFdXBzQVo3cWpJNl9BLVNiUHRFaWhzVXRQT0ZV?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmEtVWRCME9Gb3BMTnNuNVhYekRVUDRyVXkza3d5UHZxVFhWNmpfamZBLUJpckJhWWFHTnZXbmxqbzhFWndRTHJXTnQyUTJpd1NlUFZmT1RMckJjTnJOWS0wSDdvYVhVNmtSSnNwb1RsZ0g0XzhNODRKTEszN2VtZGhmNnBHdFNaODdBQW1ueWR2LW1TZkt0a1dPVFpseDFVTml2ZlZWMHJNbjFiTURNZlNDTmJEUQ?oc=5"
+      ],
+      "points": [
+        "COO Danantara Dony Oskaria menegaskan PT Garuda Adidaya Nusantara hanya mengelola sementara eks konsesi RAPP di Riau dan tidak mengakuisisinya.",
+        "Kementerian Kehutanan menunjuk perusahaan itu setelah mencabut izin PBPH RAPP seluas sekitar 338.536 hektare lewat SK Nomor 971 tanggal 19 November 2026.",
+        "Garuda Adidaya baru berdiri pada 16 November 2026, dengan saham dimiliki Danantara Asset Management 99% dan Danantara Mitra Sinergi 1%.",
+        "Perusahaan bertugas menjaga operasional selama proses hukum berjalan, sementara stok bahan baku pabrik disebut hanya cukup untuk sekitar sebulan."
+      ]
+    },
+    "8c11ec64d056": {
+      "title": "Jasa Marga (JSMR) Rombak Susunan Pengurus, Simak Detailnya",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxORnh0X3cxa1JqR3ZWWkxfWXh4NXJXZ0lLb3ZmdnBLSWtsV3ZyaF9Ca0xOcWJiU3IyNzR3dUhQVGtYdkR2Y2w1Sld6UEJzalRpNDlBWUcxTHpxZGZLRHFZenBVUVU0SDZ3ZFlJVkdYS2R2cW50TEZkVzh4Q0FSSGpVeTczQ3VDQTRIb0tJRFhpX1dnbmlWMFHSAY4BQVVfeXFMUG1ybDVVM2lxZWRVbC0yWEdPOFI4NGU3dnJSTzBiU1Z4MWxoamFRVDZiYjI5ZEVuLVNETV9fLVR5VVBiak5jR0pmZGx6eUFjVXR5UnowYW9SdkJkb3ZUYnFkbEpMSWFZMzZ2MWN4QjhpUDlGaVpkN1FjTy1OUHFxSFZDZFh5WkRLalJWME9FQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1dFS3lSTi14aVd6dzl4cm9xdmhlWEpxWW8xRkExbFhoRHRfRU55UkowX3loNGw1WGNVZXVBRTBHbU5PSlowSy12TjVUVFZWNGlkeWQ3aHpxMzYyM1FDNmhFZGs5bk1GcWFMV3E2b1pFWEU0VUlSLWNpRzYzUmJNVVdOcUQxeU1LOEtUQ3dOaW9TTW5Td2c?oc=5"
+      ],
+      "points": [
+        "RUPSLB Jasa Marga (JSMR) pada 25 November 2026 merombak jajaran direksi dan menggabungkan posisi Direktur Bisnis dengan Direktur Layanan.",
+        "Sigit Prastowo diangkat sebagai Direktur Keuangan dan Manajemen Risiko, sedangkan Ari Respati menjadi Direktur Bisnis dan Layanan; Pramitha Wulanjani, Reza Febriano, dan Yaya Ruhiya diberhentikan.",
+        "Rapat juga menyetujui penggabungan anak usaha Lintas Marga Jawa dan Trans Optima Luhur ke dalam Jasamarga Transjawa Tol, serta perubahan anggaran dasar.",
+        "Hingga kuartal III-2026, pendapatan tol JSMR tercatat Rp14,3 triliun atau naik 6,8% secara tahunan."
+      ]
+    },
+    "dd049b9708fa": {
+      "title": "Bank Bangkrut Bertambah Lagi, OJK Cabut Izin Usaha BPR Bontang",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWTQ5UWNaSFVhU01lRnJFUXFoMUdmS211c05pZVRvam1wcTdUZVNjN2NzTzVsNkFqcGdKSHB2cGlqRGxLN2h6LWpvYlhOdmJxdkJld1QzaklnZHRxQk5LUVo4NWhjQ0IxMWxCQkdCZ0dZSDFubVBkVnBOY285NVMzRTNGTzN3WHhSNG9USUFtdE5PcGpRMllkM0N3UXYtLTFGVGo5RVR6RVgxay1BZ25SR2VPVmJzQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS3N5M1cyNWVUbTRkcllWMGxQeUpYVjhvN2xkZUMtUVVPaXgwUkk4T1QyRDI2MWFaQWFtUU9pcmw1WTBuVnQtS3Fjb1VzakxJR3BPUmRPOFd3NThOajRuUkROVms4SnN0WG02cDZqajZFZEpKQ3V2WTJHMzM4NmpSWFotbjFvSXFLZ01aY296dnDSAYoBQVVfeXFMTkFmSWVoaUVMRkJwMnlJeFZXYXR1cG5ZWTY0emRwbXdaVEtEM2V0Y0sxeU9HVWZEazJqOUNtemctZTBMZzdIaWtmWnNsVmM1UXE3RzdDNmlOOG9CSFFjZnVZazdDYV9KZkFqVnZkUkFzWmtHWHNOSEF5OHBIY0VXSjFVaTlaSXQyZ25R?oc=5"
+      ],
+      "points": [
+        "OJK mencabut izin usaha PT BPR Bontang di Kalimantan Timur melalui keputusan KEP-126/D.03/2026 tertanggal 25 November 2026.",
+        "Izin dicabut karena upaya penyehatan gagal memperbaiki permodalan; bank berstatus dalam penyehatan sejak November 2025 karena rasio KPMM-nya di bawah 12%.",
+        "OJK menaikkan statusnya menjadi BPR Dalam Resolusi pada 9 November 2026, lalu LPS memutuskan likuidasi pada 16 November.",
+        "LPS akan menjalankan penjaminan simpanan dan proses likuidasi, sementara OJK meminta nasabah tetap tenang karena dana mereka dijamin LPS."
+      ]
+    },
+    "ecaf13830687": {
+      "title": "Bayan Resources (BYAN) Rombak Komite Audit, Mertua Kapolri Suyudi Ari Seto Masuk",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxONjFwOFhuczlFX205TnZFeWlnV0NJVDRkTWo1SlMwb1VRRGRyaEU0Z2VFTXVVbzlMWktxVnNUcVYxeGpYbmxaMXJYZE1tV0NvSjJSVUNkY09UcUR2b1B4bVAtUUl5OFFNcHRuZExGY3JTRkhaTzlNVHhYNkhiSkpBZ09yZEd6enU5bEZrbXBJTWd0bUowcUhsekd2TzRRN2tOdHdWQ0RuM0JnOV9ib3RRandJZ9IBqwFBVV95cUxOMWdQREJHWDlXQ2MzQnpYc3d4cnBxaXE2d280eHhNZDhVNHFmbTg1SmtrRU43cEN6Q19iYWpnRTlvMEFkWWNUWkE5WlIwMmdkUkhTN2tsU3JhX3ZEdEhQcnZtMk90WFhUR2pDUGZFSVZQekt1XzZMLWtVQXdDSnBvOGZsQWd0dGdYUTRVZDd5R1EzcldZdG5lQzRHZzdWMWlZR3RxWGFteG9lNTA?oc=5",
+        "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-dua-mantan-polisi-jadi-komite-audit"
+      ],
+      "points": [
+        "Bayan Resources (BYAN) mengganti ketua dan satu anggota komite audit lewat SK Dewan Komisaris yang berlaku efektif 25 November 2026.",
+        "Komisaris Nurfaizi, purnawirawan polisi sekaligus mertua Kapolri Suyudi Ari Seto, kini memimpin komite audit menggantikan mantan Kapolri Timur Pradopo.",
+        "Indra Surya, komisaris di PGUN dan TEBE, masuk menggantikan mantan Ketua BPK Moermahadi Djanegara Soerja, sementara Arief D. Dhani dan Rafika Yuniasih tetap menjabat.",
+        "Kontan mencatat saham BYAN turun 3,38% ke Rp9.300 pada 26 November 2026, dan alasan perombakan tidak diungkapkan."
+      ]
+    },
+    "8a0b095473e4": {
+      "title": "OECD Minta Indonesia Naikkan Tarif PPN Jadi 12%, Ini Pertimbangannya",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWk8zUG9ENTd0Q2tIM0E5ZnpVZG5TLUJmWHpfZjAwUDdPMWZzOV9takVodHVsYkVfTFdOcDl1RVl5UHBVd3lld3oyR0xENng0NTRSMDcwRUR4SUdhTWM2eDgzTFd6SC0zYzVQZFlWSEJTeEwzdkFNajRtZGF5YWl5TC1lX3dBN2xwSWlVS1VtVGVRaFpWc1RiLU9CR01SaDU0ckhN0gGcAUFVX3lxTE9nTHpEeW1qcjN0Z3FuQWRDcG50S19Ebi15NnUwX1Q3Rk1UTml4Z2lHUGRqQl9YbEZLc1p1LWJ3elBwaHQtdURQVHZGTWpHc1NUZDdHcUI5MGFzbHhSWi05UUgyN2NzT09yRWdCWjA3M1dZNnNKLW1HTmI5bFlIXzBSWG1ob29HcTZUTWwzb1ZaaUgzcWhqQkU3TFZZcw?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxOTng0bXhyVERKM21oMVhZUkJjc2IyUW9wVnhkZC1uUUxvOWFldnZyTHJfdlZkekxHaDBQM1hCZmVqM3h3d0N4NGtZVy1ZZDVwUW9MLTdaUUdhb244azdWT0Y3OXQwd2xtbHloWlpha0R1Wk5DUHk5WWc5WGdPbWpOVTFMWHdmeVNMWmpYaXFZU21RUEg3NHREUkdTVzhmdw?oc=5"
+      ],
+      "points": [
+        "Dalam laporan OECD Economic Surveys: Indonesia 2026 yang terbit 26 November, OECD menyarankan pemerintah menaikkan tarif PPN secara bertahap untuk menopang belanja negara.",
+        "Menurut Kontan, tarif standar sudah 12% sejak 2025, tetapi sebagian besar barang nonmewah masih menanggung beban efektif 11% lewat DPP nilai lain 11/12.",
+        "OECD menilai pajak konsumsi lebih sedikit menghambat pertumbuhan, sedangkan rata-rata tarif PPN negara OECD mencapai 19,3% pada 2024.",
+        "Indonesia baru memungut sekitar 54% potensi PPN pada 2022; jika naik ke 80%, penerimaan bisa naik dari 3,5% ke 5,2% PDB, dibantu penguatan coretax."
+      ]
+    },
+    "da9b0df4b481": {
+      "title": "DPR Setujui Anggaran Operasional Bank Indonesia Rp 37,79 Triliun di 2027",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM3VwZkdvb2xnYklWMW4yYkR3OG54YUdtbmxGOHJTUUx1X3FEVmdUaVQtaDd4R1dFTzhialFuY0VkOXBxdEtqYXFzcmFwNmZFRjdxU1NmUlVmdmhaNzdqMEJLanFQWERDQ0x3c0k2WXdIRFF5bTFKRmR0U1hYWXBSaUtqNEZ3WHVZR2lwaVQtLVZyVV9UZDlheVJKN01oLVRPRXZvdlU0RjdLQdIBowFBVV95cUxOQ2ZhUXQtV2xieVdLWTBfSHQ4TkFPT3FwUmlHMzRkXzBLc2VXdTM4QmZLcXN5ZkU2Nm51bmE1NGF6NUtBT21obUFLSVBuVGFzam9MWlBnUzgxUno3clpwNmh2eE82Y2FuMGJubWFYeS1FcDRhQ0tkb3pVTzZkYWlsMTFEanZTM3Z1OXhnbkdvaE9BckZ4Z0EyQ1BWdTdSYVRZdUhn?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdnBqdWxQVDM2Tms3dEZybGlJZmdNa2llU3BqcW5MWXl6ZlZxOGNycVlfMXZQRE1IWlM3ckNYYnFXUHJhSXFkSDd1bWVLSm10cUMwSEVIUno4Qklfc2FXU0RuV090eXdpUU5veFRST0VBck0yVEZvNnR2cDNHOHRNcDF3V0VBQmsyQXM4bTE4MlZNTmpmM2oxNkdkUWkxc2xjYVh3WlBPV3lPWlpOQ0FGQnQxcXozR00zS1dHZG1lVzl0dTdqSEVQUA?oc=5"
+      ],
+      "points": [
+        "Komisi XI DPR menyetujui penerimaan anggaran operasional dalam Rancangan Anggaran Tahunan Bank Indonesia (RATBI) 2027 sebesar Rp37,79 triliun pada 26 November 2026.",
+        "Penerimaan terutama berasal dari hasil pengelolaan aset valas, ditambah penerimaan kegiatan kelembagaan dan penerimaan administrasi.",
+        "DPR meminta BI mengelola cadangan devisa secara aman sambil mewaspadai potensi penurunan cadangan akibat stabilisasi rupiah dan ketidakpastian global.",
+        "Judul Bisnis menyebut surplus anggaran operasional 2027 Rp14,56 triliun, tetapi artikel Kontan yang terbaca tidak merinci pengeluaran maupun surplus."
+      ]
+    },
+    "98f8de3e1ac6": {
+      "title": "OECD Ramal Defisit APBN RI Tembus 2,9% PDB pada 2026",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaHhUaUt4WDdHY3ZwbG5tRm5RUU1SWElEM3ZaQkQ2d2h1UXZZWnNRdHhDOGxiR0RMbTZDaGRBT1o3TFFwXzVVeW9XeVV4ZkVsaGY2Y3V4Y1hnV0paUzN5TEJ5SnZPZ29jeDdJZllLNXRxWGN3OFNaSE1ySHRvTzRFVVM3R19NSFU2RzV4OTJn0gGHAUFVX3lxTE9Dakh2WTRVMmpJb0RjTFVFdDdINkRibDNwajVJNmdRclFsTko0NERzU3VET05fcjE4clF0ZkFzQkx4QzZncjBad2E5djhGZnB1WVJvS0ZfbEtYX2dIQXFtX0JNS2V4WWYtTHB0aWZhUXNHVXNzeFJqbHVPNm91LUx5WTdfZHBGMA?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRXFoX09MQ1RGdDdmaEUtTjZGNEloQ2VScUpjVVE1LTBLZGNfQUJoXzhUMG5fTGhobWVsNGxCZmZWOHhFbzctb2x3ekdwNG1odnJTaHI1dkhMMnhWamNFcS1MZ0Z1dFR4NlJpTzFZTmNTSV91a3A0cV9PdUFWcW9MYTZNcHl5cVpZY2JDWEx3c09rQzZRT0NubXZzc1JCVkJwekpkYW00VWdaNHQ3dzA0dllKTQ?oc=5"
+      ],
+      "points": [
+        "OECD dalam Economic Surveys: Indonesia 2026 memproyeksikan defisit APBN 2026 mencapai 2,9% PDB, di atas target awal 2,7% dan realisasi 2025 sebesar 2,8%.",
+        "Pemicu utamanya kenaikan harga minyak yang membengkakkan subsidi BBM saat harga dibekukan, diperkirakan menambah defisit 0,6% PDB dibanding target.",
+        "Defisit diperkirakan menyempit ke 2,6% PDB pada 2027 dan 2,4% PDB pada 2028, sementara pemerintah berkomitmen menjaganya di bawah 3%.",
+        "OECD menyarankan langkah penyeimbang sekitar 0,4% PDB, seperti pengendalian belanja dan windfall tax eksportir komoditas, serta bantuan langsung yang lebih terarah."
+      ]
+    },
+    "e2c28496fc5c": {
+      "title": "Danantara (DAM) Optimistis Akhir Tahun 2026 dengan Laba Rp332 T",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://www.cnbcindonesia.com/market/20261126133226-17-788731/danantara--dam--optimistis-akhir-tahun-2026-dengan-laba-rp332-t",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0pCaDlGbUxYR0RKdUVIMGZWeV8wN1I3SGY0TUxfbGJTNEg4UHp5SkZiRU10RnhmOXFoNThZcjN1RGg3M2FJX0FhUW0yWG9DZmIzcVl0LVVzYjRRV2lnQnVGcUdXSU0zWkdiU1NjdElQeUVHVWdTQ1lDbEpONlBfdG5wUnZTV1VHRWUwa3paN0FXQnlOZnh6d3REY2liSDJ0dzdQMUhLT0Jndw?oc=5"
+      ],
+      "points": [
+        "COO Danantara Dony Oskaria di Komisi VI DPR pada 26 November 2026 menyatakan Danantara Asset Management (DAM) optimistis menutup 2026 dengan laba sekitar Rp332 triliun.",
+        "Target ini naik dari laba bersih 2025 sekitar Rp259 triliun, saat pendapatan usaha mencapai sekitar Rp3.073 triliun dan EBITDA Rp704 triliun.",
+        "Menurut Dony, kinerja hingga November masih sejalan dengan RKAP dan konsolidasi mencakup lebih dari 1.000 perusahaan.",
+        "RKAP 2027 menargetkan laba Rp366 triliun atau sekitar 10% di atas target 2026, sementara target internal disebut sekitar 22% lebih tinggi."
+      ]
+    },
+    "54831c07e0ef": {
+      "title": "Laba BUMI Melonjak hingga September 2026, Bagaimana Prospek Sahamnya pada 2027?",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbW9oOHlMSGU2TFRaU3pxclZfOGRxNVBfU1c3ZFQxbUxvNzF0bDQwU3N0RFdvU2xDcmc3Y0ZRd3RrbnhGUmw1OW9zbFRiQU93cTItMldtWGxQeHIzb0xFOEhnT2VhdzhWUk95N0tpWjgxcENPNmZmX0ZRRzNlclRDOUhNYlREejF4SXY1WEFqcERjRHJocGFDTV9VaUNvNkpZS2JWMHlvcGk1ekRNc053NW1qNNIBqwFBVV95cUxOUnp2cTdOZWltejhIbDJSRmJLS3ZpRHhseTdDb2xCbHhQaktBbEhuTndSUXctTVdxX1VqbGQxd08tUVpCcGpQZXRTbG9vUnBmdTh2MnNDN3RKTGVsN25fMTVySXRPZEJFSUxWdVZ2Q3IzeXYybmtBdzRieEJGMGUwNmg5ZVZPSjhUWS0xXzI3Ym93dnU4ZVdSRExRRGdPQU9scDRCa1JPR3NEOEk?oc=5",
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMk9xSmJST2xfSGR6OXNvN044OUZFc1k2YlJDd0E5ZmYxMEIwYlhQUTNhSW8wS1AtWndyZ0tfMVUwVDZSa0ZVQWpFV3EyRGtpSVVSQmJyenZHSHJZNkt1SkgxZEdCZlpwWm1DMmY4Y1dJWFY5RXRmMG9ZS0ZDZ04yb0tNLXIwTXV0?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNW12UWdDcGFQZWgxanlpcFo5b2NSbVJUV014THVEWEVWZDlwcGlJOGRULUxqM1cwdTQwcUxpUDE5THpSUUw3eTh1dGswTlNiMTRxV1B6eGktZFFpWkg3OW9FWWpLWWtmNG9WVHhmamFaYjF6QVRlcG5SUy1GRFZJOFAxeFk2SjB4Tlk5ZVFJWm5fNGxxQUJPUlZvbVdSZHlGVXRBdl9XaTh5RFBDRnB2YkVDZFnSAawBQVVfeXFMUEpkbm40eW85dWJzdXVESnUzRmRZLVNFT3dCdzk3Y29qYU5ISk9kcjBlZHlwbDhmQkRRbnlGOTFVNXRCSVRLVGs1ek1Td1djTVNhREtZcE56Zk1yaTd4Um1hV2NzZWJ1aHctYUxLSjRwYkJIZ1dFU1ZHc0hJaHVGVDFKeU5uQWNQN1dyNlN2RFBGU3VCWVRCWVhyOWw5cS1OLThYYk1mamtXT09qNg?oc=5"
+      ],
+      "points": [
+        "Bumi Resources (BUMI) membukukan laba bersih yang diatribusikan ke induk US$148,47 juta per September 2026, melonjak 404,9% secara tahunan.",
+        "Pendapatan naik 38,85% menjadi US$1,44 miliar, sementara laba periode berjalan mencapai US$174,56 juta atau tumbuh 190,45% YoY.",
+        "Kinerja ditopang efisiensi biaya, kontribusi entitas asosiasi dan JV, volume produksi serta penjualan yang naik sekitar 11%, dan strip ratio membaik ke 7,6 kali.",
+        "Meski begitu, saham BUMI ditutup Rp131 pada 26 November 2026 dan masih turun 68,81% sejak awal tahun; analis Panin dan Mirae memperkirakan harga batu bara 2027 lebih moderat."
+      ]
+    },
+    "0847f283c30c": {
+      "title": "Bank Kecil Perkuat Dana Murah untuk Menjaga Likuiditas",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbWN2UENlcVRNc08xNnZGaWFOVHhic3BuYTgzOHdmTkYyWU1QcW1QaU9fVjYxTWFCR2M0NWZWM3FhY1ladkQ3VjV2aERtcjV2X0c0UnZVU0JEaEtTUTY5emVOaHZ5MEpSWWZNVUV5eWozYjFUcXMxU0FMaTZ2d3Zkbmpzd3dBYTduTEsxUzUyNmNXbFnSAYwBQVVfeXFMUDBjd1IxQ0l0YXo4NWx4MTZvOEtUY1VoSmhTaGNUU1J2R1hyRU1hdFBfT2N1RXNFOXdsQ2MyWFZDT2x6YVlnczdqSTBaVzc2RjVlSl9CWmJWUlFRU25JRU95eVBDeTM5MWY1RzlIcEUtbDVPMWk0OW9PTmh6VlpYRVdxN1BjWGpOZ2NkeHA?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUmhKaUg1anE3cXctMnhIRjBjd2k3U2JZc3I4NEpOVHBCMTRyRF9Ja2JyV1REdFp6MjJRNzkwMVlDS1RtWjRGaHdBanNmSWJDdXo5T1pTOGxPaThxcU9ZWjd6N2xoYmFTTG9qY0xfQW8wWWJsZFNHZklkdzdJeU1FTHg2Ujh5cnBkcEV6T1lROTQ3cFQ5aW9INWh3?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFA3MDd1dFFjRzlNZTV2amh1ZjRqeW9KaVRJdzBMazVjR3lVZFNLWWh3YkxUYVpfM29WdTdqTTBKOEU0M2VmeGdPS3pEeFFmdm80dTRhN0FiNV9zQVp3TUJVTDc2eFlLR1RDOHhrWkZ2ZlpET0N0T0dFS3hEUUE2aEpMR2FRWjFWTlhjb2FZckxUQ0JvWThwTnZKWjNMVlp0blJweDlBSzRxS1V6UV9zYkRoTUQtUdIBrwFBVV95cUxOLVN6VjQwbVgwTnFGMUR1ZktoQzlvTmdoYkZzcEprYTV0TEEyVFh1YXRPOGhiNnN1cU1qbFVuREpoVTBDYWFSV1N5VXZjelo3RmZYVjVKcHVtY2RTQm1iRmJzeG12NFllaXY5a2VQODJDbmpTejlmc3ZvV2c2d3VnT2R5SHBVcURTR21rSDVJZkVzTUNCb0tZTnM4LXpoeDhzRkp1OHVjX3FNMVpFek84?oc=5"
+      ],
+      "points": [
+        "Bank kecil seperti bjb Syariah dan Krom Bank memperkuat penghimpunan dana murah untuk menekan biaya dana di tengah ketatnya persaingan likuiditas.",
+        "Data OJK menunjukkan LDR bank KBMI I per September 2026 naik ke 85,6% dari 79,52% setahun sebelumnya.",
+        "BI Rate telah naik total 125 bps menjadi 6% per 18 November 2026; dua artikel Kontan berbeda menyebut kenaikan itu terjadi empat kali dan tiga kali.",
+        "Krom Bank memangkas bunga simpanan ke 8% dari 8,75% dan menyiapkan kartu debit, sedangkan bjb Syariah mengandalkan ekosistem payroll, pendidikan, dan layanan digital."
+      ]
+    },
+    "95473cce7905": {
+      "title": "Sariguna (CLEO) Ekspansi Produk Air Mineral, Cermati Dampaknya Terhadap Kinerja",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWW1HY0MxUUJGN1pJS21GdDNBOGNya21oX1RreUMwR0FyVXBENW5Fd2otWFJpTGRweGI4NkNwR2JhN1BUM25QcDk3QWhhQ2R2eGw3SmM0Y1VMR3VxUnlUUW5Ga2tUdi1GRWlUYTFjUXVibU1BRjVKcS1Ja3BadHh1Y3l0RzU4bUhTSWNWajdMSjF6YzNOUVJWYkx2T1YtV2dKTWhLUk15ZElZOEJQYU5MT3Nn0gGqAUFVX3lxTFBES3hTVG5wdnB3Ulo5TW5JVG5TakgyNWVrMFYya1pSOGxRQVFJZzY4U2FMazFKQmloR3JmUmpzZ1g4ZjhSMEozWTFfMWtkOWRuQVprREExZG1lS3JRX1o1MFg2WWNybm9oeERWLXBhUjRxZVlBQTBmUDdza0Q5VmtsVU41M2MwT3F3XzBlRmVQbm1CdlY1SjFHd1dlVWdZQ1UxMHc2aFZWRExR?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTzZDS1Q0LUdnRUNNLW1PeE9qWU5XQkdsYzRxLXBQT0NKMTNqdXdVVlE4UTJmTEFLQnZzd05vdmZXSlZoUzN2OVV5TTBjSGYydmhBZEtlbnRjZVEzSmx4XzdtU1lQeS1kZW1EMi1TRW1GbDNqTXR2V3l0czh5WTdYYTNkaFpKWTV1dERzWWpKMi1oUV8xcGpSVVNR?oc=5"
+      ],
+      "points": [
+        "Sariguna Primatirta (CLEO) memperluas portofolio ke kategori air mineral lewat merek SuperO2 kemasan 180 ml.",
+        "Hingga kuartal III-2026 penjualan CLEO naik 25,5% YoY menjadi Rp2,6 triliun dan laba bersih tumbuh 23,6% menjadi Rp377,1 miliar.",
+        "Perseroan memanfaatkan sekitar 500 jaringan distribusi internal dan lebih dari 12.000 mitra distribusi untuk memasarkan produk baru.",
+        "Elandry Pratama dari Panin Sekuritas menilai produk ini menambah sumber pendapatan, tetapi biaya pemasaran dan distribusi bisa menekan margin di tahap awal."
+      ]
+    },
+    "e98d15dcc483": {
+      "title": "Usai Konsolidasi MI BUMN dan Akuisisi Schroder, Persaingan Manajer Investasi Mengetat",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcW9GY3ZnSnhIdXRiTW5nUFgwRm9MWVJSWkJxTzdmejgzSlh6WV9kRmhDbkpWSVh5YmMzNm9UTW5JR1RBTlNIalh4U0tGNFViMGpYT21teVdaajhkVm9ndjQ0amZPdmxHa1NtNWsyWkM1d3NneGlHMkhvMVRUTVpBVFJ6dEMzdXNQT0JvR0t2bEthRUZPQl9CYTlBdm82bGhScm9DQjNDalVVODRpTThtZlpqaVdoVUh6SXc?oc=5"
+      ],
+      "points": [
+        "Kontan menilai persaingan industri manajer investasi makin ketat setelah konsolidasi MI BUMN dan akuisisi Schroder Indonesia oleh Manulife Aset Manajemen Indonesia.",
+        "Akuisisi rampung April 2026 dan menggabungkan AUM Manulife Rp124,3 triliun dengan Schroder Rp53 triliun menjadi Rp177,3 triliun.",
+        "Hasil merger empat MI BUMN, Danareksa Investment Management, mengelola AUM Rp172,5 triliun dan membantah mendominasi pasar menurut Investortrust.",
+        "Investortrust mencatat sekitar 92 MI beroperasi di Indonesia, dengan 20 terbesar menguasai kira-kira 70% pangsa pasar."
+      ]
+    },
+    "1c958187e62a": {
+      "title": "Anak Usaha Triputra Agro (TAPG) Bagi Dividen Interim Rp 1,33 Triliun",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMGsxZHVhWTkwcGdra0xnSXdJUjh1R3FLeENxYXNXMEZiaUN3a3BlcG9rNlp1ZmpwclpkOVZNZUREc09xQm9Bam9rZmpCaklTTEdEMVBqUzJIS3N1SEY5UzlicTBVQi1tZURuVG9jMzBlODNEZ2J3RW9BQ3dlN3FVRWpwTTBXTHhxd244S09kN3JpWjBIanlUOFhoS0QweW9MSGNn0gGbAUFVX3lxTE9VSWpjRjhnN051UlhVbEVlQmdhNkpaUklSV2ZCOEE5cTlnSVROczdkRFNJUzZyblkyaUxjdHNQYmlyXzI4VVV6V2pVVGdmMFg4MHE3VzhJZ0pRR0JneEtQQVdNTzBxUVlBMm5PWEVfbFVib2pBRUpuOWx5T0JXM3Z2UnprLUhSZElkajM3UlhMVVVXUnNwaFduVXRJ?oc=5"
+      ],
+      "points": [
+        "PT Agro Multi Persada, anak usaha Triputra Agro Persada (TAPG), membagikan dividen interim sekitar Rp1,337 triliun.",
+        "TAPG memiliki 94,93% saham anak usaha tersebut, sementara sisanya dipegang tiga pemegang saham lain dengan porsi di bawah 2% masing-masing.",
+        "Keputusan direksi diambil 24 November 2026, dividen dibayarkan 25 November, dan TAPG menyampaikan keterbukaan informasi pada 26 November 2026.",
+        "TAPG menyatakan transaksi ini tidak berdampak material terhadap perseroan."
+      ]
+    },
+    "09620449a136": {
+      "title": "Nusantara Infrastructure Angkat Direktur Baru & Tebar Dividen Interim",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDVBQU9KOU5reDE5ME4xSl9nYjI1TDFVWGd6UUFReG45OENCc18wNUZwaEZTNUZlaTBIZ01CLXVyRmtVOGJWbjFmbUFTeVpSTGp3UktuWmd2VFJzaWJsclhBOHVRQi1FdERnVG1EcGpJVjNtejQ2V2hDZW5BaUl1SmUxM1VkWi1IcHVyQmQ4TXlZZS10SmlBR1FZRExEMV9wNTlz?oc=5"
+      ],
+      "points": [
+        "Nusantara Infrastructure (META) mengangkat Francis Gerard E. Aberilla sebagai direktur menggantikan Denn Charly G. Espanola lewat RUPSLB Kamis 26 November 2026.",
+        "META membagikan dividen interim tahun buku 2026 sebesar Rp3,5 per saham atau total Rp60,64 miliar, dengan recording date 13 November dan pembayaran 3 Desember 2026.",
+        "Hingga September 2026 pendapatan tol naik 6,03% menjadi Rp1,40 triliun, tetapi laba bersih konsolidasi turun 12,05% menjadi Rp73,6 miliar.",
+        "Pendapatan energi terbarukan anjlok sekitar 16,42% menjadi Rp105 miliar akibat gangguan logistik bahan baku karena cuaca buruk dan penyesuaian tarif."
+      ]
+    },
+    "984097e8d7b0": {
+      "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3BzMkFvWno3TmYzbk1nNnEwem40RVc5cmxyOHc0Z1pYVU1oVTY5aTVEMU0zTGJ6Zkt2bG1NNFJ4c1FfR3VybzI0MXAwa1V4SWY4aTFuRFR1ekJ0U3dnZFpzX3ppY3dON0YybG5SSEZCRHhoMm1SNVh0OEJ4dUlCOUJFc2tNNEtYcHVWQmR4MWhjVlFlQkdzQVh1bGRKSFBPeVpmSXNiNHhiNUV6N0VaSXJRcDBvbzBFU1E?oc=5"
+      ],
+      "points": [
+        "Pendapatan berbasis komisi (fee based income) empat bank besar BBCA, BBRI, BBNI, dan BMRI diperkirakan hanya tumbuh tipis pada 2027.",
+        "Sepanjang 2026 pertumbuhan fee based income keempat bank berada di kisaran satu digit hingga awal dua digit.",
+        "Menurut analis Indo Premier Sekuritas Ardy Irianto Subekti, porsi pendapatan non-bunga berkisar 22% hingga 25%, tertinggi BMRI 24,70% dan terendah BBRI 22,22%.",
+        "Artikel juga memproyeksikan rasio pembayaran dividen bank besar menurun, sementara ekspansi kredit ditopang segmen korporasi yang tumbuh sekitar 20% secara tahunan."
+      ]
+    },
+    "b3d37d56494e": {
+      "title": "Skala Jadi Kunci, Emiten Menara Telekomunikasi Terus Berburu Akuisisi",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaXVKVlF1QjhZVVM0SnNWVk5sNWc4TnpHVUwtR29RdjJaYl9tcUNGanFWekRFSER2bzZmWHdTdDhvTFY1R2ViUE52dWxCbFB6MzRJQ3hpYTR0bmVhcXZib0dLV0xMNHlNRTUwRHNPZkZIdDczX2dOcWJVSE5XbnVQZkZJLVZEbTMyQ2V2X2VVZ3Z1X3RPY3VxNnZ5VDNIN1lhZzNvSA?oc=5"
+      ],
+      "points": [
+        "Emiten menara MTEL, TOWR, dan TBIG disebut menjadi motor ekspansi anorganik dan konsolidasi industri menara telekomunikasi Indonesia.",
+        "TBIG berencana mengakuisisi 100% saham PT EDOTCO Infrastruktur Indonesia dari Axiata Group Berhad, yang akan menambah sekitar 800 menara ke portofolionya.",
+        "Akuisisi aset yang sudah memiliki penyewa dinilai mempercepat pertumbuhan dibanding membangun infrastruktur menara baru dari awal."
+      ]
+    },
+    "4dbbf1f7b937": {
+      "title": "Mencermati Pengelolaan Dividen Danantara",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ueW5JeVB3LWVHOEpkQzlCbXI0NUJWUTQ2dnBBdXplZjYtWHlMVXdTdjZhXzBsQXJvdDQwX2lRbmxya2UtbEdCR25CSnFrLXhtTkxTTi1oNnJGQkNoajB3ZHJubXh3bVZBbFhnVUgzRTFFRzFxQ1ZxdDhFeEw4SnM?oc=5"
+      ],
+      "points": [
+        "COO Danantara Dony Oskaria dalam rapat dengan Komisi VI DPR pada 26 November 2026 menyampaikan target laba bersih BUMN 2026 sebesar Rp332 triliun.",
+        "Target tersebut naik dari realisasi laba 2025 sebesar Rp259 triliun, dan kinerja Danantara Asset Management hingga September 2026 disebut sesuai target.",
+        "Perubahan mekanisme pengelolaan dividen BUMN di bawah Danantara menuai sorotan terkait kontribusinya terhadap penerimaan negara."
+      ]
+    },
+    "9ce24d65b5ef": {
+      "title": "Setelah Delisting, Simak Langkah Berikutnya dari Bank SMBC Indonesia",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWllmSW94dm1HZnBpS0ljTFhOSFBFTjVYbkJkcVVQbm5NQnFwNklMMHhVNFJneUtubUR4cTBhcHNqZDFNRjZGMXhXaDFtSkZraU52clZPMHpCTG5pUlY2VVFlXzEzcmVUUjREelkwQ0dmSEx4NHEzSWJ2cDd3dHozWGdIS1A0dFNYbEdMcUlmaDRmcVU0alZXbVJ6cGF6c1lFZnpMQ9IBngFBVV95cUxNNE1tbXpjWERTaF9abWxYNllzUGNRZnN2bjNBMGFjTVNpeGVEemdXRjBkYUc2Zk1FYTQzX3cyUEcwZXp4RmlqYzZhb0dsS2VFQzlUdFRGeWNjMGxKc2JnTkQ2OGYxNVk0WDBhRGh5amgtQnVkc2RaeURrMDBmOXRSdFEyZV80OHo0M05jX2FCc1lNOXUyVlE5bktvZnBJZw?oc=5"
+      ],
+      "points": [
+        "Bank SMBC Indonesia (BTPN) berencana menjadi perusahaan tertutup dan mencabut pencatatan seluruh sahamnya dari Bursa Efek Indonesia.",
+        "Rencana RUPSLB terkait perubahan status sudah disampaikan ke OJK dan BEI pada 19 November 2026, sedangkan pengumuman RUPSLB dijadwalkan 30 November 2026.",
+        "Manajemen menyebut langkah ini strategis untuk arah bisnis jangka panjang dan menegaskan rasio kecukupan modal 30,7% per 30 Juni 2026.",
+        "Dirut Henoch Munandar menyatakan rencana investasi, ekspansi, dan layanan nasabah tetap berjalan selama proses go private."
+      ]
+    },
+    "0ca35b8abd40": {
+      "title": "Kian Santang (RGAS) Raih Kontrak Rp 72,68 Miliar dari Pertamina, Ini Detilnya",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQkJkb1RmMGhvdXJJWDU3ZTRtVHR1Tm03bnFOVGlGQ2cxTTRsVzBjZ0s5WkNQWGxvSUlCaG81c1QyUmNGM0MyWkJwbVViQjJKaXlRNDc1b25RMzdndkM5OThVMy02N2FhYm1ZcVFIejhKd0ZKNEF0cEZ6eVhjZTdWUjJCTzVIeWNCaDliNHotSXBKMU1ZZ3FwU1l0d1ljRE0yYnA1TU9lbHNZNTZKMEHSAaYBQVVfeXFMUGZNWXJjWHF6dkVRNmhRYmg1eFJDZU5GYkN4QzJ0bkV4Wk53MXVablB3Ylp3QkR0aFlIdTBQdW5aSC10ZVhsSlN1RlZsdGoxQ0NVeXZlYm9zRmFBMEtyZ1NndElneHJWcXBKTnNHZ3U2NkpCaVhwNWNtREduMlE5TjNuLWFnWWZFSjBlbFBNV1F5REdqQ19jeXV0WTYtM2hZRk5NZmxOdw?oc=5"
+      ],
+      "points": [
+        "Kian Santang Muliatama (RGAS) memenangkan dua paket pengadaan dan distribusi paket perdana LPG untuk pompa air petani dari Pertamina Patra Niaga.",
+        "Total nilai kontrak Rp72,68 miliar sebelum PPN, terdiri dari Zona 1 Rp35,17 miliar dan Zona 2 Rp37,51 miliar, masing-masing dikerjakan 36 hari kalender.",
+        "Nilai kontrak setara 69,95% ekuitas akhir 2025 dan 30,62% pendapatan 2025; pendanaan berasal dari kas internal dan/atau fasilitas bank.",
+        "Surat pelaksanaan terbit 25 November 2026, dan saham RGAS ditutup naik 1,56% ke Rp65 pada 26 November 2026."
+      ]
+    },
+    "95470b184fe0": {
+      "title": "Hypefast Tahan Rencana IPO, Pilih Pantau Kondisi Pasar Hingga Kuartal II",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZFSzNieTMtVUJ0MnhneUYzWmdIVTBuVnlqN2tHMkhPOEtCQTBwT2tyNmdtcHBqM1FYTUI2WGwtcm53a2lpUTRyS3p0V19jcndnV0VCcFNTTi1EN2xqeHFPanhDcXdsOUlOVXF5QVVvOVhBSWFOamk4aTAyaFlUT3hpbWQydUtMcVljczlfc2NiR1JlUWY2UzExRC1uV0g3WFBvM2otNjZPRlnSAaMBQVVfeXFMTTVYU0YwQkl5UUlrdVBnVDljNHVnb2VKT0ZELU5sLTg2Zmt3SzJ0TzkwVWlRWkszcS16dkI3MDA1aFRaU2s5STdtbW4wS0Y5UmNXMk9mVUtzRnNuWVlIMnhRanVlckZkT01ZeVdScDAtdjNfTVg1bE40WjlKdktDWUVBTDE2WG9LaVVzSS0wZ3VpWUtjM01aU1RkamJldmtnQ1JhQQ?oc=5"
+      ],
+      "points": [
+        "Hypefast, perusahaan pengelola merek lokal, menunda rencana IPO dan belum menetapkan jadwal pencatatan saham di BEI.",
+        "CEO Achmad Alkatiri menyebut listing mungkin terjadi pada 2027 namun belum pasti, dengan evaluasi kondisi pasar modal dilakukan pada kuartal II.",
+        "Perusahaan ingin waktu IPO memberi nilai optimal dan memperkuat cerita investasi lewat ekspansi regional, seperti Luxcrime yang sudah masuk Malaysia dan Singapura.",
+        "Tiga merek lain, yakni Bohopanna, Cessa, dan Nyonya Piyama, dijadwalkan menyusul masuk pasar Malaysia."
+      ]
+    },
+    "666420c2fdd6": {
+      "title": "BFI Finance Siapkan 70% Laba 2026 untuk Dividen, Ini Perkiraan Hak Investor",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGZPR2h6Qm5DMEM1cWZGQzZOa1NzYlNnQS1DWG41NEViM1dtS3dtcDUwSWhDcGNWamt4dE1tRG9pRWZ4LUIyblJVUC1UbWR0aU9NT2FWcDE4OXQ2ZFhtR2FLSXczekpwZnpzM2RLaGlmTXRaVkVrUWFUQjRuZ0JaRWRpT1FkTlJ5dWVkRFE5Ukx4bDZNamJXVHZYdzdXTU8yNV9qVmhSVGxtbWh40gGmAUFVX3lxTE5uZV9GMnh4UnlLRTQxVzFQY0VreUVTOWdudi01NmFMWnVoVmhqRndtWEQ4Y3h2ZXNUdEk1Rk1nVWJiaEZlcUpoc2lHMDJHVTIwbVNLVDVEcTR5QzFHXzA1WkNsQUxRdThLOGNfbWhSNk1ucDV1M2dwQWZzWGxmMUxjS2l1cWVuQnIza054OU1BcGhRWmU4NGlyYzRRbFF2SU56WW1GSXc?oc=5"
+      ],
+      "points": [
+        "BFI Finance Indonesia (BFIN) menargetkan pembagian dividen sekitar 70% dari laba bersih tahun buku 2026, menunggu persetujuan RUPS.",
+        "Dividen interim Rp35 per saham memiliki tanggal cum 30 November 2026 dan akan dibayarkan pada 17 Desember 2026.",
+        "Laba bersih hingga kuartal III 2026 mencapai Rp1,3 triliun, tumbuh 12,5% secara tahunan, dengan NPF bruto 1,3% dan neto 0,2%.",
+        "Perusahaan menaikkan rasio pencadangan menjadi tiga kali NPF untuk mengantisipasi risiko kualitas pembiayaan di tengah daya beli yang belum pulih."
+      ]
+    },
+    "c75f1a0326fa": {
+      "title": "BTN Bayar Bunga Obligasi Rp 5,72 Miliar, Ini Rinciannya",
+      "at": "2026-11-27T12:54:06+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdEFCVWhsRkJxN2NkcmV1UEpvSVY0R0ludXF1MFp0WFExcnBpaTkwb3g4QkMtME9qVzkzcVBtMGtIaW93Qk5UZ1lQeHprZ1lXR0pHUDZCTmJuV0s3N0IxYjBEcU1sYWFQTXJCb1JVd2Q1dGE0R2oyX3dqNDNEelp6YmpIdE5MUWwxQnB4S1JoaXFWZ9IBiwFBVV95cUxPVzJUWnhWYnV2UjFQWjBDamJPeWdoMDhzcDBxajEta0tsZTBaaUxuVGFWNTMxR1hiVmo0a0tiOWV4eFpsX014alVYLTJQSFRUYkdxb0hwSE5Zbi1xX1FkZENvUWFFYURudUdmVWV6bmdDNktxdG1YdjZuUU9XbXQ3UnJ1YTlQS0xrazQw?oc=5"
+      ],
+      "points": [
+        "Bank Tabungan Negara (BBTN) membayar bunga ke-18 Obligasi Berkelanjutan IV Tahap II Tahun 2022 Seri B kepada 22 pemegang obligasi.",
+        "Bunga bersih yang dibayarkan Rp5,72 miliar dari bunga bruto Rp6 miliar setelah dipotong pajak Rp283,5 juta.",
+        "Seri ini memiliki pokok tercatat Rp400 miliar dengan tingkat bunga 6%.",
+        "Pembayaran dilakukan melalui KSEI pada 24 November 2026 dengan tanggal pencatatan 18 November 2026."
+      ]
+    },
+    "e1b24d7a5905": {
+      "title": "Krakatau Steel (KRAS) Raih Pertumbuhan Pendapatan 36,5%, Berbalik Laba",
+      "at": "2026-11-27T13:52:12+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY1dZWmtfLXY1Z0JTZi00aXNrUlozc1h1ejNNRDdhaERTWDZ6LVpFRWgzaHlqZnV3YUMweE5URHk2Ry1XZVZCRmdkWG1vbGhjZ1JIQ0lSOUppYV9NcGV1enUyY25NVE1HdHBCVGExQzdIZHZmTjlqdEIzOHlYaFlESFpZdVRzdjlQM2VaLVJtSWNCc0ctd2RTWDA0VXdQZkNkS01WWldodjY2TDlwYzVqbDVWMDJzWDVo?oc=5",
+        "https://www.cnbcindonesia.com/market/20261127100926-17-788971/krakatau-steel--kras--cetak-laba-rp115-m-di-semester-i-2026"
+      ],
+      "points": [
+        "PT Krakatau Steel (KRAS) membukukan laba periode berjalan US$6,31 juta atau sekitar Rp115,89 miliar pada semester I-2026.",
+        "Capaian itu berbalik dari rugi US$105,38 juta pada semester I-2025, sementara pendapatan naik 36,5% menjadi US$609,21 juta.",
+        "Laba kotor naik menjadi US$71,01 juta dan biaya keuangan turun ke US$48,31 juta dari US$70,24 juta.",
+        "Laporan juga mencatat keuntungan selisih kurs US$32,08 juta dan keuntungan percepatan pelunasan utang restrukturisasi US$27,19 juta."
+      ]
+    },
+    "5756630c573a": {
+      "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen",
+      "at": "2026-11-27T13:52:12+07:00",
+      "urls": [
+        "https://www.idxchannel.com/market-news/bwpt-tawarkan-obligasi-dengan-kupon-hingga-12-persen"
+      ],
+      "points": [
+        "PT Eagle High Plantations (BWPT) menawarkan obligasi dan sukuk mudharabah berkelanjutan senilai total maksimal Rp550 miliar.",
+        "Porsinya obligasi Rp175 miliar dan sukuk Rp375 miliar, masing-masing tiga seri dengan imbal hasil 9,5%, 11%, dan 12% per tahun.",
+        "Sebagian dana obligasi, Rp102,67 miliar, untuk melunasi pinjaman bank; sisanya dan seluruh dana sukuk untuk modal kerja.",
+        "Masa penawaran 27 November 2026, penjatahan 30 November, dan pencatatan di BEI dijadwalkan 3 Desember 2026."
+      ]
+    },
+    "96d977bbbc4c": {
+      "title": "Ekspansi Armada Emiten Pelayaran Dongkrak Prospek, Intip Peluang dan Risikonya",
+      "at": "2026-11-27T13:52:12+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcWgzaldhVHRENndnbl9lOTNnMkhITGpJWFY3WS1NY21UQl82czQ1U1c1N1hGdGJLZWtpdTBPSjMySDRfaENfZk1GT3dWMEtpdE9hWm4zLXMwMkhlMlZVR3hGV2xWR2d3V3B3cWRNdWtXUC1BWUZPekNKTDhnWjNaY2M1X0NCY2h1VDk4dldENHpWV29hdUowNFkwN3B2a3NteEZkMGpJV3RtOFBHVVhQbg?oc=5"
+      ],
+      "points": [
+        "Sejumlah emiten pelayaran menambah armada, antara lain Humpuss Maritim (HUMI) yang berencana menambah 8 kapal tahun depan dan Samudera Indonesia (SMDR) menargetkan 9 kapal.",
+        "Prospek sektor tahun depan dinilai cukup positif seiring naiknya permintaan angkutan laut, terutama segmen offshore, LNG, tanker, dan komoditas."
+      ]
+    },
+    "55091c6547c4": {
+      "title": "Bos Danantara Ungkap Alokasi Sisa Dividen BUMN 2025 yang Tak Disetor ke Negara",
+      "at": "2026-11-27T14:48:19+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR3BJcUhtd1hYZ3lacWhNc21JMnlwaXl6Q0pvdTRtVEg4TkM4MmVad3E2cDA0WWprSVUwR0ZocENSUmtveDVFUTRoVFZEZV8tdmlJck16ZXpLMXYycEVwVEwwMmZEV21ZcjRWbmdsdDZyLVJRVVNmOUVrOHgwejEyRXJ5UHp2QzlXMUk0QWFac2RaTnFiQ1lqT2ZFY3FxckdKNXdUTi1FOEpWMXlobHpaOXM4OUZNZ3JUY0RNbnNEbXA0bk9PVDIxbnln?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVGlITi1mdFh6YllYSHdBOGNNRzMtZXlyRm5MRkh2UE1rWWhWYTdMY01uWXV6d1ZxUWJfd2h4RjI1Tkc4U0NNYnpLM09MMnhtWVA2WU5raU50RVMwRmFROENsRHVadmdYY1k5MmdwYnlDdXlNOTZoZUZ0XzJ4bGM3MTBOVlM0WG1zUXVEWmQ3NUtyUVRDUHJIeFpn0gGTAUFVX3lxTE5vNEdjY1FrUlpnUUFyQ3hSZG1pTkthdS00ckIxVmJ3ZlZJWWw5V0puY1dWdW1IY3B4Um5UaUhTa2c2bnNNNlozZ1N5aERqV0NWblotZGZkcXZjZ0M1VWw0V2xjb2V0NU43STNXOHF4UW1MQjZVRTdiY0hILWpwWG9CeHRiSGxySXRZd2hPT2dSOXJmSQ?oc=5",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2NIMXlTUFR2Sy1iLTdSQWgxelZ6d2RyVnh2OFM2dng0SDMxWFR2TUprUTFsX1MyM0YwLUNjdGM1cGNyelphcmdDWVdlcmhBN1RlWXJSOGxfeTBnZ0VJX0NBSXBxaGVBYmZUSmpxU3ZsbGJtSTNzWkllc1FmR3ZsWTRsb3lTc1QtZ3IyeXBWeTlBbURrUFY0dFk4MU56R3dGTFNkbi1DNlozWGxDN0d4QWs5cGxWemRBeUVLWUd2Zw?oc=5"
+      ],
+      "points": [
+        "COO Danantara Dony Oskaria dalam rapat dengar pendapat dengan Komisi VI DPR pada 26 November 2026 menjelaskan mengapa setoran dividen BUMN ke negara tidak besar.",
+        "Menurutnya Danantara tidak meminta penyertaan modal negara (PMN) sepanjang 2025, sehingga kontribusi BUMN perlu dilihat juga dari setoran pajak.",
+        "Setoran pajak perusahaan di bawah Danantara naik menjadi Rp567 triliun pada 2025 dari sekitar Rp480 triliun pada 2024, atau sekitar 18%.",
+        "Danantara memilah BUMN untuk likuidasi, divestasi bisnis nonInti, konsolidasi, atau restrukturisasi keuangan, dan menargetkan kontribusi naik lagi pada 2026."
+      ]
+    },
+    "2a9bb8479908": {
+      "title": "Nusantara Infrastructure (META) Mengandalkan Pendapatan Jalan Tol",
+      "at": "2026-11-27T14:48:19+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMmVfZncxbk5LdXdsYW5RUnJLbHdJWTBsTHlRUUUyVkd3WUFCTGs4aWQ2UXBFc0JkTVA1bE90UXpydWNfamo4Rk5VYktfcUhmRHp5UHVISFJYNDhMSUV5S2N3WXFWQ2JfWHJjZlpSeXkzb2Joam5BOEQ1eUpaSGVydFVMVmNlN0oyamx3bEpsVTU1TGVQbGYzTHEyY0k?oc=5",
+        "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WR1lUVDVnWUdSSUtJMDZveWxpS1lLM2o0T0pGZGtNMVdoOTdYbm10eVM4SUFGdlZwVVFDSV90Q2JwRWVxRnQ1NFNlUERkcjEtcWdSWDdtQXRnR2ozaGFQaTRDb0ZaQURoanZyZ2Vn?oc=5",
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDVBQU9KOU5reDE5ME4xSl9nYjI1TDFVWGd6UUFReG45OENCc18wNUZwaEZTNUZlaTBIZ01CLXVyRmtVOGJWbjFmbUFTeVpSTGp3UktuWmd2VFJzaWJsclhBOHVRQi1FdERnVG1EcGpJVjNtejQ2V2hDZW5BaUl1SmUxM1VkWi1IcHVyQmQ4TXlZZS10SmlBR1FZRExEMV9wNTlz?oc=5"
+      ],
+      "points": [
+        "Nusantara Infrastructure (META) tetap mengandalkan jalan tol; pendapatan tol proporsional hingga September 2026 naik 6,03% menjadi Rp1,4 triliun.",
+        "Kenaikan ditopang lalu lintas rata-rata 1,36 juta kendaraan per hari, naik sekitar 2%, serta penyesuaian tarif ruas Semarang–Batang dan Solo–Ngawi.",
+        "Laba bersih hingga September 2026 turun 12,05% menjadi Rp73,6 miliar karena pendapatan energi terbarukan anjlok 16,42% dan beban operasional naik.",
+        "RUPSLB 26 November mengangkat Francis Gerard E. Aberilla sebagai direktur; META juga membagi dividen interim Rp3,5 per saham dan menargetkan desain JORR Elevated rampung semester I-2027."
+      ]
+    },
+    "1aff24ff367b": {
+      "title": "Trump Ancam Tarif Baru Untuk 14 Negara, Begini Dampaknya ke Pasar Saham Indonesia",
+      "at": "2026-11-27T14:48:19+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcDFGYWVtRlJaUFJ2Q2sxWVNnckF4X3hNRFVIVWptNWFLdnVrV0d6WW9KVzBmLXhWdHVkcWc5OThWU09va2JMT3FyXzRaRHFNSlloY29CMHh1NkZoTkNTak8tcmlDaTZMSW1EYVRrZnVfaWE3YjA2M0pCTkdOcUMzTXBDLVBiNGRqYjR0d1hQc1JxN29LWV9OcG5XM1NkZGI3aVZfZi1XWXRkWFRoZy05cUZISFlYRFnSAa8BQVVfeXFMTkZtcEZLSGRBSnE3TU8xWV9XMW51cWlYTG5tczFIUnZTVi1QeEJYZ3JmVzZUVVl5VGZEQVB6dE1IUEhFTDFBU2NTaXAxWWVKS0F3cXY4blJhQjYwZ3RHREpxdTFYT2ZMbXFqNkhHY2JsWVlsMlNHODVBeXlMZUs2MEJWbUhReUtJUzFWOGU5NlRMS3hwdWxfcC1oanh5SThXTEJaZEtVcjNTdDFWNl9nNA?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1BhLVZqMmxoTDNRWnljUnhoUnE4UEJ3MnZvX0xOS0ppNXFmMjJzT2NQV0NHeTNTclctMG4ybHFaU0dkOERLR3hyVnF6RXg0RER1dXFYMzlhdHpxUGsyUEpWZm1uV0RpWG9idVFOSUpHek9KQnBfMW9DSTVRUGhCT2FTSlhVV3pzWl9fd0RSS2ZCY1FPMzNxVzUwNmMyZ1RSSmgtRUlWeGQ3Z9IBogFBVV95cUxOSHdMTG5kc0kzd1FmbjltZElEMGFyNDhaVm1nUmJ6ZDlZNFdnbGRRemJ6cWlzZXhpaDAtLTVaMUFNclBQeDAxRTEzb3AxNktfYjRHMktFb3Vub002MUE2VW1Ia0o1RlM1ZW5xT2JGa2dJaHJXcVRfTlVoUy1VaFg4RjE3RVFJR3oteTFsT1NTRTFWTkd4Rno5NzhrOXZQNUlrY0E?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc1lqeXdFSkt2MTBzSjBEemZJQkVOVjN5Z290cXVHX2FPa2tLeWNIUUUxNlBmVVNteXhKMlNvUEhMRGs4QTUwWXJMb3pHTEZrWFZwSWpkZThmZ1JCQTBVZkd2YmVwOFprUjZ5UzM1cEJtVnBRcHVoZmZXZFpVcVpRYWdNTjNCSS1hQW1WRFpQbUNJbzFtVVJQeExGejlHVEswMlRvOWlvYWY?oc=5",
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU2d0RVRrc1F2cGlKUVYyYjVHUWJEMFpnUWpoWUdPV1NqT1ZPcUE5Slp3VlV3dW51R0NfNnpUWVU4Qk5HWUlvT3V1VFVTbEl6UW9FenZvSjk0ZGFkWl9DMHdMZW9pNkZZTmZmUjIweGhKcVhlQ1h0cF9mWWhySUNhTVVOdG5lSk5nellfM0NxZGJabXJNTmRkdmdOeE5rcmtiOURhRGdqZEM5TGJVMW9IWEpmYmQ3WEtPdGVUanBzY3JwZ28?oc=5"
+      ],
+      "points": [
+        "Presiden AS Donald Trump mengusulkan tarif baru untuk 14 mitra dagang, termasuk tambahan 18% untuk Indonesia dan 20% untuk China.",
+        "Usulan itu belum final karena masih harus melalui proses Section 301 di Kantor Perwakilan Dagang AS (USTR).",
+        "Pada 26 November 2026 IHSG justru naik 0,86% ke 5.242,17, sementara rupiah melemah 0,17% ke Rp18.264 per dolar AS.",
+        "Analis Korea Investment, Mirae Asset, dan RHB menilai dampaknya lebih kecil dari April 2025, dengan risiko utama pada ekspor, rupiah, dan limpahan barang China."
+      ]
+    },
+    "2ac0b16ba9e9": {
+      "title": "Danantara Aset Management Bukukan Laba Bersih Rp 259 triliun pada tahun 2025",
+      "at": "2026-11-27T14:48:19+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNFNsZkhNcVh6RVc3ajVmZXd5SlRFb0RwNFhqUFJVZFZZVlRydzB3TGVfaUdlN1dNZFVZSjVZd012UnBNNUVYdTNISDJ1QVdBbmpjV1p1eFB5VXdFUWRNaW40Y28wZi1UcXRDVW5hMnllWVl2c2VfdWFvdXJaNXpJX2lPZEVjZjQxSEtyRHlXOFRlZkxvekt0STRoU3hmQURQeEF2S1VaWER0Y0hic1R0ddIBqgFBVV95cUxQUzdydjNNUW1reTRzSW8xUF93Q1cxSnhOTEM1VWxIaHZmN25lMTBVSjRTMEtmeE5hbVJuLUJQd0o2OFJwc2YxTnpCWnltMlhqZDVoN2Q1ODdkX01TdVpNZ1JYQkpaNXEwaVRBdkF1cVNWWXQxcXBzdGh5ZF8yaVNUc2RvWFlQdHJLQjA1dkRkYWhTcW1KMUFuVDlsLXY3Zlh3c0pWYWl6MnplZw?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRjMzektCdlVWaTlRYkIya296YjlfQm9wZXBDQmRNOXNqLXp1a1NaVzczaC13dTRFWHhMNDRDcHN2YllQd1NOendNREw5eVpVTU53enpFdFNkV0tTN1pkTUwxcGNXR2pCYXY2UnUxSmRnX3RkR3ZDQ2U4Nzg2ZTc5M0xtS2tkOGx5N1JDVWxndDh6TDdVbDhORDA1YVR0bk9QaTlrenlCd2c0bGN1cXVNZ0QtQjPSAawBQVVfeXFMTXJ1QjhuLWZKbW51SGY2azlkTjk3RlpzY1ZrWktIdnVQZnVwOFNRMUJWVk9MUkxZcjZ4SnpxYWxxSFJBc2E0cW1yQTNRSEd0cXNqaDhhWWpSZHV1MkxoOHdyRW9CeC15M1pjdmV3LWlrdFhrMUtudDNZQ3RGYVhhZG96QlNRQmJQcGVob0o3OVhlOW94aU1wOXduVERkMTd5NC1EelJQUnlzZ2tibQ?oc=5"
+      ],
+      "points": [
+        "CEO Danantara Rosan Roeslani pada 25 November 2026 mengumumkan laba bersih konsolidasi BPI Danantara 2025 sebesar Rp259,6 triliun.",
+        "Angka itu proforma 12 bulan yang belum diaudit; laba teraudit periode April–Desember 2025 tercatat Rp203,4 triliun.",
+        "Pendapatan 2025 mencapai Rp3.073 triliun, EBITDA Rp704,7 triliun, dan total aset akhir 2025 Rp11.607 triliun dengan ROE proforma 8,7%.",
+        "Laba terkonsentrasi di BBRI Rp57,1 triliun, BMRI Rp56,3 triliun, dan Pertamina Rp55,2 triliun, sedangkan ADHI mencatat rugi Rp5,4 triliun."
+      ]
+    },
+    "81d72e645b89": {
+      "title": "Vastland (VAST) Bagi Dividen 37,4% dari Laba",
+      "at": "2026-11-27T14:48:19+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pdlJ3eTFqZ000QVBZSS1VOGJKZXlxQTh5TmdWVTNreUZQOXVVWjBfd0puZTZqd2hRcXRlYW1uZW1kTnJLM0gwZXBJS1VzZVhxczZMazdNWWhCcWRFSFNWLWtKVHJWSFktOFU3NjM4MEhwZC1YemliNnUyZ2tRLUE?oc=5"
+      ],
+      "points": [
+        "Vastland Indonesia (VAST) akan membagikan dividen interim tahun buku 2026 sebesar Rp5 miliar atau Rp1,64 per saham.",
+        "Nilai itu setara sekitar 37,4% dari laba bersih yang diatribusikan ke induk per 30 September 2026 sebesar Rp13,37 miliar.",
+        "Cum dividen di pasar reguler dan negosiasi jatuh pada 3 Desember 2026, recording date 7 Desember, dan pembayaran 21 Desember 2026."
+      ]
+    },
+    "f7498fcaddfd": {
+      "title": "Aset Rp11.607 Triliun, Seberapa Kuat Fondasi Keuangan Danantara?",
+      "at": "2026-11-27T15:52:16+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQnBDQnRCVG1Pd1A2TVFlT1BHbDNWNjdkUk5SV2Fac2E0eGhNRU5lbHVBSS0wT1lFSFE5Rl81X05EQUZRNzVUREwzZFgwZGE2QWlUeVZrWDJrdzFLVWpXb2dZUUxueDdzNEo4b3JldVZYYksxbXZOX0x5QkQtUG44VnZ3R1E3QXVHUDVHUFlBX2YxMElraHkzRGFpUDJ5cDBVNHRYWnFrNmRPVlgzNl82QnR3?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxNWldLOUxRbFF5bExOeXJ3WnBta0xPTDJGTUQtVEVsUU5KdHBYdENKR0JsNFVOX0taWmJ3LUZFSzVvWHVZbnV5VlhNbDVWOTdoSFFNUDRIanZzRXJaMlJRNjk4d2I2MllubDFteFAzaHJ6NjBfdjQtMGhhS3pVYldfZmJNSkVNTm04ME1YYk5OZzBPdGNzYmx4QXN3aERMUdIBlgFBVV95cUxPUVUyQ3JEZDVudTRQcUxGZTMyOGdtTzFMMm53MzVmUmllaFMydHA4Q1JiLTZwb3NLT3cyNkJ4Unc2RXZqT1lfNEVETmZLYV94LUIycnAyRGllUk9rNGdBRzJXRHZycEFhMC1nbzZJYTVNaGlTVkxuWE9kcHZZR3RkRkFzZ2VUMmpBaG9Iekp0U3VxUS1WU3c?oc=5"
+      ],
+      "points": [
+        "Danantara Indonesia merilis laporan keuangan konsolidasian teraudit pertama yang menyatukan seluruh portofolio BUMN, dengan total aset Rp11.607 triliun per 31 Desember 2025.",
+        "Untuk periode April hingga Desember 2025, Danantara membukukan laba bersih Rp203,4 triliun, pendapatan usaha Rp2.385,2 triliun, dan arus kas operasi bersih Rp563,1 triliun.",
+        "Rasio utang terhadap ekuitas tercatat 0,54 kali, kredit dan piutang pembiayaan naik 7,2% menjadi Rp3.998,9 triliun, serta investasi surat berharga naik 11,1% menjadi Rp1.485,9 triliun.",
+        "Angka aset itu kini jadi acuan resmi setelah eliminasi transaksi antarentitas; selisih dengan estimasi sebelumnya disebut berasal dari basis hitung, bukan aset yang menyusut."
+      ]
+    },
+    "5efb24c17d83": {
+      "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026",
+      "at": "2026-11-27T16:53:52+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNmYxc0M1d2xuSlF0TnRsMUd1QXJVR1V6VGdqMzFFM1luX01mS2hkV0RON01Wb1pPZzFlNlFQUGU3OTBpRWFfZXFVdGdCOF9xdGFaNUJBZG5tZ2duYUcxNWpWcGhnTTk3NkpBSmdXVWMzRjgzN3hSYzJCT3Q1T1N3akpzU0s4dzV4YWo2RlNZbG1hdHhqWkNBMkhaSG1ZVFliakZOUDMybThSdzhXZkxrQTVsQnNMM0gtalZJ0gG0AUFVX3lxTE5FNWg3ZEtPUzRxaDhza1k0ZXlrN2FqR21RUVdFTVdlZlNZZGJuY1VYTzJVZ0JMT0Yyck1aWDJic3owXzRGYTNlUUxqUVFNV0t3SWNENkl3MklJWmd1enVlcFZ5SEl6eG02aXFWMEZzRGxSbGtGREpRdThZU3A1S1hTbjZnNXdiM1NpaUlMemd5dVVScG5qakkxRjZBOEVtc1FpY1pRVTRpOHhWSld0OGZWVk5LUw?oc=5",
+        "https://www.idxchannel.com/banking/hingga-oktober-2026-bank-mandiri-salurkan-kur-ke-lebih-dari-193000-pelaku-usaha",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVTd1T1NnTmZxbzhick90eW53eGxZbU4xNWdOYkFIbFIzQlZ3V2NFZnN4R2lUM0VnZVJRVGRkY0QzVjZDakZyZ0RwTVBvME9idVFtZWFOVXgwZzhJVkUwbm1kalVLODJDZnNHbkpKNlJ4YXlQQzZTanZYQW1QVGtBMXU4RW9INVQ4Q050WmdfY0c?oc=5",
+        "https://www.cnbcindonesia.com/market/20261127150120-17-789112/bmri-salurkan-kur-ke-193000-debitur-baru-produksi-jadi-prioritas"
+      ],
+      "points": [
+        "Bank Mandiri (BMRI) menyalurkan Kredit Usaha Rakyat kepada lebih dari 193.000 debitur baru sepanjang Januari hingga Oktober 2026.",
+        "Debitur baru itu setara 69,16% dari total 279.262 penerima KUR Bank Mandiri pada periode yang sama.",
+        "KUR sektor produksi mencapai Rp24,15 triliun atau 65,04% dari total penyaluran, dengan porsi terbesar di pertanian senilai Rp12,52 triliun.",
+        "Penyaluran memakai skema ekosistem tertutup yang mengaitkan UMKM dengan nasabah wholesale, offtaker, dan distributor."
+      ]
+    },
+    "b6e6e5f81da2": {
+      "title": "Pendapatan Fortune (FORU) Melonjak 95,78%, Rugi Bersih Membengkak 393%",
+      "at": "2026-11-27T16:53:52+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMC1BRWpSVHQwdk50SzF3UFJVckVpT1lORlc3SmpZNG91cEo4bkhjZDhVNE94WDVUaXd3bTlCQzEwUEF1VVg4UE9yMXQyVk5KU0xXT081d2dvZW5yZzdhMVIxTURzYWVPTzFOaGdkWUFId3FuSjFLeGhnOFNhczAyZm9IUlctZEd6dm0xTnpIWGlnanNOVFpZSGZMNHhJemhHZ3hqRXdRVmFBV3NGNF82Y3JfaDdmUHM?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYlQwOUR0RlY1Nmt6WGhOYzNrN2NpckRKUkxEa0RvS3R2MWZTNG8zZ1h5Z3drSVZwLTFhNll5VHpEd0MtODhTeHB3TFc5dG1qTEN0aEk3RTRzcU1HcVhQdmgzWHZhQkNHY2FtWW9NRUt5TFlhM3FjUlk0RVo5Q2pTLVZjTmMxTEFsQi1idUlmckdINnR0RFJ2R29MZ29lQi1tTnVUd2dfXzBxYTVsbHVaUWdrZHBkWU3SAa8BQVVfeXFMTVNTaTdMeDB5OXc3ZGF1TWdXNlpIMU5PdGpwT185X2JSVUh3V084cU1taEl1VU5uN21NSnk0TXZ3TENuQVNYbENxSXp5WkVPdXhqZXlJd0dpUUJzVFAtTTdXNWhLYlYyTnBJRjRYWlVWTUxlQkpKc2JydHRFbHE2TXk1VkFTSEg3VTVBbGwydG1pZURjU0xoTUFwamZXaHBtTmZaREtkaEJQRFdRRWV3dw?oc=5"
+      ],
+      "points": [
+        "Fortune Indonesia (FORU) membukukan pendapatan Rp312,31 miliar hingga September 2026, naik 95,78% dari Rp159,52 miliar setahun sebelumnya.",
+        "Menurut Kontan, rugi bersih periode berjalan setelah penyesuaian proforma turun 67,95% menjadi Rp40,28 miliar dari Rp125,67 miliar.",
+        "Sebaliknya, rugi yang diatribusikan ke pemilik entitas induk naik dari Rp1,66 miliar menjadi Rp8,21 miliar; Bisnis menyebut rugi membengkak 393%.",
+        "Total aset per 30 September 2026 naik 44,23% menjadi Rp3,10 triliun, dengan kas melonjak ke Rp382,66 miliar."
+      ]
+    },
+    "8bfb791e32ac": {
+      "title": "DSI Susun Referensi Harga Komoditas SDA Ekspor, Bukan Harga Jual",
+      "at": "2026-11-27T16:53:52+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLTYtY2Z5UFA3YVl4LXcxb1BqdE9JeTQ1VVJkVnJYTGhyN2VWZ1pyb0RwYlFpR2MzVGktVnNidVhyNDRFQXBILTM5UWlIdFlfelBOa0NkMlc2WHcwNzhhb3JNVmd2UGlqQnNqQmhzdEVQMjJ0SC1lLVBQVHFaNnctUGEwSmJBSlBfZjc1ZG5rMGhfQ3l3UzV1U3FIN25zVGdaSGR0Tlc0ZEZMZ0x0eTltWVhWQTZkQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYmxTay14TWlrMzByVENHYkFnOVpJa0dXX21QMFRDQTRvazZja0c5amYyVmF4UXV6d25rV2N3XzFJb3BPaWZTcjYtQzVCeGlUd3E5c0FiM3F4WmNiNFM3aWQxZGdZVVlMNjczX3VnVHg0SUhCaTZndk1nczlOU1VqZVNlTkljMi1fdnRFVkJCb2FIRzJ5Z0F2eVhza3hTdGFVVTFfQUVYbHhpQdIBowFBVV95cUxPYjdVNG42Wmp2eVZnb1c1Njd6WFdYWEl4dVVSR3dkd2c1Ti1vR3RJM2xWeGpzU2dfc25zUTk1XzE5c09tWUhKd2htbDUtTVBpV2JHQXMwUVpsX195WHJHejdCOF9XdXRCbUVEMGNhT1p0QkYxOU44a3lrUXlRLWk5bm1YclE0S3ZWUkZGTlFXT3A3enc3WjFmMzJuMkNySGlCOElV?oc=5"
+      ],
+      "points": [
+        "Danantara Sumberdaya Indonesia (DSI) menyiapkan kerangka harga referensi pasar untuk mengawasi ekspor CPO, batu bara, dan ferroalloy.",
+        "Dirut DSI Luke Thomas Mahony menyebut kerangka ini dipakai untuk mendeteksi potensi under-invoicing dan transfer pricing.",
+        "Komite independen akan memetakan mekanisme harga global serta penyesuaian ongkos angkut, kualitas, premi, dan diskon, tanpa menetapkan harga jual.",
+        "DSI akan membandingkan harga di dokumen PEB dan invoice dengan harga pasar; referensi ini tidak menggantikan HBA dan HPM pemerintah."
+      ]
+    },
+    "e06b60de352a": {
+      "title": "CELIOS Kritik Pengelolaan Dividen BUMN, Setoran ke APBN Turun Tajam",
+      "at": "2026-11-27T16:53:52+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxOak9mdm5EenlwWl84RHM4X1RtaU52Rk5wRzc1eFhaUXo3TlBnX01aRXlYdmtxYlp3eWlIMXZFeEtWS0NXX3NNbGl6d3RJYVFOM2cxZURPVDhyTDJhVzFYUWwzQS1hcEVVX0xmckp6UFMydHhRM0U1UjdfTFRlbWxmdWlHd3NWanRHRUhDY29vS2VDV0IwQnViNWxkbDRxNGZiQk92N1FQclJNcTlyeGYwNFJHWFdjZ3NqMGF4eTdn0gGcAUFVX3lxTE1IcEprMkVUZWIydkY2aVVfcmtKckZJeF9mdkI3SmdSRVJ3N2t0QllqU0hoU2JDbHBQQzVPVlJTZkVqdWItM25ZXzloWWJ6RHNHb0RkVlVTdkc4YXJ1eUJmZVRSYlNaQ0Zmb2o4LUJTOE1XTmR3RWZpQ2MtWGIyR0dRbFhtaHBudEZiUmhfMko3NllNeExiQ2Nvc1VGdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMHZwMExlQWcxcTBsclRYd3FIMUZMazEzTGlSa2k4U0JQSmltZFE1U1I2TU41WVctRjVQc0gxV2RaTFc3eVVTT0xaVngyMHlVcy1kY1p2Z3F2X29xNXp4RHlYbWZ0djBEUGNfRWJCa0lXZENqRURrNk5KUS01aWNoWjZ0RGkxcFEwcmUyX2t0WW0tUWFhdnRvRzNYMkdpYW4xQVJZ0gGcAUFVX3lxTE1IcEprMkVUZWIydkY2aVVfcmtKckZJeF9mdkI3SmdSRVJ3N2t0QllqU0hoU2JDbHBQQzVPVlJTZkVqdWItM25ZXzloWWJ6RHNHb0RkVlVTdkc4YXJ1eUJmZVRSYlNaQ0Zmb2o4LUJTOE1XTmR3RWZpQ2MtWGIyR0dRbFhtaHBudEZiUmhfMko3NllNeExiQ2Nvc1VGdw?oc=5"
+      ],
+      "points": [
+        "CELIOS mengkritik pengelolaan dividen BUMN oleh Danantara karena hanya Rp808 miliar dari Rp131,4 triliun dividen 2025 yang disetor ke pemerintah.",
+        "Sebagai pembanding, CELIOS menyebut setoran laba BUMN ke negara pada 2024 sekitar Rp86 triliun.",
+        "CELIOS menyoroti dividen yang dipakai menopang Garuda Indonesia Rp23,67 triliun dan Krakatau Steel Rp4,93 triliun, serta menuntut audit independen.",
+        "COO Danantara Dony Oskaria menanggapi bahwa pajak dari perusahaan portofolio naik menjadi Rp567 triliun pada 2025 dan tidak ada permintaan PMN."
+      ]
+    },
+    "0e58eb65cb1e": {
+      "title": "Danantara Bakal Merger BRINS, Jasaraharja Putera, dan Jasindo",
+      "at": "2026-11-27T16:53:52+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUk9RZVBiY1dQQTRQcXRvZENjWkZtS2QtcDR2Z3ZHN0pHc3hzM3ozMzBmcFNjNk5VSE1fel9HT29BR0FUUktOY0trU0Y2cXhud0k0R29BVF9BVEdOY01rcTN6dmZ6Z3dybWtDTDU2ZUVRcjk1NmxtYi13OTBwVmNrellFbWI5ZlJyaDVLSmYwdXNUQWZraWhsUndR0gGTAUFVX3lxTE1pMHNKdXNWQmZrY0V4Si1nOVMybmpvSUdzVGtNV0NGR0I4aHUtcF9yRXdON04zdDgwbzhDT0JQcFRBWXJRUllXVHA5clNncDNxUlpIcEtjajg0S0tBZkVHc2JCMzNNZl9pR1RINlpEMDNFMk44VHFlRklldFhMMkpfQ0tsRG5GbHVOVGNGd01iUncyMA?oc=5"
+      ],
+      "points": [
+        "Danantara melalui Danantara Asset Management akan menggabungkan BRI Asuransi Indonesia (BRINS) dan Jasaraharja Putera ke dalam Asuransi Jasindo.",
+        "Jasindo akan menerbitkan 809.195 saham baru bernilai nominal Rp809,19 miliar sehingga modal disetor menjadi sekitar Rp1,23 triliun.",
+        "Unit syariah BRINS dan Jasaraharja Putera tidak ikut digabung dan wajib dipisahkan sebelum 31 Desember 2026.",
+        "Batas keberatan kreditur 11 Desember 2026, akta merger dijadwalkan 28 Desember 2026, dan penggabungan efektif 1 Januari 2027."
+      ]
+    },
+    "2d9f26b41fa7": {
+      "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah",
+      "at": "2026-11-27T16:53:52+07:00",
+      "urls": [
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFFiTDQ5cnF4UXR0UU82MmppRGdsWlVSWFFjTVBiMzVFTjlnbE5xOE1wWHFBbTc0bUtXem9PdlJ2b1hXOXdtMkx2SXcxd2tYRk1SbXdSMVAxZ0l5a3FmNFhtMjNGNU9UTmtQUk56bm9fa014ZEw1VElPTklBLV92U3JnMl9hcUhFUkxnMDdNalBTTHVDTlo1RUFVS19GQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUms4V3ZmYzczaEdpUE1qSzhlRjVuTl9GUUhnWGFLVThfdGIzd0d1WjNSU0NMRnl3MExUQXE1cUEyajVMbnNFOWw4VUd0V1pDaW5sTGFadlBxbXU0cV96Y1lKQXpWSGFmOWhyMjNUVXlDNC0yZlpxUlp1Q2ViNWNKSTV6VmY0cGhjZ3M4VGE1NGRZMkh1ekNleTVTMzRseHJ3?oc=5",
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRW1BQnhCMFRmZ0h6MFZRc1NhZnA3d040OGoxTmZMU05MaXRXOUpIM2x3dGJFdFdzMnpja2htOUdBRU9ESkN6QUpQSkdtbW96Slh3Tlp4UVFkeHNBa3FRLS12d3VlYUpVQ1pScXdyUS05Y3M1MlZHd0g4ZG5HZXRBdVJJaFUzZVpkQ0gzTUFNNmlwOE5lTm44RGE5bGVYVUY3MXZv?oc=5"
+      ],
+      "points": [
+        "Investor.id merangkum lima kesalahan umum saat berinvestasi reksa dana syariah dengan mengutip situs Ajaib.",
+        "Dua di antaranya memilih produk hanya karena imbal hasil tertinggi dan mengabaikan profil risiko serta jangka waktu investasi.",
+        "Kesalahan lain: terlalu sering berpindah produk, tidak memahami isi portofolio lewat fund fact sheet, dan jarang meninjau portofolio.",
+        "Data OJK menunjukkan dana kelolaan reksa dana syariah naik 65,1% pada 2025 menjadi Rp83,44 triliun, lalu Rp84,8 triliun per Agustus 2026."
+      ]
+    }
   },
-  "8af9642a45de": {
-   "title": "Nasib IPO Andalan Artha Primanusa (ANDA)",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WZVA4OENMaFU3WXhuend1MXVGSHk0V0NfQXRXcGVRc2gxRG4wdF8xYlN2SDdSLXR0WVQ1eGNjZXpaSnlRd3FGekF0Zk1SOHNVbkIzYVB3c2lBVVl5SmF3elRVOUtoZnJDd0Y5TDlqS094QXQ2VFZQYkdzUVg?oc=5",
-    "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWkgwQXV0U2dOT0lzWGFBVmhLemZoY1VEaHI3V2xvTnNJSTl4MHBIUkFpdTU2RW5rY29PdG40bDI1RDFod3JjVF9ibW9hRzFBc1RvM1J1Unl3LUlwazlWOFhQSTVSblZJdEV6aFhXbHEyVEY5eDVXZ2hoQW1iU3ZFTDE2Z3ZtTjdUOEpmemRTUE9xdldrM1EyMW9ncmJDWlVhZVZYcndMdUNMcmZ4QWs5MEdR?oc=5",
-    "https://www.cnbcindonesia.com/market/20261127100115-17-788962/ipo-andalan-artha--anda--belum-terlaksana-bei-buka-suara"
-   ],
-   "points": [
-    "Penawaran umum saham Andalan Artha Primanusa (ANDA) yang dijadwalkan 24-27 November 2026 belum juga dibuka hingga 26 November.",
-    "Direktur Penilaian Perusahaan BEI Saidu Solihin menyebut jadwal di prospektus hanya indikatif dan bisa bergeser karena proses efektif OJK serta kesiapan emiten dan penjamin emisi.",
-    "ANDA berencana melepas maksimal 1,67 miliar saham (25,10%) di harga Rp158-189 per saham untuk meraih dana hingga Rp316,76 miliar, dengan Henan Putihrai sebagai penjamin.",
-    "BEI masih menunggu konfirmasi dari ANDA dan penjamin emisi, dan akan mengumumkan perubahan jadwal kepada publik sesuai ketentuan."
-   ]
-  },
-  "b917b7f18503": {
-   "title": "Bos SMBC Indonesia (BTPN) Buka-Bukaan Soal Alasan Mau Delisting",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://www.cnbcindonesia.com/market/20261126132350-17-788723/bos-smbc-indonesia--btpn--buka-bukaan-soal-alasan-mau-delisting",
-    "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmtxWVQ4X0dfMUZnamhvbGZlVXhYODFweXBDaHVpQmVka01kLTMyMHczd1lZZkRSYS1kdW80cGs1U1BCWHg2dDIxdFVOV3I5TVJDbmd2S0d6OUhITUp2WnVnSlF1X0F3MkNSUHgtZ2pDTjV1Wm4tYTRNN2JyZnp3Tzh2SEVjeGNFTVAyQTg1YzFFQmVOTGZLeDlvSHdFYVVreGw3S0hkdkljSjBDYWg1cg?oc=5",
-    "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank"
-   ],
-   "points": [
-    "Bank SMBC Indonesia (BTPN) berencana menjadi perusahaan tertutup dan menghapus pencatatan sahamnya (delisting) dari Bursa Efek Indonesia.",
-    "Direktur Utama Henoch Munandar menyebut langkah ini strategis untuk arah bisnis jangka panjang, tetapi artikel Kontan tidak merinci alasan spesifiknya.",
-    "Bank sudah memberi tahu OJK dan BEI soal rencana RUPSLB pada 19 November, dan rinciannya akan diumumkan pada 30 November 2026.",
-    "Manajemen menyatakan tetap berkomitmen berinvestasi di Indonesia dan menghormati hak pemegang saham minoritas, dengan CAR tercatat 30,7% per Juni 2026."
-   ]
-  },
-  "4d5636538b26": {
-   "title": "Danantara Tegaskan Garuda Adidaya Hanya Kelola Sementara Eks RAPP, Bukan Akuisisi",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOW5VY2s1QTFpYkxFWmt5Q2hySHBkblpsbEkwbUx2clJhblI4a1Q2MlVrcmxWTVJVRFZhb2tPZXNYeko2aWxMbVdKMWExT0plM1BLWllCMXYwRXp1T0w4bXBfRWRpUkFKbXFJclYtTVBNUnRBcWF6LXQ0UkpfQjZlQmhBT2hwTXA3V2g3SGZkdXJVNGZsaFdvczNJY1VhNlJKUENZT0I5VTI4cGZ4UzAxa1ZMd0xRd9IBrwFBVV95cUxOVUZYZXhWM0h1OXZ2RFFmQ1lTbzFQWk5ubmRTUllIYTAzb19tYS1ITS1BanJvS1otZEVZeDRWVTl5Q1NZRWhrUVh0Z1I0a3Fncm4xM2thSm84U0xSMml2R0pBT1VUdU1JZG1BM0kxcFdvUzhVNlM4UWxURGNlaU5LVzh3bnZweVpNRnQ0MzVtTkZhbjBFdXBzQVo3cWpJNl9BLVNiUHRFaWhzVXRQT0ZV?oc=5",
-    "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmEtVWRCME9Gb3BMTnNuNVhYekRVUDRyVXkza3d5UHZxVFhWNmpfamZBLUJpckJhWWFHTnZXbmxqbzhFWndRTHJXTnQyUTJpd1NlUFZmT1RMckJjTnJOWS0wSDdvYVhVNmtSSnNwb1RsZ0g0XzhNODRKTEszN2VtZGhmNnBHdFNaODdBQW1ueWR2LW1TZkt0a1dPVFpseDFVTml2ZlZWMHJNbjFiTURNZlNDTmJEUQ?oc=5"
-   ],
-   "points": [
-    "COO Danantara Dony Oskaria menegaskan PT Garuda Adidaya Nusantara hanya mengelola sementara eks konsesi RAPP di Riau dan tidak mengakuisisinya.",
-    "Kementerian Kehutanan menunjuk perusahaan itu setelah mencabut izin PBPH RAPP seluas sekitar 338.536 hektare lewat SK Nomor 971 tanggal 19 November 2026.",
-    "Garuda Adidaya baru berdiri pada 16 November 2026, dengan saham dimiliki Danantara Asset Management 99% dan Danantara Mitra Sinergi 1%.",
-    "Perusahaan bertugas menjaga operasional selama proses hukum berjalan, sementara stok bahan baku pabrik disebut hanya cukup untuk sekitar sebulan."
-   ]
-  },
-  "8c11ec64d056": {
-   "title": "Jasa Marga (JSMR) Rombak Susunan Pengurus, Simak Detailnya",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMilgFBVV95cUxORnh0X3cxa1JqR3ZWWkxfWXh4NXJXZ0lLb3ZmdnBLSWtsV3ZyaF9Ca0xOcWJiU3IyNzR3dUhQVGtYdkR2Y2w1Sld6UEJzalRpNDlBWUcxTHpxZGZLRHFZenBVUVU0SDZ3ZFlJVkdYS2R2cW50TEZkVzh4Q0FSSGpVeTczQ3VDQTRIb0tJRFhpX1dnbmlWMFHSAY4BQVVfeXFMUG1ybDVVM2lxZWRVbC0yWEdPOFI4NGU3dnJSTzBiU1Z4MWxoamFRVDZiYjI5ZEVuLVNETV9fLVR5VVBiak5jR0pmZGx6eUFjVXR5UnowYW9SdkJkb3ZUYnFkbEpMSWFZMzZ2MWN4QjhpUDlGaVpkN1FjTy1OUHFxSFZDZFh5WkRLalJWME9FQQ?oc=5",
-    "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1dFS3lSTi14aVd6dzl4cm9xdmhlWEpxWW8xRkExbFhoRHRfRU55UkowX3loNGw1WGNVZXVBRTBHbU5PSlowSy12TjVUVFZWNGlkeWQ3aHpxMzYyM1FDNmhFZGs5bk1GcWFMV3E2b1pFWEU0VUlSLWNpRzYzUmJNVVdOcUQxeU1LOEtUQ3dOaW9TTW5Td2c?oc=5"
-   ],
-   "points": [
-    "RUPSLB Jasa Marga (JSMR) pada 25 November 2026 merombak jajaran direksi dan menggabungkan posisi Direktur Bisnis dengan Direktur Layanan.",
-    "Sigit Prastowo diangkat sebagai Direktur Keuangan dan Manajemen Risiko, sedangkan Ari Respati menjadi Direktur Bisnis dan Layanan; Pramitha Wulanjani, Reza Febriano, dan Yaya Ruhiya diberhentikan.",
-    "Rapat juga menyetujui penggabungan anak usaha Lintas Marga Jawa dan Trans Optima Luhur ke dalam Jasamarga Transjawa Tol, serta perubahan anggaran dasar.",
-    "Hingga kuartal III-2026, pendapatan tol JSMR tercatat Rp14,3 triliun atau naik 6,8% secara tahunan."
-   ]
-  },
-  "dd049b9708fa": {
-   "title": "Bank Bangkrut Bertambah Lagi, OJK Cabut Izin Usaha BPR Bontang",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWTQ5UWNaSFVhU01lRnJFUXFoMUdmS211c05pZVRvam1wcTdUZVNjN2NzTzVsNkFqcGdKSHB2cGlqRGxLN2h6LWpvYlhOdmJxdkJld1QzaklnZHRxQk5LUVo4NWhjQ0IxMWxCQkdCZ0dZSDFubVBkVnBOY285NVMzRTNGTzN3WHhSNG9USUFtdE5PcGpRMllkM0N3UXYtLTFGVGo5RVR6RVgxay1BZ25SR2VPVmJzQQ?oc=5",
-    "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS3N5M1cyNWVUbTRkcllWMGxQeUpYVjhvN2xkZUMtUVVPaXgwUkk4T1QyRDI2MWFaQWFtUU9pcmw1WTBuVnQtS3Fjb1VzakxJR3BPUmRPOFd3NThOajRuUkROVms4SnN0WG02cDZqajZFZEpKQ3V2WTJHMzM4NmpSWFotbjFvSXFLZ01aY296dnDSAYoBQVVfeXFMTkFmSWVoaUVMRkJwMnlJeFZXYXR1cG5ZWTY0emRwbXdaVEtEM2V0Y0sxeU9HVWZEazJqOUNtemctZTBMZzdIaWtmWnNsVmM1UXE3RzdDNmlOOG9CSFFjZnVZazdDYV9KZkFqVnZkUkFzWmtHWHNOSEF5OHBIY0VXSjFVaTlaSXQyZ25R?oc=5"
-   ],
-   "points": [
-    "OJK mencabut izin usaha PT BPR Bontang di Kalimantan Timur melalui keputusan KEP-126/D.03/2026 tertanggal 25 November 2026.",
-    "Izin dicabut karena upaya penyehatan gagal memperbaiki permodalan; bank berstatus dalam penyehatan sejak November 2025 karena rasio KPMM-nya di bawah 12%.",
-    "OJK menaikkan statusnya menjadi BPR Dalam Resolusi pada 9 November 2026, lalu LPS memutuskan likuidasi pada 16 November.",
-    "LPS akan menjalankan penjaminan simpanan dan proses likuidasi, sementara OJK meminta nasabah tetap tenang karena dana mereka dijamin LPS."
-   ]
-  },
-  "ecaf13830687": {
-   "title": "Bayan Resources (BYAN) Rombak Komite Audit, Mertua Kapolri Suyudi Ari Seto Masuk",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiswFBVV95cUxONjFwOFhuczlFX205TnZFeWlnV0NJVDRkTWo1SlMwb1VRRGRyaEU0Z2VFTXVVbzlMWktxVnNUcVYxeGpYbmxaMXJYZE1tV0NvSjJSVUNkY09UcUR2b1B4bVAtUUl5OFFNcHRuZExGY3JTRkhaTzlNVHhYNkhiSkpBZ09yZEd6enU5bEZrbXBJTWd0bUowcUhsekd2TzRRN2tOdHdWQ0RuM0JnOV9ib3RRandJZ9IBqwFBVV95cUxOMWdQREJHWDlXQ2MzQnpYc3d4cnBxaXE2d280eHhNZDhVNHFmbTg1SmtrRU43cEN6Q19iYWpnRTlvMEFkWWNUWkE5WlIwMmdkUkhTN2tsU3JhX3ZEdEhQcnZtMk90WFhUR2pDUGZFSVZQekt1XzZMLWtVQXdDSnBvOGZsQWd0dGdYUTRVZDd5R1EzcldZdG5lQzRHZzdWMWlZR3RxWGFteG9lNTA?oc=5",
-    "https://www.cnbcindonesia.com/market/20261126234444-17-788900/bayan-resources--byan--tunjuk-dua-mantan-polisi-jadi-komite-audit"
-   ],
-   "points": [
-    "Bayan Resources (BYAN) mengganti ketua dan satu anggota komite audit lewat SK Dewan Komisaris yang berlaku efektif 25 November 2026.",
-    "Komisaris Nurfaizi, purnawirawan polisi sekaligus mertua Kapolri Suyudi Ari Seto, kini memimpin komite audit menggantikan mantan Kapolri Timur Pradopo.",
-    "Indra Surya, komisaris di PGUN dan TEBE, masuk menggantikan mantan Ketua BPK Moermahadi Djanegara Soerja, sementara Arief D. Dhani dan Rafika Yuniasih tetap menjabat.",
-    "Kontan mencatat saham BYAN turun 3,38% ke Rp9.300 pada 26 November 2026, dan alasan perombakan tidak diungkapkan."
-   ]
-  },
-  "8a0b095473e4": {
-   "title": "OECD Minta Indonesia Naikkan Tarif PPN Jadi 12%, Ini Pertimbangannya",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWk8zUG9ENTd0Q2tIM0E5ZnpVZG5TLUJmWHpfZjAwUDdPMWZzOV9takVodHVsYkVfTFdOcDl1RVl5UHBVd3lld3oyR0xENng0NTRSMDcwRUR4SUdhTWM2eDgzTFd6SC0zYzVQZFlWSEJTeEwzdkFNajRtZGF5YWl5TC1lX3dBN2xwSWlVS1VtVGVRaFpWc1RiLU9CR01SaDU0ckhN0gGcAUFVX3lxTE9nTHpEeW1qcjN0Z3FuQWRDcG50S19Ebi15NnUwX1Q3Rk1UTml4Z2lHUGRqQl9YbEZLc1p1LWJ3elBwaHQtdURQVHZGTWpHc1NUZDdHcUI5MGFzbHhSWi05UUgyN2NzT09yRWdCWjA3M1dZNnNKLW1HTmI5bFlIXzBSWG1ob29HcTZUTWwzb1ZaaUgzcWhqQkU3TFZZcw?oc=5",
-    "https://news.google.com/rss/articles/CBMingFBVV95cUxOTng0bXhyVERKM21oMVhZUkJjc2IyUW9wVnhkZC1uUUxvOWFldnZyTHJfdlZkekxHaDBQM1hCZmVqM3h3d0N4NGtZVy1ZZDVwUW9MLTdaUUdhb244azdWT0Y3OXQwd2xtbHloWlpha0R1Wk5DUHk5WWc5WGdPbWpOVTFMWHdmeVNMWmpYaXFZU21RUEg3NHREUkdTVzhmdw?oc=5"
-   ],
-   "points": [
-    "Dalam laporan OECD Economic Surveys: Indonesia 2026 yang terbit 26 November, OECD menyarankan pemerintah menaikkan tarif PPN secara bertahap untuk menopang belanja negara.",
-    "Menurut Kontan, tarif standar sudah 12% sejak 2025, tetapi sebagian besar barang nonmewah masih menanggung beban efektif 11% lewat DPP nilai lain 11/12.",
-    "OECD menilai pajak konsumsi lebih sedikit menghambat pertumbuhan, sedangkan rata-rata tarif PPN negara OECD mencapai 19,3% pada 2024.",
-    "Indonesia baru memungut sekitar 54% potensi PPN pada 2022; jika naik ke 80%, penerimaan bisa naik dari 3,5% ke 5,2% PDB, dibantu penguatan coretax."
-   ]
-  },
-  "da9b0df4b481": {
-   "title": "DPR Setujui Anggaran Operasional Bank Indonesia Rp 37,79 Triliun di 2027",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM3VwZkdvb2xnYklWMW4yYkR3OG54YUdtbmxGOHJTUUx1X3FEVmdUaVQtaDd4R1dFTzhialFuY0VkOXBxdEtqYXFzcmFwNmZFRjdxU1NmUlVmdmhaNzdqMEJLanFQWERDQ0x3c0k2WXdIRFF5bTFKRmR0U1hYWXBSaUtqNEZ3WHVZR2lwaVQtLVZyVV9UZDlheVJKN01oLVRPRXZvdlU0RjdLQdIBowFBVV95cUxOQ2ZhUXQtV2xieVdLWTBfSHQ4TkFPT3FwUmlHMzRkXzBLc2VXdTM4QmZLcXN5ZkU2Nm51bmE1NGF6NUtBT21obUFLSVBuVGFzam9MWlBnUzgxUno3clpwNmh2eE82Y2FuMGJubWFYeS1FcDRhQ0tkb3pVTzZkYWlsMTFEanZTM3Z1OXhnbkdvaE9BckZ4Z0EyQ1BWdTdSYVRZdUhn?oc=5",
-    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdnBqdWxQVDM2Tms3dEZybGlJZmdNa2llU3BqcW5MWXl6ZlZxOGNycVlfMXZQRE1IWlM3ckNYYnFXUHJhSXFkSDd1bWVLSm10cUMwSEVIUno4Qklfc2FXU0RuV090eXdpUU5veFRST0VBck0yVEZvNnR2cDNHOHRNcDF3V0VBQmsyQXM4bTE4MlZNTmpmM2oxNkdkUWkxc2xjYVh3WlBPV3lPWlpOQ0FGQnQxcXozR00zS1dHZG1lVzl0dTdqSEVQUA?oc=5"
-   ],
-   "points": [
-    "Komisi XI DPR menyetujui penerimaan anggaran operasional dalam Rancangan Anggaran Tahunan Bank Indonesia (RATBI) 2027 sebesar Rp37,79 triliun pada 26 November 2026.",
-    "Penerimaan terutama berasal dari hasil pengelolaan aset valas, ditambah penerimaan kegiatan kelembagaan dan penerimaan administrasi.",
-    "DPR meminta BI mengelola cadangan devisa secara aman sambil mewaspadai potensi penurunan cadangan akibat stabilisasi rupiah dan ketidakpastian global.",
-    "Judul Bisnis menyebut surplus anggaran operasional 2027 Rp14,56 triliun, tetapi artikel Kontan yang terbaca tidak merinci pengeluaran maupun surplus."
-   ]
-  },
-  "98f8de3e1ac6": {
-   "title": "OECD Ramal Defisit APBN RI Tembus 2,9% PDB pada 2026",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaHhUaUt4WDdHY3ZwbG5tRm5RUU1SWElEM3ZaQkQ2d2h1UXZZWnNRdHhDOGxiR0RMbTZDaGRBT1o3TFFwXzVVeW9XeVV4ZkVsaGY2Y3V4Y1hnV0paUzN5TEJ5SnZPZ29jeDdJZllLNXRxWGN3OFNaSE1ySHRvTzRFVVM3R19NSFU2RzV4OTJn0gGHAUFVX3lxTE9Dakh2WTRVMmpJb0RjTFVFdDdINkRibDNwajVJNmdRclFsTko0NERzU3VET05fcjE4clF0ZkFzQkx4QzZncjBad2E5djhGZnB1WVJvS0ZfbEtYX2dIQXFtX0JNS2V4WWYtTHB0aWZhUXNHVXNzeFJqbHVPNm91LUx5WTdfZHBGMA?oc=5",
-    "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRXFoX09MQ1RGdDdmaEUtTjZGNEloQ2VScUpjVVE1LTBLZGNfQUJoXzhUMG5fTGhobWVsNGxCZmZWOHhFbzctb2x3ekdwNG1odnJTaHI1dkhMMnhWamNFcS1MZ0Z1dFR4NlJpTzFZTmNTSV91a3A0cV9PdUFWcW9MYTZNcHl5cVpZY2JDWEx3c09rQzZRT0NubXZzc1JCVkJwekpkYW00VWdaNHQ3dzA0dllKTQ?oc=5"
-   ],
-   "points": [
-    "OECD dalam Economic Surveys: Indonesia 2026 memproyeksikan defisit APBN 2026 mencapai 2,9% PDB, di atas target awal 2,7% dan realisasi 2025 sebesar 2,8%.",
-    "Pemicu utamanya kenaikan harga minyak yang membengkakkan subsidi BBM saat harga dibekukan, diperkirakan menambah defisit 0,6% PDB dibanding target.",
-    "Defisit diperkirakan menyempit ke 2,6% PDB pada 2027 dan 2,4% PDB pada 2028, sementara pemerintah berkomitmen menjaganya di bawah 3%.",
-    "OECD menyarankan langkah penyeimbang sekitar 0,4% PDB, seperti pengendalian belanja dan windfall tax eksportir komoditas, serta bantuan langsung yang lebih terarah."
-   ]
-  },
-  "e2c28496fc5c": {
-   "title": "Danantara (DAM) Optimistis Akhir Tahun 2026 dengan Laba Rp332 T",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://www.cnbcindonesia.com/market/20261126133226-17-788731/danantara--dam--optimistis-akhir-tahun-2026-dengan-laba-rp332-t",
-    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN0pCaDlGbUxYR0RKdUVIMGZWeV8wN1I3SGY0TUxfbGJTNEg4UHp5SkZiRU10RnhmOXFoNThZcjN1RGg3M2FJX0FhUW0yWG9DZmIzcVl0LVVzYjRRV2lnQnVGcUdXSU0zWkdiU1NjdElQeUVHVWdTQ1lDbEpONlBfdG5wUnZTV1VHRWUwa3paN0FXQnlOZnh6d3REY2liSDJ0dzdQMUhLT0Jndw?oc=5"
-   ],
-   "points": [
-    "COO Danantara Dony Oskaria di Komisi VI DPR pada 26 November 2026 menyatakan Danantara Asset Management (DAM) optimistis menutup 2026 dengan laba sekitar Rp332 triliun.",
-    "Target ini naik dari laba bersih 2025 sekitar Rp259 triliun, saat pendapatan usaha mencapai sekitar Rp3.073 triliun dan EBITDA Rp704 triliun.",
-    "Menurut Dony, kinerja hingga November masih sejalan dengan RKAP dan konsolidasi mencakup lebih dari 1.000 perusahaan.",
-    "RKAP 2027 menargetkan laba Rp366 triliun atau sekitar 10% di atas target 2026, sementara target internal disebut sekitar 22% lebih tinggi."
-   ]
-  },
-  "54831c07e0ef": {
-   "title": "Laba BUMI Melonjak hingga September 2026, Bagaimana Prospek Sahamnya pada 2027?",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbW9oOHlMSGU2TFRaU3pxclZfOGRxNVBfU1c3ZFQxbUxvNzF0bDQwU3N0RFdvU2xDcmc3Y0ZRd3RrbnhGUmw1OW9zbFRiQU93cTItMldtWGxQeHIzb0xFOEhnT2VhdzhWUk95N0tpWjgxcENPNmZmX0ZRRzNlclRDOUhNYlREejF4SXY1WEFqcERjRHJocGFDTV9VaUNvNkpZS2JWMHlvcGk1ekRNc053NW1qNNIBqwFBVV95cUxOUnp2cTdOZWltejhIbDJSRmJLS3ZpRHhseTdDb2xCbHhQaktBbEhuTndSUXctTVdxX1VqbGQxd08tUVpCcGpQZXRTbG9vUnBmdTh2MnNDN3RKTGVsN25fMTVySXRPZEJFSUxWdVZ2Q3IzeXYybmtBdzRieEJGMGUwNmg5ZVZPSjhUWS0xXzI3Ym93dnU4ZVdSRExRRGdPQU9scDRCa1JPR3NEOEk?oc=5",
-    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMk9xSmJST2xfSGR6OXNvN044OUZFc1k2YlJDd0E5ZmYxMEIwYlhQUTNhSW8wS1AtWndyZ0tfMVUwVDZSa0ZVQWpFV3EyRGtpSVVSQmJyenZHSHJZNkt1SkgxZEdCZlpwWm1DMmY4Y1dJWFY5RXRmMG9ZS0ZDZ04yb0tNLXIwTXV0?oc=5",
-    "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNW12UWdDcGFQZWgxanlpcFo5b2NSbVJUV014THVEWEVWZDlwcGlJOGRULUxqM1cwdTQwcUxpUDE5THpSUUw3eTh1dGswTlNiMTRxV1B6eGktZFFpWkg3OW9FWWpLWWtmNG9WVHhmamFaYjF6QVRlcG5SUy1GRFZJOFAxeFk2SjB4Tlk5ZVFJWm5fNGxxQUJPUlZvbVdSZHlGVXRBdl9XaTh5RFBDRnB2YkVDZFnSAawBQVVfeXFMUEpkbm40eW85dWJzdXVESnUzRmRZLVNFT3dCdzk3Y29qYU5ISk9kcjBlZHlwbDhmQkRRbnlGOTFVNXRCSVRLVGs1ek1Td1djTVNhREtZcE56Zk1yaTd4Um1hV2NzZWJ1aHctYUxLSjRwYkJIZ1dFU1ZHc0hJaHVGVDFKeU5uQWNQN1dyNlN2RFBGU3VCWVRCWVhyOWw5cS1OLThYYk1mamtXT09qNg?oc=5"
-   ],
-   "points": [
-    "Bumi Resources (BUMI) membukukan laba bersih yang diatribusikan ke induk US$148,47 juta per September 2026, melonjak 404,9% secara tahunan.",
-    "Pendapatan naik 38,85% menjadi US$1,44 miliar, sementara laba periode berjalan mencapai US$174,56 juta atau tumbuh 190,45% YoY.",
-    "Kinerja ditopang efisiensi biaya, kontribusi entitas asosiasi dan JV, volume produksi serta penjualan yang naik sekitar 11%, dan strip ratio membaik ke 7,6 kali.",
-    "Meski begitu, saham BUMI ditutup Rp131 pada 26 November 2026 dan masih turun 68,81% sejak awal tahun; analis Panin dan Mirae memperkirakan harga batu bara 2027 lebih moderat."
-   ]
-  },
-  "0847f283c30c": {
-   "title": "Bank Kecil Perkuat Dana Murah untuk Menjaga Likuiditas",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbWN2UENlcVRNc08xNnZGaWFOVHhic3BuYTgzOHdmTkYyWU1QcW1QaU9fVjYxTWFCR2M0NWZWM3FhY1ladkQ3VjV2aERtcjV2X0c0UnZVU0JEaEtTUTY5emVOaHZ5MEpSWWZNVUV5eWozYjFUcXMxU0FMaTZ2d3Zkbmpzd3dBYTduTEsxUzUyNmNXbFnSAYwBQVVfeXFMUDBjd1IxQ0l0YXo4NWx4MTZvOEtUY1VoSmhTaGNUU1J2R1hyRU1hdFBfT2N1RXNFOXdsQ2MyWFZDT2x6YVlnczdqSTBaVzc2RjVlSl9CWmJWUlFRU25JRU95eVBDeTM5MWY1RzlIcEUtbDVPMWk0OW9PTmh6VlpYRVdxN1BjWGpOZ2NkeHA?oc=5",
-    "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUmhKaUg1anE3cXctMnhIRjBjd2k3U2JZc3I4NEpOVHBCMTRyRF9Ja2JyV1REdFp6MjJRNzkwMVlDS1RtWjRGaHdBanNmSWJDdXo5T1pTOGxPaThxcU9ZWjd6N2xoYmFTTG9qY0xfQW8wWWJsZFNHZklkdzdJeU1FTHg2Ujh5cnBkcEV6T1lROTQ3cFQ5aW9INWh3?oc=5",
-    "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFA3MDd1dFFjRzlNZTV2amh1ZjRqeW9KaVRJdzBMazVjR3lVZFNLWWh3YkxUYVpfM29WdTdqTTBKOEU0M2VmeGdPS3pEeFFmdm80dTRhN0FiNV9zQVp3TUJVTDc2eFlLR1RDOHhrWkZ2ZlpET0N0T0dFS3hEUUE2aEpMR2FRWjFWTlhjb2FZckxUQ0JvWThwTnZKWjNMVlp0blJweDlBSzRxS1V6UV9zYkRoTUQtUdIBrwFBVV95cUxOLVN6VjQwbVgwTnFGMUR1ZktoQzlvTmdoYkZzcEprYTV0TEEyVFh1YXRPOGhiNnN1cU1qbFVuREpoVTBDYWFSV1N5VXZjelo3RmZYVjVKcHVtY2RTQm1iRmJzeG12NFllaXY5a2VQODJDbmpTejlmc3ZvV2c2d3VnT2R5SHBVcURTR21rSDVJZkVzTUNCb0tZTnM4LXpoeDhzRkp1OHVjX3FNMVpFek84?oc=5"
-   ],
-   "points": [
-    "Bank kecil seperti bjb Syariah dan Krom Bank memperkuat penghimpunan dana murah untuk menekan biaya dana di tengah ketatnya persaingan likuiditas.",
-    "Data OJK menunjukkan LDR bank KBMI I per September 2026 naik ke 85,6% dari 79,52% setahun sebelumnya.",
-    "BI Rate telah naik total 125 bps menjadi 6% per 18 November 2026; dua artikel Kontan berbeda menyebut kenaikan itu terjadi empat kali dan tiga kali.",
-    "Krom Bank memangkas bunga simpanan ke 8% dari 8,75% dan menyiapkan kartu debit, sedangkan bjb Syariah mengandalkan ekosistem payroll, pendidikan, dan layanan digital."
-   ]
-  },
-  "95473cce7905": {
-   "title": "Sariguna (CLEO) Ekspansi Produk Air Mineral, Cermati Dampaknya Terhadap Kinerja",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWW1HY0MxUUJGN1pJS21GdDNBOGNya21oX1RreUMwR0FyVXBENW5Fd2otWFJpTGRweGI4NkNwR2JhN1BUM25QcDk3QWhhQ2R2eGw3SmM0Y1VMR3VxUnlUUW5Ga2tUdi1GRWlUYTFjUXVibU1BRjVKcS1Ja3BadHh1Y3l0RzU4bUhTSWNWajdMSjF6YzNOUVJWYkx2T1YtV2dKTWhLUk15ZElZOEJQYU5MT3Nn0gGqAUFVX3lxTFBES3hTVG5wdnB3Ulo5TW5JVG5TakgyNWVrMFYya1pSOGxRQVFJZzY4U2FMazFKQmloR3JmUmpzZ1g4ZjhSMEozWTFfMWtkOWRuQVprREExZG1lS3JRX1o1MFg2WWNybm9oeERWLXBhUjRxZVlBQTBmUDdza0Q5VmtsVU41M2MwT3F3XzBlRmVQbm1CdlY1SjFHd1dlVWdZQ1UxMHc2aFZWRExR?oc=5",
-    "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTzZDS1Q0LUdnRUNNLW1PeE9qWU5XQkdsYzRxLXBQT0NKMTNqdXdVVlE4UTJmTEFLQnZzd05vdmZXSlZoUzN2OVV5TTBjSGYydmhBZEtlbnRjZVEzSmx4XzdtU1lQeS1kZW1EMi1TRW1GbDNqTXR2V3l0czh5WTdYYTNkaFpKWTV1dERzWWpKMi1oUV8xcGpSVVNR?oc=5"
-   ],
-   "points": [
-    "Sariguna Primatirta (CLEO) memperluas portofolio ke kategori air mineral lewat merek SuperO2 kemasan 180 ml.",
-    "Hingga kuartal III-2026 penjualan CLEO naik 25,5% YoY menjadi Rp2,6 triliun dan laba bersih tumbuh 23,6% menjadi Rp377,1 miliar.",
-    "Perseroan memanfaatkan sekitar 500 jaringan distribusi internal dan lebih dari 12.000 mitra distribusi untuk memasarkan produk baru.",
-    "Elandry Pratama dari Panin Sekuritas menilai produk ini menambah sumber pendapatan, tetapi biaya pemasaran dan distribusi bisa menekan margin di tahap awal."
-   ]
-  },
-  "e98d15dcc483": {
-   "title": "Usai Konsolidasi MI BUMN dan Akuisisi Schroder, Persaingan Manajer Investasi Mengetat",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcW9GY3ZnSnhIdXRiTW5nUFgwRm9MWVJSWkJxTzdmejgzSlh6WV9kRmhDbkpWSVh5YmMzNm9UTW5JR1RBTlNIalh4U0tGNFViMGpYT21teVdaajhkVm9ndjQ0amZPdmxHa1NtNWsyWkM1d3NneGlHMkhvMVRUTVpBVFJ6dEMzdXNQT0JvR0t2bEthRUZPQl9CYTlBdm82bGhScm9DQjNDalVVODRpTThtZlpqaVdoVUh6SXc?oc=5"
-   ],
-   "points": [
-    "Kontan menilai persaingan industri manajer investasi makin ketat setelah konsolidasi MI BUMN dan akuisisi Schroder Indonesia oleh Manulife Aset Manajemen Indonesia.",
-    "Akuisisi rampung April 2026 dan menggabungkan AUM Manulife Rp124,3 triliun dengan Schroder Rp53 triliun menjadi Rp177,3 triliun.",
-    "Hasil merger empat MI BUMN, Danareksa Investment Management, mengelola AUM Rp172,5 triliun dan membantah mendominasi pasar menurut Investortrust.",
-    "Investortrust mencatat sekitar 92 MI beroperasi di Indonesia, dengan 20 terbesar menguasai kira-kira 70% pangsa pasar."
-   ]
-  },
-  "1c958187e62a": {
-   "title": "Anak Usaha Triputra Agro (TAPG) Bagi Dividen Interim Rp 1,33 Triliun",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMGsxZHVhWTkwcGdra0xnSXdJUjh1R3FLeENxYXNXMEZiaUN3a3BlcG9rNlp1ZmpwclpkOVZNZUREc09xQm9Bam9rZmpCaklTTEdEMVBqUzJIS3N1SEY5UzlicTBVQi1tZURuVG9jMzBlODNEZ2J3RW9BQ3dlN3FVRWpwTTBXTHhxd244S09kN3JpWjBIanlUOFhoS0QweW9MSGNn0gGbAUFVX3lxTE9VSWpjRjhnN051UlhVbEVlQmdhNkpaUklSV2ZCOEE5cTlnSVROczdkRFNJUzZyblkyaUxjdHNQYmlyXzI4VVV6V2pVVGdmMFg4MHE3VzhJZ0pRR0JneEtQQVdNTzBxUVlBMm5PWEVfbFVib2pBRUpuOWx5T0JXM3Z2UnprLUhSZElkajM3UlhMVVVXUnNwaFduVXRJ?oc=5"
-   ],
-   "points": [
-    "PT Agro Multi Persada, anak usaha Triputra Agro Persada (TAPG), membagikan dividen interim sekitar Rp1,337 triliun.",
-    "TAPG memiliki 94,93% saham anak usaha tersebut, sementara sisanya dipegang tiga pemegang saham lain dengan porsi di bawah 2% masing-masing.",
-    "Keputusan direksi diambil 24 November 2026, dividen dibayarkan 25 November, dan TAPG menyampaikan keterbukaan informasi pada 26 November 2026.",
-    "TAPG menyatakan transaksi ini tidak berdampak material terhadap perseroan."
-   ]
-  },
-  "09620449a136": {
-   "title": "Nusantara Infrastructure Angkat Direktur Baru & Tebar Dividen Interim",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDVBQU9KOU5reDE5ME4xSl9nYjI1TDFVWGd6UUFReG45OENCc18wNUZwaEZTNUZlaTBIZ01CLXVyRmtVOGJWbjFmbUFTeVpSTGp3UktuWmd2VFJzaWJsclhBOHVRQi1FdERnVG1EcGpJVjNtejQ2V2hDZW5BaUl1SmUxM1VkWi1IcHVyQmQ4TXlZZS10SmlBR1FZRExEMV9wNTlz?oc=5"
-   ],
-   "points": [
-    "Nusantara Infrastructure (META) mengangkat Francis Gerard E. Aberilla sebagai direktur menggantikan Denn Charly G. Espanola lewat RUPSLB Kamis 26 November 2026.",
-    "META membagikan dividen interim tahun buku 2026 sebesar Rp3,5 per saham atau total Rp60,64 miliar, dengan recording date 13 November dan pembayaran 3 Desember 2026.",
-    "Hingga September 2026 pendapatan tol naik 6,03% menjadi Rp1,40 triliun, tetapi laba bersih konsolidasi turun 12,05% menjadi Rp73,6 miliar.",
-    "Pendapatan energi terbarukan anjlok sekitar 16,42% menjadi Rp105 miliar akibat gangguan logistik bahan baku karena cuaca buruk dan penyesuaian tarif."
-   ]
-  },
-  "984097e8d7b0": {
-   "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3BzMkFvWno3TmYzbk1nNnEwem40RVc5cmxyOHc0Z1pYVU1oVTY5aTVEMU0zTGJ6Zkt2bG1NNFJ4c1FfR3VybzI0MXAwa1V4SWY4aTFuRFR1ekJ0U3dnZFpzX3ppY3dON0YybG5SSEZCRHhoMm1SNVh0OEJ4dUlCOUJFc2tNNEtYcHVWQmR4MWhjVlFlQkdzQVh1bGRKSFBPeVpmSXNiNHhiNUV6N0VaSXJRcDBvbzBFU1E?oc=5"
-   ],
-   "points": [
-    "Pendapatan berbasis komisi (fee based income) empat bank besar BBCA, BBRI, BBNI, dan BMRI diperkirakan hanya tumbuh tipis pada 2027.",
-    "Sepanjang 2026 pertumbuhan fee based income keempat bank berada di kisaran satu digit hingga awal dua digit.",
-    "Menurut analis Indo Premier Sekuritas Ardy Irianto Subekti, porsi pendapatan non-bunga berkisar 22% hingga 25%, tertinggi BMRI 24,70% dan terendah BBRI 22,22%.",
-    "Artikel juga memproyeksikan rasio pembayaran dividen bank besar menurun, sementara ekspansi kredit ditopang segmen korporasi yang tumbuh sekitar 20% secara tahunan."
-   ]
-  },
-  "b3d37d56494e": {
-   "title": "Skala Jadi Kunci, Emiten Menara Telekomunikasi Terus Berburu Akuisisi",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaXVKVlF1QjhZVVM0SnNWVk5sNWc4TnpHVUwtR29RdjJaYl9tcUNGanFWekRFSER2bzZmWHdTdDhvTFY1R2ViUE52dWxCbFB6MzRJQ3hpYTR0bmVhcXZib0dLV0xMNHlNRTUwRHNPZkZIdDczX2dOcWJVSE5XbnVQZkZJLVZEbTMyQ2V2X2VVZ3Z1X3RPY3VxNnZ5VDNIN1lhZzNvSA?oc=5"
-   ],
-   "points": [
-    "Emiten menara MTEL, TOWR, dan TBIG disebut menjadi motor ekspansi anorganik dan konsolidasi industri menara telekomunikasi Indonesia.",
-    "TBIG berencana mengakuisisi 100% saham PT EDOTCO Infrastruktur Indonesia dari Axiata Group Berhad, yang akan menambah sekitar 800 menara ke portofolionya.",
-    "Akuisisi aset yang sudah memiliki penyewa dinilai mempercepat pertumbuhan dibanding membangun infrastruktur menara baru dari awal."
-   ]
-  },
-  "4dbbf1f7b937": {
-   "title": "Mencermati Pengelolaan Dividen Danantara",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ueW5JeVB3LWVHOEpkQzlCbXI0NUJWUTQ2dnBBdXplZjYtWHlMVXdTdjZhXzBsQXJvdDQwX2lRbmxya2UtbEdCR25CSnFrLXhtTkxTTi1oNnJGQkNoajB3ZHJubXh3bVZBbFhnVUgzRTFFRzFxQ1ZxdDhFeEw4SnM?oc=5"
-   ],
-   "points": [
-    "COO Danantara Dony Oskaria dalam rapat dengan Komisi VI DPR pada 26 November 2026 menyampaikan target laba bersih BUMN 2026 sebesar Rp332 triliun.",
-    "Target tersebut naik dari realisasi laba 2025 sebesar Rp259 triliun, dan kinerja Danantara Asset Management hingga September 2026 disebut sesuai target.",
-    "Perubahan mekanisme pengelolaan dividen BUMN di bawah Danantara menuai sorotan terkait kontribusinya terhadap penerimaan negara."
-   ]
-  },
-  "9ce24d65b5ef": {
-   "title": "Setelah Delisting, Simak Langkah Berikutnya dari Bank SMBC Indonesia",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWllmSW94dm1HZnBpS0ljTFhOSFBFTjVYbkJkcVVQbm5NQnFwNklMMHhVNFJneUtubUR4cTBhcHNqZDFNRjZGMXhXaDFtSkZraU52clZPMHpCTG5pUlY2VVFlXzEzcmVUUjREelkwQ0dmSEx4NHEzSWJ2cDd3dHozWGdIS1A0dFNYbEdMcUlmaDRmcVU0alZXbVJ6cGF6c1lFZnpMQ9IBngFBVV95cUxNNE1tbXpjWERTaF9abWxYNllzUGNRZnN2bjNBMGFjTVNpeGVEemdXRjBkYUc2Zk1FYTQzX3cyUEcwZXp4RmlqYzZhb0dsS2VFQzlUdFRGeWNjMGxKc2JnTkQ2OGYxNVk0WDBhRGh5amgtQnVkc2RaeURrMDBmOXRSdFEyZV80OHo0M05jX2FCc1lNOXUyVlE5bktvZnBJZw?oc=5"
-   ],
-   "points": [
-    "Bank SMBC Indonesia (BTPN) berencana menjadi perusahaan tertutup dan mencabut pencatatan seluruh sahamnya dari Bursa Efek Indonesia.",
-    "Rencana RUPSLB terkait perubahan status sudah disampaikan ke OJK dan BEI pada 19 November 2026, sedangkan pengumuman RUPSLB dijadwalkan 30 November 2026.",
-    "Manajemen menyebut langkah ini strategis untuk arah bisnis jangka panjang dan menegaskan rasio kecukupan modal 30,7% per 30 Juni 2026.",
-    "Dirut Henoch Munandar menyatakan rencana investasi, ekspansi, dan layanan nasabah tetap berjalan selama proses go private."
-   ]
-  },
-  "0ca35b8abd40": {
-   "title": "Kian Santang (RGAS) Raih Kontrak Rp 72,68 Miliar dari Pertamina, Ini Detilnya",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQkJkb1RmMGhvdXJJWDU3ZTRtVHR1Tm03bnFOVGlGQ2cxTTRsVzBjZ0s5WkNQWGxvSUlCaG81c1QyUmNGM0MyWkJwbVViQjJKaXlRNDc1b25RMzdndkM5OThVMy02N2FhYm1ZcVFIejhKd0ZKNEF0cEZ6eVhjZTdWUjJCTzVIeWNCaDliNHotSXBKMU1ZZ3FwU1l0d1ljRE0yYnA1TU9lbHNZNTZKMEHSAaYBQVVfeXFMUGZNWXJjWHF6dkVRNmhRYmg1eFJDZU5GYkN4QzJ0bkV4Wk53MXVablB3Ylp3QkR0aFlIdTBQdW5aSC10ZVhsSlN1RlZsdGoxQ0NVeXZlYm9zRmFBMEtyZ1NndElneHJWcXBKTnNHZ3U2NkpCaVhwNWNtREduMlE5TjNuLWFnWWZFSjBlbFBNV1F5REdqQ19jeXV0WTYtM2hZRk5NZmxOdw?oc=5"
-   ],
-   "points": [
-    "Kian Santang Muliatama (RGAS) memenangkan dua paket pengadaan dan distribusi paket perdana LPG untuk pompa air petani dari Pertamina Patra Niaga.",
-    "Total nilai kontrak Rp72,68 miliar sebelum PPN, terdiri dari Zona 1 Rp35,17 miliar dan Zona 2 Rp37,51 miliar, masing-masing dikerjakan 36 hari kalender.",
-    "Nilai kontrak setara 69,95% ekuitas akhir 2025 dan 30,62% pendapatan 2025; pendanaan berasal dari kas internal dan/atau fasilitas bank.",
-    "Surat pelaksanaan terbit 25 November 2026, dan saham RGAS ditutup naik 1,56% ke Rp65 pada 26 November 2026."
-   ]
-  },
-  "95470b184fe0": {
-   "title": "Hypefast Tahan Rencana IPO, Pilih Pantau Kondisi Pasar Hingga Kuartal II",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZFSzNieTMtVUJ0MnhneUYzWmdIVTBuVnlqN2tHMkhPOEtCQTBwT2tyNmdtcHBqM1FYTUI2WGwtcm53a2lpUTRyS3p0V19jcndnV0VCcFNTTi1EN2xqeHFPanhDcXdsOUlOVXF5QVVvOVhBSWFOamk4aTAyaFlUT3hpbWQydUtMcVljczlfc2NiR1JlUWY2UzExRC1uV0g3WFBvM2otNjZPRlnSAaMBQVVfeXFMTTVYU0YwQkl5UUlrdVBnVDljNHVnb2VKT0ZELU5sLTg2Zmt3SzJ0TzkwVWlRWkszcS16dkI3MDA1aFRaU2s5STdtbW4wS0Y5UmNXMk9mVUtzRnNuWVlIMnhRanVlckZkT01ZeVdScDAtdjNfTVg1bE40WjlKdktDWUVBTDE2WG9LaVVzSS0wZ3VpWUtjM01aU1RkamJldmtnQ1JhQQ?oc=5"
-   ],
-   "points": [
-    "Hypefast, perusahaan pengelola merek lokal, menunda rencana IPO dan belum menetapkan jadwal pencatatan saham di BEI.",
-    "CEO Achmad Alkatiri menyebut listing mungkin terjadi pada 2027 namun belum pasti, dengan evaluasi kondisi pasar modal dilakukan pada kuartal II.",
-    "Perusahaan ingin waktu IPO memberi nilai optimal dan memperkuat cerita investasi lewat ekspansi regional, seperti Luxcrime yang sudah masuk Malaysia dan Singapura.",
-    "Tiga merek lain, yakni Bohopanna, Cessa, dan Nyonya Piyama, dijadwalkan menyusul masuk pasar Malaysia."
-   ]
-  },
-  "666420c2fdd6": {
-   "title": "BFI Finance Siapkan 70% Laba 2026 untuk Dividen, Ini Perkiraan Hak Investor",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGZPR2h6Qm5DMEM1cWZGQzZOa1NzYlNnQS1DWG41NEViM1dtS3dtcDUwSWhDcGNWamt4dE1tRG9pRWZ4LUIyblJVUC1UbWR0aU9NT2FWcDE4OXQ2ZFhtR2FLSXczekpwZnpzM2RLaGlmTXRaVkVrUWFUQjRuZ0JaRWRpT1FkTlJ5dWVkRFE5Ukx4bDZNamJXVHZYdzdXTU8yNV9qVmhSVGxtbWh40gGmAUFVX3lxTE5uZV9GMnh4UnlLRTQxVzFQY0VreUVTOWdudi01NmFMWnVoVmhqRndtWEQ4Y3h2ZXNUdEk1Rk1nVWJiaEZlcUpoc2lHMDJHVTIwbVNLVDVEcTR5QzFHXzA1WkNsQUxRdThLOGNfbWhSNk1ucDV1M2dwQWZzWGxmMUxjS2l1cWVuQnIza054OU1BcGhRWmU4NGlyYzRRbFF2SU56WW1GSXc?oc=5"
-   ],
-   "points": [
-    "BFI Finance Indonesia (BFIN) menargetkan pembagian dividen sekitar 70% dari laba bersih tahun buku 2026, menunggu persetujuan RUPS.",
-    "Dividen interim Rp35 per saham memiliki tanggal cum 30 November 2026 dan akan dibayarkan pada 17 Desember 2026.",
-    "Laba bersih hingga kuartal III 2026 mencapai Rp1,3 triliun, tumbuh 12,5% secara tahunan, dengan NPF bruto 1,3% dan neto 0,2%.",
-    "Perusahaan menaikkan rasio pencadangan menjadi tiga kali NPF untuk mengantisipasi risiko kualitas pembiayaan di tengah daya beli yang belum pulih."
-   ]
-  },
-  "c75f1a0326fa": {
-   "title": "BTN Bayar Bunga Obligasi Rp 5,72 Miliar, Ini Rinciannya",
-   "at": "2026-11-27T12:54:06+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdEFCVWhsRkJxN2NkcmV1UEpvSVY0R0ludXF1MFp0WFExcnBpaTkwb3g4QkMtME9qVzkzcVBtMGtIaW93Qk5UZ1lQeHprZ1lXR0pHUDZCTmJuV0s3N0IxYjBEcU1sYWFQTXJCb1JVd2Q1dGE0R2oyX3dqNDNEelp6YmpIdE5MUWwxQnB4S1JoaXFWZ9IBiwFBVV95cUxPVzJUWnhWYnV2UjFQWjBDamJPeWdoMDhzcDBxajEta0tsZTBaaUxuVGFWNTMxR1hiVmo0a0tiOWV4eFpsX014alVYLTJQSFRUYkdxb0hwSE5Zbi1xX1FkZENvUWFFYURudUdmVWV6bmdDNktxdG1YdjZuUU9XbXQ3UnJ1YTlQS0xrazQw?oc=5"
-   ],
-   "points": [
-    "Bank Tabungan Negara (BBTN) membayar bunga ke-18 Obligasi Berkelanjutan IV Tahap II Tahun 2022 Seri B kepada 22 pemegang obligasi.",
-    "Bunga bersih yang dibayarkan Rp5,72 miliar dari bunga bruto Rp6 miliar setelah dipotong pajak Rp283,5 juta.",
-    "Seri ini memiliki pokok tercatat Rp400 miliar dengan tingkat bunga 6%.",
-    "Pembayaran dilakukan melalui KSEI pada 24 November 2026 dengan tanggal pencatatan 18 November 2026."
-   ]
-  },
-  "e1b24d7a5905": {
-   "title": "Krakatau Steel (KRAS) Raih Pertumbuhan Pendapatan 36,5%, Berbalik Laba",
-   "at": "2026-11-27T13:52:12+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY1dZWmtfLXY1Z0JTZi00aXNrUlozc1h1ejNNRDdhaERTWDZ6LVpFRWgzaHlqZnV3YUMweE5URHk2Ry1XZVZCRmdkWG1vbGhjZ1JIQ0lSOUppYV9NcGV1enUyY25NVE1HdHBCVGExQzdIZHZmTjlqdEIzOHlYaFlESFpZdVRzdjlQM2VaLVJtSWNCc0ctd2RTWDA0VXdQZkNkS01WWldodjY2TDlwYzVqbDVWMDJzWDVo?oc=5",
-    "https://www.cnbcindonesia.com/market/20261127100926-17-788971/krakatau-steel--kras--cetak-laba-rp115-m-di-semester-i-2026"
-   ],
-   "points": [
-    "PT Krakatau Steel (KRAS) membukukan laba periode berjalan US$6,31 juta atau sekitar Rp115,89 miliar pada semester I-2026.",
-    "Capaian itu berbalik dari rugi US$105,38 juta pada semester I-2025, sementara pendapatan naik 36,5% menjadi US$609,21 juta.",
-    "Laba kotor naik menjadi US$71,01 juta dan biaya keuangan turun ke US$48,31 juta dari US$70,24 juta.",
-    "Laporan juga mencatat keuntungan selisih kurs US$32,08 juta dan keuntungan percepatan pelunasan utang restrukturisasi US$27,19 juta."
-   ]
-  },
-  "5756630c573a": {
-   "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen",
-   "at": "2026-11-27T13:52:12+07:00",
-   "urls": [
-    "https://www.idxchannel.com/market-news/bwpt-tawarkan-obligasi-dengan-kupon-hingga-12-persen"
-   ],
-   "points": [
-    "PT Eagle High Plantations (BWPT) menawarkan obligasi dan sukuk mudharabah berkelanjutan senilai total maksimal Rp550 miliar.",
-    "Porsinya obligasi Rp175 miliar dan sukuk Rp375 miliar, masing-masing tiga seri dengan imbal hasil 9,5%, 11%, dan 12% per tahun.",
-    "Sebagian dana obligasi, Rp102,67 miliar, untuk melunasi pinjaman bank; sisanya dan seluruh dana sukuk untuk modal kerja.",
-    "Masa penawaran 27 November 2026, penjatahan 30 November, dan pencatatan di BEI dijadwalkan 3 Desember 2026."
-   ]
-  },
-  "96d977bbbc4c": {
-   "title": "Ekspansi Armada Emiten Pelayaran Dongkrak Prospek, Intip Peluang dan Risikonya",
-   "at": "2026-11-27T13:52:12+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcWgzaldhVHRENndnbl9lOTNnMkhITGpJWFY3WS1NY21UQl82czQ1U1c1N1hGdGJLZWtpdTBPSjMySDRfaENfZk1GT3dWMEtpdE9hWm4zLXMwMkhlMlZVR3hGV2xWR2d3V3B3cWRNdWtXUC1BWUZPekNKTDhnWjNaY2M1X0NCY2h1VDk4dldENHpWV29hdUowNFkwN3B2a3NteEZkMGpJV3RtOFBHVVhQbg?oc=5"
-   ],
-   "points": [
-    "Sejumlah emiten pelayaran menambah armada, antara lain Humpuss Maritim (HUMI) yang berencana menambah 8 kapal tahun depan dan Samudera Indonesia (SMDR) menargetkan 9 kapal.",
-    "Prospek sektor tahun depan dinilai cukup positif seiring naiknya permintaan angkutan laut, terutama segmen offshore, LNG, tanker, dan komoditas."
-   ]
-  },
-  "55091c6547c4": {
-   "title": "Bos Danantara Ungkap Alokasi Sisa Dividen BUMN 2025 yang Tak Disetor ke Negara",
-   "at": "2026-11-27T14:48:19+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR3BJcUhtd1hYZ3lacWhNc21JMnlwaXl6Q0pvdTRtVEg4TkM4MmVad3E2cDA0WWprSVUwR0ZocENSUmtveDVFUTRoVFZEZV8tdmlJck16ZXpLMXYycEVwVEwwMmZEV21ZcjRWbmdsdDZyLVJRVVNmOUVrOHgwejEyRXJ5UHp2QzlXMUk0QWFac2RaTnFiQ1lqT2ZFY3FxckdKNXdUTi1FOEpWMXlobHpaOXM4OUZNZ3JUY0RNbnNEbXA0bk9PVDIxbnln?oc=5",
-    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVGlITi1mdFh6YllYSHdBOGNNRzMtZXlyRm5MRkh2UE1rWWhWYTdMY01uWXV6d1ZxUWJfd2h4RjI1Tkc4U0NNYnpLM09MMnhtWVA2WU5raU50RVMwRmFROENsRHVadmdYY1k5MmdwYnlDdXlNOTZoZUZ0XzJ4bGM3MTBOVlM0WG1zUXVEWmQ3NUtyUVRDUHJIeFpn0gGTAUFVX3lxTE5vNEdjY1FrUlpnUUFyQ3hSZG1pTkthdS00ckIxVmJ3ZlZJWWw5V0puY1dWdW1IY3B4Um5UaUhTa2c2bnNNNlozZ1N5aERqV0NWblotZGZkcXZjZ0M1VWw0V2xjb2V0NU43STNXOHF4UW1MQjZVRTdiY0hILWpwWG9CeHRiSGxySXRZd2hPT2dSOXJmSQ?oc=5",
-    "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2NIMXlTUFR2Sy1iLTdSQWgxelZ6d2RyVnh2OFM2dng0SDMxWFR2TUprUTFsX1MyM0YwLUNjdGM1cGNyelphcmdDWVdlcmhBN1RlWXJSOGxfeTBnZ0VJX0NBSXBxaGVBYmZUSmpxU3ZsbGJtSTNzWkllc1FmR3ZsWTRsb3lTc1QtZ3IyeXBWeTlBbURrUFY0dFk4MU56R3dGTFNkbi1DNlozWGxDN0d4QWs5cGxWemRBeUVLWUd2Zw?oc=5"
-   ],
-   "points": [
-    "COO Danantara Dony Oskaria dalam rapat dengar pendapat dengan Komisi VI DPR pada 26 November 2026 menjelaskan mengapa setoran dividen BUMN ke negara tidak besar.",
-    "Menurutnya Danantara tidak meminta penyertaan modal negara (PMN) sepanjang 2025, sehingga kontribusi BUMN perlu dilihat juga dari setoran pajak.",
-    "Setoran pajak perusahaan di bawah Danantara naik menjadi Rp567 triliun pada 2025 dari sekitar Rp480 triliun pada 2024, atau sekitar 18%.",
-    "Danantara memilah BUMN untuk likuidasi, divestasi bisnis nonInti, konsolidasi, atau restrukturisasi keuangan, dan menargetkan kontribusi naik lagi pada 2026."
-   ]
-  },
-  "2a9bb8479908": {
-   "title": "Nusantara Infrastructure (META) Mengandalkan Pendapatan Jalan Tol",
-   "at": "2026-11-27T14:48:19+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMmVfZncxbk5LdXdsYW5RUnJLbHdJWTBsTHlRUUUyVkd3WUFCTGs4aWQ2UXBFc0JkTVA1bE90UXpydWNfamo4Rk5VYktfcUhmRHp5UHVISFJYNDhMSUV5S2N3WXFWQ2JfWHJjZlpSeXkzb2Joam5BOEQ1eUpaSGVydFVMVmNlN0oyamx3bEpsVTU1TGVQbGYzTHEyY0k?oc=5",
-    "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WR1lUVDVnWUdSSUtJMDZveWxpS1lLM2o0T0pGZGtNMVdoOTdYbm10eVM4SUFGdlZwVVFDSV90Q2JwRWVxRnQ1NFNlUERkcjEtcWdSWDdtQXRnR2ozaGFQaTRDb0ZaQURoanZyZ2Vn?oc=5",
-    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDVBQU9KOU5reDE5ME4xSl9nYjI1TDFVWGd6UUFReG45OENCc18wNUZwaEZTNUZlaTBIZ01CLXVyRmtVOGJWbjFmbUFTeVpSTGp3UktuWmd2VFJzaWJsclhBOHVRQi1FdERnVG1EcGpJVjNtejQ2V2hDZW5BaUl1SmUxM1VkWi1IcHVyQmQ4TXlZZS10SmlBR1FZRExEMV9wNTlz?oc=5"
-   ],
-   "points": [
-    "Nusantara Infrastructure (META) tetap mengandalkan jalan tol; pendapatan tol proporsional hingga September 2026 naik 6,03% menjadi Rp1,4 triliun.",
-    "Kenaikan ditopang lalu lintas rata-rata 1,36 juta kendaraan per hari, naik sekitar 2%, serta penyesuaian tarif ruas Semarang–Batang dan Solo–Ngawi.",
-    "Laba bersih hingga September 2026 turun 12,05% menjadi Rp73,6 miliar karena pendapatan energi terbarukan anjlok 16,42% dan beban operasional naik.",
-    "RUPSLB 26 November mengangkat Francis Gerard E. Aberilla sebagai direktur; META juga membagi dividen interim Rp3,5 per saham dan menargetkan desain JORR Elevated rampung semester I-2027."
-   ]
-  },
-  "1aff24ff367b": {
-   "title": "Trump Ancam Tarif Baru Untuk 14 Negara, Begini Dampaknya ke Pasar Saham Indonesia",
-   "at": "2026-11-27T14:48:19+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcDFGYWVtRlJaUFJ2Q2sxWVNnckF4X3hNRFVIVWptNWFLdnVrV0d6WW9KVzBmLXhWdHVkcWc5OThWU09va2JMT3FyXzRaRHFNSlloY29CMHh1NkZoTkNTak8tcmlDaTZMSW1EYVRrZnVfaWE3YjA2M0pCTkdOcUMzTXBDLVBiNGRqYjR0d1hQc1JxN29LWV9OcG5XM1NkZGI3aVZfZi1XWXRkWFRoZy05cUZISFlYRFnSAa8BQVVfeXFMTkZtcEZLSGRBSnE3TU8xWV9XMW51cWlYTG5tczFIUnZTVi1QeEJYZ3JmVzZUVVl5VGZEQVB6dE1IUEhFTDFBU2NTaXAxWWVKS0F3cXY4blJhQjYwZ3RHREpxdTFYT2ZMbXFqNkhHY2JsWVlsMlNHODVBeXlMZUs2MEJWbUhReUtJUzFWOGU5NlRMS3hwdWxfcC1oanh5SThXTEJaZEtVcjNTdDFWNl9nNA?oc=5",
-    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1BhLVZqMmxoTDNRWnljUnhoUnE4UEJ3MnZvX0xOS0ppNXFmMjJzT2NQV0NHeTNTclctMG4ybHFaU0dkOERLR3hyVnF6RXg0RER1dXFYMzlhdHpxUGsyUEpWZm1uV0RpWG9idVFOSUpHek9KQnBfMW9DSTVRUGhCT2FTSlhVV3pzWl9fd0RSS2ZCY1FPMzNxVzUwNmMyZ1RSSmgtRUlWeGQ3Z9IBogFBVV95cUxOSHdMTG5kc0kzd1FmbjltZElEMGFyNDhaVm1nUmJ6ZDlZNFdnbGRRemJ6cWlzZXhpaDAtLTVaMUFNclBQeDAxRTEzb3AxNktfYjRHMktFb3Vub002MUE2VW1Ia0o1RlM1ZW5xT2JGa2dJaHJXcVRfTlVoUy1VaFg4RjE3RVFJR3oteTFsT1NTRTFWTkd4Rno5NzhrOXZQNUlrY0E?oc=5",
-    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc1lqeXdFSkt2MTBzSjBEemZJQkVOVjN5Z290cXVHX2FPa2tLeWNIUUUxNlBmVVNteXhKMlNvUEhMRGs4QTUwWXJMb3pHTEZrWFZwSWpkZThmZ1JCQTBVZkd2YmVwOFprUjZ5UzM1cEJtVnBRcHVoZmZXZFpVcVpRYWdNTjNCSS1hQW1WRFpQbUNJbzFtVVJQeExGejlHVEswMlRvOWlvYWY?oc=5",
-    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU2d0RVRrc1F2cGlKUVYyYjVHUWJEMFpnUWpoWUdPV1NqT1ZPcUE5Slp3VlV3dW51R0NfNnpUWVU4Qk5HWUlvT3V1VFVTbEl6UW9FenZvSjk0ZGFkWl9DMHdMZW9pNkZZTmZmUjIweGhKcVhlQ1h0cF9mWWhySUNhTVVOdG5lSk5nellfM0NxZGJabXJNTmRkdmdOeE5rcmtiOURhRGdqZEM5TGJVMW9IWEpmYmQ3WEtPdGVUanBzY3JwZ28?oc=5"
-   ],
-   "points": [
-    "Presiden AS Donald Trump mengusulkan tarif baru untuk 14 mitra dagang, termasuk tambahan 18% untuk Indonesia dan 20% untuk China.",
-    "Usulan itu belum final karena masih harus melalui proses Section 301 di Kantor Perwakilan Dagang AS (USTR).",
-    "Pada 26 November 2026 IHSG justru naik 0,86% ke 5.242,17, sementara rupiah melemah 0,17% ke Rp18.264 per dolar AS.",
-    "Analis Korea Investment, Mirae Asset, dan RHB menilai dampaknya lebih kecil dari April 2025, dengan risiko utama pada ekspor, rupiah, dan limpahan barang China."
-   ]
-  },
-  "2ac0b16ba9e9": {
-   "title": "Danantara Aset Management Bukukan Laba Bersih Rp 259 triliun pada tahun 2025",
-   "at": "2026-11-27T14:48:19+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNFNsZkhNcVh6RVc3ajVmZXd5SlRFb0RwNFhqUFJVZFZZVlRydzB3TGVfaUdlN1dNZFVZSjVZd012UnBNNUVYdTNISDJ1QVdBbmpjV1p1eFB5VXdFUWRNaW40Y28wZi1UcXRDVW5hMnllWVl2c2VfdWFvdXJaNXpJX2lPZEVjZjQxSEtyRHlXOFRlZkxvekt0STRoU3hmQURQeEF2S1VaWER0Y0hic1R0ddIBqgFBVV95cUxQUzdydjNNUW1reTRzSW8xUF93Q1cxSnhOTEM1VWxIaHZmN25lMTBVSjRTMEtmeE5hbVJuLUJQd0o2OFJwc2YxTnpCWnltMlhqZDVoN2Q1ODdkX01TdVpNZ1JYQkpaNXEwaVRBdkF1cVNWWXQxcXBzdGh5ZF8yaVNUc2RvWFlQdHJLQjA1dkRkYWhTcW1KMUFuVDlsLXY3Zlh3c0pWYWl6MnplZw?oc=5",
-    "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRjMzektCdlVWaTlRYkIya296YjlfQm9wZXBDQmRNOXNqLXp1a1NaVzczaC13dTRFWHhMNDRDcHN2YllQd1NOendNREw5eVpVTU53enpFdFNkV0tTN1pkTUwxcGNXR2pCYXY2UnUxSmRnX3RkR3ZDQ2U4Nzg2ZTc5M0xtS2tkOGx5N1JDVWxndDh6TDdVbDhORDA1YVR0bk9QaTlrenlCd2c0bGN1cXVNZ0QtQjPSAawBQVVfeXFMTXJ1QjhuLWZKbW51SGY2azlkTjk3RlpzY1ZrWktIdnVQZnVwOFNRMUJWVk9MUkxZcjZ4SnpxYWxxSFJBc2E0cW1yQTNRSEd0cXNqaDhhWWpSZHV1MkxoOHdyRW9CeC15M1pjdmV3LWlrdFhrMUtudDNZQ3RGYVhhZG96QlNRQmJQcGVob0o3OVhlOW94aU1wOXduVERkMTd5NC1EelJQUnlzZ2tibQ?oc=5"
-   ],
-   "points": [
-    "CEO Danantara Rosan Roeslani pada 25 November 2026 mengumumkan laba bersih konsolidasi BPI Danantara 2025 sebesar Rp259,6 triliun.",
-    "Angka itu proforma 12 bulan yang belum diaudit; laba teraudit periode April–Desember 2025 tercatat Rp203,4 triliun.",
-    "Pendapatan 2025 mencapai Rp3.073 triliun, EBITDA Rp704,7 triliun, dan total aset akhir 2025 Rp11.607 triliun dengan ROE proforma 8,7%.",
-    "Laba terkonsentrasi di BBRI Rp57,1 triliun, BMRI Rp56,3 triliun, dan Pertamina Rp55,2 triliun, sedangkan ADHI mencatat rugi Rp5,4 triliun."
-   ]
-  },
-  "81d72e645b89": {
-   "title": "Vastland (VAST) Bagi Dividen 37,4% dari Laba",
-   "at": "2026-11-27T14:48:19+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pdlJ3eTFqZ000QVBZSS1VOGJKZXlxQTh5TmdWVTNreUZQOXVVWjBfd0puZTZqd2hRcXRlYW1uZW1kTnJLM0gwZXBJS1VzZVhxczZMazdNWWhCcWRFSFNWLWtKVHJWSFktOFU3NjM4MEhwZC1YemliNnUyZ2tRLUE?oc=5"
-   ],
-   "points": [
-    "Vastland Indonesia (VAST) akan membagikan dividen interim tahun buku 2026 sebesar Rp5 miliar atau Rp1,64 per saham.",
-    "Nilai itu setara sekitar 37,4% dari laba bersih yang diatribusikan ke induk per 30 September 2026 sebesar Rp13,37 miliar.",
-    "Cum dividen di pasar reguler dan negosiasi jatuh pada 3 Desember 2026, recording date 7 Desember, dan pembayaran 21 Desember 2026."
-   ]
-  },
-  "f7498fcaddfd": {
-   "title": "Aset Rp11.607 Triliun, Seberapa Kuat Fondasi Keuangan Danantara?",
-   "at": "2026-11-27T15:52:16+07:00",
-   "urls": [
-    "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQnBDQnRCVG1Pd1A2TVFlT1BHbDNWNjdkUk5SV2Fac2E0eGhNRU5lbHVBSS0wT1lFSFE5Rl81X05EQUZRNzVUREwzZFgwZGE2QWlUeVZrWDJrdzFLVWpXb2dZUUxueDdzNEo4b3JldVZYYksxbXZOX0x5QkQtUG44VnZ3R1E3QXVHUDVHUFlBX2YxMElraHkzRGFpUDJ5cDBVNHRYWnFrNmRPVlgzNl82QnR3?oc=5",
-    "https://news.google.com/rss/articles/CBMingFBVV95cUxNWldLOUxRbFF5bExOeXJ3WnBta0xPTDJGTUQtVEVsUU5KdHBYdENKR0JsNFVOX0taWmJ3LUZFSzVvWHVZbnV5VlhNbDVWOTdoSFFNUDRIanZzRXJaMlJRNjk4d2I2MllubDFteFAzaHJ6NjBfdjQtMGhhS3pVYldfZmJNSkVNTm04ME1YYk5OZzBPdGNzYmx4QXN3aERMUdIBlgFBVV95cUxPUVUyQ3JEZDVudTRQcUxGZTMyOGdtTzFMMm53MzVmUmllaFMydHA4Q1JiLTZwb3NLT3cyNkJ4Unc2RXZqT1lfNEVETmZLYV94LUIycnAyRGllUk9rNGdBRzJXRHZycEFhMC1nbzZJYTVNaGlTVkxuWE9kcHZZR3RkRkFzZ2VUMmpBaG9Iekp0U3VxUS1WU3c?oc=5"
-   ],
-   "points": [
-    "Danantara Indonesia merilis laporan keuangan konsolidasian teraudit pertama yang menyatukan seluruh portofolio BUMN, dengan total aset Rp11.607 triliun per 31 Desember 2025.",
-    "Untuk periode April hingga Desember 2025, Danantara membukukan laba bersih Rp203,4 triliun, pendapatan usaha Rp2.385,2 triliun, dan arus kas operasi bersih Rp563,1 triliun.",
-    "Rasio utang terhadap ekuitas tercatat 0,54 kali, kredit dan piutang pembiayaan naik 7,2% menjadi Rp3.998,9 triliun, serta investasi surat berharga naik 11,1% menjadi Rp1.485,9 triliun.",
-    "Angka aset itu kini jadi acuan resmi setelah eliminasi transaksi antarentitas; selisih dengan estimasi sebelumnya disebut berasal dari basis hitung, bukan aset yang menyusut."
-   ]
+  "merge": {
+    "09620449a136": "2a9bb8479908",
+    "3de048f10837": "1aff24ff367b",
+    "da501901101b": "5efb24c17d83"
   }
- },
- "merge": {
-  "09620449a136": "2a9bb8479908",
-  "3de048f10837": "1aff24ff367b"
- }
 }
