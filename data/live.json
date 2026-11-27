@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T04:19:05+07:00",
+ "updated": "2026-11-28T04:31:05+07:00",
  "window": {
-  "start": "2026-11-27T04:19:05+07:00",
-  "end": "2026-11-28T04:19:05+07:00",
+  "start": "2026-11-27T04:31:05+07:00",
+  "end": "2026-11-28T04:31:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 186
+   "items": 160
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 89
+   "items": 88
   },
   "Investor.id": {
    "via": "google",
-   "items": 120
+   "items": 118
   }
  },
  "prevAt": "2026-11-28T03:45:38+07:00",
@@ -1011,28 +1011,6 @@
      "time": "2026-11-27T11:15:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMVFDMzBfWFNyTy1qU2k2WHdlOUlMM0RMbG0xRlQzR3dOMXp2ZnUtZXZyT1k2YU9IQXpBcV94R1ZMZGVGbDFYUUxyMTl1UDM1U24zdEFHRGZxS2J3Vmg4YmZ3Y005ZHNUYnFaekllaHR4azhnVVdiMklxaWRQeTd3amd1R1dHT3hEOGgxQzV5dnFLODR0MU9RUzc5b0QwdzZiaXRFRVEwVklxelRIdWxOSVZvRXY0ckZV0gG-AUFVX3lxTE0wcXRiRnBIOVFYZ1Jrcm1DTFBQV2E5VlRzYV9xSFk0Y2Y1TU10MGRocFdqR0FIdXZRWnVIVjZ4a2l1YlRnOGJrZHUwSE9VYlBZS0lZSjRDTVJpSHBXaGNnemJZLUptWU9PaXVsT0dKaGJHMFNmTGR5aDNmSU9NYjExSUNVYmVSWjNfUVpRMHBiaEViVlVLOFJZeE1WQzFpNU9ycXFQeTdyWHlJX2JGdEVtblByam8xZVNZQUZ6TGc?oc=5",
      "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah"
-    }
-   ]
-  },
-  {
-   "id": "fad637304895",
-   "title": "Bank Kecil Berjuang Menjaga Likuiditas di Tengah Persaingan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T04:30:49+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUmhKaUg1anE3cXctMnhIRjBjd2k3U2JZc3I4NEpOVHBCMTRyRF9Ja2JyV1REdFp6MjJRNzkwMVlDS1RtWjRGaHdBanNmSWJDdXo5T1pTOGxPaThxcU9ZWjd6N2xoYmFTTG9qY0xfQW8wWWJsZFNHZklkdzdJeU1FTHg2Ujh5cnBkcEV6T1lROTQ3cFQ5aW9INWh3?oc=5",
-     "title": "Bank Kecil Berjuang Menjaga Likuiditas di Tengah Persaingan"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T05:30:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFA3MDd1dFFjRzlNZTV2amh1ZjRqeW9KaVRJdzBMazVjR3lVZFNLWWh3YkxUYVpfM29WdTdqTTBKOEU0M2VmeGdPS3pEeFFmdm80dTRhN0FiNV9zQVp3TUJVTDc2eFlLR1RDOHhrWkZ2ZlpET0N0T0dFS3hEUUE2aEpMR2FRWjFWTlhjb2FZckxUQ0JvWThwTnZKWjNMVlp0blJweDlBSzRxS1V6UV9zYkRoTUQtUdIBrwFBVV95cUxOLVN6VjQwbVgwTnFGMUR1ZktoQzlvTmdoYkZzcEprYTV0TEEyVFh1YXRPOGhiNnN1cU1qbFVuREpoVTBDYWFSV1N5VXZjelo3RmZYVjVKcHVtY2RTQm1iRmJzeG12NFllaXY5a2VQODJDbmpTejlmc3ZvV2c2d3VnT2R5SHBVcURTR21rSDVJZkVzTUNCb0tZTnM4LXpoeDhzRkp1OHVjX3FNMVpFek84?oc=5",
-     "title": "Bank Kecil Genjot Dana Murah untuk Menjaga Likuiditas di Tengah Persaingan Ketat"
     }
    ]
   },
@@ -3680,6 +3658,22 @@
      "time": "2026-11-27T05:30:07+07:00",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1Z1bkVCZTFBalF0dWF2a3ZqNG5EMVpPVzF0bm9LM0ZjU2p6bzNPLTdkeFhLWlkwbkZNbnliVXQ2XzN1MC01T3BPbjZYUU51cGNYMkkzX1BET21sLVFfcXhCNTk4Y3JzQkc4TjE3TDNDSG9Dc1g0Nk9zT25FZjBvcnJtV2FfYzA?oc=5",
      "title": "Bank Makin Doyan Parkir Dana di Surat Berharga"
+    }
+   ]
+  },
+  {
+   "id": "0e0e34b3c9a6",
+   "title": "Bank Kecil Genjot Dana Murah untuk Menjaga Likuiditas di Tengah Persaingan Ketat",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T05:30:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFA3MDd1dFFjRzlNZTV2amh1ZjRqeW9KaVRJdzBMazVjR3lVZFNLWWh3YkxUYVpfM29WdTdqTTBKOEU0M2VmeGdPS3pEeFFmdm80dTRhN0FiNV9zQVp3TUJVTDc2eFlLR1RDOHhrWkZ2ZlpET0N0T0dFS3hEUUE2aEpMR2FRWjFWTlhjb2FZckxUQ0JvWThwTnZKWjNMVlp0blJweDlBSzRxS1V6UV9zYkRoTUQtUdIBrwFBVV95cUxOLVN6VjQwbVgwTnFGMUR1ZktoQzlvTmdoYkZzcEprYTV0TEEyVFh1YXRPOGhiNnN1cU1qbFVuREpoVTBDYWFSV1N5VXZjelo3RmZYVjVKcHVtY2RTQm1iRmJzeG12NFllaXY5a2VQODJDbmpTejlmc3ZvV2c2d3VnT2R5SHBVcURTR21rSDVJZkVzTUNCb0tZTnM4LXpoeDhzRkp1OHVjX3FNMVpFek84?oc=5",
+     "title": "Bank Kecil Genjot Dana Murah untuk Menjaga Likuiditas di Tengah Persaingan Ketat"
     }
    ]
   },
