@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T17:20:10+07:00",
+ "updated": "2026-11-27T17:23:10+07:00",
  "window": {
-  "start": "2026-11-26T17:20:10+07:00",
-  "end": "2026-11-27T17:20:10+07:00",
+  "start": "2026-11-26T17:23:10+07:00",
+  "end": "2026-11-27T17:23:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 160
+   "items": 159
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -1888,22 +1888,6 @@
      "time": "2026-11-26T18:11:53+07:00",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRjlHRW1VMlJYUGRTeDhTbk9lcV9PdXloZ3NibU1GWjUyZG1kaFd1MFhOSWF3eDRBM2owM2l1Z3pMTGJDdWRoUF93ZUtoM1ZudXhiSU50T0lDVEdaTkdYRmh4RGdfY3BWMnpkUEYwTUdUZXpSSk1HM2IxVnNXbjFUbjZ4U3VmS3JmcEZwVjJxZGo2aWNiUWNHbi1DVjBBVmREN3J3cWY2Z9IBoAFBVV95cUxQX3RuS0p0NE5PSWJDTG1DU3NkYXlJQ04tTUc0OEVQUWZwcXVlU1AtUURGT0VZQkc5a2pnMTRZeFJ4Q2dZRXl2dVdfZUNfdlBhVl8wUk5lMHU0dWlheUhsNFJqMFpHTUpuMU5hWHRLLVhuTEdxVm92alBrb2pqTk9hZ1B4T1lfbTVtLS1STVNYWlpLVThUUG9BMDB4NzZha1Jt?oc=5",
      "title": "Pembiayaan Mobil Bekas BFI Finance (BFIN) Turun 2%, Aset Justru Tumbuh 17%"
-    }
-   ]
-  },
-  {
-   "id": "4b2cf21fe216",
-   "title": "Kredit Bank Digital Melaju di Atas Industri, Ditopang Ekosistem dan Ritel Aplikasi",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-26T17:21:20+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFdzMTFVMmdSU3k0V0VTRE1lYWRoZ3RqOTlLYlRfMUw2Tldsa19ENnlMcF9BczZTVE8xcFVETzdxa2hLSG5pQzNsWWo4d1ZJdkk4eFNKbEgzSE80SmtBTGhhZlkyemVHMDlKS1ZQc2FWRl9uSHVTYWxnSXU3bkoxREJWT2VGV0VsczJ1a2dSQi1HQzRtV2FVTGRaSms4ZnVtSEctOWNGZ1V4UFVrR2JUcllWcFZTVEnSAbABQVVfeXFMTVNCMzNHclI4NzNtcTcwUjF2LVN5UVVaemVDcVluUERtS1BsQU5MM3B1eWFCcUZKVm5CdzhxYXhzMERDazJNRVVVVU9zeHJkN05kci1ESURHY19qOFlJV0M5eWxieE1TTzU2dlJEd28tdTA3RUQ4T0JvWmZfeHBLNWd6WEhZM0RpZmNOWmRlUi1qdGZva3Z5aGd4cUxUWXhoTXlwbHQ1eWtLTHRpdGhfWVo?oc=5",
-     "title": "Kredit Bank Digital Melaju di Atas Industri, Ditopang Ekosistem dan Ritel Aplikasi"
     }
    ]
   },
