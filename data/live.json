@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-27T17:44:10+07:00",
+ "updated": "2026-11-27T17:47:11+07:00",
  "window": {
-  "start": "2026-11-26T17:44:10+07:00",
-  "end": "2026-11-27T17:44:10+07:00",
+  "start": "2026-11-26T17:47:11+07:00",
+  "end": "2026-11-27T17:47:11+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 159
+   "items": 185
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 155
+   "items": 156
   }
  },
  "prevAt": "2026-11-27T17:02:11+07:00",
@@ -1188,6 +1188,24 @@
      "time": "2026-11-26T18:21:07+07:00",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeXI5MnRxdkg0TWllNjRKYmlObGpHMTBFOTFLa09ya0VHQW1XSXNfZWt1M1h6bTdLSEVBQnlOUmlTXzI0cVNvX0ZmbkFWSFQ3NzVFMWFwd0hIZnR0YVdXdk9BSUVZYzNmZ0p6UExCdVlZMElJZ201NWlKWjRpakxnMWtzbUdDcjJFeWR3RHRLcjZ4Wk1HZjdXbVJMazBFUHNpd3U2a3ZR0gGfAUFVX3lxTFByU3k1b1ZobzI2bXNaUmhZMkxKbXJOS0tMeE5UeVB0LUZQSm9wN0x5TVJieC1nZDBhRWlvcW1WRXhIc1BvdmZkZXdsLWRZcDRKdVdkSnkzeElPd3k4UEtKNnFFMncyeXJMdDhKVG02SWswQXpGYk95QlFsQjJYS2JUM1BiUmszNEpWb0dQMW5DOXlkakRDTi04S2FCZXVZaw?oc=5",
      "title": "OJK Cabut Izin Usaha Koperasi LKM Agrobisnis Subur Lestari Sejahtera"
+    }
+   ]
+  },
+  {
+   "id": "7dbe91716ba1",
+   "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
+   "category": "Kinerja",
+   "tickers": [
+    "UNVR"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T17:45:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUdXajhQVmNISm5oemt6RVlZQmxTNmdfWDRpd1pKMkFYT3VJUTlONmZ4M3VRTklCNTYwVEdIMWNIN2cyaWhzcTBRV0RvWnJnb0xrdDZtMzVnRDNjelNheE9YLUNtNnI0Y04yNlJzVnVLVjNKRnhiM2hBdFY1VE8wdFlCV3FvOFpOT0REcVZUSHN4dXhKRTlkbEhCUU81dlE?oc=5",
+     "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun"
     }
    ]
   },
