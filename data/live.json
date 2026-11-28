@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T21:46:23+07:00",
+ "updated": "2026-11-28T21:55:23+07:00",
  "window": {
-  "start": "2026-11-27T21:46:23+07:00",
-  "end": "2026-11-28T21:46:23+07:00",
+  "start": "2026-11-27T21:55:23+07:00",
+  "end": "2026-11-28T21:55:23+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 58
+   "items": 57
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 67
+   "items": 68
   }
  },
  "prevAt": "2026-11-28T21:37:23+07:00",
@@ -1260,22 +1260,6 @@
      "time": "2026-11-27T22:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeklXRVBrUjlDN2pFdTFQS190dlRuUFBPSGJYeUlidVA5OFRMMGRHdnNKa0Y5TW5UT0RXTnZPdGxfMlVqQUNRZ2FfTFFuWHQzbV9PQ3dFR3ZocFR1dVlLbHVSRkFNa25hQTF2UFFtTUlmblVsQThuTHREVi1EOWwycnNsX2U2cm0xMjd3TnFWZGNGellTcFlldFlFcThRR05rMW9PWUhTQllRcFJiWmNmSE4xaWNyNEhxdVhNY2c2d0VNUEg1OHV3?oc=5",
      "title": "Pengamat Apresiasi Danantara Setor Pajak Tembus Rp567 Triliun Sepanjang 2025"
-    }
-   ]
-  },
-  {
-   "id": "45fe3e4d0e53",
-   "title": "Wall Street Menguat, Didukung Rebound Saham Terkait AI",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T21:54:26+07:00",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONlZlMWlicElQVFFQc2MyMi1UVC0wY2EyOV9uMDQ1akE1dWZtRmhWUEI1bTZFb29WVjNxaDYwdkpyRlpqblBtUDdUaVhTTkFVUGtqakNxbGNBUEdPRExLRk51ZWp4NnFLdUQ3dUtlODVzb2E1UmphSWpkUVFlWm5ZMmZqUXRraVRkSFFRWnVFRjdscmPSAYsBQVVfeXFMTmhqQXdnTnJIV09vNzlyb0RzOFZndmVNenV2WDk2YW05amRuMm0xX25EY1VFeGZ4bXNsWGlrTm0tdHhCU0ZlTnBaTnhXekV5WDZDYzd2cGZNbHdVY2tnNlRwQWZBSGJ3Q1NWb3ItYkZsLUNGbDhpLXdQd3ZISnRUd0NyTVlaOTBRcmw5MA?oc=5",
-     "title": "Wall Street Menguat, Didukung Rebound Saham Terkait AI"
     }
    ]
   }
