@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T20:48:57+07:00",
+ "updated": "2026-11-28T20:57:56+07:00",
  "window": {
-  "start": "2026-11-27T20:48:57+07:00",
-  "end": "2026-11-28T20:48:57+07:00",
+  "start": "2026-11-27T20:57:56+07:00",
+  "end": "2026-11-28T20:57:56+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,11 +37,14 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 70
+   "items": 69
   },
   "IDX Channel": {
-   "via": "rss",
-   "items": 10
+   "via": "google",
+   "items": 20,
+   "errors": [
+    "rss: HTTPError HTTP Error 522: <none>"
+   ]
   },
   "Bisnis": {
    "via": "google",
@@ -49,7 +52,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 58
+   "items": 57
   }
  },
  "prevAt": "2026-11-28T20:30:56+07:00",
@@ -159,6 +162,12 @@
      "title": "Laba Bersih SMF Tumbuh 31,71 Persen, Jadi Rp569 Miliar hingga Kuartal III-2026"
     },
     {
+     "media": "IDX Channel",
+     "time": "2026-11-28T13:10:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM3J1SUp3MUYxZzNwVFQ4UDgxb3VoME03LXVFNjA5ajhqWXFvSmlXNTJ1QnBFeGhDc2piOFlsMUVWYTBZcVFWU3o2Y3BfdXJaNnlOUzBHbG5VQThybkJ0Z2J1MDhUNmFzN0pnVzNLWUNIVFFabnlqVklWc0FWMlBfWmZ4eXdNSENTcUxucEUyeXlLczFkTU5XemZGMTBQV0NaaEdQR1BCd3BNcUxfUzBSMmpaN2U5QdIBuwFBVV95cUxNZ0VIX3U3c1k3Wk95aFNJS1VtYTB4eU5rcXRoWnZ3QW9ubUZUS0FiS3hsM0NRWU1VWHRVekN3UlZHT2dWelBDVUZnQmtaZ0RIbTE1YXluVlpQNE5Eb2V6ckh6TGN4Zks5dXNUQWdCMUI2aFI4MnhIa0lxMmRNZkFrTnM2WlhyUmZDWWR3S2hocjFTOFNhakZ5WUI4OHE3cVRjYUNIZWFuRHF4YllEZllHWEpJRUVvODIwX0FB?oc=5",
+     "title": "Laba Bersih SMF Tumbuh 31,71 Persen, Jadi Rp569 Miliar hingga Kuartal III-2026"
+    },
+    {
      "media": "Investor.id",
      "time": "2026-11-28T16:11:26+07:00",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ISWRrY0pURWh0cHhfQkVyTTJjY1h1c2tTZmVvMGhfWkhLR2VYYUtBYTFyUzJUbE1IbW00NjZsOUpWemh2bkphMS1OOWlpT1ZVclV0WklGY2FiY0tqNEdzdFdNdG5vUl9VVm5mWUFYQzlTblpJcTFQcFdaaw?oc=5",
@@ -237,6 +246,80 @@
      "time": "2026-11-28T08:08:32+07:00",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVWRzdmZyaTNBQmxDT1M4WU9TV2k0S2dhelpYYlVlc3BiOGZYbVhHZkhTeEJxa3lnc0p0ZENLbkZJN2VtbzVPaHZSY2g4TkdoNlJXdW1wTzdYN1lkVm9PX0QyRW9tdlE4UWgxWkRQYkk0ZEJsUHJ3NTdKdlNLRXFaMkJfZmVUZVFWYzduWUhBOW5VQUgyWWhjTXZpcHNtY193Ty1TQU5iYXpaVmozOFZwMF80b09qSjJlM3hyNdIBmAFBVV95cUxQTUFtRHVKbm9kdkxvRFBIYWJMeld4S195R1M0aElMWE5LM01sMzB2WG1yQWQ0aDZFaXhFdmdlekw5S3Z0UGllMkZxMjBLM3ZxUG5MQXFYZVVrZndXSUlIVDU4bkR6ZXpFMUtQZDBPX0JsSDRQNktWUC1Zd2U1aDB2R2FLVEZ4SGRvOHVzN053RHdOVGtUblVKSg?oc=5",
      "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
+    }
+   ]
+  },
+  {
+   "id": "2d3aae76440d",
+   "title": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T11:39:00+07:00",
+     "url": "https://www.idxchannel.com/economics/proyek-strategis-nasional-hulu-migas-serap-investasi-jumbo-ini-tantangannya",
+     "title": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T11:39:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWGloZ0N2TXc3OUZndmhWcUlNZEx2QWZ6cnJzdm5NR3drTWNZdER3blpyeVU0U2Q4QzQ1ZUZVWDRmbGN5ZEJpMXdwVDVUcXpVNzJlczJMYTBvaWRhSmdwNTZrdHNUTmxXVXdXZEhtUWN1WUFVTjZncmIwa1UyM0VMYXlkLTVHS3pqamRWdl9GZGh2QUJ4TFJVcFJtTVQ4Z1BLLUFOemxfWkVzTnVtMUVOejFR0gG3AUFVX3lxTE83Rk1tWGNRRzFpdUxXSFBEVE9zTFZlcnloQ0VoeDUwN0p0ZkpOVTB4X2N3aC1DMFVmNkVlczRhUUNBRlBQV3k1YUNsNkVOeXU0REVGUUE0V1BZdGdFUVpvVWlwRTdwQ214NVEwRmhsMVZLMWhnWjVQai1ib0Y1MzVGeU9PNmRjSmZKYTlrTkVNQmV5c0VHbENNaUFFWUNxamVudWNoS1lXelRJZWx3bFNIOUQxSE1udw?oc=5",
+     "title": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T11:39:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVnFjR09wbzAyMHlJaGF1dXRyeDh3VmFMR3FfcHQ4amZTdVlRSXJfMkV4dDFJMDg5cDNjbFU1WGoyNHNaRDhUZEZwU3NfRzhPTGpOU3ZBemxRS2wwZlpJZE44Rk1qX0xnWTRnbkNQREpGNkJ6S0lNOUpOVWt0MllneXZXRFZzN3NCUEtNRWRGQzUzMklhSW90RWpLQ1ZkcUs0RDNIdnhEaWh2d2haeHlySnliV0_SAbcBQVVfeXFMTzdGTW1YY1FHMWl1TFdIUERUT3NMVmVyeWhDRWh4NTA3SnRmSk5VMHhfY3doLUMwVWY2RWVzNGFRQ0FGUFBXeTVhQ2w2RU55dTRERUZRQTRXUFl0Z0VRWm9VaXBFN3BDbXg1UTBGaGwxVksxaGdaNVBqLWJvRjUzNUZ5T082ZGNKZkphOWtORU1CZXlzRUdsQ01pQUVZQ3FqZW51Y2hLWVd6VEllbHdsU0g5RDFITW53?oc=5",
+     "title": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya"
+    }
+   ]
+  },
+  {
+   "id": "664c99468efb",
+   "title": "OJK Bantah Kabar SMBC Indonesia Bakal Delisting dari BEI",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "OJK Bantah Kabar SMBC Indonesia Bakal Delisting dari BEI",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T16:16:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/ojk-bantah-kabar-smbc-indonesia-bakal-delisting-dari-bei",
+     "title": "OJK Bantah Kabar SMBC Indonesia Bakal Delisting dari BEI"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T16:16:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVlHak9JbEc1eFVsaWg0eUFXSDJHdjFxeEhzTU55TTlGTGpYQzRZY2NrRlIwTFNodi1FWkJqUnFtdXQxdlBVZjJiSlhzV3FIOTljTk45cVRhQVNSdHJKejlFZ0FvQ0hXNGxVVVVMeV9RcFA5WmplWFo0ZDY4Q3ZGTHV0RmZjVkpnM3g3RjlqUXkyS2ZuUDdiMG1kY9IBoAFBVV95cUxONEF2ZF9GdVdkVUhPUUJFUWZhTVdsckVueDJNcFA5cjRjczBUeGN1QUw1Ul9xRjJyNFp1MnJKaXRua2pxWXpjakN4RDdMcWItclpEMllYdmlvcGttMDFhMGdueWtMLU8wZFNQV2dSeUtMLWExaXQ4NXpzOVNaUUpNSDZfNzVJSGFQQlFlZUlVd2puSHVSaGY4b0hxckNsQlIz?oc=5",
+     "title": "OJK Bantah Kabar SMBC Indonesia Bakal Delisting dari BEI"
+    }
+   ]
+  },
+  {
+   "id": "3b5debae9fa0",
+   "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun",
+   "category": "Kinerja",
+   "tickers": [
+    "UNVR"
+   ],
+   "summary": "PT Unilever Indonesia Tbk (UNVR) berencana menjual seluruh bisnis makanan kepada PT McCormick Foods Indonesia senilai Rp20,5 triliun. (Foto: Ist)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T17:20:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/fokus-garap-segmen-perawatan-unilever-indonesia-unvr-lepas-bisnis-makanan-rp205-triliun",
+     "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T17:20:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWGJaX2djUnpBU2ZjTUhKRE9tb19xMlpmaUE3c3RHN2Z5cE5Qc19TSlZBN0x0YnM1XzlrREs3X2dUNmZnVVpXbEFEZkdXajl4T3lEcjNYOW5tSnlCQzJwell0TmJVaU43M2RTVy1yYlBqMDBBZDhsZmw3UUhZcWdRc1psMndxdENZY2JfV1JTaVJZTVpNVXBabVNYQmtuTElVN2Q3THpPQTFwdGV1YmdKV2Q4NUx0c1VtMEdRcWIxeU94ZjFP0gHKAUFVX3lxTE5heVJneVJqSUVJNVhCaVYxakhHSndRY2Z1aVhhZDVpU1JkRk1JZHRkZVp0XzduTzl4MkhFMVp6R1hzbU1SZXU1NFlsdktCaVlpQ014cURDZ19IRmNDVF9qMmQ1TklhR0RFdkRybjluV3EyVTF4ZjJERHhJYW1yWkd3bFNPNHdWMkdTZVFNSnNXWlR1ZEU3TG82U1ZMMlBpenZXSW9OVjAtV25FcW5VcDRicnlueUh1VWdqTVdLSXNITUR3MjQ3Z2g1cHc?oc=5",
+     "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun"
     }
    ]
   },
@@ -337,28 +420,6 @@
    ]
   },
   {
-   "id": "2d3aae76440d",
-   "title": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-28T11:39:00+07:00",
-     "url": "https://www.idxchannel.com/economics/proyek-strategis-nasional-hulu-migas-serap-investasi-jumbo-ini-tantangannya",
-     "title": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-28T11:39:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWGloZ0N2TXc3OUZndmhWcUlNZEx2QWZ6cnJzdm5NR3drTWNZdER3blpyeVU0U2Q4QzQ1ZUZVWDRmbGN5ZEJpMXdwVDVUcXpVNzJlczJMYTBvaWRhSmdwNTZrdHNUTmxXVXdXZEhtUWN1WUFVTjZncmIwa1UyM0VMYXlkLTVHS3pqamRWdl9GZGh2QUJ4TFJVcFJtTVQ4Z1BLLUFOemxfWkVzTnVtMUVOejFR0gG3AUFVX3lxTE83Rk1tWGNRRzFpdUxXSFBEVE9zTFZlcnloQ0VoeDUwN0p0ZkpOVTB4X2N3aC1DMFVmNkVlczRhUUNBRlBQV3k1YUNsNkVOeXU0REVGUUE0V1BZdGdFUVpvVWlwRTdwQ214NVEwRmhsMVZLMWhnWjVQai1ib0Y1MzVGeU9PNmRjSmZKYTlrTkVNQmV5c0VHbENNaUFFWUNxamVudWNoS1lXelRJZWx3bFNIOUQxSE1udw?oc=5",
-     "title": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya"
-    }
-   ]
-  },
-  {
    "id": "3cc6f1452295",
    "title": "Prabowo Sebut 30% APBN Buat Belanja Barang dan Jasa Bocor, Bakal Bentuk Lembaga Baru",
    "category": "Makro",
@@ -421,22 +482,6 @@
      "time": "2026-11-28T08:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUt3aFliaHgtZnM1UFM3THdnRW1rajdxRG9jSzZobzFzN1dzMi1TT1oyRE1nMWpLNTZKb1JQQ05xSHlxQ0xsNEZlUUVkT0RUaEJFM29aOFpuZzUtdDNvX2F6LXQwV0IwelgwcXROTFJvQkxFNXkyRHhxdWVRTUZTZnViaTl1V21pRlJxTldpUlZaRTV5bXB2bG9tTnhHZnNuMFVPZkpCeElXb1Vk0gGyAUFVX3lxTE8yajduUHJQeVllX0lqTlZfMVFqNkdKelhjeEY3Q1A2ZEtHZFZKR0RnVFlqYkdiY3A5MUZLNlkwZXEyUjJWbE1QS3NLcFJ3TGxEODdWMXhwX1lyZGpRRkNqYy1YQ3Nhb0pNSnNxMnRacHk5Tk9KSldJUzZMYmhUMXozOTlHT1BraXVLU19YRVdPSjlOVE1adTZfSm9PSGdLYW90M0RMLXZpMllTVnBKYXZEX3c?oc=5",
      "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan"
-    }
-   ]
-  },
-  {
-   "id": "664c99468efb",
-   "title": "OJK Bantah Kabar SMBC Indonesia Bakal Delisting dari BEI",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "OJK Bantah Kabar SMBC Indonesia Bakal Delisting dari BEI",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-28T16:16:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/ojk-bantah-kabar-smbc-indonesia-bakal-delisting-dari-bei",
-     "title": "OJK Bantah Kabar SMBC Indonesia Bakal Delisting dari BEI"
     }
    ]
   },
@@ -704,24 +749,6 @@
      "time": "2026-11-27T22:35:22+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127223208-17-789252/ramai-isu-gagal-tarik-dana-ojk-masalah-persepsi-bukan-solvabilitas",
      "title": "Ramai Isu Gagal Tarik Dana, OJK: Masalah Persepsi, Bukan Solvabilitas"
-    }
-   ]
-  },
-  {
-   "id": "3b5debae9fa0",
-   "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun",
-   "category": "Kinerja",
-   "tickers": [
-    "UNVR"
-   ],
-   "summary": "PT Unilever Indonesia Tbk (UNVR) berencana menjual seluruh bisnis makanan kepada PT McCormick Foods Indonesia senilai Rp20,5 triliun. (Foto: Ist)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-28T17:20:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/fokus-garap-segmen-perawatan-unilever-indonesia-unvr-lepas-bisnis-makanan-rp205-triliun",
-     "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun"
     }
    ]
   },
