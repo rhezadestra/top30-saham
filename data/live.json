@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T19:30:28+07:00",
+ "updated": "2026-11-28T19:39:29+07:00",
  "window": {
-  "start": "2026-11-27T19:30:28+07:00",
-  "end": "2026-11-28T19:30:28+07:00",
+  "start": "2026-11-27T19:39:29+07:00",
+  "end": "2026-11-28T19:39:29+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 68
+   "items": 66
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 53
+   "items": 51
   },
   "Investor.id": {
    "via": "google",
@@ -1560,24 +1560,6 @@
      "time": "2026-11-27T19:46:44+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127194500-17-789215/5-risiko-intai-dunia-di-2027-bos-bi-ketidakpastian-belum-surut",
      "title": "5 Risiko Intai Dunia di 2027, Bos BI: Ketidakpastian Belum Surut"
-    }
-   ]
-  },
-  {
-   "id": "8376b1a70ee2",
-   "title": "CORE Indonesia Soroti Risiko Biaya Layanan DSI terhadap Daya Saing Ekspor",
-   "category": "Makro",
-   "tickers": [
-    "CORE"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T19:37:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSGJjb1BZWG9nem1BaXRxRmxaeVpxVDN1LUVEdnhPTW5MQzlSTFZacUZVSklDYmV6aEQ4TEtlV2hUX3V4WW9pdThiVHZncmRLQ2xEZkliOGJtYWhHQjlOVXUtMGRucTQtMVFOc192b2VmUGZqWklpMXlxR3hJRjBaWHNFX2otOWd4cUp3OTVGRXBfRW9iV1FEWEo5UVpjbko4M3ZpU1FwNTMzX2VKaUFYNEswQmZscndzUmxSUDNJNWR4NDg?oc=5",
-     "title": "CORE Indonesia Soroti Risiko Biaya Layanan DSI terhadap Daya Saing Ekspor"
     }
    ]
   }
