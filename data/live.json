@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:52:08+07:00",
+ "updated": "2026-11-28T09:55:09+07:00",
  "window": {
-  "start": "2026-11-27T09:52:08+07:00",
-  "end": "2026-11-28T09:52:08+07:00",
+  "start": "2026-11-27T09:55:09+07:00",
+  "end": "2026-11-28T09:55:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 130
+   "items": 134
   }
  },
  "prevAt": "2026-11-28T09:06:34+07:00",
@@ -659,6 +659,36 @@
    ]
   },
   {
+   "id": "e7ee091fd9e7",
+   "title": "Laba Resource Alam (KKGI) Melonjak 1.304% hingga September 2026",
+   "category": "Kinerja",
+   "tickers": [
+    "KKGI"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T15:49:28+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWZZWTZ1MGxCOGk2M2NYdXhTaGZoYTFYd3ZpejV5bmlkNTRNNmppVXNLaDNTN3JVS3RhWHBPN1Z3WVdPVl85RVZCTkg0YllQeEcweTdaNFpiTnBxQ2RxZXJYUUJJTVE2OGRublMwd282LVYxbGNnZWpjVkotTW9tRDB5RmJfc2QzN3RuNFpqNkFtTXIyd2paVGl3c9IBkwFBVV95cUxONWFLRmp1cXFXelBhNGFmSDlIazVLaEtlcFNWM3pjZTBkaXk0Z0x6MXZQaERCc1U4aTRkQzJfTlFIay1BX0tOUGhZQ2tEQ0VHVU0zQk5kZEdDcElteGxTbE9jMmZVdms4dVg3S2YzeXZ1MGpsR05FTVctSU9Lc0RMaTJEcGw4Ymg1X2ZfWk1qLURoZDQ?oc=5",
+     "title": "Laba Resource Alam (KKGI) Melonjak 1.304% hingga September 2026"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T09:11:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVBXWHNzTm5GWEJjZlo3RUltbjZ4NHQwSEJMdEg3a3YydmU5Q0RQSEZHajNqenJZQmUzcE95SWttQnFvREJvd2JvV1VIUEw5N1ZrSzRuMlFzX2gyd1h0TjEtajYyV2locUNGRGhvSXNWVVlIU0tlZHd0eXNIT19BZlZrU2tCWkhyQXQzRXo5ZG5veFUxWG42R2oxQQ?oc=5",
+     "title": "KKGI Cetak Lonjakan Laba Bersih 1.304% Pada Sembilan Bulan 2026"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T09:11:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZl9jTU5Bd2c5LUI5VVhzMlpZN3RQSi1xRm1TYWlBTWtSZkQ0OWNWcFBuNEhVdG9lcDRRakQzc3NZMEM2d1BKWEx1U0xnSXdVeVpxQVBUX3JlNXFLVTQ0Z1d4S3hCLTdfVWtRa3hRTWw2NlZ2X3JqT0djSGlQbThJVzJiZGlSOG1yeUk1N2paMU92SFR1S0JkcTNn?oc=5",
+     "title": "KKGI Cetak Lonjakan Laba Bersih 1.304% Pada Sembilan Bulan 2026"
+    }
+   ]
+  },
+  {
    "id": "4404f57291cc",
    "title": "Dana Investor Beralih ke Pasar Uang, Ini Prospek Reksadana pada 2027",
    "category": "Makro",
@@ -752,30 +782,6 @@
      "time": "2026-11-28T08:08:32+07:00",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0IxUTJlZm1sYXhYMEt0QjBEMFJnbXlkRVQxRHpLREdEUFdYbXNfaVV3SEhfUjlWdUFVWGZmb0Fkcl9uUDNMcjZrVmc5Vjc3MVdWMzJhbWhlTHM4V284WkdTUkRKVnZKdVlRcC1MeGNtOWpnbi1OeWxhN1I1bnRBV3h1aWVmVkxYb090TEdQT21oWG9NUkdCTUZoZHR1MkIw0gGYAUFVX3lxTFBNQW1EdUpub2R2TG9EUEhhYkx6V3hLX3lHUzRoSUxYTkszTWwzMHZYbXJBZDRoNkVpeEV2Z2V6TDlLdnRQaWUyRnEyMEszdnFQbkxBcVhlVWtmd1dJSUhUNThuRHplekUxS1BkME9fQmxINFA2S1ZQLVl3ZTVoMHZHYUtURnhIZG84dXM3TndEd05Ua1RuVUpK?oc=5",
      "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
-    }
-   ]
-  },
-  {
-   "id": "e7ee091fd9e7",
-   "title": "Laba Resource Alam (KKGI) Melonjak 1.304% hingga September 2026",
-   "category": "Kinerja",
-   "tickers": [
-    "KKGI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T15:49:28+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWZZWTZ1MGxCOGk2M2NYdXhTaGZoYTFYd3ZpejV5bmlkNTRNNmppVXNLaDNTN3JVS3RhWHBPN1Z3WVdPVl85RVZCTkg0YllQeEcweTdaNFpiTnBxQ2RxZXJYUUJJTVE2OGRublMwd282LVYxbGNnZWpjVkotTW9tRDB5RmJfc2QzN3RuNFpqNkFtTXIyd2paVGl3c9IBkwFBVV95cUxONWFLRmp1cXFXelBhNGFmSDlIazVLaEtlcFNWM3pjZTBkaXk0Z0x6MXZQaERCc1U4aTRkQzJfTlFIay1BX0tOUGhZQ2tEQ0VHVU0zQk5kZEdDcElteGxTbE9jMmZVdms4dVg3S2YzeXZ1MGpsR05FTVctSU9Lc0RMaTJEcGw4Ymg1X2ZfWk1qLURoZDQ?oc=5",
-     "title": "Laba Resource Alam (KKGI) Melonjak 1.304% hingga September 2026"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T09:11:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVBXWHNzTm5GWEJjZlo3RUltbjZ4NHQwSEJMdEg3a3YydmU5Q0RQSEZHajNqenJZQmUzcE95SWttQnFvREJvd2JvV1VIUEw5N1ZrSzRuMlFzX2gyd1h0TjEtajYyV2locUNGRGhvSXNWVVlIU0tlZHd0eXNIT19BZlZrU2tCWkhyQXQzRXo5ZG5veFUxWG42R2oxQQ?oc=5",
-     "title": "KKGI Cetak Lonjakan Laba Bersih 1.304% Pada Sembilan Bulan 2026"
     }
    ]
   },
@@ -2145,6 +2151,22 @@
      "time": "2026-11-27T10:10:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeHBYZk4tdXp3YVplX3d1WDhEdFI5OEF4TnF0a3V0Z0pnc0J2R0dGOUxHSFV4dFBrNnJmMVctRTlrZEx1Y1BrckdWNVdEbVVBUjJLUFZuVlVhbFppWnVranVjWGk3R2RyRnpkZ0tlX1hVWVJzNmJJdUVLTXlKSzFncUhEdUlZQVlsamdNVHlvdTdkNG1WLV81ZmMwVFjSAZ8BQVVfeXFMUEpfaWZsVUNlcmtTdnpfdl9CWHFoZFVZZWF6bjhoMjBjOEQ5eHpVMllyRkxQNC1xNjY5eXJ3OEdxM01wTVgzNGY0eDdMMU5MNGtYTGhSbW94UXJjUm5LcU5ycExVcXE2Y1NUeVk1WG04X3NJeDlWRU1JRHpfVWNYOU0xYTZvOFhyMXF4SHB6T2pFeEdPYjVsOW5HbUw4VmYw?oc=5",
      "title": "Permintaan Semen Menguat, SMGR dan INTP Berebut Momentum"
+    }
+   ]
+  },
+  {
+   "id": "110127fe4838",
+   "title": "UMP 2027 Tekan Prospek Emiten Ritel",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T09:48:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tclU5WVN1bVFLdHdzNDB4T2FlQUp2eHZQdE1PdFY5QklHeDA3ejlNWnhnb2Q3dWgzZ1h0cEgxSDNwd25GZWZjVUNreWZIR0J4NVZmY1FKVmtHanBmNTNvN2Y4NXNvX0l4Sjh4RGY0Y2JhQzhsLTV2aw?oc=5",
+     "title": "UMP 2027 Tekan Prospek Emiten Ritel"
     }
    ]
   },
