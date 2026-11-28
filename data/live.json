@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T21:16:23+07:00",
+ "updated": "2026-11-28T21:25:23+07:00",
  "window": {
-  "start": "2026-11-27T21:16:23+07:00",
-  "end": "2026-11-28T21:16:23+07:00",
+  "start": "2026-11-27T21:25:23+07:00",
+  "end": "2026-11-28T21:25:23+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 66
+   "items": 65
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,10 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 30,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 47
   },
   "Investor.id": {
    "via": "google",
@@ -416,28 +413,6 @@
      "time": "2026-11-28T05:01:03+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSkRnenJNSTVxeGVONGFwS01EVzZVUzdqUE9zcHh5SU14cy1jVzl1cjFFMHd5NmVGNHpsZ3ZGbWs1RGNGVjFiNmZwbE9ETFlZOGpnQ21yb2RsTER0MkhZQkFhOFpSYmcwZnlFTHV1TTVRMDlmblY1dTZDNjE5UXFNRURmclQ3bndRR3NSaFo3VzV4Q19oN0o5UHVvTnNHSjFUUWMxZlhpY28?oc=5",
      "title": "BERITA POPULER: Manuver Emiten Portofolio Andry Hakim Omzet FORU Meledak"
-    }
-   ]
-  },
-  {
-   "id": "3cc6f1452295",
-   "title": "Prabowo Sebut 30% APBN Buat Belanja Barang dan Jasa Bocor, Bakal Bentuk Lembaga Baru",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T21:24:33+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaFI4S1ptM21OUDE4QWVvOWdCb05HSmZzaWsycldLWGlzTXU2RTRCdjMzY2tYZ05mTDJROW9MNUpKdFNGMkE2VUlQbzhjckF4UGZpMW1NenVzaHgwUFBSMG9VU2pJZjFGMENUT2ZJb0pobDNxYXpWaENqWjV3Ylh3NkFyamR1VkJkRlVFaVNpdlRDRmdlc0ZNS19iR2YtSm9kSlpWcUlMZU9KMTMyT2dvMEF6Z1UwbWIy0gGyAUFVX3lxTE5hb0lMNFN5ckd1MmFGd0hXMFVzR0ZFZENRTkw0QTZ6SmhvVXYzM3dXLTZJZFU5Zy1NNUNlcEdlaUtlNUFhM3JJb1NWS2pvQVFDVXZRQUR5TnJYUXJ6dnRBd2xsWF81b1dfYjVGQUg4T3hOQ0NhNFhPWEdjajdiMDlFTTBPWmVILUZNQWY3bUpmUmZPWEs0M3N2eDc4blBIb0hXRzFxaXpaeUs5OER3NVJ5RGc?oc=5",
-     "title": "Prabowo Sebut 30% APBN Buat Belanja Barang dan Jasa Bocor, Bakal Bentuk Lembaga Baru"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T10:04:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX3lncGx6NEJrcFhXZVgteUsxRzZHcUJpb01DSFRnSDNoaVlsa0lqbTR1alFRallaSi1MMFlxc21TU09MajA5NWdpQ0dMZjF3bUlVNS1kTHpSWktxdzB1NFpDMDZtRkxsZFhrcnExemZqbzhGTmxCOWJhaUl6ZkFaM3d6RzBVazB2WGpDVURFckNhSUd6MmJFdVNIWHlsRUpiRUZMTEVYVG7SAaIBQVVfeXFMTVpKaEdITTVhVk1MRXFTOGlwSFMyS2kyZjRMbExrSG51WUxqRE5KZmxpY3hrR2F4eTNJY2ZZVXF2TmxaTVVIVUxFUFRvWGpnLV9PWGV0bUhLYWNCaW9xNFZKYm5PTXZmVFVqR2pqUXh0R0NlMzlXakptTFZHdTUydXdlM2xZXzdwZ0ZmdWFWSHliOE4tR1k3bkFwcV80d0phNjVn?oc=5",
-     "title": "30% APBN Buat Belanja Barang dan Jasa, Prabowo Ingin Bentuk Lembaga Baru"
     }
    ]
   },
@@ -1017,6 +992,22 @@
      "time": "2026-11-28T10:15:06+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261128081135-17-789270/18-bank-di-ri-resmi-tutup-per-november-2026-ini-daftarnya",
      "title": "18 Bank di RI Resmi Tutup per November 2026, Ini Daftarnya"
+    }
+   ]
+  },
+  {
+   "id": "06c945d4d4aa",
+   "title": "30% APBN Buat Belanja Barang dan Jasa, Prabowo Ingin Bentuk Lembaga Baru",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T10:04:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX3lncGx6NEJrcFhXZVgteUsxRzZHcUJpb01DSFRnSDNoaVlsa0lqbTR1alFRallaSi1MMFlxc21TU09MajA5NWdpQ0dMZjF3bUlVNS1kTHpSWktxdzB1NFpDMDZtRkxsZFhrcnExemZqbzhGTmxCOWJhaUl6ZkFaM3d6RzBVazB2WGpDVURFckNhSUd6MmJFdVNIWHlsRUpiRUZMTEVYVG7SAaIBQVVfeXFMTVpKaEdITTVhVk1MRXFTOGlwSFMyS2kyZjRMbExrSG51WUxqRE5KZmxpY3hrR2F4eTNJY2ZZVXF2TmxaTVVIVUxFUFRvWGpnLV9PWGV0bUhLYWNCaW9xNFZKYm5PTXZmVFVqR2pqUXh0R0NlMzlXakptTFZHdTUydXdlM2xZXzdwZ0ZmdWFWSHliOE4tR1k3bkFwcV80d0phNjVn?oc=5",
+     "title": "30% APBN Buat Belanja Barang dan Jasa, Prabowo Ingin Bentuk Lembaga Baru"
     }
    ]
   },
