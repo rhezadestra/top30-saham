@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T14:09:37+07:00",
+ "updated": "2026-11-28T14:12:38+07:00",
  "window": {
-  "start": "2026-11-27T14:09:37+07:00",
-  "end": "2026-11-28T14:09:37+07:00",
+  "start": "2026-11-27T14:12:38+07:00",
+  "end": "2026-11-28T14:12:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 115
+   "items": 116
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 73
+   "items": 74
   },
   "Investor.id": {
    "via": "google",
-   "items": 116
+   "items": 115
   }
  },
  "prevAt": "2026-11-28T13:15:10+07:00",
@@ -545,40 +545,6 @@
      "time": "2026-11-27T16:36:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYmxTay14TWlrMzByVENHYkFnOVpJa0dXX21QMFRDQTRvazZja0c5amYyVmF4UXV6d25rV2N3XzFJb3BPaWZTcjYtQzVCeGlUd3E5c0FiM3F4WmNiNFM3aWQxZGdZVVlMNjczX3VnVHg0SUhCaTZndk1nczlOU1VqZVNlTkljMi1fdnRFVkJCb2FIRzJ5Z0F2eVhza3hTdGFVVTFfQUVYbHhpQdIBowFBVV95cUxPYjdVNG42Wmp2eVZnb1c1Njd6WFdYWEl4dVVSR3dkd2c1Ti1vR3RJM2xWeGpzU2dfc25zUTk1XzE5c09tWUhKd2htbDUtTVBpV2JHQXMwUVpsX195WHJHejdCOF9XdXRCbUVEMGNhT1p0QkYxOU44a3lrUXlRLWk5bm1YclE0S3ZWUkZGTlFXT3A3enc3WjFmMzJuMkNySGlCOElV?oc=5",
      "title": "DSI Siapkan Referensi Harga Komoditas untuk Awasi Ekspor Tiga Komoditas"
-    }
-   ]
-  },
-  {
-   "id": "2d9f26b41fa7",
-   "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T14:12:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFFiTDQ5cnF4UXR0UU82MmppRGdsWlVSWFFjTVBiMzVFTjlnbE5xOE1wWHFBbTc0bUtXem9PdlJ2b1hXOXdtMkx2SXcxd2tYRk1SbXdSMVAxZ0l5a3FmNFhtMjNGNU9UTmtQUk56bm9fa014ZEw1VElPTklBLV92U3JnMl9hcUhFUkxnMDdNalBTTHVDTlo1RUFVS19GQQ?oc=5",
-     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T14:12:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUms4V3ZmYzczaEdpUE1qSzhlRjVuTl9GUUhnWGFLVThfdGIzd0d1WjNSU0NMRnl3MExUQXE1cUEyajVMbnNFOWw4VUd0V1pDaW5sTGFadlBxbXU0cV96Y1lKQXpWSGFmOWhyMjNUVXlDNC0yZlpxUlp1Q2ViNWNKSTV6VmY0cGhjZ3M4VGE1NGRZMkh1ekNleTVTMzRseHJ3?oc=5",
-     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah - Halaman 2"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T14:12:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRW1BQnhCMFRmZ0h6MFZRc1NhZnA3d040OGoxTmZMU05MaXRXOUpIM2x3dGJFdFdzMnpja2htOUdBRU9ESkN6QUpQSkdtbW96Slh3Tlp4UVFkeHNBa3FRLS12d3VlYUpVQ1pScXdyUS05Y3M1MlZHd0g4ZG5HZXRBdVJJaFUzZVpkQ0gzTUFNNmlwOE5lTm44RGE5bGVYVUY3MXZv?oc=5",
-     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T14:12:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQM0lqeTJqeDhVWThKalpHZlRHalV1ZTI5QUxWdmgyQ0lsalc1VHh2b0VWbkRXRE11Wlg5NlBUWFRkZG9oQjczLVdFYjRuYXlIbXhXNDNpc29kR01ITkdreXUzc3Q5QXM1bERhSnZGeVdKell4UE1LUXlmUnNFYUJlTjRnYjZjamM0ZGdkY3YtS0d3QlBjbTd5XzJDN0Jua1dT?oc=5",
-     "title": "Hindari 5 Kesalahan Ini Saat Berinvestasi Reksa Dana Syariah - Halaman 3"
     }
    ]
   },
@@ -1785,6 +1751,22 @@
      "time": "2026-11-27T14:24:40+07:00",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSjVKTE9udS1femx3SlJsRGNkbUJBN2FnNHJuYnNUbXhFMVRfdWtuT0Q0RUktLU5IdWV6b0JrRUpFaW9jemNWbktkRkVGWGNMM2NtV084LWNHZ3VnVm96Rm03cUo0YzdTS09lMlRWQUV1aV9tam9SSC1IUWVBN1A5ejE2T2Nrakc3bmc?oc=5",
      "title": "Saham Boy Thohir Diramal Naik 99%, Kinerja Meledak"
+    }
+   ]
+  },
+  {
+   "id": "f09725b22a87",
+   "title": "Daftar 18 Bank Bangkrut dan Tutup per November 2026, Cek Lokasinya",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T14:02:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUlpodkRpTVdMUDV3TnAwRkJpeDNudHA1YzdFMGg4RHQ5Sk9CQzM2Tzh4djhubTZualpnQl9WQkZ1dUxfNzVZV2g3cEdEbWdGcVVsWEhUUWZsU1FSV3pGa0JDR3QxZmpNSFR1WjJjeTZfWUVhMEd0aENXUmxuMlpNTUtZdVYzUmpMUlVOUUNZLTJYVnBVVTdBTVZpSGlWSW1WVXhqcGVWY25nMjBIYzhwNFcycXBBbWVReHNj?oc=5",
+     "title": "Daftar 18 Bank Bangkrut dan Tutup per November 2026, Cek Lokasinya"
     }
    ]
   },
