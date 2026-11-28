@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T07:20:34+07:00",
+ "updated": "2026-11-28T07:26:34+07:00",
  "window": {
-  "start": "2026-11-27T07:20:34+07:00",
-  "end": "2026-11-28T07:20:34+07:00",
+  "start": "2026-11-27T07:26:34+07:00",
+  "end": "2026-11-28T07:26:34+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 90
+   "items": 89
   },
   "Investor.id": {
    "via": "google",
@@ -2378,24 +2378,6 @@
      "time": "2026-11-27T07:30:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSWlmVDJDWnpOX3N4RmpGUFNNbEhlRWFzYjZ1T3BqbHdZLVVwbGRDb0FMSjYyTEJCSnJrazI2RnpiakNBeE5zUnVENExhcHNHcDFJOUFfN3poVm1CcTVvWXZrYU1GZXZ0VXBPdkNTVHFEZ1VWVUlZY3JxaUxCUFQ1RlYxcmQzNlQzWnIxZldCVXFOR3o2d3NqMzlQM3B2QmFVMGVnZE9pM3E0TVlIZTBOLUVUN0tySlFm?oc=5",
      "title": "Ketimpangan Kinerja Mal Kian Terlihat, Segmen Atas Lebih Cemerlang"
-    }
-   ]
-  },
-  {
-   "id": "62a22fbd11de",
-   "title": "Bulan Penentuan, ADRO Cs Jadi Target Empuk",
-   "category": "Kinerja",
-   "tickers": [
-    "ADRO"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T07:24:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNW4tX2VUWjRIS2hwdWxMX3lUZjVZZUQyU1RwTE84RG42QzlQZE1VYlNhQkNSRWl3Z1lqS09LWVp4ekhIT29lcVlBa01pbFBNVE5jSEQ0Y05OUF9jSzluS3pHYkwtZ3pFeEU1VjZDZWN5UllSelRmY2FnMXRpUUpHbw?oc=5",
-     "title": "Bulan Penentuan, ADRO Cs Jadi Target Empuk"
     }
    ]
   },
