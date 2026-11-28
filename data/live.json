@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T12:02:40+07:00",
+ "updated": "2026-11-28T12:08:40+07:00",
  "window": {
-  "start": "2026-11-27T12:02:40+07:00",
-  "end": "2026-11-28T12:02:40+07:00",
+  "start": "2026-11-27T12:08:40+07:00",
+  "end": "2026-11-28T12:08:40+07:00",
   "hours": 24
  },
  "target": 30,
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 129
+   "items": 126
   }
  },
  "prevAt": "2026-11-28T11:11:09+07:00",
@@ -808,6 +808,28 @@
      "time": "2026-11-27T14:33:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeno1MWNTZzRfcmFaRWtGQk1FelBDeDREeGpnN096dlNyM3lmOE0wck9VUC1sRzNVc0JqQ0R2RDl5T0N3X1JIbXlDUG8tdkZZV0ZVQmZnbkJvSUdTdi0wNm84TjFBbzJZRElvSG9Cc3hBcFZqbWNudmJqS2VWWThBX0IzLXJLU1FPR183NExuaTJKZXF2WkluSENweVBPNUV1Rmp4WDhKdE4zUVl1TUhB0gG0AUFVX3lxTE53UlpJcXZBRGlGUV81MGtzVTRrLWpiaXlHYTUtZ21TYlRpWXVGclo4b25sM0VSMEtLcHVmNkR3MTRteThrcFRzUlRzaDVpaV9xblNnVFJZRHE1MTR2LWRzR2hvY0p1bmpnaGRoa2c1cWZmRnZvdGlCa2s2YU1Iei10a2xKQ3J2TzlGanNfM0hrUUVCYmtsLUxpYWM5MjAtM1JDbGJTZHZYSDExaEwtYzdKaG1uOQ?oc=5",
      "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak"
+    }
+   ]
+  },
+  {
+   "id": "3cc6f1452295",
+   "title": "Prabowo Sebut 30% APBN Buat Belanja Barang dan Jasa Bocor, Bakal Bentuk Lembaga Baru",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T21:24:33+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaFI4S1ptM21OUDE4QWVvOWdCb05HSmZzaWsycldLWGlzTXU2RTRCdjMzY2tYZ05mTDJROW9MNUpKdFNGMkE2VUlQbzhjckF4UGZpMW1NenVzaHgwUFBSMG9VU2pJZjFGMENUT2ZJb0pobDNxYXpWaENqWjV3Ylh3NkFyamR1VkJkRlVFaVNpdlRDRmdlc0ZNS19iR2YtSm9kSlpWcUlMZU9KMTMyT2dvMEF6Z1UwbWIy0gGyAUFVX3lxTE5hb0lMNFN5ckd1MmFGd0hXMFVzR0ZFZENRTkw0QTZ6SmhvVXYzM3dXLTZJZFU5Zy1NNUNlcEdlaUtlNUFhM3JJb1NWS2pvQVFDVXZRQUR5TnJYUXJ6dnRBd2xsWF81b1dfYjVGQUg4T3hOQ0NhNFhPWEdjajdiMDlFTTBPWmVILUZNQWY3bUpmUmZPWEs0M3N2eDc4blBIb0hXRzFxaXpaeUs5OER3NVJ5RGc?oc=5",
+     "title": "Prabowo Sebut 30% APBN Buat Belanja Barang dan Jasa Bocor, Bakal Bentuk Lembaga Baru"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T10:04:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX3lncGx6NEJrcFhXZVgteUsxRzZHcUJpb01DSFRnSDNoaVlsa0lqbTR1alFRallaSi1MMFlxc21TU09MajA5NWdpQ0dMZjF3bUlVNS1kTHpSWktxdzB1NFpDMDZtRkxsZFhrcnExemZqbzhGTmxCOWJhaUl6ZkFaM3d6RzBVazB2WGpDVURFckNhSUd6MmJFdVNIWHlsRUpiRUZMTEVYVG7SAaIBQVVfeXFMTVpKaEdITTVhVk1MRXFTOGlwSFMyS2kyZjRMbExrSG51WUxqRE5KZmxpY3hrR2F4eTNJY2ZZVXF2TmxaTVVIVUxFUFRvWGpnLV9PWGV0bUhLYWNCaW9xNFZKYm5PTXZmVFVqR2pqUXh0R0NlMzlXakptTFZHdTUydXdlM2xZXzdwZ0ZmdWFWSHliOE4tR1k3bkFwcV80d0phNjVn?oc=5",
+     "title": "30% APBN Buat Belanja Barang dan Jasa, Prabowo Ingin Bentuk Lembaga Baru"
     }
    ]
   },
@@ -2302,22 +2324,6 @@
    ]
   },
   {
-   "id": "3cc6f1452295",
-   "title": "Prabowo Sebut 30% APBN Buat Belanja Barang dan Jasa Bocor, Bakal Bentuk Lembaga Baru",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T21:24:33+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaFI4S1ptM21OUDE4QWVvOWdCb05HSmZzaWsycldLWGlzTXU2RTRCdjMzY2tYZ05mTDJROW9MNUpKdFNGMkE2VUlQbzhjckF4UGZpMW1NenVzaHgwUFBSMG9VU2pJZjFGMENUT2ZJb0pobDNxYXpWaENqWjV3Ylh3NkFyamR1VkJkRlVFaVNpdlRDRmdlc0ZNS19iR2YtSm9kSlpWcUlMZU9KMTMyT2dvMEF6Z1UwbWIy0gGyAUFVX3lxTE5hb0lMNFN5ckd1MmFGd0hXMFVzR0ZFZENRTkw0QTZ6SmhvVXYzM3dXLTZJZFU5Zy1NNUNlcEdlaUtlNUFhM3JJb1NWS2pvQVFDVXZRQUR5TnJYUXJ6dnRBd2xsWF81b1dfYjVGQUg4T3hOQ0NhNFhPWEdjajdiMDlFTTBPWmVILUZNQWY3bUpmUmZPWEs0M3N2eDc4blBIb0hXRzFxaXpaeUs5OER3NVJ5RGc?oc=5",
-     "title": "Prabowo Sebut 30% APBN Buat Belanja Barang dan Jasa Bocor, Bakal Bentuk Lembaga Baru"
-    }
-   ]
-  },
-  {
    "id": "5a0578e309c2",
    "title": "Kredit Multiguna Perbankan Melambat, Daya Beli dan Kenaikan Suku Bunga Jadi Tantangan",
    "category": "Makro",
@@ -2892,22 +2898,6 @@
      "time": "2026-11-27T12:20:54+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127104405-17-789013/ada-bank-di-kaltim-tutuplps-siapkan-pembayaran-klaim-nasabah",
      "title": "Ada Bank di Kaltim Tutup,LPS Siapkan Pembayaran Klaim Nasabah"
-    }
-   ]
-  },
-  {
-   "id": "36922c7d68ce",
-   "title": "Bank Sentral Eropa Bakal Sambut Pemimpin Baru, Ini Sosoknya - Halaman 2",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T12:07:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdGk3MXVXYUs0eVAzR0xNR0xob3lvYnBza25xM0xiaDNwZFRRcVlsVloyUkFLVGJjM09UZ1JWSm5QMk1nQWEtQU5iVjRIYVg1WWw5NUh1YWRMWlU4M2pIX2NLd1FPWTQza01SNmNBeWNqQUt1OEpnTXRRWmwzNHZlT2NhS0dlQjdJQnB0MHM1Rzl6UnotQkxWSnp0R2V3Uy1xanZB?oc=5",
-     "title": "Bank Sentral Eropa Bakal Sambut Pemimpin Baru, Ini Sosoknya - Halaman 2"
     }
    ]
   }
