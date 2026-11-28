@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T15:55:34+07:00",
+ "updated": "2026-11-28T15:58:34+07:00",
  "window": {
-  "start": "2026-11-27T15:55:34+07:00",
-  "end": "2026-11-28T15:55:34+07:00",
+  "start": "2026-11-27T15:58:34+07:00",
+  "end": "2026-11-28T15:58:34+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 68
+   "items": 69
   },
   "Investor.id": {
    "via": "google",
@@ -434,28 +434,6 @@
    ]
   },
   {
-   "id": "8bfb791e32ac",
-   "title": "DSI Susun Referensi Harga Komoditas SDA Ekspor, Bukan Harga Jual",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T15:55:46+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLTYtY2Z5UFA3YVl4LXcxb1BqdE9JeTQ1VVJkVnJYTGhyN2VWZ1pyb0RwYlFpR2MzVGktVnNidVhyNDRFQXBILTM5UWlIdFlfelBOa0NkMlc2WHcwNzhhb3JNVmd2UGlqQnNqQmhzdEVQMjJ0SC1lLVBQVHFaNnctUGEwSmJBSlBfZjc1ZG5rMGhfQ3l3UzV1U3FIN25zVGdaSGR0Tlc0ZEZMZ0x0eTltWVhWQTZkQQ?oc=5",
-     "title": "DSI Susun Referensi Harga Komoditas SDA Ekspor, Bukan Harga Jual"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T16:36:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYmxTay14TWlrMzByVENHYkFnOVpJa0dXX21QMFRDQTRvazZja0c5amYyVmF4UXV6d25rV2N3XzFJb3BPaWZTcjYtQzVCeGlUd3E5c0FiM3F4WmNiNFM3aWQxZGdZVVlMNjczX3VnVHg0SUhCaTZndk1nczlOU1VqZVNlTkljMi1fdnRFVkJCb2FIRzJ5Z0F2eVhza3hTdGFVVTFfQUVYbHhpQdIBowFBVV95cUxPYjdVNG42Wmp2eVZnb1c1Njd6WFdYWEl4dVVSR3dkd2c1Ti1vR3RJM2xWeGpzU2dfc25zUTk1XzE5c09tWUhKd2htbDUtTVBpV2JHQXMwUVpsX195WHJHejdCOF9XdXRCbUVEMGNhT1p0QkYxOU44a3lrUXlRLWk5bm1YclE0S3ZWUkZGTlFXT3A3enc3WjFmMzJuMkNySGlCOElV?oc=5",
-     "title": "DSI Siapkan Referensi Harga Komoditas untuk Awasi Ekspor Tiga Komoditas"
-    }
-   ]
-  },
-  {
    "id": "56b86b8f5560",
    "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026",
    "category": "Regulasi",
@@ -758,6 +736,24 @@
      "time": "2026-11-27T17:57:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXJCQXJfekpyOHd1RWl3MDFxb3VpMXlYTEotZ3pOSFFwbU10aHV6TW0zNlotRkwzb0V0eE1rM2doUGlFM3liSG9USTdBN0Y0TU1zNkdCTmlVWXllR2VYdl9jZUVKUzVicnZ4dks4cTg0U1N3VHo5Y2lDMUp2ZDNpeHRqNW51Y2JKeC1vMHp2WUdWY0lIY1JIdVJqS0xzM0pPejZvSHZEalVrSktVYkxCWWNtQkE3OURtUGNNcEUydmhOUdIBxwFBVV95cUxPdUlDaDVzc1I0TEJiUXZGNHlUY3F4cElwWEw2bDFRbGxNMDRhS0ZRMHpjZm1iTEtKVVF3eW9zX3A1TVFaOXAzZDZRajFTSmpRX193SlFsX0g4SUl6X05idG1YWXBXZzNldlNVUHhZaUFiMlpVZGVIS2xjcXFUMkVOVEZxY2xiaDRSc3JZTVB0YWpkQkNXM1kybWhOVmN6MUlGdW5YZWlYWmZ5QXhPTTJpc1Iya3ZaaWkzaFJlZkp0Vkd5dGRFQnY0?oc=5",
      "title": "Hemat Subsidi BBM, Sarmuji Ingin Motor Listrik Digunakan di Instansi Pemerintah dan BUMN"
+    }
+   ]
+  },
+  {
+   "id": "ec5a360a0c16",
+   "title": "Andalan Artha (ANDA) Siapkan Ekspansi Bisnis Nikel hingga Emas",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "ANDA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T15:48:27+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVG5rcHBGVEVkTDJHMFY3RHpBOVkyVTUwX01zOVVTamNzLWhMemd5N2dyczN4SnpCTEFTOVg5NnZscEJVckF3Vm5yR1lQSzBHUHVtTm5XVEcwZElnU2Vjc3ZRQjJfMmxCM1ozYUphbnZzemFIQ08yWTdiUTRwbGozRUNJSFJ0V0RzRHlmVXNxUmJaR2ZubmFhc0x1N2JaREJWY3drNktNV29xX0poMkt5NnhR?oc=5",
+     "title": "Andalan Artha (ANDA) Siapkan Ekspansi Bisnis Nikel hingga Emas"
     }
    ]
   },
@@ -2081,6 +2077,22 @@
      "time": "2026-11-27T17:23:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127171317-17-789165/danantara-mau-sulap-walini-jadi-sillicon-valley-dibangun-mulai-2027",
      "title": "Danantara Mau Sulap Walini jadi 'Sillicon Valley', Dibangun mulai 2027"
+    }
+   ]
+  },
+  {
+   "id": "3e0fbabf37c5",
+   "title": "DSI Siapkan Referensi Harga Komoditas untuk Awasi Ekspor Tiga Komoditas",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T16:36:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYmxTay14TWlrMzByVENHYkFnOVpJa0dXX21QMFRDQTRvazZja0c5amYyVmF4UXV6d25rV2N3XzFJb3BPaWZTcjYtQzVCeGlUd3E5c0FiM3F4WmNiNFM3aWQxZGdZVVlMNjczX3VnVHg0SUhCaTZndk1nczlOU1VqZVNlTkljMi1fdnRFVkJCb2FIRzJ5Z0F2eVhza3hTdGFVVTFfQUVYbHhpQdIBowFBVV95cUxPYjdVNG42Wmp2eVZnb1c1Njd6WFdYWEl4dVVSR3dkd2c1Ti1vR3RJM2xWeGpzU2dfc25zUTk1XzE5c09tWUhKd2htbDUtTVBpV2JHQXMwUVpsX195WHJHejdCOF9XdXRCbUVEMGNhT1p0QkYxOU44a3lrUXlRLWk5bm1YclE0S3ZWUkZGTlFXT3A3enc3WjFmMzJuMkNySGlCOElV?oc=5",
+     "title": "DSI Siapkan Referensi Harga Komoditas untuk Awasi Ekspor Tiga Komoditas"
     }
    ]
   }
