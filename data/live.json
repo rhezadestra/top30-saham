@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T13:48:10+07:00",
+ "updated": "2026-11-28T13:51:38+07:00",
  "window": {
-  "start": "2026-11-27T13:48:10+07:00",
-  "end": "2026-11-28T13:48:10+07:00",
+  "start": "2026-11-27T13:51:38+07:00",
+  "end": "2026-11-28T13:51:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 119
+   "items": 118
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 77
+   "items": 75
   },
   "Investor.id": {
    "via": "google",
-   "items": 123
+   "items": 115
   }
  },
  "prevAt": "2026-11-28T13:15:10+07:00",
@@ -1809,24 +1809,6 @@
      "time": "2026-11-27T13:59:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PeUdiLXVla1BmQmJKQW1Ed1pqTExJRlliZnNjNUxmblhPeV9TTGdXNnVHTXJ5bVNwZll2WGlxaG1zdXY1Yl80UHlhcGIwc2l6VEtxUU9SU2N0QTAxeVFyUTVCMl9hbmt3b2J2bTdFeHhnOHFYdzdIbkFtZzc?oc=5",
      "title": "Momentum BRPT, Begini Hitung-hitungannya"
-    }
-   ]
-  },
-  {
-   "id": "06d64bdf0cb4",
-   "title": "BSML Targetkan Bisnis Pengelolaan Kapal Kontribusi 10% Pendapatan",
-   "category": "Kinerja",
-   "tickers": [
-    "BSML"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T13:50:48+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYnJzYS1lUWw2eXZZUG1fVlp4U3FZMjBsN3dNazZ2MURVY2xMMnByX1FnZ2ZfbFNnZ0hQWlplejFtTjhSWTZqS0lMcWhWQ2NiME5vRkltSDJRcTFyTEQteXV6dy1Yd2FoUVlPdXprOUN2MXM3TWp6cjVKZXJUVUtQX3FLVFNTUzNwdVBjSEo1cVY5bzJyVndaVms3RXNtMlZQZjJhSjN3Q3F0bDI2OVFSNnk0MEdYcWs?oc=5",
-     "title": "BSML Targetkan Bisnis Pengelolaan Kapal Kontribusi 10% Pendapatan"
     }
    ]
   },
