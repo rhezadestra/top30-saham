@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T11:17:09+07:00",
+ "updated": "2026-11-28T11:26:10+07:00",
  "window": {
-  "start": "2026-11-27T11:17:09+07:00",
-  "end": "2026-11-28T11:17:09+07:00",
+  "start": "2026-11-27T11:26:10+07:00",
+  "end": "2026-11-28T11:26:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -2006,24 +2006,6 @@
      "time": "2026-11-27T12:00:52+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeldjQ3Q3VHExRDc0cHo0U2JlckR3cVRqbVpxQ1pHUFdfbGJWVTFIQ3MwRmJmVUdYTGhTcmJNaHhFdlc2SGtkM25PTmthc3dJbWVOejJTZHc0NVlXUUItRE4yd2lNNDZXX1M0ajZjZ0hGT3FMREduWXp6VEdwaWpXVmZHQjFrVXFqYi1oQTRWdFJoeXpMSDF1djdZNjE4eEM4Y09QbTRaV04yNm_SAaMBQVVfeXFMTXR0VW8zdUt5bXR0cVpsMkRvSnFnNDhvNVNoZXBWd1B4c2VYeVlqY3FhTjRrbmVsRlQ1TWlCS0xfYVR2WWpwR3JNaU8zSnZLVVBzbHl0eVAwcVVGak9uMERzS2laeUVLNF9ucUJzSEtwbk1YNk1iaW83OWhVQzBva1R0UEdXX2lrdFNqVTFSQ0Q5X3ctS19LVjN5MlpoNHRvYnhuNA?oc=5",
      "title": "Bintang Samudera (BSML) Cari Mesin Pertumbuhan Baru Lewat Ship Management"
-    }
-   ]
-  },
-  {
-   "id": "479075b07dee",
-   "title": "INAI Hadir di IPOT X Mobile, Investor Tinggal Bertanya lewat Chat",
-   "category": "Kinerja",
-   "tickers": [
-    "INAI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T11:24:08+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbnJ6TmJwWkxab0VlNjJQZGlwQVZtTkt0N1dOSGVCcmVta29OOXhBTjFrdWRzNlRsV25NV0lEWnhETTJHX0RadWtGNXh1b3pzV2k0eWtKbHc5aFFicXFlYVNfR2lYVDU1S2tuNkNaY0toanFDdlNEMm93dlBiaUJLamRuZjVVM1ZwdGxyYVo3aWJxOXlueXZVcjN2cjV0TjJnZGF4N25lUEF4SW9NT1N3elhkSXQzNnFUdGc?oc=5",
-     "title": "INAI Hadir di IPOT X Mobile, Investor Tinggal Bertanya lewat Chat"
     }
    ]
   },
