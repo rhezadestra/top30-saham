@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T19:51:28+07:00",
+ "updated": "2026-11-28T19:54:28+07:00",
  "window": {
-  "start": "2026-11-27T19:51:28+07:00",
-  "end": "2026-11-28T19:51:28+07:00",
+  "start": "2026-11-27T19:54:28+07:00",
+  "end": "2026-11-28T19:54:28+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 66
+   "items": 65
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -766,22 +766,6 @@
      "time": "2026-11-27T20:01:38+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT1RjdGt0VG9FaW1Sa0RiN2JxMWhRUVNwSjhmYkpndzRnNnJreS1UQUE2SHN6Y2NTazU0NzRHYmtyWkJRUGk4X0FRU1pTVWhvRkVVeHJXR0dIb1JoWS05V0dxdUtDZkwyd0RGYmhyLXV6M0htV0J3Tmk0cGtWVlJpMXNPYlpXbHppeXh4VXYwWktvbENPaUF4eDBJM0Y4R3h0MkptWHJZOFVqTk0?oc=5",
      "title": "OJK Perlu Perkuat Pengawasan Pasar Modal, Pengamat Soroti Penanganan Kasus"
-    }
-   ]
-  },
-  {
-   "id": "9135a47d8dbb",
-   "title": "Genjot Ekonomi Tumbuh Tinggi, RI Butuh 5 Sinergi Kebijakan Ini",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "Bank Indonesia (BI) menilai ekonomi nasional berhasil tumbuh tinggi di tengah ketidakpastian global.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T19:52:11+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127194921-17-789217/genjot-ekonomi-tumbuh-tinggi-ri-butuh-5-sinergi-kebijakan-ini",
-     "title": "Genjot Ekonomi Tumbuh Tinggi, RI Butuh 5 Sinergi Kebijakan Ini"
     }
    ]
   },
