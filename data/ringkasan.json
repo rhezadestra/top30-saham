@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:52:16+07:00",
+ "updated": "2026-11-28T16:52:14+07:00",
  "items": {
   "0287597ab648": {
    "title": "BEI Sanksi Lima Emiten soal Ketidaksesuaian Data Free Float",
@@ -1859,18 +1859,47 @@
     "Pencabutan terbaru menimpa PT BPR Bontang di Kalimantan Timur melalui keputusan tertanggal 25 November 2026.",
     "Operasional bank yang ditutup dihentikan, dan penyelesaian hak serta kewajibannya ditangani tim likuidasi bentukan LPS."
    ]
+  },
+  "28974680b2f6": {
+   "title": "KKGI Cetak Lonjakan Laba Bersih 1.304% Pada Sembilan Bulan 2026",
+   "at": "2026-11-28T16:52:14+07:00",
+   "urls": [
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVBXWHNzTm5GWEJjZlo3RUltbjZ4NHQwSEJMdEg3a3YydmU5Q0RQSEZHajNqenJZQmUzcE95SWttQnFvREJvd2JvV1VIUEw5N1ZrSzRuMlFzX2gyd1h0TjEtajYyV2locUNGRGhvSXNWVVlIU0tlZHd0eXNIT19BZlZrU2tCWkhyQXQzRXo5ZG5veFUxWG42R2oxQQ?oc=5",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZl9jTU5Bd2c5LUI5VVhzMlpZN3RQSi1xRm1TYWlBTWtSZkQ0OWNWcFBuNEhVdG9lcDRRakQzc3NZMEM2d1BKWEx1U0xnSXdVeVpxQVBUX3JlNXFLVTQ0Z1d4S3hCLTdfVWtRa3hRTWw2NlZ2X3JqT0djSGlQbThJVzJiZGlSOG1yeUk1N2paMU92SFR1S0JkcTNn?oc=5"
+   ],
+   "points": [
+    "Resource Alam Indonesia (KKGI) membukukan laba bersih US$11,61 juta hingga September 2026, melonjak 1.304,4% dari US$826.670 setahun sebelumnya.",
+    "Pendapatan usaha justru turun 2,55% menjadi US$106,85 juta, sedangkan beban pokok pendapatan menyusut 18,23% menjadi US$75,43 juta.",
+    "Lonjakan laba ditopang penurunan beban pokok serta efisiensi beban operasional, sehingga laba usaha naik 629,8% menjadi US$21,28 juta.",
+    "Per 30 September 2026, kas dan setara kas naik 43,53% menjadi US$60,78 juta, sementara total liabilitas naik 24,77% menjadi US$38,12 juta."
+   ]
+  },
+  "664c99468efb": {
+   "title": "OJK Bantah Kabar SMBC Indonesia Bakal Delisting dari BEI",
+   "at": "2026-11-28T16:52:14+07:00",
+   "urls": [
+    "https://www.idxchannel.com/market-news/ojk-bantah-kabar-smbc-indonesia-bakal-delisting-dari-bei"
+   ],
+   "points": [
+    "OJK, melalui Dian Ediana Rae, membantah kabar Bank SMBC Indonesia (BTPN) akan delisting dan menyatakan belum ada pengumuman dari perseroan kepada OJK.",
+    "Namun IDX Channel mencatat BTPN telah menyampaikan keterbukaan informasi tertanggal 20 November 2026 tentang rencana go private dan voluntary delisting.",
+    "Menindaklanjuti surat tersebut, BEI menghentikan sementara perdagangan saham BTPN di seluruh pasar sejak 23 November 2026 sampai pengumuman lebih lanjut."
+   ]
+  },
+  "c0259bf955bf": {
+   "title": "Andalkan Kekuatan Lokal, Ini Jurus Bank Jateng Menangkan Persaingan",
+   "at": "2026-11-28T16:52:14+07:00",
+   "urls": [
+    "https://www.cnbcindonesia.com/market/20261128132204-17-789314/andalkan-kekuatan-lokal-ini-jurus-bank-jateng-menangkan-persaingan"
+   ],
+   "points": [
+    "Bank Jateng menyatakan mengandalkan kedekatan dengan pemerintah daerah, ekonomi lokal, dan masyarakat Jawa Tengah untuk bersaing dengan bank nasional dan swasta.",
+    "Persaingan juga ditempuh lewat kualitas layanan, kemudahan dan kecepatan pembiayaan, bukan hanya suku bunga atau besaran kredit.",
+    "Rencananya mencakup perluasan segmen korporasi, penguatan kredit UMKM, penambahan dana murah, pembiayaan rantai pasok, serta pengelolaan risiko yang prudent."
+   ]
   }
  },
  "merge": {
-  "425b4e2c1763": "14aeb788c570",
-  "71f15df08bb8": "c61caa3842cf",
-  "1e00f46c9c4e": "69f5b147797a",
-  "5356fd5addfa": "c8c4c97c6039",
-  "fdd2e17820b4": "c61caa3842cf",
-  "16e8e247f3e3": "c61caa3842cf",
-  "8376b1a70ee2": "c61caa3842cf",
-  "5e316db81772": "c61caa3842cf",
-  "75f0dcdcf024": "0e58eb65cb1e",
   "29fe8aff4237": "4404f57291cc",
   "ef827be3276c": "00193f420a7e",
   "2559ea2a175c": "00193f420a7e",
@@ -1885,9 +1914,7 @@
   "a341e9ee9868": "00193f420a7e",
   "93c4a25589fe": "00193f420a7e",
   "dc72000c0383": "a17bce3016ea",
-  "6ec2d43301cd": "c61caa3842cf",
   "45fe3e4d0e53": "ee7bf9911642",
-  "389439fea2b9": "be22f8145d5e",
   "108c3deae09c": "00193f420a7e",
   "e08fcbbdb60a": "00193f420a7e",
   "489479142a1a": "fcc05ab0ed89",
@@ -1896,6 +1923,11 @@
   "f3198d29b0e8": "00193f420a7e",
   "f995c73a9735": "00193f420a7e",
   "ef3fcef46560": "f09725b22a87",
-  "e5cfc3413b7e": "99a1bf8029c3"
+  "e5cfc3413b7e": "99a1bf8029c3",
+  "8376b1a70ee2": "6ec2d43301cd",
+  "fdd2e17820b4": "6ec2d43301cd",
+  "16e8e247f3e3": "6ec2d43301cd",
+  "0fa9c487bc05": "75f0dcdcf024",
+  "148c656135ce": "cca6a46b8428"
  }
 }
