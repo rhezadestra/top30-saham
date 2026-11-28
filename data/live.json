@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T16:07:35+07:00",
+ "updated": "2026-11-28T16:16:34+07:00",
  "window": {
-  "start": "2026-11-27T16:07:35+07:00",
-  "end": "2026-11-28T16:07:35+07:00",
+  "start": "2026-11-27T16:16:34+07:00",
+  "end": "2026-11-28T16:16:34+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 96
+   "items": 95
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 68
+   "items": 67
   },
   "Investor.id": {
    "via": "google",
@@ -172,6 +172,42 @@
  },
  "topics": [
   {
+   "id": "91ccd8229cfb",
+   "title": "Krakatau Steel (KRAS) Cetak Laba Bersih US$ 83,1 Juta per Kuartal III-2026",
+   "category": "Kinerja",
+   "tickers": [
+    "KRAS"
+   ],
+   "summary": "Laba Bersih SMF Tumbuh 31,71 Persen, Jadi Rp569 Miliar hingga Kuartal III-2026",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T09:50:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWnd1R2tOMC1WUXN1b1lQWTlKQnJPZk96SERwZUdfanotdDFBYXJzTjRKcVJWSWhZNWF6a3VXMmJqbmFESnFPUnQySjVJbDV4dnoyWDZETzI0dnNFekRmSVJaYzhNa3RJMlVVS0tzUEx5cGQ2MUtXd2xuNHlvUFAtMGRwZHB2U3VYLVV1UDhiUTAtdGZINTI3TDl6VnNFY01nemdGWVZfbHNTd9IBogFBVV95cUxOLWo2WEJhZWo2ZFJhZy01bzNhSzZzWnhSV3JnU183Z2lpTGRIRU82UjRsbmhUbHFCbnpsRU9kT2lXWmc2Q3pUbzhfRUZFLW1YVnhiR0ZFc0dDeHh5MDZoa2RFUlVFaFlfZmFsSTlUOTVQaU9iZjhSQXZRNGxlWWFPX2I2NDZhRk5tRlIxN1FUbVNHRTgtQ2ltcFg5WlJfbkJHZWc?oc=5",
+     "title": "Krakatau Steel (KRAS) Cetak Laba Bersih US$ 83,1 Juta per Kuartal III-2026"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T12:44:11+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR1FScFVyYnhyQ1lfM2lvUmhtSjlPXzBnSTUtWlhBLWp2SnZEb3ZRMmFqRGRaRE9ITGRlbm45ZUtrRDZQd0hJYTBLVEx5MU14SHotRzVmN0FBMGFrVTR0ZDFTYmNqXzVXMURuRkhUWk8wdUJDOXlDblBMWkRzY2VxdnN2aS1NMnpwYjJnREs4UkpHcEtva092bXp0TXFRSmpCRmlV0gGbAUFVX3lxTE92UXNWZXVscTA3Ynd0UUtvVDVQZC03aEF4eVd1YkpYd3BpdGxMLTVlY0ozNGdHRW14Wk9VNjd1cU5vYjBNRWVtYkZmYVl1Z3dpS085Q3hOMjBTUXdZdzluRi04NjFXR0Fxd3kzZVRQNHNOdkJyaGxtSlBPaEhUbE5rZFVYbGxKTVhya3pkRHVaQVdPTmRwaUl4TVFn?oc=5",
+     "title": "Krakatau Steel (KRAS) Raup Laba US$ 83,1 Juta hingga Kuartal III-2026"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T13:10:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/laba-bersih-smf-tumbuh-3171-persen-jadi-rp569-miliar-hingga-kuartal-iii-2026",
+     "title": "Laba Bersih SMF Tumbuh 31,71 Persen, Jadi Rp569 Miliar hingga Kuartal III-2026"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T16:11:26+07:00",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ISWRrY0pURWh0cHhfQkVyTTJjY1h1c2tTZmVvMGhfWkhLR2VYYUtBYTFyUzJUbE1IbW00NjZsOUpWemh2bkphMS1OOWlpT1ZVclV0WklGY2FiY0tqNEdzdFdNdG5vUl9VVm5mWUFYQzlTblpJcTFQcFdaaw?oc=5",
+     "title": "Laba KRAS Melonjak 246%, Ini Rahasianya"
+    }
+   ]
+  },
+  {
    "id": "c3a1f192e352",
    "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare",
    "category": "Aksi korporasi",
@@ -234,36 +270,6 @@
      "time": "2026-11-27T18:40:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUtsY2szdGJxYk82SEdOX1JLMEhYODhua2oxMkNORWdKeGszdUlYMXBEUExqZlVBc3FsTUNaTlhOSUVZeDc4dGpSSmxBd2lLa04yRU00eDkwelJ4WVJsWjNycFdoYXBiTE1RbnA1ZUlLWnRqX2ZycGV0b0NHRnhsU3N5dFpkOEkyQVhVaGdkc3VRUmxxeXZwN1o4NzV0RUZBaWdJTEpNYmhMejZMMGZFQXpIU3I3c2MwNHZZYWgyd1Fud2FEckJF?oc=5",
      "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick"
-    }
-   ]
-  },
-  {
-   "id": "91ccd8229cfb",
-   "title": "Krakatau Steel (KRAS) Cetak Laba Bersih US$ 83,1 Juta per Kuartal III-2026",
-   "category": "Kinerja",
-   "tickers": [
-    "KRAS"
-   ],
-   "summary": "Laba Bersih SMF Tumbuh 31,71 Persen, Jadi Rp569 Miliar hingga Kuartal III-2026",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T09:50:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWnd1R2tOMC1WUXN1b1lQWTlKQnJPZk96SERwZUdfanotdDFBYXJzTjRKcVJWSWhZNWF6a3VXMmJqbmFESnFPUnQySjVJbDV4dnoyWDZETzI0dnNFekRmSVJaYzhNa3RJMlVVS0tzUEx5cGQ2MUtXd2xuNHlvUFAtMGRwZHB2U3VYLVV1UDhiUTAtdGZINTI3TDl6VnNFY01nemdGWVZfbHNTd9IBogFBVV95cUxOLWo2WEJhZWo2ZFJhZy01bzNhSzZzWnhSV3JnU183Z2lpTGRIRU82UjRsbmhUbHFCbnpsRU9kT2lXWmc2Q3pUbzhfRUZFLW1YVnhiR0ZFc0dDeHh5MDZoa2RFUlVFaFlfZmFsSTlUOTVQaU9iZjhSQXZRNGxlWWFPX2I2NDZhRk5tRlIxN1FUbVNHRTgtQ2ltcFg5WlJfbkJHZWc?oc=5",
-     "title": "Krakatau Steel (KRAS) Cetak Laba Bersih US$ 83,1 Juta per Kuartal III-2026"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T12:44:11+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOR1FScFVyYnhyQ1lfM2lvUmhtSjlPXzBnSTUtWlhBLWp2SnZEb3ZRMmFqRGRaRE9ITGRlbm45ZUtrRDZQd0hJYTBLVEx5MU14SHotRzVmN0FBMGFrVTR0ZDFTYmNqXzVXMURuRkhUWk8wdUJDOXlDblBMWkRzY2VxdnN2aS1NMnpwYjJnREs4UkpHcEtva092bXp0TXFRSmpCRmlV0gGbAUFVX3lxTE92UXNWZXVscTA3Ynd0UUtvVDVQZC03aEF4eVd1YkpYd3BpdGxMLTVlY0ozNGdHRW14Wk9VNjd1cU5vYjBNRWVtYkZmYVl1Z3dpS085Q3hOMjBTUXdZdzluRi04NjFXR0Fxd3kzZVRQNHNOdkJyaGxtSlBPaEhUbE5rZFVYbGxKTVhya3pkRHVaQVdPTmRwaUl4TVFn?oc=5",
-     "title": "Krakatau Steel (KRAS) Raup Laba US$ 83,1 Juta hingga Kuartal III-2026"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-28T13:10:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/laba-bersih-smf-tumbuh-3171-persen-jadi-rp569-miliar-hingga-kuartal-iii-2026",
-     "title": "Laba Bersih SMF Tumbuh 31,71 Persen, Jadi Rp569 Miliar hingga Kuartal III-2026"
     }
    ]
   },
@@ -938,24 +944,6 @@
      "time": "2026-11-27T16:47:34+07:00",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN0w4dF82RVU0VjNtY3Z3RXYxLU9lcjlDTXlRNG5MRF9DN25fX2ZqY1YwQkRiTXg5clFseDgyazFWZ0ZtWVhiZ2N1dldKTjVqR1NWTE5LczQ1dmJpcHc0THI4cHJTVFBEX3VyY3NfRTJTV0J6M0VnNk9qS0Rjbnk3dXFjVHk4eGlQMTZ5Y0R1X3ZEUHI4VVhBa2UwVDJNSHEzV2N3LQ?oc=5",
      "title": "Semarak Aksi Rights Issue, Bagaimana Daya Serap Pasar?"
-    }
-   ]
-  },
-  {
-   "id": "cda192aea60b",
-   "title": "Gapura Prima (GPRA) Siapkan Buyback Saham Rp40 Miliar, Harga Maksimal Rp120",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "GPRA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T16:15:25+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWHBkM1ljc3VnTHpNbTl4QWFTWHlhT3ZYc1Rxd3BuUXd1eExMd3lYMVE2ZFBORDcwWkpUU2JvVUoxQlNycFNRYTBxblJPV3UwRy1qSFg4NEVGaDJJNDdHVGNiRWxEWms0bFFhQUl3VFByRzdhdUc1ZTVwOU9hRU9OcjR1d2hoNFd2WXRaamFfeVNiYlkxTEotbTMxeHR3VGtsU1JXOFNXSlBxM1NHNXhkV1JfSFI2bklKUGh3OTd2M0dhZw?oc=5",
-     "title": "Gapura Prima (GPRA) Siapkan Buyback Saham Rp40 Miliar, Harga Maksimal Rp120"
     }
    ]
   },
