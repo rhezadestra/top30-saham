@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:46:09+07:00",
+ "updated": "2026-11-28T09:52:08+07:00",
  "window": {
-  "start": "2026-11-27T09:46:09+07:00",
-  "end": "2026-11-28T09:46:09+07:00",
+  "start": "2026-11-27T09:52:08+07:00",
+  "end": "2026-11-28T09:52:08+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 135
+   "items": 136
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 128
+   "items": 130
   }
  },
  "prevAt": "2026-11-28T09:06:34+07:00",
@@ -459,28 +459,6 @@
      "time": "2026-11-27T11:35:33+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float",
      "title": "Tak Cuma Beri Sanksi, BEI Juga Gembok 5 Saham Ini Gegara Free Float"
-    }
-   ]
-  },
-  {
-   "id": "36b351d6bc91",
-   "title": "BEI Suspensi 5 Saham usai Langgar Ketentuan Pelaporan Free Float",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T09:52:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWjliTHJyX3NkZjB1N0xLUlJlZDgyTEgwVlRXS05lWjhKRVdvSzBPc0xnZWJLd0dndG9kMjBsc3R3blpqcmtkYVVpNURzU3JmbFVtX1p1U05qTjBjRjVLS3Babk03MDJXVkRKQnVaZUlReFB0ZUR0Y1ozel9jRjdWWjQ0a0p3U0p6RGlNZ0xQQ3A1RENlU2lWNVpyeXAway1uTlVsOXJR0gGrAUFVX3lxTE9ZRXhVdlVmZ0lqcWxUZUNVV3pPdVQwRjJDZjBrWXp2ODg5eUIzU3g3ZkNHbjVIQ3BqcTA0SVpkQ0R0RWtpM0VXT05WSzFRV0xuakk1aFhPd3I4eGMyUUFvNnJVYVpJNHpEdXAwcWpQVER0QjdodURrSjhMYXRYeDhkdDgybUktdXpnRTdrdlFvXzN5ZHZRTmYwQU5nRnhmOTFLb3FaQl9wcDRNbw?oc=5",
-     "title": "BEI Suspensi 5 Saham usai Langgar Ketentuan Pelaporan Free Float"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T10:54:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFVDcWk2bXZMUGMyMmpjZy1oczFYUVN3c3QtYXg3WG9FZEc4R1E4eGt2eGlWWnEzRFdxU05XLW00bTk5TnRIM3hCUWhZX2IzQnVjeC1Ub01McnRIVDd6bXIzeTBhNFhsMVdfdUpLd0NRR3BKYnJFczlFWUt4akxndFNMYXY3WF9VbmtsT2hLYVhRRTltQUhKNnEwZHk2d9IBlgFBVV95cUxNcTJoTmI3WHdpR2hWSEYtLWJ6N25RMVZYbGFFRzM2SmRPb0JKYmVPVnFiSHRDV3RvRDUxN2ZJNTVISUF0WkhWMEV6UkgtT0o3Z0hsTnlRQ3hkeWFmeTlMTXZmZnVJYkpzQXFSNzk3ZVJIQUQ3MEFJdmFDcko5aHBUWGM1Tm1aelU2VGtwQV9KX2VUUWZ4V2c?oc=5",
-     "title": "Buntut Data Free Float Bermasalah, BEI Suspensi Lima Saham Ini"
     }
    ]
   },
@@ -1528,6 +1506,22 @@
    ]
   },
   {
+   "id": "1bff6e3d6491",
+   "title": "Buntut Data Free Float Bermasalah, BEI Suspensi Lima Saham Ini",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T10:54:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFVDcWk2bXZMUGMyMmpjZy1oczFYUVN3c3QtYXg3WG9FZEc4R1E4eGt2eGlWWnEzRFdxU05XLW00bTk5TnRIM3hCUWhZX2IzQnVjeC1Ub01McnRIVDd6bXIzeTBhNFhsMVdfdUpLd0NRR3BKYnJFczlFWUt4akxndFNMYXY3WF9VbmtsT2hLYVhRRTltQUhKNnEwZHk2d9IBlgFBVV95cUxNcTJoTmI3WHdpR2hWSEYtLWJ6N25RMVZYbGFFRzM2SmRPb0JKYmVPVnFiSHRDV3RvRDUxN2ZJNTVISUF0WkhWMEV6UkgtT0o3Z0hsTnlRQ3hkeWFmeTlMTXZmZnVJYkpzQXFSNzk3ZVJIQUQ3MEFJdmFDcko5aHBUWGM1Tm1aelU2VGtwQV9KX2VUUWZ4V2c?oc=5",
+     "title": "Buntut Data Free Float Bermasalah, BEI Suspensi Lima Saham Ini"
+    }
+   ]
+  },
+  {
    "id": "66927a83a267",
    "title": "Kebijakan Zero ODOL 2027 Berpotensi Tekan Margin Jangka Pendek Emiten Logistik",
    "category": "Regulasi",
@@ -1540,6 +1534,24 @@
      "time": "2026-11-27T10:00:01+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY285b0p5X1lkX0JLZ2ZJdXNNOWUtclhkY2cwQXNYWW9kYlh5QlJyRC1SLXVqdUxTdmltZE5VcUR4RDVSZzVZZzFLUVZITDJGS0taeEdlX3EyY3EzdDBlSlZpbjl6QWpjZmZndmlwc2JoZ3NJdy1mZ29aWm5SV0lrQ1VhQ21QRTNhZTNTekJva3RsZFE0ZEk0eHhXVmtyX3lZc0xueGlVdXFObmhlcUdkRWFn?oc=5",
      "title": "Kebijakan Zero ODOL 2027 Berpotensi Tekan Margin Jangka Pendek Emiten Logistik"
+    }
+   ]
+  },
+  {
+   "id": "10d02dabbc83",
+   "title": "Simak Strategi Humpuss Maritim Internasional (HUMI) Memperluas Bisnis",
+   "category": "Kinerja",
+   "tickers": [
+    "HUMI"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T09:45:12+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd1I3MG5rcjdfS3BpMjQ3eWVYR3pESV9CaXFZbk1objZEd3lZSVUxZktXSmJTS2pYV0xIaVR0TjFycm4wMHYxYmtONS1PdEQxOFZRWUhKdUI0T2p5X3ZwaExTcWV2Q3d3TUxfLXdqOTBGeVRnRHBieUpnd1VRRDhqdzVqenU3REc1d1RsM1c2djF1YUJ5b0JwOURiWVhsbExtbEtkb1BB0gGeAUFVX3lxTE01MTdjaWktSzlOQjVaVGlvUHNIbm11NHBtMlFUTC1XeGdoN2VScUUySDZqcWhsSDI4RmVIWFlpRjNuT2NfakllWk02NU15WWpjMEZwTGUzTkxndVQ3UXR6RnNpSlZkRDhVWVFBZFBJQV9icVRtY0JVVUxwMUdSY05xd0QwaTlON1pVYjlmYVhZZDE4UlcyS0FiWFl1SjRR?oc=5",
+     "title": "Simak Strategi Humpuss Maritim Internasional (HUMI) Memperluas Bisnis"
     }
    ]
   },
