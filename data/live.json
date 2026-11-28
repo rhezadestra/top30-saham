@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T10:49:39+07:00",
+ "updated": "2026-11-28T10:52:38+07:00",
  "window": {
-  "start": "2026-11-27T10:49:39+07:00",
-  "end": "2026-11-28T10:49:39+07:00",
+  "start": "2026-11-27T10:52:38+07:00",
+  "end": "2026-11-28T10:52:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 136
+   "items": 135
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 134
+   "items": 135
   }
  },
  "prevAt": "2026-11-28T10:07:08+07:00",
@@ -1287,24 +1287,6 @@
      "time": "2026-11-27T10:55:23+07:00",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcW9GY3ZnSnhIdXRiTW5nUFgwRm9MWVJSWkJxTzdmejgzSlh6WV9kRmhDbkpWSVh5YmMzNm9UTW5JR1RBTlNIalh4U0tGNFViMGpYT21teVdaajhkVm9ndjQ0amZPdmxHa1NtNWsyWkM1d3NneGlHMkhvMVRUTVpBVFJ6dEMzdXNQT0JvR0t2bEthRUZPQl9CYTlBdm82bGhScm9DQjNDalVVODRpTThtZlpqaVdoVUh6SXc?oc=5",
      "title": "Usai Konsolidasi MI BUMN dan Akuisisi Schroder, Persaingan Manajer Investasi Mengetat"
-    }
-   ]
-  },
-  {
-   "id": "e8d3fe592f30",
-   "title": "IPO Andalan Artha (ANDA) Belum Terlaksana, BEI Buka Suara",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "ANDA"
-   ],
-   "summary": "Bursa Efek Indonesia menjelaskan penundaan IPO PT Andalan Artha Primanusa Tbk (ANDA) yang dijadwalkan 24-27 November 2026.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T10:50:15+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127100115-17-788962/ipo-andalan-artha--anda--belum-terlaksana-bei-buka-suara",
-     "title": "IPO Andalan Artha (ANDA) Belum Terlaksana, BEI Buka Suara"
     }
    ]
   },
