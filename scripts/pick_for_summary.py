@@ -44,10 +44,11 @@ def main():
         if not src:
             continue
         latest = max(datetime.fromisoformat(s["time"]) for s in src)
-        rows.append((t, len({s["media"] for s in src}), len(src), latest))
+        first = min(datetime.fromisoformat(s["time"]) for s in t["sources"])
+        rows.append((t, len({s["media"] for s in src}), len(src), latest, first))
 
     popular = sorted(rows, key=lambda r: (-r[1], -r[2], CATS.get(r[0]["category"], 9), -r[3].timestamp()))[:30]
-    newest = sorted(rows, key=lambda r: -r[3].timestamp())[:30]
+    newest = sorted(rows, key=lambda r: -r[4].timestamp())[:30]
     seen, picked = set(), []
     for r in sorted(popular + newest, key=lambda r: -r[3].timestamp()):
         t = r[0]

@@ -432,7 +432,7 @@ footer p { margin: 0; }
       const src = t.sources.filter((s) => Date.parse(s.time) >= start);
       if (!src.length) continue;
       const media = new Set(src.map((s) => s.media));
-      rows.push({ ...t, sources: src, media, nMedia: media.size, nArt: src.length, latest: Math.max(...src.map((s) => Date.parse(s.time))) });
+      rows.push({ ...t, sources: src, media, nMedia: media.size, nArt: src.length, latest: Math.max(...src.map((s) => Date.parse(s.time))), first: Math.min(...t.sources.map((s) => Date.parse(s.time))) });
     }
     rows.sort((a, b) => b.nMedia - a.nMedia || b.nArt - a.nArt || ord(a.category) - ord(b.category) || b.latest - a.latest);
     // Semua topik di rentang, urut populer; peringkat dihitung untuk semuanya.
@@ -534,7 +534,7 @@ footer p { margin: 0; }
     const one = pickSource(t);
     const src = '<a class="read" href="' + esc(one.url) + '" target="_blank" rel="noopener"><span class="s-main"><b>Baca di ' + esc(one.media) + ' ↗</b><span>' + esc(one.title || t.title) + '</span></span><span class="when">' + esc(when(one.time)) + "</span></a>";
     const lead = state.sort === "new"
-      ? '<div class="rank time" aria-label="Terbaru pukul ' + fmtTime(t.latest) + '">' + esc(fmtTime(t.latest)) + "</div>"
+      ? '<div class="rank time" aria-label="Pertama muncul pukul ' + fmtTime(t.first) + '">' + esc(fmtTime(t.first)) + "</div>"
       : '<div class="rank" aria-label="Peringkat ' + t.rank + '">' + t.rank + moveHTML(t) + "</div>";
     const ai = aiFor(t);
     const sum = ai
@@ -556,7 +556,7 @@ footer p { margin: 0; }
   function renderList() {
     // Saat mencari, cari di semua topik dalam rentang, bukan hanya 30 yang tampil.
     let shown = (state.q.trim() ? state.all : state.ranked).filter(matches);
-    if (state.sort === "new") shown = shown.slice().sort((a, b) => b.latest - a.latest);
+    if (state.sort === "new") shown = shown.slice().sort((a, b) => b.first - a.first);
     $("topics").innerHTML = shown.map(topicHTML).join("");
     $("empty").hidden = shown.length > 0 || (state.cat === "Tersimpan" && Object.keys(state.saved).length > 0);
     if (!state.ranked.length) $("empty").textContent = "Belum ada berita dalam " + state.hours + " jam terakhir. Pilih rentang yang lebih panjang.";
@@ -575,9 +575,10 @@ footer p { margin: 0; }
     state.ed = ed;
     state.all = build(ed);
     const target = ed.target || 30;
-    // Terpopuler: 30 topik dengan media terbanyak. Terbaru: 30 topik dengan artikel paling baru.
+    // Terpopuler: 30 topik dengan media terbanyak. Terbaru: 30 topik yang PERTAMA muncul paling akhir,
+    // jadi topik lama yang mendapat artikel susulan tidak naik lagi ke atas.
     state.ranked = state.sort === "new"
-      ? state.all.slice().sort((a, b) => b.latest - a.latest).slice(0, target)
+      ? state.all.slice().sort((a, b) => b.first - a.first).slice(0, target)
       : state.all.slice(0, target);
     if (state.cat !== "Semua" && state.cat !== "Tersimpan" && !state.ranked.some((t) => t.category === state.cat)) state.cat = "Semua";
     renderSort(); renderHead(); renderChips(); renderList();
