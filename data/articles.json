@@ -1,20 +1,6 @@
 {
-"updated": "2026-11-28T22:56:31+07:00",
+"updated": "2026-11-28T22:59:31+07:00",
 "articles": [
-{
-"media": "Bisnis",
-"title": "Rupiah Kian Melemah, Menkeu Suahasil Tegaskan Fokus Jaga Yield Utang Pemerintah",
-"url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaWdpeUM5TU5FdmQ0blBMQTJnUkFRdmM2WGFqcEdRQTZ3VUNSa240V2tuTnc5dm9RaDJVQWN2QVZxNUNoZ3pxcXFOZHBobHBPMXIxdHRBVWVHalB5dTRVNGx4MDBzdUk5bi1rQldoSW51TWRzMHlQYUtCMXpSWmtJSlNjWkYtUGlSb0lGSFhPOXVfdDh5U3RYdXo5d0VDYmtya1Q3cVJvRVJ1VGVRVEE0aElIM3daSmRhcUVPekxVaFF3bTRmWERPeQ?oc=5",
-"time": "2026-11-27T10:58:30+07:00",
-"desc": ""
-},
-{
-"media": "IDX Channel",
-"title": "Kombes Iman Imanuddin Jalani Sidang Etik Hari Ini, Bukan Terkait Penyadapan",
-"url": "https://www.idxchannel.com/news/kombes-iman-imanuddin-jalani-sidang-etik-hari-ini-bukan-terkait-penyadapan",
-"time": "2026-11-27T10:59:00+07:00",
-"desc": "Kombes Iman Imanuddin Jalani Sidang Etik Hari Ini, Bukan Terkait Penyadapan"
-},
 {
 "media": "IDX Channel",
 "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen",
@@ -5155,9 +5141,23 @@
 },
 {
 "media": "Kontan",
+"title": "Digitalisasi Seleksi Advokat Didorong untuk Jaga Standar Kompetensi Profesi Hukum",
+"url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOME9VSEM4VEdxM1NRN0piN0lUVjhjYUFacGdwaUpxem4zS2RlTjZWS05mU2pEUFE3RTljYkh3SDhrcjNTVEE5UmVpY1BwZWZXdWNhVXlIUEM0eG5LeHpLekVPbkwwa09EZE5wMFNjTFB5cm1hT3M5Z01Xa0JKdUxBVWpnS3YyYnBmZ01mT1piaGsyRXNHVHBadVprVnhFM0NNWVhJZnJfQ25aSE52ZGhmMmJxUUZPNGvSAbABQVVfeXFMTW9RV1dTX0V0TFpOUEhSUzg3T3dtSm9VSU56cFFVZUFNMVZ4V2Z0SkVMZHJUcjY2N2hOakdMMzlKdUtnaVNMY0hLV3BkYUdqcWxxODVWRmExT3pYajEtMlJyeWhzeUZIWjExeElMY2hEa1FDMUFpQnpuWEU1YWNOM1NHQU1vc1I3aTZwMFN4QlBDdGdpcEZwcERRbVlsRkE5LWJOeHg0NmNtdl9tU3NWc2M?oc=5",
+"time": "2026-11-28T22:40:24+07:00",
+"desc": ""
+},
+{
+"media": "Kontan",
 "title": "Laba Bersih SMF Tumbuh 31,71% Jadi Rp 569 Miliar hingga Kuartal III-2026",
 "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWFdzdGxRbVUzN2YzTC00eUlJMEh1bHpiMXJlQTRNWmE0cGt3LXloTGlVajVOM0gwVXl1NXBhMlNYbTFHQjBqRWh4blRXRGR2NDFNTEJoYW12SjgycVpvc0VHVWRtdTFUcGhVZS1ndDNkdVpwUG1udXdscnJjcEdqMFZwczN5RmNuWVB3TTBvQjdVelZEcG0wMjFMWVVOLWtSX0dVVHpQS2XSAaIBQVVfeXFMT2oza1Z0cnp4b0xycWxOcU91WEVvSW1ET296UUF5VE9uOGJLMlBFZm5GcGFLR3pKSWh6UVRMX2xsLXpDTUJmZzREemRleDJFUk1PaEFZd1FfSUVZWm95SG43T1IwMHBpVzl4azlkVm9NWjNYaTU3Y1BlRUZzSXkxQTR0T0lDTjdnSE9BQlk1RjJQczhHT2JjRlA5d1h2bU1lRUpB?oc=5",
 "time": "2026-11-28T22:41:11+07:00",
+"desc": ""
+},
+{
+"media": "Bisnis",
+"title": "Jamkrindo Beberkan Progres Perampingan BUMN Klaster Penjaminan",
+"url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcHNnZzhKRjVBUk1Ea284Z2t6WFgyNmRCOFBobllXZnNWRXZmUDdmQ2t6TmxEcGd0M3QwNkdoa2hyTTM1YjVRODVlT0JfemlGMjg2eDdyNUhMRlIyM3NuSXdLUUFUZkp5R0lUSmRuYzBYQlFWcWVYYjRtWkdJbHk3VFQ5Q2FYd3J4NURTQlRNXzRtSDFNOFdVWWgyY29weG8zcmZvOGlTTF96bGc2eURTMXlRMUdoTHc?oc=5",
+"time": "2026-11-28T22:55:15+07:00",
 "desc": ""
 }
 ]

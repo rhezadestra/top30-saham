@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T22:56:31+07:00",
+ "updated": "2026-11-28T22:59:31+07:00",
  "window": {
-  "start": "2026-11-27T22:56:31+07:00",
-  "end": "2026-11-28T22:56:31+07:00",
+  "start": "2026-11-27T22:59:31+07:00",
+  "end": "2026-11-28T22:59:31+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 56
+   "items": 57
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,11 +49,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 47
+   "items": 48
   },
   "Investor.id": {
    "via": "google",
-   "items": 62
+   "items": 63
   },
   "Bloomberg Technoz": {
    "via": "rss",
@@ -1012,6 +1012,22 @@
    ]
   },
   {
+   "id": "8b34368fcb85",
+   "title": "Jamkrindo Beberkan Progres Perampingan BUMN Klaster Penjaminan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T22:55:15+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcHNnZzhKRjVBUk1Ea284Z2t6WFgyNmRCOFBobllXZnNWRXZmUDdmQ2t6TmxEcGd0M3QwNkdoa2hyTTM1YjVRODVlT0JfemlGMjg2eDdyNUhMRlIyM3NuSXdLUUFUZkp5R0lUSmRuYzBYQlFWcWVYYjRtWkdJbHk3VFQ5Q2FYd3J4NURTQlRNXzRtSDFNOFdVWWgyY29weG8zcmZvOGlTTF96bGc2eURTMXlRMUdoTHc?oc=5",
+     "title": "Jamkrindo Beberkan Progres Perampingan BUMN Klaster Penjaminan"
+    }
+   ]
+  },
+  {
    "id": "8ddca7c7be02",
    "title": "Peta Ekonomi Global: Konsumsi AS Tertahan, Suku Bunga Global Naik",
    "category": "Makro",
@@ -1376,22 +1392,6 @@
      "time": "2026-11-28T00:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYVVET0hXQWphU245OFdsTXhrY1BDNUx5MUc0YkNjSW5lbEI3VXVqVklJN3lTUTJXRjdHbmdZOHZ1dDFXOV83T1AzbDVuNk1qbHRkdFJJb0tpcnRiaWRqZzNheWdGRVpVMENIeldHemk3MUVMenVWRWg0VFRRWkxlZW1ER21ncF93bk1zWWVnbGxZdHNkc3FicWJOUFp5MURiN1U1cHlKMjI2Q2hYWGJsWTRSdDY2Ty1tV3c?oc=5",
      "title": "Ayovest Bidik 10 Juta Investor, Genjot Layanan Investasi Berbasis AI"
-    }
-   ]
-  },
-  {
-   "id": "db30326f06fb",
-   "title": "Wall Street Semringah usai Libur Thanksgiving, Saham-Saham AI Rebound",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T22:59:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZHZ0R0hLZkNnYm4zQVFlUUtnc1F5SGZURy1zV1lQeUs3TVJDd1QtYnlCem0tS2ZpMU5VUllfNE5xM2xVUXFFejQ5V3J3a2t2cmxmclVJUUtlVkMxWjA1eG1vMkVkR0pVYmJrVE10dV9sSzF3TXZ3eTM0akRoWGQxM3Y2NXRYdnR5X2tHUHhYeVVLcEJSSTdiYjBnTHlWTGdVLXVJVVZxLVN6cWPSAbABQVVfeXFMTUoyX2Z1aHpGb1ZrQk82YXRka2RwZC1vMmNCNWhuNkNacVF3TGYwWklLX2ZWMlpzZ1ZYcm5kbjBLYkhfbjRCWlFnNjdkX2FtVkRXM2ZCeWxJLTdSdFV2bmJmUjQtZ2ZaWGxQRmVscUxDQ0VIaV8xSnhTZlN6Y1F0dTlZdDlCNHdTeTZYXzB5QTRXcjBOalFQSDlpaGRNbzN2Q3lPWDh0dkl6Z3dKZVZWckM?oc=5",
-     "title": "Wall Street Semringah usai Libur Thanksgiving, Saham-Saham AI Rebound"
     }
    ]
   }
