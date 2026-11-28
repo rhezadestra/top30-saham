@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T17:53:30+07:00",
+ "updated": "2026-11-28T17:56:31+07:00",
  "window": {
-  "start": "2026-11-27T17:53:30+07:00",
-  "end": "2026-11-28T17:53:30+07:00",
+  "start": "2026-11-27T17:56:31+07:00",
+  "end": "2026-11-28T17:56:31+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 87
+   "items": 88
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 59
+   "items": 60
   },
   "Investor.id": {
    "via": "google",
-   "items": 93
+   "items": 94
   }
  },
  "prevAt": "2026-11-28T17:23:03+07:00",
@@ -191,36 +191,6 @@
    ]
   },
   {
-   "id": "c3a1f192e352",
-   "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "KOTA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T17:55:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWc1SmJZOWNYb2hadnBhOHlXSG1STk9IRGU3ZmdPY3hQUWh2TXhEeDAyYm9mMy0xYTdyYUdYS2RKV1Q5dUt4NGZhU1NMV0VCd2E0eGM4MlJ6WUJPZnBXNXVyaURuR1VLUTBXRnJvWjlLdTkxaXo0b3hhb3VlSVpNeWZTNDhwUS1uTGdrYzNIckxmOU84eVV5Vzl3SzFqazREOGpNbkN6Q3JPMy0xNlhkQWhR?oc=5",
-     "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T18:15:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUV81Z2NLaWgtRlVKN3pIRE5GbWRNNFdLSDhIWGRQdlZ1a2RMRTJ0Z3pzTjAzS2dNNGd0YlN2emNlVGczd2t4Sm1YLUZOSGMzVnBKZUhhLWRSdDViX0R2eWZVTlRITVVmTFpVMFRlX1ZNblV5LTJJVVFibUlmUW1qTXdkNXhDbTAycTBqWjJqQy1pTFVpTHd5dEJn?oc=5",
-     "title": "KOTA Kantongi Restu Rights Issue , Incar Land Bank 572 Hektare"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T18:45:49+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUNUNEdnXzdqSWFPaVlOZ0FmTHNicXlhX2VDMU1rTVFTcndrOFZISVhBaHV1TkNLVVNuZkNVeGRiM1p2b2ZWa19fMFR3OWRDbHBKbEdDN1MzUWxMV3ljRGhJU3ZRTy04bHBsT2kyX1p6OWFyZWFqSUlkVEJNcVgxODYzT1BucWx6QkFHWFlmZjZsdGM1Unp4QTR0N1VGX0pUZ1VhUHVmRklfejJO0gGkAUFVX3lxTE9VUENQRzdiVUhwb1pINUNrallHNWJBVDl2aVViclA0TnZxdk1VV1gyY20tWDg5NHIzeDcwaTNkc3BwblllZWN5YV9HelNGWmxzUE1KdURKeEs3Q25oQjZ5aHBzS3pJMVlUd3dLTjB4SEtlaU15dEtVTnI5QzhIQWpXa1hhZWNMZlVLMHpNREdiNjc0Y2V3bTlQQ1lpVFhvNUdiSTNl?oc=5",
-     "title": "KOTA Kantongi Restu Rights Issue 100 Miliar Saham, Incar Land Bank 572 Ha"
-    }
-   ]
-  },
-  {
    "id": "2160f470d1a3",
    "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun",
    "category": "Aksi korporasi",
@@ -253,6 +223,30 @@
      "time": "2026-11-28T17:20:00+07:00",
      "url": "https://www.idxchannel.com/market-news/fokus-garap-segmen-perawatan-unilever-indonesia-unvr-lepas-bisnis-makanan-rp205-triliun",
      "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun"
+    }
+   ]
+  },
+  {
+   "id": "071489782c37",
+   "title": "KOTA Kantongi Restu Rights Issue , Incar Land Bank 572 Hektare",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "KOTA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T18:15:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUV81Z2NLaWgtRlVKN3pIRE5GbWRNNFdLSDhIWGRQdlZ1a2RMRTJ0Z3pzTjAzS2dNNGd0YlN2emNlVGczd2t4Sm1YLUZOSGMzVnBKZUhhLWRSdDViX0R2eWZVTlRITVVmTFpVMFRlX1ZNblV5LTJJVVFibUlmUW1qTXdkNXhDbTAycTBqWjJqQy1pTFVpTHd5dEJn?oc=5",
+     "title": "KOTA Kantongi Restu Rights Issue , Incar Land Bank 572 Hektare"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T18:45:49+07:00",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUNUNEdnXzdqSWFPaVlOZ0FmTHNicXlhX2VDMU1rTVFTcndrOFZISVhBaHV1TkNLVVNuZkNVeGRiM1p2b2ZWa19fMFR3OWRDbHBKbEdDN1MzUWxMV3ljRGhJU3ZRTy04bHBsT2kyX1p6OWFyZWFqSUlkVEJNcVgxODYzT1BucWx6QkFHWFlmZjZsdGM1Unp4QTR0N1VGX0pUZ1VhUHVmRklfejJO0gGkAUFVX3lxTE9VUENQRzdiVUhwb1pINUNrallHNWJBVDl2aVViclA0TnZxdk1VV1gyY20tWDg5NHIzeDcwaTNkc3BwblllZWN5YV9HelNGWmxzUE1KdURKeEs3Q25oQjZ5aHBzS3pJMVlUd3dLTjB4SEtlaU15dEtVTnI5QzhIQWpXa1hhZWNMZlVLMHpNREdiNjc0Y2V3bTlQQ1lpVFhvNUdiSTNl?oc=5",
+     "title": "KOTA Kantongi Restu Rights Issue 100 Miliar Saham, Incar Land Bank 572 Ha"
     }
    ]
   },
@@ -839,6 +833,22 @@
      "time": "2026-11-27T18:32:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127181126-17-789191/jasindo-brins-jasaraharja-putera-merger-awal-2027-begini-skemanya",
      "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya"
+    }
+   ]
+  },
+  {
+   "id": "2560b6a9e646",
+   "title": "Prabowo Soroti Goreng Saham yang Rugikan Investor Ritel, Minta OJK Perkuat Pengawasan",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T17:51:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQmMxenU3MWlOcHluQ3h2R19CemRiSHpjOHFEc0ZsMmtOTUxTWFhrVm9TUXl5bDBMRWdrTkxqOXRZTDNxZXF2U0hmdERIMVVNYUxEeEhHM1dDaE5udFp2VkhITm9UV0VoU0hDUWZ4RElNN0dQdEVRbjBCTy1wTElnQ0FIU29lNlV3RTE1cU0yX2lWQmZVYVRPMDBUUHJYM21ZZUZBMmV3QnFpQ3M3ZVV4T1RZVkFQS3ZHd3VKd1R3N3FCaHg4TmpsSDZDa0pma1E?oc=5",
+     "title": "Prabowo Soroti Goreng Saham yang Rugikan Investor Ritel, Minta OJK Perkuat Pengawasan"
     }
    ]
   },
