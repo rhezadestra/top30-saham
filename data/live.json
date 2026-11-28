@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T14:27:37+07:00",
+ "updated": "2026-11-28T14:30:37+07:00",
  "window": {
-  "start": "2026-11-27T14:27:37+07:00",
-  "end": "2026-11-28T14:27:37+07:00",
+  "start": "2026-11-27T14:30:37+07:00",
+  "end": "2026-11-28T14:30:37+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 113
+   "items": 112
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 69
+   "items": 70
   },
   "IDX Channel": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 124
+   "items": 120
   }
  },
  "prevAt": "2026-11-28T14:15:38+07:00",
@@ -1281,22 +1281,6 @@
    ]
   },
   {
-   "id": "96fffbd69ddd",
-   "title": "Emiten Hermanto Tanoko Buka-bukaan Penilaian MSCI",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T14:29:24+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdlpvN2J6QUpHRml0SkJNSjl6dHZKX2ZzOW1RMGRrTTB5dlJ3dng4TWVORVprWDMzUE92UENzS25sUmV4ZXVDaEFOMU5FeWpWUVJNcDdGeWppVC1UTXNZNGhZYjZSemxWUlVBZU9HNFM0S29MZG1zSG1HVHptYVVHWU53YUVOck1y?oc=5",
-     "title": "Emiten Hermanto Tanoko Buka-bukaan Penilaian MSCI"
-    }
-   ]
-  },
-  {
    "id": "99a1bf8029c3",
    "title": "BBCA Menjulang Tinggi",
    "category": "Kinerja",
@@ -2463,22 +2447,6 @@
      "time": "2026-11-27T14:40:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSkQ3ZDZSMXYzQk5QNkxBT2dqODVabGRVVFJNREZHOGRzaF9ZMnl1WG0zV0NUUzJXYVNqSktWbFNIaEQtcmp1cVY5UnZxOWVrbjFVRkZFeW9ENDBKSFE0VUppcTJDX1hyWGwwYzhCU2N5SU5xY25ZVHVJME1CVmdQUGhIbWxZS19ZSDhRckxpRF94akZXalZ1Y2FCVU1iVXBjdmtyMjZMWVdfLWdEN0FXQU5jOTYwOWlETjM2UzVlV3JQeFdIaFow?oc=5",
      "title": "DSI Buka Registrasi Platform Eksportir SDA Satu Pintu Mulai 15 Desember 2026"
-    }
-   ]
-  },
-  {
-   "id": "9c1c14c55c00",
-   "title": "ROE Danantara Lampaui Temasek",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T14:30:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVbWlteWJFcW1YZ3RCX1o5Y0ZxY0RSOGlnS3l2Y0l4TS03RmtwTTluYXoxdTBTMXpFZ2R1ZnNzMlFFczBUX29nejhjMVh3OUc2SlRGalVIOC0tM1ZrSnprQ2FTcXhtY2dkYm9nT0VnQzc?oc=5",
-     "title": "ROE Danantara Lampaui Temasek"
     }
    ]
   }
