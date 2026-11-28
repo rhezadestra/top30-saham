@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T10:10:38+07:00",
+ "updated": "2026-11-28T10:13:38+07:00",
  "window": {
-  "start": "2026-11-27T10:10:38+07:00",
-  "end": "2026-11-28T10:10:38+07:00",
+  "start": "2026-11-27T10:13:38+07:00",
+  "end": "2026-11-28T10:13:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,15 +33,18 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 137
+   "items": 136
   },
   "CNBC Indonesia": {
    "via": "rss",
    "items": 64
   },
   "IDX Channel": {
-   "via": "rss",
-   "items": 10
+   "via": "google",
+   "items": 41,
+   "errors": [
+    "rss: HTTPError HTTP Error 522: <none>"
+   ]
   },
   "Bisnis": {
    "via": "google",
@@ -49,7 +52,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 139
+   "items": 138
   }
  },
  "prevAt": "2026-11-28T10:07:08+07:00",
@@ -865,6 +868,28 @@
      "time": "2026-11-27T14:33:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeno1MWNTZzRfcmFaRWtGQk1FelBDeDREeGpnN096dlNyM3lmOE0wck9VUC1sRzNVc0JqQ0R2RDl5T0N3X1JIbXlDUG8tdkZZV0ZVQmZnbkJvSUdTdi0wNm84TjFBbzJZRElvSG9Cc3hBcFZqbWNudmJqS2VWWThBX0IzLXJLU1FPR183NExuaTJKZXF2WkluSENweVBPNUV1Rmp4WDhKdE4zUVl1TUhB0gG0AUFVX3lxTE53UlpJcXZBRGlGUV81MGtzVTRrLWpiaXlHYTUtZ21TYlRpWXVGclo4b25sM0VSMEtLcHVmNkR3MTRteThrcFRzUlRzaDVpaV9xblNnVFJZRHE1MTR2LWRzR2hvY0p1bmpnaGRoa2c1cWZmRnZvdGlCa2s2YU1Iei10a2xKQ3J2TzlGanNfM0hrUUVCYmtsLUxpYWM5MjAtM1JDbGJTZHZYSDExaEwtYzdKaG1uOQ?oc=5",
      "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak"
+    }
+   ]
+  },
+  {
+   "id": "108c3deae09c",
+   "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan. (Foto Istimewa)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T08:00:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/di-pertemuan-tahunan-bi-prabowo-minta-praktik-goreng-saham-dihentikan",
+     "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T08:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUt3aFliaHgtZnM1UFM3THdnRW1rajdxRG9jSzZobzFzN1dzMi1TT1oyRE1nMWpLNTZKb1JQQ05xSHlxQ0xsNEZlUUVkT0RUaEJFM29aOFpuZzUtdDNvX2F6LXQwV0IwelgwcXROTFJvQkxFNXkyRHhxdWVRTUZTZnViaTl1V21pRlJxTldpUlZaRTV5bXB2bG9tTnhHZnNuMFVPZkpCeElXb1Vk0gGyAUFVX3lxTE8yajduUHJQeVllX0lqTlZfMVFqNkdKelhjeEY3Q1A2ZEtHZFZKR0RnVFlqYkdiY3A5MUZLNlkwZXEyUjJWbE1QS3NLcFJ3TGxEODdWMXhwX1lyZGpRRkNqYy1YQ3Nhb0pNSnNxMnRacHk5Tk9KSldJUzZMYmhUMXozOTlHT1BraXVLU19YRVdPSjlOVE1adTZfSm9PSGdLYW90M0RMLXZpMllTVnBKYXZEX3c?oc=5",
+     "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan"
     }
    ]
   },
@@ -2185,22 +2210,6 @@
    ]
   },
   {
-   "id": "108c3deae09c",
-   "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan. (Foto Istimewa)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-28T08:00:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/di-pertemuan-tahunan-bi-prabowo-minta-praktik-goreng-saham-dihentikan",
-     "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan"
-    }
-   ]
-  },
-  {
    "id": "e08fcbbdb60a",
    "title": "Prabowo Bicara Saham",
    "category": "Makro",
@@ -2213,6 +2222,22 @@
      "time": "2026-11-28T07:15:46+07:00",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oQWhWM1U5VFR4elJEbUZTQXJlMDVILThjWHdGVF95MjViM2lpWE9lWWZxWDJLM0gySTl4ckVfSnhaZ0llaURtM1pPclRlNzVEeTdhSVBwQlNGV055cnlCMFBScVJGRGM?oc=5",
      "title": "Prabowo Bicara Saham"
+    }
+   ]
+  },
+  {
+   "id": "ee7bf9911642",
+   "title": "Wall Street Ditutup Melesat, Saham-Saham AI Masih Pimpin Kenaikan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T06:25:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcmMwLVI5bVVjdVVhanptX3Y3ZWJ4UlBDZFZ4c2hVdlhsak1GWWRudXpQT0xNWE9pbjJxUWx4bjgzZXdGbG5mY3o0QndxYUNfUzMtaExBWVBkS1hQSW41cnFqN2tiM3J0RWtnUE5RMlAxVjVHQUtDdkFqNVA0MnpBZDc4N0hiYVBfcTZDMUhPamlGZGtkLTVVc0h2NWFBUGYyNUk5aFFB0gGrAUFVX3lxTE5Za043WUtSRkU5M05waFliV0FCdmUtRnJlNXJwbDVyZ2lpNkZ5NGFpdFpNWk9OLXpXeEpoX05xTkVlVVJ4UVY4eDh5ZnVDbEQ3UmlvWjk4YkNqdEhYNGJ6RE9NbFI5WHBGWTNmTXU1SDR0ZWMyb2tLcjN0ellpbklSTUlQbVFjdHRobGc3RWZWNnA2bDgydzdWd2RPNDBtTkljbkRxc0FSMW5NQQ?oc=5",
+     "title": "Wall Street Ditutup Melesat, Saham-Saham AI Masih Pimpin Kenaikan"
     }
    ]
   },
@@ -2309,6 +2334,22 @@
      "time": "2026-11-27T22:59:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZHZ0R0hLZkNnYm4zQVFlUUtnc1F5SGZURy1zV1lQeUs3TVJDd1QtYnlCem0tS2ZpMU5VUllfNE5xM2xVUXFFejQ5V3J3a2t2cmxmclVJUUtlVkMxWjA1eG1vMkVkR0pVYmJrVE10dV9sSzF3TXZ3eTM0akRoWGQxM3Y2NXRYdnR5X2tHUHhYeVVLcEJSSTdiYjBnTHlWTGdVLXVJVVZxLVN6cWPSAbABQVVfeXFMTUoyX2Z1aHpGb1ZrQk82YXRka2RwZC1vMmNCNWhuNkNacVF3TGYwWklLX2ZWMlpzZ1ZYcm5kbjBLYkhfbjRCWlFnNjdkX2FtVkRXM2ZCeWxJLTdSdFV2bmJmUjQtZ2ZaWGxQRmVscUxDQ0VIaV8xSnhTZlN6Y1F0dTlZdDlCNHdTeTZYXzB5QTRXcjBOalFQSDlpaGRNbzN2Q3lPWDh0dkl6Z3dKZVZWckM?oc=5",
      "title": "Wall Street Semringah usai Libur Thanksgiving, Saham-Saham AI Rebound"
+    }
+   ]
+  },
+  {
+   "id": "f3198d29b0e8",
+   "title": "Tekan Kebocoran APBN, Prabowo Siapkan Lembaga Khusus untuk Kelola Belanja Negara",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T22:07:44+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObEVEQm0zUTBpSjF4RVpvRGs2ZWNwbjE2WURETlpsWEZTcHo1d3h5YmQ5S1dFeVdXbGVjdVhsbjE5WlFZV0pfUXdPUl9JVmFuTllJM0U3dVgya0tHcEQ3M2U5VnBfbElLSklvejB1ZW5OeU5iTTRET2FSWjhNeXFodE1VaUQ1cXdWazlfTXJiYWUtOUZ4VDVKMmsxX3VjUkV0RWcxT282YktjOW1FYVdZd1l4YkxkMTJWV2tZ?oc=5",
+     "title": "Tekan Kebocoran APBN, Prabowo Siapkan Lembaga Khusus untuk Kelola Belanja Negara"
     }
    ]
   },
