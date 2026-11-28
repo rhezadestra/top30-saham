@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T18:30:01+07:00",
+ "updated": "2026-11-28T18:33:00+07:00",
  "window": {
-  "start": "2026-11-27T18:30:01+07:00",
-  "end": "2026-11-28T18:30:01+07:00",
+  "start": "2026-11-27T18:33:00+07:00",
+  "end": "2026-11-28T18:33:00+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 58
+   "items": 57
   },
   "Investor.id": {
    "via": "google",
-   "items": 84
+   "items": 83
   }
  },
  "prevAt": "2026-11-28T18:30:01+07:00",
@@ -749,22 +749,6 @@
      "time": "2026-11-27T18:38:02+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUmpOZ3d6SFFXWlF3WkNPcVNILTZ2T1VZa1p1N3MwbGM3MS0wYXV6R1I5RVRkTHdnSW1UU0toSURQNElwSHFwRmxYNHV6bEdZYkY2OUxVazhvR0FXTmNUS3VpeWVmRzZvVUgxM2pxMldtTzBaYnFPcElEeDlPUlJwczdxNUx2QUNoaUFiZEhGSnE0NDlBV3A2ZVJvdFhwSmJTa0ZDT1FoRnViMVYy0gGmAUFVX3lxTE8tWHFLZTdIbEk1SGRzRDlkOXZ3NEFOR3NFdkc1Y1BrRDI0VlFGbjUtdmtEN3E3bWNmNWs1Y0Q5di1mdzl1M19wbGhaMW02SmdMajhOWWVsRDdTQVhfQzRlQXllX1JHRjhVZmpTMTdRZUJwd1VNR2lKWmZJODZKZV93UkJFWFl3cmZFU0hiMlRjQVY1ZnlSeFVHTWFwX1pMaFlWcVVHZUE?oc=5",
      "title": "Allo Bank (BBHI) Telah Buyback Saham Rp 293 Miliar, Segini Dana yang Tersisa"
-    }
-   ]
-  },
-  {
-   "id": "0fa9c487bc05",
-   "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "Tiga perusahaan asuransi BUMN, Jasindo, BRINS, dan Jasaraharja Putera, akan bergabung untuk memperkuat kapasitas dan layanan.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T18:32:02+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127181126-17-789191/jasindo-brins-jasaraharja-putera-merger-awal-2027-begini-skemanya",
-     "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya"
     }
    ]
   },
