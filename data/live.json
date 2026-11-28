@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T12:57:10+07:00",
+ "updated": "2026-11-28T13:00:10+07:00",
  "window": {
-  "start": "2026-11-27T12:57:10+07:00",
-  "end": "2026-11-28T12:57:10+07:00",
+  "start": "2026-11-27T13:00:10+07:00",
+  "end": "2026-11-28T13:00:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 128
+   "items": 127
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 126
+   "items": 119
   }
  },
  "prevAt": "2026-11-28T12:14:41+07:00",
@@ -1254,22 +1254,6 @@
      "time": "2026-11-27T13:41:41+07:00",
      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pdlJ3eTFqZ000QVBZSS1VOGJKZXlxQTh5TmdWVTNreUZQOXVVWjBfd0puZTZqd2hRcXRlYW1uZW1kTnJLM0gwZXBJS1VzZVhxczZMazdNWWhCcWRFSFNWLWtKVHJWSFktOFU3NjM4MEhwZC1YemliNnUyZ2tRLUE?oc=5",
      "title": "Vastland (VAST) Bagi Dividen 37,4% dari Laba"
-    }
-   ]
-  },
-  {
-   "id": "96d977bbbc4c",
-   "title": "Ekspansi Armada Emiten Pelayaran Dongkrak Prospek, Intip Peluang dan Risikonya",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T12:57:34+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcWgzaldhVHRENndnbl9lOTNnMkhITGpJWFY3WS1NY21UQl82czQ1U1c1N1hGdGJLZWtpdTBPSjMySDRfaENfZk1GT3dWMEtpdE9hWm4zLXMwMkhlMlZVR3hGV2xWR2d3V3B3cWRNdWtXUC1BWUZPekNKTDhnWjNaY2M1X0NCY2h1VDk4dldENHpWV29hdUowNFkwN3B2a3NteEZkMGpJV3RtOFBHVVhQbg?oc=5",
-     "title": "Ekspansi Armada Emiten Pelayaran Dongkrak Prospek, Intip Peluang dan Risikonya"
     }
    ]
   },
