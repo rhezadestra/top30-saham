@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T20:30:56+07:00",
+ "updated": "2026-11-28T20:42:56+07:00",
  "window": {
-  "start": "2026-11-27T20:30:56+07:00",
-  "end": "2026-11-28T20:30:56+07:00",
+  "start": "2026-11-27T20:42:56+07:00",
+  "end": "2026-11-28T20:42:56+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 71
+   "items": 70
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 49
+   "items": 48
   },
   "Investor.id": {
    "via": "google",
-   "items": 61
+   "items": 58
   }
  },
  "prevAt": "2026-11-28T20:30:56+07:00",
@@ -880,24 +880,6 @@
      "time": "2026-11-27T20:58:33+07:00",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTXdSVER2d201RjFnTVdES2hvZTJlYlJkTmU3eFBVby1vWjI1QmVDVXR2ZHZ2S1F4VFpTc0xVQmZLQkt6LVpfVlgwVFo4Q2Fjd0lDeWFlc0VzeXdnNjJrWWRVZS1OVk1TZk5YTEVuSk15aElNczREbjRFWUU5Y0ZBbVV2a0NCcW9RRHF1ZC1tRDhEX0VRTW1URjFyTGN1cWNmNTFtNzAyb0xmZVItZ1dV0gGnAUFVX3lxTE5wR1NUeXJfdzJjV1ZZaFBGWG1EcklWQVIyeVhCTWRvQnRJMGQ4eWZuaGRVdElBdzl6Z2NXWU5YRHNKUVp4dUFrWWk0c05vOEtWYkI1aUZQSHZZeUxUX29hb1ZMSjA2RU1wM2lXY0ZOZVFudWFYVmx0aEw2Y3dpN2hoRjFfWXpUZFVNX3VoVEJ3UXMzelR0eHM1aUZkdzNGOW9hUE5DU2JR?oc=5",
      "title": "Saham Mitra Keluarga (MIKA) Mulai Rebound, Volume Pasien Jadi Penentu Prospek"
-    }
-   ]
-  },
-  {
-   "id": "e5cfc3413b7e",
-   "title": "BBCA Diborong Asing 5 Hari Beruntun, Dana Besar Masuk",
-   "category": "Kinerja",
-   "tickers": [
-    "BBCA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T20:41:21+07:00",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcGNCbGhQSkRIWFhaTU16TTMwWXhVTmdDWDlRN2ZhZFVDX1JfUUxvMEI4ekNGYVNMR3lPbjJDd1hYWUcyOHFoZWFqTGxHY1lnSS1kSFFtbFY5VF9CQmhwUWpSZ19lRXdISFdhZTZzQ3VNZWxXUzdKX09WSnM0dVBUS2lCRE1fUldObWQ2eUxmRQ?oc=5",
-     "title": "BBCA Diborong Asing 5 Hari Beruntun, Dana Besar Masuk"
     }
    ]
   },
