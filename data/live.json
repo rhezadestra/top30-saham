@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T15:40:34+07:00",
+ "updated": "2026-11-28T15:46:34+07:00",
  "window": {
-  "start": "2026-11-27T15:40:34+07:00",
-  "end": "2026-11-28T15:40:34+07:00",
+  "start": "2026-11-27T15:46:34+07:00",
+  "end": "2026-11-28T15:46:34+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 100
+   "items": 99
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -1483,22 +1483,6 @@
    ]
   },
   {
-   "id": "69f5b147797a",
-   "title": "Krom Bank Bersiap Garap Bisnis Kartu Kredit, Bidik Peluang KKI",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T15:43:53+07:00",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZzd4cTdmZ2NMRmJRZ3NJaDJ6LUdGOXhPOVNGWkhKV0FINFBvYmtsV1hsSGVXN0FNcHR2MElCVnowVUdOVjJ6MHBKc1N2S2swRkhNemNZZU1uVFR6TVVTUmRRRnhNNjdzQ2JNd0sxbllUNGEweXo1em1pTHpNenI4Z2hLeGJxc0d4d1VRN21ldmhyTTN4V0VCVGtjWE7SAZYBQVVfeXFMTmZNR09jalFXdUFGOUVxOXNNM2VBNHVkME5UMGRBVno2ZzlHa2N6TXV2SXpDSWhFak5kVHlMcHplYWRwTVVyQjN4WTFmM2Y1YXM1YkJUWUVoc1VtdjRJVGQ3Q045LXlRSVBqSWI3cGxveGg0VktjNWNUMnI2d081ZFlQS1RTaUd2eU93NDBVZnFSWUpPYm9B?oc=5",
-     "title": "Krom Bank Bersiap Garap Bisnis Kartu Kredit, Bidik Peluang KKI"
-    }
-   ]
-  },
-  {
    "id": "80fdcd0bf0ff",
    "title": "Ekspor ke Uni Eropa Terkonsentrasi di 3 Negara, Eksportir Diminta Manfaatkan IEU-CEPA",
    "category": "Makro",
@@ -2153,22 +2137,6 @@
      "time": "2026-11-27T16:26:32+07:00",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
      "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026"
-    }
-   ]
-  },
-  {
-   "id": "389439fea2b9",
-   "title": "Pengusaha Garmen Dorong Pemerintah Jaga Daya Saing Ekspor Tekstil di Pasar AS",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T15:45:16+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ3lLOGg0Tm9FUWtqOExPd1ZHbmdPaUFTUFVaZWdRSDlKX29QQ3czNkVkelZ5c1poY2hsRlpiazBnYTE0TkRHSlhLbWFPcU5WZnBCcHVwVTA3R1pLRnJSOUp4aF9RVWJiMjJyYk5Ic3dIMTZURW9JcTRPb2JEVmZvNW5mZXpxOTlSU0F5dGVUVVU2UVRQWWsweUxWRW9vSmptOXZYQTJVNFVuNTYyeThwcGZTdnpYQXVvakszWUFLRER0bEFGYU13VVFB?oc=5",
-     "title": "Pengusaha Garmen Dorong Pemerintah Jaga Daya Saing Ekspor Tekstil di Pasar AS"
     }
    ]
   }
