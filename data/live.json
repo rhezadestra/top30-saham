@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T17:47:30+07:00",
+ "updated": "2026-11-28T17:50:30+07:00",
  "window": {
-  "start": "2026-11-27T17:47:30+07:00",
-  "end": "2026-11-28T17:47:30+07:00",
+  "start": "2026-11-27T17:50:30+07:00",
+  "end": "2026-11-28T17:50:30+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 73
+   "items": 74
   },
   "IDX Channel": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 94
+   "items": 93
   }
  },
  "prevAt": "2026-11-28T17:23:03+07:00",
@@ -1236,6 +1236,22 @@
      "time": "2026-11-27T18:43:08+07:00",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTU02akN6MDFFU3pxekF3UWJZcHkzX2s1ZTRUQ25HS2ZPdjNvVktiZDZNSzRzUGx3OVpHQ1NqWmJsYUQzLXdnSTE3NHk2VG5Sb0VvVzlnNS1qOUVvaUVfc3FWMFRaTWh4SmxOeDFsUWlCUDJqMEtDWWZ2dmNrcWpJclZVWFBFdVZLWkJVOEVoNTU3TE11TGF0Szlpb2FpVmPSAZcBQVVfeXFMTnZ1ekhWM1VlbkhoSi1FTUo1Y0VaRFVOdDhmVG8xNEplaVpJZnl5cUVvUUNBcWQ2bGpCYmJCSW9jQmtjMUFGSVJNNXFLOXRoQWpzXzIyMkNrVUNybE80dWRDWm01R0VJR2RoZ3llQWppWF94RXJMdVBNSFFrMy05am9DcVRZbzRacVpwZFpUM21lem5WQ0ZnMA?oc=5",
      "title": "Penjualan Alat Berat UNTR Turun, Bagaimana Prospeknya pada 2027?"
+    }
+   ]
+  },
+  {
+   "id": "dac5a668f429",
+   "title": "Satpam Bank Salah Sangka, 2 Orang Masuk-Rampok Uang dan 60,5 Kg Emas",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Dua pengusaha di Jakarta merampok De Javasche Bank pada 1902 setelah bisnis bangkrut. Mereka berhasil membawa kabur Rp157 miliar sebelum ditangkap.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-28T17:45:00+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261128163121-17-789339/satpam-bank-salah-sangka-2-orang-masuk-rampok-uang-605-kg-emas",
+     "title": "Satpam Bank Salah Sangka, 2 Orang Masuk-Rampok Uang dan 60,5 Kg Emas"
     }
    ]
   },
