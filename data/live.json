@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T08:15:04+07:00",
+ "updated": "2026-11-28T08:18:04+07:00",
  "window": {
-  "start": "2026-11-27T08:15:04+07:00",
-  "end": "2026-11-28T08:15:04+07:00",
+  "start": "2026-11-27T08:18:04+07:00",
+  "end": "2026-11-28T08:18:04+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 157
+   "items": 156
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 64
+   "items": 65
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 89
+   "items": 88
   },
   "Investor.id": {
    "via": "google",
-   "items": 139
+   "items": 140
   }
  },
  "prevAt": "2026-11-28T08:06:04+07:00",
@@ -2314,6 +2314,22 @@
    ]
   },
   {
+   "id": "532750396646",
+   "title": "KPK Geruduk Kantor Pusat Djarum, Saham BCA Bakal Diambil Alih?",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "PT Djarum digeruduk KPK, Saham BBCA Mau diambil alih",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-28T08:15:02+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127222118-17-789251/kpk-geruduk-kantor-pusat-djarum-saham-bca-bakal-diambil-alih",
+     "title": "KPK Geruduk Kantor Pusat Djarum, Saham BCA Bakal Diambil Alih?"
+    }
+   ]
+  },
+  {
    "id": "108c3deae09c",
    "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan",
    "category": "Makro",
@@ -3352,22 +3368,6 @@
      "time": "2026-11-27T08:38:36+07:00",
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbm1qTW1zNVY4U1BBaGZNWllHSmwyLWNGZHc1VFRCeGlnT2NFMlNEQ3ZiOV81cnVNVC16SkVHNGxwYXZVTUxSOURjUWNGU0hVRDNtOEh3bWNzOGJEM2Rad3h2MkNTX3BtOUJZUmh2dG9NQVhTb0N5dzFncjFxcHBBTmRGUG11ZkpVS0pKZw?oc=5",
      "title": "Dorong Akses Pasar Ekspor UMKM Terdampak Bencana"
-    }
-   ]
-  },
-  {
-   "id": "ebbcf091be0e",
-   "title": "Pengusaha Waspadai Efek Tarif Baru AS 18% ke Daya Saing dan Permintaan Produk RI",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T08:15:23+07:00",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNend4V05GSUVEZk1aLU9HVzFkR3lpaWp6R3hSNldkMG9qV3oxRXRGaGYyVlc5V3pZYzEzVmpWSDU0NVZpdTlWdGhuY2U2SkxHM2NCckJNb1l6bUVlX2ZsZ3J3TmpHQi0tNlJpYjI5azNSNVlQZW1BYzdORlc4WGpQd1lGVVkzTnVocnRMeWZOTzdlVHliRnhYdV9xcWhmTUMtVF9XZTd6MlRrYzNtcTNyS01HcThLNlE2ZWlmbDJOMF9HR05DUXQ2YVYzTU8?oc=5",
-     "title": "Pengusaha Waspadai Efek Tarif Baru AS 18% ke Daya Saing dan Permintaan Produk RI"
     }
    ]
   }
