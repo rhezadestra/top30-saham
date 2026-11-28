@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T14:36:37+07:00",
+ "updated": "2026-11-28T14:42:38+07:00",
  "window": {
-  "start": "2026-11-27T14:36:37+07:00",
-  "end": "2026-11-28T14:36:37+07:00",
+  "start": "2026-11-27T14:42:38+07:00",
+  "end": "2026-11-28T14:42:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 74
+   "items": 73
   },
   "Investor.id": {
    "via": "google",
-   "items": 114
+   "items": 116
   }
  },
  "prevAt": "2026-11-28T14:15:38+07:00",
@@ -2381,22 +2381,6 @@
      "time": "2026-11-27T14:51:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVjJNcWY1WXhtQ2ktMngxaTBIY0NHS3ItcTV6OFFfd0lob1pXUnd4ZHJ5aDVOUjU4dXdRaUtkYUlST2cwVUVWQ2t0Q1k1MGtyamhFTkZyd0MwejBlTnNlNmUtN09VaDJTRGdvajNWR2ZUQjdYZF9TWlJRbnB4OE90R3pOcjI3UDZkdm1jWW9Mamh4U05ReUJzelRwSmRjOWxqY3ZQdE5rYVhHRmJPUlFocmMwRdIBuAFBVV95cUxORFotSkh0Q1dma3dnM0Q4RUpMbVc1STZyNXE3NFVKdFRlbXFZZ25GaWNRdXBCaXJ3akx5ZHZpazNmb2MyTnp2NV9OR2NMOVdGTXNWRHQ4MVNoMklWTGNUaEFVMTZrNTRqTGlQWUQ0dWNpRmd2SGNsbmJMbDFhVTdWc3diUkNBcTM4b3dyX2treXBPdzJjT3prODRtTXY4NHpUX1dNY01CekZEMEpPbjVrcjJzSTl5c0Z4?oc=5",
      "title": "Harga CPO Menguat Lebih dari 1 Persen, DSI Masih Kaji Pungutan Ekspor Sawit"
-    }
-   ]
-  },
-  {
-   "id": "8b935fb7fc62",
-   "title": "DSI Buka Registrasi Platform Eksportir SDA Satu Pintu Mulai 15 Desember 2026",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T14:40:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSkQ3ZDZSMXYzQk5QNkxBT2dqODVabGRVVFJNREZHOGRzaF9ZMnl1WG0zV0NUUzJXYVNqSktWbFNIaEQtcmp1cVY5UnZxOWVrbjFVRkZFeW9ENDBKSFE0VUppcTJDX1hyWGwwYzhCU2N5SU5xY25ZVHVJME1CVmdQUGhIbWxZS19ZSDhRckxpRF94akZXalZ1Y2FCVU1iVXBjdmtyMjZMWVdfLWdEN0FXQU5jOTYwOWlETjM2UzVlV3JQeFdIaFow?oc=5",
-     "title": "DSI Buka Registrasi Platform Eksportir SDA Satu Pintu Mulai 15 Desember 2026"
     }
    ]
   }
