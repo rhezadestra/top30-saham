@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T10:31:38+07:00",
+ "updated": "2026-11-28T10:34:38+07:00",
  "window": {
-  "start": "2026-11-27T10:31:38+07:00",
-  "end": "2026-11-28T10:31:38+07:00",
+  "start": "2026-11-27T10:34:38+07:00",
+  "end": "2026-11-28T10:34:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 65
+   "items": 66
   },
   "IDX Channel": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 140
+   "items": 137
   }
  },
  "prevAt": "2026-11-28T10:07:08+07:00",
@@ -1301,6 +1301,22 @@
      "time": "2026-11-27T10:37:40+07:00",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMGsxZHVhWTkwcGdra0xnSXdJUjh1R3FLeENxYXNXMEZiaUN3a3BlcG9rNlp1ZmpwclpkOVZNZUREc09xQm9Bam9rZmpCaklTTEdEMVBqUzJIS3N1SEY5UzlicTBVQi1tZURuVG9jMzBlODNEZ2J3RW9BQ3dlN3FVRWpwTTBXTHhxd244S09kN3JpWjBIanlUOFhoS0QweW9MSGNn0gGbAUFVX3lxTE9VSWpjRjhnN051UlhVbEVlQmdhNkpaUklSV2ZCOEE5cTlnSVROczdkRFNJUzZyblkyaUxjdHNQYmlyXzI4VVV6V2pVVGdmMFg4MHE3VzhJZ0pRR0JneEtQQVdNTzBxUVlBMm5PWEVfbFVib2pBRUpuOWx5T0JXM3Z2UnprLUhSZElkajM3UlhMVVVXUnNwaFduVXRJ?oc=5",
      "title": "Anak Usaha Triputra Agro (TAPG) Bagi Dividen Interim Rp 1,33 Triliun"
+    }
+   ]
+  },
+  {
+   "id": "cf1a06254ab0",
+   "title": "Aturan Terbaru Besaran Saldo Minimal Tabungan Bank Mandiri, BRI, BNI",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "Aturan besaran saldo minimal tabungan bank Mandiri, BRI dan BNI",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-28T10:30:09+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261128082909-17-789272/aturan-terbaru-besaran-saldo-minimal-tabungan-bank-mandiri-bri-bni",
+     "title": "Aturan Terbaru Besaran Saldo Minimal Tabungan Bank Mandiri, BRI, BNI"
     }
    ]
   },
