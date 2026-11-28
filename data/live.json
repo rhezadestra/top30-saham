@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T19:54:28+07:00",
+ "updated": "2026-11-28T19:57:28+07:00",
  "window": {
-  "start": "2026-11-27T19:54:28+07:00",
-  "end": "2026-11-28T19:54:28+07:00",
+  "start": "2026-11-27T19:57:28+07:00",
+  "end": "2026-11-28T19:57:28+07:00",
   "hours": 24
  },
  "target": 30,
@@ -960,24 +960,6 @@
      "time": "2026-11-27T20:41:21+07:00",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcGNCbGhQSkRIWFhaTU16TTMwWXhVTmdDWDlRN2ZhZFVDX1JfUUxvMEI4ekNGYVNMR3lPbjJDd1hYWUcyOHFoZWFqTGxHY1lnSS1kSFFtbFY5VF9CQmhwUWpSZ19lRXdISFdhZTZzQ3VNZWxXUzdKX09WSnM0dVBUS2lCRE1fUldObWQ2eUxmRQ?oc=5",
      "title": "BBCA Diborong Asing 5 Hari Beruntun, Dana Besar Masuk"
-    }
-   ]
-  },
-  {
-   "id": "fe1db031718b",
-   "title": "Bank Mandiri (BMRI) Salurkan KUR ke 193.000 Debitur Baru",
-   "category": "Kinerja",
-   "tickers": [
-    "BMRI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T19:56:37+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLVI1aU9sMFpESVBRdS1OMUpGaGR1emtSSEhpalhVc09uaXBKRFRaOUdxLUozVDB3S05zNHNiVUM1TE1maEtvb0dTVFNHWTNCd3cyal9MUWdhNWoxb0JjbGN4M3M5VWFRbG94RVJHaVNIaG5mazF5YjJpaS1iM0hqMGY4NHNCZ2o4U2RCTVR0RUt6Qk5MQXBWcGR4UFVyQzl6RzE1aGwzc3UxaWM?oc=5",
-     "title": "Bank Mandiri (BMRI) Salurkan KUR ke 193.000 Debitur Baru"
     }
    ]
   },
