@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:09:33+07:00",
+ "updated": "2026-11-28T09:12:33+07:00",
  "window": {
-  "start": "2026-11-27T09:09:33+07:00",
-  "end": "2026-11-28T09:09:33+07:00",
+  "start": "2026-11-27T09:12:33+07:00",
+  "end": "2026-11-28T09:12:33+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 150
+   "items": 151
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 133
+   "items": 134
   }
  },
  "prevAt": "2026-11-28T09:06:34+07:00",
@@ -1604,22 +1604,6 @@
      "time": "2026-11-27T09:32:33+07:00",
      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QQ3BRMlpFd0l4RXhtamtQbVFEbm1QTUJTcVhkVVc3V1FuZC1Mc1hVd05HUjlKZlp2UkZWZzFucS00cjVCM0doaHkwLW41b29lNFRnVGNod0VPUlNk?oc=5",
      "title": "Awas MSCI Lagi"
-    }
-   ]
-  },
-  {
-   "id": "e300599e81c4",
-   "title": "OJK Diminta Perkuat Sistem Pencegahan Jika Terjadi Pelanggaran di Pasar Modal",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T09:12:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUUtfY2lpMkYxOWR2SjFJV3dOSUN2c2EwYmJmOG0yaUtLMVdCYlF5a0ZBcHViTWk1LVVnXzB6dldQVU1aa21tTmV4LW5WS25XbE1OanQ1OVp2QVpoNlJFblZCSjdwV2I0RkVFNUlYQ2x1VElDeTVpUy1LQjMyREFyNlFsWXY4YmhKVG1OeWswNTZfLVBfN1gzRklhWXd1cG55emg1OC1oM0FpVWs0YkozbjBwMEnSAboBQVVfeXFMTkZ3Zko1bzFqS0RxaFF3Z0loN3ZXTlMwQTl1T2hqX3BDV3VnMVY0Wk9LeUhzZ0pyZ1hXQnFKQS10ZUVRanUwd2Rpa010SXg4TWE2VF9ybVk2VzBMY1d3OGdNSUhuNHNCLW10MUh4bFBmb0hkT0xYbXNRaU11aUpWVWc2VzFUUzRfbGNUcC05NlZCOXgtRm1oQTJGUzRTREI0RDZjbHQ4aEhUZzVUWlRlM0plb05aUm1oM1pR?oc=5",
-     "title": "OJK Diminta Perkuat Sistem Pencegahan Jika Terjadi Pelanggaran di Pasar Modal"
     }
    ]
   },
@@ -3259,22 +3243,6 @@
      "time": "2026-11-27T09:13:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVUJ5WEFJejFjWllFSnRHZmU5LXdhUnZhdzBVeEh5U1RlNFNqdm1BNUxja1NmNUJkSS1kODNlRGxCaHBkd0pfSThBUTgzNzNRcWZaT2ZpdE5KMVJuX3l0eUs4SldpSmtta0pfNVNqSmdreHdTcjZEalJPeXAwUWVZV3kwSmUyS1HSAYwBQVVfeXFMTXJsLXhjaG1oSl9fYjRMOUpaZmNoWXFTUXFPNUtyaDJJYmVMVldSbFRNOVg1U1ZyMldCMmNYcG1oejFQcS00c0VrQkdFRDhRRWpKX1B4S25kLTVMVmRydS1qMWNDS1BMLXNMMzVWRk94aGM5YWhCbjlTa0ItdGZXMkQ2aVJ0THRhd3gzT28?oc=5",
      "title": "Bursa Asia Menguat di Penghujung November"
-    }
-   ]
-  },
-  {
-   "id": "2e5021c73029",
-   "title": "Bukan Cuma Tak Minta PMN, Danantara Pamer Setor Pajak Rp567 T di 2025",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Setoran pajak BUMN diperkirakan mencapai Rp567 triliun pada 2025, meningkat 18,13% dari tahun sebelumnya. Ini menunjukkan hasil positif",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T09:10:35+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127080835-17-788936/bukan-cuma-tak-minta-pmn-danantara-pamer-setor-pajak-rp567-t-di-2025",
-     "title": "Bukan Cuma Tak Minta PMN, Danantara Pamer Setor Pajak Rp567 T di 2025"
     }
    ]
   }
