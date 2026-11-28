@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T08:30:33+07:00",
+ "updated": "2026-11-28T08:33:33+07:00",
  "window": {
-  "start": "2026-11-27T08:30:33+07:00",
-  "end": "2026-11-28T08:30:33+07:00",
+  "start": "2026-11-27T08:33:33+07:00",
+  "end": "2026-11-28T08:33:33+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 155
+   "items": 153
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -781,28 +781,6 @@
      "time": "2026-11-27T15:10:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONkZXZjRBc2tDZW5KNkl3QWh1T0hzb2VDMG5WS1FISEFCT2VZZlZPMWJFT2o5a2d3elNEclRWMl82LUpaNFlmVnZ6VGxNM3pDUTVrRnNYdmQtbmQ4cXJCR0hMdkJMMmtnRVpyZHdMZnJ1V0ZkNHBwREZzQ25uYVRsTkh5am13ZHpoSEJRLWVMY2ZVdWg4VF84LUhURUlicFJpNl9PSmlqUWlBTXFsLXgyVlF30gG0AUFVX3lxTE4wUDB2cl9Gb2R0eTBkdU1oWnVDRzgzV3JvSlhZRzZnM3pBcGxYdHVhNnRiSkZtUmVSa1JNeE9mdFg2aGJ0cXByd1R3S0pJZVhDa24zZS1LLXRGMEIxamJMZmRYTEJ0VjFtQ1FXQTJ4aWlRYXJFM2VjYU41THJUaVFfeUt3Z29tLWN3M3dpYUxNYXhqMTVUcHgxTzBTT2p4cTFNeHFrek84OHh6SHlhN1ZmaVI3Vw?oc=5",
      "title": "WIKA Beton (WTON) Kantongi Kontrak Baru Rp3,47 Triliun hingga Oktober 2026"
-    }
-   ]
-  },
-  {
-   "id": "984097e8d7b0",
-   "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T08:32:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ3BzMkFvWno3TmYzbk1nNnEwem40RVc5cmxyOHc0Z1pYVU1oVTY5aTVEMU0zTGJ6Zkt2bG1NNFJ4c1FfR3VybzI0MXAwa1V4SWY4aTFuRFR1ekJ0U3dnZFpzX3ppY3dON0YybG5SSEZCRHhoMm1SNVh0OEJ4dUlCOUJFc2tNNEtYcHVWQmR4MWhjVlFlQkdzQVh1bGRKSFBPeVpmSXNiNHhiNUV6N0VaSXJRcDBvbzBFU1E?oc=5",
-     "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T08:32:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY0x0ZThCc0l6cHJCTjVCdFNQQkVORjVnTm9uRERkb0c5U2hXRTZMNHBPUVJFZTgwNHBRRVEyT2Nncm0zSTlWLTJ5WlprY0lTUlZHNV94d3VCMlIzdU56dXdYbEhHdEswX0xhcWN1Y2daNzJNamlFWlNBdTA1MnVfZWFhUUx6dW83eEs4TUNxenVfbUtNTk84QThlejdueWh5UE40LVZwTjlPY1ljdXhQS2gwZmpDTE02V2ZablhtTFVKTXYwVjcyQlVWN1FXT1drZ2tzMg?oc=5",
-     "title": "Fee Based Income Big Banks Diprediksi Naik Tipis di 2027, Dividend Payout Ratio Turun"
     }
    ]
   },
