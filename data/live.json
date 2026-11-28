@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T07:57:04+07:00",
+ "updated": "2026-11-28T08:03:05+07:00",
  "window": {
-  "start": "2026-11-27T07:57:04+07:00",
-  "end": "2026-11-28T07:57:04+07:00",
+  "start": "2026-11-27T08:03:05+07:00",
+  "end": "2026-11-28T08:03:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 159
+   "items": 158
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -2312,6 +2312,22 @@
      "time": "2026-11-27T09:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbzdtZHZlMXB0ZTg3bDVzY2VodVphREtxeHctQmJkV2JhaFY0azhkS1ktdmZjTGZlZjljRUFXY0hNdFVYcWxtcVNwVGdXMnYzdmlZQ1lqemltMmxHRDE5UDBqWDVnbWxBMXNuTjdtNHk5dDk5VmlfRDZjWElOa1R5dFMzRXFkNHU0eVNOZzNB?oc=5",
      "title": "Vale (INCO) Garap Proyek Truk Tambang Listrik Raksasa"
+    }
+   ]
+  },
+  {
+   "id": "108c3deae09c",
+   "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan. (Foto Istimewa)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T08:00:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/di-pertemuan-tahunan-bi-prabowo-minta-praktik-goreng-saham-dihentikan",
+     "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan"
     }
    ]
   },
