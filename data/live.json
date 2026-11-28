@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:12:33+07:00",
+ "updated": "2026-11-28T09:15:33+07:00",
  "window": {
-  "start": "2026-11-27T09:12:33+07:00",
-  "end": "2026-11-28T09:12:33+07:00",
+  "start": "2026-11-27T09:15:33+07:00",
+  "end": "2026-11-28T09:15:33+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 151
+   "items": 150
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 134
+   "items": 132
   }
  },
  "prevAt": "2026-11-28T09:06:34+07:00",
@@ -225,19 +225,13 @@
  },
  "topics": [
   {
-   "id": "0287597ab648",
-   "title": "BEI Sanksi Lima Emiten soal Ketidaksesuaian Data Free Float",
+   "id": "81eab62c8175",
+   "title": "BEI Sanksi 5 Emiten Gegara Data Free Float Bermasalah, Ada KPIG",
    "category": "Regulasi",
    "tickers": [],
    "summary": "Bursa Efek Indonesia menjatuhkan sanksi kepada lima emiten karena ketidakakuratan data saham free float. BEI menekankan pentingnya keterbukaan informasi.",
    "summaryFrom": "CNBC Indonesia",
    "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T09:15:01+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU1RmYlE0NnJmVEYtMmphN0dUZnlUWWNzN2JpR1B0SDNXbWFFekpfdE14UDRKZk9jb3c1T1RvVlJWQS1ORE5mNXlwbWphS25RMThRY2twV3BDOHg5Q3hSRFlNN282SnVlR01mVDd5WnlfQzRyUFh5TU1WdlRMdlBHUVJLcUxndVJpZVdiNXVFWW5UdGRaWkN2UFBYa9IBkwFBVV95cUxNTDZCZElZVEdiOUx3WUtZaGRVTXdrZHp5T084S0hRMEktd0U3Qk9KSDAwZmFlb3BWaWhQM0tTV085a21lcnhxOEdyMG02UGx0SDNtcVpCLUZaUlM0d0VPQ2tsbVNRN051SFZWYVVkV0szTERlQzhYVGFXdFVBRUpXUkZ6ZUtiZUVyczZ6UmYzdjVtUm8?oc=5",
-     "title": "BEI Sanksi Lima Emiten soal Ketidaksesuaian Data Free Float"
-    },
     {
      "media": "Investor.id",
      "time": "2026-11-27T09:26:07+07:00",
@@ -2219,24 +2213,6 @@
    ]
   },
   {
-   "id": "092edae16073",
-   "title": "Harga Perak Antam (ANTM) Lanjut Naik ke Level Ini",
-   "category": "Kinerja",
-   "tickers": [
-    "ANTM"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T09:15:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ0tuQnRDMmZRbTBkWThOcklfWmN5NE1IOThkMU12Q29teThZS0hiem1YVl9BUFYxVGJRZHFHSHdyaEVsUEZiNVpjTUpjOXotcE9fQnhMV2pMdFRvcEkwX1lKTTlVbHZmZWNacEE0aEdmRDlCdTlsMDJXRWoteXhoYUJUUHA5SVFW?oc=5",
-     "title": "Harga Perak Antam (ANTM) Lanjut Naik ke Level Ini"
-    }
-   ]
-  },
-  {
    "id": "91ed9a81f04c",
    "title": "Masa Panen Raya Emiten Jalan Tol Segera Tiba",
    "category": "Makro",
@@ -3227,22 +3203,6 @@
      "time": "2026-11-27T09:38:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbGtpOTF2WmtGV3pvOE02UWhBcmZJcUFwU2lsdnYwWWc4LTM3MDlqZEZSMmlTaUNLX3owTF80Ylk1SG15cS1KS2F1NU5GTnhNQU1vcW04TVY3MENwOEIyczRzcWhyNFRybzJKQmg2alhfWXpIREIyNmJ1LXM4b0E3NUNDOHNBV3RSb0ZlaENDNWJBS29SbWtnOFJmTFFLdnY2cDFob3RqdFFuZGNWbGFLVjdPdWM1LXByY1RybmFpZ1ItbTjSAcgBQVVfeXFMUGRMNDJlYXlCTUlPa3YzRjJUZmNlYksxUmV5UFc3MF9CNWNvN0gwQ2YzSllfZUJXYThTOVVnLUMyRVNvVnFXRmd5VzhCejlpeGNHNExlaEdhMEM1OUE3MFhaUllWQm9tVzZYMzdvYzhWbThhSEJsblhhWm8wR0M3dmRBRERoVG5zclhGZUVtbmVTYjVjQ3VCak5qTUd6LWxDQkg2M1RQU29PTk5UVXlkMlNmc3d6LUdBLTB4cHZpOHF1aDZMOXhJNk8?oc=5",
      "title": "Kejar Daya Saing Ekspor 2027, Kemendag Perkuat Logistik Efisien hingga Integrasi Inatrade"
-    }
-   ]
-  },
-  {
-   "id": "52e29ec81eb6",
-   "title": "Bursa Asia Menguat di Penghujung November",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T09:13:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVUJ5WEFJejFjWllFSnRHZmU5LXdhUnZhdzBVeEh5U1RlNFNqdm1BNUxja1NmNUJkSS1kODNlRGxCaHBkd0pfSThBUTgzNzNRcWZaT2ZpdE5KMVJuX3l0eUs4SldpSmtta0pfNVNqSmdreHdTcjZEalJPeXAwUWVZV3kwSmUyS1HSAYwBQVVfeXFMTXJsLXhjaG1oSl9fYjRMOUpaZmNoWXFTUXFPNUtyaDJJYmVMVldSbFRNOVg1U1ZyMldCMmNYcG1oejFQcS00c0VrQkdFRDhRRWpKX1B4S25kLTVMVmRydS1qMWNDS1BMLXNMMzVWRk94aGM5YWhCbjlTa0ItdGZXMkQ2aVJ0THRhd3gzT28?oc=5",
-     "title": "Bursa Asia Menguat di Penghujung November"
     }
    ]
   }
