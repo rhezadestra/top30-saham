@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T20:06:31+07:00",
+ "updated": "2026-11-28T20:12:57+07:00",
  "window": {
-  "start": "2026-11-27T20:06:31+07:00",
-  "end": "2026-11-28T20:06:31+07:00",
+  "start": "2026-11-27T20:12:57+07:00",
+  "end": "2026-11-28T20:12:57+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,14 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 65
+   "items": 53,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 72
+   "items": 71
   },
   "IDX Channel": {
    "via": "rss",
@@ -603,6 +606,22 @@
      "time": "2026-11-27T20:30:12+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127192010-17-789203/tiga-asuransi-bumn-merger-bagaimana-nasib-pegawai",
      "title": "Tiga Asuransi BUMN Merger, Bagaimana Nasib Pegawai?"
+    }
+   ]
+  },
+  {
+   "id": "f073cf46a4c1",
+   "title": "OJK Luncurkan Portal Transparansi, Data Kepemilikan Saham hingga Free Float Terbuka",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T20:07:21+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS09NZTZOeGlaNkc0dHFkUGJUWGpnZVc3cnZSbjI0RnpTazRFV2JKUVlYZERwWjRVb3JVb2N4Y2hFZnczV0FjQmplZkRHQzdmNzItTmhjVVNQQjNwNHR5N1pJOGp1STdNcUdtR1hXbkhORjA4X1doeWJkWWNjQmRCdDd4TGVTTk8teUxSa04xdnBrNTljMGwwUjFBT0NLb3pseHljTmRma01fMVBHeWlmaGZJWkFzNTZhaEHSAbIBQVVfeXFMUFNPd1NaOEZxaG1sNjJGSFdXYl90eEsxbFRVQ2hQNHRkbExTZW9oeEtiUlVuWDhBY01JMjdkOHlZQkotbG5wQ0UxcGs1QTlOVUZKc3ZrUDR6a2hSdmx1YkE1ckwyblNIYkxobkxOM0hDaVlrbUxoMm42RmtfV1VuX0hDOG1BSTUwWFMzdkFRWWpNbWpPV0lqemtlc0lpLXUxQjNQY3lLNGNzUHVkN3poR3R1Zw?oc=5",
+     "title": "OJK Luncurkan Portal Transparansi, Data Kepemilikan Saham hingga Free Float Terbuka"
     }
    ]
   },
