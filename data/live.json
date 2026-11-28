@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T16:47:02+07:00",
+ "updated": "2026-11-28T16:50:03+07:00",
  "window": {
-  "start": "2026-11-27T16:47:02+07:00",
-  "end": "2026-11-28T16:47:02+07:00",
+  "start": "2026-11-27T16:50:03+07:00",
+  "end": "2026-11-28T16:50:03+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 91
+   "items": 92
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 65
+   "items": 64
   },
   "Investor.id": {
    "via": "google",
-   "items": 111
+   "items": 109
   }
  },
  "prevAt": "2026-11-28T16:22:35+07:00",
@@ -884,22 +884,6 @@
      "time": "2026-11-27T18:32:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127181126-17-789191/jasindo-brins-jasaraharja-putera-merger-awal-2027-begini-skemanya",
      "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya"
-    }
-   ]
-  },
-  {
-   "id": "8ee02b5cfded",
-   "title": "Semarak Aksi Rights Issue, Bagaimana Daya Serap Pasar?",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T16:47:34+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN0w4dF82RVU0VjNtY3Z3RXYxLU9lcjlDTXlRNG5MRF9DN25fX2ZqY1YwQkRiTXg5clFseDgyazFWZ0ZtWVhiZ2N1dldKTjVqR1NWTE5LczQ1dmJpcHc0THI4cHJTVFBEX3VyY3NfRTJTV0J6M0VnNk9qS0Rjbnk3dXFjVHk4eGlQMTZ5Y0R1X3ZEUHI4VVhBa2UwVDJNSHEzV2N3LQ?oc=5",
-     "title": "Semarak Aksi Rights Issue, Bagaimana Daya Serap Pasar?"
     }
    ]
   },
