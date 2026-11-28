@@ -259,7 +259,9 @@ def keep_article(a):
     if SOFT_PRICE.search(t) and not CORP.search(t):
         return False
     # Relevan jika ada kata kunci pasar modal, atau menyebut kode saham yang dikenal (pernah muncul dalam kurung).
-    return bool(RELEVANT.search(t + " " + a.get("desc", ""))) or any(w in KNOWN_TICKERS for w in re.findall(r"\b[A-Z]{4}\b", t))
+    # RSS Bloomberg Technoz memuat semua rubrik, jadi hanya judulnya yang dinilai.
+    text = t if a.get("media") == "Bloomberg Technoz" else t + " " + a.get("desc", "")
+    return bool(RELEVANT.search(text)) or any(w in KNOWN_TICKERS for w in re.findall(r"\b[A-Z]{4}\b", t))
 
 
 # Kode saham besar yang sering ditulis tanpa kurung. Kode lain dikenali setelah pernah muncul dalam kurung, mis. "Bumi Resources (BUMI)".
