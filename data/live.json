@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T10:55:39+07:00",
+ "updated": "2026-11-28T11:01:39+07:00",
  "window": {
-  "start": "2026-11-27T10:55:39+07:00",
-  "end": "2026-11-28T10:55:39+07:00",
+  "start": "2026-11-27T11:01:39+07:00",
+  "end": "2026-11-28T11:01:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 133
+   "items": 58,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests",
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +49,14 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 81
+   "items": 80
   },
   "Investor.id": {
    "via": "google",
-   "items": 135
+   "items": 132,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   }
  },
  "prevAt": "2026-11-28T10:07:08+07:00",
@@ -276,42 +283,6 @@
      "time": "2026-11-27T18:45:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUNUNEdnXzdqSWFPaVlOZ0FmTHNicXlhX2VDMU1rTVFTcndrOFZISVhBaHV1TkNLVVNuZkNVeGRiM1p2b2ZWa19fMFR3OWRDbHBKbEdDN1MzUWxMV3ljRGhJU3ZRTy04bHBsT2kyX1p6OWFyZWFqSUlkVEJNcVgxODYzT1BucWx6QkFHWFlmZjZsdGM1Unp4QTR0N1VGX0pUZ1VhUHVmRklfejJO0gGkAUFVX3lxTE9VUENQRzdiVUhwb1pINUNrallHNWJBVDl2aVViclA0TnZxdk1VV1gyY20tWDg5NHIzeDcwaTNkc3BwblllZWN5YV9HelNGWmxzUE1KdURKeEs3Q25oQjZ5aHBzS3pJMVlUd3dLTjB4SEtlaU15dEtVTnI5QzhIQWpXa1hhZWNMZlVLMHpNREdiNjc0Y2V3bTlQQ1lpVFhvNUdiSTNl?oc=5",
      "title": "KOTA Kantongi Restu Rights Issue 100 Miliar Saham, Incar Land Bank 572 Ha"
-    }
-   ]
-  },
-  {
-   "id": "5756630c573a",
-   "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "BWPT"
-   ],
-   "summary": "PT Eagle High Plantations Tbk (BWPT) bakal menerbitkan obligasi dengan total nilai emisi mencapai Rp550 miliar. (Foto: Ist)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T11:00:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/bwpt-tawarkan-obligasi-dengan-kupon-hingga-12-persen",
-     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T11:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTTF2Q0NJRE83czNxWVROLWNvV3hTczZaeUZlNmxVcW1jeTQ2YjhrUkRxcG9TOVpodWh5V2gzc24yeTdUSHBtWTZjb1dHTnMyQmR3UEg0Z09uRmFrZENOTk1DTHhDeGNlVG5RQ3pKQWtuNjh4U0VZaFRueGFQcURRU29KbTUwTkVuRWh6bVZqemw5Y1dSMXpZLdIBmwFBVV95cUxPSm5rLWY4UmdmaE5OZHJrTG1RdlJmcThTNzV2aERMcXRWZl9hTzBVblpSY0s1MTJmQ1JSbER4V1p1SVBpZVBqTEg2dG5WMkFGYWVyRUk1YngtQm5tczBuanotaXd0YWVQcnFtUzdTdmhuVmtFaVFDR2FjUDJNSGNJY2NSNllDa2VNbHVIeDhibzVpaEN3V2RTREl0cw?oc=5",
-     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T11:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSzAzTU8zUERuVXZvZnhuakx3anBuVE5aYWdqS2RQS1JSbFRMUzQyYmx6QjFLQW1vYVUyY1laandDbFFMX1hibV9KaXo1YjRnTDdfcUQ0OS1iRkEzU2kwNmVTYWFEQ01jYUQzdi1pNUxxS0NZU1VwX3pLVFVDVV9jenBqckhFYzFyZVR1dHFHbmpja3FQQWfSAZsBQVVfeXFMT0puay1mOFJnZmhOTmRya0xtUXZSZnE4Uzc1dmhETHF0VmZfYU8wVW5aUmNLNTEyZkNSUmxEeFdadUlQaWVQakxINnRuVjJBRmFlckVJNWJ4LUJubXMwbmp6LWl3dGFlUHJxbVM3U3ZoblZrRWlRQ0dhY1AyTUhjSWNjUjZZQ2tlTWx1SHg4Ym81aWhDd1dkU0RJdHM?oc=5",
-     "title": "BWPT Tawarkan Obligasi dengan Kupon hingga 12 Persen"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T09:15:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONzlSRUsweFNLNTRqbHhIMTVPX281bWhxUE1nZnNBUmlkNEFjQm9SRlFVVTF2SkswX3N6TllndTdRaVRuMERSUVgydUxvdHVJRGsya0RvZllYaG9BeUY4QndsaEV2SmQxSWFFZ09FVTdfWUQxeWVBWjhKRFlpTG1BVWpOdzdXM2dGUW15ZlJn?oc=5",
-     "title": "BWPT Rilis Obligasi dan Sukuk Senilai Rp 550 Miliar"
     }
    ]
   },
@@ -1085,6 +1056,24 @@
      "time": "2026-11-27T11:15:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMVFDMzBfWFNyTy1qU2k2WHdlOUlMM0RMbG0xRlQzR3dOMXp2ZnUtZXZyT1k2YU9IQXpBcV94R1ZMZGVGbDFYUUxyMTl1UDM1U24zdEFHRGZxS2J3Vmg4YmZ3Y005ZHNUYnFaekllaHR4azhnVVdiMklxaWRQeTd3amd1R1dHT3hEOGgxQzV5dnFLODR0MU9RUzc5b0QwdzZiaXRFRVEwVklxelRIdWxOSVZvRXY0ckZV0gG-AUFVX3lxTE0wcXRiRnBIOVFYZ1Jrcm1DTFBQV2E5VlRzYV9xSFk0Y2Y1TU10MGRocFdqR0FIdXZRWnVIVjZ4a2l1YlRnOGJrZHUwSE9VYlBZS0lZSjRDTVJpSHBXaGNnemJZLUptWU9PaXVsT0dKaGJHMFNmTGR5aDNmSU9NYjExSUNVYmVSWjNfUVpRMHBiaEViVlVLOFJZeE1WQzFpNU9ycXFQeTdyWHlJX2JGdEVtblByam8xZVNZQUZ6TGc?oc=5",
      "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah"
+    }
+   ]
+  },
+  {
+   "id": "1e8c4f9d5afa",
+   "title": "BWPT Rilis Obligasi dan Sukuk Senilai Rp 550 Miliar",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "BWPT"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T09:15:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONzlSRUsweFNLNTRqbHhIMTVPX281bWhxUE1nZnNBUmlkNEFjQm9SRlFVVTF2SkswX3N6TllndTdRaVRuMERSUVgydUxvdHVJRGsya0RvZllYaG9BeUY4QndsaEV2SmQxSWFFZ09FVTdfWUQxeWVBWjhKRFlpTG1BVWpOdzdXM2dGUW15ZlJn?oc=5",
+     "title": "BWPT Rilis Obligasi dan Sukuk Senilai Rp 550 Miliar"
     }
    ]
   },
