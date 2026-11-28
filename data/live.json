@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T17:02:03+07:00",
+ "updated": "2026-11-28T17:11:02+07:00",
  "window": {
-  "start": "2026-11-27T17:02:03+07:00",
-  "end": "2026-11-28T17:02:03+07:00",
+  "start": "2026-11-27T17:11:02+07:00",
+  "end": "2026-11-28T17:11:02+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,10 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 58,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 91
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -48,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 64
+   "items": 62
   },
   "Investor.id": {
    "via": "google",
-   "items": 109
+   "items": 107
   }
  },
  "prevAt": "2026-11-28T16:22:35+07:00",
@@ -1034,22 +1031,6 @@
      "time": "2026-11-27T19:52:11+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127194921-17-789217/genjot-ekonomi-tumbuh-tinggi-ri-butuh-5-sinergi-kebijakan-ini",
      "title": "Genjot Ekonomi Tumbuh Tinggi, RI Butuh 5 Sinergi Kebijakan Ini"
-    }
-   ]
-  },
-  {
-   "id": "325b42e9c40b",
-   "title": "BEI: Sentimen MSCI ' Wake-Up Call ' untuk Reformasi Struktural Pasar Modal",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T17:08:36+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdDZ3NThLT3hpYW1HRlJEYndqNVhuYWk4ZjRNdlFLRVgxNlZQYWp3U1R3MTRtVFJMTDhKY1B3RHFGbW8wbFpfYW1hLXVnWDZsRzRMdG5uTU9BY1Q4Nks0c1F4UF9fZGtJTzRmaHF1WFZ5TkIwb3BqcklrbUlsSVhHRU94c1prSkx1bElzR1l0OUVQeTJKeUpJNXVaLW02U3VRSkpPdjhoZ1IwQQ?oc=5",
-     "title": "BEI: Sentimen MSCI ' Wake-Up Call ' untuk Reformasi Struktural Pasar Modal"
     }
    ]
   },
