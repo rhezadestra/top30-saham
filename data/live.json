@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T08:57:33+07:00",
+ "updated": "2026-11-28T09:00:34+07:00",
  "window": {
-  "start": "2026-11-27T08:57:33+07:00",
-  "end": "2026-11-28T08:57:33+07:00",
+  "start": "2026-11-27T09:00:34+07:00",
+  "end": "2026-11-28T09:00:34+07:00",
   "hours": 24
  },
  "target": 30,
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 137
+   "items": 135
   }
  },
  "prevAt": "2026-11-28T08:06:04+07:00",
@@ -951,6 +951,22 @@
      "time": "2026-11-27T11:15:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMVFDMzBfWFNyTy1qU2k2WHdlOUlMM0RMbG0xRlQzR3dOMXp2ZnUtZXZyT1k2YU9IQXpBcV94R1ZMZGVGbDFYUUxyMTl1UDM1U24zdEFHRGZxS2J3Vmg4YmZ3Y005ZHNUYnFaekllaHR4azhnVVdiMklxaWRQeTd3amd1R1dHT3hEOGgxQzV5dnFLODR0MU9RUzc5b0QwdzZiaXRFRVEwVklxelRIdWxOSVZvRXY0ckZV0gG-AUFVX3lxTE0wcXRiRnBIOVFYZ1Jrcm1DTFBQV2E5VlRzYV9xSFk0Y2Y1TU10MGRocFdqR0FIdXZRWnVIVjZ4a2l1YlRnOGJrZHUwSE9VYlBZS0lZSjRDTVJpSHBXaGNnemJZLUptWU9PaXVsT0dKaGJHMFNmTGR5aDNmSU9NYjExSUNVYmVSWjNfUVpRMHBiaEViVlVLOFJZeE1WQzFpNU9ycXFQeTdyWHlJX2JGdEVtblByam8xZVNZQUZ6TGc?oc=5",
      "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah"
+    }
+   ]
+  },
+  {
+   "id": "5048e754103d",
+   "title": "OJK Proyeksi Bakal Ada 3-5 Bank Umum Syariah Baru 2027, Hasil Spin Off dan Merger",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T08:53:16+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNElEUG0zRFJZSDd5TW9XOWRBejczRjE4VVhUbXN1bVVtRlF5T1hnMWVMbnRIYlJqaXRTYy1XUk9pZDRIdDFfS0toZ3F5U0QtM1VzZ1Y3OURBZGxXQzJqQkNzSEtVbXpqaXAzSmFMRHdFcDhGUzRobGdlSjRHZmtTcjFvMzRvUk45Uk9BZXVibEdfaG1KYk54Nm1rNVVic3ZpZXVGem1ENjZQWEh5SDNQbDZJaV9WUdIBrwFBVV95cUxOSGRqRldmaDJCTDB0b014bDBOZXFTZHlJa2RpVzVyeWMyNjd6dGsyX1pQM2pwMzh4QVlkVm1LSDdDSEVjbVF1NnlrVFVFZ2lBeEhiN3RHRVNuYVY4VVB0c2lsaGUxdWo1NlJFVjF5algyUGQzOW5jbDRiRmRYX1NBbnZiRndyUXZUVnh4R0RaOW1fQmJhSUpGNjJ2eXlHR21XcnVhQXQ1UEhzSlRPM2JN?oc=5",
+     "title": "OJK Proyeksi Bakal Ada 3-5 Bank Umum Syariah Baru 2027, Hasil Spin Off dan Merger"
     }
    ]
   },
@@ -2232,24 +2248,6 @@
      "time": "2026-11-27T09:15:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ0tuQnRDMmZRbTBkWThOcklfWmN5NE1IOThkMU12Q29teThZS0hiem1YVl9BUFYxVGJRZHFHSHdyaEVsUEZiNVpjTUpjOXotcE9fQnhMV2pMdFRvcEkwX1lKTTlVbHZmZWNacEE0aEdmRDlCdTlsMDJXRWoteXhoYUJUUHA5SVFW?oc=5",
      "title": "Harga Perak Antam (ANTM) Lanjut Naik ke Level Ini"
-    }
-   ]
-  },
-  {
-   "id": "c1ce578607d6",
-   "title": "Vale (INCO) Garap Proyek Truk Tambang Listrik Raksasa",
-   "category": "Kinerja",
-   "tickers": [
-    "INCO"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T09:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbzdtZHZlMXB0ZTg3bDVzY2VodVphREtxeHctQmJkV2JhaFY0azhkS1ktdmZjTGZlZjljRUFXY0hNdFVYcWxtcVNwVGdXMnYzdmlZQ1lqemltMmxHRDE5UDBqWDVnbWxBMXNuTjdtNHk5dDk5VmlfRDZjWElOa1R5dFMzRXFkNHU0eVNOZzNB?oc=5",
-     "title": "Vale (INCO) Garap Proyek Truk Tambang Listrik Raksasa"
     }
    ]
   },
