@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T07:36:04+07:00",
+ "updated": "2026-11-28T07:42:04+07:00",
  "window": {
-  "start": "2026-11-27T07:36:04+07:00",
-  "end": "2026-11-28T07:36:04+07:00",
+  "start": "2026-11-27T07:42:04+07:00",
+  "end": "2026-11-28T07:42:04+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 89
+   "items": 88
   },
   "Investor.id": {
    "via": "google",
@@ -1311,22 +1311,6 @@
      "time": "2026-11-27T08:10:00+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
      "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
-    }
-   ]
-  },
-  {
-   "id": "c93c23ec0dcf",
-   "title": "Rekam Jejak Setyanto Hantoro, Managing Director Danantara Jadi Komisaris PT Garuda Adidaya Nusantara",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T07:40:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNazg4bDNmSHFjaUVpVlNVVHdhV1l2bWdSREJiaW84dWdmWEw4TDZLQ3JLMm9wczBJU3NhM0hMUzFMRnZPS294MXlzaTY2SEVtUHhyTUFFMDQtSnpWTEM0VUlfUHFwOVBsaU9Yc1A3aWVvR0hiXzV3NjRzZUtuMlZLZWtrY3prd1RGTjhaS3JscjFBQmJQVWRZRHNHSloxX29paE5HdWY4VjM0NDZLbkVybV9HNGh3cHBpdzhEby1EdldPVlZrRkZ0c1cycUMtUGlIZlJwSUNfVDVpUHdHYkltaEFkQ2hLZw?oc=5",
-     "title": "Rekam Jejak Setyanto Hantoro, Managing Director Danantara Jadi Komisaris PT Garuda Adidaya Nusantara"
     }
    ]
   },
