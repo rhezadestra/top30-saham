@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T21:55:23+07:00",
+ "updated": "2026-11-28T22:01:54+07:00",
  "window": {
-  "start": "2026-11-27T21:55:23+07:00",
-  "end": "2026-11-28T21:55:23+07:00",
+  "start": "2026-11-27T22:01:54+07:00",
+  "end": "2026-11-28T22:01:54+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,10 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 57
+   "items": 44,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +48,14 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 46
+   "items": 21,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "Investor.id": {
    "via": "google",
-   "items": 68
+   "items": 67
   }
  },
  "prevAt": "2026-11-28T21:37:23+07:00",
@@ -1244,22 +1250,6 @@
      "time": "2026-11-27T22:07:44+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObEVEQm0zUTBpSjF4RVpvRGs2ZWNwbjE2WURETlpsWEZTcHo1d3h5YmQ5S1dFeVdXbGVjdVhsbjE5WlFZV0pfUXdPUl9JVmFuTllJM0U3dVgya0tHcEQ3M2U5VnBfbElLSklvejB1ZW5OeU5iTTRET2FSWjhNeXFodE1VaUQ1cXdWazlfTXJiYWUtOUZ4VDVKMmsxX3VjUkV0RWcxT282YktjOW1FYVdZd1l4YkxkMTJWV2tZ?oc=5",
      "title": "Tekan Kebocoran APBN, Prabowo Siapkan Lembaga Khusus untuk Kelola Belanja Negara"
-    }
-   ]
-  },
-  {
-   "id": "dc72000c0383",
-   "title": "Pengamat Apresiasi Danantara Setor Pajak Tembus Rp567 Triliun Sepanjang 2025",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T22:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeklXRVBrUjlDN2pFdTFQS190dlRuUFBPSGJYeUlidVA5OFRMMGRHdnNKa0Y5TW5UT0RXTnZPdGxfMlVqQUNRZ2FfTFFuWHQzbV9PQ3dFR3ZocFR1dVlLbHVSRkFNa25hQTF2UFFtTUlmblVsQThuTHREVi1EOWwycnNsX2U2cm0xMjd3TnFWZGNGellTcFlldFlFcThRR05rMW9PWUhTQllRcFJiWmNmSE4xaWNyNEhxdVhNY2c2d0VNUEg1OHV3?oc=5",
-     "title": "Pengamat Apresiasi Danantara Setor Pajak Tembus Rp567 Triliun Sepanjang 2025"
     }
    ]
   }
