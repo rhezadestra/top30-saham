@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T17:44:30+07:00",
+ "updated": "2026-11-28T17:47:30+07:00",
  "window": {
-  "start": "2026-11-27T17:44:30+07:00",
-  "end": "2026-11-28T17:44:30+07:00",
+  "start": "2026-11-27T17:47:30+07:00",
+  "end": "2026-11-28T17:47:30+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 58
+   "items": 59
   },
   "Investor.id": {
    "via": "google",
-   "items": 95
+   "items": 94
   }
  },
  "prevAt": "2026-11-28T17:23:03+07:00",
@@ -155,48 +155,6 @@
  },
  "topics": [
   {
-   "id": "7dbe91716ba1",
-   "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "UNVR"
-   ],
-   "summary": "PT Unilever Indonesia Tbk (UNVR) berencana menjual seluruh bisnis makanan kepada PT McCormick Foods Indonesia senilai Rp20,5 triliun. (Foto: Ist)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T17:45:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUdXajhQVmNISm5oemt6RVlZQmxTNmdfWDRpd1pKMkFYT3VJUTlONmZ4M3VRTklCNTYwVEdIMWNIN2cyaWhzcTBRV0RvWnJnb0xrdDZtMzVnRDNjelNheE9YLUNtNnI0Y04yNlJzVnVLVjNKRnhiM2hBdFY1VE8wdFlCV3FvOFpOT0REcVZUSHN4dXhKRTlkbEhCUU81dlE?oc=5",
-     "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T18:18:54+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaFlvNjNVRFZ4MXJqaTVLTkhNbE04Tl8yNHJTT3B1cUdGVktvZ1BtcThfTTNCVVkxdjVSbkw4ZGNQbXdELWplSXFDQXFxemFDY2VKNXY5cWxyS3dxb3FxckZoZTd4TTktUFZsSDVZYnY4NXF5UU5mR25UaWxpUU1kNW9Yc2M5TG9kMkJfU1VwVmpyS2tBeEZreVhlaGVYMVd6NWZ3RHB0Y3pDYm9NSW5VUzFLaw?oc=5",
-     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T18:18:54+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVI1Yi05Y1VXZktCdy1Ed192QzlpOFBDSnZlUHdINHNzcklzcW1sWHB0a3g2b1VuUjkwZDlxbXdPNndjcEMxekJ6VVVFaUtWX2FfRGtsQWJ5bkxIc2JUM05RbVYtaERWUlo2bVFyam01c1pacmE3TFVqNUxwQmdGeTYybE9haGltX0YzYUxHZlBVbzJIM1JhQzNpSVVZb1pjcEVyVG1teFNWaEJ6WDQ2UlF6ejBWUQ?oc=5",
-     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T18:40:49+07:00",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUtsY2szdGJxYk82SEdOX1JLMEhYODhua2oxMkNORWdKeGszdUlYMXBEUExqZlVBc3FsTUNaTlhOSUVZeDc4dGpSSmxBd2lLa04yRU00eDkwelJ4WVJsWjNycFdoYXBiTE1RbnA1ZUlLWnRqX2ZycGV0b0NHRnhsU3N5dFpkOEkyQVhVaGdkc3VRUmxxeXZwN1o4NzV0RUZBaWdJTEpNYmhMejZMMGZFQXpIU3I3c2MwNHZZYWgyd1Fud2FEckJF?oc=5",
-     "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-28T17:20:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/fokus-garap-segmen-perawatan-unilever-indonesia-unvr-lepas-bisnis-makanan-rp205-triliun",
-     "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun"
-    }
-   ]
-  },
-  {
    "id": "91ccd8229cfb",
    "title": "Krakatau Steel (KRAS) Cetak Laba Bersih US$ 83,1 Juta per Kuartal III-2026",
    "category": "Kinerja",
@@ -259,6 +217,42 @@
      "time": "2026-11-27T18:45:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUNUNEdnXzdqSWFPaVlOZ0FmTHNicXlhX2VDMU1rTVFTcndrOFZISVhBaHV1TkNLVVNuZkNVeGRiM1p2b2ZWa19fMFR3OWRDbHBKbEdDN1MzUWxMV3ljRGhJU3ZRTy04bHBsT2kyX1p6OWFyZWFqSUlkVEJNcVgxODYzT1BucWx6QkFHWFlmZjZsdGM1Unp4QTR0N1VGX0pUZ1VhUHVmRklfejJO0gGkAUFVX3lxTE9VUENQRzdiVUhwb1pINUNrallHNWJBVDl2aVViclA0TnZxdk1VV1gyY20tWDg5NHIzeDcwaTNkc3BwblllZWN5YV9HelNGWmxzUE1KdURKeEs3Q25oQjZ5aHBzS3pJMVlUd3dLTjB4SEtlaU15dEtVTnI5QzhIQWpXa1hhZWNMZlVLMHpNREdiNjc0Y2V3bTlQQ1lpVFhvNUdiSTNl?oc=5",
      "title": "KOTA Kantongi Restu Rights Issue 100 Miliar Saham, Incar Land Bank 572 Ha"
+    }
+   ]
+  },
+  {
+   "id": "2160f470d1a3",
+   "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "UNVR"
+   ],
+   "summary": "PT Unilever Indonesia Tbk (UNVR) berencana menjual seluruh bisnis makanan kepada PT McCormick Foods Indonesia senilai Rp20,5 triliun. (Foto: Ist)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:18:54+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaFlvNjNVRFZ4MXJqaTVLTkhNbE04Tl8yNHJTT3B1cUdGVktvZ1BtcThfTTNCVVkxdjVSbkw4ZGNQbXdELWplSXFDQXFxemFDY2VKNXY5cWxyS3dxb3FxckZoZTd4TTktUFZsSDVZYnY4NXF5UU5mR25UaWxpUU1kNW9Yc2M5TG9kMkJfU1VwVmpyS2tBeEZreVhlaGVYMVd6NWZ3RHB0Y3pDYm9NSW5VUzFLaw?oc=5",
+     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:18:54+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVI1Yi05Y1VXZktCdy1Ed192QzlpOFBDSnZlUHdINHNzcklzcW1sWHB0a3g2b1VuUjkwZDlxbXdPNndjcEMxekJ6VVVFaUtWX2FfRGtsQWJ5bkxIc2JUM05RbVYtaERWUlo2bVFyam01c1pacmE3TFVqNUxwQmdGeTYybE9haGltX0YzYUxHZlBVbzJIM1JhQzNpSVVZb1pjcEVyVG1teFNWaEJ6WDQ2UlF6ejBWUQ?oc=5",
+     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:40:49+07:00",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUtsY2szdGJxYk82SEdOX1JLMEhYODhua2oxMkNORWdKeGszdUlYMXBEUExqZlVBc3FsTUNaTlhOSUVZeDc4dGpSSmxBd2lLa04yRU00eDkwelJ4WVJsWjNycFdoYXBiTE1RbnA1ZUlLWnRqX2ZycGV0b0NHRnhsU3N5dFpkOEkyQVhVaGdkc3VRUmxxeXZwN1o4NzV0RUZBaWdJTEpNYmhMejZMMGZFQXpIU3I3c2MwNHZZYWgyd1Fud2FEckJF?oc=5",
+     "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T17:20:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/fokus-garap-segmen-perawatan-unilever-indonesia-unvr-lepas-bisnis-makanan-rp205-triliun",
+     "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun"
     }
    ]
   },
@@ -383,28 +377,6 @@
      "time": "2026-11-28T08:08:32+07:00",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVWRzdmZyaTNBQmxDT1M4WU9TV2k0S2dhelpYYlVlc3BiOGZYbVhHZkhTeEJxa3lnc0p0ZENLbkZJN2VtbzVPaHZSY2g4TkdoNlJXdW1wTzdYN1lkVm9PX0QyRW9tdlE4UWgxWkRQYkk0ZEJsUHJ3NTdKdlNLRXFaMkJfZmVUZVFWYzduWUhBOW5VQUgyWWhjTXZpcHNtY193Ty1TQU5iYXpaVmozOFZwMF80b09qSjJlM3hyNdIBmAFBVV95cUxQTUFtRHVKbm9kdkxvRFBIYWJMeld4S195R1M0aElMWE5LM01sMzB2WG1yQWQ0aDZFaXhFdmdlekw5S3Z0UGllMkZxMjBLM3ZxUG5MQXFYZVVrZndXSUlIVDU4bkR6ZXpFMUtQZDBPX0JsSDRQNktWUC1Zd2U1aDB2R2FLVEZ4SGRvOHVzN053RHdOVGtUblVKSg?oc=5",
      "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
-    }
-   ]
-  },
-  {
-   "id": "43a35b6b55c2",
-   "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam. (Foto: Magnific)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T17:45:00+07:00",
-     "url": "https://www.idxchannel.com/economics/ekonomi-prancis-kontraksi-02-persen-pada-kuartal-iii-2026-ekspor-turun-tajam",
-     "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T17:45:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkhHZ2xsbTNnOWdnNGR2NklrT1Z1MGJkOVE0V2lILUI3MWRweDZjdmVhZDRQRU9NSkVOWkNlYmRoaU5nUXVlT1lsMnRpNHV6QjBSRVVna1NhOG1OS05wWG5FSTBaRHNHMEI4Y0tQMGJyREt2TkdEUjRMOFNJc1R4bVZoUXkyY0ZoMVhrTnRaZEtweUtDd3k1aDY0VHU0dl9JTURTcHBTSThLdWNLU25VV2RtNNIBuAFBVV95cUxNVGlUdm50cHFVQkVJMHdpR3RJTG11Q2JZZ1VMaU1sQkw0SnctODRVc0lkaXFRRTgyRjdRTFU3TkItNlpWalBhZHhLaTBwOU1nTWloc0g1S1FkSUR4UzgtMGhxYk9KYVdQWFpNLWRnM2tiUGc4R0Zoakh1RzBVbl9QUVdRQTFWaWxHY09zbmo1LUVWYTRBMHJaS2xqbnBDUUFpbEhnYm1kRkdtUmlMbVBIcXdaZlFwWTZt?oc=5",
-     "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam"
     }
    ]
   },
