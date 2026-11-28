@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T19:48:28+07:00",
+ "updated": "2026-11-28T19:51:28+07:00",
  "window": {
-  "start": "2026-11-27T19:48:28+07:00",
-  "end": "2026-11-28T19:48:28+07:00",
+  "start": "2026-11-27T19:51:28+07:00",
+  "end": "2026-11-28T19:51:28+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 65
+   "items": 66
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 71
+   "items": 70
   }
  },
  "prevAt": "2026-11-28T19:30:28+07:00",
@@ -1506,38 +1506,6 @@
      "time": "2026-11-27T20:28:37+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127202621-17-789228/pesan-prabowo-ke-bank-bumn-jaga-uang-rakyat",
      "title": "Pesan Prabowo ke Bank BUMN: Jaga Uang Rakyat!"
-    }
-   ]
-  },
-  {
-   "id": "e1b603c45582",
-   "title": "Ekonomi RI Bisa Tembus 6% Tahun Depan, Ini Ramalan Bos BI",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Bank Indonesia optimis pertumbuhan ekonomi Indonesia akan mencapai 6% pada 2027, didukung stabilitas makroekonomi dan pembiayaan perbankan yang meningkat.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T19:48:41+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127194718-17-789216/ekonomi-ri-bisa-tembus-6-tahun-depan-ini-ramalan-bos-bi",
-     "title": "Ekonomi RI Bisa Tembus 6% Tahun Depan, Ini Ramalan Bos BI"
-    }
-   ]
-  },
-  {
-   "id": "c7fb288cd845",
-   "title": "Prabowo Hadiri Pertemuan Tahunan Bank Indonesia 2026",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T19:48:29+07:00",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQV9UZDRpOWNQcFlmZjFuSXUyNjlxbmI4YzRxelYxTHMwOEpOcWtlTVRXM1pudnhGTUxXVFBwcW9hYjVIdFpwZDhMbE1UWGRUdkQ1aHFZWDlDWGFWNnFpeWd0NEhKU0d0WmVNQ0xOaGlpTlh6Rmk3VERFUVlETlA5NlMtNDZsODVGYmhTVnpiZi1Tdw?oc=5",
-     "title": "Prabowo Hadiri Pertemuan Tahunan Bank Indonesia 2026"
     }
    ]
   }
