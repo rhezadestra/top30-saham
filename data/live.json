@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T15:19:05+07:00",
+ "updated": "2026-11-28T15:25:05+07:00",
  "window": {
-  "start": "2026-11-27T15:19:05+07:00",
-  "end": "2026-11-28T15:19:05+07:00",
+  "start": "2026-11-27T15:25:05+07:00",
+  "end": "2026-11-28T15:25:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 106
+   "items": 104
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 71
+   "items": 70
   },
   "Investor.id": {
    "via": "google",
-   "items": 117
+   "items": 118
   }
  },
  "prevAt": "2026-11-28T15:19:05+07:00",
@@ -1175,24 +1175,6 @@
      "time": "2026-11-27T15:50:53+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV2o2NXN2OXUxaTlNdXdlNFVZWEtNOVNsWTBsR3ZaZ0VzdVVteHU4V0Q5cXMyVWt5dk16aVUwSVZ5M1FFZjBjNHRnTzlaRV9BVTdrT1NzU0ZWeGxxUXBWeUltV2pqbGgwZDdIa1U3anB3WnNDcmcxQXlTT2J2YTQzY0E1Y0xRenBBNm9xdDYwbFFJcWstNEk0dHk3U0kyYTBJMWEyc0ZkV0lkUkJ0NnFTNmlEZXZDU0JacDduOHVtLVNtZw?oc=5",
      "title": "Kebijakan DP 0% KPR Berlanjut, OJK Lihat Peluang bagi Asuransi Properti"
-    }
-   ]
-  },
-  {
-   "id": "ff94380133c5",
-   "title": "Avia Avian (AVIA) Raih Peringkat AA dalam Penilaian ESG MSCI",
-   "category": "Regulasi",
-   "tickers": [
-    "AVIA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T15:22:23+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmQ5YXh0bHRBSnNhOWlhTG9VMzFEYlFfNmpPMFQ5VnpZU2docU8wSFZHUVBDZ3pqSTVrWE9Va1V2T3hvRUZTYjB0M1IwOTNpaGdqNE85aUNoX2Rmc3BvdnRsb0V2SkkzRk84QnpLQnBSTU9GLVZDMU5HTVJXcWZHbzdNeld3U2ZyLThFZkN5WklfRzc4ZkJsRU1n0gGSAUFVX3lxTFBVRkNTcW5PNE1vZkxXTXhrNEpvLVRMWkhDZ1p5QWVoM2JjQjRsbjBIRlN5bnFPWEVuUDBabjVLQzFrcUNLa2Z5V2ozMWIyUjlHcW5tMzd2TGJlRkJfZU5BR1ROSmplVkRHbGR3MTNwdDZzUE1sa0tXZUlGeVhpTE94RUdESktoT203bFdycndCUTBR?oc=5",
-     "title": "Avia Avian (AVIA) Raih Peringkat AA dalam Penilaian ESG MSCI"
     }
    ]
   },
