@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T17:23:03+07:00",
+ "updated": "2026-11-28T17:29:30+07:00",
  "window": {
-  "start": "2026-11-27T17:23:03+07:00",
-  "end": "2026-11-28T17:23:03+07:00",
+  "start": "2026-11-27T17:29:30+07:00",
+  "end": "2026-11-28T17:29:30+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 59
+   "items": 57
   },
   "Investor.id": {
    "via": "google",
-   "items": 104
+   "items": 103
   }
  },
  "prevAt": "2026-11-28T17:23:03+07:00",
@@ -291,28 +291,6 @@
    ]
   },
   {
-   "id": "75f0dcdcf024",
-   "title": "BRI Ungkap Skema Merger Tiga Asuransi Umum dalam Ekosistem Danantara",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "Tiga perusahaan asuransi, Jasindo, BRINS, dan Jasaraharja Putera, rencanakan merger efektif 1 Januari 2027.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T17:29:02+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcE1ESjhDZ1FEVnlhY1pkeWNjMTY2dU9qWmxiWkFiX21Gbk1xUkVod3lvdkJJTE4wT3dWajlMdkRtc2lXeExrcUZINkpZRnhiYWlGMG9FS2p5dWpjZXpKckloeFFySmRWNzNybHpZT0FiaGEzV0d3QWRTQVl5cjhtZElzSEQwYldsSVp0VEV0cm1IQ2xXSGVJTlo3WmZmUEJpNXA0YTZoaW9qMkp1RmptcnBFR25hd1J6UkJCR05GdGY?oc=5",
-     "title": "BRI Ungkap Skema Merger Tiga Asuransi Umum dalam Ekosistem Danantara"
-    },
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T20:30:12+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127192010-17-789203/tiga-asuransi-bumn-merger-bagaimana-nasib-pegawai",
-     "title": "Tiga Asuransi BUMN Merger, Bagaimana Nasib Pegawai?"
-    }
-   ]
-  },
-  {
    "id": "c8c4c97c6039",
    "title": "3 Orang Ditahan di Kasus Goreng Saham DSSA, Ini Kata OJK",
    "category": "Regulasi",
@@ -405,34 +383,6 @@
      "time": "2026-11-28T08:08:32+07:00",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVWRzdmZyaTNBQmxDT1M4WU9TV2k0S2dhelpYYlVlc3BiOGZYbVhHZkhTeEJxa3lnc0p0ZENLbkZJN2VtbzVPaHZSY2g4TkdoNlJXdW1wTzdYN1lkVm9PX0QyRW9tdlE4UWgxWkRQYkk0ZEJsUHJ3NTdKdlNLRXFaMkJfZmVUZVFWYzduWUhBOW5VQUgyWWhjTXZpcHNtY193Ty1TQU5iYXpaVmozOFZwMF80b09qSjJlM3hyNdIBmAFBVV95cUxQTUFtRHVKbm9kdkxvRFBIYWJMeld4S195R1M0aElMWE5LM01sMzB2WG1yQWQ0aDZFaXhFdmdlekw5S3Z0UGllMkZxMjBLM3ZxUG5MQXFYZVVrZndXSUlIVDU4bkR6ZXpFMUtQZDBPX0JsSDRQNktWUC1Zd2U1aDB2R2FLVEZ4SGRvOHVzN053RHdOVGtUblVKSg?oc=5",
      "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
-    }
-   ]
-  },
-  {
-   "id": "4404f57291cc",
-   "title": "Dana Investor Beralih ke Pasar Uang, Ini Prospek Reksadana pada 2027",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T17:27:53+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR0RRV3NqR2poc1RDMmFoVVh2MWhsTXJMZE9lUFppS0YyWm51M1BXRkJvelNFYUVOcEVTNy04c1BRUm93cDBKY1RuSC1zS2tNM2xYSUJUbXJkS1dSWXZZTjluX2VrQlFiZjlTZ1FzX2E0bjZQQllFTGNQRkJJWmIwck9XeHNYU3dYWTNXUkQxbENZeWVOZjctcGxldi1EaFpmZW03Zmln0gGeAUFVX3lxTE1qWTJCRW5IRXNyVHdNQmVEdHFvaVNBcWxKdWJmUThpRUtUSk5VWEJlSk16QklQVkNQYl9WTWxsQnUxOVhwbWhnRjVFOUQxdUxuTG1nNklBQkVpVGNCdUUwQUtsWmFzTVQ4d2Vaa1B6TU5NTzhjcGw0amE4UHdGZnZ0bXpWN2VCS2phNjZxdURVQzNNN1BPbGYxdXFHbzF3?oc=5",
-     "title": "Dana Investor Beralih ke Pasar Uang, Ini Prospek Reksadana pada 2027"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T18:53:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeG51djVzVDBPc2d0Z2x5cWRHeVA1UjZpckpmM3R2R1oxc3NzSnludzV0eHRCaVpxaWlYaGVfRU5uRVJmRGN1d0hCX2xrT3RsTVpfVkJwTnpzZmIzNmtZdmhUdDBrUWMxWHR5SWR3Y1ZQb29GbVlXYmYxaGNJTEs5S3NHVHhkNlllajhlWHk2bGZKSWMwRGt4VXU5QTVaZTd3OTNYRHY1emQ3bWp5VmRDQTJ1Wkw0aWPSAa8BQVVfeXFMT2VXYUlUUXg1eG54am82SGF1RUZPSTlOb2lYci0xdmlRcDVRbkhQVGdqRzRhRGktRlpXM1A5MkhZbXFTQ1RrdkQ5OTJNVEpyQnl5UUN3aEpxSXlPTVBrQVl0eWIyUnFGbDdCR2d5TTJkU0tuaXZDdi0zRHp1WmZMRkRHRE9KeG9wWG1rQURRNWRSdmJpZU5SeEF0ak0yUi03TlRPNms3LXdiLUczWkJDQQ?oc=5",
-     "title": "Tren Investasi Defensif Berlanjut, Dana Investor Mengalir ke Reksadana Pasar Uang"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T18:53:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeG51djVzVDBPc2d0Z2x5cWRHeVA1UjZpckpmM3R2R1oxc3NzSnludzV0eHRCaVpxaWlYaGVfRU5uRVJmRGN1d0hCX2xrT3RsTVpfVkJwTnpzZmIzNmtZdmhUdDBrUWMxWHR5SWR3Y1ZQb29GbVlXYmYxaGNJTEs5S3NHVHhkNlllajhlWHk2bGZKSWMwRGt4VXU5QTVaZTd3OTNYRHY1emQ3bWp5VmRDQTJ1Wkw0aWM?oc=5",
-     "title": "Tren Investasi Defensif Berlanjut, Dana Investor Mengalir ke Reksadana Pasar Uang"
     }
    ]
   },
@@ -643,6 +593,28 @@
    ]
   },
   {
+   "id": "58998c833d57",
+   "title": "Tren Investasi Defensif Berlanjut, Dana Investor Mengalir ke Reksadana Pasar Uang",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T18:53:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeG51djVzVDBPc2d0Z2x5cWRHeVA1UjZpckpmM3R2R1oxc3NzSnludzV0eHRCaVpxaWlYaGVfRU5uRVJmRGN1d0hCX2xrT3RsTVpfVkJwTnpzZmIzNmtZdmhUdDBrUWMxWHR5SWR3Y1ZQb29GbVlXYmYxaGNJTEs5S3NHVHhkNlllajhlWHk2bGZKSWMwRGt4VXU5QTVaZTd3OTNYRHY1emQ3bWp5VmRDQTJ1Wkw0aWPSAa8BQVVfeXFMT2VXYUlUUXg1eG54am82SGF1RUZPSTlOb2lYci0xdmlRcDVRbkhQVGdqRzRhRGktRlpXM1A5MkhZbXFTQ1RrdkQ5OTJNVEpyQnl5UUN3aEpxSXlPTVBrQVl0eWIyUnFGbDdCR2d5TTJkU0tuaXZDdi0zRHp1WmZMRkRHRE9KeG9wWG1rQURRNWRSdmJpZU5SeEF0ak0yUi03TlRPNms3LXdiLUczWkJDQQ?oc=5",
+     "title": "Tren Investasi Defensif Berlanjut, Dana Investor Mengalir ke Reksadana Pasar Uang"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T18:53:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeG51djVzVDBPc2d0Z2x5cWRHeVA1UjZpckpmM3R2R1oxc3NzSnludzV0eHRCaVpxaWlYaGVfRU5uRVJmRGN1d0hCX2xrT3RsTVpfVkJwTnpzZmIzNmtZdmhUdDBrUWMxWHR5SWR3Y1ZQb29GbVlXYmYxaGNJTEs5S3NHVHhkNlllajhlWHk2bGZKSWMwRGt4VXU5QTVaZTd3OTNYRHY1emQ3bWp5VmRDQTJ1Wkw0aWM?oc=5",
+     "title": "Tren Investasi Defensif Berlanjut, Dana Investor Mengalir ke Reksadana Pasar Uang"
+    }
+   ]
+  },
+  {
    "id": "42ac769c1ede",
    "title": "DSI Siapkan Portal NADI, Registrasi Eksportir Dibuka 15 Desember 2026",
    "category": "Makro",
@@ -801,6 +773,22 @@
      "time": "2026-11-28T05:20:15+07:00",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVUtseEd2SFlWUHBSbi1xSEF0YjFvbVI3X0dLdEplMEFSbTNKNDZlYUFBUV9uWTZZU1RvRUxzZzVKTTMwTGdiTzcwdUw2ZFJYUHZsbXAtTlFxOVJWV01UOHRhMm9qalgwX1A5cWJGS0xTX2UySjAyMk53amw5MEdpSFZZRzgtblNUanJuN2JqWEk0SFFXVHhGeHEyMi14bklUSWlvdA?oc=5",
      "title": "MR.D.I.Y (MDIY) Andalkan Efisiensi Gudang Jaga Ekspansi"
+    }
+   ]
+  },
+  {
+   "id": "22d440ac9ba7",
+   "title": "Tiga Asuransi BUMN Merger, Bagaimana Nasib Pegawai?",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "Tiga perusahaan asuransi, Jasindo, BRINS, dan Jasaraharja Putera, rencanakan merger efektif 1 Januari 2027.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T20:30:12+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127192010-17-789203/tiga-asuransi-bumn-merger-bagaimana-nasib-pegawai",
+     "title": "Tiga Asuransi BUMN Merger, Bagaimana Nasib Pegawai?"
     }
    ]
   },
