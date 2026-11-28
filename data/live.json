@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T22:40:55+07:00",
+ "updated": "2026-11-28T22:52:54+07:00",
  "window": {
-  "start": "2026-11-27T22:40:55+07:00",
-  "end": "2026-11-28T22:40:55+07:00",
+  "start": "2026-11-27T22:52:54+07:00",
+  "end": "2026-11-28T22:52:54+07:00",
   "hours": 24
  },
  "target": 30,
@@ -28,6 +28,10 @@
   {
    "name": "Investor.id",
    "abbr": "INV"
+  },
+  {
+   "name": "Bloomberg Technoz",
+   "abbr": "BBTZ"
   }
  ],
  "feeds": {
@@ -37,7 +41,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 61
+   "items": 60
   },
   "IDX Channel": {
    "via": "rss",
@@ -49,10 +53,11 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 41,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 62
+  },
+  "Bloomberg Technoz": {
+   "via": "rss",
+   "items": 91
   }
  },
  "prevAt": "2026-11-28T22:37:54+07:00",
@@ -178,6 +183,12 @@
      "time": "2026-11-28T22:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQXzl3TmI5QUVPdWhLSDVLc3JwVzVibHFUY1cxRVY1VjdwU2dGYnpBVnpMV2lGNy12YW1FVHcxUVFReW1VcVNRRGE5ZjZaMkVibkw1R3hZbW41UUZRT0R5UGdkZWZzSkxmSFFPQzVESWd0cEdMN0xzR2lWQUlyMGRBSWF5RFlaMjZWekxFQkF0dVBQOXBta3d2dFFDSl82Qzhaa1QtZEVn0gGrAUFVX3lxTE9seEU1YzdQTW1Nd0xLNzgyYnhCbDN2Wk5KcXdwUXpoNGROZVgyZk1QWFh4aGJPVF9lRUFxLUZfVFFfMHBZcmpLajJpTjJETS1ZVHRFN0E2M3g4d2JHMEJwTkpwaGRYeWs2ZFRYaWlXTlVhMFRjTVNwbVVHZ2VrUXpJYmpVNThXZVRZbnRUT3ZReWZrZS1DejFDUHRKSUY1d2FvdEhrV25lQlN4QQ?oc=5",
      "title": "Laba Krakatau Steel (KRAS) Naik 266 Persen hingga Kuartal III-2026"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T22:41:11+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWFdzdGxRbVUzN2YzTC00eUlJMEh1bHpiMXJlQTRNWmE0cGt3LXloTGlVajVOM0gwVXl1NXBhMlNYbTFHQjBqRWh4blRXRGR2NDFNTEJoYW12SjgycVpvc0VHVWRtdTFUcGhVZS1ndDNkdVpwUG1udXdscnJjcEdqMFZwczN5RmNuWVB3TTBvQjdVelZEcG0wMjFMWVVOLWtSX0dVVHpQS2XSAaIBQVVfeXFMT2oza1Z0cnp4b0xycWxOcU91WEVvSW1ET296UUF5VE9uOGJLMlBFZm5GcGFLR3pKSWh6UVRMX2xsLXpDTUJmZzREemRleDJFUk1PaEFZd1FfSUVZWm95SG43T1IwMHBpVzl4azlkVm9NWjNYaTU3Y1BlRUZzSXkxQTR0T0lDTjdnSE9BQlk1RjJQczhHT2JjRlA5d1h2bU1lRUpB?oc=5",
+     "title": "Laba Bersih SMF Tumbuh 31,71% Jadi Rp 569 Miliar hingga Kuartal III-2026"
     }
    ]
   },
@@ -198,10 +209,38 @@
      "title": "3 Orang Ditahan di Kasus Goreng Saham DSSA, Ini Kata OJK"
     },
     {
+     "media": "Bloomberg Technoz",
+     "time": "2026-11-28T08:01:03+07:00",
+     "url": "https://www.bloombergtechnoz.com/detail-news/129154/ojk-sebut-60-orang-diperiksa-polisi-dalam-kasus-dssa",
+     "title": "OJK Sebut 60 Orang Diperiksa Polisi dalam Kasus DSSA"
+    },
+    {
      "media": "Investor.id",
      "time": "2026-11-28T10:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcE5CemZaXzVmMmJsRXp2TjUwWFJqZFE0NjdGTWpyeGdLT2pjTnEzVTBrX2hvMkZBaGRPZm1UNFBzTkkzTkVzaUpuQ0ptU0lOOGdJczloTU4tZHg0X3JYRlFvd0xOXy1mcFBETDFndllxTXBkdkZhYWp2am85SEZCY1JORFAyZXp2bUMxenAzdw?oc=5",
      "title": "Nasib Saham DSSA di Tengah Eskalasi Kasus Manipulasi"
+    }
+   ]
+  },
+  {
+   "id": "5048e754103d",
+   "title": "OJK Proyeksi Bakal Ada 3-5 Bank Umum Syariah Baru 2027, Hasil Spin Off dan Merger",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "OJK Ungkap Potensi 3-5 Bank Syariah Baru pada 2027, Hasil Spin Off dan Merger",
+   "summaryFrom": "Bloomberg Technoz",
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T08:53:16+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNElEUG0zRFJZSDd5TW9XOWRBejczRjE4VVhUbXN1bVVtRlF5T1hnMWVMbnRIYlJqaXRTYy1XUk9pZDRIdDFfS0toZ3F5U0QtM1VzZ1Y3OURBZGxXQzJqQkNzSEtVbXpqaXAzSmFMRHdFcDhGUzRobGdlSjRHZmtTcjFvMzRvUk45Uk9BZXVibEdfaG1KYk54Nm1rNVVic3ZpZXVGem1ENjZQWEh5SDNQbDZJaV9WUdIBrwFBVV95cUxOSGRqRldmaDJCTDB0b014bDBOZXFTZHlJa2RpVzVyeWMyNjd6dGsyX1pQM2pwMzh4QVlkVm1LSDdDSEVjbVF1NnlrVFVFZ2lBeEhiN3RHRVNuYVY4VVB0c2lsaGUxdWo1NlJFVjF5algyUGQzOW5jbDRiRmRYX1NBbnZiRndyUXZUVnh4R0RaOW1fQmJhSUpGNjJ2eXlHR21XcnVhQXQ1UEhzSlRPM2JN?oc=5",
+     "title": "OJK Proyeksi Bakal Ada 3-5 Bank Umum Syariah Baru 2027, Hasil Spin Off dan Merger"
+    },
+    {
+     "media": "Bloomberg Technoz",
+     "time": "2026-11-28T17:30:00+07:00",
+     "url": "https://www.bloombergtechnoz.com/detail-news/129172/ojk-akan-ada-5-bank-syariah-baru-2027-hasil-spin-off-merger",
+     "title": "OJK: Akan Ada 5 Bank Syariah Baru 2027, Hasil Spin Off & Merger"
     }
    ]
   },
@@ -580,22 +619,6 @@
    ]
   },
   {
-   "id": "5048e754103d",
-   "title": "OJK Proyeksi Bakal Ada 3-5 Bank Umum Syariah Baru 2027, Hasil Spin Off dan Merger",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T08:53:16+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNElEUG0zRFJZSDd5TW9XOWRBejczRjE4VVhUbXN1bVVtRlF5T1hnMWVMbnRIYlJqaXRTYy1XUk9pZDRIdDFfS0toZ3F5U0QtM1VzZ1Y3OURBZGxXQzJqQkNzSEtVbXpqaXAzSmFMRHdFcDhGUzRobGdlSjRHZmtTcjFvMzRvUk45Uk9BZXVibEdfaG1KYk54Nm1rNVVic3ZpZXVGem1ENjZQWEh5SDNQbDZJaV9WUdIBrwFBVV95cUxOSGRqRldmaDJCTDB0b014bDBOZXFTZHlJa2RpVzVyeWMyNjd6dGsyX1pQM2pwMzh4QVlkVm1LSDdDSEVjbVF1NnlrVFVFZ2lBeEhiN3RHRVNuYVY4VVB0c2lsaGUxdWo1NlJFVjF5algyUGQzOW5jbDRiRmRYX1NBbnZiRndyUXZUVnh4R0RaOW1fQmJhSUpGNjJ2eXlHR21XcnVhQXQ1UEhzSlRPM2JN?oc=5",
-     "title": "OJK Proyeksi Bakal Ada 3-5 Bank Umum Syariah Baru 2027, Hasil Spin Off dan Merger"
-    }
-   ]
-  },
-  {
    "id": "001934022fde",
    "title": "Gejolak Suku Bunga, Avrist AM Racik Reksa Dana Berbasis Sukuk",
    "category": "Aksi korporasi",
@@ -690,6 +713,70 @@
      "time": "2026-11-28T16:43:00+07:00",
      "url": "https://www.idxchannel.com/banking/prabowo-sebut-kredit-bank-hanya-mengalir-ke-nasabah-besar-ini-kata-ojk",
      "title": "Prabowo Sebut Kredit Bank Hanya Mengalir ke Nasabah Besar, Ini Kata OJK"
+    }
+   ]
+  },
+  {
+   "id": "4663e5aeb6e8",
+   "title": "BI Rate 6%, OJK Ungkap Bank Tak Agresif Naikkan Bunga Kredit",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "OJK Ungkap Alasan Bank Tak Agresif Naikkan Bunga Kredit",
+   "summaryFrom": "Bloomberg Technoz",
+   "sources": [
+    {
+     "media": "Bloomberg Technoz",
+     "time": "2026-11-28T16:30:00+07:00",
+     "url": "https://www.bloombergtechnoz.com/detail-news/129169/bi-rate-6-ojk-ungkap-bank-tak-agresif-naikkan-bunga-kredit",
+     "title": "BI Rate 6%, OJK Ungkap Bank Tak Agresif Naikkan Bunga Kredit"
+    }
+   ]
+  },
+  {
+   "id": "b7afe9ab6bc0",
+   "title": "OJK Optimistis Kredit Perbankan Tumbuh 13% Hingga Akhir 2026",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "OJK Optimistis Kredit Perbankan Tumbuh 13% Hingga Akhir 2026",
+   "summaryFrom": "Bloomberg Technoz",
+   "sources": [
+    {
+     "media": "Bloomberg Technoz",
+     "time": "2026-11-28T16:00:00+07:00",
+     "url": "https://www.bloombergtechnoz.com/detail-news/129168/ojk-optimistis-kredit-perbankan-tumbuh-13-hingga-akhir-2026",
+     "title": "OJK Optimistis Kredit Perbankan Tumbuh 13% Hingga Akhir 2026"
+    }
+   ]
+  },
+  {
+   "id": "d58941fa0d8e",
+   "title": "Kronologi Kabar Pertemuan Prabowo dan MSCI",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "Kronologi Kabar Pertemuan Prabowo dan MSCI: Dari Sumber Bloomberg Hingga Penegasan Resmi MSCI",
+   "summaryFrom": "Bloomberg Technoz",
+   "sources": [
+    {
+     "media": "Bloomberg Technoz",
+     "time": "2026-11-28T15:30:00+07:00",
+     "url": "https://www.bloombergtechnoz.com/detail-news/129167/kronologi-kabar-pertemuan-prabowo-dan-msci",
+     "title": "Kronologi Kabar Pertemuan Prabowo dan MSCI"
+    }
+   ]
+  },
+  {
+   "id": "57f227e6ce74",
+   "title": "Ekonom: Kebijakan Tarif Baru AS Bisa Tekan Perekonomian RI",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "Amerika Serikat (AS) baru saja mengumumkan pemberlakuan gelombang baru tarif impor terhadap barang-barang dari sejumlah negara termasuk Indonesia yan",
+   "summaryFrom": "Bloomberg Technoz",
+   "sources": [
+    {
+     "media": "Bloomberg Technoz",
+     "time": "2026-11-28T14:35:51+07:00",
+     "url": "https://www.bloombergtechnoz.com/detail-news/129147/ekonom-kebijakan-tarif-baru-as-bisa-tekan-perekonomian-ri",
+     "title": "Ekonom: Kebijakan Tarif Baru AS Bisa Tekan Perekonomian RI"
     }
    ]
   },
@@ -919,6 +1006,22 @@
    ]
   },
   {
+   "id": "8ddca7c7be02",
+   "title": "Peta Ekonomi Global: Konsumsi AS Tertahan, Suku Bunga Global Naik",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Memetakan Ekonomi Global: Konsumen AS Mulai Mengerem Pengeluaran",
+   "summaryFrom": "Bloomberg Technoz",
+   "sources": [
+    {
+     "media": "Bloomberg Technoz",
+     "time": "2026-11-28T20:00:00+07:00",
+     "url": "https://www.bloombergtechnoz.com/detail-news/129176/peta-ekonomi-global-konsumsi-as-tertahan-suku-bunga-global-naik",
+     "title": "Peta Ekonomi Global: Konsumsi AS Tertahan, Suku Bunga Global Naik"
+    }
+   ]
+  },
+  {
    "id": "dac5a668f429",
    "title": "Satpam Bank Salah Sangka, 2 Orang Masuk-Rampok Uang dan 60,5 Kg Emas",
    "category": "Makro",
@@ -1011,6 +1114,38 @@
      "time": "2026-11-28T13:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNXJDYm1odkI4cDVDazV2ZjZuTDlUS0R3dFljV1MtTW1DWlRhTTJ5bVpCTUZVck9ndm02YzdIcFRNUGhJUTc4X1I1MVlVU3h5bGFNUEhHR3E2WDRCanlTTDhvZXdadWNjdWowOTFGN2FLRVNxd052eEd5ZlFZbTZRb2NJdlpaMWVO?oc=5",
      "title": "Diskon Tarif Tol Nataru 30% Kembali Digulirkan"
+    }
+   ]
+  },
+  {
+   "id": "920861906771",
+   "title": "Siswi di Malang Tewas, Komnas PA Desak Revisi UU SPPA",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Komnas Perlindungan Anak mendesak DPR RI segera merevisi Undang-Undang Perlindungan Anak dan UU Sistem Peradilan Pidana Anak (SPPA).",
+   "summaryFrom": "Bloomberg Technoz",
+   "sources": [
+    {
+     "media": "Bloomberg Technoz",
+     "time": "2026-11-28T12:30:00+07:00",
+     "url": "https://www.bloombergtechnoz.com/detail-news/129163/siswi-di-malang-tewas-komnas-pa-desak-revisi-uu-sppa",
+     "title": "Siswi di Malang Tewas, Komnas PA Desak Revisi UU SPPA"
+    }
+   ]
+  },
+  {
+   "id": "f687227249a8",
+   "title": "Rusia Setop Ekspor Buckwheat Selama 6 Bulan Demi Jaga Pasokan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Rusia akan memberlakukan larangan sementara terhadap ekspor soba (buckwheat) untuk menjaga ketersediaan bahan pangan utama tersebut.",
+   "summaryFrom": "Bloomberg Technoz",
+   "sources": [
+    {
+     "media": "Bloomberg Technoz",
+     "time": "2026-11-28T12:00:00+07:00",
+     "url": "https://www.bloombergtechnoz.com/detail-news/129162/rusia-setop-ekspor-buckwheat-selama-6-bulan-demi-jaga-pasokan",
+     "title": "Rusia Setop Ekspor Buckwheat Selama 6 Bulan Demi Jaga Pasokan"
     }
    ]
   },
