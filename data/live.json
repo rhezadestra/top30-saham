@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:06:34+07:00",
+ "updated": "2026-11-28T09:09:33+07:00",
  "window": {
-  "start": "2026-11-27T09:06:34+07:00",
-  "end": "2026-11-28T09:06:34+07:00",
+  "start": "2026-11-27T09:09:33+07:00",
+  "end": "2026-11-28T09:09:33+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 151
+   "items": 150
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 136
+   "items": 133
   }
  },
  "prevAt": "2026-11-28T09:06:34+07:00",
@@ -3275,22 +3275,6 @@
      "time": "2026-11-27T09:10:35+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127080835-17-788936/bukan-cuma-tak-minta-pmn-danantara-pamer-setor-pajak-rp567-t-di-2025",
      "title": "Bukan Cuma Tak Minta PMN, Danantara Pamer Setor Pajak Rp567 T di 2025"
-    }
-   ]
-  },
-  {
-   "id": "9c35d62736d2",
-   "title": "Dolar AS Perkasa, Pasar Saham Asia Berusaha Bangkit dari Tekanan November",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T09:09:15+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTkNIcUgxN0RDcW5TY294ZEIybGFQSUV1OTh6bllsZ3Q1UEU1aENwTkhMMTduZXJWQk1wc0xYMkhUT29tLWp1NVNISFpZanppVUZCRjlRSkYtbExyN2FKVlVab1lpX21WWXlaU1MtaUVqS2pyTFYzWE5YclAwY1dkSmZMbFk4QTc3Ri1RMW5iekpGZ0RyeEdia1dmTjc3Z01leHJIeUEtR1BKcmNy0gGkAUFVX3lxTFBEeGIzUjV0MFd0LW5aUVVRZ1ZsVlJ0c2Zyb1pBUGZrN0ZXYl9YQ3VHNjZoMW1nTWJ4YS1fSl9DeHpEa0ZfaS1MbkM3emdncV9CWFVfWklWRnVEVzFlWkh6VEQwaHFHWVIyUWd1QkJicEl3T1dpRGpwTHpDamNiZEVMN1k1eHZ3ajFxc3dOOWxmYWdwMTVxTWZiVHNwM3VrMHNLQjFD?oc=5",
-     "title": "Dolar AS Perkasa, Pasar Saham Asia Berusaha Bangkit dari Tekanan November"
     }
    ]
   }
