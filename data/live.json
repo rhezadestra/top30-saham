@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:34:09+07:00",
+ "updated": "2026-11-28T09:40:08+07:00",
  "window": {
-  "start": "2026-11-27T09:34:09+07:00",
-  "end": "2026-11-28T09:34:09+07:00",
+  "start": "2026-11-27T09:40:08+07:00",
+  "end": "2026-11-28T09:40:08+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 136
+   "items": 135
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -1562,6 +1562,24 @@
    ]
   },
   {
+   "id": "0c11c8bdae1b",
+   "title": "BUMI Lolos dari Jeratan - Halaman 2",
+   "category": "Kinerja",
+   "tickers": [
+    "BUMI"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T08:39:10+07:00",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tYXh1LU9EUkxsTUh5ZzdSd054bWNsekhkT1FYVmxXd1pITWdTX3VEVVAtN2xrVkFCZ1pRVlp2cmdUSm5VU3BtV3NuNGpIb0MwT1N3ZUhtVG00VjAzeEJYZmcyd3ZWZnZGdzk4?oc=5",
+     "title": "BUMI Lolos dari Jeratan - Halaman 2"
+    }
+   ]
+  },
+  {
    "id": "b0b13642c68d",
    "title": "Emiten Grup Sinar Mas (KETR) Bidik Proyek Digital di KEK Batang",
    "category": "Kinerja",
@@ -3077,22 +3095,6 @@
      "time": "2026-11-27T09:41:54+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLVBIbmRpZnJGWG1wQ3ltZmZCWlZ5THIwSmNpM3ZwOEJJUHBob2FiRjlmejBhajZyRGs3MnNSWWN2ejhyQUhubTJ0QzVZNHk4b0EtQ2pEQjQ5aFZNMkV4UTM3UjZiZjlUT2lhdzl3UWFJU3dZS2xoeDBJblJqZC1sdFhUQk53aF9YdmNkTzlaZGNlZVpORzlmeUlGa3RJd2dhZUUxRlJiN0RPS2F3ajRIc1pydzJFYUNkVHJKYjZjaW0ydw?oc=5",
      "title": "Airlangga Klaim Progres CEPA dengan Cina Tinggal Bahas Hambatan Nontarif"
-    }
-   ]
-  },
-  {
-   "id": "3550291a98db",
-   "title": "Kejar Daya Saing Ekspor 2027, Kemendag Perkuat Logistik Efisien hingga Integrasi Inatrade",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T09:38:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbGtpOTF2WmtGV3pvOE02UWhBcmZJcUFwU2lsdnYwWWc4LTM3MDlqZEZSMmlTaUNLX3owTF80Ylk1SG15cS1KS2F1NU5GTnhNQU1vcW04TVY3MENwOEIyczRzcWhyNFRybzJKQmg2alhfWXpIREIyNmJ1LXM4b0E3NUNDOHNBV3RSb0ZlaENDNWJBS29SbWtnOFJmTFFLdnY2cDFob3RqdFFuZGNWbGFLVjdPdWM1LXByY1RybmFpZ1ItbTjSAcgBQVVfeXFMUGRMNDJlYXlCTUlPa3YzRjJUZmNlYksxUmV5UFc3MF9CNWNvN0gwQ2YzSllfZUJXYThTOVVnLUMyRVNvVnFXRmd5VzhCejlpeGNHNExlaEdhMEM1OUE3MFhaUllWQm9tVzZYMzdvYzhWbThhSEJsblhhWm8wR0M3dmRBRERoVG5zclhGZUVtbmVTYjVjQ3VCak5qTUd6LWxDQkg2M1RQU29PTk5UVXlkMlNmc3d6LUdBLTB4cHZpOHF1aDZMOXhJNk8?oc=5",
-     "title": "Kejar Daya Saing Ekspor 2027, Kemendag Perkuat Logistik Efisien hingga Integrasi Inatrade"
     }
    ]
   }
