@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:28:09+07:00",
+ "updated": "2026-11-28T09:31:08+07:00",
  "window": {
-  "start": "2026-11-27T09:28:09+07:00",
-  "end": "2026-11-28T09:28:09+07:00",
+  "start": "2026-11-27T09:31:08+07:00",
+  "end": "2026-11-28T09:31:08+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,10 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 137
+   "items": 115,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +52,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 128
+   "items": 130
   }
  },
  "prevAt": "2026-11-28T09:06:34+07:00",
@@ -397,34 +400,6 @@
    ]
   },
   {
-   "id": "3725d91afccf",
-   "title": "Data Free Float Tak Akurat, BEI Sanksi 5 Emitan Ini",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "Bursa Efek Indonesia menjatuhkan sanksi kepada lima emiten karena ketidakakuratan data saham free float. BEI menekankan pentingnya keterbukaan informasi.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T09:30:11+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127091911-17-788952/data-free-float-tak-akurat-bei-sanksi-5-emitan-ini",
-     "title": "Data Free Float Tak Akurat, BEI Sanksi 5 Emitan Ini"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T11:14:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTU3Zmw5TnB1SWtVZGM0dUFyOEwwd3NJN2xyMWl0U2JBdl81M091S19ZWDVSdkR4Q2NhaWM1emZFU2Q4RnJNZy1ZQW9Pa20wby11RXlVVHRxaWRfTHZrUlU5cXBxRFZjNGtiUGlzbENsdDQ3Sm9kUHFfWmstUDZLMWw0cU9pM0dqa3plSC1hVGFzVEpJZXB0TG9FbFJma1dxenJxZFFSZGZIVDBTNXBHZFpKd1o?oc=5",
-     "title": "Data Free Float Tidak Akurat, BEI Jatuhkan Sanksi kepada 5 Emiten"
-    },
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T11:35:33+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float",
-     "title": "Tak Cuma Beri Sanksi, BEI Juga Gembok 5 Saham Ini Gegara Free Float"
-    }
-   ]
-  },
-  {
    "id": "75f0dcdcf024",
    "title": "BRI Ungkap Skema Merger Tiga Asuransi Umum dalam Ekosistem Danantara",
    "category": "Aksi korporasi",
@@ -465,6 +440,28 @@
      "time": "2026-11-27T18:32:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127181126-17-789191/jasindo-brins-jasaraharja-putera-merger-awal-2027-begini-skemanya",
      "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya"
+    }
+   ]
+  },
+  {
+   "id": "f14b1f7c209b",
+   "title": "Data Free Float Tidak Akurat, BEI Jatuhkan Sanksi kepada 5 Emiten",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "Bursa Efek Indonesia suspensi lima emiten akibat laporan free float yang tidak sesuai.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T11:14:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTU3Zmw5TnB1SWtVZGM0dUFyOEwwd3NJN2xyMWl0U2JBdl81M091S19ZWDVSdkR4Q2NhaWM1emZFU2Q4RnJNZy1ZQW9Pa20wby11RXlVVHRxaWRfTHZrUlU5cXBxRFZjNGtiUGlzbENsdDQ3Sm9kUHFfWmstUDZLMWw0cU9pM0dqa3plSC1hVGFzVEpJZXB0TG9FbFJma1dxenJxZFFSZGZIVDBTNXBHZFpKd1o?oc=5",
+     "title": "Data Free Float Tidak Akurat, BEI Jatuhkan Sanksi kepada 5 Emiten"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T11:35:33+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float",
+     "title": "Tak Cuma Beri Sanksi, BEI Juga Gembok 5 Saham Ini Gegara Free Float"
     }
    ]
   },
