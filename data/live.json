@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T18:39:00+07:00",
+ "updated": "2026-11-28T18:42:01+07:00",
  "window": {
-  "start": "2026-11-27T18:39:00+07:00",
-  "end": "2026-11-28T18:39:00+07:00",
+  "start": "2026-11-27T18:42:01+07:00",
+  "end": "2026-11-28T18:42:01+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 78
+   "items": 77
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 57
+   "items": 56
   },
   "Investor.id": {
    "via": "google",
-   "items": 83
+   "items": 82
   }
  },
  "prevAt": "2026-11-28T18:30:01+07:00",
@@ -181,30 +181,6 @@
      "time": "2026-11-28T16:11:26+07:00",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ISWRrY0pURWh0cHhfQkVyTTJjY1h1c2tTZmVvMGhfWkhLR2VYYUtBYTFyUzJUbE1IbW00NjZsOUpWemh2bkphMS1OOWlpT1ZVclV0WklGY2FiY0tqNEdzdFdNdG5vUl9VVm5mWUFYQzlTblpJcTFQcFdaaw?oc=5",
      "title": "Laba KRAS Melonjak 246%, Ini Rahasianya"
-    }
-   ]
-  },
-  {
-   "id": "d01ed56a7531",
-   "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "UNVR"
-   ],
-   "summary": "PT Unilever Indonesia Tbk (UNVR) berencana menjual seluruh bisnis makanan kepada PT McCormick Foods Indonesia senilai Rp20,5 triliun. (Foto: Ist)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T18:40:49+07:00",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUtsY2szdGJxYk82SEdOX1JLMEhYODhua2oxMkNORWdKeGszdUlYMXBEUExqZlVBc3FsTUNaTlhOSUVZeDc4dGpSSmxBd2lLa04yRU00eDkwelJ4WVJsWjNycFdoYXBiTE1RbnA1ZUlLWnRqX2ZycGV0b0NHRnhsU3N5dFpkOEkyQVhVaGdkc3VRUmxxeXZwN1o4NzV0RUZBaWdJTEpNYmhMejZMMGZFQXpIU3I3c2MwNHZZYWgyd1Fud2FEckJF?oc=5",
-     "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-28T17:20:00+07:00",
-     "url": "https://www.idxchannel.com/market-news/fokus-garap-segmen-perawatan-unilever-indonesia-unvr-lepas-bisnis-makanan-rp205-triliun",
-     "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun"
     }
    ]
   },
@@ -894,6 +870,24 @@
      "time": "2026-11-27T19:52:11+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127194921-17-789217/genjot-ekonomi-tumbuh-tinggi-ri-butuh-5-sinergi-kebijakan-ini",
      "title": "Genjot Ekonomi Tumbuh Tinggi, RI Butuh 5 Sinergi Kebijakan Ini"
+    }
+   ]
+  },
+  {
+   "id": "3b5debae9fa0",
+   "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun",
+   "category": "Kinerja",
+   "tickers": [
+    "UNVR"
+   ],
+   "summary": "PT Unilever Indonesia Tbk (UNVR) berencana menjual seluruh bisnis makanan kepada PT McCormick Foods Indonesia senilai Rp20,5 triliun. (Foto: Ist)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T17:20:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/fokus-garap-segmen-perawatan-unilever-indonesia-unvr-lepas-bisnis-makanan-rp205-triliun",
+     "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun"
     }
    ]
   },
