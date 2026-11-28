@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T08:33:33+07:00",
+ "updated": "2026-11-28T08:39:33+07:00",
  "window": {
-  "start": "2026-11-27T08:33:33+07:00",
-  "end": "2026-11-28T08:33:33+07:00",
+  "start": "2026-11-27T08:39:33+07:00",
+  "end": "2026-11-28T08:39:33+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 153
+   "items": 152
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 140
+   "items": 139
   }
  },
  "prevAt": "2026-11-28T08:06:04+07:00",
@@ -710,34 +710,6 @@
    ]
   },
   {
-   "id": "3de048f10837",
-   "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T08:37:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPc1lqeXdFSkt2MTBzSjBEemZJQkVOVjN5Z290cXVHX2FPa2tLeWNIUUUxNlBmVVNteXhKMlNvUEhMRGs4QTUwWXJMb3pHTEZrWFZwSWpkZThmZ1JCQTBVZkd2YmVwOFprUjZ5UzM1cEJtVnBRcHVoZmZXZFpVcVpRYWdNTjNCSS1hQW1WRFpQbUNJbzFtVVJQeExGejlHVEswMlRvOWlvYWY?oc=5",
-     "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T08:37:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU2d0RVRrc1F2cGlKUVYyYjVHUWJEMFpnUWpoWUdPV1NqT1ZPcUE5Slp3VlV3dW51R0NfNnpUWVU4Qk5HWUlvT3V1VFVTbEl6UW9FenZvSjk0ZGFkWl9DMHdMZW9pNkZZTmZmUjIweGhKcVhlQ1h0cF9mWWhySUNhTVVOdG5lSk5nellfM0NxZGJabXJNTmRkdmdOeE5rcmtiOURhRGdqZEM5TGJVMW9IWEpmYmQ3WEtPdGVUanBzY3JwZ28?oc=5",
-     "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T08:37:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWmRrczM1ZnBzUWN3YlJCSEcwR0ZxTUc1M2RHenhtVGRSR2djTmpWY1ZfWnF4V1E4Q0NodjZiVW5lS1FndEgtNEZkamI2S3lndE1DcjFqUUVJZS1zR3dQZ1pPM0NVNDZ5YUFUNVE1Mlo1d1B5OWZCb25LZHZJVEYtNTF4UE5ub2JPeTQ0amlLbjhHajFtYjc2cUphamVocTJMS2l1TXlabzFqQ2VNdVBVbXhOVlJ0Mmd5Z1FVNkM0VWpzNzQ?oc=5",
-     "title": "Amerika Usulkan Tambahan Tarif Dagang, Pasar Saham Indonesia Bisa Tegang"
-    }
-   ]
-  },
-  {
    "id": "43a35b6b55c2",
    "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam",
    "category": "Aksi korporasi",
@@ -781,6 +753,28 @@
      "time": "2026-11-27T15:10:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONkZXZjRBc2tDZW5KNkl3QWh1T0hzb2VDMG5WS1FISEFCT2VZZlZPMWJFT2o5a2d3elNEclRWMl82LUpaNFlmVnZ6VGxNM3pDUTVrRnNYdmQtbmQ4cXJCR0hMdkJMMmtnRVpyZHdMZnJ1V0ZkNHBwREZzQ25uYVRsTkh5am13ZHpoSEJRLWVMY2ZVdWg4VF84LUhURUlicFJpNl9PSmlqUWlBTXFsLXgyVlF30gG0AUFVX3lxTE4wUDB2cl9Gb2R0eTBkdU1oWnVDRzgzV3JvSlhZRzZnM3pBcGxYdHVhNnRiSkZtUmVSa1JNeE9mdFg2aGJ0cXByd1R3S0pJZVhDa24zZS1LLXRGMEIxamJMZmRYTEJ0VjFtQ1FXQTJ4aWlRYXJFM2VjYU41THJUaVFfeUt3Z29tLWN3M3dpYUxNYXhqMTVUcHgxTzBTT2p4cTFNeHFrek84OHh6SHlhN1ZmaVI3Vw?oc=5",
      "title": "WIKA Beton (WTON) Kantongi Kontrak Baru Rp3,47 Triliun hingga Oktober 2026"
+    }
+   ]
+  },
+  {
+   "id": "56b86b8f5560",
+   "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T08:08:32+07:00",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0IxUTJlZm1sYXhYMEt0QjBEMFJnbXlkRVQxRHpLREdEUFdYbXNfaVV3SEhfUjlWdUFVWGZmb0Fkcl9uUDNMcjZrVmc5Vjc3MVdWMzJhbWhlTHM4V284WkdTUkRKVnZKdVlRcC1MeGNtOWpnbi1OeWxhN1I1bnRBV3h1aWVmVkxYb090TEdQT21oWG9NUkdCTUZoZHR1MkIw?oc=5",
+     "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T08:08:32+07:00",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0IxUTJlZm1sYXhYMEt0QjBEMFJnbXlkRVQxRHpLREdEUFdYbXNfaVV3SEhfUjlWdUFVWGZmb0Fkcl9uUDNMcjZrVmc5Vjc3MVdWMzJhbWhlTHM4V284WkdTUkRKVnZKdVlRcC1MeGNtOWpnbi1OeWxhN1I1bnRBV3h1aWVmVkxYb090TEdQT21oWG9NUkdCTUZoZHR1MkIw0gGYAUFVX3lxTFBNQW1EdUpub2R2TG9EUEhhYkx6V3hLX3lHUzRoSUxYTkszTWwzMHZYbXJBZDRoNkVpeEV2Z2V6TDlLdnRQaWUyRnEyMEszdnFQbkxBcVhlVWtmd1dJSUhUNThuRHplekUxS1BkME9fQmxINFA2S1ZQLVl3ZTVoMHZHYUtURnhIZG84dXM3TndEd05Ua1RuVUpK?oc=5",
+     "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
     }
    ]
   },
@@ -1293,22 +1287,6 @@
      "time": "2026-11-27T08:43:39+07:00",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTzZDS1Q0LUdnRUNNLW1PeE9qWU5XQkdsYzRxLXBQT0NKMTNqdXdVVlE4UTJmTEFLQnZzd05vdmZXSlZoUzN2OVV5TTBjSGYydmhBZEtlbnRjZVEzSmx4XzdtU1lQeS1kZW1EMi1TRW1GbDNqTXR2V3l0czh5WTdYYTNkaFpKWTV1dERzWWpKMi1oUV8xcGpSVVNR?oc=5",
      "title": "Menjaga Pertumbuhan Kinerja, CLEO Ekspansi Produk Air Mineral"
-    }
-   ]
-  },
-  {
-   "id": "56b86b8f5560",
-   "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T08:08:32+07:00",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0IxUTJlZm1sYXhYMEt0QjBEMFJnbXlkRVQxRHpLREdEUFdYbXNfaVV3SEhfUjlWdUFVWGZmb0Fkcl9uUDNMcjZrVmc5Vjc3MVdWMzJhbWhlTHM4V284WkdTUkRKVnZKdVlRcC1MeGNtOWpnbi1OeWxhN1I1bnRBV3h1aWVmVkxYb090TEdQT21oWG9NUkdCTUZoZHR1MkIw?oc=5",
-     "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
     }
    ]
   },
@@ -3330,22 +3308,6 @@
      "time": "2026-11-27T08:40:00+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127083628-17-788941/bursa-asia-menguat-investor-lirik-saham-teknologi-ai",
      "title": "Bursa Asia Menguat, Investor Lirik Saham Teknologi AI"
-    }
-   ]
-  },
-  {
-   "id": "c5d686d7de78",
-   "title": "Dorong Akses Pasar Ekspor UMKM Terdampak Bencana",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T08:38:36+07:00",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbm1qTW1zNVY4U1BBaGZNWllHSmwyLWNGZHc1VFRCeGlnT2NFMlNEQ3ZiOV81cnVNVC16SkVHNGxwYXZVTUxSOURjUWNGU0hVRDNtOEh3bWNzOGJEM2Rad3h2MkNTX3BtOUJZUmh2dG9NQVhTb0N5dzFncjFxcHBBTmRGUG11ZkpVS0pKZw?oc=5",
-     "title": "Dorong Akses Pasar Ekspor UMKM Terdampak Bencana"
     }
    ]
   }
