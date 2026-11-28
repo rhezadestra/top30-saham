@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T20:42:56+07:00",
+ "updated": "2026-11-28T20:45:57+07:00",
  "window": {
-  "start": "2026-11-27T20:42:56+07:00",
-  "end": "2026-11-28T20:42:56+07:00",
+  "start": "2026-11-27T20:45:57+07:00",
+  "end": "2026-11-28T20:45:57+07:00",
   "hours": 24
  },
  "target": 30,
@@ -1376,22 +1376,6 @@
      "time": "2026-11-27T20:46:49+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127204333-17-789238/prabowo-sudah-kaya-masih-main-goreng-saham-rakyat-kecil-jadi-korban",
      "title": "Prabowo: Sudah Kaya Masih Main Goreng Saham, Rakyat Kecil Jadi Korban"
-    }
-   ]
-  },
-  {
-   "id": "31ed44a0a9fd",
-   "title": "Prabowo Minta Bankir BUMN Lebih Membumi, Turun ke Sawah-Lihat Nelayan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Presiden Prabowo Subianto mendorong bankir BUMN untuk turun ke lapangan.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T20:44:42+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127204128-17-789236/prabowo-minta-bankir-bumn-lebih-membumi-turun-ke-sawah-lihat-nelayan",
-     "title": "Prabowo Minta Bankir BUMN Lebih Membumi, Turun ke Sawah-Lihat Nelayan"
     }
    ]
   }
