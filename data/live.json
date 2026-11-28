@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T21:25:23+07:00",
+ "updated": "2026-11-28T21:28:23+07:00",
  "window": {
-  "start": "2026-11-27T21:25:23+07:00",
-  "end": "2026-11-28T21:25:23+07:00",
+  "start": "2026-11-27T21:28:23+07:00",
+  "end": "2026-11-28T21:28:23+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 47
+   "items": 46
   },
   "Investor.id": {
    "via": "google",
@@ -1296,22 +1296,6 @@
      "time": "2026-11-27T21:37:17+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRGQ0UmJGZWx3X3NOTnBDNlFXdWhncXZKVkJsbGxtQUZmYmVaajdwOEJreGc3V3Y4VG1LYUpIRFNIcmlkRGplSDhCaUplenhrUDhXQmRlZGgwa05IOGl4VnJJYkZoTVVrM2hVTzhaRk5CMUVMc1JMcURMV0YtUXh2b0ZNWktCNi10am9HeFBSeXZWSV9jTFRNSUpjcF9pMjhrWTNYWUhtYWlDUUl2dzQwSG9R0gGqAUFVX3lxTE1GQzZFTEZMT0hXNDA2Z1NLWjgyY2dQVThUcXZPZjFYbE5mN3FLN2lreUhxYkF6T1pPcXhOWmJoV1h5UWZuVXJyOHltWURZWi13UWoxdkIyZ3hJckZua3FFMm1tbzRGdzJSSzhRVVY4RDdfMkx2d1BUZ3F0aWpyMHV1cXYxLU44bk1BTlZIOTFWdDBpby1OVE55Wm9kLUVNTGRPbWtrR0FuWEdR?oc=5",
      "title": "Prabowo Dorong Pasar Modal Lebih Sehat, Investor Ritel Bisa Lebih Terlindungi"
-    }
-   ]
-  },
-  {
-   "id": "00193f420a7e",
-   "title": "Waspada Kebocoran APBN, Prabowo Minta Kapolri hingga KPK Kawal Ketat",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T21:27:04+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaGV6aE1IdG9Mbm9Za2w5aHJuUmV3NVNIbEFSTnJDaFdYamN0YVEzd2QxdUppU0VPbmpYYmxKMTVxZWdlejlyMVVqUkZVSTdmdTZJY2Uwd3JOQVMySkUwLW94TVBUQWZJSzdENVB6dnJkQ25ZTVFhbC1xNVE2YTlxRlFOTmhlSGlIYlh5TXFXZTJoTWYzQ3M5Q3p1RVoyLV9jckwxcEZhMjBka2lvRUdzNUFGWDM4ZVhJNjVF?oc=5",
-     "title": "Waspada Kebocoran APBN, Prabowo Minta Kapolri hingga KPK Kawal Ketat"
     }
    ]
   }
