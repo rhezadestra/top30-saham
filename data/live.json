@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T11:59:09+07:00",
+ "updated": "2026-11-28T12:02:40+07:00",
  "window": {
-  "start": "2026-11-27T11:59:09+07:00",
-  "end": "2026-11-28T11:59:09+07:00",
+  "start": "2026-11-27T12:02:40+07:00",
+  "end": "2026-11-28T12:02:40+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 130
+   "items": 129
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 134
+   "items": 129
   }
  },
  "prevAt": "2026-11-28T11:11:09+07:00",
@@ -1982,20 +1982,18 @@
    ]
   },
   {
-   "id": "c39bdc2a30be",
-   "title": "Bintang Samudera (BSML) Cari Mesin Pertumbuhan Baru Lewat Ship Management",
-   "category": "Kinerja",
-   "tickers": [
-    "BSML"
-   ],
-   "summary": "",
-   "summaryFrom": null,
+   "id": "2d3aae76440d",
+   "title": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya",
+   "summaryFrom": "IDX Channel",
    "sources": [
     {
-     "media": "Kontan",
-     "time": "2026-11-27T12:00:52+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeldjQ3Q3VHExRDc0cHo0U2JlckR3cVRqbVpxQ1pHUFdfbGJWVTFIQ3MwRmJmVUdYTGhTcmJNaHhFdlc2SGtkM25PTmthc3dJbWVOejJTZHc0NVlXUUItRE4yd2lNNDZXX1M0ajZjZ0hGT3FMREduWXp6VEdwaWpXVmZHQjFrVXFqYi1oQTRWdFJoeXpMSDF1djdZNjE4eEM4Y09QbTRaV04yNm_SAaMBQVVfeXFMTXR0VW8zdUt5bXR0cVpsMkRvSnFnNDhvNVNoZXBWd1B4c2VYeVlqY3FhTjRrbmVsRlQ1TWlCS0xfYVR2WWpwR3JNaU8zSnZLVVBzbHl0eVAwcVVGak9uMERzS2laeUVLNF9ucUJzSEtwbk1YNk1iaW83OWhVQzBva1R0UEdXX2lrdFNqVTFSQ0Q5X3ctS19LVjN5MlpoNHRvYnhuNA?oc=5",
-     "title": "Bintang Samudera (BSML) Cari Mesin Pertumbuhan Baru Lewat Ship Management"
+     "media": "IDX Channel",
+     "time": "2026-11-28T11:39:00+07:00",
+     "url": "https://www.idxchannel.com/economics/proyek-strategis-nasional-hulu-migas-serap-investasi-jumbo-ini-tantangannya",
+     "title": "Proyek Strategis Nasional Hulu Migas Serap Investasi Jumbo, Ini Tantangannya"
     }
    ]
   },
@@ -2910,22 +2908,6 @@
      "time": "2026-11-27T12:07:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdGk3MXVXYUs0eVAzR0xNR0xob3lvYnBza25xM0xiaDNwZFRRcVlsVloyUkFLVGJjM09UZ1JWSm5QMk1nQWEtQU5iVjRIYVg1WWw5NUh1YWRMWlU4M2pIX2NLd1FPWTQza01SNmNBeWNqQUt1OEpnTXRRWmwzNHZlT2NhS0dlQjdJQnB0MHM1Rzl6UnotQkxWSnp0R2V3Uy1xanZB?oc=5",
      "title": "Bank Sentral Eropa Bakal Sambut Pemimpin Baru, Ini Sosoknya - Halaman 2"
-    }
-   ]
-  },
-  {
-   "id": "9807aa5bab3f",
-   "title": "Gapki Sebut DSI akan Kenakan Pungutan Ekspor Sawit 0,5% Mulai Januari 2027",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T12:02:38+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQXy1jN2xCZDY2NlNDQjZvM2NYWHp1eXZ6ODVUQ0doa3RvOGZNRjBjOTBybkdvR0RGUENDbEhYdDhidWFMazJMTDdBYW85ZzdnM3dTUm42R3lNa3ladElYeFVTa2lOSHNoNFVtZ1lDa2hOOFZFdGQyQmc5UTJESTdEamhuUVVGeHJJenJQRGY3elZkYk53bko4aTJBRmRXWjBKaGpPQXRIVU1PQkxDSGxWQWlrRTBvOWotSWZvdzVnZWVKUQ?oc=5",
-     "title": "Gapki Sebut DSI akan Kenakan Pungutan Ekspor Sawit 0,5% Mulai Januari 2027"
     }
    ]
   }
