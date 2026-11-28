@@ -53,6 +53,10 @@ MEDIA = [
     {"name": "Investor.id", "abbr": "INV", "domains": ["investor.id"],
      "direct": [],  # investor.id/rss mengembalikan 404
      "google": [gnews("site:investor.id/market"), gnews("site:investor.id/finance"), gnews("site:investor.id saham OR emiten")]},
+    {"name": "Bloomberg Technoz", "abbr": "BBTZ", "domains": ["bloombergtechnoz.com"],
+     "direct": ["https://www.bloombergtechnoz.com/rss"],
+     "google": [gnews("site:bloombergtechnoz.com/detail-news saham OR emiten OR IPO OR dividen OR rights issue"),
+                gnews("site:bloombergtechnoz.com saham OR emiten OR bursa OR OJK")]},
 ]
 
 CATS = ["Aksi korporasi", "Regulasi", "Kinerja", "Makro"]
@@ -194,7 +198,7 @@ def host_ok(url, domains):
     return any(h == d or h.endswith("." + d) for d in domains)
 
 
-MEDIA_SUFFIX = re.compile(r"\s+[-–|]\s+(bisnis|kontan|investor|investortrust|idx\s?channel|idxchannel|cnbc)[\w.]*\.{0,3}\s*$", re.I)
+MEDIA_SUFFIX = re.compile(r"\s+[-–|]\s+(bisnis|kontan|investor|investortrust|idx\s?channel|idxchannel|cnbc|bloomberg\s?technoz|bloombergtechnoz)[\w.]*\.{0,3}\s*$", re.I)
 
 
 def strip_source_suffix(title, m):
@@ -402,7 +406,7 @@ def main():
     for a in articles:
         KNOWN_TICKERS.update(re.findall(r"\(([A-Z]{4})\)", a["title"]))
     for a in articles:
-        if a["media"] in ("Bisnis", "Kontan", "Investor.id", "IDX Channel", "CNBC Indonesia"):
+        if a["media"] in ("Bisnis", "Kontan", "Investor.id", "IDX Channel", "CNBC Indonesia", "Bloomberg Technoz"):
             a["title"] = MEDIA_SUFFIX.sub("", a["title"]).strip()
     kept = [a for a in articles if keep_article(a) and datetime.fromisoformat(a["time"]) >= start]
     topics = cluster([dict(a) for a in kept])
