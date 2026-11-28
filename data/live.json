@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T15:49:34+07:00",
+ "updated": "2026-11-28T15:52:35+07:00",
  "window": {
-  "start": "2026-11-27T15:49:34+07:00",
-  "end": "2026-11-28T15:49:34+07:00",
+  "start": "2026-11-27T15:52:35+07:00",
+  "end": "2026-11-28T15:52:35+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 98
+   "items": 99
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 69
+   "items": 68
   },
   "Investor.id": {
    "via": "google",
@@ -1125,22 +1125,6 @@
      "time": "2026-11-27T16:05:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeDRhVWZEZVIydTVkZGU0d1BiRWZBVGtiUnBBVFBtNkRIUGhVOVM3S2sxODZiemxMaklXMC1Bd1pXTDdqdHd3RTRsNmN0QzVLUHNBai1rSnhlcGNCU29SV3hublJ2OGRkUTc3QVpmYnB2UnU4TmJsZFZmeF9yWS1PZ2xvZ3V5RVJxVTRPSnNnbjRrX3NOZnkwMGJhams2SGlFZ1NSWFR30gGrAUFVX3lxTFBzREVLWTU0QlBzZkI2Q0dINkR4d0lfb01PX3dLRnU4V3cyNEJrNDUzNElMSXhoeXhXRVNNZHFzRTlnNzJJeFZJR1N1Y284dW9rdEI5blZzZlp5WWYtdjZLeExEbTU1V2lFaGd6aGU2QWtRSWoyMUhySl91NTNmelVQS3EzcHBtZHV1UFNpdzNDcURzcGhXQVhuT2lSMmlpeGhFcTcyNjZYZ29Tcw?oc=5",
      "title": "MSCI Play Saham Konglo Berujung Kasus DSSA, Akankah Ada Nama Lain?"
-    }
-   ]
-  },
-  {
-   "id": "46a8f071aca3",
-   "title": "Kebijakan DP 0% KPR Berlanjut, OJK Lihat Peluang bagi Asuransi Properti",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T15:50:53+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV2o2NXN2OXUxaTlNdXdlNFVZWEtNOVNsWTBsR3ZaZ0VzdVVteHU4V0Q5cXMyVWt5dk16aVUwSVZ5M1FFZjBjNHRnTzlaRV9BVTdrT1NzU0ZWeGxxUXBWeUltV2pqbGgwZDdIa1U3anB3WnNDcmcxQXlTT2J2YTQzY0E1Y0xRenBBNm9xdDYwbFFJcWstNEk0dHk3U0kyYTBJMWEyc0ZkV0lkUkJ0NnFTNmlEZXZDU0JacDduOHVtLVNtZw?oc=5",
-     "title": "Kebijakan DP 0% KPR Berlanjut, OJK Lihat Peluang bagi Asuransi Properti"
     }
    ]
   },
