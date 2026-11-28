@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T14:00:38+07:00",
+ "updated": "2026-11-28T14:03:37+07:00",
  "window": {
-  "start": "2026-11-27T14:00:38+07:00",
-  "end": "2026-11-28T14:00:38+07:00",
+  "start": "2026-11-27T14:03:37+07:00",
+  "end": "2026-11-28T14:03:37+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 117
+   "items": 116
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 120
+   "items": 122
   }
  },
  "prevAt": "2026-11-28T13:15:10+07:00",
@@ -952,6 +952,22 @@
      "time": "2026-11-27T15:06:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdDdIYm9PLXN0d0g3RlZFUVdFa3U3SjJMMldoSURZTXROekNNS2puZ0h3NDkwX01pSjF2S1lxTWp3MVZ1NnIyWTVFek4zQ0E5eklhWkxaVkFqZFUySlE0YVZab2lYSE9FVjlLUENhQlViRHFqUnRBQkY0aFd2VEpOU2E5NjFDRnUwd0RIcmZaN0NTS2hWcFoxOHVkVdIBoAFBVV95cUxPd0hCbUtYd2JWXzhVUzVqZzBjMXRJN2c2bWVCdlgyVTFWUG1oMWxVdFlMeEF0TWltR2toT0tMQ3NDOWpGdHJLSjNReE9Oc0VwMHE0Y0oxZmczYkV3UHNpWVRDYU83bmdaMVNmQ3BaQ1VOc0lHWjd3Nmc3YXR2UGduVTd1NEROTmdRNF96NkJLTk5Rc3YzT0VuUFJHc2VvbEwz?oc=5",
      "title": "Argentina Masuk Jurang Resesi meski Ekspor Minyak Melonjak"
+    }
+   ]
+  },
+  {
+   "id": "443cb45cedc2",
+   "title": "Incar Dividen yang Pasti-pasti Aja",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T13:59:41+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxTGYxQmUzc29XVWJ2Vm1tbGFRdkNXQkt2YnJQaHRkMFFSbnA4Um50VUhDTy1VUjR1Tm5QQ1RqMjRDSWFISFVzTGFvVnFNZXprc0k4VlIzdnpaRXV6YnpEdGw0cjJaLTJ0dHE4VWxSZ01CUHlFamJMSFdn?oc=5",
+     "title": "Incar Dividen yang Pasti-pasti Aja"
     }
    ]
   },
@@ -2587,22 +2603,6 @@
      "time": "2026-11-27T14:05:30+07:00",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcnJlUUpBN0ktYjZ3ZmtDQTZOZ2hVYVQ3dXNVNENJTHNQSHpoczU1ampESXktTnBpUDRnMlBmc0ZQOXBYRmhkQ0xuZng2TmlEcWxZNk81Zm1lN0xKM3VTS1ZrY1dlZ1NCN1pJeXRDLUl1dEpJTFlHSU1HMG5XenhSQTdvbzdfV19fV0lJeGtLRUx2UjdTRmNmS1R6U0NLRlByaEVYMk1UYi03SzFzSVhz?oc=5",
      "title": "Industri Mebel Siapkan Strategi Hadapi Usulan Tarif AS 18%"
-    }
-   ]
-  },
-  {
-   "id": "e5c9a00490d5",
-   "title": "Aset Rp11.607 Triliun, Seberapa Kuat Fondasi Keuangan Danantara?",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T14:02:46+07:00",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWldLOUxRbFF5bExOeXJ3WnBta0xPTDJGTUQtVEVsUU5KdHBYdENKR0JsNFVOX0taWmJ3LUZFSzVvWHVZbnV5VlhNbDVWOTdoSFFNUDRIanZzRXJaMlJRNjk4d2I2MllubDFteFAzaHJ6NjBfdjQtMGhhS3pVYldfZmJNSkVNTm04ME1YYk5OZzBPdGNzYmx4QXN3aERMUdIBlgFBVV95cUxPUVUyQ3JEZDVudTRQcUxGZTMyOGdtTzFMMm53MzVmUmllaFMydHA4Q1JiLTZwb3NLT3cyNkJ4Unc2RXZqT1lfNEVETmZLYV94LUIycnAyRGllUk9rNGdBRzJXRHZycEFhMC1nbzZJYTVNaGlTVkxuWE9kcHZZR3RkRkFzZ2VUMmpBaG9Iekp0U3VxUS1WU3c?oc=5",
-     "title": "Aset Rp11.607 Triliun, Seberapa Kuat Fondasi Keuangan Danantara?"
     }
    ]
   }
