@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T22:28:55+07:00",
+ "updated": "2026-11-28T22:31:55+07:00",
  "window": {
-  "start": "2026-11-27T22:28:55+07:00",
-  "end": "2026-11-28T22:28:55+07:00",
+  "start": "2026-11-27T22:31:55+07:00",
+  "end": "2026-11-28T22:31:55+07:00",
   "hours": 24
  },
  "target": 30,
@@ -40,11 +40,8 @@
    "items": 61
   },
   "IDX Channel": {
-   "via": "google",
-   "items": 21,
-   "errors": [
-    "rss: HTTPError HTTP Error 522: <none>"
-   ]
+   "via": "rss",
+   "items": 10
   },
   "Bisnis": {
    "via": "google",
@@ -52,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 67
+   "items": 66
   }
  },
  "prevAt": "2026-11-28T21:37:23+07:00",
@@ -490,6 +487,24 @@
      "time": "2026-11-28T08:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUt3aFliaHgtZnM1UFM3THdnRW1rajdxRG9jSzZobzFzN1dzMi1TT1oyRE1nMWpLNTZKb1JQQ05xSHlxQ0xsNEZlUUVkT0RUaEJFM29aOFpuZzUtdDNvX2F6LXQwV0IwelgwcXROTFJvQkxFNXkyRHhxdWVRTUZTZnViaTl1V21pRlJxTldpUlZaRTV5bXB2bG9tTnhHZnNuMFVPZkpCeElXb1Vk0gGyAUFVX3lxTE8yajduUHJQeVllX0lqTlZfMVFqNkdKelhjeEY3Q1A2ZEtHZFZKR0RnVFlqYkdiY3A5MUZLNlkwZXEyUjJWbE1QS3NLcFJ3TGxEODdWMXhwX1lyZGpRRkNqYy1YQ3Nhb0pNSnNxMnRacHk5Tk9KSldJUzZMYmhUMXozOTlHT1BraXVLU19YRVdPSjlOVE1adTZfSm9PSGdLYW90M0RMLXZpMllTVnBKYXZEX3c?oc=5",
      "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan"
+    }
+   ]
+  },
+  {
+   "id": "36c31d3abff5",
+   "title": "Samudera Indonesia (SMDR) Ekspansi ke India, Bidik Integrasi Logistik Darat dan Laut",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "SMDR"
+   ],
+   "summary": "PT Samudera Indonesia Tbk (SMDR) memperluas jaringan bisnis logistik internasional melalui kerja sama keagenan dengan CONCOR. (Foto: Ist)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T22:30:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/samudera-indonesia-smdr-ekspansi-ke-india-bidik-integrasi-logistik-darat-dan-laut",
+     "title": "Samudera Indonesia (SMDR) Ekspansi ke India, Bidik Integrasi Logistik Darat dan Laut"
     }
    ]
   },
