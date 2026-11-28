@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T15:31:05+07:00",
+ "updated": "2026-11-28T15:34:06+07:00",
  "window": {
-  "start": "2026-11-27T15:31:05+07:00",
-  "end": "2026-11-28T15:31:05+07:00",
+  "start": "2026-11-27T15:34:06+07:00",
+  "end": "2026-11-28T15:34:06+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 70
+   "items": 69
   },
   "Investor.id": {
    "via": "google",
@@ -764,28 +764,6 @@
      "time": "2026-11-27T17:57:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORXJCQXJfekpyOHd1RWl3MDFxb3VpMXlYTEotZ3pOSFFwbU10aHV6TW0zNlotRkwzb0V0eE1rM2doUGlFM3liSG9USTdBN0Y0TU1zNkdCTmlVWXllR2VYdl9jZUVKUzVicnZ4dks4cTg0U1N3VHo5Y2lDMUp2ZDNpeHRqNW51Y2JKeC1vMHp2WUdWY0lIY1JIdVJqS0xzM0pPejZvSHZEalVrSktVYkxCWWNtQkE3OURtUGNNcEUydmhOUdIBxwFBVV95cUxPdUlDaDVzc1I0TEJiUXZGNHlUY3F4cElwWEw2bDFRbGxNMDRhS0ZRMHpjZm1iTEtKVVF3eW9zX3A1TVFaOXAzZDZRajFTSmpRX193SlFsX0g4SUl6X05idG1YWXBXZzNldlNVUHhZaUFiMlpVZGVIS2xjcXFUMkVOVEZxY2xiaDRSc3JZTVB0YWpkQkNXM1kybWhOVmN6MUlGdW5YZWlYWmZ5QXhPTTJpc1Iya3ZaaWkzaFJlZkp0Vkd5dGRFQnY0?oc=5",
      "title": "Hemat Subsidi BBM, Sarmuji Ingin Motor Listrik Digunakan di Instansi Pemerintah dan BUMN"
-    }
-   ]
-  },
-  {
-   "id": "c61caa3842cf",
-   "title": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu. (Foto Iqbal/IMG)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T15:33:00+07:00",
-     "url": "https://www.idxchannel.com/economics/dsi-masih-evaluasi-struktur-final-tarif-layanan-ekspor-sda-satu-pintu",
-     "title": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T15:33:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaFhPNmhlVVpydDNRVkFueHVHc0ZFaEdFdzREdU05R0JxSVhucDRBajVUT2J6dXpSRnpZQmYyQ1luODh6dU1Hbl9ETXpSdHlmZUxUUUNOTGx4eE4yN29QMXc0N3kydno0ZVUycGthbTBPNmJueWxiOTZnUF8ybXNlV0ZOb29JdmRTaVBlbGcxTFVCR3FsTUpLbXRqS2I5VHluTkdSc19wQ0tmQdIBrwFBVV95cUxOcWNKZ253T1IwNTk1ajI3M1BnTjhzaHA4eU9aNTRXODg0eFhiZk55T0ZvTkR6YVozNk0tZUk5SGQzSGFadU9GTzNTWm9KaEo5ZEpxbnhhSWNuekVHa2w1WlRlYXZpY3R6a0tlWjEzRUpBTWdfZ3FIVjZhSHQzaTFJVlUwajZfS1g3LUdIZnVEb0pwVjE4dlZJNEV5dEE1SGZCdldBcEZRMUhubkszdy1V?oc=5",
-     "title": "DSI Masih Evaluasi Struktur Final Tarif Layanan Ekspor SDA Satu Pintu"
     }
    ]
   },
