@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T17:17:03+07:00",
+ "updated": "2026-11-28T17:23:03+07:00",
  "window": {
-  "start": "2026-11-27T17:17:03+07:00",
-  "end": "2026-11-28T17:17:03+07:00",
+  "start": "2026-11-27T17:23:03+07:00",
+  "end": "2026-11-28T17:23:03+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 91
+   "items": 88
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,14 +45,14 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 61
+   "items": 59
   },
   "Investor.id": {
    "via": "google",
-   "items": 105
+   "items": 104
   }
  },
- "prevAt": "2026-11-28T16:22:35+07:00",
+ "prevAt": "2026-11-28T17:23:03+07:00",
  "prevRanks": {
   "91ccd8229cfb": 1,
   "c3a1f192e352": 2,
@@ -60,105 +60,142 @@
   "203683fc7303": 4,
   "75f0dcdcf024": 5,
   "c8c4c97c6039": 6,
-  "740e69de35c6": 7,
-  "425b4e2c1763": 8,
-  "ef827be3276c": 9,
-  "2559ea2a175c": 10,
-  "56b86b8f5560": 11,
-  "4404f57291cc": 12,
-  "43a35b6b55c2": 13,
-  "28974680b2f6": 14,
-  "0c11c8bdae1b": 15,
-  "c03fb8f08db5": 16,
-  "a79def9f126f": 17,
-  "2d3aae76440d": 18,
-  "3cc6f1452295": 19,
-  "110127fe4838": 20,
-  "108c3deae09c": 21,
-  "42ac769c1ede": 22,
-  "5a51881f97dc": 23,
-  "ec5a360a0c16": 24,
-  "443cb45cedc2": 25,
-  "1e8c4f9d5afa": 26,
-  "5048e754103d": 27,
-  "001934022fde": 28,
-  "d65256df9f7f": 29,
-  "29fe8aff4237": 30,
-  "7d99e338bec0": 31,
-  "cfa1a63405b8": 32,
-  "81c672eaa0d6": 33,
-  "0fa9c487bc05": 34,
-  "8ee02b5cfded": 35,
-  "70bd0cf7340a": 36,
-  "cf1a06254ab0": 37,
-  "fcc05ab0ed89": 38,
-  "d3709a98ac07": 39,
-  "a341e9ee9868": 40,
-  "bbe10221ef7d": 41,
-  "79892b614d9e": 42,
-  "9135a47d8dbb": 43,
-  "325b42e9c40b": 44,
-  "99a1bf8029c3": 45,
-  "f995c73a9735": 46,
-  "10d02dabbc83": 47,
-  "0bd355a4589f": 48,
-  "b0b13642c68d": 49,
-  "8988cc319e62": 50,
-  "489479142a1a": 51,
-  "23aed728cbc3": 52,
-  "55eba9271b21": 53,
-  "e5cfc3413b7e": 54,
-  "853a7f067efb": 55,
-  "94a72d19e496": 56,
-  "d8f02c375470": 57,
-  "9a6c8b05fafe": 58,
-  "1b73d52de90e": 59,
-  "148c656135ce": 60,
-  "9637352051fa": 61,
-  "5356fd5addfa": 62,
-  "80fdcd0bf0ff": 63,
-  "f09725b22a87": 64,
-  "c0259bf955bf": 65,
-  "42e4bbe2fc2b": 66,
-  "fa10f9676102": 67,
-  "ef3fcef46560": 68,
-  "a2df0cd9129c": 69,
-  "91ed9a81f04c": 70,
-  "532750396646": 71,
-  "e08fcbbdb60a": 72,
-  "ee7bf9911642": 73,
-  "1949180aac95": 74,
-  "c0ece463bb77": 75,
-  "7c2da5f63bd3": 76,
-  "6ec2d43301cd": 77,
-  "4718f5612070": 78,
-  "09c3fce892a2": 79,
-  "db30326f06fb": 80,
-  "f3198d29b0e8": 81,
-  "dc72000c0383": 82,
-  "45fe3e4d0e53": 83,
-  "be22f8145d5e": 84,
-  "93c4a25589fe": 85,
-  "00193f420a7e": 86,
-  "5a0578e309c2": 87,
-  "ce290a6450df": 88,
-  "e278e3bb1def": 89,
-  "4e27dcd0aba3": 90,
-  "4becbaa7d3af": 91,
-  "31ed44a0a9fd": 92,
-  "888b70a05d96": 93,
-  "e1b603c45582": 94,
-  "67f0e374d838": 95,
-  "8376b1a70ee2": 96,
-  "a17bce3016ea": 97,
-  "fdd2e17820b4": 98,
-  "16e8e247f3e3": 99,
-  "9f57fea24f26": 100,
-  "8db17dd1dbdb": 101,
-  "cd1f258d01e4": 102,
-  "3e0fbabf37c5": 103
+  "ef827be3276c": 7,
+  "2559ea2a175c": 8,
+  "56b86b8f5560": 9,
+  "4404f57291cc": 10,
+  "43a35b6b55c2": 11,
+  "28974680b2f6": 12,
+  "0c11c8bdae1b": 13,
+  "c03fb8f08db5": 14,
+  "a79def9f126f": 15,
+  "2d3aae76440d": 16,
+  "3cc6f1452295": 17,
+  "110127fe4838": 18,
+  "108c3deae09c": 19,
+  "42ac769c1ede": 20,
+  "5a51881f97dc": 21,
+  "664c99468efb": 22,
+  "ec5a360a0c16": 23,
+  "443cb45cedc2": 24,
+  "1e8c4f9d5afa": 25,
+  "5048e754103d": 26,
+  "001934022fde": 27,
+  "d65256df9f7f": 28,
+  "29fe8aff4237": 29,
+  "7d99e338bec0": 30,
+  "cfa1a63405b8": 31,
+  "81c672eaa0d6": 32,
+  "0fa9c487bc05": 33,
+  "7f572edd1ae8": 34,
+  "70bd0cf7340a": 35,
+  "cf1a06254ab0": 36,
+  "fcc05ab0ed89": 37,
+  "d3709a98ac07": 38,
+  "a341e9ee9868": 39,
+  "bbe10221ef7d": 40,
+  "79892b614d9e": 41,
+  "9135a47d8dbb": 42,
+  "99a1bf8029c3": 43,
+  "f995c73a9735": 44,
+  "10d02dabbc83": 45,
+  "0bd355a4589f": 46,
+  "b0b13642c68d": 47,
+  "8988cc319e62": 48,
+  "489479142a1a": 49,
+  "23aed728cbc3": 50,
+  "55eba9271b21": 51,
+  "e5cfc3413b7e": 52,
+  "fe1db031718b": 53,
+  "853a7f067efb": 54,
+  "94a72d19e496": 55,
+  "d8f02c375470": 56,
+  "9a6c8b05fafe": 57,
+  "1b73d52de90e": 58,
+  "80fdcd0bf0ff": 59,
+  "f09725b22a87": 60,
+  "c0259bf955bf": 61,
+  "42e4bbe2fc2b": 62,
+  "fa10f9676102": 63,
+  "ef3fcef46560": 64,
+  "a2df0cd9129c": 65,
+  "91ed9a81f04c": 66,
+  "532750396646": 67,
+  "e08fcbbdb60a": 68,
+  "ee7bf9911642": 69,
+  "1949180aac95": 70,
+  "c0ece463bb77": 71,
+  "7c2da5f63bd3": 72,
+  "6ec2d43301cd": 73,
+  "4718f5612070": 74,
+  "09c3fce892a2": 75,
+  "db30326f06fb": 76,
+  "f3198d29b0e8": 77,
+  "dc72000c0383": 78,
+  "45fe3e4d0e53": 79,
+  "be22f8145d5e": 80,
+  "93c4a25589fe": 81,
+  "00193f420a7e": 82,
+  "5a0578e309c2": 83,
+  "ce290a6450df": 84,
+  "e278e3bb1def": 85,
+  "4e27dcd0aba3": 86,
+  "4becbaa7d3af": 87,
+  "31ed44a0a9fd": 88,
+  "888b70a05d96": 89,
+  "e1b603c45582": 90,
+  "67f0e374d838": 91,
+  "8376b1a70ee2": 92,
+  "a17bce3016ea": 93,
+  "fdd2e17820b4": 94,
+  "16e8e247f3e3": 95,
+  "9f57fea24f26": 96,
+  "8db17dd1dbdb": 97,
+  "cd1f258d01e4": 98
  },
  "topics": [
+  {
+   "id": "7dbe91716ba1",
+   "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "UNVR"
+   ],
+   "summary": "PT Unilever Indonesia Tbk (UNVR) berencana menjual seluruh bisnis makanan kepada PT McCormick Foods Indonesia senilai Rp20,5 triliun. (Foto: Ist)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T17:45:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUdXajhQVmNISm5oemt6RVlZQmxTNmdfWDRpd1pKMkFYT3VJUTlONmZ4M3VRTklCNTYwVEdIMWNIN2cyaWhzcTBRV0RvWnJnb0xrdDZtMzVnRDNjelNheE9YLUNtNnI0Y04yNlJzVnVLVjNKRnhiM2hBdFY1VE8wdFlCV3FvOFpOT0REcVZUSHN4dXhKRTlkbEhCUU81dlE?oc=5",
+     "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:18:54+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaFlvNjNVRFZ4MXJqaTVLTkhNbE04Tl8yNHJTT3B1cUdGVktvZ1BtcThfTTNCVVkxdjVSbkw4ZGNQbXdELWplSXFDQXFxemFDY2VKNXY5cWxyS3dxb3FxckZoZTd4TTktUFZsSDVZYnY4NXF5UU5mR25UaWxpUU1kNW9Yc2M5TG9kMkJfU1VwVmpyS2tBeEZreVhlaGVYMVd6NWZ3RHB0Y3pDYm9NSW5VUzFLaw?oc=5",
+     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:18:54+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVI1Yi05Y1VXZktCdy1Ed192QzlpOFBDSnZlUHdINHNzcklzcW1sWHB0a3g2b1VuUjkwZDlxbXdPNndjcEMxekJ6VVVFaUtWX2FfRGtsQWJ5bkxIc2JUM05RbVYtaERWUlo2bVFyam01c1pacmE3TFVqNUxwQmdGeTYybE9haGltX0YzYUxHZlBVbzJIM1JhQzNpSVVZb1pjcEVyVG1teFNWaEJ6WDQ2UlF6ejBWUQ?oc=5",
+     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T18:40:49+07:00",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUtsY2szdGJxYk82SEdOX1JLMEhYODhua2oxMkNORWdKeGszdUlYMXBEUExqZlVBc3FsTUNaTlhOSUVZeDc4dGpSSmxBd2lLa04yRU00eDkwelJ4WVJsWjNycFdoYXBiTE1RbnA1ZUlLWnRqX2ZycGV0b0NHRnhsU3N5dFpkOEkyQVhVaGdkc3VRUmxxeXZwN1o4NzV0RUZBaWdJTEpNYmhMejZMMGZFQXpIU3I3c2MwNHZZYWgyd1Fud2FEckJF?oc=5",
+     "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T17:20:00+07:00",
+     "url": "https://www.idxchannel.com/market-news/fokus-garap-segmen-perawatan-unilever-indonesia-unvr-lepas-bisnis-makanan-rp205-triliun",
+     "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun"
+    }
+   ]
+  },
   {
    "id": "91ccd8229cfb",
    "title": "Krakatau Steel (KRAS) Cetak Laba Bersih US$ 83,1 Juta per Kuartal III-2026",
@@ -222,42 +259,6 @@
      "time": "2026-11-27T18:45:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUNUNEdnXzdqSWFPaVlOZ0FmTHNicXlhX2VDMU1rTVFTcndrOFZISVhBaHV1TkNLVVNuZkNVeGRiM1p2b2ZWa19fMFR3OWRDbHBKbEdDN1MzUWxMV3ljRGhJU3ZRTy04bHBsT2kyX1p6OWFyZWFqSUlkVEJNcVgxODYzT1BucWx6QkFHWFlmZjZsdGM1Unp4QTR0N1VGX0pUZ1VhUHVmRklfejJO0gGkAUFVX3lxTE9VUENQRzdiVUhwb1pINUNrallHNWJBVDl2aVViclA0TnZxdk1VV1gyY20tWDg5NHIzeDcwaTNkc3BwblllZWN5YV9HelNGWmxzUE1KdURKeEs3Q25oQjZ5aHBzS3pJMVlUd3dLTjB4SEtlaU15dEtVTnI5QzhIQWpXa1hhZWNMZlVLMHpNREdiNjc0Y2V3bTlQQ1lpVFhvNUdiSTNl?oc=5",
      "title": "KOTA Kantongi Restu Rights Issue 100 Miliar Saham, Incar Land Bank 572 Ha"
-    }
-   ]
-  },
-  {
-   "id": "7dbe91716ba1",
-   "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "UNVR"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T17:45:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUdXajhQVmNISm5oemt6RVlZQmxTNmdfWDRpd1pKMkFYT3VJUTlONmZ4M3VRTklCNTYwVEdIMWNIN2cyaWhzcTBRV0RvWnJnb0xrdDZtMzVnRDNjelNheE9YLUNtNnI0Y04yNlJzVnVLVjNKRnhiM2hBdFY1VE8wdFlCV3FvOFpOT0REcVZUSHN4dXhKRTlkbEhCUU81dlE?oc=5",
-     "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T18:18:54+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaFlvNjNVRFZ4MXJqaTVLTkhNbE04Tl8yNHJTT3B1cUdGVktvZ1BtcThfTTNCVVkxdjVSbkw4ZGNQbXdELWplSXFDQXFxemFDY2VKNXY5cWxyS3dxb3FxckZoZTd4TTktUFZsSDVZYnY4NXF5UU5mR25UaWxpUU1kNW9Yc2M5TG9kMkJfU1VwVmpyS2tBeEZreVhlaGVYMVd6NWZ3RHB0Y3pDYm9NSW5VUzFLaw?oc=5",
-     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T18:18:54+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVI1Yi05Y1VXZktCdy1Ed192QzlpOFBDSnZlUHdINHNzcklzcW1sWHB0a3g2b1VuUjkwZDlxbXdPNndjcEMxekJ6VVVFaUtWX2FfRGtsQWJ5bkxIc2JUM05RbVYtaERWUlo2bVFyam01c1pacmE3TFVqNUxwQmdGeTYybE9haGltX0YzYUxHZlBVbzJIM1JhQzNpSVVZb1pjcEVyVG1teFNWaEJ6WDQ2UlF6ejBWUQ?oc=5",
-     "title": "Unilever (UNVR) Lepas Bisnis Makanan ke McCormick Rp20,5 Triliun"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T18:40:49+07:00",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUtsY2szdGJxYk82SEdOX1JLMEhYODhua2oxMkNORWdKeGszdUlYMXBEUExqZlVBc3FsTUNaTlhOSUVZeDc4dGpSSmxBd2lLa04yRU00eDkwelJ4WVJsWjNycFdoYXBiTE1RbnA1ZUlLWnRqX2ZycGV0b0NHRnhsU3N5dFpkOEkyQVhVaGdkc3VRUmxxeXZwN1o4NzV0RUZBaWdJTEpNYmhMejZMMGZFQXpIU3I3c2MwNHZZYWgyd1Fud2FEckJF?oc=5",
-     "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick"
     }
    ]
   },
@@ -1297,22 +1298,6 @@
    ]
   },
   {
-   "id": "1b73d52de90e",
-   "title": "Enam Terdakwa Kasus Korupsi Minyak Mentah Petral Didakwa Rugikan Negara Rp6,1 Triliun",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "Enam Terdakwa Kasus Korupsi Minyak Mentah Petral Didakwa Rugikan Negara Rp6,1 Triliun. (Foto: Nur Khabibi/iNews Media Group)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T17:22:00+07:00",
-     "url": "https://www.idxchannel.com/news/enam-terdakwa-kasus-korupsi-minyak-mentah-petral-didakwa-rugikan-negara-rp61-triliun",
-     "title": "Enam Terdakwa Kasus Korupsi Minyak Mentah Petral Didakwa Rugikan Negara Rp6,1 Triliun"
-    }
-   ]
-  },
-  {
    "id": "80fdcd0bf0ff",
    "title": "Ekspor ke Uni Eropa Terkonsentrasi di 3 Negara, Eksportir Diminta Manfaatkan IEU-CEPA",
    "category": "Makro",
@@ -1935,22 +1920,6 @@
      "time": "2026-11-27T17:35:20+07:00",
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTTFwNDIzLWhLM3FYdVhnNEtrNWJ0eU5JZ3oxdldXazVnYkJFdDhPNnVCR2R0Nk9GYXNpMkk1ZEJ5d0hNaWZlSVJNa1U2ZWlVYnhKdVkzYVpaTV9LUk9sWjRUM2lVVVRUUExfT09RQlBmNkFkZTRvTW10b2RSQkJWMDBMTk9kRjVyd3pZeEU2NXBaTVRGNU1Zb3FzZ9IBkwFBVV95cUxQWkxhV1c4MjdEREtxM191RHFwY0NSc0JDVG9oOG91MHc2WXdDc0VYRXZZMzR2dWplUHp5MHYzeHJja21GVHl5UXdQWTBVWW1jM1YxVG9lV1NvQmJqY3I5QmxZTG81VXNUS0Y5QXVTMVAtY21FNUdjMmNCSmZibjRJZjZLSzd1NXBkOWFtZUFSQmNvUXc?oc=5",
      "title": "Menilik Prospek Emiten Jalan Tol Jelang Periode Akhir Tahun"
-    }
-   ]
-  },
-  {
-   "id": "cd1f258d01e4",
-   "title": "Danantara Mau Sulap Walini jadi 'Sillicon Valley', Dibangun mulai 2027",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "BP BUMN dan Danantara Indonesia rencanakan pembangunan smart city di Walini mulai Januari 2027.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T17:23:02+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127171317-17-789165/danantara-mau-sulap-walini-jadi-sillicon-valley-dibangun-mulai-2027",
-     "title": "Danantara Mau Sulap Walini jadi 'Sillicon Valley', Dibangun mulai 2027"
     }
    ]
   }
