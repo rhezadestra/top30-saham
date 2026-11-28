@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:22:08+07:00",
+ "updated": "2026-11-28T09:25:09+07:00",
  "window": {
-  "start": "2026-11-27T09:22:08+07:00",
-  "end": "2026-11-28T09:22:08+07:00",
+  "start": "2026-11-27T09:25:09+07:00",
+  "end": "2026-11-28T09:25:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 138
+   "items": 137
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 132
+   "items": 130
   }
  },
  "prevAt": "2026-11-28T09:06:34+07:00",
@@ -2121,26 +2121,6 @@
      "time": "2026-11-27T10:10:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeHBYZk4tdXp3YVplX3d1WDhEdFI5OEF4TnF0a3V0Z0pnc0J2R0dGOUxHSFV4dFBrNnJmMVctRTlrZEx1Y1BrckdWNVdEbVVBUjJLUFZuVlVhbFppWnVranVjWGk3R2RyRnpkZ0tlX1hVWVJzNmJJdUVLTXlKSzFncUhEdUlZQVlsamdNVHlvdTdkNG1WLV81ZmMwVFjSAZ8BQVVfeXFMUEpfaWZsVUNlcmtTdnpfdl9CWHFoZFVZZWF6bjhoMjBjOEQ5eHpVMllyRkxQNC1xNjY5eXJ3OEdxM01wTVgzNGY0eDdMMU5MNGtYTGhSbW94UXJjUm5LcU5ycExVcXE2Y1NUeVk1WG04X3NJeDlWRU1JRHpfVWNYOU0xYTZvOFhyMXF4SHB6T2pFeEdPYjVsOW5HbUw4VmYw?oc=5",
      "title": "Permintaan Semen Menguat, SMGR dan INTP Berebut Momentum"
-    }
-   ]
-  },
-  {
-   "id": "d0b19389a401",
-   "title": "Serbuan e-SIM Roaming Murah Asal Singapura, Cek Dampaknya ke TLKM, ISAT dan EXCL",
-   "category": "Kinerja",
-   "tickers": [
-    "TLKM",
-    "ISAT",
-    "EXCL"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T09:23:19+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbTlrY0xwUFgwLXRMa3cxamVEUF9ZMms5XzBVYU1WSUhTcU5vdXB3NU5QdXdGY2NfNXdSc1d5SUI3R2UtT0RSSFZhZjVHaUlXQmVXaWl2NWpJcERyNEJmYm1kZ3NJRHBfUTFicGRsWE82c2I3STljU3FsWS1ZY2Y4eUZRMkxFWFNuOHFaaHloNW9GTm1GeHJDeDZTTTd1a3FSajBseVEzV1htaEZHU2FIU193?oc=5",
-     "title": "Serbuan e-SIM Roaming Murah Asal Singapura, Cek Dampaknya ke TLKM, ISAT dan EXCL"
     }
    ]
   },
