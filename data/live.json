@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T15:25:05+07:00",
+ "updated": "2026-11-28T15:31:05+07:00",
  "window": {
-  "start": "2026-11-27T15:25:05+07:00",
-  "end": "2026-11-28T15:25:05+07:00",
+  "start": "2026-11-27T15:31:05+07:00",
+  "end": "2026-11-28T15:31:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 104
+   "items": 103
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 118
+   "items": 117
   }
  },
  "prevAt": "2026-11-28T15:19:05+07:00",
@@ -202,36 +202,6 @@
    ]
   },
   {
-   "id": "f2b161626eaa",
-   "title": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha",
-   "category": "Kinerja",
-   "tickers": [
-    "BMRI"
-   ],
-   "summary": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T15:31:00+07:00",
-     "url": "https://www.idxchannel.com/banking/hingga-oktober-2026-bank-mandiri-salurkan-kur-ke-lebih-dari-193000-pelaku-usaha",
-     "title": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T16:26:32+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
-     "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T19:56:37+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLVI1aU9sMFpESVBRdS1OMUpGaGR1emtSSEhpalhVc09uaXBKRFRaOUdxLUozVDB3S05zNHNiVUM1TE1maEtvb0dTVFNHWTNCd3cyal9MUWdhNWoxb0JjbGN4M3M5VWFRbG94RVJHaVNIaG5mazF5YjJpaS1iM0hqMGY4NHNCZ2o4U2RCTVR0RUt6Qk5MQXBWcGR4UFVyQzl6RzE1aGwzc3UxaWM?oc=5",
-     "title": "Bank Mandiri (BMRI) Salurkan KUR ke 193.000 Debitur Baru"
-    }
-   ]
-  },
-  {
    "id": "7dbe91716ba1",
    "title": "UNVR Mau Jual Bisnis Makanan ke McCormick Senilai Rp 20,5 Triliun",
    "category": "Aksi korporasi",
@@ -348,28 +318,6 @@
    ]
   },
   {
-   "id": "0e58eb65cb1e",
-   "title": "Danantara Bakal Merger BRINS, Jasaraharja Putera, dan Jasindo",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "Tiga perusahaan asuransi BUMN, Jasindo, BRINS, dan Jasaraharja Putera, akan bergabung untuk memperkuat kapasitas dan layanan.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T15:29:01+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUk9RZVBiY1dQQTRQcXRvZENjWkZtS2QtcDR2Z3ZHN0pHc3hzM3ozMzBmcFNjNk5VSE1fel9HT29BR0FUUktOY0trU0Y2cXhud0k0R29BVF9BVEdOY01rcTN6dmZ6Z3dybWtDTDU2ZUVRcjk1NmxtYi13OTBwVmNrellFbWI5ZlJyaDVLSmYwdXNUQWZraWhsUndR0gGTAUFVX3lxTE1pMHNKdXNWQmZrY0V4Si1nOVMybmpvSUdzVGtNV0NGR0I4aHUtcF9yRXdON04zdDgwbzhDT0JQcFRBWXJRUllXVHA5clNncDNxUlpIcEtjajg0S0tBZkVHc2JCMzNNZl9pR1RINlpEMDNFMk44VHFlRklldFhMMkpfQ0tsRG5GbHVOVGNGd01iUncyMA?oc=5",
-     "title": "Danantara Bakal Merger BRINS, Jasaraharja Putera, dan Jasindo"
-    },
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T18:32:02+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127181126-17-789191/jasindo-brins-jasaraharja-putera-merger-awal-2027-begini-skemanya",
-     "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya"
-    }
-   ]
-  },
-  {
    "id": "c8c4c97c6039",
    "title": "3 Orang Ditahan di Kasus Goreng Saham DSSA, Ini Kata OJK",
    "category": "Regulasi",
@@ -390,6 +338,30 @@
      "time": "2026-11-28T10:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcE5CemZaXzVmMmJsRXp2TjUwWFJqZFE0NjdGTWpyeGdLT2pjTnEzVTBrX2hvMkZBaGRPZm1UNFBzTkkzTkVzaUpuQ0ptU0lOOGdJczloTU4tZHg0X3JYRlFvd0xOXy1mcFBETDFndllxTXBkdkZhYWp2am85SEZCY1JORFAyZXp2bUMxenAzdw?oc=5",
      "title": "Nasib Saham DSSA di Tengah Eskalasi Kasus Manipulasi"
+    }
+   ]
+  },
+  {
+   "id": "f390ab4d9aac",
+   "title": "BMRI Salurkan KUR ke 193.000 Debitur Baru, Produksi jadi Prioritas",
+   "category": "Kinerja",
+   "tickers": [
+    "BMRI"
+   ],
+   "summary": "Bank Mandiri telah salurkan KUR kepada 193.000 debitur baru hingga Oktober 2026.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T15:55:28+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127150120-17-789112/bmri-salurkan-kur-ke-193000-debitur-baru-produksi-jadi-prioritas",
+     "title": "BMRI Salurkan KUR ke 193.000 Debitur Baru, Produksi jadi Prioritas"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T19:56:37+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLVI1aU9sMFpESVBRdS1OMUpGaGR1emtSSEhpalhVc09uaXBKRFRaOUdxLUozVDB3S05zNHNiVUM1TE1maEtvb0dTVFNHWTNCd3cyal9MUWdhNWoxb0JjbGN4M3M5VWFRbG94RVJHaVNIaG5mazF5YjJpaS1iM0hqMGY4NHNCZ2o4U2RCTVR0RUt6Qk5MQXBWcGR4UFVyQzl6RzE1aGwzc3UxaWM?oc=5",
+     "title": "Bank Mandiri (BMRI) Salurkan KUR ke 193.000 Debitur Baru"
     }
    ]
   },
@@ -484,6 +456,34 @@
    ]
   },
   {
+   "id": "56b86b8f5560",
+   "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T08:08:32+07:00",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0IxUTJlZm1sYXhYMEt0QjBEMFJnbXlkRVQxRHpLREdEUFdYbXNfaVV3SEhfUjlWdUFVWGZmb0Fkcl9uUDNMcjZrVmc5Vjc3MVdWMzJhbWhlTHM4V284WkdTUkRKVnZKdVlRcC1MeGNtOWpnbi1OeWxhN1I1bnRBV3h1aWVmVkxYb090TEdQT21oWG9NUkdCTUZoZHR1MkIw?oc=5",
+     "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T08:08:32+07:00",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0IxUTJlZm1sYXhYMEt0QjBEMFJnbXlkRVQxRHpLREdEUFdYbXNfaVV3SEhfUjlWdUFVWGZmb0Fkcl9uUDNMcjZrVmc5Vjc3MVdWMzJhbWhlTHM4V284WkdTUkRKVnZKdVlRcC1MeGNtOWpnbi1OeWxhN1I1bnRBV3h1aWVmVkxYb090TEdQT21oWG9NUkdCTUZoZHR1MkIw0gGYAUFVX3lxTFBNQW1EdUpub2R2TG9EUEhhYkx6V3hLX3lHUzRoSUxYTkszTWwzMHZYbXJBZDRoNkVpeEV2Z2V6TDlLdnRQaWUyRnEyMEszdnFQbkxBcVhlVWtmd1dJSUhUNThuRHplekUxS1BkME9fQmxINFA2S1ZQLVl3ZTVoMHZHYUtURnhIZG84dXM3TndEd05Ua1RuVUpK?oc=5",
+     "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T08:08:32+07:00",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVWRzdmZyaTNBQmxDT1M4WU9TV2k0S2dhelpYYlVlc3BiOGZYbVhHZkhTeEJxa3lnc0p0ZENLbkZJN2VtbzVPaHZSY2g4TkdoNlJXdW1wTzdYN1lkVm9PX0QyRW9tdlE4UWgxWkRQYkk0ZEJsUHJ3NTdKdlNLRXFaMkJfZmVUZVFWYzduWUhBOW5VQUgyWWhjTXZpcHNtY193Ty1TQU5iYXpaVmozOFZwMF80b09qSjJlM3hyNdIBmAFBVV95cUxQTUFtRHVKbm9kdkxvRFBIYWJMeld4S195R1M0aElMWE5LM01sMzB2WG1yQWQ0aDZFaXhFdmdlekw5S3Z0UGllMkZxMjBLM3ZxUG5MQXFYZVVrZndXSUlIVDU4bkR6ZXpFMUtQZDBPX0JsSDRQNktWUC1Zd2U1aDB2R2FLVEZ4SGRvOHVzN053RHdOVGtUblVKSg?oc=5",
+     "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
+    }
+   ]
+  },
+  {
    "id": "e7ee091fd9e7",
    "title": "Laba Resource Alam (KKGI) Melonjak 1.304% hingga September 2026",
    "category": "Kinerja",
@@ -560,28 +560,6 @@
      "time": "2026-11-27T17:45:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkhHZ2xsbTNnOWdnNGR2NklrT1Z1MGJkOVE0V2lILUI3MWRweDZjdmVhZDRQRU9NSkVOWkNlYmRoaU5nUXVlT1lsMnRpNHV6QjBSRVVna1NhOG1OS05wWG5FSTBaRHNHMEI4Y0tQMGJyREt2TkdEUjRMOFNJc1R4bVZoUXkyY0ZoMVhrTnRaZEtweUtDd3k1aDY0VHU0dl9JTURTcHBTSThLdWNLU25VV2RtNNIBuAFBVV95cUxNVGlUdm50cHFVQkVJMHdpR3RJTG11Q2JZZ1VMaU1sQkw0SnctODRVc0lkaXFRRTgyRjdRTFU3TkItNlpWalBhZHhLaTBwOU1nTWloc0g1S1FkSUR4UzgtMGhxYk9KYVdQWFpNLWRnM2tiUGc4R0Zoakh1RzBVbl9QUVdRQTFWaWxHY09zbmo1LUVWYTRBMHJaS2xqbnBDUUFpbEhnYm1kRkdtUmlMbVBIcXdaZlFwWTZt?oc=5",
      "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam"
-    }
-   ]
-  },
-  {
-   "id": "56b86b8f5560",
-   "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T08:08:32+07:00",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0IxUTJlZm1sYXhYMEt0QjBEMFJnbXlkRVQxRHpLREdEUFdYbXNfaVV3SEhfUjlWdUFVWGZmb0Fkcl9uUDNMcjZrVmc5Vjc3MVdWMzJhbWhlTHM4V284WkdTUkRKVnZKdVlRcC1MeGNtOWpnbi1OeWxhN1I1bnRBV3h1aWVmVkxYb090TEdQT21oWG9NUkdCTUZoZHR1MkIw?oc=5",
-     "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T08:08:32+07:00",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0IxUTJlZm1sYXhYMEt0QjBEMFJnbXlkRVQxRHpLREdEUFdYbXNfaVV3SEhfUjlWdUFVWGZmb0Fkcl9uUDNMcjZrVmc5Vjc3MVdWMzJhbWhlTHM4V284WkdTUkRKVnZKdVlRcC1MeGNtOWpnbi1OeWxhN1I1bnRBV3h1aWVmVkxYb090TEdQT21oWG9NUkdCTUZoZHR1MkIw0gGYAUFVX3lxTFBNQW1EdUpub2R2TG9EUEhhYkx6V3hLX3lHUzRoSUxYTkszTWwzMHZYbXJBZDRoNkVpeEV2Z2V6TDlLdnRQaWUyRnEyMEszdnFQbkxBcVhlVWtmd1dJSUhUNThuRHplekUxS1BkME9fQmxINFA2S1ZQLVl3ZTVoMHZHYUtURnhIZG84dXM3TndEd05Ua1RuVUpK?oc=5",
-     "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
     }
    ]
   },
@@ -960,6 +938,22 @@
      "time": "2026-11-27T18:38:02+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUmpOZ3d6SFFXWlF3WkNPcVNILTZ2T1VZa1p1N3MwbGM3MS0wYXV6R1I5RVRkTHdnSW1UU0toSURQNElwSHFwRmxYNHV6bEdZYkY2OUxVazhvR0FXTmNUS3VpeWVmRzZvVUgxM2pxMldtTzBaYnFPcElEeDlPUlJwczdxNUx2QUNoaUFiZEhGSnE0NDlBV3A2ZVJvdFhwSmJTa0ZDT1FoRnViMVYy0gGmAUFVX3lxTE8tWHFLZTdIbEk1SGRzRDlkOXZ3NEFOR3NFdkc1Y1BrRDI0VlFGbjUtdmtEN3E3bWNmNWs1Y0Q5di1mdzl1M19wbGhaMW02SmdMajhOWWVsRDdTQVhfQzRlQXllX1JHRjhVZmpTMTdRZUJwd1VNR2lKWmZJODZKZV93UkJFWFl3cmZFU0hiMlRjQVY1ZnlSeFVHTWFwX1pMaFlWcVVHZUE?oc=5",
      "title": "Allo Bank (BBHI) Telah Buyback Saham Rp 293 Miliar, Segini Dana yang Tersisa"
+    }
+   ]
+  },
+  {
+   "id": "0fa9c487bc05",
+   "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "Tiga perusahaan asuransi BUMN, Jasindo, BRINS, dan Jasaraharja Putera, akan bergabung untuk memperkuat kapasitas dan layanan.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T18:32:02+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127181126-17-789191/jasindo-brins-jasaraharja-putera-merger-awal-2027-begini-skemanya",
+     "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya"
     }
    ]
   },
@@ -1489,24 +1483,6 @@
      "time": "2026-11-27T16:22:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127161057-17-789136/bareskrim-tetapkan-3-pelaku-penggorengan-saham-dssa-kerugian-rp16-t",
      "title": "Bareskrim Tetapkan 3 Pelaku Penggorengan Saham DSSA, Kerugian Rp16 T"
-    }
-   ]
-  },
-  {
-   "id": "f390ab4d9aac",
-   "title": "BMRI Salurkan KUR ke 193.000 Debitur Baru, Produksi jadi Prioritas",
-   "category": "Kinerja",
-   "tickers": [
-    "BMRI"
-   ],
-   "summary": "Bank Mandiri telah salurkan KUR kepada 193.000 debitur baru hingga Oktober 2026.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T15:55:28+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127150120-17-789112/bmri-salurkan-kur-ke-193000-debitur-baru-produksi-jadi-prioritas",
-     "title": "BMRI Salurkan KUR ke 193.000 Debitur Baru, Produksi jadi Prioritas"
     }
    ]
   },
@@ -2187,6 +2163,22 @@
    ]
   },
   {
+   "id": "740e69de35c6",
+   "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T16:26:32+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
+     "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026"
+    }
+   ]
+  },
+  {
    "id": "389439fea2b9",
    "title": "Pengusaha Garmen Dorong Pemerintah Jaga Daya Saing Ekspor Tekstil di Pasar AS",
    "category": "Makro",
@@ -2231,22 +2223,6 @@
      "time": "2026-11-27T15:39:00+07:00",
      "url": "https://www.idxchannel.com/technology/penjualan-global-toyota-capai-880-ribu-unit-pada-oktober-2026-turun-4-bulan-beruntun",
      "title": "Penjualan Global Toyota Capai 880 Ribu Unit pada Oktober 2026, Turun 4 Bulan Beruntun"
-    }
-   ]
-  },
-  {
-   "id": "34a6a023e1d3",
-   "title": "Mantan Gubernur Bank Sentral Spanyol Kandidat Kuat Pengganti Lagarde",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Mantan Gubernur Bank Sentral Spanyol Kandidat Kuat Pengganti Lagarde di ECB",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T15:30:36+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127140623-19-789063/mantan-gubernur-bank-sentral-spanyol-kandidat-kuat-pengganti-lagarde",
-     "title": "Mantan Gubernur Bank Sentral Spanyol Kandidat Kuat Pengganti Lagarde"
     }
    ]
   }
