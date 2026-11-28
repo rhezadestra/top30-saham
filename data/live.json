@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T14:33:37+07:00",
+ "updated": "2026-11-28T14:36:37+07:00",
  "window": {
-  "start": "2026-11-27T14:33:37+07:00",
-  "end": "2026-11-28T14:33:37+07:00",
+  "start": "2026-11-27T14:36:37+07:00",
+  "end": "2026-11-28T14:36:37+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 112
+   "items": 111
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -1643,22 +1643,6 @@
      "time": "2026-11-27T14:58:00+07:00",
      "url": "https://www.idxchannel.com/news/mendag-ungkap-pemanfaatan-srg-di-bantul-tingkatkan-produksi-kedelai-dalam-5-tahun",
      "title": "Mendag Ungkap Pemanfaatan SRG di Bantul Tingkatkan Produksi Kedelai dalam 5 Tahun"
-    }
-   ]
-  },
-  {
-   "id": "cca6b3363fdb",
-   "title": "10 Bank Terbesar RI, Aset Paling Jumbo Sentuh Rp2.558 T",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "Temukan 10 bank terbesar berdasarkan aset dan analisis kondisi industri terkini.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T14:35:57+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127135822-17-789060/10-bank-terbesar-ri-aset-paling-jumbo-sentuh-rp2558-t",
-     "title": "10 Bank Terbesar RI, Aset Paling Jumbo Sentuh Rp2.558 T"
     }
    ]
   },
