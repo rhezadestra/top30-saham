@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:16:08+07:00",
+ "updated": "2026-11-28T09:19:09+07:00",
  "window": {
-  "start": "2026-11-27T09:16:08+07:00",
-  "end": "2026-11-28T09:16:08+07:00",
+  "start": "2026-11-27T09:19:09+07:00",
+  "end": "2026-11-28T09:19:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 151
+   "items": 137
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 88
+   "items": 87
   },
   "Investor.id": {
    "via": "google",
-   "items": 132
+   "items": 134
   }
  },
  "prevAt": "2026-11-28T09:06:34+07:00",
@@ -1264,70 +1264,6 @@
    ]
   },
   {
-   "id": "983616798bf4",
-   "title": "Dividen ENRG 2029",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T09:16:51+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xYzZmcURmNlYtTDRWN0kxV2paQW5VUUdDcmcwOGcwVGdMMVpzRjlmRkotQlFRWFo1SGljaWZ1WVZiZ0xNQktTM2hLMG5CdVhQVzNKdGQwSXFEZ29VMTBwanRqbE4?oc=5",
-     "title": "Dividen ENRG 2029"
-    }
-   ]
-  },
-  {
-   "id": "e6d8f6c56e59",
-   "title": "Rights issue 4,12 triliun",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T09:16:51+07:00",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DaVNiREZZNjBNNVB6RWhJQmlxVlJnNlFVRXVCREpFUVhSeGNMU2IzV1JaZ0ljakQ4bUNwMTVmckpxRFNkNkZzbGI0SDFhNTdNME1idFNlMTlua2ZnQzJ3WEw0eHp2MHFOUFg5eHJB?oc=5",
-     "title": "Rights issue 4,12 triliun"
-    }
-   ]
-  },
-  {
-   "id": "75d0e07ed4be",
-   "title": "Pinjaman Deutsche Bank",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T09:16:51+07:00",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXbWdKeUtCWE5CVEtQME0ydnZFbVptTWlGcGRJamp0VWFDNDVmODJQVEdHMERvYndFQ2p3UHYxWXRLSTlQTmFHUjBmamg5X0otZ3pzS0N5Q3JxMHA0Ql9zcS15YmU4dlZWNnFn?oc=5",
-     "title": "Pinjaman Deutsche Bank"
-    }
-   ]
-  },
-  {
-   "id": "4cde0274b9ea",
-   "title": "Ekspansi Kredit Bank Digital Masih Melaju Kencang",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T09:16:50+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzcENYSGNGYlJXeERCV29hU2NGc3VZV3ptLVJ0djZGRHNyc05sY2VSUGZFNHNqSmU4aWJFOGE1R0FUV1VjWThRZU1yQ2VvVkJ6NjZGS0xveGNfV3RCUlJHNmlqaVQ?oc=5",
-     "title": "Ekspansi Kredit Bank Digital Masih Melaju Kencang"
-    }
-   ]
-  },
-  {
    "id": "d3709a98ac07",
    "title": "Demi Selamatkan Status Bursa RI, OJK Sudah 20 Kali Temui MSCI",
    "category": "Regulasi",
@@ -2199,22 +2135,6 @@
      "time": "2026-11-27T09:23:19+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbTlrY0xwUFgwLXRMa3cxamVEUF9ZMms5XzBVYU1WSUhTcU5vdXB3NU5QdXdGY2NfNXdSc1d5SUI3R2UtT0RSSFZhZjVHaUlXQmVXaWl2NWpJcERyNEJmYm1kZ3NJRHBfUTFicGRsWE82c2I3STljU3FsWS1ZY2Y4eUZRMkxFWFNuOHFaaHloNW9GTm1GeHJDeDZTTTd1a3FSajBseVEzV1htaEZHU2FIU193?oc=5",
      "title": "Serbuan e-SIM Roaming Murah Asal Singapura, Cek Dampaknya ke TLKM, ISAT dan EXCL"
-    }
-   ]
-  },
-  {
-   "id": "2ace12739e73",
-   "title": "Produksi gas 2027",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T09:16:50+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mQURHMzIzNXg3Y0U3SWlkcFFsR3IzTTlZb1FnUHdPUThQWmNGTDZQa1JiRVBBMVM5SERhNTYyblgtM0hVcmtyMkJWOUpWRVQ0VUt6RlN3blB6M3BZbUtVU1F4NEc?oc=5",
-     "title": "Produksi gas 2027"
     }
    ]
   },
