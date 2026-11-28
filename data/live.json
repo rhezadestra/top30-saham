@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T10:19:38+07:00",
+ "updated": "2026-11-28T10:31:38+07:00",
  "window": {
-  "start": "2026-11-27T10:19:38+07:00",
-  "end": "2026-11-28T10:19:38+07:00",
+  "start": "2026-11-27T10:31:38+07:00",
+  "end": "2026-11-28T10:31:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 136
+   "items": 137
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 83
+   "items": 82
   },
   "Investor.id": {
    "via": "google",
@@ -1305,22 +1305,6 @@
    ]
   },
   {
-   "id": "09620449a136",
-   "title": "Nusantara Infrastructure Angkat Direktur Baru & Tebar Dividen Interim",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T10:30:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDVBQU9KOU5reDE5ME4xSl9nYjI1TDFVWGd6UUFReG45OENCc18wNUZwaEZTNUZlaTBIZ01CLXVyRmtVOGJWbjFmbUFTeVpSTGp3UktuWmd2VFJzaWJsclhBOHVRQi1FdERnVG1EcGpJVjNtejQ2V2hDZW5BaUl1SmUxM1VkWi1IcHVyQmQ4TXlZZS10SmlBR1FZRExEMV9wNTlz?oc=5",
-     "title": "Nusantara Infrastructure Angkat Direktur Baru & Tebar Dividen Interim"
-    }
-   ]
-  },
-  {
    "id": "fcc05ab0ed89",
    "title": "OJK Pastikan Penambahan Bank KBMI 4 Tak Terealisasi Tahun Ini, Target Baru Awal 2027",
    "category": "Regulasi",
@@ -2187,6 +2171,22 @@
      "time": "2026-11-28T09:48:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tclU5WVN1bVFLdHdzNDB4T2FlQUp2eHZQdE1PdFY5QklHeDA3ejlNWnhnb2Q3dWgzZ1h0cEgxSDNwd25GZWZjVUNreWZIR0J4NVZmY1FKVmtHanBmNTNvN2Y4NXNvX0l4Sjh4RGY0Y2JhQzhsLTV2aw?oc=5",
      "title": "UMP 2027 Tekan Prospek Emiten Ritel"
+    }
+   ]
+  },
+  {
+   "id": "a2df0cd9129c",
+   "title": "Emiten Jalan Tol",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T09:17:21+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aX3ZCOElzQUpPVGpIVmtWeGFRNkg5Q0k1bGdVN2VrTlJLdTVDSUZ1Ql9zaTRseWNQZXpXQzktajQtNTNwTWhGNUVlWXlGMUZ5YlNQNHY4a1ozTmstazgwdU1FSlBDUQ?oc=5",
+     "title": "Emiten Jalan Tol"
     }
    ]
   },
