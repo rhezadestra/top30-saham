@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T10:16:38+07:00",
+ "updated": "2026-11-28T10:19:38+07:00",
  "window": {
-  "start": "2026-11-27T10:16:38+07:00",
-  "end": "2026-11-28T10:16:38+07:00",
+  "start": "2026-11-27T10:19:38+07:00",
+  "end": "2026-11-28T10:19:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 84
+   "items": 83
   },
   "Investor.id": {
    "via": "google",
-   "items": 139
+   "items": 140
   }
  },
  "prevAt": "2026-11-28T10:07:08+07:00",
@@ -2283,6 +2283,22 @@
      "time": "2026-11-28T04:35:18+07:00",
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTzFpQUlpTHg4bnR0cENVTXgyZDdFMWFzcHd1MjhnRFFURnAtdTctREkwRk4zbjRkQkVKSnl1MEloQjN3VXJncnZleGRBMlZaTWItMEVIVl9kY3NiTFRhdTcwaF9xNmFVWlFyS2tKWnVHZnREeTNPZjRaSXk4UTA5VHVUSW5hTGVwbEktNWpn?oc=5",
      "title": "DHE SDA dan Kesiapan Eksportir Mengelola Likuiditas"
+    }
+   ]
+  },
+  {
+   "id": "7c2da5f63bd3",
+   "title": "Ekspor IWIP Capai Rp 196 Triliun, 11 Produk Manufaktur Meluncur",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T04:12:37+07:00",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaUZ4WGNrdGU4a016bVZmdkRZNWRCLWVEWXZvQ0h1cFdyTGN1WXhIeUN6ZkZObXpzWnZQMVk5eW05ZENPQXdMXzgyVU9zZUZzUVRSMTNueTFrdzYzYVAtZDF2akVha1NqaWh4M0U0LWJjMEpOQ2lfT3JWRjRYNkZmOEpCdzR5dHZmVXpxQlNIV2ZNaV9tcUxYLUNzc1dkcjg?oc=5",
+     "title": "Ekspor IWIP Capai Rp 196 Triliun, 11 Produk Manufaktur Meluncur"
     }
    ]
   },
