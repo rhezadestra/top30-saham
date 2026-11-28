@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T18:45:00+07:00",
+ "updated": "2026-11-28T18:48:00+07:00",
  "window": {
-  "start": "2026-11-27T18:45:00+07:00",
-  "end": "2026-11-28T18:45:00+07:00",
+  "start": "2026-11-27T18:48:00+07:00",
+  "end": "2026-11-28T18:48:00+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 76
+   "items": 77
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -559,6 +559,24 @@
    ]
   },
   {
+   "id": "1cb58660ce1a",
+   "title": "Incar Landbank 572 Ha, DMS Propertindo (KOTA) Gelar Rights Issue 100 Miliar Saham",
+   "category": "Aksi korporasi",
+   "tickers": [
+    "KOTA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T10:42:49+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNejNoWjFaaU5qN2hINW9kdGZGaDJ6MW9PY2pYS0pwRU9iV2M1ZFQ3Z2wtNUVLeHlnZWVXVkctV1FTRzVScUNSTXhfdkVVdVA4YXpnOHdOUndnM05TU1hOamV2LVRDM1lyb1hVTTJtSFFxWEhSakhRejVrcjBIMnBLQzU3eHZlUHZhWHM4N19TM3ZJZE10VHBzc3lhcmduQ1FfaDdEbVZZcVZrZldxZ01zek5uWE_SAawBQVVfeXFMUHpSbE81QUJ0bFhKdi1CWkdvVXhrakYyYUd1UjJGMzMtNzhIMmZNeTdvcVhDVFN2c3FLdk9QZEppNE1yUDZiUzdOVTBUQXY1UEZ2eHVzVzc4c0NXY3FsZWlpWExSakxPOTk5T3lCSktFekhfbFExMVZlZ2VBRTVqR3oxeFRpay1URS16bDNCRFR4RjR3MlN2WXBYR1NsNHZoaUxrTllNSUY2Z0ZQcw?oc=5",
+     "title": "Incar Landbank 572 Ha, DMS Propertindo (KOTA) Gelar Rights Issue 100 Miliar Saham"
+    }
+   ]
+  },
+  {
    "id": "1e8c4f9d5afa",
    "title": "BWPT Rilis Obligasi dan Sukuk Senilai Rp 550 Miliar",
    "category": "Aksi korporasi",
@@ -689,24 +707,6 @@
      "time": "2026-11-27T18:52:12+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNTFDdWpiTERjLTRGNGJnY2ZEMEIyVE1XbllJM1VYTkdSU0hVU09qU2ZrcTAzUGxkdmI5OXRmRUV1QUlqR2dKNzNtcHFCRl93cHZxdFpwdnRkU19HeEd1MWdic3NLYXlxX29RY2NmTV81MEJSQVdkLW5jS09JbFBNX0htc1VTejZIcWZtMzZOdHJGWUZ1R1AySkRLNnRtMXl6X01Nc0JGd0w0UdIBowFBVV95cUxOd2NXdG8tMFZoZEpzQzBjN2txdkRZVVdpUUJaMmE3QjI0Q2gwTE9Yejl5R1puTVZvcE5MLXNWQUc3RmVVWEhCLUg0alVtZzJoOTFRczlwdFVwSU5aQVdqb2RJenVmNi10dGg4LUswZnFaTi04R0h6ZW9PM3Zhd2hUaE1zZ0JwWW1JUW5ZcGhjTkYxMnBvT3h1Z3pxWUU1MG1VSmFZ?oc=5",
      "title": "KBank Indonesia (BMAS) Terima Pinjaman US$5 Juta dari Pemegang Saham Utama"
-    }
-   ]
-  },
-  {
-   "id": "55a98f532e5e",
-   "title": "KOTA Kantongi Restu Rights Issue 100 Miliar Saham, Incar Land Bank 572 Ha",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "KOTA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T18:45:49+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUNUNEdnXzdqSWFPaVlOZ0FmTHNicXlhX2VDMU1rTVFTcndrOFZISVhBaHV1TkNLVVNuZkNVeGRiM1p2b2ZWa19fMFR3OWRDbHBKbEdDN1MzUWxMV3ljRGhJU3ZRTy04bHBsT2kyX1p6OWFyZWFqSUlkVEJNcVgxODYzT1BucWx6QkFHWFlmZjZsdGM1Unp4QTR0N1VGX0pUZ1VhUHVmRklfejJO0gGkAUFVX3lxTE9VUENQRzdiVUhwb1pINUNrallHNWJBVDl2aVViclA0TnZxdk1VV1gyY20tWDg5NHIzeDcwaTNkc3BwblllZWN5YV9HelNGWmxzUE1KdURKeEs3Q25oQjZ5aHBzS3pJMVlUd3dLTjB4SEtlaU15dEtVTnI5QzhIQWpXa1hhZWNMZlVLMHpNREdiNjc0Y2V3bTlQQ1lpVFhvNUdiSTNl?oc=5",
-     "title": "KOTA Kantongi Restu Rights Issue 100 Miliar Saham, Incar Land Bank 572 Ha"
     }
    ]
   },
