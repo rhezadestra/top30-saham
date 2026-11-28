@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T08:12:05+07:00",
+ "updated": "2026-11-28T08:15:04+07:00",
  "window": {
-  "start": "2026-11-27T08:12:05+07:00",
-  "end": "2026-11-28T08:12:05+07:00",
+  "start": "2026-11-27T08:15:04+07:00",
+  "end": "2026-11-28T08:15:04+07:00",
   "hours": 24
  },
  "target": 30,
@@ -1315,6 +1315,22 @@
      "time": "2026-11-27T08:43:39+07:00",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTzZDS1Q0LUdnRUNNLW1PeE9qWU5XQkdsYzRxLXBQT0NKMTNqdXdVVlE4UTJmTEFLQnZzd05vdmZXSlZoUzN2OVV5TTBjSGYydmhBZEtlbnRjZVEzSmx4XzdtU1lQeS1kZW1EMi1TRW1GbDNqTXR2V3l0czh5WTdYYTNkaFpKWTV1dERzWWpKMi1oUV8xcGpSVVNR?oc=5",
      "title": "Menjaga Pertumbuhan Kinerja, CLEO Ekspansi Produk Air Mineral"
+    }
+   ]
+  },
+  {
+   "id": "56b86b8f5560",
+   "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T08:08:32+07:00",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa0IxUTJlZm1sYXhYMEt0QjBEMFJnbXlkRVQxRHpLREdEUFdYbXNfaVV3SEhfUjlWdUFVWGZmb0Fkcl9uUDNMcjZrVmc5Vjc3MVdWMzJhbWhlTHM4V284WkdTUkRKVnZKdVlRcC1MeGNtOWpnbi1OeWxhN1I1bnRBV3h1aWVmVkxYb090TEdQT21oWG9NUkdCTUZoZHR1MkIw?oc=5",
+     "title": "BEI Rombak Lima Indeks Syariah dan BUMN, Efektif 1 Desember 2026"
     }
    ]
   },
