@@ -254,24 +254,6 @@ footer p { margin: 0; }
   .eyebrow .dot, .tab .dot { animation: pulse 2s ease-in-out infinite; }
   @keyframes pulse { 50% { opacity: .35; } }
 }
-.side { display: contents; }
-/* Desktop landscape: panel samping + kartu topik berkolom */
-@media (min-width: 1100px) and (orientation: landscape) {
-  main { display: grid; grid-template-columns: minmax(300px, 360px) minmax(0, 1fr); gap: 0 32px; max-width: 1480px; margin: 0 auto; padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px)); align-items: start; }
-  main .gutter { max-width: none; padding-left: 0; padding-right: 0; }
-  .side { display: block; position: sticky; top: calc(env(safe-area-inset-top, 0px) + var(--bar-h, 52px)); max-height: calc(100vh - var(--bar-h, 52px)); overflow-y: auto; padding-bottom: 24px; scrollbar-width: thin; }
-  .side .controls { position: static; border-bottom: 0; padding-block: 4px 0; }
-  .chips { flex-wrap: wrap; overflow: visible; }
-  .bar .gutter { max-width: 1480px; padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px)); }
-  main > .gutter { padding-top: 22px; }
-  .topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: start; }
-  .topic { border: 1px solid var(--line); border-radius: 14px; background: var(--surface); padding: 16px 18px; }
-  .read, .ai, .t-sum { max-width: none; }
-  .read { background: var(--paper); }
-}
-@media (min-width: 1680px) and (orientation: landscape) {
-  .topics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
 </style>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)} body{margin:0} [hidden]{display:none!important} img{max-width:100%}</style>
 </head>
@@ -291,7 +273,6 @@ footer p { margin: 0; }
 </header>
 
 <main>
-  <aside class="side">
   <section class="gutter edition" aria-labelledby="ed-date">
     <p class="eyebrow" id="ed-eyebrow">Live</p>
     <h1 id="ed-date">Memuat berita…</h1>
@@ -334,7 +315,6 @@ footer p { margin: 0; }
       <div class="chips" id="chips" role="group" aria-label="Filter"></div>
     </div>
   </div>
-  </aside>
 
   <div class="gutter">
     <ol class="topics" id="topics" aria-live="polite"></ol>
