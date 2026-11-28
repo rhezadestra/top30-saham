@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T08:06:04+07:00",
+ "updated": "2026-11-28T08:12:05+07:00",
  "window": {
-  "start": "2026-11-27T08:06:04+07:00",
-  "end": "2026-11-28T08:06:04+07:00",
+  "start": "2026-11-27T08:12:05+07:00",
+  "end": "2026-11-28T08:12:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 158
+   "items": 157
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 140
+   "items": 139
   }
  },
  "prevAt": "2026-11-28T08:06:04+07:00",
@@ -1315,24 +1315,6 @@
      "time": "2026-11-27T08:43:39+07:00",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTzZDS1Q0LUdnRUNNLW1PeE9qWU5XQkdsYzRxLXBQT0NKMTNqdXdVVlE4UTJmTEFLQnZzd05vdmZXSlZoUzN2OVV5TTBjSGYydmhBZEtlbnRjZVEzSmx4XzdtU1lQeS1kZW1EMi1TRW1GbDNqTXR2V3l0czh5WTdYYTNkaFpKWTV1dERzWWpKMi1oUV8xcGpSVVNR?oc=5",
      "title": "Menjaga Pertumbuhan Kinerja, CLEO Ekspansi Produk Air Mineral"
-    }
-   ]
-  },
-  {
-   "id": "ff21a71d5519",
-   "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "BTPN"
-   ],
-   "summary": "PT Bank SMBC Indonesia (BTPN) mengumumkan rencana delisting dari BEI dan perubahan status menjadi perusahaan tertutup, tanpa dampak pada likuiditas.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T08:10:00+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127072053-17-788914/mau-delisting-bos-smbc--btpn--ungkap-dampaknya-ke-dana-bank",
-     "title": "Mau Delisting, Bos SMBC (BTPN) Ungkap Dampaknya ke Dana Bank"
     }
    ]
   },
