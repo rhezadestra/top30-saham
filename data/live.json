@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T14:15:38+07:00",
+ "updated": "2026-11-28T14:21:37+07:00",
  "window": {
-  "start": "2026-11-27T14:15:38+07:00",
-  "end": "2026-11-28T14:15:38+07:00",
+  "start": "2026-11-27T14:21:37+07:00",
+  "end": "2026-11-28T14:21:37+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 115
+   "items": 113
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 68
+   "items": 69
   },
   "IDX Channel": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 74
+   "items": 72
   },
   "Investor.id": {
    "via": "google",
-   "items": 117
+   "items": 118
   }
  },
  "prevAt": "2026-11-28T14:15:38+07:00",
@@ -183,42 +183,6 @@
  },
  "topics": [
   {
-   "id": "5efb24c17d83",
-   "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026",
-   "category": "Kinerja",
-   "tickers": [
-    "BMRI"
-   ],
-   "summary": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T14:21:12+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNmYxc0M1d2xuSlF0TnRsMUd1QXJVR1V6VGdqMzFFM1luX01mS2hkV0RON01Wb1pPZzFlNlFQUGU3OTBpRWFfZXFVdGdCOF9xdGFaNUJBZG5tZ2duYUcxNWpWcGhnTTk3NkpBSmdXVWMzRjgzN3hSYzJCT3Q1T1N3akpzU0s4dzV4YWo2RlNZbG1hdHhqWkNBMkhaSG1ZVFliakZOUDMybThSdzhXZkxrQTVsQnNMM0gtalZJ0gG0AUFVX3lxTE5FNWg3ZEtPUzRxaDhza1k0ZXlrN2FqR21RUVdFTVdlZlNZZGJuY1VYTzJVZ0JMT0Yyck1aWDJic3owXzRGYTNlUUxqUVFNV0t3SWNENkl3MklJWmd1enVlcFZ5SEl6eG02aXFWMEZzRGxSbGtGREpRdThZU3A1S1hTbjZnNXdiM1NpaUlMemd5dVVScG5qakkxRjZBOEVtc1FpY1pRVTRpOHhWSld0OGZWVk5LUw?oc=5",
-     "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T15:31:00+07:00",
-     "url": "https://www.idxchannel.com/banking/hingga-oktober-2026-bank-mandiri-salurkan-kur-ke-lebih-dari-193000-pelaku-usaha",
-     "title": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T16:26:32+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
-     "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T19:56:37+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLVI1aU9sMFpESVBRdS1OMUpGaGR1emtSSEhpalhVc09uaXBKRFRaOUdxLUozVDB3S05zNHNiVUM1TE1maEtvb0dTVFNHWTNCd3cyal9MUWdhNWoxb0JjbGN4M3M5VWFRbG94RVJHaVNIaG5mazF5YjJpaS1iM0hqMGY4NHNCZ2o4U2RCTVR0RUt6Qk5MQXBWcGR4UFVyQzl6RzE1aGwzc3UxaWM?oc=5",
-     "title": "Bank Mandiri (BMRI) Salurkan KUR ke 193.000 Debitur Baru"
-    }
-   ]
-  },
-  {
    "id": "c3a1f192e352",
    "title": "KOTA Kantongi Restu Rights Issue, Incar Land Bank 572 Hektare",
    "category": "Aksi korporasi",
@@ -245,6 +209,36 @@
      "time": "2026-11-27T18:45:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUNUNEdnXzdqSWFPaVlOZ0FmTHNicXlhX2VDMU1rTVFTcndrOFZISVhBaHV1TkNLVVNuZkNVeGRiM1p2b2ZWa19fMFR3OWRDbHBKbEdDN1MzUWxMV3ljRGhJU3ZRTy04bHBsT2kyX1p6OWFyZWFqSUlkVEJNcVgxODYzT1BucWx6QkFHWFlmZjZsdGM1Unp4QTR0N1VGX0pUZ1VhUHVmRklfejJO0gGkAUFVX3lxTE9VUENQRzdiVUhwb1pINUNrallHNWJBVDl2aVViclA0TnZxdk1VV1gyY20tWDg5NHIzeDcwaTNkc3BwblllZWN5YV9HelNGWmxzUE1KdURKeEs3Q25oQjZ5aHBzS3pJMVlUd3dLTjB4SEtlaU15dEtVTnI5QzhIQWpXa1hhZWNMZlVLMHpNREdiNjc0Y2V3bTlQQ1lpVFhvNUdiSTNl?oc=5",
      "title": "KOTA Kantongi Restu Rights Issue 100 Miliar Saham, Incar Land Bank 572 Ha"
+    }
+   ]
+  },
+  {
+   "id": "da501901101b",
+   "title": "Debitur Baru Kuasai 69% Penerima KUR Bank Mandiri (BMRI)",
+   "category": "Kinerja",
+   "tickers": [
+    "BMRI"
+   ],
+   "summary": "Bank Mandiri telah salurkan KUR kepada 193.000 debitur baru hingga Oktober 2026.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-27T14:45:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVTd1T1NnTmZxbzhick90eW53eGxZbU4xNWdOYkFIbFIzQlZ3V2NFZnN4R2lUM0VnZVJRVGRkY0QzVjZDakZyZ0RwTVBvME9idVFtZWFOVXgwZzhJVkUwbm1kalVLODJDZnNHbkpKNlJ4YXlQQzZTanZYQW1QVGtBMXU4RW9INVQ4Q050WmdfY0c?oc=5",
+     "title": "Debitur Baru Kuasai 69% Penerima KUR Bank Mandiri (BMRI)"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T15:55:28+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127150120-17-789112/bmri-salurkan-kur-ke-193000-debitur-baru-produksi-jadi-prioritas",
+     "title": "BMRI Salurkan KUR ke 193.000 Debitur Baru, Produksi jadi Prioritas"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T19:56:37+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLVI1aU9sMFpESVBRdS1OMUpGaGR1emtSSEhpalhVc09uaXBKRFRaOUdxLUozVDB3S05zNHNiVUM1TE1maEtvb0dTVFNHWTNCd3cyal9MUWdhNWoxb0JjbGN4M3M5VWFRbG94RVJHaVNIaG5mazF5YjJpaS1iM0hqMGY4NHNCZ2o4U2RCTVR0RUt6Qk5MQXBWcGR4UFVyQzl6RzE1aGwzc3UxaWM?oc=5",
+     "title": "Bank Mandiri (BMRI) Salurkan KUR ke 193.000 Debitur Baru"
     }
    ]
   },
@@ -441,30 +435,6 @@
    ]
   },
   {
-   "id": "da501901101b",
-   "title": "Debitur Baru Kuasai 69% Penerima KUR Bank Mandiri (BMRI)",
-   "category": "Kinerja",
-   "tickers": [
-    "BMRI"
-   ],
-   "summary": "Bank Mandiri telah salurkan KUR kepada 193.000 debitur baru hingga Oktober 2026.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T14:45:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVTd1T1NnTmZxbzhick90eW53eGxZbU4xNWdOYkFIbFIzQlZ3V2NFZnN4R2lUM0VnZVJRVGRkY0QzVjZDakZyZ0RwTVBvME9idVFtZWFOVXgwZzhJVkUwbm1kalVLODJDZnNHbkpKNlJ4YXlQQzZTanZYQW1QVGtBMXU4RW9INVQ4Q050WmdfY0c?oc=5",
-     "title": "Debitur Baru Kuasai 69% Penerima KUR Bank Mandiri (BMRI)"
-    },
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T15:55:28+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127150120-17-789112/bmri-salurkan-kur-ke-193000-debitur-baru-produksi-jadi-prioritas",
-     "title": "BMRI Salurkan KUR ke 193.000 Debitur Baru, Produksi jadi Prioritas"
-    }
-   ]
-  },
-  {
    "id": "ef827be3276c",
    "title": "Pesan Prabowo Buat BI: Harus Independen, Tapi Jaga Kepentingan Bangsa",
    "category": "Makro",
@@ -527,6 +497,28 @@
      "time": "2026-11-27T16:36:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYmxTay14TWlrMzByVENHYkFnOVpJa0dXX21QMFRDQTRvazZja0c5amYyVmF4UXV6d25rV2N3XzFJb3BPaWZTcjYtQzVCeGlUd3E5c0FiM3F4WmNiNFM3aWQxZGdZVVlMNjczX3VnVHg0SUhCaTZndk1nczlOU1VqZVNlTkljMi1fdnRFVkJCb2FIRzJ5Z0F2eVhza3hTdGFVVTFfQUVYbHhpQdIBowFBVV95cUxPYjdVNG42Wmp2eVZnb1c1Njd6WFdYWEl4dVVSR3dkd2c1Ti1vR3RJM2xWeGpzU2dfc25zUTk1XzE5c09tWUhKd2htbDUtTVBpV2JHQXMwUVpsX195WHJHejdCOF9XdXRCbUVEMGNhT1p0QkYxOU44a3lrUXlRLWk5bm1YclE0S3ZWUkZGTlFXT3A3enc3WjFmMzJuMkNySGlCOElV?oc=5",
      "title": "DSI Siapkan Referensi Harga Komoditas untuk Awasi Ekspor Tiga Komoditas"
+    }
+   ]
+  },
+  {
+   "id": "f2b161626eaa",
+   "title": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T15:31:00+07:00",
+     "url": "https://www.idxchannel.com/banking/hingga-oktober-2026-bank-mandiri-salurkan-kur-ke-lebih-dari-193000-pelaku-usaha",
+     "title": "Hingga Oktober 2026, Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T16:26:32+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTFhMTlRGQ01ta3ZObGpMWVBIdTlxQkdKSTljREFmTlQ0bDdCU09ORnU1bTBiUzNwWWhzN2E5LUxWdHZ3ZWU2ZUcxU1ZMaWZuRmhPeXJPYVdRYkdxNVVkQ0U3SVdGWkd4NXZHOTdHZ2d2VnQ3WUVYRFMxaXdFb29KWVEyX0F4aHI1TTFpeDk1eTQzVi02ZGpTWWt5SzVNWjgwNUVjWHJB0gGfAUFVX3lxTE1pQXdZOVFjMFc1Xy1lTVVCYkZUdEFfdDBEVzdaNHBRUXpkek9NSUN0RTBOUVNLNEdqX0dPaXJuNFFod3FINjVGcGtFb01XS3haU3N2bzBsbzhZOURQSUJoeEJMckRFT0xlaE1jdTVMdWFKMk5uUy1NU2V0U0NHdmZUaUpCWDBQUzZPU1NJSzhlX245VUN5bmVTNzMtZ1lIcw?oc=5",
+     "title": "Bank Mandiri Salurkan KUR ke 193.000 Debitur Baru hingga Oktober 2026"
     }
    ]
   },
