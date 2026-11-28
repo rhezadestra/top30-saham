@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T10:40:38+07:00",
+ "updated": "2026-11-28T10:46:38+07:00",
  "window": {
-  "start": "2026-11-27T10:40:38+07:00",
-  "end": "2026-11-28T10:40:38+07:00",
+  "start": "2026-11-27T10:46:38+07:00",
+  "end": "2026-11-28T10:46:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 137
+   "items": 135
   }
  },
  "prevAt": "2026-11-28T10:07:08+07:00",
@@ -3083,38 +3083,6 @@
      "time": "2026-11-27T12:02:38+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQXy1jN2xCZDY2NlNDQjZvM2NYWHp1eXZ6ODVUQ0doa3RvOGZNRjBjOTBybkdvR0RGUENDbEhYdDhidWFMazJMTDdBYW85ZzdnM3dTUm42R3lNa3ladElYeFVTa2lOSHNoNFVtZ1lDa2hOOFZFdGQyQmc5UTJESTdEamhuUVVGeHJJenJQRGY3elZkYk53bko4aTJBRmRXWjBKaGpPQXRIVU1PQkxDSGxWQWlrRTBvOWotSWZvdzVnZWVKUQ?oc=5",
      "title": "Gapki Sebut DSI akan Kenakan Pungutan Ekspor Sawit 0,5% Mulai Januari 2027"
-    }
-   ]
-  },
-  {
-   "id": "e2050c9c4e7b",
-   "title": "Pungutan Ekspor Sawit 0,5 Persen Mengintai, Dua Emiten Ini Paling Terdampak?",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T10:46:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdlBma2FxQnppUGhDdTlKWmFJVWd1Rll4cXBhQmMySldkLXZiRUNUVVRKNVBjNktINU8wdWNEOTlVcHNnenJ4S1hTNU44bW5IUW9sMmxoNFJEVUlOdkZkVExoLXhiWFRKbmJTMDhIWktIRjlSWmZTRF9uZ2trVzFFMzFGLVdTQ2toWlQteThSRkJ4dEhqb0t0b2hLaGhBNWF1OTZTcndtN3ZRTnJLOE9wMXpR0gG3AUFVX3lxTE1BeE1meXFLNGVFZkVZZTBEQ1lSRklKczRpTjBqRzBORUotZ2NHdndPM3IzSWVneUtIb29abzhjX2dBb3RYSl9VcHBCcVAtOXVDN1M5UDNIV1ZiZVpnZktPaFAySjUzeTFFRHRGdklxUTVmeS1qSWx3Nl9icjVyYjJwNWx5Q0swLUxUVGNlejJwWjA2X3VsODFLUzJVWU5TVDQ3LXk2aUZleWxvMkswTWpzTlZIakNFSQ?oc=5",
-     "title": "Pungutan Ekspor Sawit 0,5 Persen Mengintai, Dua Emiten Ini Paling Terdampak?"
-    }
-   ]
-  },
-  {
-   "id": "7747f9076b1b",
-   "title": "Pendatang Baru di Emiten Portofolio Andry Hakim",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T10:45:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQlkxbFlmQ2dCRkJERXdONVdIcm5leGtMcmo4eWI0aDhldG5qUG02WUI0NXdXSFVYakY4bURLMnVfMlM2NFZYR0Z4c0tZZF9kOFZMbEJ3MklMQ1JxQVBqNVRzZF9JQ3V2UGxvU1NTN1ZES1FuemZtenpXNE1wNVR1QWVyUzFjZzBm?oc=5",
-     "title": "Pendatang Baru di Emiten Portofolio Andry Hakim"
     }
    ]
   }
