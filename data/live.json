@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T07:26:34+07:00",
+ "updated": "2026-11-28T07:30:04+07:00",
  "window": {
-  "start": "2026-11-27T07:26:34+07:00",
-  "end": "2026-11-28T07:26:34+07:00",
+  "start": "2026-11-27T07:30:04+07:00",
+  "end": "2026-11-28T07:30:04+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 161
+   "items": 160
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 89
+   "items": 88
   },
   "Investor.id": {
    "via": "google",
-   "items": 134
+   "items": 136
   }
  },
  "prevAt": "2026-11-28T07:05:33+07:00",
@@ -803,30 +803,6 @@
      "time": "2026-11-27T14:33:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeno1MWNTZzRfcmFaRWtGQk1FelBDeDREeGpnN096dlNyM3lmOE0wck9VUC1sRzNVc0JqQ0R2RDl5T0N3X1JIbXlDUG8tdkZZV0ZVQmZnbkJvSUdTdi0wNm84TjFBbzJZRElvSG9Cc3hBcFZqbWNudmJqS2VWWThBX0IzLXJLU1FPR183NExuaTJKZXF2WkluSENweVBPNUV1Rmp4WDhKdE4zUVl1TUhB0gG0AUFVX3lxTE53UlpJcXZBRGlGUV81MGtzVTRrLWpiaXlHYTUtZ21TYlRpWXVGclo4b25sM0VSMEtLcHVmNkR3MTRteThrcFRzUlRzaDVpaV9xblNnVFJZRHE1MTR2LWRzR2hvY0p1bmpnaGRoa2c1cWZmRnZvdGlCa2s2YU1Iei10a2xKQ3J2TzlGanNfM0hrUUVCYmtsLUxpYWM5MjAtM1JDbGJTZHZYSDExaEwtYzdKaG1uOQ?oc=5",
      "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak"
-    }
-   ]
-  },
-  {
-   "id": "2a9bb8479908",
-   "title": "Nusantara Infrastructure (META) Mengandalkan Pendapatan Jalan Tol",
-   "category": "Kinerja",
-   "tickers": [
-    "META"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T07:27:52+07:00",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMmVfZncxbk5LdXdsYW5RUnJLbHdJWTBsTHlRUUUyVkd3WUFCTGs4aWQ2UXBFc0JkTVA1bE90UXpydWNfamo4Rk5VYktfcUhmRHp5UHVISFJYNDhMSUV5S2N3WXFWQ2JfWHJjZlpSeXkzb2Joam5BOEQ1eUpaSGVydFVMVmNlN0oyamx3bEpsVTU1TGVQbGYzTHEyY0k?oc=5",
-     "title": "Nusantara Infrastructure (META) Mengandalkan Pendapatan Jalan Tol"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T07:32:36+07:00",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WR1lUVDVnWUdSSUtJMDZveWxpS1lLM2o0T0pGZGtNMVdoOTdYbm10eVM4SUFGdlZwVVFDSV90Q2JwRWVxRnQ1NFNlUERkcjEtcWdSWDdtQXRnR2ozaGFQaTRDb0ZaQURoanZyZ2Vn?oc=5",
-     "title": "Nusantara Infrastructure (META) Mengandalkan Pendapatan Jalan Tol"
     }
    ]
   },
@@ -1685,22 +1661,6 @@
    ]
   },
   {
-   "id": "c7f79f09854d",
-   "title": "Prabowo Temui MSCI, Bos Asabri Ingatkan Reformasi Pasar Modal",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T07:29:17+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUkc2UHFQb3BBcUVQemZqT1M0SU1qRzlxQ1lEVkdDcDZDX213SW9pU3YxU0k1SWgxb2tldkxLeGVQWGRmemVlZmJ5bnpLTEtraEdhN0xNQkUycXlTbG8xTXltTzl3TXg5Q0tDV1Z5N0RvZTlwb20wYU42bXBGa2xTTnFjVzFNcFlKT1NOQzA5eTY1bm9CZFVvdldqMDZoUDg0ZlUxQkVQcV9NSkNtVmw0?oc=5",
-     "title": "Prabowo Temui MSCI, Bos Asabri Ingatkan Reformasi Pasar Modal"
-    }
-   ]
-  },
-  {
    "id": "b0b13642c68d",
    "title": "Emiten Grup Sinar Mas (KETR) Bidik Proyek Digital di KEK Batang",
    "category": "Kinerja",
@@ -2366,18 +2326,20 @@
    ]
   },
   {
-   "id": "42425cc4467e",
-   "title": "Ketimpangan Kinerja Mal Kian Terlihat, Segmen Atas Lebih Cemerlang",
+   "id": "6f647d5c8464",
+   "title": "Nusantara Infrastructure (META) Mengandalkan Pendapatan Jalan Tol",
    "category": "Kinerja",
-   "tickers": [],
+   "tickers": [
+    "META"
+   ],
    "summary": "",
    "summaryFrom": null,
    "sources": [
     {
-     "media": "Bisnis",
-     "time": "2026-11-27T07:30:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSWlmVDJDWnpOX3N4RmpGUFNNbEhlRWFzYjZ1T3BqbHdZLVVwbGRDb0FMSjYyTEJCSnJrazI2RnpiakNBeE5zUnVENExhcHNHcDFJOUFfN3poVm1CcTVvWXZrYU1GZXZ0VXBPdkNTVHFEZ1VWVUlZY3JxaUxCUFQ1RlYxcmQzNlQzWnIxZldCVXFOR3o2d3NqMzlQM3B2QmFVMGVnZE9pM3E0TVlIZTBOLUVUN0tySlFm?oc=5",
-     "title": "Ketimpangan Kinerja Mal Kian Terlihat, Segmen Atas Lebih Cemerlang"
+     "media": "Kontan",
+     "time": "2026-11-27T07:32:36+07:00",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WR1lUVDVnWUdSSUtJMDZveWxpS1lLM2o0T0pGZGtNMVdoOTdYbm10eVM4SUFGdlZwVVFDSV90Q2JwRWVxRnQ1NFNlUERkcjEtcWdSWDdtQXRnR2ozaGFQaTRDb0ZaQURoanZyZ2Vn?oc=5",
+     "title": "Nusantara Infrastructure (META) Mengandalkan Pendapatan Jalan Tol"
     }
    ]
   },
