@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T14:21:37+07:00",
+ "updated": "2026-11-28T14:27:37+07:00",
  "window": {
-  "start": "2026-11-27T14:21:37+07:00",
-  "end": "2026-11-28T14:21:37+07:00",
+  "start": "2026-11-27T14:27:37+07:00",
+  "end": "2026-11-28T14:27:37+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 72
+   "items": 74
   },
   "Investor.id": {
    "via": "google",
-   "items": 118
+   "items": 124
   }
  },
  "prevAt": "2026-11-28T14:15:38+07:00",
@@ -1709,22 +1709,6 @@
      "time": "2026-11-27T14:33:01+07:00",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeXdGYm0tR3RrSWZrOHlWVDcydWFGd2FaU0tacWlQdzg5SHp2NFBVVHRiSFFWSlVSZkgwUzRkUnlnY0Z2b0Z6Yi01Qks5MDh6TUtQVlhrTTZYMWc2a0V5NktkRFVtRjd0UFFma3h0UGhzRGtHX1NVcmNIRXBTWFRJLXl1VUNiZw?oc=5",
      "title": "Target Saham Bumi Resources (BUMI) Tak Main-main"
-    }
-   ]
-  },
-  {
-   "id": "162651cad430",
-   "title": "Saham Boy Thohir Diramal Naik 99%, Kinerja Meledak",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T14:24:40+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSjVKTE9udS1femx3SlJsRGNkbUJBN2FnNHJuYnNUbXhFMVRfdWtuT0Q0RUktLU5IdWV6b0JrRUpFaW9jemNWbktkRkVGWGNMM2NtV084LWNHZ3VnVm96Rm03cUo0YzdTS09lMlRWQUV1aV9tam9SSC1IUWVBN1A5ejE2T2Nrakc3bmc?oc=5",
-     "title": "Saham Boy Thohir Diramal Naik 99%, Kinerja Meledak"
     }
    ]
   },
