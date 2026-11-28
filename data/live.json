@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T13:45:10+07:00",
+ "updated": "2026-11-28T13:48:10+07:00",
  "window": {
-  "start": "2026-11-27T13:45:10+07:00",
-  "end": "2026-11-28T13:45:10+07:00",
+  "start": "2026-11-27T13:48:10+07:00",
+  "end": "2026-11-28T13:48:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 78
+   "items": 77
   },
   "Investor.id": {
    "via": "google",
-   "items": 117
+   "items": 123
   }
  },
  "prevAt": "2026-11-28T13:15:10+07:00",
@@ -299,40 +299,6 @@
      "time": "2026-11-27T18:40:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTUtsY2szdGJxYk82SEdOX1JLMEhYODhua2oxMkNORWdKeGszdUlYMXBEUExqZlVBc3FsTUNaTlhOSUVZeDc4dGpSSmxBd2lLa04yRU00eDkwelJ4WVJsWjNycFdoYXBiTE1RbnA1ZUlLWnRqX2ZycGV0b0NHRnhsU3N5dFpkOEkyQVhVaGdkc3VRUmxxeXZwN1o4NzV0RUZBaWdJTEpNYmhMejZMMGZFQXpIU3I3c2MwNHZZYWgyd1Fud2FEckJF?oc=5",
      "title": "Ini Alasan Unilever (UNVR) Divestasi Bisnis Makanan Rp20,5 Triliun ke McCormick"
-    }
-   ]
-  },
-  {
-   "id": "d21337aa9aa2",
-   "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan. Foto: iNews Media Group.",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T13:48:00+07:00",
-     "url": "https://www.idxchannel.com/economics/menperin-lepas-ekspor-manufaktur-senilai-rp11228-triliun-ke-110-negara-tujuan",
-     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T13:48:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaVBaWThTcGhoTm1MSTVoNTliQVIzb3ZUYzI2NFlHeHpTUWtVSnFZRC03ZW9FWWN2TEpoby1oS24ycHNSeGQ1Ukx1YnBFSkloWThHVzFnNTRId0Y4Yy1PT0ZrZHprbFdOdDNmNHg1YXFTODZVZHRZQV9Sd2k5RzJnYm50U3pjT19sSmlFWUFXczNUTExlbFJtX3NzU3R2ZDUwOS1GNkd3RHZ2OVhYMjVzQ2d5T21RdGvSAboBQVVfeXFMUG9vMjFiMFJUbElpazhiQ3J4RnFsa19NUFFBVGxSajg4cWE2LTJjdWFLRDU4SUU1dzg4MHdybHRxSE5nckQ4MmlrVGpGbnJiWV9sai03YTJLYXlrMlNCeVRzR1lXQjdzaWlWZW1Qd09PSGRCUmlST21acDRIR3FOZDdVem1QWUdRdXl3c3diNWRVam5iS1lSclN6VTg3cE9pVlVQZFZDbkpzdV83QzlveHZudWtTYU5OYnJ3?oc=5",
-     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T13:48:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkR4Q3RIa0MzZEZaZ3p5b2JIekRiWUlzdTFHMnFBUXBDWjkwcVYzTXBMX19jWXRFblJxOFFrTXY1clpkRHVDVnpIeG9EQS01dFhsVWlvU1RtcEYwVk03dFRvcHVjNVlIaXExSzRKVFZMcDJ3WXVnWkRqdzVqUDZwQVRWckxGREZRX1JhM1FGWGVBYklnYmJQTUVGRU15aTVXYVkwS3ByT05WaFpKOWpVRXlVQm_SAboBQVVfeXFMUG9vMjFiMFJUbElpazhiQ3J4RnFsa19NUFFBVGxSajg4cWE2LTJjdWFLRDU4SUU1dzg4MHdybHRxSE5nckQ4MmlrVGpGbnJiWV9sai03YTJLYXlrMlNCeVRzR1lXQjdzaWlWZW1Qd09PSGRCUmlST21acDRIR3FOZDdVem1QWUdRdXl3c3diNWRVam5iS1lSclN6VTg3cE9pVlVQZFZDbkpzdV83QzlveHZudWtTYU5OYnJ3?oc=5",
-     "title": "Menperin Lepas Ekspor Manufaktur Senilai Rp112,28 Triliun ke 110 Negara Tujuan"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T14:06:19+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaF9VdHNCZGJOeGE3VGI4bi1mY2xOb1BhRktHS1RMRWJ0TDZmS2ZhblgyOTA4RkxvMUVDajIzRXNua0ZvTzdtY3FET3UzOEFoaEtKajhpYTNIVlZTaENja2UwbnVlQWNtNlpaVlpYR0p3T21vMndWY18tUURJbkhQa2p3T282emZyY3dXaDQ1SHM0UWw1OTlXcW1FWW56Ukh1cjl1RzZJUlY4THBSeGJPZWg4bDhZUDJiYl9BZmpIMC11UQ?oc=5",
-     "title": "Pemerintah Lepas Ekspor Produk Manufaktur Rp112,28 Triliun ke 110 Negara"
     }
    ]
   },
@@ -1865,24 +1831,6 @@
    ]
   },
   {
-   "id": "900d3071dc71",
-   "title": "Fenomena Unik Saham BBRI",
-   "category": "Kinerja",
-   "tickers": [
-    "BBRI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T13:47:32+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sMjM2TnY5M09KVWE3bHFIaUpqVHBqOUIzYzJmMjV0ZkM5U3FXSzBZVDIyRC14M29Lbmd2V05nQ3ZoMXhOVGVES0JTdW9wcTFJVjg3MDlUY2dzalZveThsR0lLOUlwZldIemc?oc=5",
-     "title": "Fenomena Unik Saham BBRI"
-    }
-   ]
-  },
-  {
    "id": "c0259bf955bf",
    "title": "Andalkan Kekuatan Lokal, Ini Jurus Bank Jateng Menangkan Persaingan",
    "category": "Makro",
@@ -2669,6 +2617,22 @@
    ]
   },
   {
+   "id": "1f9c7b9066c8",
+   "title": "Pemerintah Lepas Ekspor Produk Manufaktur Rp112,28 Triliun ke 110 Negara",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T14:06:19+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaF9VdHNCZGJOeGE3VGI4bi1mY2xOb1BhRktHS1RMRWJ0TDZmS2ZhblgyOTA4RkxvMUVDajIzRXNua0ZvTzdtY3FET3UzOEFoaEtKajhpYTNIVlZTaENja2UwbnVlQWNtNlpaVlpYR0p3T21vMndWY18tUURJbkhQa2p3T282emZyY3dXaDQ1SHM0UWw1OTlXcW1FWW56Ukh1cjl1RzZJUlY4THBSeGJPZWg4bDhZUDJiYl9BZmpIMC11UQ?oc=5",
+     "title": "Pemerintah Lepas Ekspor Produk Manufaktur Rp112,28 Triliun ke 110 Negara"
+    }
+   ]
+  },
+  {
    "id": "b413b8e483bc",
    "title": "Industri Mebel Siapkan Strategi Hadapi Usulan Tarif AS 18%",
    "category": "Makro",
@@ -2729,22 +2693,6 @@
      "time": "2026-11-27T14:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV0JkdXlXY3AwQTFRV1hTSU9vbkFUTGVfX094ZDRkVk51VVVidC04OEI2SzBLbnRfcUVkSUhqaVhsUjVnWHVZeGI4UUtNTTlSRWdvUUI5YXVldXktUzBDWnpramlOVmlzbXppSVNwTU9WdFVlWVpjOUFiQ0pPWWRyQXhHN3dxeW5YZ2JMeTZBdlgwVnN1ZVpaR2dQQlVjbmZNVGc?oc=5",
      "title": "Danantara Konsolidasikan Jasindo, BRINS dan JRP, Siapa yang Bertahan?"
-    }
-   ]
-  },
-  {
-   "id": "cdc461330346",
-   "title": "Ini 7 Cara Agar Pengajuan KPR Lolos Seleksi Bank",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T13:45:23+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQXBIWUhabWlzaGNhQ3NtZUJhYzk0cDlGYzBCRm1Kd242bHgxN0VhSlZ5OTZpdm56WGZId3JyVldBSldyQjlyMkZNbDJLYXgzVnRZdlFUT2JVWmFuOFhET05DaVJjN3IyT0FYSlQ3VVJBVlQtNHlHWHVQaDlRUHFLSnpjWFAxbEo2NlpjVTFoVmYtLWxVV3lXVWZZTG83S1JoTkRINA?oc=5",
-     "title": "Ini 7 Cara Agar Pengajuan KPR Lolos Seleksi Bank"
     }
    ]
   }
