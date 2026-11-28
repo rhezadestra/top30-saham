@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T21:00:57+07:00",
+ "updated": "2026-11-28T21:07:23+07:00",
  "window": {
-  "start": "2026-11-27T21:00:57+07:00",
-  "end": "2026-11-28T21:00:57+07:00",
+  "start": "2026-11-27T21:07:23+07:00",
+  "end": "2026-11-28T21:07:23+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 69
+   "items": 67
   },
   "IDX Channel": {
    "via": "rss",
@@ -1318,22 +1318,6 @@
      "time": "2026-11-27T21:14:31+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQkVXb21KQllhTXhHMDdyUzJNRGdhbnllU21jVzR5MHlIbG1UdjNReUZUY3VmWkIzNWpHd0hEazJSNDZQMmhmSDY2VktYTjZwdDdRSlpPbnZfbkw3YU13UmhLTGltempXREc1STYzX1dhUm5IOWZYYkhYa0N2OExnWEZucXI5WnlrUkl3RHJNd2hsb0RTM2VDQUNMQVJFak5xR0pmZkZValR4X19FaFFSc1ZRVFJvaXllQTY00gG0AUFVX3lxTE9QSHF0dkpVMnRGSU9hdmYxYUpQQjJEbTFEcU9HOE94dHhRejF1YVFCUGM5X3k2REo1Tmtyb3RqbFktbmdqNVNoYTZYTzJiSGlOSkZlRG1JSk5BVGhtcmhuR19nQ3c3LURzTzgzaWhreldPYmEwXzVTdjFKaHdLd212QWF3UXVsTzVobG9HdUN3ZnVvWDc4aWpFcUJuY01faWpNblZCVF8wY1U4ZFEzWFR0ajVwdA?oc=5",
      "title": "Kredit Multiguna Perbankan Melambat, Daya Beli dan Kenaikan Suku Bunga Jadi Tantangan"
-    }
-   ]
-  },
-  {
-   "id": "ce290a6450df",
-   "title": "Singgung Pelanggaran Pasar Modal, Prabowo: 60 Orang Diperiksa",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Presiden Prabowo menegaskan tindakan tegas terhadap praktik manipulasi saham di Indonesia. Puluhan pelaku sedang diperiksa.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T21:07:01+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127210416-17-789242/singgung-pelanggaran-pasar-modal-prabowo-60-orang-diperiksa",
-     "title": "Singgung Pelanggaran Pasar Modal, Prabowo: 60 Orang Diperiksa"
     }
    ]
   }
