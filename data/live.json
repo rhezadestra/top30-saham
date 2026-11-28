@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T17:50:30+07:00",
+ "updated": "2026-11-28T17:53:30+07:00",
  "window": {
-  "start": "2026-11-27T17:50:30+07:00",
-  "end": "2026-11-28T17:50:30+07:00",
+  "start": "2026-11-27T17:53:30+07:00",
+  "end": "2026-11-28T17:53:30+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 88
+   "items": 87
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -257,34 +257,6 @@
    ]
   },
   {
-   "id": "203683fc7303",
-   "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "Laba Bersih BTN Naik 16,55 Persen per Oktober 2026, Jadi Rp2,92 Triliun",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T17:50:47+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEloVEVSYTZZOENnS2RQbHRIdno0NnF2aFp0c1hRdURwSWtRU3hNbVdIN1ZhNFVfNHQ2VGU2V0l3eWtpaEtSU3pEeGF5LTdlYzVvekk2b1ZoV2FoZkowYktSTTZHSU13S0pyelQyb2xjUFpKQnNxSGFHWHhRb0hUeURqUXlDZEM0S2I5UmVrSlI1cXlZc2JlRWwyaF92bkxpdm1DUNIBngFBVV95cUxQcU96ZmFFcmprZXJWckxQQnhWMUZvTTJkV0tvLW9rYnNwS3hMRVZ0RVlBZjhNN3g3SkNvN0NEM3luVkRsS05tSDBqWGJiRTJYZEk1bkpTTGxRQl9FSWN2VjF5Z0N1bmVNVzJKbVRQbWVQN09ySUdLU2U5LXNZNU9iUXZtOTBmbDlCbk93cVpvZS1VT3JyVG5MSW44ajJRUQ?oc=5",
-     "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-28T10:41:00+07:00",
-     "url": "https://www.idxchannel.com/banking/laba-bersih-btn-naik-1655-persen-per-oktober-2026-jadi-rp292-triliun",
-     "title": "Laba Bersih BTN Naik 16,55 Persen per Oktober 2026, Jadi Rp2,92 Triliun"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T11:01:46+07:00",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSXJnWE1vLUt4STY0MWV5XzBPV09jcEVDdlhxa3U4MVUyNWtzS2VrNklBN3BGUjNlRWx1U0tqaWJxRkxMZnI0VG9SR0IxMEFHeFNrU2NsbTd2MzhWRm5pOTE0dzJuSEhTOThpemVWRWs1UWZQbXNXZzdXMTlXZmNRbURSOXhBU3VxNzFaMWl0Vmxra2I1V0HSAY8BQVVfeXFMUFJZNWE1Y1Bkd0hDMXNmcGZCWXJSaGV2M0F1WE5XVTFTb1pPS2J1a2xUazl5Wmt6czNvUWRHX1VieGRKLVBncEE2SHY4VEVIanNRazhDT1RfSnJUbGVaalp0dXJ1OE1wLTQ4NE1vZFVBb1BOSHhWQ083aFVwNUxybEVBM0JpZmpCQ0JHTVo4dVU?oc=5",
-     "title": "BTN Cetak Laba Rp 2,92 Triliun Per Oktober 2026, Naik 16,55%"
-    }
-   ]
-  },
-  {
    "id": "c8c4c97c6039",
    "title": "3 Orang Ditahan di Kasus Goreng Saham DSSA, Ini Kata OJK",
    "category": "Regulasi",
@@ -305,6 +277,28 @@
      "time": "2026-11-28T10:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcE5CemZaXzVmMmJsRXp2TjUwWFJqZFE0NjdGTWpyeGdLT2pjTnEzVTBrX2hvMkZBaGRPZm1UNFBzTkkzTkVzaUpuQ0ptU0lOOGdJczloTU4tZHg0X3JYRlFvd0xOXy1mcFBETDFndllxTXBkdkZhYWp2am85SEZCY1JORFAyZXp2bUMxenAzdw?oc=5",
      "title": "Nasib Saham DSSA di Tengah Eskalasi Kasus Manipulasi"
+    }
+   ]
+  },
+  {
+   "id": "af1ceae30bc5",
+   "title": "Laba Bersih BTN Naik 16,55 Persen per Oktober 2026, Jadi Rp2,92 Triliun",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "Laba Bersih BTN Naik 16,55 Persen per Oktober 2026, Jadi Rp2,92 Triliun",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T10:41:00+07:00",
+     "url": "https://www.idxchannel.com/banking/laba-bersih-btn-naik-1655-persen-per-oktober-2026-jadi-rp292-triliun",
+     "title": "Laba Bersih BTN Naik 16,55 Persen per Oktober 2026, Jadi Rp2,92 Triliun"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T11:01:46+07:00",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSXJnWE1vLUt4STY0MWV5XzBPV09jcEVDdlhxa3U4MVUyNWtzS2VrNklBN3BGUjNlRWx1U0tqaWJxRkxMZnI0VG9SR0IxMEFHeFNrU2NsbTd2MzhWRm5pOTE0dzJuSEhTOThpemVWRWs1UWZQbXNXZzdXMTlXZmNRbURSOXhBU3VxNzFaMWl0Vmxra2I1V0HSAY8BQVVfeXFMUFJZNWE1Y1Bkd0hDMXNmcGZCWXJSaGV2M0F1WE5XVTFTb1pPS2J1a2xUazl5Wmt6czNvUWRHX1VieGRKLVBncEE2SHY4VEVIanNRazhDT1RfSnJUbGVaalp0dXJ1OE1wLTQ4NE1vZFVBb1BOSHhWQ083aFVwNUxybEVBM0JpZmpCQ0JHTVo4dVU?oc=5",
+     "title": "BTN Cetak Laba Rp 2,92 Triliun Per Oktober 2026, Naik 16,55%"
     }
    ]
   },
