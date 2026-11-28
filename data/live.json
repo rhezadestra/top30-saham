@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T11:11:09+07:00",
+ "updated": "2026-11-28T11:14:09+07:00",
  "window": {
-  "start": "2026-11-27T11:11:09+07:00",
-  "end": "2026-11-28T11:11:09+07:00",
+  "start": "2026-11-27T11:14:09+07:00",
+  "end": "2026-11-28T11:14:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 132
+   "items": 131
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 78
+   "items": 77
   },
   "Investor.id": {
    "via": "google",
@@ -2052,24 +2052,6 @@
      "time": "2026-11-27T11:24:08+07:00",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbnJ6TmJwWkxab0VlNjJQZGlwQVZtTkt0N1dOSGVCcmVta29OOXhBTjFrdWRzNlRsV25NV0lEWnhETTJHX0RadWtGNXh1b3pzV2k0eWtKbHc5aFFicXFlYVNfR2lYVDU1S2tuNkNaY0toanFDdlNEMm93dlBiaUJLamRuZjVVM1ZwdGxyYVo3aWJxOXlueXZVcjN2cjV0TjJnZGF4N25lUEF4SW9NT1N3elhkSXQzNnFUdGc?oc=5",
      "title": "INAI Hadir di IPOT X Mobile, Investor Tinggal Bertanya lewat Chat"
-    }
-   ]
-  },
-  {
-   "id": "b7de4600308b",
-   "title": "Kenaikan Harga Saham TOBA Jadi Sorotan, Cek Profil Emiten dan Kinerja Terkini",
-   "category": "Kinerja",
-   "tickers": [
-    "TOBA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T11:13:19+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYWEya3V2REZTbXpfLTBCYUg0V2N5Q1Z5X2VCd2FaUThNN3l2eTF3eEY0UmZrc0NxOGFiUi1zZ1kyMVg5MHItVnQ3cUhET2FZQVBIcl9UTU45TmhDRVVmZWxZUDdOOWxEM0ZfZC1iRXhNZWRLUkVZNDdTYWRjTThkTndVQnB6cld2SUtwRTA3Y3NzaXVITnJKZWRFWk9WZTVNeHJIUUxoQlhBVVpUMlZIaUln0gGqAUFVX3lxTFBMa0tTNE4tUEtuczhpSEwxdlBxSjRGaTRMVGJrdXA0N3N0Q1ozTVVOcHpERlNocHR5eXE0RXl3aHRCSmZHOEJXMUhSaTdfTjBrcGdlY2Q4Um1rUEdGNTltYWgtRmtZVE5TTzl3YmhwLUx4ZktraE5BcDJFSkp1RnBVQXpoQk9GdTdoWXRXMnhNTjdYMzRtQjg2Zm1hUmhveTNDeDBlQ3JMR25R?oc=5",
-     "title": "Kenaikan Harga Saham TOBA Jadi Sorotan, Cek Profil Emiten dan Kinerja Terkini"
     }
    ]
   },
