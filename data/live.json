@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T11:01:39+07:00",
+ "updated": "2026-11-28T11:04:39+07:00",
  "window": {
-  "start": "2026-11-27T11:01:39+07:00",
-  "end": "2026-11-28T11:01:39+07:00",
+  "start": "2026-11-27T11:04:39+07:00",
+  "end": "2026-11-28T11:04:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 58,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests",
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 133
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -53,10 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 132,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 136
   }
  },
  "prevAt": "2026-11-28T10:07:08+07:00",
@@ -818,6 +811,30 @@
    ]
   },
   {
+   "id": "a79def9f126f",
+   "title": "BERITA POPULER: Manuver Emiten Portofolio Andry Hakim hingga Omzet FORU Meledak",
+   "category": "Kinerja",
+   "tickers": [
+    "FORU"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T05:01:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU1JnNnlzRmIwNjJqSndCcmh5Wm5rOTE5a19JZ3g3Ti1USC1QOGlDVGRpQ2xxVXBZR0h0eFo0V3NseWk3MHhRQ0NiZm11ZzRIOUVPN18xYWJCaFdQU05raG1NNkI5bjNxcDJUdVBGU0FCTkpUM3BmWnJwUGRVQ3lmSWQ1d2Nvdy13eTgzV05VZ2psVEhYeTg5OHhRZk9UYkFGcVhMYlBHS09YY28wMnl6UGxn?oc=5",
+     "title": "BERITA POPULER: Manuver Emiten Portofolio Andry Hakim hingga Omzet FORU Meledak"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T05:01:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSkRnenJNSTVxeGVONGFwS01EVzZVUzdqUE9zcHh5SU14cy1jVzl1cjFFMHd5NmVGNHpsZ3ZGbWs1RGNGVjFiNmZwbE9ETFlZOGpnQ21yb2RsTER0MkhZQkFhOFpSYmcwZnlFTHV1TTVRMDlmblY1dTZDNjE5UXFNRURmclQ3bndRR3NSaFo3VzV4Q19oN0o5UHVvTnNHSjFUUWMxZlhpY28?oc=5",
+     "title": "BERITA POPULER: Manuver Emiten Portofolio Andry Hakim Omzet FORU Meledak"
+    }
+   ]
+  },
+  {
    "id": "567fe040b98c",
    "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak",
    "category": "Kinerja",
@@ -1528,6 +1545,22 @@
    ]
   },
   {
+   "id": "f995c73a9735",
+   "title": "Prabowo Soroti Kredit Bank Himbara Berputar di Debitur yang Sama",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "Prabowo Soroti Kredit Bank Himbara Berputar di Debitur yang Sama. (Foto Istimewa)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T11:00:00+07:00",
+     "url": "https://www.idxchannel.com/banking/prabowo-soroti-kredit-bank-himbara-berputar-di-debitur-yang-sama",
+     "title": "Prabowo Soroti Kredit Bank Himbara Berputar di Debitur yang Sama"
+    }
+   ]
+  },
+  {
    "id": "10d02dabbc83",
    "title": "Simak Strategi Humpuss Maritim Internasional (HUMI) Memperluas Bisnis",
    "category": "Kinerja",
@@ -1630,24 +1663,6 @@
      "time": "2026-11-28T05:50:07+07:00",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdlZnWFBGamkwVmtXYW5teFpfNnpRM20xYWlZV0V6bEVQb1VWTERCZFpNZkNpWTRzTWZ3cXE2VlFTRG5lLUg4UXNRNjZZVEgyQXByMzlDR3RKV21oTURTSE9KSnhpc3Z2Y1RrejY2QW4zeDBKWDlIWXo3RlBBeVdUWmZ2c1VpcmNlSmZGMS1jWXNSWHdocFdnOUJoczBXOEnSAZgBQVVfeXFMTm9xbnNGOVVaODkwazdueWx5Ym44N0hhMlNRd2lIYUJpRlRjSzRhMm01MldlNTdJdHpEYnpiamJ4UDJsaTFERG5HOEpVVzFWMEZwN1BISHhLUE9TOF9GWDNGbmJsZUlXcXh4eVBqQ2hRZnZpdUx6cndzRmZKMjVwUnBMbUdBN044bU96OWpZTzY3UEE2UjN1eWQ?oc=5",
      "title": "Target Penambahan Bank Anggota KBMI 4 Tahun Ini Tercapai, Kenapa?"
-    }
-   ]
-  },
-  {
-   "id": "1b7bf9bee88e",
-   "title": "BERITA POPULER: Manuver Emiten Portofolio Andry Hakim Omzet FORU Meledak",
-   "category": "Kinerja",
-   "tickers": [
-    "FORU"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-28T05:01:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSkRnenJNSTVxeGVONGFwS01EVzZVUzdqUE9zcHh5SU14cy1jVzl1cjFFMHd5NmVGNHpsZ3ZGbWs1RGNGVjFiNmZwbE9ETFlZOGpnQ21yb2RsTER0MkhZQkFhOFpSYmcwZnlFTHV1TTVRMDlmblY1dTZDNjE5UXFNRURmclQ3bndRR3NSaFo3VzV4Q19oN0o5UHVvTnNHSjFUUWMxZlhpY28?oc=5",
-     "title": "BERITA POPULER: Manuver Emiten Portofolio Andry Hakim Omzet FORU Meledak"
     }
    ]
   },
