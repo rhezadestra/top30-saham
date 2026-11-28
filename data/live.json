@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T18:51:01+07:00",
+ "updated": "2026-11-28T18:54:00+07:00",
  "window": {
-  "start": "2026-11-27T18:51:01+07:00",
-  "end": "2026-11-28T18:51:01+07:00",
+  "start": "2026-11-27T18:54:00+07:00",
+  "end": "2026-11-28T18:54:00+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 76
+   "items": 74
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -487,28 +487,6 @@
    ]
   },
   {
-   "id": "58998c833d57",
-   "title": "Tren Investasi Defensif Berlanjut, Dana Investor Mengalir ke Reksadana Pasar Uang",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T18:53:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeG51djVzVDBPc2d0Z2x5cWRHeVA1UjZpckpmM3R2R1oxc3NzSnludzV0eHRCaVpxaWlYaGVfRU5uRVJmRGN1d0hCX2xrT3RsTVpfVkJwTnpzZmIzNmtZdmhUdDBrUWMxWHR5SWR3Y1ZQb29GbVlXYmYxaGNJTEs5S3NHVHhkNlllajhlWHk2bGZKSWMwRGt4VXU5QTVaZTd3OTNYRHY1emQ3bWp5VmRDQTJ1Wkw0aWPSAa8BQVVfeXFMT2VXYUlUUXg1eG54am82SGF1RUZPSTlOb2lYci0xdmlRcDVRbkhQVGdqRzRhRGktRlpXM1A5MkhZbXFTQ1RrdkQ5OTJNVEpyQnl5UUN3aEpxSXlPTVBrQVl0eWIyUnFGbDdCR2d5TTJkU0tuaXZDdi0zRHp1WmZMRkRHRE9KeG9wWG1rQURRNWRSdmJpZU5SeEF0ak0yUi03TlRPNms3LXdiLUczWkJDQQ?oc=5",
-     "title": "Tren Investasi Defensif Berlanjut, Dana Investor Mengalir ke Reksadana Pasar Uang"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T18:53:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeG51djVzVDBPc2d0Z2x5cWRHeVA1UjZpckpmM3R2R1oxc3NzSnludzV0eHRCaVpxaWlYaGVfRU5uRVJmRGN1d0hCX2xrT3RsTVpfVkJwTnpzZmIzNmtZdmhUdDBrUWMxWHR5SWR3Y1ZQb29GbVlXYmYxaGNJTEs5S3NHVHhkNlllajhlWHk2bGZKSWMwRGt4VXU5QTVaZTd3OTNYRHY1emQ3bWp5VmRDQTJ1Wkw0aWM?oc=5",
-     "title": "Tren Investasi Defensif Berlanjut, Dana Investor Mengalir ke Reksadana Pasar Uang"
-    }
-   ]
-  },
-  {
    "id": "664c99468efb",
    "title": "OJK Bantah Kabar SMBC Indonesia Bakal Delisting dari BEI",
    "category": "Aksi korporasi",
@@ -689,24 +667,6 @@
      "time": "2026-11-27T19:15:12+07:00",
      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JT1JfQnJCVmhDS0pIeDdOZTVBZWNwanA0X29NMzNKVjJvVURCeUl0RmhNQzNTTlFHeU5tbFM5cjA0MEg4VTJsX1ptWTU2NjJ4MnJ5ZGJqcjl6S1U0VkFucDRQLXA2ckdCSkhXSDlrMA?oc=5",
      "title": "Ancang-Ancang Berburu Dividen"
-    }
-   ]
-  },
-  {
-   "id": "cfa1a63405b8",
-   "title": "KBank Indonesia (BMAS) Terima Pinjaman US$5 Juta dari Pemegang Saham Utama",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "BMAS"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T18:52:12+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNTFDdWpiTERjLTRGNGJnY2ZEMEIyVE1XbllJM1VYTkdSU0hVU09qU2ZrcTAzUGxkdmI5OXRmRUV1QUlqR2dKNzNtcHFCRl93cHZxdFpwdnRkU19HeEd1MWdic3NLYXlxX29RY2NmTV81MEJSQVdkLW5jS09JbFBNX0htc1VTejZIcWZtMzZOdHJGWUZ1R1AySkRLNnRtMXl6X01Nc0JGd0w0UdIBowFBVV95cUxOd2NXdG8tMFZoZEpzQzBjN2txdkRZVVdpUUJaMmE3QjI0Q2gwTE9Yejl5R1puTVZvcE5MLXNWQUc3RmVVWEhCLUg0alVtZzJoOTFRczlwdFVwSU5aQVdqb2RJenVmNi10dGg4LUswZnFaTi04R0h6ZW9PM3Zhd2hUaE1zZ0JwWW1JUW5ZcGhjTkYxMnBvT3h1Z3pxWUU1MG1VSmFZ?oc=5",
-     "title": "KBank Indonesia (BMAS) Terima Pinjaman US$5 Juta dari Pemegang Saham Utama"
     }
    ]
   },
