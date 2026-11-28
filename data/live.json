@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T17:14:03+07:00",
+ "updated": "2026-11-28T17:17:03+07:00",
  "window": {
-  "start": "2026-11-27T17:14:03+07:00",
-  "end": "2026-11-28T17:14:03+07:00",
+  "start": "2026-11-27T17:17:03+07:00",
+  "end": "2026-11-28T17:17:03+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 90
+   "items": 91
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 62
+   "items": 61
   },
   "Investor.id": {
    "via": "google",
@@ -1309,24 +1309,6 @@
      "time": "2026-11-27T17:22:00+07:00",
      "url": "https://www.idxchannel.com/news/enam-terdakwa-kasus-korupsi-minyak-mentah-petral-didakwa-rugikan-negara-rp61-triliun",
      "title": "Enam Terdakwa Kasus Korupsi Minyak Mentah Petral Didakwa Rugikan Negara Rp6,1 Triliun"
-    }
-   ]
-  },
-  {
-   "id": "cca6a46b8428",
-   "title": "TOBA Kantongi Restu Investasi HPS Maksimal 555 Juta Dolar Singapura untuk Bisnis Limbah",
-   "category": "Kinerja",
-   "tickers": [
-    "TOBA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T17:16:51+07:00",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWEl0WHl6V0N2SjNxVE5RNWdpZUxyZmJjODZMOWNaTWRycTlPbVlfZ25pY01JX1FIejh0S01rUlVBSkM2T1FlODI1ODVldXBEcjFGZGlYT3NFRUJsLVA2UDl6VTVrVXpZeUczNXZ3aG05S0EtbjJuQVZYaDdJMWRmLTlZaVo4UXVnWFJaM2taVFVhRjJJWTBDNGsxa1ZPNEZwdXlpZWJjTGpKUWJ5NHB2eklMSHBKVWtON3RBYWIxMjhMM2wxR3hOYndjYVJubXpTcnBTY0V3?oc=5",
-     "title": "TOBA Kantongi Restu Investasi HPS Maksimal 555 Juta Dolar Singapura untuk Bisnis Limbah"
     }
    ]
   },
