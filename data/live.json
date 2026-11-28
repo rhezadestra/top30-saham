@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T12:23:40+07:00",
+ "updated": "2026-11-28T12:26:40+07:00",
  "window": {
-  "start": "2026-11-27T12:23:40+07:00",
-  "end": "2026-11-28T12:23:40+07:00",
+  "start": "2026-11-27T12:26:40+07:00",
+  "end": "2026-11-28T12:26:40+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 79
+   "items": 80
   },
   "Investor.id": {
    "via": "google",
-   "items": 130
+   "items": 123
   }
  },
  "prevAt": "2026-11-28T12:14:41+07:00",
@@ -1246,6 +1246,25 @@
      "time": "2026-11-27T12:57:34+07:00",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcWgzaldhVHRENndnbl9lOTNnMkhITGpJWFY3WS1NY21UQl82czQ1U1c1N1hGdGJLZWtpdTBPSjMySDRfaENfZk1GT3dWMEtpdE9hWm4zLXMwMkhlMlZVR3hGV2xWR2d3V3B3cWRNdWtXUC1BWUZPekNKTDhnWjNaY2M1X0NCY2h1VDk4dldENHpWV29hdUowNFkwN3B2a3NteEZkMGpJV3RtOFBHVVhQbg?oc=5",
      "title": "Ekspansi Armada Emiten Pelayaran Dongkrak Prospek, Intip Peluang dan Risikonya"
+    }
+   ]
+  },
+  {
+   "id": "70bd0cf7340a",
+   "title": "Capex Emiten Telko TLKM–ISAT Risiko Terkerek Aturan Baru Data Center",
+   "category": "Regulasi",
+   "tickers": [
+    "TLKM",
+    "ISAT"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T12:21:57+07:00",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQXpQVm1jNzFqd1Y3Z1Z3eFFPZFVaUVY4TlBidFNIeVd2ZDVpRW9Na2xrekl2YUQ4ODUwUVJ5Ym11bXMzd0ljOFJORER0YTVXTS1TY1U0NEp3Z3BJWFhQTGpHUVBNa3I5LXVrNkFKTjdjSFdsc0RoMlRLUHZUZDhleUZlYW9QcnF4SVROM3MzeU9DS0cwU2tuM0xPUTl2ZGxrS0VCMnNibDRRbmo0MTBPMG81a1IzSkVNWk5LWg?oc=5",
+     "title": "Capex Emiten Telko TLKM–ISAT Risiko Terkerek Aturan Baru Data Center"
     }
    ]
   },
