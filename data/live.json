@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T20:12:57+07:00",
+ "updated": "2026-11-28T20:15:57+07:00",
  "window": {
-  "start": "2026-11-27T20:12:57+07:00",
-  "end": "2026-11-28T20:12:57+07:00",
+  "start": "2026-11-27T20:15:57+07:00",
+  "end": "2026-11-28T20:15:57+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,10 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 53,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 66
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -52,7 +49,10 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 63
+   "items": 61,
+   "errors": [
+    "google: HTTPError HTTP Error 429: Too Many Requests"
+   ]
   }
  },
  "prevAt": "2026-11-28T19:30:28+07:00",
@@ -220,28 +220,6 @@
      "time": "2026-11-28T11:01:46+07:00",
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSXJnWE1vLUt4STY0MWV5XzBPV09jcEVDdlhxa3U4MVUyNWtzS2VrNklBN3BGUjNlRWx1U0tqaWJxRkxMZnI0VG9SR0IxMEFHeFNrU2NsbTd2MzhWRm5pOTE0dzJuSEhTOThpemVWRWs1UWZQbXNXZzdXMTlXZmNRbURSOXhBU3VxNzFaMWl0Vmxra2I1V0HSAY8BQVVfeXFMUFJZNWE1Y1Bkd0hDMXNmcGZCWXJSaGV2M0F1WE5XVTFTb1pPS2J1a2xUazl5Wmt6czNvUWRHX1VieGRKLVBncEE2SHY4VEVIanNRazhDT1RfSnJUbGVaalp0dXJ1OE1wLTQ4NE1vZFVBb1BOSHhWQ083aFVwNUxybEVBM0JpZmpCQ0JHTVo4dVU?oc=5",
      "title": "BTN Cetak Laba Rp 2,92 Triliun Per Oktober 2026, Naik 16,55%"
-    }
-   ]
-  },
-  {
-   "id": "ef827be3276c",
-   "title": "Pesan Prabowo Buat BI: Harus Independen, Tapi Jaga Kepentingan Bangsa",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Presiden Prabowo Subianto menekankan pentingnya independensi Bank Indonesia sambil menjaga kepentingan bangsa. Dia apresiasi sinergi BI dan pemerintah.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T20:14:33+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127201138-17-789223/pesan-prabowo-buat-bi-harus-independen-tapi-jaga-kepentingan-bangsa",
-     "title": "Pesan Prabowo Buat BI: Harus Independen, Tapi Jaga Kepentingan Bangsa"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-28T00:05:26+07:00",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTmY5NUZFYnEwNE53OW1ZOUdUdjFFSlRCMTdZYTl6Z1VCcThaVUdIdnF1SHpVT0dvWlZ2NlQtYnU4SzZMby1CNXJXNDFmdTN2NE5uMDFveGRzcEU2SHgtdEJGcHhVcmFjR1lPZzBoVDhpcVlfZmhoUG9kYVdtdWtDTEZsTE4zWTR4elZmU3YyWTBnQQ?oc=5",
-     "title": "Prabowo: Bank Indonesia Harus Jaga Kepentingan Bangsa"
     }
    ]
   },
@@ -1219,6 +1197,22 @@
      "time": "2026-11-28T00:42:03+07:00",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQTZPSlRNTWpxZzIyWWNveEx2TFNhTDRGRnlnZ1Z3d2p6NjZYVXlHd3ZieFBYb0NBSWc5QUYxTTV3MmtFeHVIQllSZzVPSngwRHBGd2ZBbzF3XzVXdFN0c1p6ZzhfZlFxOGpsRWptLVhlckRnU0szamEwZGVrM1J4WUE0ZjdJa2c?oc=5",
      "title": "BI Beri Sinyal Arah Suku Bunga pada 2027"
+    }
+   ]
+  },
+  {
+   "id": "f41d781ef327",
+   "title": "Prabowo: Bank Indonesia Harus Jaga Kepentingan Bangsa",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T00:05:26+07:00",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTmY5NUZFYnEwNE53OW1ZOUdUdjFFSlRCMTdZYTl6Z1VCcThaVUdIdnF1SHpVT0dvWlZ2NlQtYnU4SzZMby1CNXJXNDFmdTN2NE5uMDFveGRzcEU2SHgtdEJGcHhVcmFjR1lPZzBoVDhpcVlfZmhoUG9kYVdtdWtDTEZsTE4zWTR4elZmU3YyWTBnQQ?oc=5",
+     "title": "Prabowo: Bank Indonesia Harus Jaga Kepentingan Bangsa"
     }
    ]
   },
