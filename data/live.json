@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T16:41:02+07:00",
+ "updated": "2026-11-28T16:47:02+07:00",
  "window": {
-  "start": "2026-11-27T16:41:02+07:00",
-  "end": "2026-11-28T16:41:02+07:00",
+  "start": "2026-11-27T16:47:02+07:00",
+  "end": "2026-11-28T16:47:02+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,10 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 74,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 91
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -52,10 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 32,
-   "errors": [
-    "google: HTTPError HTTP Error 429: Too Many Requests"
-   ]
+   "items": 111
   }
  },
  "prevAt": "2026-11-28T16:22:35+07:00",
@@ -906,6 +900,22 @@
      "time": "2026-11-27T16:47:34+07:00",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN0w4dF82RVU0VjNtY3Z3RXYxLU9lcjlDTXlRNG5MRF9DN25fX2ZqY1YwQkRiTXg5clFseDgyazFWZ0ZtWVhiZ2N1dldKTjVqR1NWTE5LczQ1dmJpcHc0THI4cHJTVFBEX3VyY3NfRTJTV0J6M0VnNk9qS0Rjbnk3dXFjVHk4eGlQMTZ5Y0R1X3ZEUHI4VVhBa2UwVDJNSHEzV2N3LQ?oc=5",
      "title": "Semarak Aksi Rights Issue, Bagaimana Daya Serap Pasar?"
+    }
+   ]
+  },
+  {
+   "id": "7f572edd1ae8",
+   "title": "Prabowo Sebut Kredit Bank Hanya Mengalir ke Nasabah Besar, Ini Kata OJK",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "Otoritas Jasa Keuangan (OJK) menilai bank memiliki alasan bisnis untuk mempertahankan penyaluran kredit kepada nasabah utama (prime customer). (Foto: Dok. OJK)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T16:43:00+07:00",
+     "url": "https://www.idxchannel.com/banking/prabowo-sebut-kredit-bank-hanya-mengalir-ke-nasabah-besar-ini-kata-ojk",
+     "title": "Prabowo Sebut Kredit Bank Hanya Mengalir ke Nasabah Besar, Ini Kata OJK"
     }
    ]
   },
