@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:25:09+07:00",
+ "updated": "2026-11-28T09:28:09+07:00",
  "window": {
-  "start": "2026-11-27T09:25:09+07:00",
-  "end": "2026-11-28T09:25:09+07:00",
+  "start": "2026-11-27T09:28:09+07:00",
+  "end": "2026-11-28T09:28:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 87
+   "items": 86
   },
   "Investor.id": {
    "via": "google",
-   "items": 130
+   "items": 128
   }
  },
  "prevAt": "2026-11-28T09:06:34+07:00",
@@ -225,46 +225,6 @@
  },
  "topics": [
   {
-   "id": "81eab62c8175",
-   "title": "BEI Sanksi 5 Emiten Gegara Data Free Float Bermasalah, Ada KPIG",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "Bursa Efek Indonesia menjatuhkan sanksi kepada lima emiten karena ketidakakuratan data saham free float. BEI menekankan pentingnya keterbukaan informasi.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T09:26:07+07:00",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQWt2RDFvLWVMYWZYSHprN1ZJaVRJRUt0V1QyRy1MbzdZSFF0Rm5qd0FNWllvXzhpQVdDZzgzVHVwQkFDQmpocW84ekZIcTF2ZnN5TjR0SkdpSjVKcXN2eV9YNEVONk9Sc1QwenBMWTBnc2ZjRWptUHk2bGhEeGtwVmdCZzlXcUlMdi1PdTh5bHNCR3V1MUdlZ0hYVlo?oc=5",
-     "title": "BEI Sanksi 5 Emiten Gegara Data Free Float Bermasalah, Ada KPIG"
-    },
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T09:30:11+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127091911-17-788952/data-free-float-tak-akurat-bei-sanksi-5-emitan-ini",
-     "title": "Data Free Float Tak Akurat, BEI Sanksi 5 Emitan Ini"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T10:54:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFVDcWk2bXZMUGMyMmpjZy1oczFYUVN3c3QtYXg3WG9FZEc4R1E4eGt2eGlWWnEzRFdxU05XLW00bTk5TnRIM3hCUWhZX2IzQnVjeC1Ub01McnRIVDd6bXIzeTBhNFhsMVdfdUpLd0NRR3BKYnJFczlFWUt4akxndFNMYXY3WF9VbmtsT2hLYVhRRTltQUhKNnEwZHk2d9IBlgFBVV95cUxNcTJoTmI3WHdpR2hWSEYtLWJ6N25RMVZYbGFFRzM2SmRPb0JKYmVPVnFiSHRDV3RvRDUxN2ZJNTVISUF0WkhWMEV6UkgtT0o3Z0hsTnlRQ3hkeWFmeTlMTXZmZnVJYkpzQXFSNzk3ZVJIQUQ3MEFJdmFDcko5aHBUWGM1Tm1aelU2VGtwQV9KX2VUUWZ4V2c?oc=5",
-     "title": "Buntut Data Free Float Bermasalah, BEI Suspensi Lima Saham Ini"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T11:14:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTU3Zmw5TnB1SWtVZGM0dUFyOEwwd3NJN2xyMWl0U2JBdl81M091S19ZWDVSdkR4Q2NhaWM1emZFU2Q4RnJNZy1ZQW9Pa20wby11RXlVVHRxaWRfTHZrUlU5cXBxRFZjNGtiUGlzbENsdDQ3Sm9kUHFfWmstUDZLMWw0cU9pM0dqa3plSC1hVGFzVEpJZXB0TG9FbFJma1dxenJxZFFSZGZIVDBTNXBHZFpKd1o?oc=5",
-     "title": "Data Free Float Tidak Akurat, BEI Jatuhkan Sanksi kepada 5 Emiten"
-    },
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T11:35:33+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float",
-     "title": "Tak Cuma Beri Sanksi, BEI Juga Gembok 5 Saham Ini Gegara Free Float"
-    }
-   ]
-  },
-  {
    "id": "5efb24c17d83",
    "title": "Bank Mandiri Salurkan KUR ke Lebih dari 193.000 Pelaku Usaha Baru hingga Oktober 2026",
    "category": "Kinerja",
@@ -437,6 +397,34 @@
    ]
   },
   {
+   "id": "3725d91afccf",
+   "title": "Data Free Float Tak Akurat, BEI Sanksi 5 Emitan Ini",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "Bursa Efek Indonesia menjatuhkan sanksi kepada lima emiten karena ketidakakuratan data saham free float. BEI menekankan pentingnya keterbukaan informasi.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T09:30:11+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127091911-17-788952/data-free-float-tak-akurat-bei-sanksi-5-emitan-ini",
+     "title": "Data Free Float Tak Akurat, BEI Sanksi 5 Emitan Ini"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T11:14:14+07:00",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTU3Zmw5TnB1SWtVZGM0dUFyOEwwd3NJN2xyMWl0U2JBdl81M091S19ZWDVSdkR4Q2NhaWM1emZFU2Q4RnJNZy1ZQW9Pa20wby11RXlVVHRxaWRfTHZrUlU5cXBxRFZjNGtiUGlzbENsdDQ3Sm9kUHFfWmstUDZLMWw0cU9pM0dqa3plSC1hVGFzVEpJZXB0TG9FbFJma1dxenJxZFFSZGZIVDBTNXBHZFpKd1o?oc=5",
+     "title": "Data Free Float Tidak Akurat, BEI Jatuhkan Sanksi kepada 5 Emiten"
+    },
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T11:35:33+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float",
+     "title": "Tak Cuma Beri Sanksi, BEI Juga Gembok 5 Saham Ini Gegara Free Float"
+    }
+   ]
+  },
+  {
    "id": "75f0dcdcf024",
    "title": "BRI Ungkap Skema Merger Tiga Asuransi Umum dalam Ekosistem Danantara",
    "category": "Aksi korporasi",
@@ -477,6 +465,28 @@
      "time": "2026-11-27T18:32:02+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127181126-17-789191/jasindo-brins-jasaraharja-putera-merger-awal-2027-begini-skemanya",
      "title": "Jasindo, BRINS dan Jasaraharja Putera Merger Awal 2027, Begini Skemanya"
+    }
+   ]
+  },
+  {
+   "id": "36b351d6bc91",
+   "title": "BEI Suspensi 5 Saham usai Langgar Ketentuan Pelaporan Free Float",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-27T09:52:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWjliTHJyX3NkZjB1N0xLUlJlZDgyTEgwVlRXS05lWjhKRVdvSzBPc0xnZWJLd0dndG9kMjBsc3R3blpqcmtkYVVpNURzU3JmbFVtX1p1U05qTjBjRjVLS3Babk03MDJXVkRKQnVaZUlReFB0ZUR0Y1ozel9jRjdWWjQ0a0p3U0p6RGlNZ0xQQ3A1RENlU2lWNVpyeXAway1uTlVsOXJR0gGrAUFVX3lxTE9ZRXhVdlVmZ0lqcWxUZUNVV3pPdVQwRjJDZjBrWXp2ODg5eUIzU3g3ZkNHbjVIQ3BqcTA0SVpkQ0R0RWtpM0VXT05WSzFRV0xuakk1aFhPd3I4eGMyUUFvNnJVYVpJNHpEdXAwcWpQVER0QjdodURrSjhMYXRYeDhkdDgybUktdXpnRTdrdlFvXzN5ZHZRTmYwQU5nRnhmOTFLb3FaQl9wcDRNbw?oc=5",
+     "title": "BEI Suspensi 5 Saham usai Langgar Ketentuan Pelaporan Free Float"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T10:54:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFVDcWk2bXZMUGMyMmpjZy1oczFYUVN3c3QtYXg3WG9FZEc4R1E4eGt2eGlWWnEzRFdxU05XLW00bTk5TnRIM3hCUWhZX2IzQnVjeC1Ub01McnRIVDd6bXIzeTBhNFhsMVdfdUpLd0NRR3BKYnJFczlFWUt4akxndFNMYXY3WF9VbmtsT2hLYVhRRTltQUhKNnEwZHk2d9IBlgFBVV95cUxNcTJoTmI3WHdpR2hWSEYtLWJ6N25RMVZYbGFFRzM2SmRPb0JKYmVPVnFiSHRDV3RvRDUxN2ZJNTVISUF0WkhWMEV6UkgtT0o3Z0hsTnlRQ3hkeWFmeTlMTXZmZnVJYkpzQXFSNzk3ZVJIQUQ3MEFJdmFDcko5aHBUWGM1Tm1aelU2VGtwQV9KX2VUUWZ4V2c?oc=5",
+     "title": "Buntut Data Free Float Bermasalah, BEI Suspensi Lima Saham Ini"
     }
    ]
   },
@@ -1532,22 +1542,6 @@
      "time": "2026-11-27T10:00:01+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY285b0p5X1lkX0JLZ2ZJdXNNOWUtclhkY2cwQXNYWW9kYlh5QlJyRC1SLXVqdUxTdmltZE5VcUR4RDVSZzVZZzFLUVZITDJGS0taeEdlX3EyY3EzdDBlSlZpbjl6QWpjZmZndmlwc2JoZ3NJdy1mZ29aWm5SV0lrQ1VhQ21QRTNhZTNTekJva3RsZFE0ZEk0eHhXVmtyX3lZc0xueGlVdXFObmhlcUdkRWFn?oc=5",
      "title": "Kebijakan Zero ODOL 2027 Berpotensi Tekan Margin Jangka Pendek Emiten Logistik"
-    }
-   ]
-  },
-  {
-   "id": "36b351d6bc91",
-   "title": "BEI Suspensi 5 Saham usai Langgar Ketentuan Pelaporan Free Float",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T09:52:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWjliTHJyX3NkZjB1N0xLUlJlZDgyTEgwVlRXS05lWjhKRVdvSzBPc0xnZWJLd0dndG9kMjBsc3R3blpqcmtkYVVpNURzU3JmbFVtX1p1U05qTjBjRjVLS3Babk03MDJXVkRKQnVaZUlReFB0ZUR0Y1ozel9jRjdWWjQ0a0p3U0p6RGlNZ0xQQ3A1RENlU2lWNVpyeXAway1uTlVsOXJR0gGrAUFVX3lxTE9ZRXhVdlVmZ0lqcWxUZUNVV3pPdVQwRjJDZjBrWXp2ODg5eUIzU3g3ZkNHbjVIQ3BqcTA0SVpkQ0R0RWtpM0VXT05WSzFRV0xuakk1aFhPd3I4eGMyUUFvNnJVYVpJNHpEdXAwcWpQVER0QjdodURrSjhMYXRYeDhkdDgybUktdXpnRTdrdlFvXzN5ZHZRTmYwQU5nRnhmOTFLb3FaQl9wcDRNbw?oc=5",
-     "title": "BEI Suspensi 5 Saham usai Langgar Ketentuan Pelaporan Free Float"
     }
    ]
   },
