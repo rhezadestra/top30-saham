@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-29T00:42:01+07:00",
+ "updated": "2026-11-29T00:42:33+07:00",
  "window": {
-  "start": "2026-11-28T00:42:01+07:00",
-  "end": "2026-11-29T00:42:01+07:00",
+  "start": "2026-11-28T00:42:33+07:00",
+  "end": "2026-11-29T00:42:33+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 57
+   "items": 56
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -1351,22 +1351,6 @@
      "time": "2026-11-28T04:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX21vYW5jNHRkQVA1dHVUdG9uTVBZWGJvdlRwM0diZFJzLUJLdHpMaUI5aTlCY25ESmFudFpsTlpGSkhPWnFlVFpvOWxjN2xkT2pReFY1TEk4ZlBva2Q1RUZianRhVW92SVBRZE9aRnFpS0F5aDIzWWFndTlaa20zYjI0V3NDcHBiYkV2Q3ZSX1pmdjM5c2Y3YWJ5c1QxMlNXNzlHTG9oT3huNlBIYkMzcHV1eVNkd3Z4NlI2VDloQXE?oc=5",
      "title": "Ini Klarifikasi Menko Airlangga Soal Pungutan Ekspor Sawit 0,5% oleh DSI"
-    }
-   ]
-  },
-  {
-   "id": "4718f5612070",
-   "title": "BI Beri Sinyal Arah Suku Bunga pada 2027",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-28T00:42:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQTZPSlRNTWpxZzIyWWNveEx2TFNhTDRGRnlnZ1Z3d2p6NjZYVXlHd3ZieFBYb0NBSWc5QUYxTTV3MmtFeHVIQllSZzVPSngwRHBGd2ZBbzF3XzVXdFN0c1p6ZzhfZlFxOGpsRWptLVhlckRnU0szamEwZGVrM1J4WUE0ZjdJa2c?oc=5",
-     "title": "BI Beri Sinyal Arah Suku Bunga pada 2027"
     }
    ]
   }
