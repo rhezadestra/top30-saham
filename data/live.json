@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T10:46:38+07:00",
+ "updated": "2026-11-28T10:49:39+07:00",
  "window": {
-  "start": "2026-11-27T10:46:38+07:00",
-  "end": "2026-11-28T10:46:38+07:00",
+  "start": "2026-11-27T10:49:39+07:00",
+  "end": "2026-11-28T10:49:39+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 82
+   "items": 81
   },
   "Investor.id": {
    "via": "google",
-   "items": 135
+   "items": 134
   }
  },
  "prevAt": "2026-11-28T10:07:08+07:00",
@@ -865,6 +865,28 @@
      "time": "2026-11-27T14:33:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeno1MWNTZzRfcmFaRWtGQk1FelBDeDREeGpnN096dlNyM3lmOE0wck9VUC1sRzNVc0JqQ0R2RDl5T0N3X1JIbXlDUG8tdkZZV0ZVQmZnbkJvSUdTdi0wNm84TjFBbzJZRElvSG9Cc3hBcFZqbWNudmJqS2VWWThBX0IzLXJLU1FPR183NExuaTJKZXF2WkluSENweVBPNUV1Rmp4WDhKdE4zUVl1TUhB0gG0AUFVX3lxTE53UlpJcXZBRGlGUV81MGtzVTRrLWpiaXlHYTUtZ21TYlRpWXVGclo4b25sM0VSMEtLcHVmNkR3MTRteThrcFRzUlRzaDVpaV9xblNnVFJZRHE1MTR2LWRzR2hvY0p1bmpnaGRoa2c1cWZmRnZvdGlCa2s2YU1Iei10a2xKQ3J2TzlGanNfM0hrUUVCYmtsLUxpYWM5MjAtM1JDbGJTZHZYSDExaEwtYzdKaG1uOQ?oc=5",
      "title": "AS Dorong Venezuela dan Irak Keluar dari OPEC Demi Ambisi Produksi Minyak"
+    }
+   ]
+  },
+  {
+   "id": "110127fe4838",
+   "title": "UMP 2027 Tekan Prospek Emiten Ritel",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T09:48:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tclU5WVN1bVFLdHdzNDB4T2FlQUp2eHZQdE1PdFY5QklHeDA3ejlNWnhnb2Q3dWgzZ1h0cEgxSDNwd25GZWZjVUNreWZIR0J4NVZmY1FKVmtHanBmNTNvN2Y4NXNvX0l4Sjh4RGY0Y2JhQzhsLTV2aw?oc=5",
+     "title": "UMP 2027 Tekan Prospek Emiten Ritel"
+    },
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T09:48:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uRVhSSnNfNUJKRGZlX2VKNEh4c1ZWTWJrOGxnNWhHT1lMdDYzYWJFZUJHZGp2Y2NTbGpJbC1weDVZeGZrT29VTGxycmM3YS1pSjczaWRSNDR1bnc5NXRiUU0xZzFRLVlaemN4SkVWZm9YYVNZSnR3TGlnbw?oc=5",
+     "title": "UMP 2027 Tekan Prospek Emiten Ritel - Halaman 3"
     }
    ]
   },
@@ -2153,22 +2175,6 @@
      "time": "2026-11-28T10:15:06+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261128081135-17-789270/18-bank-di-ri-resmi-tutup-per-november-2026-ini-daftarnya",
      "title": "18 Bank di RI Resmi Tutup per November 2026, Ini Daftarnya"
-    }
-   ]
-  },
-  {
-   "id": "110127fe4838",
-   "title": "UMP 2027 Tekan Prospek Emiten Ritel",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-28T09:48:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tclU5WVN1bVFLdHdzNDB4T2FlQUp2eHZQdE1PdFY5QklHeDA3ejlNWnhnb2Q3dWgzZ1h0cEgxSDNwd25GZWZjVUNreWZIR0J4NVZmY1FKVmtHanBmNTNvN2Y4NXNvX0l4Sjh4RGY0Y2JhQzhsLTV2aw?oc=5",
-     "title": "UMP 2027 Tekan Prospek Emiten Ritel"
     }
    ]
   },
