@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T22:52:54+07:00",
+ "updated": "2026-11-28T22:56:31+07:00",
  "window": {
-  "start": "2026-11-27T22:52:54+07:00",
-  "end": "2026-11-28T22:52:54+07:00",
+  "start": "2026-11-27T22:56:31+07:00",
+  "end": "2026-11-28T22:56:31+07:00",
   "hours": 24
  },
  "target": 30,
@@ -49,7 +49,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 46
+   "items": 47
   },
   "Investor.id": {
    "via": "google",
@@ -189,36 +189,6 @@
      "time": "2026-11-28T22:41:11+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWFdzdGxRbVUzN2YzTC00eUlJMEh1bHpiMXJlQTRNWmE0cGt3LXloTGlVajVOM0gwVXl1NXBhMlNYbTFHQjBqRWh4blRXRGR2NDFNTEJoYW12SjgycVpvc0VHVWRtdTFUcGhVZS1ndDNkdVpwUG1udXdscnJjcEdqMFZwczN5RmNuWVB3TTBvQjdVelZEcG0wMjFMWVVOLWtSX0dVVHpQS2XSAaIBQVVfeXFMT2oza1Z0cnp4b0xycWxOcU91WEVvSW1ET296UUF5VE9uOGJLMlBFZm5GcGFLR3pKSWh6UVRMX2xsLXpDTUJmZzREemRleDJFUk1PaEFZd1FfSUVZWm95SG43T1IwMHBpVzl4azlkVm9NWjNYaTU3Y1BlRUZzSXkxQTR0T0lDTjdnSE9BQlk1RjJQczhHT2JjRlA5d1h2bU1lRUpB?oc=5",
      "title": "Laba Bersih SMF Tumbuh 31,71% Jadi Rp 569 Miliar hingga Kuartal III-2026"
-    }
-   ]
-  },
-  {
-   "id": "c8c4c97c6039",
-   "title": "3 Orang Ditahan di Kasus Goreng Saham DSSA, Ini Kata OJK",
-   "category": "Regulasi",
-   "tickers": [
-    "DSSA"
-   ],
-   "summary": "OJK apresiasi penegakan hukum oleh Bareskrim yang menetapkan tiga tersangka dalam kasus manipulasi saham DSSA. Diharapkan pengusutan terus berlanjut.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T22:54:11+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127225210-17-789255/3-orang-ditahan-di-kasus-goreng-saham-dssa-ini-kata-ojk",
-     "title": "3 Orang Ditahan di Kasus Goreng Saham DSSA, Ini Kata OJK"
-    },
-    {
-     "media": "Bloomberg Technoz",
-     "time": "2026-11-28T08:01:03+07:00",
-     "url": "https://www.bloombergtechnoz.com/detail-news/129154/ojk-sebut-60-orang-diperiksa-polisi-dalam-kasus-dssa",
-     "title": "OJK Sebut 60 Orang Diperiksa Polisi dalam Kasus DSSA"
-    },
-    {
-     "media": "Investor.id",
-     "time": "2026-11-28T10:00:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcE5CemZaXzVmMmJsRXp2TjUwWFJqZFE0NjdGTWpyeGdLT2pjTnEzVTBrX2hvMkZBaGRPZm1UNFBzTkkzTkVzaUpuQ0ptU0lOOGdJczloTU4tZHg0X3JYRlFvd0xOXy1mcFBETDFndllxTXBkdkZhYWp2am85SEZCY1JORFAyZXp2bUMxenAzdw?oc=5",
-     "title": "Nasib Saham DSSA di Tengah Eskalasi Kasus Manipulasi"
     }
    ]
   },
@@ -816,6 +786,24 @@
    ]
   },
   {
+   "id": "601e87c5fb20",
+   "title": "Nasib Saham DSSA di Tengah Eskalasi Kasus Manipulasi",
+   "category": "Regulasi",
+   "tickers": [
+    "DSSA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T10:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcE5CemZaXzVmMmJsRXp2TjUwWFJqZFE0NjdGTWpyeGdLT2pjTnEzVTBrX2hvMkZBaGRPZm1UNFBzTkkzTkVzaUpuQ0ptU0lOOGdJczloTU4tZHg0X3JYRlFvd0xOXy1mcFBETDFndllxTXBkdkZhYWp2am85SEZCY1JORFAyZXp2bUMxenAzdw?oc=5",
+     "title": "Nasib Saham DSSA di Tengah Eskalasi Kasus Manipulasi"
+    }
+   ]
+  },
+  {
    "id": "fcc05ab0ed89",
    "title": "OJK Pastikan Penambahan Bank KBMI 4 Tak Terealisasi Tahun Ini, Target Baru Awal 2027",
    "category": "Regulasi",
@@ -828,6 +816,24 @@
      "time": "2026-11-28T09:49:28+07:00",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLWRmdmdBekNnWUhVYWV2VC1Md3ptbU9QZUR4RHY4OWpGa2l2OWYtNk9hNG1LWHFBYUZkOFdPSHNmYnNWY042bU5iZXJnZmlPNlpIMi1DZnhQTTZiOS1MaFhrZmMwSERTN2xzREZYYkQyZWROSXJnSmRRMHlKN3ZfNjZ4ZXhxVnRjSkw5NUxLVC1mQzFVNzZyQ3BuQUZPRlA4ZnNVbmVDX24wT0lUYXEtR0hjQlhqejhvdFHSAbMBQVVfeXFMUGR1M0x1cFlOVEFCRnRiNk0yc21jcmxpNElkZUo2cmNpdWZudjdSLUlpaGN1X3ZXVVNscWZoVDFHMURWaTN0VGJMNzNvZW5STGVnVWhpeEZFM3hJRGUwWjIwWEIzOWZ2S3ZRd29WbERZc29pZXpFOEFUTThQdEFFQXpFQ2pQRkVxay0xYk1zZWFDTEMxWEF6cE0tVUtPMkQzaE80TXE4U0FGeVhNS19SV21PU3M?oc=5",
      "title": "OJK Pastikan Penambahan Bank KBMI 4 Tak Terealisasi Tahun Ini, Target Baru Awal 2027"
+    }
+   ]
+  },
+  {
+   "id": "1ddd52483b67",
+   "title": "OJK Sebut 60 Orang Diperiksa Polisi dalam Kasus DSSA",
+   "category": "Regulasi",
+   "tickers": [
+    "DSSA"
+   ],
+   "summary": "OJK telah memeriksa 60 orang saksi dan pihak terkait untuk membongkar jaringan pelaku terkait kasus dugaan manipulasi harga saham.",
+   "summaryFrom": "Bloomberg Technoz",
+   "sources": [
+    {
+     "media": "Bloomberg Technoz",
+     "time": "2026-11-28T08:01:03+07:00",
+     "url": "https://www.bloombergtechnoz.com/detail-news/129154/ojk-sebut-60-orang-diperiksa-polisi-dalam-kasus-dssa",
+     "title": "OJK Sebut 60 Orang Diperiksa Polisi dalam Kasus DSSA"
     }
    ]
   },
@@ -1022,6 +1028,22 @@
    ]
   },
   {
+   "id": "7141e83daf56",
+   "title": "Eksportir Ternak Australia, NACC Kirim 1.100 Sapi Perah ke Indonesia",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T18:53:02+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMXlueThacFcxQ19qcXkyb0NZSWtHMWZLQ2R1UG1ndGRTSDhBVERGZjZoc3I2NjVIN3kzUjhHQ01IT291WTg4QjlKOWstb1c2Rl9IMlNxRTZXUmFhSTZla1Z6TjdnZk82d2pXcDNyRGpPeFBGeE54S0lpWXlXWU9FenVwZFBaT0NQNllQYjhGeWVic19VX1UzUkJocUEtd184VThVaFc1cFY5NS1GWFBjc3EwV2VxU2JMbXc?oc=5",
+     "title": "Eksportir Ternak Australia, NACC Kirim 1.100 Sapi Perah ke Indonesia"
+    }
+   ]
+  },
+  {
    "id": "dac5a668f429",
    "title": "Satpam Bank Salah Sangka, 2 Orang Masuk-Rampok Uang dan 60,5 Kg Emas",
    "category": "Makro",
@@ -1114,22 +1136,6 @@
      "time": "2026-11-28T13:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNXJDYm1odkI4cDVDazV2ZjZuTDlUS0R3dFljV1MtTW1DWlRhTTJ5bVpCTUZVck9ndm02YzdIcFRNUGhJUTc4X1I1MVlVU3h5bGFNUEhHR3E2WDRCanlTTDhvZXdadWNjdWowOTFGN2FLRVNxd052eEd5ZlFZbTZRb2NJdlpaMWVO?oc=5",
      "title": "Diskon Tarif Tol Nataru 30% Kembali Digulirkan"
-    }
-   ]
-  },
-  {
-   "id": "920861906771",
-   "title": "Siswi di Malang Tewas, Komnas PA Desak Revisi UU SPPA",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Komnas Perlindungan Anak mendesak DPR RI segera merevisi Undang-Undang Perlindungan Anak dan UU Sistem Peradilan Pidana Anak (SPPA).",
-   "summaryFrom": "Bloomberg Technoz",
-   "sources": [
-    {
-     "media": "Bloomberg Technoz",
-     "time": "2026-11-28T12:30:00+07:00",
-     "url": "https://www.bloombergtechnoz.com/detail-news/129163/siswi-di-malang-tewas-komnas-pa-desak-revisi-uu-sppa",
-     "title": "Siswi di Malang Tewas, Komnas PA Desak Revisi UU SPPA"
     }
    ]
   },
