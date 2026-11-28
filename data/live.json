@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T23:29:32+07:00",
+ "updated": "2026-11-28T23:35:31+07:00",
  "window": {
-  "start": "2026-11-27T23:29:32+07:00",
-  "end": "2026-11-28T23:29:32+07:00",
+  "start": "2026-11-27T23:35:31+07:00",
+  "end": "2026-11-28T23:35:31+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,7 +37,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 55
+   "items": 56
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -57,7 +57,7 @@
   },
   "Bloomberg Technoz": {
    "via": "rss",
-   "items": 89
+   "items": 88
   }
  },
  "prevAt": "2026-11-28T22:37:54+07:00",
@@ -497,6 +497,22 @@
      "time": "2026-11-28T08:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTUt3aFliaHgtZnM1UFM3THdnRW1rajdxRG9jSzZobzFzN1dzMi1TT1oyRE1nMWpLNTZKb1JQQ05xSHlxQ0xsNEZlUUVkT0RUaEJFM29aOFpuZzUtdDNvX2F6LXQwV0IwelgwcXROTFJvQkxFNXkyRHhxdWVRTUZTZnViaTl1V21pRlJxTldpUlZaRTV5bXB2bG9tTnhHZnNuMFVPZkpCeElXb1Vk0gGyAUFVX3lxTE8yajduUHJQeVllX0lqTlZfMVFqNkdKelhjeEY3Q1A2ZEtHZFZKR0RnVFlqYkdiY3A5MUZLNlkwZXEyUjJWbE1QS3NLcFJ3TGxEODdWMXhwX1lyZGpRRkNqYy1YQ3Nhb0pNSnNxMnRacHk5Tk9KSldJUzZMYmhUMXozOTlHT1BraXVLU19YRVdPSjlOVE1adTZfSm9PSGdLYW90M0RMLXZpMllTVnBKYXZEX3c?oc=5",
      "title": "Di Pertemuan Tahunan BI, Prabowo Minta Praktik Goreng Saham Dihentikan"
+    }
+   ]
+  },
+  {
+   "id": "e1ba3c95cb7a",
+   "title": "SMF Salurkan Pinjaman Rp 17,65 Triliun hingga Kuartal III-2026",
+   "category": "Aksi korporasi",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T23:21:53+07:00",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOFp5Y1VYekJCdk96aEc0bmo2NUZnNmwzQUpxQ2pSZkU0cGRWdmlUbkZJX2JsNGJCT2daLUdJMkFqVDRNTTZJMFFwZDlVNGlkMmU5Y3liaUF5ekROME1KbHdiU19yVzRRQUE4Y1RlTUhyc0FsNERCbXNRWlBySmJZMHZDNGhTR1RyOEVtSUF3OS1GWjlCRmIzQnFOSkvSAZYBQVVfeXFMTVc4Vnd6TERsN0Q0N2xWWnB2T1ROeFBYVzBvWEdGMHBzdW8zMjhsdkZaRHZwaENBQTNLbk1CWm5wMG13ZkxBMGY3WDVLd3poN2JxWWRYQVJVaFFDS2FXUHlFTkpqcTE5SnYtcENEVFFjZF9yNmNocFBlNG5GUnFWOC1xWXllV0t6eGZ2aWFFRHpOSXdwcUVR?oc=5",
+     "title": "SMF Salurkan Pinjaman Rp 17,65 Triliun hingga Kuartal III-2026"
     }
    ]
   },
