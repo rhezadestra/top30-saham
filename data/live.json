@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T09:40:08+07:00",
+ "updated": "2026-11-28T09:43:08+07:00",
  "window": {
-  "start": "2026-11-27T09:40:08+07:00",
-  "end": "2026-11-28T09:40:08+07:00",
+  "start": "2026-11-27T09:43:08+07:00",
+  "end": "2026-11-28T09:43:08+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 86
+   "items": 85
   },
   "Investor.id": {
    "via": "google",
@@ -1278,24 +1278,6 @@
    ]
   },
   {
-   "id": "92ad066b4a84",
-   "title": "Saham KETR Pernah Sentuh Rp1.595 Sebelum Jatuh, Masih Menarik di Tengah Ekspansi Kabel Laut?",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "KETR"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T09:43:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWlhwdVp0VFY3RXRuWnlLNVFBQWQ5TktGaWQ0Y3RUVmE1dnRINXJPa3RWa204M2NhQ21tdldvQ2I5ZUZUVUpMSnAzaDVsREpBX2tSWXhnYUMxSUx5SC1iLUxMTF9zNndTT0tCYzJHSHBsbW9mWW1HNWNtVXhSWjU1WWN0VzBGa2pVZFNfSk9vOFNuNzE2a2lQSG9mZW9OeU5QN0xPVkg2VkZ3VGdhV2RZSFQwcVVXRDhPT2x4T2NvdlozVlpwVC1B?oc=5",
-     "title": "Saham KETR Pernah Sentuh Rp1.595 Sebelum Jatuh, Masih Menarik di Tengah Ekspansi Kabel Laut?"
-    }
-   ]
-  },
-  {
    "id": "d3709a98ac07",
    "title": "Demi Selamatkan Status Bursa RI, OJK Sudah 20 Kali Temui MSCI",
    "category": "Regulasi",
@@ -1558,6 +1540,24 @@
      "time": "2026-11-27T10:00:01+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY285b0p5X1lkX0JLZ2ZJdXNNOWUtclhkY2cwQXNYWW9kYlh5QlJyRC1SLXVqdUxTdmltZE5VcUR4RDVSZzVZZzFLUVZITDJGS0taeEdlX3EyY3EzdDBlSlZpbjl6QWpjZmZndmlwc2JoZ3NJdy1mZ29aWm5SV0lrQ1VhQ21QRTNhZTNTekJva3RsZFE0ZEk0eHhXVmtyX3lZc0xueGlVdXFObmhlcUdkRWFn?oc=5",
      "title": "Kebijakan Zero ODOL 2027 Berpotensi Tekan Margin Jangka Pendek Emiten Logistik"
+    }
+   ]
+  },
+  {
+   "id": "0bd355a4589f",
+   "title": "Harga Perak Antam (ANTM) Masuk Zona Merah, Lesu di Level Ini",
+   "category": "Kinerja",
+   "tickers": [
+    "ANTM"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Investor.id",
+     "time": "2026-11-28T09:38:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcXA2dzZuelo0OUVOVTV3bFVyVmMxUkpNZHFORmN5YjdVdFR2aURkaVAzQXppZ0hhakNRd2Y0SzJhQ2x0ZzI2TWUzVlRBenBmTzNKVjhLOWItcEw0RS1udVNvaEYxUHh0TUdxNWpsbkw4am10Y1IzTnk5YWpxLVVkajljRzYxRU1UTXJuQVRpWGRuSVVjelE?oc=5",
+     "title": "Harga Perak Antam (ANTM) Masuk Zona Merah, Lesu di Level Ini"
     }
    ]
   },
@@ -3079,22 +3079,6 @@
      "time": "2026-11-27T09:45:12+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127082901-17-788938/ini-jurus-danantara-cetak-bos-bos-bumn-penyetaraan-standar-kompetensi",
      "title": "Ini Jurus Danantara Cetak Bos-Bos BUMN, Penyetaraan Standar Kompetensi"
-    }
-   ]
-  },
-  {
-   "id": "20cece854c64",
-   "title": "Airlangga Klaim Progres CEPA dengan Cina Tinggal Bahas Hambatan Nontarif",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T09:41:54+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLVBIbmRpZnJGWG1wQ3ltZmZCWlZ5THIwSmNpM3ZwOEJJUHBob2FiRjlmejBhajZyRGs3MnNSWWN2ejhyQUhubTJ0QzVZNHk4b0EtQ2pEQjQ5aFZNMkV4UTM3UjZiZjlUT2lhdzl3UWFJU3dZS2xoeDBJblJqZC1sdFhUQk53aF9YdmNkTzlaZGNlZVpORzlmeUlGa3RJd2dhZUUxRlJiN0RPS2F3ajRIc1pydzJFYUNkVHJKYjZjaW0ydw?oc=5",
-     "title": "Airlangga Klaim Progres CEPA dengan Cina Tinggal Bahas Hambatan Nontarif"
     }
    ]
   }
