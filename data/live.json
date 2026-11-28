@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T13:36:10+07:00",
+ "updated": "2026-11-28T13:42:10+07:00",
  "window": {
-  "start": "2026-11-27T13:36:10+07:00",
-  "end": "2026-11-28T13:36:10+07:00",
+  "start": "2026-11-27T13:42:10+07:00",
+  "end": "2026-11-28T13:42:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 121
+   "items": 119
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 118
+   "items": 128
   }
  },
  "prevAt": "2026-11-28T13:15:10+07:00",
@@ -1196,24 +1196,6 @@
      "time": "2026-11-27T16:15:25+07:00",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWHBkM1ljc3VnTHpNbTl4QWFTWHlhT3ZYc1Rxd3BuUXd1eExMd3lYMVE2ZFBORDcwWkpUU2JvVUoxQlNycFNRYTBxblJPV3UwRy1qSFg4NEVGaDJJNDdHVGNiRWxEWms0bFFhQUl3VFByRzdhdUc1ZTVwOU9hRU9OcjR1d2hoNFd2WXRaamFfeVNiYlkxTEotbTMxeHR3VGtsU1JXOFNXSlBxM1NHNXhkV1JfSFI2bklKUGh3OTd2M0dhZw?oc=5",
      "title": "Gapura Prima (GPRA) Siapkan Buyback Saham Rp40 Miliar, Harga Maksimal Rp120"
-    }
-   ]
-  },
-  {
-   "id": "81d72e645b89",
-   "title": "Vastland (VAST) Bagi Dividen 37,4% dari Laba",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "VAST"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T13:41:41+07:00",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pdlJ3eTFqZ000QVBZSS1VOGJKZXlxQTh5TmdWVTNreUZQOXVVWjBfd0puZTZqd2hRcXRlYW1uZW1kTnJLM0gwZXBJS1VzZVhxczZMazdNWWhCcWRFSFNWLWtKVHJWSFktOFU3NjM4MEhwZC1YemliNnUyZ2tRLUE?oc=5",
-     "title": "Vastland (VAST) Bagi Dividen 37,4% dari Laba"
     }
    ]
   },
@@ -2781,38 +2763,6 @@
      "time": "2026-11-27T13:45:23+07:00",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQXBIWUhabWlzaGNhQ3NtZUJhYzk0cDlGYzBCRm1Kd242bHgxN0VhSlZ5OTZpdm56WGZId3JyVldBSldyQjlyMkZNbDJLYXgzVnRZdlFUT2JVWmFuOFhET05DaVJjN3IyT0FYSlQ3VVJBVlQtNHlHWHVQaDlRUHFLSnpjWFAxbEo2NlpjVTFoVmYtLWxVV3lXVWZZTG83S1JoTkRINA?oc=5",
      "title": "Ini 7 Cara Agar Pengajuan KPR Lolos Seleksi Bank"
-    }
-   ]
-  },
-  {
-   "id": "be193920dbb9",
-   "title": "5 Manfaat Punya Data Pelanggan Sendiri bagi Bisnis Online",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Kepemilikan data pelanggan sendiri memungkinkan pemilik bisnis menyusun strategi penjualan secara lebih terukur. (Foto: Dok. Magnify)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T13:40:00+07:00",
-     "url": "https://www.idxchannel.com/banking/5-manfaat-punya-data-pelanggan-sendiri-bagi-bisnis-online",
-     "title": "5 Manfaat Punya Data Pelanggan Sendiri bagi Bisnis Online"
-    }
-   ]
-  },
-  {
-   "id": "a9dd179044c1",
-   "title": "Trump Ancam Kenakan Tarif Baru, Pasar Saham Indonesia Dibayangi Tekanan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T13:39:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1BhLVZqMmxoTDNRWnljUnhoUnE4UEJ3MnZvX0xOS0ppNXFmMjJzT2NQV0NHeTNTclctMG4ybHFaU0dkOERLR3hyVnF6RXg0RER1dXFYMzlhdHpxUGsyUEpWZm1uV0RpWG9idVFOSUpHek9KQnBfMW9DSTVRUGhCT2FTSlhVV3pzWl9fd0RSS2ZCY1FPMzNxVzUwNmMyZ1RSSmgtRUlWeGQ3Z9IBogFBVV95cUxOSHdMTG5kc0kzd1FmbjltZElEMGFyNDhaVm1nUmJ6ZDlZNFdnbGRRemJ6cWlzZXhpaDAtLTVaMUFNclBQeDAxRTEzb3AxNktfYjRHMktFb3Vub002MUE2VW1Ia0o1RlM1ZW5xT2JGa2dJaHJXcVRfTlVoUy1VaFg4RjE3RVFJR3oteTFsT1NTRTFWTkd4Rno5NzhrOXZQNUlrY0E?oc=5",
-     "title": "Trump Ancam Kenakan Tarif Baru, Pasar Saham Indonesia Dibayangi Tekanan"
     }
    ]
   }
