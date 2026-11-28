@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T19:09:01+07:00",
+ "updated": "2026-11-28T19:15:28+07:00",
  "window": {
-  "start": "2026-11-27T19:09:01+07:00",
-  "end": "2026-11-28T19:09:01+07:00",
+  "start": "2026-11-27T19:15:28+07:00",
+  "end": "2026-11-28T19:15:28+07:00",
   "hours": 24
  },
  "target": 30,
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 79
+   "items": 76
   }
  },
  "prevAt": "2026-11-28T18:30:01+07:00",
@@ -651,22 +651,6 @@
      "time": "2026-11-27T20:04:45+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONEw2QnpIaXlJNzhRazlEcXNzTlU0T0VKRnQ4OUliOWtyclE4bDZCMGo2WkpveFNZemNkeVZRcGZoTk9oX09DdDMzMUxWNEQxYnpTdWJHUHVyNnVCel9FUERkNjRkVUVNdmxhWFU2OWxDaHpwdVhObTlaekdCRmFZTGp6Q1U2Smx3YkJrU0ZHVXZudVN5eDdKNExNTEpsYlBoQ2lmdF92SWxWTUHSAaMBQVVfeXFMT2hNV3Utc2NwRWJ1R0swZ2hGa2w0dEdSX2dHY1JnbnhIZDVZYWdYMmZaUTRSZzBiZFVSeVI0dDI1WU0wX3E2dk5KazhoTjNidkJMYXJsSVJLT29zQl9ueFhVbmFsRVl6TnphbjJadFBIeE1rdW5nU083Q05RdEZpejgxRFctUkxuTGdETU42WDFqc044MkNaQjlhbVpkdmctby1VQQ?oc=5",
      "title": "Dana Investor Bergeser, Aset di Reksadana Saham dan Obligasi Mulai Susut"
-    }
-   ]
-  },
-  {
-   "id": "7d99e338bec0",
-   "title": "Ancang-Ancang Berburu Dividen",
-   "category": "Aksi korporasi",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Investor.id",
-     "time": "2026-11-27T19:15:12+07:00",
-     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JT1JfQnJCVmhDS0pIeDdOZTVBZWNwanA0X29NMzNKVjJvVURCeUl0RmhNQzNTTlFHeU5tbFM5cjA0MEg4VTJsX1ptWTU2NjJ4MnJ5ZGJqcjl6S1U0VkFucDRQLXA2ckdCSkhXSDlrMA?oc=5",
-     "title": "Ancang-Ancang Berburu Dividen"
     }
    ]
   },
