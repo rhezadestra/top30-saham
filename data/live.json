@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T21:37:23+07:00",
+ "updated": "2026-11-28T21:43:23+07:00",
  "window": {
-  "start": "2026-11-27T21:37:23+07:00",
-  "end": "2026-11-28T21:37:23+07:00",
+  "start": "2026-11-27T21:43:23+07:00",
+  "end": "2026-11-28T21:43:23+07:00",
   "hours": 24
  },
  "target": 30,
@@ -159,6 +159,12 @@
      "time": "2026-11-28T16:11:26+07:00",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ISWRrY0pURWh0cHhfQkVyTTJjY1h1c2tTZmVvMGhfWkhLR2VYYUtBYTFyUzJUbE1IbW00NjZsOUpWemh2bkphMS1OOWlpT1ZVclV0WklGY2FiY0tqNEdzdFdNdG5vUl9VVm5mWUFYQzlTblpJcTFQcFdaaw?oc=5",
      "title": "Laba KRAS Melonjak 246%, Ini Rahasianya"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-28T21:33:46+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaVpFQVFTOEl5QXVYQ25iSUFoWGJOdlc3S1pFekI3NEhxMXZ2a1hnd2JhS3BlZFVPVUQzY2thNWhVWC14ZTJzLXN0WUdXbG85eVQwSUQ5Mlc4b25VdVRqLXpUQzFaaTBsZmJDdUV0ZUNoanA3YVEyZktvUGZNcVQyOUc5T2tQbElRNkxONUdpV1JrVEtSbUZGMm9pbFM3UWFyYWZ1RkJyRW5JalZwcFVyQnFaMmR3cTlka0FUeS04QTRxZ1hCTHJhMlc3QQ?oc=5",
+     "title": "Sarana Multigriya (SMF) Bukukan Laba Bersih Rp569 Miliar Sepanjang 9 Bulan 2026"
     }
    ]
   },
@@ -1254,22 +1260,6 @@
      "time": "2026-11-27T21:54:26+07:00",
      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONlZlMWlicElQVFFQc2MyMi1UVC0wY2EyOV9uMDQ1akE1dWZtRmhWUEI1bTZFb29WVjNxaDYwdkpyRlpqblBtUDdUaVhTTkFVUGtqakNxbGNBUEdPRExLRk51ZWp4NnFLdUQ3dUtlODVzb2E1UmphSWpkUVFlWm5ZMmZqUXRraVRkSFFRWnVFRjdscmPSAYsBQVVfeXFMTmhqQXdnTnJIV09vNzlyb0RzOFZndmVNenV2WDk2YW05amRuMm0xX25EY1VFeGZ4bXNsWGlrTm0tdHhCU0ZlTnBaTnhXekV5WDZDYzd2cGZNbHdVY2tnNlRwQWZBSGJ3Q1NWb3ItYkZsLUNGbDhpLXdQd3ZISnRUd0NyTVlaOTBRcmw5MA?oc=5",
      "title": "Wall Street Menguat, Didukung Rebound Saham Terkait AI"
-    }
-   ]
-  },
-  {
-   "id": "be22f8145d5e",
-   "title": "Airlangga Bandingkan Pengenaan Tarif AS: Indonesia 'Cuma' 18%, Vietnam 35%",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T21:40:49+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWlRZeS1uSmFGb01XWEJUemFwQUNMSnVueHZqMUVNelY0Q3JDVExMVGkwYmpPM3FSaUtoSVJEbUJ5ZGhZWk9EeldLRHpGdjBZYkpqNHRLYW16M0FrbTRud0lhOHhwNGF1NXk0S0xLTUt0WVhpT196cmRobmZOZzlCbjQtSzhqcGdRNll5UzRsS0huRHpfcjR3dDljcm5JZU5OOTVBeUltRHFJeUNzMzFCOGkyblJMQXhCZkFJ?oc=5",
-     "title": "Airlangga Bandingkan Pengenaan Tarif AS: Indonesia 'Cuma' 18%, Vietnam 35%"
     }
    ]
   }
