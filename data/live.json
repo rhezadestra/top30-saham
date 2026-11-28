@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T18:33:00+07:00",
+ "updated": "2026-11-28T18:39:00+07:00",
  "window": {
-  "start": "2026-11-27T18:33:00+07:00",
-  "end": "2026-11-28T18:33:00+07:00",
+  "start": "2026-11-27T18:39:00+07:00",
+  "end": "2026-11-28T18:39:00+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 77
+   "items": 78
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -731,24 +731,6 @@
      "time": "2026-11-27T18:45:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUNUNEdnXzdqSWFPaVlOZ0FmTHNicXlhX2VDMU1rTVFTcndrOFZISVhBaHV1TkNLVVNuZkNVeGRiM1p2b2ZWa19fMFR3OWRDbHBKbEdDN1MzUWxMV3ljRGhJU3ZRTy04bHBsT2kyX1p6OWFyZWFqSUlkVEJNcVgxODYzT1BucWx6QkFHWFlmZjZsdGM1Unp4QTR0N1VGX0pUZ1VhUHVmRklfejJO0gGkAUFVX3lxTE9VUENQRzdiVUhwb1pINUNrallHNWJBVDl2aVViclA0TnZxdk1VV1gyY20tWDg5NHIzeDcwaTNkc3BwblllZWN5YV9HelNGWmxzUE1KdURKeEs3Q25oQjZ5aHBzS3pJMVlUd3dLTjB4SEtlaU15dEtVTnI5QzhIQWpXa1hhZWNMZlVLMHpNREdiNjc0Y2V3bTlQQ1lpVFhvNUdiSTNl?oc=5",
      "title": "KOTA Kantongi Restu Rights Issue 100 Miliar Saham, Incar Land Bank 572 Ha"
-    }
-   ]
-  },
-  {
-   "id": "81c672eaa0d6",
-   "title": "Allo Bank (BBHI) Telah Buyback Saham Rp 293 Miliar, Segini Dana yang Tersisa",
-   "category": "Aksi korporasi",
-   "tickers": [
-    "BBHI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T18:38:02+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUmpOZ3d6SFFXWlF3WkNPcVNILTZ2T1VZa1p1N3MwbGM3MS0wYXV6R1I5RVRkTHdnSW1UU0toSURQNElwSHFwRmxYNHV6bEdZYkY2OUxVazhvR0FXTmNUS3VpeWVmRzZvVUgxM2pxMldtTzBaYnFPcElEeDlPUlJwczdxNUx2QUNoaUFiZEhGSnE0NDlBV3A2ZVJvdFhwSmJTa0ZDT1FoRnViMVYy0gGmAUFVX3lxTE8tWHFLZTdIbEk1SGRzRDlkOXZ3NEFOR3NFdkc1Y1BrRDI0VlFGbjUtdmtEN3E3bWNmNWs1Y0Q5di1mdzl1M19wbGhaMW02SmdMajhOWWVsRDdTQVhfQzRlQXllX1JHRjhVZmpTMTdRZUJwd1VNR2lKWmZJODZKZV93UkJFWFl3cmZFU0hiMlRjQVY1ZnlSeFVHTWFwX1pMaFlWcVVHZUE?oc=5",
-     "title": "Allo Bank (BBHI) Telah Buyback Saham Rp 293 Miliar, Segini Dana yang Tersisa"
     }
    ]
   },
