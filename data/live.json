@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T10:07:08+07:00",
+ "updated": "2026-11-28T10:10:08+07:00",
  "window": {
-  "start": "2026-11-27T10:07:08+07:00",
-  "end": "2026-11-28T10:07:08+07:00",
+  "start": "2026-11-27T10:10:08+07:00",
+  "end": "2026-11-28T10:10:08+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,7 +45,7 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 85
+   "items": 84
   },
   "Investor.id": {
    "via": "google",
@@ -2133,25 +2133,6 @@
      "time": "2026-11-27T11:13:19+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYWEya3V2REZTbXpfLTBCYUg0V2N5Q1Z5X2VCd2FaUThNN3l2eTF3eEY0UmZrc0NxOGFiUi1zZ1kyMVg5MHItVnQ3cUhET2FZQVBIcl9UTU45TmhDRVVmZWxZUDdOOWxEM0ZfZC1iRXhNZWRLUkVZNDdTYWRjTThkTndVQnB6cld2SUtwRTA3Y3NzaXVITnJKZWRFWk9WZTVNeHJIUUxoQlhBVVpUMlZIaUln0gGqAUFVX3lxTFBMa0tTNE4tUEtuczhpSEwxdlBxSjRGaTRMVGJrdXA0N3N0Q1ozTVVOcHpERlNocHR5eXE0RXl3aHRCSmZHOEJXMUhSaTdfTjBrcGdlY2Q4Um1rUEdGNTltYWgtRmtZVE5TTzl3YmhwLUx4ZktraE5BcDJFSkp1RnBVQXpoQk9GdTdoWXRXMnhNTjdYMzRtQjg2Zm1hUmhveTNDeDBlQ3JMR25R?oc=5",
      "title": "Kenaikan Harga Saham TOBA Jadi Sorotan, Cek Profil Emiten dan Kinerja Terkini"
-    }
-   ]
-  },
-  {
-   "id": "9ebb04256115",
-   "title": "Permintaan Semen Menguat, SMGR dan INTP Berebut Momentum",
-   "category": "Kinerja",
-   "tickers": [
-    "SMGR",
-    "INTP"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T10:10:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeHBYZk4tdXp3YVplX3d1WDhEdFI5OEF4TnF0a3V0Z0pnc0J2R0dGOUxHSFV4dFBrNnJmMVctRTlrZEx1Y1BrckdWNVdEbVVBUjJLUFZuVlVhbFppWnVranVjWGk3R2RyRnpkZ0tlX1hVWVJzNmJJdUVLTXlKSzFncUhEdUlZQVlsamdNVHlvdTdkNG1WLV81ZmMwVFjSAZ8BQVVfeXFMUEpfaWZsVUNlcmtTdnpfdl9CWHFoZFVZZWF6bjhoMjBjOEQ5eHpVMllyRkxQNC1xNjY5eXJ3OEdxM01wTVgzNGY0eDdMMU5MNGtYTGhSbW94UXJjUm5LcU5ycExVcXE2Y1NUeVk1WG04X3NJeDlWRU1JRHpfVWNYOU0xYTZvOFhyMXF4SHB6T2pFeEdPYjVsOW5HbUw4VmYw?oc=5",
-     "title": "Permintaan Semen Menguat, SMGR dan INTP Berebut Momentum"
     }
    ]
   },
