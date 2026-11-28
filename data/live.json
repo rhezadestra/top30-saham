@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T14:46:06+07:00",
+ "updated": "2026-11-28T14:52:05+07:00",
  "window": {
-  "start": "2026-11-27T14:46:06+07:00",
-  "end": "2026-11-28T14:46:06+07:00",
+  "start": "2026-11-27T14:52:05+07:00",
+  "end": "2026-11-28T14:52:05+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 73
+   "items": 72
   },
   "Investor.id": {
    "via": "google",
-   "items": 114
+   "items": 113
   }
  },
  "prevAt": "2026-11-28T14:15:38+07:00",
@@ -2361,22 +2361,6 @@
      "time": "2026-11-27T15:18:34+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVTlQQmVmYlhLZGNxbk9OU3RrVDZOWEdkaG5xXzk4S3NzcVZUVk1Sbk4zenk5dUEwTS1oNVR2ZnVvZmJsOFlQSnp4dHdCSEJDVTA0bGNmR3hBeWV5eXhKdmhrNnZnalZuY2tEbDVuaGFBTTk4UVVaWEtrR2ZRbkJ1M1ZuN1hKY0NrX0VrbzRtQVZ4NEhHQm5OQ3dfZ2pxaTR0YjlYMWNGYjBFTFNxVEVuMTk3a1hVNW1Y0gGyAUFVX3lxTFB6QXBGcWN0RWJDYzJwcGZxYTlEZWZJN3Uxc3FPc1Z1SWR4R3VKR3Jna3pyUnV3WHFCWlRJNXVFVFRyX09GLTd2cDBxcFdVQ3RYbXlMdXpuRnl5cncwMXM3SEUwcXV4cTFuSHhQbEVyS3RoQno4YjR5RTJDaUQ2Zk1ocU9MazNfYkg5ei1CSnFtM3Z6b0g1MXNWS3RuMHRheWdQcF9NejktMkJnakhXQTY5b2c?oc=5",
      "title": "DSI Buka Suara Soal Kabar Pengenaan Tarif Ekspor 0,5% hingga Biaya Layanan Rp2,5 Juta"
-    }
-   ]
-  },
-  {
-   "id": "5e316db81772",
-   "title": "Harga CPO Menguat Lebih dari 1 Persen, DSI Masih Kaji Pungutan Ekspor Sawit",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T14:51:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVjJNcWY1WXhtQ2ktMngxaTBIY0NHS3ItcTV6OFFfd0lob1pXUnd4ZHJ5aDVOUjU4dXdRaUtkYUlST2cwVUVWQ2t0Q1k1MGtyamhFTkZyd0MwejBlTnNlNmUtN09VaDJTRGdvajNWR2ZUQjdYZF9TWlJRbnB4OE90R3pOcjI3UDZkdm1jWW9Mamh4U05ReUJzelRwSmRjOWxqY3ZQdE5rYVhHRmJPUlFocmMwRdIBuAFBVV95cUxORFotSkh0Q1dma3dnM0Q4RUpMbVc1STZyNXE3NFVKdFRlbXFZZ25GaWNRdXBCaXJ3akx5ZHZpazNmb2MyTnp2NV9OR2NMOVdGTXNWRHQ4MVNoMklWTGNUaEFVMTZrNTRqTGlQWUQ0dWNpRmd2SGNsbmJMbDFhVTdWc3diUkNBcTM4b3dyX2treXBPdzJjT3prODRtTXY4NHpUX1dNY01CekZEMEpPbjVrcjJzSTl5c0Z4?oc=5",
-     "title": "Harga CPO Menguat Lebih dari 1 Persen, DSI Masih Kaji Pungutan Ekspor Sawit"
     }
    ]
   }
