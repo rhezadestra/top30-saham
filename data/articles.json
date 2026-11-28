@@ -1,55 +1,6 @@
 {
-"updated": "2026-11-28T23:02:31+07:00",
+"updated": "2026-11-28T23:14:32+07:00",
 "articles": [
-{
-"media": "Bisnis",
-"title": "RI Mau Jadi Anggota OECD pada 2028, Subsidi BBM Disarankan Berhenti Mulai 2027",
-"url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTEdnRno2dTBmMnRSNmlFZUpsTGFfVEdLbEl5NU9XRmNBYUNMaDNSLW9LcFl2S2FBSHRINHVCdk15ZktCelNxaUZpOTZDazVTQ29MakpaYzY1UjNEUVpmcGJPNmMtTTNpSlloR3B3bnc3dzJ1MkxmdmlfQkFnbU80VFBwcmZoRUhzSXNHOVZNNDdKZnRkMXdpTXZwWWVzNDgzcDhxbGo0bDlKRElxU2hObmo1MEVaX3pNaS14SkJKdlM3V3JsNTZB?oc=5",
-"time": "2026-11-27T11:05:06+07:00",
-"desc": ""
-},
-{
-"media": "Kontan",
-"title": "Ayovest Luncurkan AI Lab, Perluas Bisnis dari Distribusi ke Analisis Investasi",
-"url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWVsdW04OTVYaEVxQkpKWmxPQnVkaTRGOUlGZ1M0NGJZV1IxLTBzUUtLTU51M3NJYW1zejdlYkhhZ3pHNGkwQ0RXNXFtVHRaU2RTSjFzX2dHZzFJdGc2V2VFRlhHd0pBXzhEa01qUVZxeW1jMjZqcXY0M1VCTUtaREEzaFVfOHdGQ2hvblhSM2ZKcUM1akxDazRLdlRhbWtGaDNfZ3l4V3pKMm4yWV9JaWdhNNIBqwFBVV95cUxOWUJJbFBWNUZnc3d4MzdoTG5JdWRnUGJIUENGUW55a2c3bzZhQ2NpU0NfMEJQTnBsdWpSVUFEWG12VjRSNmZsdU40b0lydlcxajd6QTVkM1hBTDRKeEtxVVhBMV9VNjQzZUJRdEwwZVdWTFNDNE9hUmpzQlBrS2VMNWYxR0RxRkg3Zkl3TmlObC1jalJTTFRhZ1p5ZFprV01xTW5PdFlpdk92TVk?oc=5",
-"time": "2026-11-27T11:07:56+07:00",
-"desc": ""
-},
-{
-"media": "Investor.id",
-"title": "Emiten Hary Tanoe Kena Suspensi BEI, Ini Sebabnya",
-"url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOU2psTmNrZnA1ejlFSDI2dk5iRDJfWHl0Y21UV0t2M2F0QzRvUkh0OVpNQjd1TGh6Z3dJZHl1MEY1Y2pEN1NGSkZhRWhHWFhOcWpScGpCQi1NdW9fV05GV3ROU3BlNDdqWWxUTzZJNkJIM09QVlE5Y2hGTGV0bW9yLThwTFVMRmdlc2c?oc=5",
-"time": "2026-11-27T11:08:17+07:00",
-"desc": ""
-},
-{
-"media": "IDX Channel",
-"title": "Jelang Efektif Rebalancing MSCI pada 1 Desember, BRMS dan BRPT Malah Melaju Kencang",
-"url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVVg2UGJOck56OEk2bkJuUVBGazFFdExoQzBOM1ZQWXpBOEZHWXBONGxWaHJTQTZZMW5iQ2lJd1VtaUtWU3lnVTd2UW56T05lNkdIX0RJTDVWa0N3SUhyNmhqcTNwQUxFWlM0c1BqbG9ZRnA5RE0zV3RiczJ2V0J1YUlhVTNEUlFGWU9wZU5PSHFTc2NWU09jX0c5VUVuWHFab1NoRmdVSXlGTGV4Rm8tX1lkQjBjWmtmWWFqaWp30gHDAUFVX3lxTE1WbDF2YUpSd0hOSUdwa1h5T0liLTVzaEphU2ljU2stMU84dndZbkh3cmJIX3UzTUgwS3FaZi1kU0FFaUpOY3lMbGVDNzRNeWZBUHd6dm1YOVVKV3YtMnpid1ZXY0NKcE9wcVc4TFMzZUFkcVpaTVJPV2ZSaXNrVnlGYkFqX3hRMWNBdEk1eERmS2tiQXNGTkhmX3l4d1Zma0Y0OTIxQ2dYQmFFVmJ0RnNFaTVYTGwwWmVycDd6S1dGQUxIdw?oc=5",
-"time": "2026-11-27T11:09:00+07:00",
-"desc": ""
-},
-{
-"media": "Bisnis",
-"title": "Pendapatan Fortune (FORU) Melonjak 95,78%, Rugi Bersih Membengkak 393%",
-"url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMC1BRWpSVHQwdk50SzF3UFJVckVpT1lORlc3SmpZNG91cEo4bkhjZDhVNE94WDVUaXd3bTlCQzEwUEF1VVg4UE9yMXQyVk5KU0xXT081d2dvZW5yZzdhMVIxTURzYWVPTzFOaGdkWUFId3FuSjFLeGhnOFNhczAyZm9IUlctZEd6dm0xTnpIWGlnanNOVFpZSGZMNHhJemhHZ3hqRXdRVmFBV3NGNF82Y3JfaDdmUHM?oc=5",
-"time": "2026-11-27T11:10:03+07:00",
-"desc": ""
-},
-{
-"media": "Kontan",
-"title": "Kenaikan Harga Saham TOBA Jadi Sorotan, Cek Profil Emiten dan Kinerja Terkini",
-"url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYWEya3V2REZTbXpfLTBCYUg0V2N5Q1Z5X2VCd2FaUThNN3l2eTF3eEY0UmZrc0NxOGFiUi1zZ1kyMVg5MHItVnQ3cUhET2FZQVBIcl9UTU45TmhDRVVmZWxZUDdOOWxEM0ZfZC1iRXhNZWRLUkVZNDdTYWRjTThkTndVQnB6cld2SUtwRTA3Y3NzaXVITnJKZWRFWk9WZTVNeHJIUUxoQlhBVVpUMlZIaUln0gGqAUFVX3lxTFBMa0tTNE4tUEtuczhpSEwxdlBxSjRGaTRMVGJrdXA0N3N0Q1ozTVVOcHpERlNocHR5eXE0RXl3aHRCSmZHOEJXMUhSaTdfTjBrcGdlY2Q4Um1rUEdGNTltYWgtRmtZVE5TTzl3YmhwLUx4ZktraE5BcDJFSkp1RnBVQXpoQk9GdTdoWXRXMnhNTjdYMzRtQjg2Zm1hUmhveTNDeDBlQ3JMR25R?oc=5",
-"time": "2026-11-27T11:13:19+07:00",
-"desc": ""
-},
-{
-"media": "Bisnis",
-"title": "Data Free Float Tidak Akurat, BEI Jatuhkan Sanksi kepada 5 Emiten",
-"url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTU3Zmw5TnB1SWtVZGM0dUFyOEwwd3NJN2xyMWl0U2JBdl81M091S19ZWDVSdkR4Q2NhaWM1emZFU2Q4RnJNZy1ZQW9Pa20wby11RXlVVHRxaWRfTHZrUlU5cXBxRFZjNGtiUGlzbENsdDQ3Sm9kUHFfWmstUDZLMWw0cU9pM0dqa3plSC1hVGFzVEpJZXB0TG9FbFJma1dxenJxZFFSZGZIVDBTNXBHZFpKd1o?oc=5",
-"time": "2026-11-27T11:14:14+07:00",
-"desc": ""
-},
 {
 "media": "IDX Channel",
 "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah",
@@ -4699,6 +4650,13 @@
 "desc": "Bantu Petani Rempah dan UMKM Jamu Lewat Riset Ilmiah Kembangkan Jamu RI Naik Kelas"
 },
 {
+"media": "Bisnis",
+"title": "Bos Whitesky Group Pimpin ITS Indonesia, Bidik Integrasi Transportasi",
+"url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVmFSSGUwZk5CblVPOUg0Z3RpeS1wc2Y3SjZUZjVlbzduZDhjMTBhVm92R0hzZWRLZ09CQUs1bEZ6d2daSjNXZXRhVkVwV1YtUFNKa0lvR3hXZ3ZBbTFNSWotOEQ4RVE5UEtzWGNmWVdXYWoyY0NVWk4wdTFHTUlSVmtISXpfeEczWk1HQkJ1N2J1Vk5BMjF2emloLXI2Q21tUG50YndwZjIyUmlkOFltT09ha3BMRHhEb19hSA?oc=5",
+"time": "2026-11-28T17:06:09+07:00",
+"desc": ""
+},
+{
 "media": "IDX Channel",
 "title": "Fokus Garap Segmen Perawatan, Unilever Indonesia (UNVR) Lepas Bisnis Makanan Rp20,5 Triliun",
 "url": "https://www.idxchannel.com/market-news/fokus-garap-segmen-perawatan-unilever-indonesia-unvr-lepas-bisnis-makanan-rp205-triliun",
@@ -4991,6 +4949,13 @@
 "url": "https://www.idxchannel.com/news/prabowo-instruksikan-tingkatkan-fasilitas-rs-dan-renovasi-seluruh-puskesmas-kabupaten",
 "time": "2026-11-28T20:41:00+07:00",
 "desc": "Prabowo Instruksikan Tingkatkan Fasilitas RS dan Renovasi Seluruh Puskesmas Kabupaten"
+},
+{
+"media": "Investor.id",
+"title": "MPR Buka Opsi Voting untuk Pemilihan Wapres, Paripurna Digelar 11 Desember",
+"url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT3pCcUJrNV9fQ21iZlRaM0VCQVJlSDZQQnZ6QmIzUGxfVEhROWdoV0xJVUtyMHV3THB0X3FjTVpkOVhiYS1fOGVuVUx3ZTVMV2lYX2lzOVk0eUIzMWNyeVVQSHhTVThmSVZWcy1qbXB0NUw2eVlxZFJ5cnBNX0ZnRG1XQ3BhZWRFWGtRUzJzamZIRjBjdENxalV3SVZYNnF0SzZtbmVjQ2pONjIza1E?oc=5",
+"time": "2026-11-28T20:41:58+07:00",
+"desc": ""
 },
 {
 "media": "IDX Channel",
