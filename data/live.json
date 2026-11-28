@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T15:46:34+07:00",
+ "updated": "2026-11-28T15:49:34+07:00",
  "window": {
-  "start": "2026-11-27T15:46:34+07:00",
-  "end": "2026-11-28T15:46:34+07:00",
+  "start": "2026-11-27T15:49:34+07:00",
+  "end": "2026-11-28T15:49:34+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 99
+   "items": 98
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -484,36 +484,6 @@
    ]
   },
   {
-   "id": "e7ee091fd9e7",
-   "title": "Laba Resource Alam (KKGI) Melonjak 1.304% hingga September 2026",
-   "category": "Kinerja",
-   "tickers": [
-    "KKGI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T15:49:28+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWZZWTZ1MGxCOGk2M2NYdXhTaGZoYTFYd3ZpejV5bmlkNTRNNmppVXNLaDNTN3JVS3RhWHBPN1Z3WVdPVl85RVZCTkg0YllQeEcweTdaNFpiTnBxQ2RxZXJYUUJJTVE2OGRublMwd282LVYxbGNnZWpjVkotTW9tRDB5RmJfc2QzN3RuNFpqNkFtTXIyd2paVGl3c9IBkwFBVV95cUxONWFLRmp1cXFXelBhNGFmSDlIazVLaEtlcFNWM3pjZTBkaXk0Z0x6MXZQaERCc1U4aTRkQzJfTlFIay1BX0tOUGhZQ2tEQ0VHVU0zQk5kZEdDcElteGxTbE9jMmZVdms4dVg3S2YzeXZ1MGpsR05FTVctSU9Lc0RMaTJEcGw4Ymg1X2ZfWk1qLURoZDQ?oc=5",
-     "title": "Laba Resource Alam (KKGI) Melonjak 1.304% hingga September 2026"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T09:11:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVBXWHNzTm5GWEJjZlo3RUltbjZ4NHQwSEJMdEg3a3YydmU5Q0RQSEZHajNqenJZQmUzcE95SWttQnFvREJvd2JvV1VIUEw5N1ZrSzRuMlFzX2gyd1h0TjEtajYyV2locUNGRGhvSXNWVVlIU0tlZHd0eXNIT19BZlZrU2tCWkhyQXQzRXo5ZG5veFUxWG42R2oxQQ?oc=5",
-     "title": "KKGI Cetak Lonjakan Laba Bersih 1.304% Pada Sembilan Bulan 2026"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T09:11:03+07:00",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZl9jTU5Bd2c5LUI5VVhzMlpZN3RQSi1xRm1TYWlBTWtSZkQ0OWNWcFBuNEhVdG9lcDRRakQzc3NZMEM2d1BKWEx1U0xnSXdVeVpxQVBUX3JlNXFLVTQ0Z1d4S3hCLTdfVWtRa3hRTWw2NlZ2X3JqT0djSGlQbThJVzJiZGlSOG1yeUk1N2paMU92SFR1S0JkcTNn?oc=5",
-     "title": "KKGI Cetak Lonjakan Laba Bersih 1.304% Pada Sembilan Bulan 2026"
-    }
-   ]
-  },
-  {
    "id": "4404f57291cc",
    "title": "Dana Investor Beralih ke Pasar Uang, Ini Prospek Reksadana pada 2027",
    "category": "Makro",
@@ -560,6 +530,30 @@
      "time": "2026-11-27T17:45:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkhHZ2xsbTNnOWdnNGR2NklrT1Z1MGJkOVE0V2lILUI3MWRweDZjdmVhZDRQRU9NSkVOWkNlYmRoaU5nUXVlT1lsMnRpNHV6QjBSRVVna1NhOG1OS05wWG5FSTBaRHNHMEI4Y0tQMGJyREt2TkdEUjRMOFNJc1R4bVZoUXkyY0ZoMVhrTnRaZEtweUtDd3k1aDY0VHU0dl9JTURTcHBTSThLdWNLU25VV2RtNNIBuAFBVV95cUxNVGlUdm50cHFVQkVJMHdpR3RJTG11Q2JZZ1VMaU1sQkw0SnctODRVc0lkaXFRRTgyRjdRTFU3TkItNlpWalBhZHhLaTBwOU1nTWloc0g1S1FkSUR4UzgtMGhxYk9KYVdQWFpNLWRnM2tiUGc4R0Zoakh1RzBVbl9QUVdRQTFWaWxHY09zbmo1LUVWYTRBMHJaS2xqbnBDUUFpbEhnYm1kRkdtUmlMbVBIcXdaZlFwWTZt?oc=5",
      "title": "Ekonomi Prancis Kontraksi 0,2 Persen pada Kuartal III-2026, Ekspor Turun Tajam"
+    }
+   ]
+  },
+  {
+   "id": "28974680b2f6",
+   "title": "KKGI Cetak Lonjakan Laba Bersih 1.304% Pada Sembilan Bulan 2026",
+   "category": "Kinerja",
+   "tickers": [
+    "KKGI"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T09:11:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVBXWHNzTm5GWEJjZlo3RUltbjZ4NHQwSEJMdEg3a3YydmU5Q0RQSEZHajNqenJZQmUzcE95SWttQnFvREJvd2JvV1VIUEw5N1ZrSzRuMlFzX2gyd1h0TjEtajYyV2locUNGRGhvSXNWVVlIU0tlZHd0eXNIT19BZlZrU2tCWkhyQXQzRXo5ZG5veFUxWG42R2oxQQ?oc=5",
+     "title": "KKGI Cetak Lonjakan Laba Bersih 1.304% Pada Sembilan Bulan 2026"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T09:11:03+07:00",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZl9jTU5Bd2c5LUI5VVhzMlpZN3RQSi1xRm1TYWlBTWtSZkQ0OWNWcFBuNEhVdG9lcDRRakQzc3NZMEM2d1BKWEx1U0xnSXdVeVpxQVBUX3JlNXFLVTQ0Z1d4S3hCLTdfVWtRa3hRTWw2NlZ2X3JqT0djSGlQbThJVzJiZGlSOG1yeUk1N2paMU92SFR1S0JkcTNn?oc=5",
+     "title": "KKGI Cetak Lonjakan Laba Bersih 1.304% Pada Sembilan Bulan 2026"
     }
    ]
   },
