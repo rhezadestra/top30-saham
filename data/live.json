@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T22:19:54+07:00",
+ "updated": "2026-11-28T22:28:55+07:00",
  "window": {
-  "start": "2026-11-27T22:19:54+07:00",
-  "end": "2026-11-28T22:19:54+07:00",
+  "start": "2026-11-27T22:28:55+07:00",
+  "end": "2026-11-28T22:28:55+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,15 +33,18 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 54
+   "items": 55
   },
   "CNBC Indonesia": {
    "via": "rss",
    "items": 61
   },
   "IDX Channel": {
-   "via": "rss",
-   "items": 10
+   "via": "google",
+   "items": 21,
+   "errors": [
+    "rss: HTTPError HTTP Error 522: <none>"
+   ]
   },
   "Bisnis": {
    "via": "google",
@@ -170,6 +173,12 @@
      "media": "IDX Channel",
      "time": "2026-11-28T22:00:00+07:00",
      "url": "https://www.idxchannel.com/market-news/laba-krakatau-steel-kras-naik-266-persen-hingga-kuartal-iii-2026",
+     "title": "Laba Krakatau Steel (KRAS) Naik 266 Persen hingga Kuartal III-2026"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T22:00:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQXzl3TmI5QUVPdWhLSDVLc3JwVzVibHFUY1cxRVY1VjdwU2dGYnpBVnpMV2lGNy12YW1FVHcxUVFReW1VcVNRRGE5ZjZaMkVibkw1R3hZbW41UUZRT0R5UGdkZWZzSkxmSFFPQzVESWd0cEdMN0xzR2lWQUlyMGRBSWF5RFlaMjZWekxFQkF0dVBQOXBta3d2dFFDSl82Qzhaa1QtZEVn0gGrAUFVX3lxTE9seEU1YzdQTW1Nd0xLNzgyYnhCbDN2Wk5KcXdwUXpoNGROZVgyZk1QWFh4aGJPVF9lRUFxLUZfVFFfMHBZcmpLajJpTjJETS1ZVHRFN0E2M3g4d2JHMEJwTkpwaGRYeWs2ZFRYaWlXTlVhMFRjTVNwbVVHZ2VrUXpJYmpVNThXZVRZbnRUT3ZReWZrZS1DejFDUHRKSUY1d2FvdEhrV25lQlN4QQ?oc=5",
      "title": "Laba Krakatau Steel (KRAS) Naik 266 Persen hingga Kuartal III-2026"
     }
    ]
@@ -415,6 +424,28 @@
      "time": "2026-11-28T05:01:03+07:00",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSkRnenJNSTVxeGVONGFwS01EVzZVUzdqUE9zcHh5SU14cy1jVzl1cjFFMHd5NmVGNHpsZ3ZGbWs1RGNGVjFiNmZwbE9ETFlZOGpnQ21yb2RsTER0MkhZQkFhOFpSYmcwZnlFTHV1TTVRMDlmblY1dTZDNjE5UXFNRURmclQ3bndRR3NSaFo3VzV4Q19oN0o5UHVvTnNHSjFUUWMxZlhpY28?oc=5",
      "title": "BERITA POPULER: Manuver Emiten Portofolio Andry Hakim Omzet FORU Meledak"
+    }
+   ]
+  },
+  {
+   "id": "5eb61d8ffc1b",
+   "title": "S&P Pangkas Outlook Peringkat Kredit Prancis Jadi Negatif, Defisit APBN Jadi Sorotan",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "S&P Global Ratings merevisi prospek peringkat kredit Prancis menjadi negatif dari sebelumnya stabil di tengah tingginya defisit APBN. (Foto: Ist)",
+   "summaryFrom": "IDX Channel",
+   "sources": [
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T21:40:00+07:00",
+     "url": "https://www.idxchannel.com/economics/sp-pangkas-outlook-peringkat-kredit-prancis-jadi-negatif-defisit-apbn-jadi-sorotan",
+     "title": "S&P Pangkas Outlook Peringkat Kredit Prancis Jadi Negatif, Defisit APBN Jadi Sorotan"
+    },
+    {
+     "media": "IDX Channel",
+     "time": "2026-11-28T21:40:00+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY0dLMHpPTXd3ZkJPbHQxVk1tR3VHZGdxWV9rbER0WE9aV3h6cFBqUF85TGdaaDNLUFNncXl0bWJOME5IM3FPNFlWWFRjdVhiX0pDa053VTF2R1V4czE1ckxpalY5WHpEejJ5TURHcTlNQk5lX3VpV0tFdkdRMWFUVUZnRHlhRHFhU0x4Zm1BbnZ2M2FycTZjUEsya2hoRnd2cml5T2JaRThrZl9KYlhJWGc3QnBibVBpR3E40gHAAUFVX3lxTFBzemJtZ2d5ejdMWUhRTzZsT3ZSV0JuMjFPRnN6SlRkdUlHMTFUWDM4bFUtVXI4VUR3Y0hWdkY1R0dVWVZjU2wtRFRORWFfX0s5dU84aGRLbGRhVDVwZGRhampJcGN5NDkxQ0NZeXlkRVFscDgwSElfNk8yRGhhMHh3MHoyM3BfS0tlcm9PbG53NVJxVC1lNHFrOEZYODJ4ZGtnZ013Xy1kaFJSMXRrUDBubHdQTkFrZTZnbjdIWllMaw?oc=5",
+     "title": "S&P Pangkas Outlook Peringkat Kredit Prancis Jadi Negatif, Defisit APBN Jadi Sorotan"
     }
    ]
   },
@@ -900,22 +931,6 @@
      "time": "2026-11-27T23:27:10+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127232024-17-789257/bos-bsi--bris--ungkap-kisi-kisi-kinerja-2027",
      "title": "Bos BSI (BRIS) Ungkap Kisi-Kisi Kinerja 2027"
-    }
-   ]
-  },
-  {
-   "id": "5eb61d8ffc1b",
-   "title": "S&P Pangkas Outlook Peringkat Kredit Prancis Jadi Negatif, Defisit APBN Jadi Sorotan",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "S&P Global Ratings merevisi prospek peringkat kredit Prancis menjadi negatif dari sebelumnya stabil di tengah tingginya defisit APBN. (Foto: Ist)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-28T21:40:00+07:00",
-     "url": "https://www.idxchannel.com/economics/sp-pangkas-outlook-peringkat-kredit-prancis-jadi-negatif-defisit-apbn-jadi-sorotan",
-     "title": "S&P Pangkas Outlook Peringkat Kredit Prancis Jadi Negatif, Defisit APBN Jadi Sorotan"
     }
    ]
   },
