@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T13:42:10+07:00",
+ "updated": "2026-11-28T13:45:10+07:00",
  "window": {
-  "start": "2026-11-27T13:42:10+07:00",
-  "end": "2026-11-28T13:42:10+07:00",
+  "start": "2026-11-27T13:45:10+07:00",
+  "end": "2026-11-28T13:45:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 80
+   "items": 78
   },
   "Investor.id": {
    "via": "google",
-   "items": 128
+   "items": 117
   }
  },
  "prevAt": "2026-11-28T13:15:10+07:00",
@@ -395,6 +395,36 @@
    ]
   },
   {
+   "id": "14aeb788c570",
+   "title": "Bisnis Limbah dan EV Jadi Penopang Transformasi TOBA, Simak Prospek Sahamnya",
+   "category": "Kinerja",
+   "tickers": [
+    "TOBA"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T15:03:24+07:00",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVTNzQk95cnBYbEdBY0lBUGpGeF9CT3VJUjdYREd6X1FYdHp1ejZxZEx0R2h4SlVRblkwUVpaS2R2a3dPQ1hOYkFKdGoxOVdnNldhcmg5RmxRTmpJUl9NR0paSnN2WHYtXzJIMmpKNDB5cVpBOXI4VFRYeHdpOGZIcUZXZzJFS0N5YzBNb2t3ZmtOemx2bTRzYUxPelFXa0hRYXBQTjJ0OXpoWlFnZjZvatIBqAFBVV95cUxOSkNyTHRubERWR2tLdnF4M1NJV3NYZ0dzcXNLZzRNQVJWQnh4eFN3OURCNEs0bVdmYTY2bk9DOHFNalNYRFViWHFxd2w0TFBId2g5cUhNdXlzNzd5VUN0X05YZ05hVm5mZzV2QXRQSEprQjhrX1VqTno2SVVCVk5KVFdLeUVlTDNtOUd2RkFfdVd1TFF5SWVfUEpCQ0o2UUZ1dDhscTktbTk?oc=5",
+     "title": "Bisnis Limbah dan EV Jadi Penopang Transformasi TOBA, Simak Prospek Sahamnya"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T17:13:57+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQXZlSUVPZVlxNlBQdUUzWEotNFc2TDZpbG15S0FXVGd6TzhWNUdtWUh5ZzNXU3N5Nk1GZHZ2c1oza0RDT3JhOFBneEVTOTlVMnd3Y1BlSHFsdmhyNG9Iazk1QWsxR0VzQzBjdU1zRkFSSy1NMDRZdXZYWDhPZE52eHhFazlTUFE3ZTFvS08zbG9tQUQyMEZPbXFIM2ZETktHRXNrYkRXSVlyVTVSX1lEUEZLMNIBqwFBVV95cUxOY1F4YmlERVdlbHU3ZGQ1REZTUFVoRDZUS2JDZWRhcFV0WURWcUF1T1JYZXBFNnFvVThkakwzV0dTSXRGMEp1c2JRTVFrVjdEQWhLYlBjOExBR1A0SXd5SzZEdGs3SnRGMUJITWxWWVlzSkdfa01oNUhKZTVYN0FpaUhLYWNfRm1saDdvQ01DSmRCLTF3emJDX2JQVndXV2x3N2gzNk5HSE01MGc?oc=5",
+     "title": "TBS Energi (TOBA) Transformasi Bisnis ke Pengembang Infrastruktur Berkelanjutan"
+    },
+    {
+     "media": "Bisnis",
+     "time": "2026-11-27T17:16:51+07:00",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWEl0WHl6V0N2SjNxVE5RNWdpZUxyZmJjODZMOWNaTWRycTlPbVlfZ25pY01JX1FIejh0S01rUlVBSkM2T1FlODI1ODVldXBEcjFGZGlYT3NFRUJsLVA2UDl6VTVrVXpZeUczNXZ3aG05S0EtbjJuQVZYaDdJMWRmLTlZaVo4UXVnWFJaM2taVFVhRjJJWTBDNGsxa1ZPNEZwdXlpZWJjTGpKUWJ5NHB2eklMSHBKVWtON3RBYWIxMjhMM2wxR3hOYndjYVJubXpTcnBTY0V3?oc=5",
+     "title": "TOBA Kantongi Restu Investasi HPS Maksimal 555 Juta Dolar Singapura untuk Bisnis Limbah"
+    }
+   ]
+  },
+  {
    "id": "75f0dcdcf024",
    "title": "BRI Ungkap Skema Merger Tiga Asuransi Umum dalam Ekosistem Danantara",
    "category": "Aksi korporasi",
@@ -459,54 +489,6 @@
      "time": "2026-11-28T10:00:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcE5CemZaXzVmMmJsRXp2TjUwWFJqZFE0NjdGTWpyeGdLT2pjTnEzVTBrX2hvMkZBaGRPZm1UNFBzTkkzTkVzaUpuQ0ptU0lOOGdJczloTU4tZHg0X3JYRlFvd0xOXy1mcFBETDFndllxTXBkdkZhYWp2am85SEZCY1JORFAyZXp2bUMxenAzdw?oc=5",
      "title": "Nasib Saham DSSA di Tengah Eskalasi Kasus Manipulasi"
-    }
-   ]
-  },
-  {
-   "id": "14aeb788c570",
-   "title": "Bisnis Limbah dan EV Jadi Penopang Transformasi TOBA, Simak Prospek Sahamnya",
-   "category": "Kinerja",
-   "tickers": [
-    "TOBA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T15:03:24+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVTNzQk95cnBYbEdBY0lBUGpGeF9CT3VJUjdYREd6X1FYdHp1ejZxZEx0R2h4SlVRblkwUVpaS2R2a3dPQ1hOYkFKdGoxOVdnNldhcmg5RmxRTmpJUl9NR0paSnN2WHYtXzJIMmpKNDB5cVpBOXI4VFRYeHdpOGZIcUZXZzJFS0N5YzBNb2t3ZmtOemx2bTRzYUxPelFXa0hRYXBQTjJ0OXpoWlFnZjZvatIBqAFBVV95cUxOSkNyTHRubERWR2tLdnF4M1NJV3NYZ0dzcXNLZzRNQVJWQnh4eFN3OURCNEs0bVdmYTY2bk9DOHFNalNYRFViWHFxd2w0TFBId2g5cUhNdXlzNzd5VUN0X05YZ05hVm5mZzV2QXRQSEprQjhrX1VqTno2SVVCVk5KVFdLeUVlTDNtOUd2RkFfdVd1TFF5SWVfUEpCQ0o2UUZ1dDhscTktbTk?oc=5",
-     "title": "Bisnis Limbah dan EV Jadi Penopang Transformasi TOBA, Simak Prospek Sahamnya"
-    },
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T17:16:51+07:00",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWEl0WHl6V0N2SjNxVE5RNWdpZUxyZmJjODZMOWNaTWRycTlPbVlfZ25pY01JX1FIejh0S01rUlVBSkM2T1FlODI1ODVldXBEcjFGZGlYT3NFRUJsLVA2UDl6VTVrVXpZeUczNXZ3aG05S0EtbjJuQVZYaDdJMWRmLTlZaVo4UXVnWFJaM2taVFVhRjJJWTBDNGsxa1ZPNEZwdXlpZWJjTGpKUWJ5NHB2eklMSHBKVWtON3RBYWIxMjhMM2wxR3hOYndjYVJubXpTcnBTY0V3?oc=5",
-     "title": "TOBA Kantongi Restu Investasi HPS Maksimal 555 Juta Dolar Singapura untuk Bisnis Limbah"
-    }
-   ]
-  },
-  {
-   "id": "eaabf957882d",
-   "title": "TBS Energi Utama (TOBA) Pede Capai Target Kapasitas EBT 500 MW di 2030",
-   "category": "Kinerja",
-   "tickers": [
-    "TOBA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T13:42:56+07:00",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV3ZoR3BBVGhOTVZvXzhGYi1TNU9ITzlydEhHdHFsamhGX3JySktLN3VuNkFoLTZ0YjdNemtjSGd4bmQtUm9YLVdrSGtPMVVaU2UtM1NjcThjR3FISFBqTjZLME9ZNFhIcmNqQ2N2QWI4V0daNGotd1BCTFdEclVoZGhER0lHUHhaVlNwTW9FV2FrY2dvX2JLYXlFa0NpWTNtZlVsWndCMF9EeGZZOG5idjdVVThQaXlDTC03Rw?oc=5",
-     "title": "TBS Energi Utama (TOBA) Pede Capai Target Kapasitas EBT 500 MW di 2030"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T17:13:57+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQXZlSUVPZVlxNlBQdUUzWEotNFc2TDZpbG15S0FXVGd6TzhWNUdtWUh5ZzNXU3N5Nk1GZHZ2c1oza0RDT3JhOFBneEVTOTlVMnd3Y1BlSHFsdmhyNG9Iazk1QWsxR0VzQzBjdU1zRkFSSy1NMDRZdXZYWDhPZE52eHhFazlTUFE3ZTFvS08zbG9tQUQyMEZPbXFIM2ZETktHRXNrYkRXSVlyVTVSX1lEUEZLMNIBqwFBVV95cUxOY1F4YmlERVdlbHU3ZGQ1REZTUFVoRDZUS2JDZWRhcFV0WURWcUF1T1JYZXBFNnFvVThkakwzV0dTSXRGMEp1c2JRTVFrVjdEQWhLYlBjOExBR1A0SXd5SzZEdGs3SnRGMUJITWxWWVlzSkdfa01oNUhKZTVYN0FpaUhLYWNfRm1saDdvQ01DSmRCLTF3emJDX2JQVndXV2x3N2gzNk5HSE01MGc?oc=5",
-     "title": "TBS Energi (TOBA) Transformasi Bisnis ke Pengembang Infrastruktur Berkelanjutan"
     }
    ]
   },
