@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T21:28:23+07:00",
+ "updated": "2026-11-28T21:37:23+07:00",
  "window": {
-  "start": "2026-11-27T21:28:23+07:00",
-  "end": "2026-11-28T21:28:23+07:00",
+  "start": "2026-11-27T21:37:23+07:00",
+  "end": "2026-11-28T21:37:23+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,11 +33,11 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 60
+   "items": 58
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 65
+   "items": 64
   },
   "IDX Channel": {
    "via": "rss",
@@ -49,24 +49,24 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 62
+   "items": 66
   }
  },
- "prevAt": "2026-11-28T20:30:56+07:00",
+ "prevAt": "2026-11-28T21:37:23+07:00",
  "prevRanks": {
   "91ccd8229cfb": 1,
   "c8c4c97c6039": 2,
   "af1ceae30bc5": 3,
   "56b86b8f5560": 4,
-  "28974680b2f6": 5,
-  "0c11c8bdae1b": 6,
-  "c03fb8f08db5": 7,
-  "a79def9f126f": 8,
-  "2d3aae76440d": 9,
-  "3cc6f1452295": 10,
-  "110127fe4838": 11,
-  "108c3deae09c": 12,
-  "664c99468efb": 13,
+  "2d3aae76440d": 5,
+  "664c99468efb": 6,
+  "3b5debae9fa0": 7,
+  "28974680b2f6": 8,
+  "0c11c8bdae1b": 9,
+  "c03fb8f08db5": 10,
+  "a79def9f126f": 11,
+  "110127fe4838": 12,
+  "108c3deae09c": 13,
   "ec5a360a0c16": 14,
   "443cb45cedc2": 15,
   "1cb58660ce1a": 16,
@@ -74,7 +74,7 @@
   "5048e754103d": 18,
   "001934022fde": 19,
   "d65256df9f7f": 20,
-  "22d440ac9ba7": 21,
+  "69d0dde4ea25": 21,
   "f073cf46a4c1": 22,
   "2560b6a9e646": 23,
   "7f572edd1ae8": 24,
@@ -84,50 +84,40 @@
   "d3709a98ac07": 28,
   "a341e9ee9868": 29,
   "bbe10221ef7d": 30,
-  "3b5debae9fa0": 31,
-  "99a1bf8029c3": 32,
-  "f995c73a9735": 33,
-  "10d02dabbc83": 34,
-  "0bd355a4589f": 35,
-  "b0b13642c68d": 36,
-  "8988cc319e62": 37,
-  "489479142a1a": 38,
-  "23aed728cbc3": 39,
-  "55eba9271b21": 40,
-  "e5cfc3413b7e": 41,
-  "dac5a668f429": 42,
-  "80fdcd0bf0ff": 43,
-  "f09725b22a87": 44,
-  "c0259bf955bf": 45,
-  "42e4bbe2fc2b": 46,
-  "fa10f9676102": 47,
-  "ef3fcef46560": 48,
-  "a2df0cd9129c": 49,
-  "91ed9a81f04c": 50,
-  "532750396646": 51,
-  "e08fcbbdb60a": 52,
-  "ee7bf9911642": 53,
-  "1949180aac95": 54,
-  "c0ece463bb77": 55,
-  "7c2da5f63bd3": 56,
-  "6ec2d43301cd": 57,
-  "4718f5612070": 58,
-  "f41d781ef327": 59,
-  "09c3fce892a2": 60,
-  "db30326f06fb": 61,
-  "f3198d29b0e8": 62,
-  "dc72000c0383": 63,
-  "45fe3e4d0e53": 64,
-  "be22f8145d5e": 65,
-  "93c4a25589fe": 66,
-  "00193f420a7e": 67,
-  "5a0578e309c2": 68,
-  "ce290a6450df": 69,
-  "e278e3bb1def": 70,
-  "4e27dcd0aba3": 71,
-  "4becbaa7d3af": 72,
-  "31ed44a0a9fd": 73,
-  "888b70a05d96": 74
+  "99a1bf8029c3": 31,
+  "f995c73a9735": 32,
+  "10d02dabbc83": 33,
+  "0bd355a4589f": 34,
+  "b0b13642c68d": 35,
+  "8988cc319e62": 36,
+  "489479142a1a": 37,
+  "23aed728cbc3": 38,
+  "dac5a668f429": 39,
+  "80fdcd0bf0ff": 40,
+  "f09725b22a87": 41,
+  "c0259bf955bf": 42,
+  "42e4bbe2fc2b": 43,
+  "fa10f9676102": 44,
+  "ef3fcef46560": 45,
+  "06c945d4d4aa": 46,
+  "a2df0cd9129c": 47,
+  "91ed9a81f04c": 48,
+  "532750396646": 49,
+  "e08fcbbdb60a": 50,
+  "ee7bf9911642": 51,
+  "1949180aac95": 52,
+  "c0ece463bb77": 53,
+  "7c2da5f63bd3": 54,
+  "6ec2d43301cd": 55,
+  "4718f5612070": 56,
+  "f41d781ef327": 57,
+  "09c3fce892a2": 58,
+  "db30326f06fb": 59,
+  "f3198d29b0e8": 60,
+  "dc72000c0383": 61,
+  "45fe3e4d0e53": 62,
+  "be22f8145d5e": 63,
+  "93c4a25589fe": 64
  },
  "topics": [
   {
@@ -1280,22 +1270,6 @@
      "time": "2026-11-27T21:40:49+07:00",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWlRZeS1uSmFGb01XWEJUemFwQUNMSnVueHZqMUVNelY0Q3JDVExMVGkwYmpPM3FSaUtoSVJEbUJ5ZGhZWk9EeldLRHpGdjBZYkpqNHRLYW16M0FrbTRud0lhOHhwNGF1NXk0S0xLTUt0WVhpT196cmRobmZOZzlCbjQtSzhqcGdRNll5UzRsS0huRHpfcjR3dDljcm5JZU5OOTVBeUltRHFJeUNzMzFCOGkyblJMQXhCZkFJ?oc=5",
      "title": "Airlangga Bandingkan Pengenaan Tarif AS: Indonesia 'Cuma' 18%, Vietnam 35%"
-    }
-   ]
-  },
-  {
-   "id": "93c4a25589fe",
-   "title": "Prabowo Dorong Pasar Modal Lebih Sehat, Investor Ritel Bisa Lebih Terlindungi",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T21:37:17+07:00",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRGQ0UmJGZWx3X3NOTnBDNlFXdWhncXZKVkJsbGxtQUZmYmVaajdwOEJreGc3V3Y4VG1LYUpIRFNIcmlkRGplSDhCaUplenhrUDhXQmRlZGgwa05IOGl4VnJJYkZoTVVrM2hVTzhaRk5CMUVMc1JMcURMV0YtUXh2b0ZNWktCNi10am9HeFBSeXZWSV9jTFRNSUpjcF9pMjhrWTNYWUhtYWlDUUl2dzQwSG9R0gGqAUFVX3lxTE1GQzZFTEZMT0hXNDA2Z1NLWjgyY2dQVThUcXZPZjFYbE5mN3FLN2lreUhxYkF6T1pPcXhOWmJoV1h5UWZuVXJyOHltWURZWi13UWoxdkIyZ3hJckZua3FFMm1tbzRGdzJSSzhRVVY4RDdfMkx2d1BUZ3F0aWpyMHV1cXYxLU44bk1BTlZIOTFWdDBpby1OVE55Wm9kLUVNTGRPbWtrR0FuWEdR?oc=5",
-     "title": "Prabowo Dorong Pasar Modal Lebih Sehat, Investor Ritel Bisa Lebih Terlindungi"
     }
    ]
   }
