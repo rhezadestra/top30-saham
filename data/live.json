@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T20:57:56+07:00",
+ "updated": "2026-11-28T21:00:57+07:00",
  "window": {
-  "start": "2026-11-27T20:57:56+07:00",
-  "end": "2026-11-28T20:57:56+07:00",
+  "start": "2026-11-27T21:00:57+07:00",
+  "end": "2026-11-28T21:00:57+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,22 +33,19 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 63
+   "items": 61
   },
   "CNBC Indonesia": {
    "via": "rss",
    "items": 69
   },
   "IDX Channel": {
-   "via": "google",
-   "items": 20,
-   "errors": [
-    "rss: HTTPError HTTP Error 522: <none>"
-   ]
+   "via": "rss",
+   "items": 10
   },
   "Bisnis": {
    "via": "google",
-   "items": 48
+   "items": 47
   },
   "Investor.id": {
    "via": "google",
@@ -893,24 +890,6 @@
    ]
   },
   {
-   "id": "55eba9271b21",
-   "title": "Saham Mitra Keluarga (MIKA) Mulai Rebound, Volume Pasien Jadi Penentu Prospek",
-   "category": "Kinerja",
-   "tickers": [
-    "MIKA"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T20:58:33+07:00",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTXdSVER2d201RjFnTVdES2hvZTJlYlJkTmU3eFBVby1vWjI1QmVDVXR2ZHZ2S1F4VFpTc0xVQmZLQkt6LVpfVlgwVFo4Q2Fjd0lDeWFlc0VzeXdnNjJrWWRVZS1OVk1TZk5YTEVuSk15aElNczREbjRFWUU5Y0ZBbVV2a0NCcW9RRHF1ZC1tRDhEX0VRTW1URjFyTGN1cWNmNTFtNzAyb0xmZVItZ1dV0gGnAUFVX3lxTE5wR1NUeXJfdzJjV1ZZaFBGWG1EcklWQVIyeVhCTWRvQnRJMGQ4eWZuaGRVdElBdzl6Z2NXWU5YRHNKUVp4dUFrWWk0c05vOEtWYkI1aUZQSHZZeUxUX29hb1ZMSjA2RU1wM2lXY0ZOZVFudWFYVmx0aEw2Y3dpN2hoRjFfWXpUZFVNX3VoVEJ3UXMzelR0eHM1aUZkdzNGOW9hUE5DU2JR?oc=5",
-     "title": "Saham Mitra Keluarga (MIKA) Mulai Rebound, Volume Pasien Jadi Penentu Prospek"
-    }
-   ]
-  },
-  {
    "id": "dac5a668f429",
    "title": "Satpam Bank Salah Sangka, 2 Orang Masuk-Rampok Uang dan 60,5 Kg Emas",
    "category": "Makro",
@@ -1355,22 +1334,6 @@
      "time": "2026-11-27T21:07:01+07:00",
      "url": "https://www.cnbcindonesia.com/market/20261127210416-17-789242/singgung-pelanggaran-pasar-modal-prabowo-60-orang-diperiksa",
      "title": "Singgung Pelanggaran Pasar Modal, Prabowo: 60 Orang Diperiksa"
-    }
-   ]
-  },
-  {
-   "id": "e278e3bb1def",
-   "title": "Prabowo Desak LKPP Jadi Badan Pengadaan, Ternyata Alasannya!",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Presiden Prabowo Subianto dorong pembentukan lembaga pengadaan barang dan jasa pemerintah untuk efisiensi belanja APBN yang mencapai 30%.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T21:00:28+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127202759-17-789231/prabowo-desak-lkpp-jadi-badan-pengadaan-ternyata-alasannya",
-     "title": "Prabowo Desak LKPP Jadi Badan Pengadaan, Ternyata Alasannya!"
     }
    ]
   }
