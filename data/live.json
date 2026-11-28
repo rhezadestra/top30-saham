@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T10:13:38+07:00",
+ "updated": "2026-11-28T10:16:38+07:00",
  "window": {
-  "start": "2026-11-27T10:13:38+07:00",
-  "end": "2026-11-28T10:13:38+07:00",
+  "start": "2026-11-27T10:16:38+07:00",
+  "end": "2026-11-28T10:16:38+07:00",
   "hours": 24
  },
  "target": 30,
@@ -37,14 +37,11 @@
   },
   "CNBC Indonesia": {
    "via": "rss",
-   "items": 64
+   "items": 65
   },
   "IDX Channel": {
-   "via": "google",
-   "items": 41,
-   "errors": [
-    "rss: HTTPError HTTP Error 522: <none>"
-   ]
+   "via": "rss",
+   "items": 10
   },
   "Bisnis": {
    "via": "google",
@@ -52,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 138
+   "items": 139
   }
  },
  "prevAt": "2026-11-28T10:07:08+07:00",
@@ -2158,6 +2155,22 @@
      "time": "2026-11-27T11:13:19+07:00",
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYWEya3V2REZTbXpfLTBCYUg0V2N5Q1Z5X2VCd2FaUThNN3l2eTF3eEY0UmZrc0NxOGFiUi1zZ1kyMVg5MHItVnQ3cUhET2FZQVBIcl9UTU45TmhDRVVmZWxZUDdOOWxEM0ZfZC1iRXhNZWRLUkVZNDdTYWRjTThkTndVQnB6cld2SUtwRTA3Y3NzaXVITnJKZWRFWk9WZTVNeHJIUUxoQlhBVVpUMlZIaUln0gGqAUFVX3lxTFBMa0tTNE4tUEtuczhpSEwxdlBxSjRGaTRMVGJrdXA0N3N0Q1ozTVVOcHpERlNocHR5eXE0RXl3aHRCSmZHOEJXMUhSaTdfTjBrcGdlY2Q4Um1rUEdGNTltYWgtRmtZVE5TTzl3YmhwLUx4ZktraE5BcDJFSkp1RnBVQXpoQk9GdTdoWXRXMnhNTjdYMzRtQjg2Zm1hUmhveTNDeDBlQ3JMR25R?oc=5",
      "title": "Kenaikan Harga Saham TOBA Jadi Sorotan, Cek Profil Emiten dan Kinerja Terkini"
+    }
+   ]
+  },
+  {
+   "id": "ef3fcef46560",
+   "title": "18 Bank di RI Resmi Tutup per November 2026, Ini Daftarnya",
+   "category": "Makro",
+   "tickers": [],
+   "summary": "Daftar 18 Bank di Indonesia yang resmi tutup",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-28T10:15:06+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261128081135-17-789270/18-bank-di-ri-resmi-tutup-per-november-2026-ini-daftarnya",
+     "title": "18 Bank di RI Resmi Tutup per November 2026, Ini Daftarnya"
     }
    ]
   },
