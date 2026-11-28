@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T11:14:09+07:00",
+ "updated": "2026-11-28T11:17:09+07:00",
  "window": {
-  "start": "2026-11-27T11:14:09+07:00",
-  "end": "2026-11-28T11:14:09+07:00",
+  "start": "2026-11-27T11:17:09+07:00",
+  "end": "2026-11-28T11:17:09+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 131
+   "items": 132
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -415,52 +415,6 @@
    ]
   },
   {
-   "id": "f14b1f7c209b",
-   "title": "Data Free Float Tidak Akurat, BEI Jatuhkan Sanksi kepada 5 Emiten",
-   "category": "Regulasi",
-   "tickers": [],
-   "summary": "Bursa Efek Indonesia suspensi lima emiten akibat laporan free float yang tidak sesuai.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "Bisnis",
-     "time": "2026-11-27T11:14:14+07:00",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTU3Zmw5TnB1SWtVZGM0dUFyOEwwd3NJN2xyMWl0U2JBdl81M091S19ZWDVSdkR4Q2NhaWM1emZFU2Q4RnJNZy1ZQW9Pa20wby11RXlVVHRxaWRfTHZrUlU5cXBxRFZjNGtiUGlzbENsdDQ3Sm9kUHFfWmstUDZLMWw0cU9pM0dqa3plSC1hVGFzVEpJZXB0TG9FbFJma1dxenJxZFFSZGZIVDBTNXBHZFpKd1o?oc=5",
-     "title": "Data Free Float Tidak Akurat, BEI Jatuhkan Sanksi kepada 5 Emiten"
-    },
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T11:35:33+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float",
-     "title": "Tak Cuma Beri Sanksi, BEI Juga Gembok 5 Saham Ini Gegara Free Float"
-    }
-   ]
-  },
-  {
-   "id": "a1269bf47dc7",
-   "title": "Krakatau Steel (KRAS) Cetak Laba Rp115 M di Semester I-2026",
-   "category": "Kinerja",
-   "tickers": [
-    "KRAS"
-   ],
-   "summary": "PT Krakatau Steel (KRAS) mencatat laba US$6,31 juta pada semester I-2026, berbalik dari rugi tahun lalu.",
-   "summaryFrom": "CNBC Indonesia",
-   "sources": [
-    {
-     "media": "CNBC Indonesia",
-     "time": "2026-11-27T11:15:02+07:00",
-     "url": "https://www.cnbcindonesia.com/market/20261127100926-17-788971/krakatau-steel--kras--cetak-laba-rp115-m-di-semester-i-2026",
-     "title": "Krakatau Steel (KRAS) Cetak Laba Rp115 M di Semester I-2026"
-    },
-    {
-     "media": "Kontan",
-     "time": "2026-11-28T09:50:30+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWnd1R2tOMC1WUXN1b1lQWTlKQnJPZk96SERwZUdfanotdDFBYXJzTjRKcVJWSWhZNWF6a3VXMmJqbmFESnFPUnQySjVJbDV4dnoyWDZETzI0dnNFekRmSVJaYzhNa3RJMlVVS0tzUEx5cGQ2MUtXd2xuNHlvUFAtMGRwZHB2U3VYLVV1UDhiUTAtdGZINTI3TDl6VnNFY01nemdGWVZfbHNTd9IBogFBVV95cUxOLWo2WEJhZWo2ZFJhZy01bzNhSzZzWnhSV3JnU183Z2lpTGRIRU82UjRsbmhUbHFCbnpsRU9kT2lXWmc2Q3pUbzhfRUZFLW1YVnhiR0ZFc0dDeHh5MDZoa2RFUlVFaFlfZmFsSTlUOTVQaU9iZjhSQXZRNGxlWWFPX2I2NDZhRk5tRlIxN1FUbVNHRTgtQ2ltcFg5WlJfbkJHZWc?oc=5",
-     "title": "Krakatau Steel (KRAS) Cetak Laba Bersih US$ 83,1 Juta per Kuartal III-2026"
-    }
-   ]
-  },
-  {
    "id": "14aeb788c570",
    "title": "Bisnis Limbah dan EV Jadi Penopang Transformasi TOBA, Simak Prospek Sahamnya",
    "category": "Kinerja",
@@ -760,6 +714,28 @@
    ]
   },
   {
+   "id": "203683fc7303",
+   "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026",
+   "category": "Kinerja",
+   "tickers": [],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-27T17:50:47+07:00",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEloVEVSYTZZOENnS2RQbHRIdno0NnF2aFp0c1hRdURwSWtRU3hNbVdIN1ZhNFVfNHQ2VGU2V0l3eWtpaEtSU3pEeGF5LTdlYzVvekk2b1ZoV2FoZkowYktSTTZHSU13S0pyelQyb2xjUFpKQnNxSGFHWHhRb0hUeURqUXlDZEM0S2I5UmVrSlI1cXlZc2JlRWwyaF92bkxpdm1DUNIBngFBVV95cUxQcU96ZmFFcmprZXJWckxQQnhWMUZvTTJkV0tvLW9rYnNwS3hMRVZ0RVlBZjhNN3g3SkNvN0NEM3luVkRsS05tSDBqWGJiRTJYZEk1bkpTTGxRQl9FSWN2VjF5Z0N1bmVNVzJKbVRQbWVQN09ySUdLU2U5LXNZNU9iUXZtOTBmbDlCbk93cVpvZS1VT3JyVG5MSW44ajJRUQ?oc=5",
+     "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026"
+    },
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T11:01:46+07:00",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSXJnWE1vLUt4STY0MWV5XzBPV09jcEVDdlhxa3U4MVUyNWtzS2VrNklBN3BGUjNlRWx1U0tqaWJxRkxMZnI0VG9SR0IxMEFHeFNrU2NsbTd2MzhWRm5pOTE0dzJuSEhTOThpemVWRWs1UWZQbXNXZzdXMTlXZmNRbURSOXhBU3VxNzFaMWl0Vmxra2I1V0HSAY8BQVVfeXFMUFJZNWE1Y1Bkd0hDMXNmcGZCWXJSaGV2M0F1WE5XVTFTb1pPS2J1a2xUazl5Wmt6czNvUWRHX1VieGRKLVBncEE2SHY4VEVIanNRazhDT1RfSnJUbGVaalp0dXJ1OE1wLTQ4NE1vZFVBb1BOSHhWQ083aFVwNUxybEVBM0JpZmpCQ0JHTVo4dVU?oc=5",
+     "title": "BTN Cetak Laba Rp 2,92 Triliun Per Oktober 2026, Naik 16,55%"
+    }
+   ]
+  },
+  {
    "id": "c03fb8f08db5",
    "title": "Kalbe Farma (KLBF) Menyusun Harga Jual Produk",
    "category": "Kinerja",
@@ -1024,28 +1000,6 @@
      "time": "2026-11-27T13:28:00+07:00",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV0ViQm5hN2FKcFNydGxkNnRxemZVdEtnQ3hrMnNvNW1jb3IyWmZFRURDOGZnQl82UVlxd2UtNUU3eGF5TFNrRkgtMWlfMHhhbUJGeGJtSjdLWHpoaUJYOXBLbnp5Mno4ZjA1ZmpaQy1DcVZPWGE4MnoyZ2JXY2FMLVNDcnJwWFlCcWd2M1JHemdoRjZOcWxMTzhQUXZva2tzQnZILU1VajhlUWpvRDZV0gG0AUFVX3lxTE5lR3lNb2xvZnhIWVgzV3V3UjZ2T1NCenMwVFo2eUxTa05jX3pBVzFCWGgtaGpEXzJtd2ozX203VG1ZMnpsYnA0bGFNT2JpbFR1TDBuaFdNck1ZbEZDZ1BmekptcmRfRmF5eXJJVEZlSmNBQlZuLWVrT1UtWjhhQXBUUVhxYzRyaG9Wazd0RzNFOVVKTmdvZk5NY1YzM18wRmNDdEFDSmt1bXNzcW9udUtoZGFUTA?oc=5",
      "title": "Di Tengah Tekanan Pasar Modal, Teknologi AI Perkuat Pendekatan Investasi"
-    }
-   ]
-  },
-  {
-   "id": "52e41525db74",
-   "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah",
-   "category": "Makro",
-   "tickers": [],
-   "summary": "Argentina menyetujui undang-undang yang melarang bank sentral mencetak uang tambahan untuk membiayai belanja pemerintah. (Foto: IMG)",
-   "summaryFrom": "IDX Channel",
-   "sources": [
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T11:15:00+07:00",
-     "url": "https://www.idxchannel.com/economics/presiden-argentina-larang-bank-sentral-cetak-duit-untuk-danai-belanja-pemerintah",
-     "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah"
-    },
-    {
-     "media": "IDX Channel",
-     "time": "2026-11-27T11:15:00+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMVFDMzBfWFNyTy1qU2k2WHdlOUlMM0RMbG0xRlQzR3dOMXp2ZnUtZXZyT1k2YU9IQXpBcV94R1ZMZGVGbDFYUUxyMTl1UDM1U24zdEFHRGZxS2J3Vmg4YmZ3Y005ZHNUYnFaekllaHR4azhnVVdiMklxaWRQeTd3amd1R1dHT3hEOGgxQzV5dnFLODR0MU9RUzc5b0QwdzZiaXRFRVEwVklxelRIdWxOSVZvRXY0ckZV0gG-AUFVX3lxTE0wcXRiRnBIOVFYZ1Jrcm1DTFBQV2E5VlRzYV9xSFk0Y2Y1TU10MGRocFdqR0FIdXZRWnVIVjZ4a2l1YlRnOGJrZHUwSE9VYlBZS0lZSjRDTVJpSHBXaGNnemJZLUptWU9PaXVsT0dKaGJHMFNmTGR5aDNmSU9NYjExSUNVYmVSWjNfUVpRMHBiaEViVlVLOFJZeE1WQzFpNU9ycXFQeTdyWHlJX2JGdEVtblByam8xZVNZQUZ6TGc?oc=5",
-     "title": "Presiden Argentina Larang Bank Sentral Cetak Duit untuk Danai Belanja Pemerintah"
     }
    ]
   },
@@ -1484,6 +1438,22 @@
    ]
   },
   {
+   "id": "71b2249d4ceb",
+   "title": "Tak Cuma Beri Sanksi, BEI Juga Gembok 5 Saham Ini Gegara Free Float",
+   "category": "Regulasi",
+   "tickers": [],
+   "summary": "Bursa Efek Indonesia suspensi lima emiten akibat laporan free float yang tidak sesuai.",
+   "summaryFrom": "CNBC Indonesia",
+   "sources": [
+    {
+     "media": "CNBC Indonesia",
+     "time": "2026-11-27T11:35:33+07:00",
+     "url": "https://www.cnbcindonesia.com/market/20261127103029-17-788986/tak-cuma-beri-sanksi-bei-juga-gembok-5-saham-ini-gegara-free-float",
+     "title": "Tak Cuma Beri Sanksi, BEI Juga Gembok 5 Saham Ini Gegara Free Float"
+    }
+   ]
+  },
+  {
    "id": "f995c73a9735",
    "title": "Prabowo Soroti Kredit Bank Himbara Berputar di Debitur yang Sama",
    "category": "Kinerja",
@@ -1496,6 +1466,24 @@
      "time": "2026-11-28T11:00:00+07:00",
      "url": "https://www.idxchannel.com/banking/prabowo-soroti-kredit-bank-himbara-berputar-di-debitur-yang-sama",
      "title": "Prabowo Soroti Kredit Bank Himbara Berputar di Debitur yang Sama"
+    }
+   ]
+  },
+  {
+   "id": "91ccd8229cfb",
+   "title": "Krakatau Steel (KRAS) Cetak Laba Bersih US$ 83,1 Juta per Kuartal III-2026",
+   "category": "Kinerja",
+   "tickers": [
+    "KRAS"
+   ],
+   "summary": "",
+   "summaryFrom": null,
+   "sources": [
+    {
+     "media": "Kontan",
+     "time": "2026-11-28T09:50:30+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWnd1R2tOMC1WUXN1b1lQWTlKQnJPZk96SERwZUdfanotdDFBYXJzTjRKcVJWSWhZNWF6a3VXMmJqbmFESnFPUnQySjVJbDV4dnoyWDZETzI0dnNFekRmSVJaYzhNa3RJMlVVS0tzUEx5cGQ2MUtXd2xuNHlvUFAtMGRwZHB2U3VYLVV1UDhiUTAtdGZINTI3TDl6VnNFY01nemdGWVZfbHNTd9IBogFBVV95cUxOLWo2WEJhZWo2ZFJhZy01bzNhSzZzWnhSV3JnU183Z2lpTGRIRU82UjRsbmhUbHFCbnpsRU9kT2lXWmc2Q3pUbzhfRUZFLW1YVnhiR0ZFc0dDeHh5MDZoa2RFUlVFaFlfZmFsSTlUOTVQaU9iZjhSQXZRNGxlWWFPX2I2NDZhRk5tRlIxN1FUbVNHRTgtQ2ltcFg5WlJfbkJHZWc?oc=5",
+     "title": "Krakatau Steel (KRAS) Cetak Laba Bersih US$ 83,1 Juta per Kuartal III-2026"
     }
    ]
   },
@@ -1706,22 +1694,6 @@
      "time": "2026-11-27T18:43:08+07:00",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTU02akN6MDFFU3pxekF3UWJZcHkzX2s1ZTRUQ25HS2ZPdjNvVktiZDZNSzRzUGx3OVpHQ1NqWmJsYUQzLXdnSTE3NHk2VG5Sb0VvVzlnNS1qOUVvaUVfc3FWMFRaTWh4SmxOeDFsUWlCUDJqMEtDWWZ2dmNrcWpJclZVWFBFdVZLWkJVOEVoNTU3TE11TGF0Szlpb2FpVmPSAZcBQVVfeXFMTnZ1ekhWM1VlbkhoSi1FTUo1Y0VaRFVOdDhmVG8xNEplaVpJZnl5cUVvUUNBcWQ2bGpCYmJCSW9jQmtjMUFGSVJNNXFLOXRoQWpzXzIyMkNrVUNybE80dWRDWm01R0VJR2RoZ3llQWppWF94RXJMdVBNSFFrMy05am9DcVRZbzRacVpwZFpUM21lem5WQ0ZnMA?oc=5",
      "title": "Penjualan Alat Berat UNTR Turun, Bagaimana Prospeknya pada 2027?"
-    }
-   ]
-  },
-  {
-   "id": "203683fc7303",
-   "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026",
-   "category": "Kinerja",
-   "tickers": [],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T17:50:47+07:00",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEloVEVSYTZZOENnS2RQbHRIdno0NnF2aFp0c1hRdURwSWtRU3hNbVdIN1ZhNFVfNHQ2VGU2V0l3eWtpaEtSU3pEeGF5LTdlYzVvekk2b1ZoV2FoZkowYktSTTZHSU13S0pyelQyb2xjUFpKQnNxSGFHWHhRb0hUeURqUXlDZEM0S2I5UmVrSlI1cXlZc2JlRWwyaF92bkxpdm1DUNIBngFBVV95cUxQcU96ZmFFcmprZXJWckxQQnhWMUZvTTJkV0tvLW9rYnNwS3hMRVZ0RVlBZjhNN3g3SkNvN0NEM3luVkRsS05tSDBqWGJiRTJYZEk1bkpTTGxRQl9FSWN2VjF5Z0N1bmVNVzJKbVRQbWVQN09ySUdLU2U5LXNZNU9iUXZtOTBmbDlCbk93cVpvZS1VT3JyVG5MSW44ajJRUQ?oc=5",
-     "title": "BTN Catat Laba Bersih Naik 16,55% Jadi Rp2,92 Triliun per Oktober 2026"
     }
    ]
   },
