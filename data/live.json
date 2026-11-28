@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T13:15:10+07:00",
+ "updated": "2026-11-28T13:18:10+07:00",
  "window": {
-  "start": "2026-11-27T13:15:10+07:00",
-  "end": "2026-11-28T13:15:10+07:00",
+  "start": "2026-11-27T13:18:10+07:00",
+  "end": "2026-11-28T13:18:10+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 125
+   "items": 123
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -49,7 +49,7 @@
   },
   "Investor.id": {
    "via": "google",
-   "items": 128
+   "items": 118
   }
  },
  "prevAt": "2026-11-28T13:15:10+07:00",
@@ -1959,24 +1959,6 @@
      "time": "2026-11-27T13:47:32+07:00",
      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sMjM2TnY5M09KVWE3bHFIaUpqVHBqOUIzYzJmMjV0ZkM5U3FXSzBZVDIyRC14M29Lbmd2V05nQ3ZoMXhOVGVES0JTdW9wcTFJVjg3MDlUY2dzalZveThsR0lLOUlwZldIemc?oc=5",
      "title": "Fenomena Unik Saham BBRI"
-    }
-   ]
-  },
-  {
-   "id": "24e20d625da2",
-   "title": "Analis Jagokan Saham BMRI di Tengah Tantangan Likuiditas Bank Pelat Merah pada 2027",
-   "category": "Kinerja",
-   "tickers": [
-    "BMRI"
-   ],
-   "summary": "",
-   "summaryFrom": null,
-   "sources": [
-    {
-     "media": "Kontan",
-     "time": "2026-11-27T13:15:24+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWdqcFg5SF9zVEhUeXBnbDlMWnlXdnJGdFFEZ0NRdlRla2M2RThJVXJUWG1HSGpBOGdvdUhKQnBxaU5rRXY5ZGtSdmJKLVZORWhjOFJJOGZWZE5Pa3AyZ3NtQ0Qwa0hLVWVyTTJUMDM5WDlEWFZDZ0F6eXp5NDVlemhSSENiaFNzRjEwMXpDMmlwVmVVTWdzM1hTSUNpaUJfTTB1dnVtSzVzYlFFOGFGT3BDM3BXTzVi?oc=5",
-     "title": "Analis Jagokan Saham BMRI di Tengah Tantangan Likuiditas Bank Pelat Merah pada 2027"
     }
    ]
   },
