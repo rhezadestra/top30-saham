@@ -1,10 +1,10 @@
 {
  "live": true,
  "mode": "rolling",
- "updated": "2026-11-28T07:17:33+07:00",
+ "updated": "2026-11-28T07:20:34+07:00",
  "window": {
-  "start": "2026-11-27T07:17:33+07:00",
-  "end": "2026-11-28T07:17:33+07:00",
+  "start": "2026-11-27T07:20:34+07:00",
+  "end": "2026-11-28T07:20:34+07:00",
   "hours": 24
  },
  "target": 30,
@@ -33,7 +33,7 @@
  "feeds": {
   "Kontan": {
    "via": "google",
-   "items": 162
+   "items": 161
   },
   "CNBC Indonesia": {
    "via": "rss",
@@ -45,11 +45,11 @@
   },
   "Bisnis": {
    "via": "google",
-   "items": 91
+   "items": 90
   },
   "Investor.id": {
    "via": "google",
-   "items": 135
+   "items": 134
   }
  },
  "prevAt": "2026-11-28T07:05:33+07:00",
@@ -2400,20 +2400,18 @@
    ]
   },
   {
-   "id": "1eb0e0e924fd",
-   "title": "MDLA Membangun Kinerja Sehat dari Pengiriman Obat",
-   "category": "Kinerja",
-   "tickers": [
-    "MDLA"
-   ],
+   "id": "e08fcbbdb60a",
+   "title": "Prabowo Bicara Saham",
+   "category": "Makro",
+   "tickers": [],
    "summary": "",
    "summaryFrom": null,
    "sources": [
     {
-     "media": "Kontan",
-     "time": "2026-11-27T07:20:28+07:00",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWHFOZUZ4U184LUFIMnJiUFAwUDY3NEdZZDJEQ2Q1Q3Y3VDN2TFA2UTRGM3ZZRTRMMXBMejlvbXFkanU4S3phQlV4ZEdPanhFYkZLb3NnSHhCQWQ0WGtidWE4c2VIZHN1UFFjVXZlaV94STlwZlY3YVZLXzZvbTVodkl1aEdndlZSTnNr?oc=5",
-     "title": "MDLA Membangun Kinerja Sehat dari Pengiriman Obat"
+     "media": "Investor.id",
+     "time": "2026-11-28T07:15:46+07:00",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oQWhWM1U5VFR4elJEbUZTQXJlMDVILThjWHdGVF95MjViM2lpWE9lWWZxWDJLM0gySTl4ckVfSnhaZ0llaURtM1pPclRlNzVEeTdhSVBwQlNGV055cnlCMFBScVJGRGM?oc=5",
+     "title": "Prabowo Bicara Saham"
     }
    ]
   },
